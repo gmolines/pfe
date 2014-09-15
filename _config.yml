@@ -1,0 +1,9 @@
+# Site settings
+title: Sujets PFE 2014
+email: mosser@i3s.unice.fr
+description: ""
+baseurl: "/pfe"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
