@@ -7,8 +7,6 @@ pid: Y1415-S011
 type: Engineering
 contact: Pierre Garrouste
 ---
-       
-**Contexte et présentation du projet**
 
 Le LEEN (Laboratoire d’Economie Expérimentale de Nice) veut s’équiper de dispositifs sans fil pour mesurer la réponse électrodermale et le rythme cardiaque  afin de réaliser des travaux expérimentaux sur le rôle des émotions lors d’un jugement ou d’une prise de décision dans un contexte économique. Nous souhaiterions disposer de solutions portables sans câble, car nous envisageons aussi de réaliser des recherches sur le terrain (field experiments) et de permettre aux sujets d’être tout à fait à leur aise avec l’équipement pour garantir une réponse comportementale naturelle.
 Le but du projet est ainsi d’équiper le LEEN d’une vingtaine de ces dispositifs dans la perspective idéale de réaliser des séances expérimentales avec 20 sujets humains interagissant en simultané.
