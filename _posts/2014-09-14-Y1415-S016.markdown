@@ -2,7 +2,7 @@
 layout: post
 title: "Informatique cognitive pour le traitement de données complexes"
 date: 2014-09-14 21:20:11
-categories: [dispo, al, gmd, iam, web]
+categories: [dispo, gmd, iam, web]
 pid: Y1415-S016
 type: Research
 contact: Lionel Fillatre
@@ -26,5 +26,5 @@ L'étudiant doit être intéressé par le traitement de données complexes et l�
   * Contact : Lionel Fillatre <lionel.fillatre@i3s.unice.fr>
   * Identifiant sujet : `Y1415-S016`
   * Type : Research
-  * Parcours Recommandés : AL, GMD, IAM, WEB
+  * Parcours Recommandés : GMD, IAM, WEB
      

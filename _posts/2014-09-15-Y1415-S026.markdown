@@ -15,11 +15,13 @@ L'application C++ en question a été écrite par l'équipe CASTOR actuellement 
 A la fin de ce stage, les étudiants vont acquérir des compétences supplémentaires en programmation C++, compilation, analyse et optimisation des performances de logiciels.
 
 #### Compétences Requises
+
 Programmation C++, évaluation et optimisation des performances de codes, compilation, architecture des processeurs.
 
 
 #### Besoins Clients
 Il y a deux étapes à ce projet d'ingénierie:
+
 - Etape 1: analyse des performances (tests de l'application, mesures, analyse)
 - Etape 2: chercher les bonnes options de compilation pour optimiser les performances
 - Etape 3: modifier le code source C++ pour améliorer les performances

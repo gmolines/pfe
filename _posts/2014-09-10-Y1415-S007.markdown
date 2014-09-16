@@ -12,17 +12,18 @@ Le système "CoAdapt P300 speller" constitue la partie "clavier" d'une interface
 
 L'interface existante tourne sur PC Unix ou Windows, ce qui limite son utilisation à des écrans d'ordinateurs traditionnels. Le but de ce projet est de porter le clavier virtuel sous Android, afin de maximiser sa portabilité, et à terme la faire interagir avec d'autres applications. 
 
-Ce projet sera réalisé dans l'équipe Athena à l'Inria Sophia Antipolis, sous la co-direction de 
-Maureen Clerc et Théo Papadopoulo.
-Cf videos d'une telle interface: https://www.youtube.com/watch?v=q2DpcLTWass
+Ce projet sera réalisé dans l'équipe Athena à l'Inria Sophia Antipolis, sous la co-direction de Maureen Clerc et Théo Papadopoulo.
+
+Cf videos d'une telle interface: [https://www.youtube.com/watch?v=q2DpcLTWass](https://www.youtube.com/watch?v=q2DpcLTWass)
 
 #### Compétences Requises
-Programmation:
-	langage: C++ (programmation, compilation, debug)
-	OS: Android (impératif),  Linux (de préférence) 
-	versioning: git
-Expérimentation électronique (tests de hardware)
-Expérimentation avec des systèmes informatiques complexes (multicapteurs, multi-ordinateurs)
+
+  * Programmation:
+	 * langage: C++ (programmation, compilation, debug)
+	 * OS: Android (impératif),  Linux (de préférence) 
+	 * versioning: git
+  * Expérimentation électronique (tests de hardware)
+  * Expérimentation avec des systèmes informatiques complexes (multicapteurs, multi-ordinateurs)
 
 
 #### Besoins Clients
@@ -34,6 +35,7 @@ Enfin, il serait intéressant d'étudier et d'implémenter des scénarios de vei
 
 #### Résultats Attendus
 Un prototype de clavier virtuel qui maximise la portabilité:
+
   - fonctionnant sur une tablette Android comme sous Windows et Linux (les OS d'origine) 
   - connecté avec d'autres applis et fonctionnalités de la tablette.
 

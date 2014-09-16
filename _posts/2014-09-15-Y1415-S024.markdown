@@ -8,7 +8,7 @@ type: Research
 contact: Diane Lingrand
 ---
        
-La société française Merio (http://www.merio.fr) conçoit et réalise des systèmes de
+La société française [Merio](http://www.merio.fr) conçoit et réalise des systèmes de
 charges utiles dans le domaine de la robotique aérienne. L’entreprise, basée en
 Rhône-Alpes, commercialise une gamme de tourelles gyrostabilisées pour mini et
 micro-drones et souhaite introduire des traitements d'images embarqués.
@@ -18,18 +18,13 @@ traitement de flux video dans des drones. Il s'agira
 de suivre et reconnaitre des véhicules de différents
  types (voiture, camion, bateau, ...) dans un flux vidéo.
 
-        Au cours du PFE, différents algorithmes seront étudiés et implémentés
- sur un PC standard. Il s'agira de comparer les performances ainsi que les coûts
-(mémoire, capacité de calcul) de ces algorithmes. Ce PFE se poursuit par un stage dans
-l'entreprise et aura
- pour but d'embarquer ces différents traitements directement dans les drones.
- Il convient donc, dès le début du PFE, de limiter les ressources utilisées.
+Au cours du PFE, différents algorithmes seront étudiés et implémentés sur un PC standard. Il s'agira de comparer les performances ainsi que les coûts (mémoire, capacité de calcul) de ces algorithmes. Ce PFE se poursuit par un stage dans l'entreprise et aura pour but d'embarquer ces différents traitements directement dans les drones. Il convient donc, dès le début du PFE, de limiter les ressources utilisées.
 
 coencadré avec Frédéric Precioso
 
 #### Compétences Requises
-C++ 
-OpenCV
+  * C++ 
+  * OpenCV
 
 
 #### Références

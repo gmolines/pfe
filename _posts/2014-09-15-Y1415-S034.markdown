@@ -9,6 +9,7 @@ contact: Nicolas NISSE
 ---
        
 Les décompositions linéaires (path-decomposition) de graphes sont un outil pour étudier la structure des graphes. Le principe est d’ordonner les sommets d’un graphe tout en minimisant une mesure de connexité. Cette mesure est la largeur de la décomposition. Plus précisemment, étant donné un ordre L = (v1,v2,...,vn) des sommets d’un graphe, la largeur associée est max{delta_i | 1<=i<=n}, avec delta_i le nombre de voisins (sommets adjacents) de {v1...vi} dans {v(i+1)...vn}. Le problème est de trouver un ordre avec la plus petite largeur possible.
+
 Durant les dernières années, les décompositions de graphes ont été beaucoup étudiées pour leurs applications algorithmiques. (conception d’algorithmes, conception VLSI, dessin de
 graphes, ou probl`emes de routage dans les r´eseaux).
 
@@ -18,6 +19,7 @@ Ainsi, le calcul de bons ordres linéaires est un défi important dans la commun
 Algorithm for Computing Pathwidth. SEA 2014: 46-58
 
 #### Compétences Requises
+
 bases de théorie des graphes et d’algorithmique, notions de complexité, programmation Python ou C
 
 

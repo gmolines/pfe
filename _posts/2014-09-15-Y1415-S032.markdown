@@ -9,10 +9,13 @@ contact: Gaëtan Rey
 ---
        
 Aujourd’hui il devient essentiel d’adapter nos applications mais également nos dispositifs à notre contexte de manière à ne pas limiter nos usages. Par exemple, il faudrait que nos systèmes, dispositifs (smartphone, …) soient capables d’économiser de l’énergie dans des périodes de faible utilisation, de manière à nous permettre de les utiliser plus longtemps.
+
 Le but de ce PFE est de définir un modèle d’analyse et d’adaptation au contexte des applications fonctionnant sur une plateforme embarquée (type smartphone). Le contexte sera composé d’informations provenant à la fois des couches matérielles (et couches basses du système) et des applications de haut niveau. Et il pourra agir (adaptations) à la fois sur les couches matérielles et sur les applications. 
+
 En plus d'une insertion au sein de l'équipe Rainbow de l'I3S, l’étudiant sera co-encadré avec François Verdier ce qui lui permettra de bénéficier des travaux de l'équipe MCSoC du LEAT sur les « Power Management Unit ».
 
 #### Compétences Requises
+
 Le système embarqué fonctionnant sur linux, des connaissances sur l’utilisation de ce système sont essentielles, il en est de même pour le langage C/C++ qui sera probablement utilisé pour le démonstrateur.
 
 

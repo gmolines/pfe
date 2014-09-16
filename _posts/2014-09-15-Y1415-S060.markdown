@@ -15,6 +15,7 @@ Ce projet se propose d’étudier comment des langages existants pourront être 
 Ce sujet est mené en collaboration avec l’équipe AOSTE (Julien DeAntoni).
 
 #### Compétences Requises
+
 Un fort goût pour le développement et la modélisation, la dimension empirique du projet est importante et la mise en oeuvre d’une preuve de concept exécutable est critique. Un background en système distribué permettrait d’aller plus vite sur la partie “intégration de services”.
 
 

@@ -12,13 +12,15 @@ Ce PFE s'enscrit dans un projet interdisciplinaire sur les humanités numérique
 Le PFE consiste en la réalisation d'un système basé sur le Web d'assistance au marquage de matériels textuels et archéologiques. Le système doit mettre à disposition des archéozoologues une IHM simple et intuitive qui leur permette d'associer des « tags » à des unités de texte arbitraires (ouvrages, chapitres, paragraphes, phrases, expressions ou mots individuels) ou d'autre type (images, photos, fiches de description de pièces archéologiques, etc.).
 
 #### Compétences Requises
-Connaissance de la Plateforme Web (HTML 5, Php, JavaScript)
-Connaissance de RDF et du Web sémantique
+  * Connaissance de la Plateforme Web (HTML 5, Php, JavaScript)
+  * Connaissance de RDF et du Web sémantique
 
 
 #### Besoins Clients
 Le PFE consiste en la réalisation d'un système basé sur le Web d'assistance au marquage de matériels textuels et archéologiques. Le système doit mettre à disposition des archéozoologues une IHM simple et intuitive qui leur permette d'associer des « tags » à des unités de texte arbitraires (ouvrages, chapitres, paragraphes, phrases, expressions ou mots individuels) ou d'autre type (images, photos, fiches de description de pièces archéologiques, etc.).
+
 Les associations unité - « tag » devront être stockées dans une base de données (par exemple en format RDF) physiquement séparée et indépendante des matériels faisant objet des études et structurées de façon à permettre leur utilisation pour la recherche d'information (donc comme un index des matériels), la fouille de données et l'extraction de connaissances.
+
 Le système doit gérer l'inscription et l’authentification des utilisateurs et gérer des droits d'accès différenciés (lecture ou lecture-écriture) selon la classe des utilisateurs, ainsi que prévoir une interface d'administration.
 
 #### Résultats Attendus

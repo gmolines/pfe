@@ -13,14 +13,16 @@ Il existe de nombreux “code contests” organisés par différents acteurs com
 Le jeu mis en place cette année en OQL change, et l’arène de jeu qui existait jusque là est trop artisanale pour supporter ce changement. Le but de ce projet est de définir un environnement permettant l’exécution des bots des joueurs de manière sécurisée (restriction des accès disques et réseaux, isolation des processus, …), de collecter les résultats de ces exécutions et de les mettre à disposition sur un site Web permettant leur consultation.
 
 #### Compétences Requises
-Des connaissances en développement au dessus de la JVM (Java, Scala), un goût pour le génie logiciel et la sécurité, des connaissances en développement web client.
+* Des connaissances en développement au dessus de la JVM (Java, Scala), 
+* un goût pour le génie logiciel et la sécurité, 
+* des connaissances en développement web client.
 
 
 #### Besoins Clients
 L'arène aura pour vocation de faire fonctionner les packages livrés par les étudiants (JAR, dépendances maven). La sécurisation porte sur la restriction des capacités de la JVM à disposition des codes livrés (par d’accès disque, pas d’accès réseaux, limitation de la consommation mémoire, …). Le site de consultation doit être en pur HTML/Javascript pour ne pas imposer de contraintes d’hébergement.
 
 #### Résultats Attendus
-* Une étude des mécanismes de sécurisation à disposition au dessus d’une JVM
+  * Une étude des mécanismes de sécurisation à disposition au dessus d’une JVM
   * Un framework logiciel permettant l’exécution sécurisée des joueurs 
   * Un système web client permettant la publication des résultats de l’arène
      

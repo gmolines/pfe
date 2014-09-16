@@ -8,9 +8,7 @@ type: Engineering
 contact: Anne-Marie Dery-Pinna
 ---
        
-Dans l’équipe RAINBOW, nous avons une bibliothèque nommée VisuLab qui permet de construire des Tableaux de bord pour permettre la visualisation de données. Nous proposons plusieurs sujets en lien avec ces travaux.
-
-L’outil VisuLab est une bibliothèque. A partir de celle-ci, plusieurs applications sont envisageables pour exploiter les capacités de visualisations qu’elle fournit. Une des application est la création de tableau de bord. Chaque créateur de tableau de bord doit maitriser la bibliothèque pour créer son propre tableau de bord. L’investissement reste assez conséquent. Il serait intéressant de proposer un outil graphique qui facilite cette création.
+Dans l’équipe RAINBOW, nous avons une bibliothèque nommée VisuLab qui permet de construire des Tableaux de bord pour permettre la visualisation de données. Nous proposons plusieurs sujets en lien avec ces travaux. L’outil VisuLab est une bibliothèque. A partir de celle-ci, plusieurs applications sont envisageables pour exploiter les capacités de visualisations qu’elle fournit. Une des application est la création de tableau de bord. Chaque créateur de tableau de bord doit maitriser la bibliothèque pour créer son propre tableau de bord. L’investissement reste assez conséquent. Il serait intéressant de proposer un outil graphique qui facilite cette création.
 
 Objectifs :
 
@@ -23,6 +21,7 @@ Rendre VisuLab utilisable par un utilisateur non expert qui veut construire son 
 
 
 #### Besoins Clients
+
 Identifier les principales étapes de la création d’un tableau de bord : choix des données, choix des visualisations, choix des layouts, mise en place de mécanismes de synchronisation…
 
 Mettre en place une IHM qui permette cette construction.

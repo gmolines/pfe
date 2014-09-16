@@ -19,24 +19,26 @@ Une approche composée de plusieurs étape de traitements des images a été val
 L'objectif du projet est alors de "traduire" le code matlab des différtentes briques sous formes d'un logiciel C ++ ou C. Une intégration dans la plateforme PIB (Plateforme d'Imagerie Biologique, développée par l'EPC Morpheme), sous forme de pluggin, est également envisagée.
 
 #### Compétences Requises
-Programmation en C++ (éventuellement C)
-Intérêt pour le traitement des images
+  * Programmation en C++ (éventuellement C)
+  * Intérêt pour le traitement des images
 
 
 #### Besoins Clients
-- Implantation en C++
-- Validation sur une base de données images (axones sauvages et génétiquement modifés)
-- Transfert à l'Institut de biologie de Valrose
+ * Implantation en C++
+ * Validation sur une base de données images (axones sauvages et génétiquement modifés)
+ * Transfert à l'Institut de biologie de Valrose
 
 #### Résultats Attendus
 Programme C++ (ou C) incluant les différentes briques du traitement à savoir :
-- Filtrage par fonctions de Gabor modifiées
-- Seuillage par la méthode d'Otsu
-- Squeletisation
-- Raccordement par vote de tenseurs
+
+  * Filtrage par fonctions de Gabor modifiées
+  *  Seuillage par la méthode d'Otsu
+  * Squeletisation
+  *  Raccordement par vote de tenseurs
 
 Optionnel:
-- encapsulage sosu forme de pluggin PIB
+
+  * encapsulage sous forme de pluggin PIB
      
 
 #### Informations Administratives

@@ -8,11 +8,9 @@ type: Engineering
 contact: Alain Giboin
 ---
        
-Ce sujet  est proposé dans le cadre d’une coopération entre le projet RAINBOW et le Centre d’Accueil de jour pour personnes atteintes d’Alzheimer (http://www.accueil-alzheimer.fr/).
-
-
-Dans le cas des malades atteints d’Alzheimer, les interactions avec l’outil informatique peuvent être complexes. Il semble que les interactions tangibles soient un atout.
+Ce sujet  est proposé dans le cadre d’une coopération entre le projet RAINBOW et le Centre d’Accueil de jour pour personnes atteintes d’Alzheimer (http://www.accueil-alzheimer.fr/). Dans le cas des malades atteints d’Alzheimer, les interactions avec l’outil informatique peuvent être complexes. Il semble que les interactions tangibles soient un atout.
 Cependant il est important de comparer avec les autres types d’interactions  : tactiles, mixtes, etc.
+
 Dans ce PFE,  nous vous demandons d’identifier un atelier de mémoire qui pourrait être informatisé : le lavage de mains, le brossage de dents, la coiffure, le maquillage…. et de mettre en place plusieurs solutions pour cet atelier : tout tactile, tout tangible, mixte, autre et d’évaluer quel type d’interactions serait le plus adapté.
 
 Il est demandé également d’étendre cette démarche à d’autres types d’ateliers ou à d’autres types de malades (les malades étant classifiés selon la gravité de leur pathologie).

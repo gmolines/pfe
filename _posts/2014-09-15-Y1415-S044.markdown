@@ -8,9 +8,7 @@ type: Engineering
 contact: Anne-Marie Dery-Pinna
 ---
        
-Ce sujet vous est proposé dans le cadre d’une coopération que le projet RAINBOW a avec le Centre d’Accueil de jour pour personnes atteintes d’Alzheimer (http://www.accueil-alzheimer.fr/) 
-
-Les animatrices d’atelier (neuropsychologues et psychomotriciennes) ont besoin d’outils qui leur permettent de mettre plus facilement en place les ateliers participatifs proposés au centre.  Ces ateliers doivent permettre aux personnes atteintes d’Alzheimer de travailler la mémoire et les repères dans l’espace.
+Ce sujet vous est proposé dans le cadre d’une coopération que le projet RAINBOW a avec le Centre d’Accueil de jour pour personnes atteintes d’Alzheimer (http://www.accueil-alzheimer.fr/). Les animatrices d’atelier (neuropsychologues et psychomotriciennes) ont besoin d’outils qui leur permettent de mettre plus facilement en place les ateliers participatifs proposés au centre.  Ces ateliers doivent permettre aux personnes atteintes d’Alzheimer de travailler la mémoire et les repères dans l’espace.
 
 Ces ateliers concernent simultanément entre 5 et 10 accueillis. Même si l’atelier est commun, il est important de personnaliser l’interaction avec chacun d’entre eux. Nombre de ces ateliers peuvent être construits à partit de photos ou d’objets du quotidien familiers aux accueillis.
 

@@ -2,7 +2,7 @@
 layout: post
 title: "Visualisation d'un modèle 3D à partir d'un casque VR"
 date: 2014-09-09 15:18:25
-categories: [dispo, al, gmd, iam, ihm]
+categories: [dispo, gmd, iam, ihm]
 pid: Y1415-S005
 type: Engineering
 contact: Eric Bailly
@@ -16,21 +16,21 @@ Pour dépasser ces limitations, une solution réside dans la duplication de l'af
 L'objectif de ce projet est de pouvoir afficher des modèles numérique 3D, générés par un PC (exportation de fichiers au format vrml, 3D studio, sketchup, Etc.), de les transformer en stéréoscopie puis de les faire afficher sur l'écran d'un smartphone inséré dans un cardboard (ou similaire : Durovis dive, vrAse, solution personnelle). Afin de gérer les mouvements, une webcam assurera le "headtracking". Les déplacements seront eux gérés par une manette reliée au pc.
 
 #### Compétences Requises
-3D
-decoder un fichier 3D pour le lire
-être capable de trouver des solutions matérielles au projet (headtracking, casque ...)
+  * 3D
+  * decoder un fichier 3D pour le lire
+  * être capable de trouver des solutions matérielles au projet (headtracking, casque ...)
 rigoureux dans la programmation
 
 
 #### Besoins Clients
-je souhaite une application avec une interface utilisable directement sans avoir à 'bidouiller'.
 
-avoir le moins de 'lag' possible (entre le headtracking et la visualisation sur écran.
-
-avoir la possibilité de gérer le plus de format de fichier possible.
+  * je souhaite une application avec une interface utilisable directement sans avoir à 'bidouiller'.
+  * avoir le moins de 'lag' possible (entre le headtracking et la visualisation sur écran.
+  * avoir la possibilité de gérer le plus de format de fichier possible.
 
 #### Résultats Attendus
 Une application utilisable !!
+
 Ce projet donnera lieu à une présentation scientifique (colloque) et un article dans lesquels les étudiants seront cités. Ils pourront ainsi l'intégrer dans leur CV.
 De plus ce projet peut faire l'objet du concours création d'entreprise (Fondation Unice). Je m'engage à vous apporter mon soutien pour ce concours, voir plus.
      

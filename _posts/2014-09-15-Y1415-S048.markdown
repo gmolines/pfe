@@ -7,9 +7,7 @@ pid: Y1415-S048
 type: Engineering
 contact: Audrey Occello
 ---
-       
-Sujet disponible sur : http://atelierihm.unice.fr/enseignements/sujets-de-pfe
-
+      
 Dans l’équipe RAINBOW, nous avons une bibliothèque nommée VisuLab qui permet de construire des Tableaux de bord pour permettre la visualisation de données. Nous proposons plusieurs sujets en lien avec ces travaux.
 
 L’outil VisuLab n’est qu’une Bibliothèque. Elle est actuellement utilisée pour visualiser les données issus de capteurs tel que ceux du projet SmartCampus, mais aussi des résultats de recherche en apprentissage de données ou encore des données issus de capteurs médicaux. Il est important d’augmenter la base d’exemples et de la documenter à partir de scénari utiles afin d’une part de valider la bibliothèque et d’autre part d’interagir avec de futurs partenaires.
@@ -17,6 +15,8 @@ L’outil VisuLab n’est qu’une Bibliothèque. Elle est actuellement utilisé
 Objectifs :
 
 Valider la bibliothèque actuelle au travers d’exemples pertinents et utiles.
+
+Sujet disponible sur : [http://atelierihm.unice.fr/enseignements/sujets-de-pfe](http://atelierihm.unice.fr/enseignements/sujets-de-pfe)
 
 #### Compétences Requises
 - Conception et évaluation des IHM
@@ -27,9 +27,9 @@ Valider la bibliothèque actuelle au travers d’exemples pertinents et utiles.
 #### Besoins Clients
 Pistes :
 
--Prendre en main la bibliothèque au travers des exemples existants
--Identifier de nouveaux exemples pertinents
--Les implémenter en utilisant VisuLab
+- Prendre en main la bibliothèque au travers des exemples existants
+- Identifier de nouveaux exemples pertinents
+- Les implémenter en utilisant VisuLab
 
 Démarche :
 

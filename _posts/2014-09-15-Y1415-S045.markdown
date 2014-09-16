@@ -8,8 +8,8 @@ type: Engineering
 contact: Philippe Renevier
 ---
        
-ce sujet  vous est proposé dans le cadre d’une coopération entre le projet RAINBOW et le Centre d’Accueil de jour pour personnes atteintes d’Alzheimer (http://www.accueil-alzheimer.fr/) .
-Les tables Surfaces Microsoft n’ont pas trouvé le marché attendu et Microsoft a décidé d’arrêter leur commercialisation. Ces tables ont pour avantage de permettre à la fois les interactions tangibles et tactiles. On ne trouve pas de tables équivalentes dans le commerce.
+Ce sujet  vous est proposé dans le cadre d’une coopération entre le projet RAINBOW et le Centre d’Accueil de jour pour personnes atteintes d’Alzheimer (http://www.accueil-alzheimer.fr/). Les tables Surfaces Microsoft n’ont pas trouvé le marché attendu et Microsoft a décidé d’arrêter leur commercialisation. Ces tables ont pour avantage de permettre à la fois les interactions tangibles et tactiles. On ne trouve pas de tables équivalentes dans le commerce.
+
 Dans le cas des malades atteints d’Alzheimer le côté tangible s’avère être un atout.
 Cependant la plupart des tables ou dispositifs actuels équivalents ne sont que tactiles ou à l’état de recherche.
 La problématique est de proposer des solutions pour pallier le manque d’interactions tangibles proposées uniquement sur Surface et qui semblent privilégiées par les personnes atteintes d’Alzheimer ?).

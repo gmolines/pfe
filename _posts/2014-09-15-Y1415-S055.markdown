@@ -20,7 +20,7 @@ un goût pour la modélisation et le développement logiciel pour la partie lang
 Dans ce langage, il sera possible de déclarer les utilisateurs, les projets, les attentes pour chaque projet vis à vis des outils (e.g., “besoin d’un gestionnaire de version en lecture écriture pour les développeurs et en lecture seule pour le client”). Le langage disposera d’un interprète qui communiquera avec les outils déployés pour mettre à jour les outils de manière cohérente. Les outils étant déployés au sein de Polytech, l’exemple de gestion de promotions sera utilisé comme validation.
 
 #### Résultats Attendus
-* Une étude des capacités de chaque outil Atlassian (au minimum Jira pour le suivi de tickets, Stash pour la gestion de version, Bamboo pour l’intégration continue et Fisheye pour l’exploration de code source).
+  * Une étude des capacités de chaque outil Atlassian (au minimum Jira pour le suivi de tickets, Stash pour la gestion de version, Bamboo pour l’intégration continue et Fisheye pour l’exploration de code source).
   * Un langage exploitant ces capacités couplé à un interprète permettant leur mise en oeuvre.
   * Une bibliothèque d’exemples, issue de cas d’étude réels.
      

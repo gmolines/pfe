@@ -21,6 +21,7 @@ Bonne connaissance du langage Java.
 
 #### Besoins Clients
 Travail demandé :
+
 - prise en main du logiciel existant ;
 - extension du module de révision de croyances afin de réaliser les opérateurs hybrides décrits en littérature [2, 3];
 - réalisation de l'algorithme de génération des objectifs décrit en [4].
@@ -32,11 +33,12 @@ Bibliographie
 3. Salem Benferhat, Célia da Costa Pereira, Andrea G. B. Tettamanzi: Syntactic Computation of Hybrid Possibilistic Conditioning under Uncertain Inputs. IJCAI 2013.
 4. Célia da Costa Pereira, Andrea G. B. Tettamanzi: Syntactic Possibilistic Goal Generation. ECAI 2014: 711-716. 
 
-Contact : Célia da Costa Pereira, Andrea Tettamanzi, labratoire I3S.
+Encadrement : Célia da Costa Pereira, Andrea Tettamanzi, labratoire I3S.
 E-Mail : celia.pereira@unice.fr ; andrea.tettamanzi@unice.fr
 
 #### Résultats Attendus
-Un logiciel réalisant les algorithmes proposés en littérature.
+
+  * Un logiciel réalisant les algorithmes proposés en littérature.
      
 
 #### Informations Administratives

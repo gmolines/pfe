@@ -8,8 +8,6 @@ type: Research
 contact: Isabelle Mirbel
 ---
        
-Co-encadrement d'Isabelle Mirbel (http://www.i3s.unice.fr/~mirbel/) et Jean-Yves Tigli (www.tigli.fr)
-
 En informatique ambiante, lorsqu'un dispositif (Tablet PC, smart phone, mais aussi google glass, système audio environnant, etc.) est immergé dans un environnement donné (un local par exemple), il détecte les autres dispositifs présents, les services que ces derniers sont capables de rendre et identifie parmi eux ceux qui pourront lui permettre de mettre en œuvre ses schémas d'adaptation logiciel pour produire les services attendus. Ces approches, dites bottom-up, partent des fonctionnalités disponibles sur les différents dispositifs pour construire, de façon exhaustive, toutes les compositions de service possibles [1]. Dans certains cas de figure, cela conduit à des compositions n'ayant aucun sens. Dans ce travail de PFE, Nous chercherons à proposer une approche top-down faisant en sorte que les compositions de services produites par les dispositifs soient le résultat d'un processus de raisonnement guidé par les besoins exprimés par les utilisateurs.
 
 Pour cela, nous nous aiderons des travaux réalisés dans le domaine de l'ingénierie des besoins pour décrire les besoins et dans le domaine du web sémantique pour raisonner sur ces besoins [2,3].
@@ -25,6 +23,8 @@ Le travail attendu dans le cadre de ce projet consistera donc à :
   - développer un prototype mettant en œuvre les modèles et mécanismes précédemment proposés.
 
 Une poursuite du travail en stage est envisageable en fonction des résultats obtenus au laboratoire I3S et/ou chez EDF R&D Chatou.
+
+Co-encadrement d'[Isabelle Mirbel](http://www.i3s.unice.fr/~mirbel/) et [Jean-Yves Tigli](www.tigli.fr)
 
 Autres experts impliqués : Stéphane Lavirotte, Pierre Crescenzo, Olivier Corby
 

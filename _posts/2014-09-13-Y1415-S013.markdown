@@ -7,10 +7,12 @@ pid: Y1415-S013
 type: Engineering
 contact: Hélène Collavizza
 ---
-       
-Contexte
-Valider le logiciel est primordial et peut représenter jusqu'à 70% du temps de conception. Dans l'équipe CeV (Contraintes et Vérification) nous développons un outil basé sur la programmation par contraintes pour la vérification des programmes Java annotés avec des spécifications JML (Java Modeling Language http://www.eecs.ucf.edu/~leavens/JML//index.shtml). En cas de non conformité, nos outils fournissent un contre-exemple c'est à dire des valeurs d'entrées pour lesquelles le programme est incorrect. Actuellement, nous nous intéressons à la localisation des erreurs c'est à dire à identifier dans le programme quelles sont les instructions dans le code qui ont causé l'erreur.
-Objectif
+
+
+Valider le logiciel est primordial et peut représenter jusqu'à 70% du temps de conception. Dans l'équipe CeV (Contraintes et Vérification) nous développons un outil basé sur la programmation par contraintes pour la vérification des programmes Java annotés avec des [spécifications JML](http://www.eecs.ucf.edu/~leavens/JML//index.shtml) (Java Modeling Language). En cas de non conformité, nos outils fournissent un contre-exemple c'est à dire des valeurs d'entrées pour lesquelles le programme est incorrect. Actuellement, nous nous intéressons à la localisation des erreurs c'est à dire à identifier dans le programme quelles sont les instructions dans le code qui ont causé l'erreur.
+
+**Objectif**
+
 L'objectif de ce stage est de créer un pluggin eclipse pour l'aide au diagnostic des erreurs dans un programme. Dans un premier temps, il s'agira de mettre en évidence de façon graphique les parties suspectes du code.  On s'inspirera de l'analyseur intégré à l'IDE eclipse qui souligne en rouge les erreurs de compilation. Dans un second temps, on réfléchira à une interaction avec le programmeur pour l'aider à localiser plus précisément l'erreur. En effet, les outils de localisation d'erreurs fournissent en général un trop grand nombre d'instructions suspectes, et l'interaction avec l'utilisateur permettra d'affiner la localisation.
 
 #### Compétences Requises
@@ -21,10 +23,9 @@ L'objectif de ce stage est de créer un pluggin eclipse pour l'aide au diagnosti
 
 
 #### Besoins Clients
-Besoins : 
-j'ai écrit un programme et ses spécifications, je me rends compte que mon programme ne répond pas à la spécification attendue, je voudrais un outil qui m'aide à trouver où est l'erreur dans le programme.
-Pistes :
-Je connais des outils qui fournissent des diagnostics mais ils donnent trop de possibilités et je voudrais que l'on me guide pour trouver au plus vite l'erreur. Un affichage graphique des erreurs dans le code source pourrait m'aider. Et pourquoi pas suivre le chemin de l'erreur en déviant une ou plusieurs conditions dans le programme ?
+Besoins : j'ai écrit un programme et ses spécifications, je me rends compte que mon programme ne répond pas à la spécification attendue, je voudrais un outil qui m'aide à trouver où est l'erreur dans le programme.
+
+Pistes : Je connais des outils qui fournissent des diagnostics mais ils donnent trop de possibilités et je voudrais que l'on me guide pour trouver au plus vite l'erreur. Un affichage graphique des erreurs dans le code source pourrait m'aider. Et pourquoi pas suivre le chemin de l'erreur en déviant une ou plusieurs conditions dans le programme ?
 
 #### Résultats Attendus
 - livrable 1 ; étant donné un programme et une liste de numéros de lignes dans ce programme, mettre en évidence de façon graphique ces instructions dans le code source java, grâce à un plugin eclipse 

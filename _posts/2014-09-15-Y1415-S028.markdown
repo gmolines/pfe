@@ -17,12 +17,14 @@ Pour cela, les équipes de Recherche COATI et SCALE du laboratoire d'informatiqu
 Développée depuis plusieurs mois, la plateforme est déjà opérationnelle mais nécessite un certain nombre d'améliorations.
 
 #### Compétences Requises
-excellente connaissance de Java
-bonnes notions du fonctionnement du réseau (couches OSI 3/4)
+
+  * excellente connaissance de Java
+  * bonnes notions du fonctionnement du réseau (couches OSI 3/4)
 
 
 #### Besoins Clients
 Le middleware est déjà opérationnel mais nécessite un certain nombre d'ajouts qui permettrons de mettre en valeur ses qualités. Notamment les points d'étude/développement possibles, aux choix des étudiants, sont :
+
 - développement d'une couche réseau basée sur UDP (pour le moment seul TCP est supporté)
 - conception et développement d'une interface graphique de monitoring
 - analyse de la performance du middleware et proposition d'améliorations

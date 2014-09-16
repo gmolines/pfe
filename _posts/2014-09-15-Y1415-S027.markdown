@@ -2,7 +2,7 @@
 layout: post
 title: "e-formulaire"
 date: 2014-09-15 11:26:51
-categories: [dispo, al, web]
+categories: [dispo, web]
 pid: Y1415-S027
 type: Engineering
 contact: Michel Gautero
@@ -18,15 +18,17 @@ HTML5, CSS, JavaScript, PHP
 
 #### Besoins Clients
 Il s'agit dans ce projet de créer un concurrent aux formulaires de Googlet, qui devra permettre :
-La construction graphique des e-formulaires, potentiellement semblables à des formulaires papiers ;
-L'utilisation de base par des non-informaticiens ;
-Le stockage des informations recueillies non seulement dans un format tableur (.csv par exemple) mais aussi dans un SGBD tel que MySQL ;
-L'accès protégé par login et mot de passe aux e-formulaires ;
-La sauvegarde et la modification des e-formulaires en construction ;
-L'éventuelle modification des données saisies par l'utilisateur d'un e-formulaire.
-L'intégration dans un e-formulaires de données provenant de sources externes.;
+
+* La construction graphique des e-formulaires, potentiellement semblables à des formulaires papiers ;
+* L'utilisation de base par des non-informaticiens ;
+* Le stockage des informations recueillies non seulement dans un format tableur (.csv par exemple) mais aussi dans un SGBD tel que MySQL ;
+* L'accès protégé par login et mot de passe aux e-formulaires ;
+* La sauvegarde et la modification des e-formulaires en construction ;
+* L'éventuelle modification des données saisies par l'utilisateur d'un e-formulaire.
+* L'intégration dans un e-formulaires de données provenant de sources externes.;
 
 #### Résultats Attendus
+
 Un package permettant d'installer FACILEMENT sur un serveur web les "pages" nécessaires à la création et à la gestion de e-formulaires.
 Une documentation permettant de comprendre le fonctionnement et la programmation du site fourni
      
@@ -35,5 +37,5 @@ Une documentation permettant de comprendre le fonctionnement et la programmation
   * Contact : Michel Gautero <Michel.Gautero@unice.fr>
   * Identifiant sujet : `Y1415-S027`
   * Type : Engineering
-  * Parcours Recommandés : AL, WEB
+  * Parcours Recommandés : WEB
      

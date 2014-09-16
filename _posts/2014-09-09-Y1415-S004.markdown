@@ -2,22 +2,23 @@
 layout: post
 title: "Kinect 3D"
 date: 2014-09-09 15:07:34
-categories: [dispo, al, gmd, ihm]
+categories: [dispo, gmd, ihm]
 pid: Y1415-S004
 type: Engineering
 contact: Eric Bailly
 ---
        
-L'objectif de ce PFE est de créer une application PC permettant de modéliser en 3D un intérieur de bâtiment à l'aide d'une kinect.
-Il est possible de connecter une kinect à un PC (j'en fourni une) et de la programmer. Certaines applications existent et permettent de modéliser en 3D un objet (extérieur) ou l'intérieur d'une pièce (scenect par exemple). Mais elles ne fournissent aucune mesure (comme magicplan pour android) ni géo-référencement (coordonnées géographiques) des objets modélisés.
+L'objectif de ce PFE est de créer une application PC permettant de modéliser en 3D un intérieur de bâtiment à l'aide d'une kinect. Il est possible de connecter une kinect à un PC (j'en fourni une) et de la programmer. Certaines applications existent et permettent de modéliser en 3D un objet (extérieur) ou l'intérieur d'une pièce (scenect par exemple). Mais elles ne fournissent aucune mesure (comme magicplan pour android) ni géo-référencement (coordonnées géographiques) des objets modélisés.
+
 L'application souhaitée devra mettre en 3D l'intérieur d'un bâtiment, fournir le plan 2D associé, donner les côtes de chaque pièces et apporter une indication sur leur géo-référencement (positionnement terrestre a l'aide d'une projection et d'un carroyage de coordonnées. le géo-référencement fait l'objet de bibliothèques de programmation spécifiques).
+
 Ce projet fera l'objet d'une présentation scientifique (concours de géovisualisation) et d'un article en revue scientifique dans lesquels les étudiants seront cités. Ils pourront ainsi les inclure dans leur CV.
 
 #### Compétences Requises
-Programmation ;-)
-un peu de 3D
-de la rigueur dans la programmation 
-être capable de rendre un projet fonctionnant et prenable en main par un utilisateur non informaticien
+  * Programmation ;-)
+  * un peu de 3D
+  * de la rigueur dans la programmation 
+  * être capable de rendre un projet fonctionnant et prenable en main par un utilisateur non informaticien
 
 
 #### Besoins Clients
@@ -31,5 +32,5 @@ Une application autonome tournant sur windows, remplissant sa fonction de mise e
   * Contact : Eric Bailly <bailly@unice.fr>
   * Identifiant sujet : `Y1415-S004`
   * Type : Engineering
-  * Parcours Recommandés : AL, GMD, IHM
+  * Parcours Recommandés : GMD, IHM
      

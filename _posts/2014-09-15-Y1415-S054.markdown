@@ -18,7 +18,7 @@ Des connaissances en développement au dessus de la JVM (Java, l’apprentissage
 La nouvelle version de l’Arcade Game Maker doit être bien documentée, que ce soit au niveau des choix d’architecture et de conception de la ligne de produits que pour les techniques d’implémentation utilisées. La qualité de la réalisation sera privilégiée à la quantité.
 
 #### Résultats Attendus
-* Une étude de la variabilité spécifiée dans l’Arcade Game Maker et des possibilités d’implémentation à l’aide de mécanismes Scala (orientés objets, fonctionnels) ou de techniques de génération (langages internes, générateur de code).
+  * Une étude de la variabilité spécifiée dans l’Arcade Game Maker et des possibilités d’implémentation à l’aide de mécanismes Scala (orientés objets, fonctionnels) ou de techniques de génération (langages internes, générateur de code).
   * Une implémentation de l’Arcade Game Maker avec une documentation appropriée (points de variation explicites, séparation entre l’architecture de la ligne de produits et les implémentations).
      
 

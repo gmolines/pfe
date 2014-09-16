@@ -18,6 +18,7 @@ Les compétences requses sont celles de la programmation d'applications web. Il 
 Nous espérons disposer d'un prototype fonctionnel le plus rapidement possible, afin de pouvoir le tester auprès des (nombreux) utilisateurs potentiels. Les spécifications sont volontairement incomplètes et une partie importante du projet consiste à les préciser en collaboration avec les utilisateurs.
 
 #### Résultats Attendus
+
 - la version 1.0 des spécifications de l'application
 - le prototype de l'application PAW déployé sur un serveur de l'école afin d'être testé pour des utilisateurs réels
 - une documentation technique détaillée permettant d'envisager la poursuite du développement de l'application après le PFE

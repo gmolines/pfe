@@ -11,6 +11,7 @@ contact: Marc Arnaert
 Aujourd'hui, l'utilisation de technologies sans contact se démocratise. Ainsi de plus en plus d'applications proposent d'échanger des données via Bluetooth ou NFC.
 
 L'objectif de ce projet d'ingénierie sera de travailler sur ces technologies en proposant :
+
 - Une prise en main des concepts et des codes déjà développés.
 - De faire un état de l'art des techniques existantes et des types protocoles utilisés
 - D'établir un comparatif basé sur un modèle D.I.C.T.NR (Disponibilité, Intégrité, Confidentialité, Traçabilité, Non-Répudiation), sur la consommation énergétique et la rapidité du traitement de la communication.
@@ -20,21 +21,23 @@ L'objectif de ce projet d'ingénierie sera de travailler sur ces technologies en
 
 #### Compétences Requises
 Des compétences techniques:
+
 L'ingénieur possède de bonnes connaissances scientifiques du sujet lié au projet R&D, du fonctionnement d'un projet R&D (cycle de recherche, étapes de gestion d'un projet scientifique...) et du marché associé au projet afin de bien cerner l'environnement général de ses activités. Il maîtrise l'anglais, à l'oral comme à l'écrit, tant pour prendre connaissance des travaux menés, que pour rédiger ses propres conclusions.
 Il aura également une bonne maîtrise des bases de communications réseaux et protocolaires et de bonnes connaissances de la sécurisation des réseaux et des communications.
  
 Des qualités personnelles :
+
 L'ingénieur possède de bonnes capacités à travailler en équipe car ce métier s'inscrit dans le cadre d'une équipe projet. Ses qualités relationnelles et de communication lui permettent de collaborer avec l'ensemble des collègues et d'échanger sur les sujets de recherche en interne ou sur Internet. Organisé, il gère son projet et respecte les contraintes définies préalablement (délais, coûts, cahier des charges...). Rigoureux, il obtient des résultats fiables et sait tenir les délais. Ses qualités de synthèse et d'analyse l'amènent à discerner, parmi toutes les pistes envisageables, les solutions techniques intéressantes. Il possède enfin une aisance rédactionnelle pour ses rapports et notes scientifiques sur l'avancée de ses propres activités ou de son projet.
 
 
 #### Besoins Clients
-Documents constructeurs
-Publications scientifiques
-Ebook
-Publications sur Internet
-P.O.C. déjà réalisés
-HowTo
-Conférences ...
+* Documents constructeurs
+* Publications scientifiques
+* Ebook
+* Publications sur Internet
+* P.O.C. déjà réalisés
+* HowTo
+* Conférences ...
 
 #### Résultats Attendus
 - Techniques: gains de compétences potentielles dans des technologies porteuses (Android, green computing, sécurité).

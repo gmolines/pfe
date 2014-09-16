@@ -11,11 +11,12 @@ contact: Marc Arnaert
 Aujourd'hui, l'utilisation de nouvelles technologies sur les mobiles se démocratise. Ainsi de plus en plus d'applications proposent d'échanger vos données sur Internet et dans le Cloud. Mais qu’en est-il réellement du respect de la confidentialité de vos données personnelles ?
 
 L'objectif de ce projet de recherche sera de travailler sur ces technologies en proposant une recherche sur
+
 - Les concepts et Les codes déjà développés.
 - De faire un état de l'art des techniques existantes de sécurisation des données (chiffrement, robustesse, attaques existantes)
 - D'établir un comparatif basé sur un modèle D.I.C.T.NR (Disponibilité, Intégrité, Confidentialité, Traçabilité, Non-Répudiation), sur la consommation énergétique et la rapidité du traitement du chiffrement.
 - D'établir un P.O.C (Proof Of Concept) afin d'améliorer le processus.
-- - De proposer des améliorations pour en augmenter la sécurité, la rapidité de chiffrement ou d'en diminuer sa consommation énergétique.
+- De proposer des améliorations pour en augmenter la sécurité, la rapidité de chiffrement ou d'en diminuer sa consommation énergétique.
 
 #### Compétences Requises
 Des compétences techniques:

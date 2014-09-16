@@ -13,14 +13,15 @@ SmartCampus est une initiative du laboratoire I3S ayant pour but de fédérer pl
 Le but de ce PFE est d’identifier comment un ou plusieurs capteurs physiques peuvent être combinés pour inférer un capteur virtuel. Par exemple, au niveau d’un bureau, l’agrégation des données en provenance d’un capteur de luminosité et d’un capteur de température peut former un capteur virtuel de présence. L’accent devra être mis sur le passage à l’échelle de la solution proposée et à sa compatibilité vis-à-vis des infrastructures matérielles et logicielles déjà existante dans SmartCampus. Pour étudiants de la filière CASPAR, une des dimensions de l’étude portera sur les problématiques de « privacy » associées à cette réalisation.
 
 #### Compétences Requises
-connaissances en systèmes distribués, bon niveau en développement (e.g., Java, python, scala)
+* connaissances en systèmes distribués, 
+* bon niveau en développement (e.g., Java, python, scala)
 
 
 #### Besoins Clients
 Le projet portera sur l’étude des mécanismes à disposition dans l’état de l’art pour résoudre ce problème (par exemple du “Complex Event Processing”). Les différentes solutions disponibles seront prototypées pour permettre l’intégration dans SmartCampus d’une solution répondant le mieux possible au problème initial.
 
 #### Résultats Attendus
-* Une étude des différentes solutions disponibles pour créer des capteurs virtuels.
+  * Une étude des différentes solutions disponibles pour créer des capteurs virtuels.
   * Un prototype pour chacune des solutions proposées
   * Un jeu de tests pour benchmarker des prototypes pour ces solutions.
   * La mise en oeuvre d’une de ces solutions dans l’infrastructure SmartCampus.

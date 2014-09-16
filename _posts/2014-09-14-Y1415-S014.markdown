@@ -7,18 +7,20 @@ pid: Y1415-S014
 type: Engineering
 contact: Nhan LE THANH
 ---
-       
-Contexte
+
 Les activités que nous pratiquons tous les jours ne sont pas réparties aléatoirement dans le temps et dans l’espace mais révèlent  des patterns spatio-temporels. Les lieux où vous aviez passé du temps (un site physique ou une page web) régulièrement ou occasionnellement signalent votre style de vie qui est généralement fortement associé à vos caractéristiques socio-économiques, tels que l'âge, le sexe, la profession, et ainsi de suite, pour peu que vous ayez accepté d’être géolocalisé (ce qui est souvent le cas lors de l’installation initiale des logiciels d’un Smartphone). En d'autres termes, les empreintes spatio-temporelles révèlent une quantité importante d'informations sur les personnes qui les créent. Les réseaux sociaux en ligne et les services de partages d’informations ont générés des volumes importants d’empreintes spatio-temporelles. Ces dernières peuvent être exploitée pour de la publicité ciblée mais aussi, et c’est ce qui nous intéresse ici, pour recommander des activités dans le but d’atteindre un objectif précis. 
 Par exemple l’activité physique dans un parcours de traitement d’un diabétique peut  servir à faire baisser  la pression artérielle et aide à l’amélioration de l'insulino-sensibilité (et donc produit un effet sur l'équilibre glycémique), etc…Pour atteindre ses objectifs, et en fonction des plusieurs autres paramètres (âge, type de diabète, complication, etc..) le système pourra recommander certains exercices (type, fréquence et intensité). On peut imaginer d’autres scénarios avec des personnes âgées ayant besoin d’une rééducation après une fracture du fémur, avec des sportifs de haut niveau désirant optimiser leurs performances en ayant une préparation physique adaptée, etc.
 
-Objectif
+**Objectif**
+
 Il s’agit donc de réaliser une plateforme de collecte des données issues de capteurs (vitesse, distance parcourue, fréquence cardiaque, taux de glycémie, etc..) permettant de faire le suivi de l’activité spatio-temporelle et physiologique de la personne. Ces données seront stockées par la suite dans une base de données qui permettra de raisonner sur ces données pour pouvoir effectuer des recommandations.  
 
-Encadrement
+**Encadrement**
+
 Le travail sera suivi par des membres de l'équipe WIMMICS : Amel BEN OTHMANE (amel.ben-othmane@inria.fr), Michel BUFFA (michel.buffa@unice.fr), Amosse EDOUARD (edouard@unice.fr) et Nhan LE THANH (nhan.le-thanh@unice.fr).
 
 Plan prévisionnel
+
 -	Etape 1: Conception et Analyse de l'architecture globale du système, en adéquation avec les besoins utilisateurs;
 -	Etape 2 : Analyse de l'état de l'art sur les systèmes de recommandation relatifs à la santé de la personne;
 -	Etape 3 : Spécifier et développer les différents modules du système (serveur et clients)
@@ -27,6 +29,7 @@ Plan prévisionnel
 -	En parallèle avec les tâches 1, 2 et 3 : tests technologiques, découvertes de la programmation Android, du SDK de la montre connectée, mise en place de la chaine de traitement avec des données simulées, etc…
 
 Outils & technologies :  
+
 -	Client Web : HTML5, JavaScript, CSS,  Google Maps/Open Street Maps. Nous aurons peut être besoin d’une application web « hybride », programmée en technologies web mais compilée en natif permettant l'accès aux APIs bas niveau du téléphone, c’est ce qui semble nécessaire pour accéder au SDK des montres connectées. Une solution PhoneGap/Cordova est à envisager. Des frameworks tels que Angular JS / IONIC CSS/JS et un simulateur de back end comme FireBase peuvent être de bonnes pistes. 
 -	Serveur : technologie libre (JavaEE / NodeJS)
 -	Base de données : MongoDB 
@@ -39,16 +42,19 @@ Outils & technologies :
 
 
 #### Besoins Clients
+
 Votre travail dans le cadre de ce projet consistera à développer la plateforme permettant de recueillir et de visualiser des données brutes provenant d'un ensemble de capteurs (montre connectée, Smartphone, balance connectée, etc...).  Ces données seront ensuite utilisées à des fins de recommandation d'activités physiques relatives à la santé de la personne.
 
 #### Résultats Attendus
+
 Cette plateforme sera constituée :
+
 -	D’un client mobile (application native ou application web hybride) qui assurera la collecte de données (gps, rythme cardiaque, podomètre/distance parcourue, temps, poids, etc...) en temps réel de l’activité de la personne (le Smartphone sera connecté à une montre et/ou à d’autres capteurs) :
-o	Collecte de données
-o	Visualisation des données (graphe, cartographie, ...)
-o	Synchronisation / envoi des données sur un serveur distant
-o	Mode offline (collecte des données et envoi à postériori)
-o	Suivi personnalisé des objectifs à atteindre / suggestions
+  -	Collecte de données
+  - Visualisation des données (graphe, cartographie, ...)
+  - Synchronisation / envoi des données sur un serveur distant
+  - Mode offline (collecte des données et envoi à postériori)
+  - Suivi personnalisé des objectifs à atteindre / suggestions
 -	Une partie serveur / back end qui permettra de stocker les données sous format compatible au web de données (RDF / JSON-LD), et dans une base NoSQL de type MongoDB.
      
 

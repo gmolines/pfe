@@ -8,9 +8,11 @@ type: Engineering
 contact: Christel Dartigues-Pallez
 ---
        
-Encadrants: Christel Dartigues-Pallez, Frédéric Precioso, Equipe MinD, Laboratoire I3S
 Dans la cadre de ses travaux sur l'apprentissage, l'équipe MinD travaille sur la reconnaissance d'actions en temps réel à partir d'un flux vidéo + profondeur capté par une Kinect. Notre système est déjà capable de reconnaitre un ensemble de positions fixes (assis main levée, debout mains baissées, etc.) ainsi qu'un ensemble d'actions plus complexes (boire, parler au téléphone, travailler sur un ordinateur). La technique que nous utilisons pour cela est basée sur un algorithme classique de Random Forest (forêts aléatoires de décision). Les recherches actuelles s'orientent vers de la reconnaissance d'actions à partie de plusieurs flux vidéos.
+
 L'objectif de ce PFE ingénieur est, à l'aide de plusieurs Kinect, de créer des scénarios mettant en scène des actions pré-définies (boire, téléphoner, travailler sur l'ordinateur, écrre au tableau, etc.) filmées par plusieurs Kinects. Le challenge sera ici multiple: créer des scénarii, utiliser plusieurs Kinects pour les filmer, synchroniser les flux vidéo des Kinects, élaborer un outil d'annotation automatisé de séquences vidéos. En fonction de la vitesse de résolution des problèmes précédents, il sera également envisagé d'utilisé des algorithmes d'apprentissages sur les flux vidéos pour apprendre les actions spécifiques. Les résultats de cette approche pourront être directement comparés à ceux de notre approche actuelle qui fait la même chose avec une seule Kinect. Une extension souhaitée de ce travail sera de rendre publique le jeu de données généré afin que la communauté scientifique puisse l'utiliser à titre de comparaison.
+
+Encadrants: Christel Dartigues-Pallez, Frédéric Precioso, Equipe MinD, Laboratoire I3S
 
 #### Compétences Requises
 Ce projet de fin d'études nécessite des connaissances dans les algorithmes d'apprentissage ainsi que les qualités inhérentes à une activité de recherche: esprit d'initiative, autonomie, force de proposition.

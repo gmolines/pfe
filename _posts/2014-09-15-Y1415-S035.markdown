@@ -2,7 +2,7 @@
 layout: post
 title: "Reconnaissance d’objets par le robot Nao"
 date: 2014-09-15 15:41:43
-categories: [dispo, al, gmd, iam, web]
+categories: [dispo, gmd, iam, web]
 pid: Y1415-S035
 type: Research
 contact: Lionel Fillatre
@@ -13,6 +13,7 @@ Nao est un petit robot humanoïde de 58 cm de haut autonome et programmable [1].
 L'objectif de ce PFE est d’implanter un algorithme d’apprentissage en profondeur directement au sein du robot Nao. Il fait suite à un PFE réalisé en 2013 qui a étudié la faisabilité de cette implantation sur Nao compte tenu de ses capacités de calcul limitées. Les objets reconnus par l’algorithme proposé pourront être de différentes natures : son, image, etc. Par exemple, il pourrait s’agit de reconnaitre automatiquement des chiffres manuscrits à partir de courtes séquences video acquises par la caméra intégrée à Nao.
 
 #### Compétences Requises
+
 L'étudiant doit connaître le langage C++ et/ou Python. Il est recommandé d’utiliser la bibliothèque OpenCV (la découverte et prise en main de cette bibliothèque pourra se faire au début du PFE).
 
 
@@ -26,5 +27,5 @@ L'étudiant doit connaître le langage C++ et/ou Python. Il est recommandé d’
   * Contact : Lionel Fillatre <lionel.fillatre@i3s.unice.fr>
   * Identifiant sujet : `Y1415-S035`
   * Type : Research
-  * Parcours Recommandés : AL, GMD, IAM, WEB
+  * Parcours Recommandés : GMD, IAM, WEB
      

@@ -13,8 +13,8 @@ Nous entrons actuellement dans l’ère de l’informatique ambiante dans laquel
 Cependant, aussi efficaces soient ils, ces systèmes d’adaptation au contexte (environnement, ...) ne sont pas parfait du point de vu de l'utilisateur final. Le but de ce PFE sera d'étudier les approches de type End-User-Programming et End-User-Development pour permettre à des utilisateurs non expert  de contrôler ses applications. C'est à dire lui permettre de configurer à différents niveaux les mécanismes d'adaptations ainsi que les dispositifs utilisés.
 
 #### Compétences Requises
--> savoir travailler en autonomie
--> être intéressé par la recherche ou vouloir s'y initier
+- savoir travailler en autonomie
+- être intéressé par la recherche ou vouloir s'y initier
 
 
 #### Références

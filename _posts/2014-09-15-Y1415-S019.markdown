@@ -12,6 +12,7 @@ Dans le cadre du GDRI Zoomathia, l'équipe Wimmics s'intéresse à l'extraction 
 Dans la continuité des résultats d'un stage qui a permis de traduire dans les standards RDF et RDFS du web de données, les données XML issues d'un corpus annoté de textes médiévaux latins constitué par des partenaires de Zoomathia, l'objectif de ce PFE est d'enrichir ces données RDF par la reconnaissance d'entités nommées et l'extraction de données structurées (en RDF) à partir des données semi-structurées que sont certains contenus textuels dans les annotations des textes médiévaux et d'en offrir des visualisation graphiques.
 
 Objectifs:
+
 - Exploration des schémas RDFS et sources de données RDF existants sur le Linked Data à partir desquelles extraire des entités nommées dans les contenus textuels
 - Utilisation/adaptation d'un algorithme de reconnaissance d'entités nommées adapté aux textes traités
 - Implémentation d'un algorithme pour l'extraction de données structurées (RDF) à partir des contenus textuels
@@ -19,6 +20,7 @@ Objectifs:
 - Visualisation graphique de graphes RDF pertinents pour les chercheurs en SHS partenaires de Zoomathia.
 
 Références bibliographiques:
+
 - Elena Cabrio, Julien Cojan, Alessio Palmero Aprosio, Fabien Gandon (2012). Natural Language Interaction with
 the Web of Data by Mining its Textual Side, Intelligenza Artificiale 6 (2012), pp. 121–133. Special Issue on Natural 
 Language Processing in the Web Era. IOS Press.
@@ -26,13 +28,14 @@ Language Processing in the Web Era. IOS Press.
 - Daniel Gerber, Axel-Cyrille Ngonga Ngomo, Extracting multilingual natural-language patterns for RDF predicates, Proceedings of the 18th international conference on Knowledge Engineering and Knowledge Management, pp. 87-96 (2012), Springer-Verlag. 
 
 Co-encadrantes:
-Elena Cabrio elena.cabrio@inria.fr
-Catherine Faron Zucker faron@unice.fr
-Serena Villata serena.villata@inria.fr
+
+  * Elena Cabrio elena.cabrio@inria.fr
+  * Catherine Faron Zucker faron@unice.fr
+  * Serena Villata serena.villata@inria.fr
 
 #### Compétences Requises
-Ingénierie des connaissances
-Web de données et Web sémantique
+  * Ingénierie des connaissances
+  * Web de données et Web sémantique
 
 
 #### Références

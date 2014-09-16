@@ -5,39 +5,45 @@ date: 2014-09-14 11:42:39
 categories: [dispo, web]
 pid: Y1415-S015
 type: Engineering
-contact: Nhan LE
+contact: Nhan LE THANH
 ---
        
-Contexte
 De nos jours, l’utilisation des processus  dédiés au métier (workflows de métier)  comme outils de gestion dynamique est de plus en plus fréquente dans les entreprises de taille moyenne et grande (PME et TGE). Cependant cette pratique est quasi-inconnue dans les TPE et les organisations faiblement structurée (associations, groups d’artisans, écoles, etc.). Ce travail s’inscrit dans le cadre d’un projet recherche visant à « démocratiser » cette pratique pour ces petites structures économiques et sociétales.
 L’idée centrale est de mettre à disposition des TPE une base de connaissances des  processus de métier génériques et paramétrables, appelés patrons et  correspondant à la pratique de leur métier. Cette base de connaissances sera alimentée par les utilisateurs avertis (experts créateurs des patrons) des différents domaines de métier. Ces patrons seront paramétrés, personnalisés pour être réutilisés dans l’environnement spécifique d’un organisme. 
+
 Cette base de connaissances disposes des outils permettant 
-1.        aux experts de créer et de déposer des patrons de processus dédiés à leur métier
-2.        à tous les utilisateurs de réutiliser ces patrons en les adaptant à leur propre organisme.
+
+1. aux experts de créer et de déposer des patrons de processus dédiés à leur métier
+2. à tous les utilisateurs de réutiliser ces patrons en les adaptant à leur propre organisme.
+
 Le présent sujet consiste à la réalisation des outils pour le premier point précédemment cité [4] en appuyant sur les travaux de thèse de Mme Thi-Hoa-Hue  NGUYEN.
 Un patron de workflow de métier sera décrit, sous forme un fichier RDF. Un patron ainsi créé doit satisfaire les deux conditions suivantes :
-1.        il est conforme à la structure de workflow (vérification syntaxique). Les règles d’assemblage de workflow sont intégrées dans une ontologie de Réseau Petri Coloré [1] (CPNO : Coloured Petri Net Ontology) [4] en langage OWL DL.  Cette phase de vérification permet d'éviter des erreurs d’assemblage structurelles telles que : boucle infinie, impasse, blocage [2]...  pendant la phase conception du patron ;
-2.        il est conforme aux contraintes sémantiques du domaine applicatif concerné (vérification sémantique). Ces contraintes sémantiques du domaine applicatif sont regroupées dans une seconde ontologie OWL DL, dite ontologie de contraintes de domaine (DOMO) [5]. Certaines contraintes sémantiques seront contrôlées en postérieur par des requêtes SPARQL sur le patron conçu. Cette phase de vérification permet de prendre en compte des contraintes de métier. Par exemple, dans le domaine des achats en ligne, la phase de paiement n’aura pas lieu si aucun produit n’a été sélectionné. 
 
- Objectifs
+1. il est conforme à la structure de workflow (vérification syntaxique). Les règles d’assemblage de workflow sont intégrées dans une ontologie de Réseau Petri Coloré [1] (CPNO : Coloured Petri Net Ontology) [4] en langage OWL DL.  Cette phase de vérification permet d'éviter des erreurs d’assemblage structurelles telles que : boucle infinie, impasse, blocage [2]...  pendant la phase conception du patron ;
+2. il est conforme aux contraintes sémantiques du domaine applicatif concerné (vérification sémantique). Ces contraintes sémantiques du domaine applicatif sont regroupées dans une seconde ontologie OWL DL, dite ontologie de contraintes de domaine (DOMO) [5]. Certaines contraintes sémantiques seront contrôlées en postérieur par des requêtes SPARQL sur le patron conçu. Cette phase de vérification permet de prendre en compte des contraintes de métier. Par exemple, dans le domaine des achats en ligne, la phase de paiement n’aura pas lieu si aucun produit n’a été sélectionné. 
+
+**Objectifs**
+ 
 L’objectif de ce sujet est de spécifier et développer une plateforme de web services permettant aux experts d’un domaine de créer leurs patrons et de les déposer dans un entrepôt des patrons sous format des fichiers RDF. 
 
 Encadrement
 Le travail sera suivi par les membres de l'équipe WIMMICS : Thi-Hoa-Hue NGUYEN (nguyenth@i3s.unice.fr) , Anh-Tuan PHAM (tuan-anh.pham@inria.fr), Michel  Buffa (michel.buffa@unice.fr) et Nhan Le Thanh (nhan.le-thanh@unice.fr) 
 
 Plan cadre de travail : 
-1.        Etape 1: Conception et analyse de l'architecture globale de la plateforme, en adéquation avec les besoins utilisateurs;
-2.        Etape 2: Etudier la notion workflows de métier et sa présente formelle en RDF  ainsi que les algorithmes de vérification des règles ontologiques (CPNO, DOMO) (travaux de Thi-Hoa-Hue NGUYEN) ; 
-3.        Etape 3 : Elaborer une spécification détaillée des différents modules du système (client et serveur) ; 
-4.        Etape 3: Développer les différentes composantes d’un prototype de l’éditeur ; 
-5.        Etape 4: Tests unitaires, tests d'intégration et déploiement du prototype ; 
-6.        Etape 5: Analyse du résultat obtenu et rédaction du rapport final. 
+
+1. Etape 1: Conception et analyse de l'architecture globale de la plateforme, en adéquation avec les besoins utilisateurs;
+2. Etape 2: Etudier la notion workflows de métier et sa présente formelle en RDF  ainsi que les algorithmes de vérification des règles ontologiques (CPNO, DOMO) (travaux de Thi-Hoa-Hue NGUYEN) ; 
+3. Etape 3 : Elaborer une spécification détaillée des différents modules du système (client et serveur) ; 
+4. Etape 3: Développer les différentes composantes d’un prototype de l’éditeur ; 
+5. Etape 4: Tests unitaires, tests d'intégration et déploiement du prototype ; 
+6. Etape 5: Analyse du résultat obtenu et rédaction du rapport final. 
 
 Outils & technologies :  
--        Client Web : HTML5, JavaScript, CSS 
--        Serveur : technologie libre (JavaEE / NodeJS) avec RDF, K-Gram, SPARQL
--        Base de données : au choix SQL ou NoSQL
--        Ontologie : OWL DL, Protégé
+
+- Client Web : HTML5, JavaScript, CSS 
+- Serveur : technologie libre (JavaEE / NodeJS) avec RDF, K-Gram, SPARQL
+- Base de données : au choix SQL ou NoSQL
+- Ontologie : OWL DL, Protégé
 
 Bibliographie
 
@@ -67,25 +73,26 @@ Spécifier et développer une plateforme de web services permettant aux experts 
 
 #### Résultats Attendus
 Cette plateforme comprendra :
-
-1.	un éditeur (client web) des contraintes sémantiques de domaine (ontologie) : 
-a.	afficher l’ontologie des contraintes de domaine sous forme un graphe hiérarchique de concepts et rôles avec la possibilité de parcourir et de zoomer une partie présente de l’ontologie
-b.	saisir et ajouter une nouvelle contrainte dans cette hiérarchie
-c.	supprimer une contrainte de la hiérarchie ;
+   
+1. un éditeur (client web) des contraintes sémantiques de domaine (ontologie) : 
+    a.	afficher l’ontologie des contraintes de domaine sous forme un graphe hiérarchique de concepts et rôles avec la possibilité de parcourir et de zoomer une partie présente de l’ontologie
+    * saisir et ajouter une nouvelle contrainte dans cette hiérarchie
+    * supprimer une contrainte de la hiérarchie ;
 
 2.	 un éditeur (client web) de patrons de workflow de métier, ayant les fonctionnalités principales suivantes :
-a.	conception graphique : concevoir un patron de workflow par l’assemblage des composantes graphiques dont chacune correspond à un élément type de workflow (place, transition, etc.) 
-b.	validation syntaxique : déclencher dynamiquement un contrôle des règles d’assemblage syntaxique pendant la phase de conception. Les composantes mal assemblées sont signalées avec les explications
-c.	validation sémantique : effectuer la phase de contrôle sémantique sur un patron syntaxiquement correct pour valider un patron. Afficher les explications pour chaque erreur sémantique est détectée 
-d.	mise en place de paramétrage : décrire (en langage SWRL  [6] ou langage naturel) les actions à mise en place dans la phase de personnalisation pour chacune des composantes assemblées
-e.	stockage temporaire des patrons en construction: sauvegarder /charger un patron en cours de construction sous forme d’un fichier RDF.
-f.	dépôt d’un patron : déposer un patron validé dans l’entrepôt des patrons. 
+    a.	conception graphique : concevoir un patron de workflow par l’assemblage des composantes graphiques dont chacune correspond à un élément type de workflow (place, transition, etc.) 
+    b.	validation syntaxique : déclencher dynamiquement un contrôle des règles d’assemblage syntaxique pendant la phase de conception. Les composantes mal assemblées sont signalées avec les explications
+    c.	validation sémantique : effectuer la phase de contrôle sémantique sur un patron syntaxiquement correct pour valider un patron. Afficher les explications pour chaque erreur sémantique est détectée 
+    d.	mise en place de paramétrage : décrire (en langage SWRL  [6] ou langage naturel) les actions à mise en place dans la phase de personnalisation pour chacune des composantes assemblées
+    e.	stockage temporaire des patrons en construction: sauvegarder /charger un patron en cours de construction sous forme d’un fichier RDF.
+    f.	dépôt d’un patron : déposer un patron validé dans l’entrepôt des patrons. 
 
 3.	Un serveur web de gestion de l’entrepôt des patrons validés: qui permettra de stocker et d’un ensemble des patrons sous forme de fichier RDF. Cet entrepôt doit permettre 
-a.	La gestion des comptes d’experts (par l’administrateur): création, modification, suppression d’un expert ainsi que la déclaration de leurs domaines d’expert
-b.	la visite, effectuée par un client anonyme, de l’entrepôt des patrons avec une recherche multicritère
-c.	la gestion de téléchargement des patrons et les ressources attachés
-d.	La gestion des patrons (par administrateur/expert créateur) : liste des patrons avec la possibilité d’affichage dynamique du descripteur d’un patron au choix, de supprimer un patron, de charger un patron dans l’éditeur de patron.  
+    a.	La gestion des comptes d’experts (par l’administrateur): création, modification, suppression d’un expert ainsi que la déclaration de leurs domaines d’expert
+    b.	la visite, effectuée par un client anonyme, de l’entrepôt des patrons avec une recherche multicritère
+    c.	la gestion de téléchargement des patrons et les ressources attachés
+    d.	La gestion des patrons (par administrateur/expert créateur) : liste des patrons avec la possibilité d’affichage dynamique du descripteur d’un patron au choix, de supprimer un patron, de charger un patron dans l’éditeur de patron.  
+   
 Note : le développement des points 3.b, 3.c, 3.d est optionnel
      
 

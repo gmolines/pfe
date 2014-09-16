@@ -15,8 +15,8 @@ Ce projet s'inscrit donc dans un cadre méthodologique scientifique classique : 
 Il a fait l'objet d'une publication scientifique en présentant l'idée. Il faut maintenant réaliser les tests et répondre à de nombreuses interrogations, donc fouiller, imaginer, chercher !
 
 #### Compétences Requises
-Etre capable de programmer et notamment la manipulation d'images.
-Etre imaginatif, aimer explorer ce que l'on ne connait pas, tester, réessayer ...
+  * Etre capable de programmer et notamment la manipulation d'images.
+  * Etre imaginatif, aimer explorer ce que l'on ne connait pas, tester, réessayer ...
 
 
 #### Références

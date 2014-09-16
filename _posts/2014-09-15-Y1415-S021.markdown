@@ -8,21 +8,27 @@ type: Research
 contact: Christel Dartigues Pallez
 ---
        
-Christel Dartigues Pallez et Frédéric Precioso : Equipe Mind, Laboratoire I3S
-Stéphane Lavirotte et Jean-Yves Tigli : Equipe Rainbow, Laboratoire I3S
 
 Dans le cadre de ce projet de fin d’études, nous disposons d’un ensemble connu de dispositifs (téléphone avec accéléromètre, gyroscope et gps, centrale inertielle, camera kinect, montre connectée, détecteur de présence, …). Nous souhaitons à partir des données générées par ces dispositifs reconnaître les postures d’un utilisateur. Pour cela, il est nécessaire de collecter les informations générées par ces dispositifs et en gérer l’hétérogénéité (différentes vitesses d’émission, différents volumes de données fournies  par chaque dispositif, précision dépendant du capteur, …). L’interprétation de ces données pour en déduire une posture de l’utilisateur se fera via un ou des algorithmes d’apprentissage. Même si l’ensemble des dispositifs avec lequel on travaille est connu, on ne dispose pas forcément de tous les dispositifs à chaque instant (l’un peut être en panne, un autre peut être absent ou non utilisé par l’utilisateur, …). 
 
 Le problème est alors de pouvoir fournir une décision suffisamment fiable et robuste malgré la disparition ou l’apparition des dispositifs. Donc il faudra proposer une méthode permettant de modulariser non seulement l’acquisition des données, mais aussi en tenir compte dans l’interprétation et la prise de décision finale. Un cadre technologique est déjà existant pour assurer la collecte des données émises par les dispositifs. 
+
 Le travail attendu consistera à :
+
 -	Mettre en place le cadre d’expérimentation pour l’acquisition des données
 -	Collecter et annoter les données pour l’apprentissage
 -	Faire une étude bibliographique des algorithmes les plus à un apprentissage modulaire et des volumes de données différents (hétérogénéité des données issues des dispositifs).
 -	Identifier la posture d’une personne à l’aide des algorithmes retenus
 -	Faire une étude des performances et de la robustesse des différents algorithmes
 
+Encadrement: 
+
+  * Christel Dartigues Pallez et Frédéric Precioso : Equipe Mind, Laboratoire I3S
+  * Stéphane Lavirotte et Jean-Yves Tigli : Equipe Rainbow, Laboratoire I3S
+
 #### Compétences Requises
 Les compétences attendues pour traiter ce sujet sont :
+
 -	Des connaissances liées à la mise en œuvre des différents dispositifs pour collecter les données
 -	Des connaissances sur les techniques d’apprentissage
 -	Des compétences personnelles comme : initiative et force de proposition, autonomie, …

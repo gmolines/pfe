@@ -8,36 +8,39 @@ type: Engineering
 contact: Karima Boudaoud
 ---
        
-Contexte:
-La croissance rapide des Smartphones a forcé les acteurs IT à porter de nombreux protocoles réseaux de l'univers traditionnel (ordinateur) à l'univers mobile (Smartphones, objets communicants, etc.). Cette croissance soulève de gros problèmes de sécurité et de vie privée.
-En plus de ces problèmes, l'utilisation de protocoles de sécurités traditionnels n'est pas toujours adéquat pour des raisons de performances et de la consommation énergétique.
-Par exemple, si l'on prend le cas du protocole sécurisé HTTPS, on peut voir que ce dernier n'est pas flexible. En effet, il implémente les propriétés de confidentialité, intégrité et authenticité, mais l'utilisateur ne peut choisir laquelle appliquer (elles sont fournies en "bloc" et ne peuvent être utilisées séparément, créant de facto un surcoût énergétique et de calculs pour peu que l'utilisateur ne voulait utiliser qu'une seule de ces propriétés).
+La croissance rapide des Smartphones a forcé les acteurs IT à porter de nombreux protocoles réseaux de l'univers traditionnel (ordinateur) à l'univers mobile (Smartphones, objets communicants, etc.). Cette croissance soulève de gros problèmes de sécurité et de vie privée. En plus de ces problèmes, l'utilisation de protocoles de sécurités traditionnels n'est pas toujours adéquat pour des raisons de performances et de la consommation énergétique. Par exemple, si l'on prend le cas du protocole sécurisé HTTPS, on peut voir que ce dernier n'est pas flexible. En effet, il implémente les propriétés de confidentialité, intégrité et authenticité, mais l'utilisateur ne peut choisir laquelle appliquer (elles sont fournies en "bloc" et ne peuvent être utilisées séparément, créant de facto un surcoût énergétique et de calculs pour peu que l'utilisateur ne voulait utiliser qu'une seule de ces propriétés).
+
 Pour pallier ces problèmes, nous avons implémenté LECCSAM (Low Energy Consuming and Component based Security Architecture), une architecture proposant une alternative flexible à HTTPS. Cette architecture permet ainsi à un utilisateur de choisir les propriétés de sécurité qu'il veut utiliser en fonction: 
+
 - de critères subjectifs (sa propre définition de la sécurité, ses compétences en sécurité ou encore la criticité de ses données).
 - de critères objectifs (la puissance de calculs de son appareil mobile, la batterie restante, etc.)
 
-Objectifs:
+**Objectifs**
+
 Un prototype de LECCSAM ayant déjà été implémenté pour le protocole HTTP, les objectifs sont les suivants:
+
 - Modifier le prototype pour inclure d'autres protocoles d'échanges comme UPNP et XMPP (état de l'art à faire).
 - Evaluer les performances (temps de traitement, consommation énergétique, etc.) en fonction des protocoles et des combinaisons de propriétés de sécurité (ex: HTTP avec confidentialité+intégrité, XMPP avec intégrité+non-répudiation, etc.)
 
 #### Compétences Requises
-Notions et intérêt en sécurité
-Développement Java (Android serait un plus)
-Compétences en analyse/conception
-Intérêt pour les problématiques de performances (consommation/temps de calcul)
+* Notions et intérêt en sécurité
+* Développement Java (Android serait un plus)
+* Compétences en analyse/conception
+* Intérêt pour les problématiques de performances (consommation/temps de calcul)
 
 
 #### Besoins Clients
 Nous voulons ici:
-1) Connaitre les travaux existants sur la sécurisation des protocoles XMPP et UPNP. 
-2) Avoir un prototype implémentant plusieurs protocoles d'échanges.
-3) Etre capable de savoir les avantages et inconvénients des différents protocoles et combinaisons de propriété de sécurité (quelle combinaison consomme le plus? le moins? quel protocole est le plus rapide? le plus lent? etc.)
+
+1. Connaitre les travaux existants sur la sécurisation des protocoles XMPP et UPNP. 
+2. Avoir un prototype implémentant plusieurs protocoles d'échanges.
+3. Etre capable de savoir les avantages et inconvénients des différents protocoles et combinaisons de propriété de sécurité (quelle combinaison consomme le plus? le moins? quel protocole est le plus rapide? le plus lent? etc.)
 
 #### Résultats Attendus
-1) Etat de l'art sur les principaux travaux du domaine -> Partie investigation
-2) Modification de la preuve de concept pour intégrer plusieurs protocoles afin de fournir des versions flexibles de UPNP et XMPP -> Partie implémentation
-3) Matrice de résultats mettant en exergue les points forts et les points faibles des différentes combinaisons fournies par le prototype -> Partie tests
+
+1. Etat de l'art sur les principaux travaux du domaine -> Partie investigation
+2. Modification de la preuve de concept pour intégrer plusieurs protocoles afin de fournir des versions flexibles de UPNP et XMPP -> Partie implémentation
+3. Matrice de résultats mettant en exergue les points forts et les points faibles des différentes combinaisons fournies par le prototype -> Partie tests
      
 
 #### Informations Administratives

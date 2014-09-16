@@ -15,6 +15,7 @@ Cela permettrait aux utilisateurs de formuler des requêtes beaucoup plus comple
 chronologique sur les œuvres avec les informations relatives aux auteurs, à l'histoire de la collection, etc. Le dépôt Archivio Nuova Scrittura pourrait donc devenir une plate-forme pour la découverte d'informations plutôt que juste une collection d'art virtuelle disponible en ligne.
  
 Objectifs:
+
 - Exploration des bases de connaissances existantes à partir desquelles des
 informations complémentaires peuvent être extraites.
 - Traduction des données de l'Archivio Nuova Scrittura en RDF.
@@ -23,12 +24,13 @@ informations complémentaires peuvent être extraites.
 - Interconnexion des données extraites aux données publiées sur le web des données à travers DBpedia.
  
 Références
-http://mwf2014.museumsandtheweb.com/proposals/creating-a-platform-for-navigating-verbo-visual-art-collections/
+
+  - http://mwf2014.museumsandtheweb.com/proposals/creating-a-platform-for-navigating-verbo-visual-art-collections/
 http://dbpedia.org
-[1] Johan Oomen, Marieke van Erp and Lotte Belice Baltussen (2012) Sharing cultural heritage the linked open data way: why you should sign up. Museums and the Web 2012, San Diego, CA, USA, April 11-14 2012.
-[2] Chiel van den Akker, Marieke van Erp, Lora Aroyo, Ardjan van Nuland, Lourens van der Meij, Guus Schreiber and Susan Legêne (2013) From Information Delivery to Interpretation Support: Evaluating Cultural Heritage Access on the Web.
+  - [1] Johan Oomen, Marieke van Erp and Lotte Belice Baltussen (2012) Sharing cultural heritage the linked open data way: why you should sign up. Museums and the Web 2012, San Diego, CA, USA, April 11-14 2012.
+  - [2] Chiel van den Akker, Marieke van Erp, Lora Aroyo, Ardjan van Nuland, Lourens van der Meij, Guus Schreiber and Susan Legêne (2013) From Information Delivery to Interpretation Support: Evaluating Cultural Heritage Access on the Web.
 Proceedings of WebSci’13. Paris, France, May 2013.
-[3] Elena Cabrio, Julien Cojan, Alessio Palmero Aprosio, Fabien Gandon (2012). Natural Language Interaction with the Web of Data by Mining its Textual Side, Intelligenza Artificiale 6 (2012), pp. 121–133. Special Issue on Natural Language Processing in the Web Era. IOS Press.
+  - [3] Elena Cabrio, Julien Cojan, Alessio Palmero Aprosio, Fabien Gandon (2012). Natural Language Interaction with the Web of Data by Mining its Textual Side, Intelligenza Artificiale 6 (2012), pp. 121–133. Special Issue on Natural Language Processing in the Web Era. IOS Press.
 
 #### Compétences Requises
 Intérêt pour le Web, notamment le web de données.

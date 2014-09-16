@@ -16,6 +16,7 @@ Le projet proposé s'inscrit dans la démarche d'évolution du produit vers un e
 * De formuler des propositions visant à étendre JALON avec les fonctionnalités typiques d'une plateforme de MOOC.
 
 Ces objectifs se déclinent de la façon suivante :
+
 * Recenser les modules fonctionnels d'une plate-forme d'enseignement en ligne et en produire la cartographie
 * Élaborer une modélisation des données persistantes
 * Concevoir une architecture modulaire adaptée au cadre technique retenu (langage orienté objet et framework MVC dédié Web/WebServices).
@@ -30,6 +31,7 @@ Ces objectifs se déclinent de la façon suivante :
 
 #### Besoins Clients
 // cf description générale du projet.
+
 Pistes :
 
 * Réaliser une étude de l'existant (Jalon dans sa version actuelle) en formulant des pistes d'évolution s'appuyant notamment sur les fonctionnalités des principales plateformes d'enseignement à distance et de Mooc. (point : "Recenser les modules fonctionnels d'une plate-forme d'enseignement en ligne et en produire la cartographie")
@@ -38,7 +40,9 @@ Pistes :
 
 #### Résultats Attendus
 // cf description générale du projet.
+
 Livrables attendus : 
+
 * Cartographie des modules fonctionnels d'une plate-forme d'enseignement en ligne ouverte.
 
 * Modélisation (schema UML et description) des données persistantes

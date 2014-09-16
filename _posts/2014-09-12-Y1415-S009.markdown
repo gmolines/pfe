@@ -8,13 +8,13 @@ type: Engineering
 contact: Denis Pallez
 ---
        
-Dans le cadre d'un Projet Exploratoire Premier Soutien (PEPS) financé par le CNRS, l'équipe MinD (Mining Data http://mind.i3s.unice.fr) du laboratoire I3S collabore avec des géographes de l'Université de Nice pour  le développement d'un prototype léger pour l’analyse des systèmes métropolitains, notamment dans l’étude des processus de mouvement de la population.
+Dans le cadre d'un Projet Exploratoire Premier Soutien (PEPS) financé par le CNRS, l'équipe [MinD](http://mind.i3s.unice.fr) (Mining Data) du laboratoire I3S collabore avec des géographes de l'Université de Nice pour  le développement d'un prototype léger pour l’analyse des systèmes métropolitains, notamment dans l’étude des processus de mouvement de la population.
 
 L’objectif principal de ce projet est d'approfondir l’étude des processus de ségrégation socio-spatiale, et d’explorer les stratégies de réponse venant de la recherche en sciences informatiques. En particulier, nous envisageons d'utiliser les données socio-spatiales représentant le mode de vie des ménages du paysage azuréen (classe socio-professionnelle, niveau d'études, localisation, nombre d'enfants, type de logement occupé, etc.) pour comprendre la composition des quartiers, i.e., le mode de ségrégation des familles dans les villes azuréennes. Le résultat de ce projet constituera un outil pour la prise de décision dans l'aménagement du territoire dans un contexte de ville durable.
 
 #### Compétences Requises
-Bonnes connaissances en programmation Java nécessaire
-Une connaissance des techniques de fouille de données serait un plus
+- Bonnes connaissances en programmation Java nécessaire
+- Une connaissance des techniques de fouille de données serait un plus
 
 
 #### Besoins Clients
@@ -22,6 +22,7 @@ Dans ce contexte, nous souhaitons mettre en oeuvre des techniques d'apprentissag
 
 #### Résultats Attendus
 Afin de mener à bien ce projet, nous pensons l'orienter de la facon suivante :
+
 1. coupler WEKA avec un algorithme de recuit simulé pour développer un algorithme de clustering stochastique;
 2. coupler ECJ et WEKA et mettre en oeuvre un algorithme de clustering;
 3. coupler ECJ et WEKA et mettre en oeuvre un algorithme de clustering évolutionnaire (clustering basé sur des algorithmes évolutionnaires);

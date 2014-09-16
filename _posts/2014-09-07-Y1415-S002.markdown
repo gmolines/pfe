@@ -23,8 +23,8 @@ L'objectif de ce projet est de proposer un environnement de tests developer-frie
 Il faudra veiller à étudier l'architecture des plugin intellij et définir les fonctionnalités principales que le plugin devra proposer au développeur.
 
 #### Résultats Attendus
-1/ Architecture du plugin Intellij
-2/ Livraison du plugin
+  1. Architecture du plugin Intellij
+  2. Livraison du plugin
      
 
 #### Informations Administratives

@@ -9,14 +9,17 @@ contact: Sabine MOISAN
 ---
        
 Les modèles de “feature”  sont des arbres et/ou/ou exclusif, dont les noeuds, nommés features, représentent des concepts abstraits aussi bien que des éléments plus concrets d'un domaine, organisés hiérarchiquement. Ces noeuds peuvent être optionnels ou obligatoires. Les noeuds qui ne sont pas des feuilles se décomposent progressivement en leurs sous noeuds qui les détaillent. Les modèles de features sont souvent utilisés pour représenter des systèmes (logiciels) à haut degré de variabilité, comme par exemple, les lignes de produits. Ils fournissent une représentation simple et compacte de toutes les configurations valides d'un système. Une configuration s'obtient en sélectionnant ou dé-sélectionnant des features dans l'arbre.
+
 Dans le formalisme de base, les features sont de simples symboles. Pour aller au delà, certaines approches ont proposé d'enrichir ces features de différentes façons : ajout d'attributs, typage, contraintes... 
+
 Le PFE consitera à :
-étudier la littérature sur les modèles de feature et identifier les améliorations proposées aux simples features;
-choisir et intégrer un (ou 2) des ces enrichissements dans notre propre système de manipulation de modèles de feature, qui est écrit en C++;
+
+  * étudier la littérature sur les modèles de feature et identifier les améliorations proposées aux simples features;
+  * choisir et intégrer un (ou 2) des ces enrichissements dans notre propre système de manipulation de modèles de feature, qui est écrit en C++;
 
 #### Compétences Requises
-C++
-anglais (pour la bibliographie)
+  * C++
+  * anglais (pour la bibliographie)
 
 
 #### Références
