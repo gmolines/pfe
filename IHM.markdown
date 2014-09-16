@@ -5,8 +5,9 @@ longtitle: Interactions Homme-Machines
 shortcut: true
 permalink: /ihm/
 ---
+{% assign sorted_posts = (site.posts | sort: 'title') %}
 
-{% for post in site.posts %}
+{% for post in sorted_posts %}
     {% if post.categories contains 'ihm' and post.categories contains 'dispo' %}
 ### {% if post.type == 'Research' %}[R]{% else %}[I]{% endif %} {{post.title}}    
   * Contact: {{post.contact}}
