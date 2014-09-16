@@ -27,11 +27,14 @@ Cf videos d'une telle interface: [https://www.youtube.com/watch?v=q2DpcLTWass](h
 
 
 #### Besoins Clients
-Il s'agit en premier lieu de spécifier le portage sous Android et de l'implémenter effectivement. Les problématiques principales seront celles de l'affichage (les taux de rafraîchissement et la  taille des éléments du clavier sur tablette) et celle de la communication entre les différents composants du système (quels délais supplémentaires sont induits par le portage, et le système tout entier y est-il robuste ?)
 
-Il s'agit également d'étudier l'ensemble des bénéfices apportés par ce portage, notamment l'utilisation du système de prédiction de mots embarqué sur la tablette, et l'interaction avec d'autres applications (navigateur web, messagerie).
+Le clavier est une application assez sensible en matière de timing (les délais entre commande et affichage des flashs doivent être les plus constants possible). Cela et le fait que l'interface est déja écrite en C++ conduit à souhaiter une implémentation dans ce langage. Certaines parties du logiciel devront probablement être réécrites, mais on recherchera à garder le plus possible une base de code commune.
+
+Il s'agit en premier lieu de spécifier le portage sous Android et de l'implémenter effectivement. Les problématiques principales seront: 1) faut-il porter toute l'application ou seulement une sous-partie dont l'affichage; 2) l'affichage en lui-même (contrôle des taux de rafraîchissement et de la taille des éléments du clavier sur tablette); 3) la communication entre les différents composants du système (quels délais supplémentaires sont induits par le portage, et le système tout entier y est-il robuste ?) et 4) l'intégration du clavier avec le système Android en temps que clavier alternatif.
+
+Dans un deuxième temps, il s'agira également d'étudier des bénéfices secondaires apportés par ce portage, outre l'aspect matériel. Du point de vue applicatif, on peut notamment envisager l'utilisation du système de prédiction de mots embarqué sur la tablette, et l'interaction avec d'autres applications (navigateur web, messagerie).
  
-Enfin, il serait intéressant d'étudier et d'implémenter des scénarios de veille et redémarrage du système (lorsque l'utilisateur ne désire plus taper sur le clavier, ou souhaite recommencer).
+Enfin, il serait intéressant d'étudier et d'implémenter des scénarios de veille et redémarrage du système (lorsque l'utilisateur ne désire plus taper sur le clavier, ou souhaite faire apparaître le clavier).
 
 #### Résultats Attendus
 Un prototype de clavier virtuel qui maximise la portabilité:
