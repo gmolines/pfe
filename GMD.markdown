@@ -12,7 +12,7 @@ permalink: /gmd/
 ### {% if post.type == 'Research' %}[R]{% else %}[I]{% endif %} {{post.title}}    
   * Contact: {{post.contact}}
   * Identifiant projet: {{$post.pid}}
-  * [Description complète du sujet]({{ BASE_PATH }}{{ post.url }})
+  * [Description complète du sujet]({{ site.baseurl }}{{ post.url }})
 {{post.excerpt}}
     {% endif %}
 {% endfor %}
