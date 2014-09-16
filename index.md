@@ -6,7 +6,7 @@ menu: false
 ## Propositions de projets 2014 - 2015
 
   * [Tous les sujets]({{BASE_PATH}} all-subjects) (ordre alphabétique)
-  * [Tous les sujets]({{BASE_PATH}} all-subjects) (Project ID)
+  * [Tous les sujets]({{BASE_PATH}} pids) (Project ID)
 
 #### Sujets disponibles par parcours
 
