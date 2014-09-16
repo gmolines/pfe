@@ -5,8 +5,9 @@ longtitle: CryptogrAphie, Sécurité, et vie Privée dans les Applications et R�
 shortcut: true
 permalink: /caspar/
 ---
+{% assign sorted_posts = (site.posts | sort: 'title') %}
 
-{% for post in site.posts %}
+{% for post in sorted_posts %}
     {% if post.categories contains 'caspar' and post.categories contains 'dispo' %}
 ### {% if post.type == 'Research' %}[R]{% else %}[I]{% endif %} {{post.title}}    
   * Contact: {{post.contact}}
