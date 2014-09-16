@@ -1,0 +1,32 @@
+---
+layout: post
+title: "Adaptation temps réel d'un système embarqué (par exemple un téléphone) au contexte"
+date: 2014-09-15 13:52:18
+categories: [dispo, al, iam]
+pid: Y1415-S032
+type: Research
+contact: Gaëtan Rey
+---
+       
+Aujourd’hui il devient essentiel d’adapter nos applications mais également nos dispositifs à notre contexte de manière à ne pas limiter nos usages. Par exemple, il faudrait que nos systèmes, dispositifs (smartphone, …) soient capables d’économiser de l’énergie dans des périodes de faible utilisation, de manière à nous permettre de les utiliser plus longtemps.
+Le but de ce PFE est de définir un modèle d’analyse et d’adaptation au contexte des applications fonctionnant sur une plateforme embarquée (type smartphone). Le contexte sera composé d’informations provenant à la fois des couches matérielles (et couches basses du système) et des applications de haut niveau. Et il pourra agir (adaptations) à la fois sur les couches matérielles et sur les applications. 
+En plus d'une insertion au sein de l'équipe Rainbow de l'I3S, l’étudiant sera co-encadré avec François Verdier ce qui lui permettra de bénéficier des travaux de l'équipe MCSoC du LEAT sur les « Power Management Unit ».
+
+#### Compétences Requises
+Le système embarqué fonctionnant sur linux, des connaissances sur l’utilisation de ce système sont essentielles, il en est de même pour le langage C/C++ qui sera probablement utilisé pour le démonstrateur.
+
+
+#### Références
+
+  * Équipe: Rainbow / MCSoC
+  * [http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=4556841&url=http%3A%2F%2Fieeexplore.ieee.org%2Fiel5%2F4556750%2F4556751%2F04556841.pdf%3Farnumber%3D4556841](http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=4556841&url=http%3A%2F%2Fieeexplore.ieee.org%2Fiel5%2F4556750%2F4556751%2F04556841.pdf%3Farnumber%3D4556841)
+  * [http://continuum.unice.fr/_media/livrables:t2.1_2.2_modelisation_du_contexte_et_adaptation.pdf](http://continuum.unice.fr/_media/livrables:t2.1_2.2_modelisation_du_contexte_et_adaptation.pdf)
+  * [http://geii-web.unice.fr/alain.pegatoquet/wp-content/papercite-data/pdf/Mbarek_IET_CDT_2013.pdf](http://geii-web.unice.fr/alain.pegatoquet/wp-content/papercite-data/pdf/Mbarek_IET_CDT_2013.pdf)
+  * [http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=6122376&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D6122376](http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=6122376&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D6122376)
+
+#### Informations Administratives
+  * Contact : Gaëtan Rey <Gaetan.Rey@unice.fr>
+  * Identifiant sujet : `Y1415-S032`
+  * Type : Research
+  * Parcours Recommandés : AL, IAM
+     

@@ -1,0 +1,32 @@
+---
+layout: post
+title: "Visualisation et Open Data"
+date: 2014-09-15 22:20:22
+categories: [dispo, al, ihm]
+pid: Y1415-S058
+type: Engineering
+contact: Anne-Marie Pinna-Dery
+---
+       
+L’open data vise à mettre à disposition des citoyens un ensemble de jeu de données. De plus en plus de manifestations type “hackathons” s’intéressent à l’exploitation de ces données. On s’intéresse ici, dans le cadre d’une collaboration entre les projets RAINBOW (Anne-Marie Déry) et MODALIS (Sébastien Mosser), à la visualisation de données disponibles dans un cadre open data (http://www.data.gouv.fr/), sous la forme de dahsboards (https://www.google.fr/search?q=dashboard&es_sm=119&source=lnms&tbm=isch&sa=X&ei=uOMSVLmaFYXqaP7VgsgB&ved=0CAgQ_AUoAQ&biw=1105&bih=752).
+
+L’objectif de ce projet est de sélectionner un sous-ensemble de données ouvertes pour définir 3 cas d’études pertinents pour y appliquer une démarche IHM visant à créer un ensemble de dashboards pour visualiser ces données, scénario par scénario. L’accent sera mis sur la modélisation de l’intention derrière chaque dashboard (ce pour quoi il a été conçu), ainsi que sur leur implémentation avec des technologies du Web. Ce projet pourra collaborer avec le projet SensorVisu (s’il est pourvu) en partageant un de ses scénarios à des fins de comparaison par la suite.
+
+#### Compétences Requises
+un goût prononcé pour l’IHM et le développement logiciel. Un background en dévelopement Web coté client (HTML / JS / CSS)
+
+
+#### Besoins Clients
+Le projet portera sur l’identification de cas d’études pertinents pour des citoyens sur la base des données du portail gouvernemental. Vous êtes complètement libre sur le choix de ces cas d’étude. La production de livrables cohérents avec l’application d’une démarche IHM pour définir les différents dashboards associés à ces scénario est critique, car le projet permettra la validation de travaux de recherche dans ce domaine en servant de base de référence pour mener une comparaison après la fin du projet.
+
+#### Résultats Attendus
+* Au moins 3  cas d’exploitation des données présentes sur le portail open-data.
+  * Un livrable par cas d’étude, contenant la description des données utilisées, les scénarios identifiés, les maquettes ainsi que les implémentations associées.
+     
+
+#### Informations Administratives
+  * Contact : Anne-Marie Pinna-Dery <pinna@polytech.unice.fr>
+  * Identifiant sujet : `Y1415-S058`
+  * Type : Engineering
+  * Parcours Recommandés : AL, IHM
+     

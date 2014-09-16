@@ -1,0 +1,35 @@
+---
+layout: post
+title: "Optimisation par la géométrie fractale du nombre de place pour bateaux dans un port de plaisance"
+date: 2014-09-14 22:03:14
+categories: [dispo, gmd]
+pid: Y1415-S017
+type: Research
+contact: Eric Bailly
+---
+       
+La première phase de ce projet de recherche est de construire un outil informatique simulant les pontons dans un port de plaisance. Ces pontons seront issus d'objets fractals (donc avec leurs caractéristiques principales : homothétie interne, dimension non entière). On part donc d'une image aérienne représentant l'architecture du port. On lui retire les pontons. À partir de cette base vierge, on construit les nouveaux pontons issus d'un processus créant des fractals (IFS par exemple).
+Ensuite, le projet consiste à déterminer s'il est possible, à partir de ces constructions, d'optimiser le nombre de places pour les bateaux. On aura comptabilisé au préalable le nombre de places réelles existantes.
+
+Ce projet s'inscrit donc dans un cadre méthodologique scientifique classique : Observation, hypothèses, problématique, test des hypothèses, réponse à la question.
+Il a fait l'objet d'une publication scientifique en présentant l'idée. Il faut maintenant réaliser les tests et répondre à de nombreuses interrogations, donc fouiller, imaginer, chercher !
+
+#### Compétences Requises
+Etre capable de programmer et notamment la manipulation d'images.
+Etre imaginatif, aimer explorer ce que l'on ne connait pas, tester, réessayer ...
+
+
+#### Références
+
+  * Équipe: EA 1193
+  * [http://www.groupe-dupont.org/ColloqueGeopoint/Geopoint08/Resumes.htm](http://www.groupe-dupont.org/ColloqueGeopoint/Geopoint08/Resumes.htm)
+  * [http://books.google.fr/books/about/Les_objets_fractals.html?id=V6EUAQAAMAAJ&redir_esc=y](http://books.google.fr/books/about/Les_objets_fractals.html?id=V6EUAQAAMAAJ&redir_esc=y)
+  * [http://www.cairn.info/revue-espace-geographique-2010-2-page-97.htm](http://www.cairn.info/revue-espace-geographique-2010-2-page-97.htm)
+  * [http://cdlm.revues.org/6335](http://cdlm.revues.org/6335)
+
+#### Informations Administratives
+  * Contact : Eric Bailly <bailly@unice.fr>
+  * Identifiant sujet : `Y1415-S017`
+  * Type : Research
+  * Parcours Recommandés : GMD
+     

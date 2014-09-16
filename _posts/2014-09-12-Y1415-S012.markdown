@@ -1,0 +1,30 @@
+---
+layout: post
+title: "Apprentissage automatique pour le Big Data"
+date: 2014-09-12 20:00:39
+categories: [dispo, al, gmd, iam, web]
+pid: Y1415-S012
+type: Research
+contact: Lionel Fillatre
+---
+       
+La gestion et le traitement des données massives (« Big Data » en anglais) est désormais un enjeu majeur pour les entreprises et le monde académique. Le « Big Data » est un des 34 plans industriels lancés par le gouvernement le 12 septembre 2013. L’analyse des grands volumes de données s’appuie actuellement sur une architecture informatique dédiée nommé Hadoop. Pour effectuer des traitements avancés sur de grands volumes de données, cette architecture doit disposer d’algorithmes innovants et efficaces pour extraire des connaissances pertinentes à partir des données stockées. L’équipe MediaCoding du laboratoire I3S souhaite mettre au point une nouvelle technique en apprentissage automatique (« machine learning » en anglais) qui permet de classifier des données avec une très faible complexité numérique.
+
+L'objectif principal de ce PFE est de proposer une architecture Hadoop qui permette d’exploiter l’algorithme d’apprentissage à grande échelle actuellement développé par l’équipe MediaCoding. Les données traitées pourront concerner de nombreux domaines d’applications : e-santé, « large scale Image Recognition » [1], multimédia, profilage, etc. Le choix des données étudiées dépendre des compétences de l’étudiant. Le travail à réaliser consistera, dans un premier temps, à se familiariser avec le traitement des données massives (Hadoop notamment). Dans un second temps, il s’agira d’adapter l’algorithme de machine learning développé par l’équipe MediaCoding [2] aux architectures Big Data. L’étudiant devra notamment évaluer les performances (taux de classification, temps de traitement, etc.) de la solution proposée. Si la durée du projet le permet, l’architecture proposée pourra être déployée sur le cloud Amazon EC2.
+
+#### Compétences Requises
+L'étudiant doit bien évidemment être intéressé par le traitement des données massives et l’apprentissage automatique. Il doit connaître le langage Java et/ou C++.
+
+
+#### Références
+
+  * Équipe: Signal, Images et Systèmes
+  * [http://www.image-net.org/challenges/LSVRC/2014/](http://www.image-net.org/challenges/LSVRC/2014/)
+  * [http://hal.archives-ouvertes.fr/hal-00825414](http://hal.archives-ouvertes.fr/hal-00825414)
+
+#### Informations Administratives
+  * Contact : Lionel Fillatre <lionel.fillatre@i3s.unice.fr>
+  * Identifiant sujet : `Y1415-S012`
+  * Type : Research
+  * Parcours Recommandés : AL, GMD, IAM, WEB
+     

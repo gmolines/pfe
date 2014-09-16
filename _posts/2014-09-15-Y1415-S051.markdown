@@ -1,0 +1,61 @@
+---
+layout: post
+title: "Sélection Sémantique de Services pour Dispositif dans des Systèmes Ambiants"
+date: 2014-09-15 19:48:17
+categories: [dispo, al, iam, web]
+pid: Y1415-S051
+type: Research
+contact: Jean-Yves Tigli
+---
+       
+Co-encadreurs : Jean-Yves Tigli (Polytech, laboratoire I3S) et Olivier Corby (INRIA, équipe WIMMICS)
+
+Autre intervenant dans le projet : Stéphane Lavirotte (Polytech, laboratoire I3S)
+
+Les technologies de l’information et de la communication (TIC) s’immiscent chaque jour un peu plus dans notre quotidien. En témoignent le nombre important d’appareils, d’objets électroniques dits « connectés », qui peuplent notre environnement (Tablets, google glasses, appareils multimédias, TV, réveil, matelas, pèse personne, etc.).
+Les systèmes ambiants [1] apparaissent, composés d’une multitude de dispositifs sur les utilisateurs ou dans leur environnement immédiat offrant des fonctionnalités à travers des services logiciels.
+Les applications logicielles ambiantes doivent alors mettre en œuvre à chaque instant plusieurs services logiciels pour dispositifs, pour offrir des services de haut niveau attendus pas les utilisateurs.
+Or la mobilité des utilisateurs et les changements d’environnement immédiat nécessitent la mise en œuvre d’adaptations logicielles permanentes.
+Ces adaptations logicielles se font au travers des schémas d'adaptation logiciels qui permettent aux dispositifs de se configurer et de composer leurs fonctionnalités avec celles d'autres dispositifs.
+Les schémas d’adaptation logicielle sélectionnent pour cela et avant tout des dispositifs pertinents et  disponibles.
+Aujourd’hui de fortes hypothèses sont faites sur la description des services à sélectionner. En particulier, une grande partie de la connaissance sur les dispositifs disponibles est a priori connue du concepteur des applications et s’appuie sur le seul nommage des dispositifs (ex. Lampe333dusalon). 
+Dans le travail que nous proposons de réaliser dans le cadre de ce PFE, nous chercherons à introduire un mécanisme de sélection sémantique de dispositifs  s’appuyant sur des annotations fournies par les dispositifs et  des approches de traitement sémantique de données.
+Par exemple, la Lampe333, pourra apparaître dans l’environnement immédiat avec des annotations comme type : Lampe, localisation : salon, propriétaire : Bob. Une règle de sélection de dispositifs dans un schéma d’adaptation pourrait permettre la recherche d’un dispositif de  type=Lampe, localisation=salon du salon).
+Pour cela, nous utiliserons une base de connaissance (contenant des objets et leurs annotations) structurée selon une ontologie pour systèmes ambiants et leurs dispositifs. La gestion des connaissances et la sélection des dispositifs pertinents se feront grâce à des requêtes vers la base, tout en prenant en compte l’évolution permanente de l’ensemble des dispositifs disponibles et des objets de la base.
+Le travail attendu dans le cadre de ce projet consistera dans un premier temps, à étudier les ontologies existantes (ex. [2], [3]) pour systèmes ambiants et leur pertinence pour les objectifs du projet.
+Dans un second temps, nous chercherons des solutions aux problématiques de gestion de la base et des traitements sémantiques associés,  liées à l’apparition et disparition permanentes de dispositifs dans l’environnement immédiat. Il s’agira donc :
+-        la création, la disparition, l’évolution dynamiques des objets de la base de connaissance et la gestion permanent de sa cohérence
+-        Le déclenchement d’autres traitements sémantiques « optionnels » par anticipation suite aux modifications de la base. 
+Pour cela, nous nous aiderons des travaux réalisés dans le domaine du traitement sémantique des données et en particulier la gestion de leurs versions, de leur datation ([4]), de la gestion des flux de requêtes (ex. [5], [6]) dans une base.
+Ce projet pourra profiter d’une collaboration existante avec le Groupe Systèmes d'Information et de Surveillance du Centre de Recherche et Développement d’EDF à Chatoux. Des scénarios de mise en œuvre de services d’assistance aux agents d’intervention dans le contexte d’usines thermiques de production électrique, fournis par le centre, seront alors un moyen d’illustrer, de tester et de valider les résultats du projet.  
+
+Fonction  des résultats du projet, celui-ci pourra faire l'objet d'une poursuite en stage dans l'équipe RAINBOW et/ou EDF R&D Chatou.
+
+1.        Gaëlle Calvary, Thierry Delot, Florence Sèdes, Jean-Yves Tigli, editors. Computer Science and Ambient Intelligence, 335 pages, ISTE Ltd and Wiley & Sons Inc., March 2013, ISBN 978-1-84821-437-8, http://eu.wiley.com/WileyCDA/WileyTitle/productCd-1848214375.html
+
+2.        Semantically-Enabling the Web of Things: The W3C Semantic Sensor Network Ontology, Kerry Taylor, Michael Compton, Laurent Lefort, CSIRO ICT Centre,  5th eResearch Australasia Conference, 6-10 Nov 2011, Canberra Australia, http://eresearchau.files.wordpress.com/2012/06/74-semantically-enabling-the-web-of-things-the-w3c-semantic-sensor-network-ontology.pdf
+
+3.        Temporal RDF, Claudio Gutierrez, Carlos Hurtado,and Alejandro Vaisman, http://users.dcc.uchile.cl/~cgutierr/papers/temporalRDF.pdf
+
+4.         Enabling Query Technologies for the Semantic Sensor Web, Jean-Paul Calbimonte, Hoyoung Jeung, Óscar Corcho, Karl Aberer, International Journal Semantic Web Information System 8(1): 43-63 (2012), http://infoscience.epfl.ch/record/183971/files/Enabling-Query-Technologies-for-the-Semantic-Sensor-Web.pdf
+
+Les références payantes (livre) peuvent être mises à la disposition des étudiants intéressés par le projet.
+
+#### Compétences Requises
+développement logiciel
+
+
+#### Références
+
+  * Équipe: RAINBOW/WIMMICS
+  * [http://eu.wiley.com/WileyCDA/WileyTitle/productCd-1848214375.html](http://eu.wiley.com/WileyCDA/WileyTitle/productCd-1848214375.html)
+  * [http://eresearchau.files.wordpress.com/2012/06/74-semantically-enabling-the-web-of-things-the-w3c-semantic-sensor-network-ontology.pdf](http://eresearchau.files.wordpress.com/2012/06/74-semantically-enabling-the-web-of-things-the-w3c-semantic-sensor-network-ontology.pdf)
+  * [http://users.dcc.uchile.cl/~cgutierr/papers/temporalRDF.pdf](http://users.dcc.uchile.cl/~cgutierr/papers/temporalRDF.pdf)
+  * [http://infoscience.epfl.ch/record/183971/files/Enabling-Query-Technologies-for-the-Semantic-Sensor-Web.pdf](http://infoscience.epfl.ch/record/183971/files/Enabling-Query-Technologies-for-the-Semantic-Sensor-Web.pdf)
+
+#### Informations Administratives
+  * Contact : Jean-Yves Tigli <tigli@unice.fr>
+  * Identifiant sujet : `Y1415-S051`
+  * Type : Research
+  * Parcours Recommandés : AL, IAM, WEB
+     

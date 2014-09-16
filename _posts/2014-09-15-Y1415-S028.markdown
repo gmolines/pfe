@@ -1,0 +1,42 @@
+---
+layout: post
+title: "Conception d'un middleware big data pour l'algorithmique des grands graphes"
+date: 2014-09-15 11:39:21
+categories: [dispo, al, gmd, ihm]
+pid: Y1415-S028
+type: Engineering
+contact: Luc Hogie
+---
+       
+L'analyse des données massives extraites des interactions dans les réseaux sociaux ou de l'observation des systèmes naturels impose l'utilisation de systèmes distribués à plus ou moins grande échelle. Cette problématique a motivé l'utilisation de map/reduce (notamment Hadoop) dans de nombreux domaines. 
+
+Les données qui nous intéressent sont organisées sous forme de graphes. Malheureusement les infrastructures map/reduce sont peu adaptées au traitement de graphes : leurs modèles de programmation rendent le développement d'algorithmes ardu et leurs performances sont peu satisfaisante.
+
+Pour cela, les équipes de Recherche COATI et SCALE du laboratoire d'informatique de l'Université de Nice et de Inria travaillent au développement d'une plateforme logicielle big data spécialisée pour dans l'algorithmique distribuée pour les grands graphes.
+
+Développée depuis plusieurs mois, la plateforme est déjà opérationnelle mais nécessite un certain nombre d'améliorations.
+
+#### Compétences Requises
+excellente connaissance de Java
+bonnes notions du fonctionnement du réseau (couches OSI 3/4)
+
+
+#### Besoins Clients
+Le middleware est déjà opérationnel mais nécessite un certain nombre d'ajouts qui permettrons de mettre en valeur ses qualités. Notamment les points d'étude/développement possibles, aux choix des étudiants, sont :
+- développement d'une couche réseau basée sur UDP (pour le moment seul TCP est supporté)
+- conception et développement d'une interface graphique de monitoring
+- analyse de la performance du middleware et proposition d'améliorations
+- implémentation d'algorithmes distribués standards de graphes
+
+Dans tous les cas, le travail demandé consistera d'autant de modélisation que d'implémentation.
+
+#### Résultats Attendus
+Quelque soit la problématique choisie, le code source développé au cours PFE devra être de qualité suffisante pour être intégré à la plateforme puis ensuite être utilisée par les chercheurs et ingénieurs du laboratoire.
+     
+
+#### Informations Administratives
+  * Contact : Luc Hogie <luc.hogie@cnrs.fr>
+  * Identifiant sujet : `Y1415-S028`
+  * Type : Engineering
+  * Parcours Recommandés : AL, GMD, IHM
+     

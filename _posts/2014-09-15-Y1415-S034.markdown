@@ -1,0 +1,36 @@
+---
+layout: post
+title: "Calcul de “bonnes” décompositions de graphes"
+date: 2014-09-15 15:40:46
+categories: [dispo, caspar, web]
+pid: Y1415-S034
+type: Research
+contact: Nicolas NISSE
+---
+       
+Les décompositions linéaires (path-decomposition) de graphes sont un outil pour étudier la structure des graphes. Le principe est d’ordonner les sommets d’un graphe tout en minimisant une mesure de connexité. Cette mesure est la largeur de la décomposition. Plus précisemment, étant donné un ordre L = (v1,v2,...,vn) des sommets d’un graphe, la largeur associée est max{delta_i | 1<=i<=n}, avec delta_i le nombre de voisins (sommets adjacents) de {v1...vi} dans {v(i+1)...vn}. Le problème est de trouver un ordre avec la plus petite largeur possible.
+Durant les dernières années, les décompositions de graphes ont été beaucoup étudiées pour leurs applications algorithmiques. (conception d’algorithmes, conception VLSI, dessin de
+graphes, ou probl`emes de routage dans les r´eseaux).
+
+Ainsi, le calcul de bons ordres linéaires est un défi important dans la communauté algorithmique. Malheureusement, les problèmes que nous considérons sont difficiles (NP-hard). Nous proposons d’étudier et d’implémenter des algorithmes efficaces pour le calcul d’ordre linéaires et des décompositions correspondantes. (1) La première étape est de se familiariser avec la notion de décompositions de graphes et de bien comprendre l’algorithme propos´e dans [Coudert+14]. Ce dernier permet le calcul de décompositions pour des graphes jusqu’`a 70-80 sommets, mais ne donne que des bornes supérieures au delà. (2) Puis, l’étudiant devra implémenter (de préférence en Python, Cython ou C) des algorithmes existant simples pour le calcul de bornes inférieures et supérieures. Ceci permettra d’évaluer la qualité des solutions calculées par l’algorithme de [Coudert+14]. (3) l’algorithme dans [Coudert+14] est basé sur un ordre initial des sommets (qui pour le moment est aléatoire). Il s’agira d’étudier l’influence de cet ordre sur la qualité de la solution obtenue en un temps donné. En particulier, on s’attachera à des ordres classiques des sommets d’un graphe: BFS, DFS, LexBFS...
+
+[Coudert+14] D. Coudert, D. Mazauric et N. Nisse, Experimental Evaluation of a Branch and Bound
+Algorithm for Computing Pathwidth. SEA 2014: 46-58
+
+#### Compétences Requises
+bases de théorie des graphes et d’algorithmique, notions de complexité, programmation Python ou C
+
+
+#### Références
+
+  * Équipe: COATI
+  * [http://hal.inria.fr/hal-00943549](http://hal.inria.fr/hal-00943549)
+  * [http://www.sciencedirect.com/science/article/pii/S0304397597002284](http://www.sciencedirect.com/science/article/pii/S0304397597002284)
+  * [http://www.google.fr/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&cad=rja&uact=8&ved=0CDUQFjAB&url=ftp%3A%2F%2Fftp-sop.inria.fr%2Fcoati%2Fpersonnel%2FStephane.Perennes%2FDPS02.pdf&ei=U-wWVJ_ED8S3O76mgcAE&usg=AFQjCNGbRALst_y6TOYvf8c5I_gsS-kHNQ&sig2=t0B3THYti9p5d4Woa8z93w&bvm=bv.75097201,d.ZWU](http://www.google.fr/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&cad=rja&uact=8&ved=0CDUQFjAB&url=ftp%3A%2F%2Fftp-sop.inria.fr%2Fcoati%2Fpersonnel%2FStephane.Perennes%2FDPS02.pdf&ei=U-wWVJ_ED8S3O76mgcAE&usg=AFQjCNGbRALst_y6TOYvf8c5I_gsS-kHNQ&sig2=t0B3THYti9p5d4Woa8z93w&bvm=bv.75097201,d.ZWU)
+
+#### Informations Administratives
+  * Contact : Nicolas NISSE <nicolas.nisse@inria.fr>
+  * Identifiant sujet : `Y1415-S034`
+  * Type : Research
+  * Parcours Recommandés : CASPAR, WEB
+     

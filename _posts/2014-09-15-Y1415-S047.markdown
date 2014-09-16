@@ -1,0 +1,47 @@
+---
+layout: post
+title: "Extension de la gestion du Layout de VisuLab pour permettre la construction de tableaux de bord destinés à des supports variés"
+date: 2014-09-15 18:49:00
+categories: [dispo, ihm]
+pid: Y1415-S047
+type: Engineering
+contact: Philippe Renevier-Gonin
+---
+       
+Dans l’équipe RAINBOW, nous avons une bibliothèque nommée VisuLab qui permet de construire des Tableaux de bord pour permettre la visualisation de données. Nous proposons plusieurs sujets en lien avec ces travaux.
+
+La bibliothèque VisuLab comprend un mécanisme basé sur des Layouts et des LayoutElements permettant d’organiser en terme de positionnement spatial les visualisations d’un tableau de bord. Un certain nombre de Layout ont été développé mais reste cependant limité en terme de précision de positionnement. Ainsi les layout actuels ne permettent pas une réelle utilisabilité sur des supports tels que les tablettes, smartphones ou grandes surfaces.
+
+Objectifs :
+Etendre la bibliothèque actuelle pour prendre en compte les tailles de dispositifs visés, limiter si nécessaire le type de visualisations possibles en fonction du dispositif visé, limiter si nécessaire en nombre, les visualisations en fonction du dispositif, prendre en compte la taille des visualisations et aller vers un Layout prenant en compte les différentes tailles et les paramètres voulus par l’utilisateur qui construit son tableau de bord.
+
+#### Compétences Requises
+Liés aux enseignements IHM:
+- Conception et évaluation des IHM
+- Adaptation des interfaces à l'environnement
+
+
+#### Besoins Clients
+Pistes :
+
+Se rapprocher des travaux sur les Layouts, la plasticité pour étendre les fonctionnalités existantes.
+
+Identifier des Use Case pour les dispositifs cibles
+
+Démarche :
+
+Ce sujet nécessite d’étudier la construction existante d’un Layout dans la bibliothèque VisuLab. Il nécessite d’étudier l’existant dans les différents kit de développement qu’ils soient mobiles, surfaces tactiles ou encore dans le monde du web.
+
+#### Résultats Attendus
+- Etude de l'existant
+- Description des besoins des concepteurs de la bibliothèque
+- Maquettage/prototypage de la solution
+- Intégration de la solution dans la bibliothèque
+     
+
+#### Informations Administratives
+  * Contact : Philippe Renevier-Gonin <philippe.renevier@unice.fr>
+  * Identifiant sujet : `Y1415-S047`
+  * Type : Engineering
+  * Parcours Recommandés : IHM
+     

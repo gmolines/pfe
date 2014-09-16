@@ -1,0 +1,41 @@
+---
+layout: post
+title: "Aide au diagnostic pour la vérification de programmes"
+date: 2014-09-13 09:30:06
+categories: [dispo, al, ihm]
+pid: Y1415-S013
+type: Engineering
+contact: Hélène Collavizza
+---
+       
+Contexte
+Valider le logiciel est primordial et peut représenter jusqu'à 70% du temps de conception. Dans l'équipe CeV (Contraintes et Vérification) nous développons un outil basé sur la programmation par contraintes pour la vérification des programmes Java annotés avec des spécifications JML (Java Modeling Language http://www.eecs.ucf.edu/~leavens/JML//index.shtml). En cas de non conformité, nos outils fournissent un contre-exemple c'est à dire des valeurs d'entrées pour lesquelles le programme est incorrect. Actuellement, nous nous intéressons à la localisation des erreurs c'est à dire à identifier dans le programme quelles sont les instructions dans le code qui ont causé l'erreur.
+Objectif
+L'objectif de ce stage est de créer un pluggin eclipse pour l'aide au diagnostic des erreurs dans un programme. Dans un premier temps, il s'agira de mettre en évidence de façon graphique les parties suspectes du code.  On s'inspirera de l'analyseur intégré à l'IDE eclipse qui souligne en rouge les erreurs de compilation. Dans un second temps, on réfléchira à une interaction avec le programmeur pour l'aider à localiser plus précisément l'erreur. En effet, les outils de localisation d'erreurs fournissent en général un trop grand nombre d'instructions suspectes, et l'interaction avec l'utilisateur permettra d'affiner la localisation.
+
+#### Compétences Requises
+- savoir étendre une architecture contenant un code Java conséquent et des appels à différents outils externes.
+- être à l'aise en compilation pour pouvoir facilement utiliser l'analyseur JDT d'eclipse  http://www.eclipse.org/jdt/ qui construit un arbre de syntaxe abstraite à partir d'un code source Java.
+- se poser les bonnes questions et se mettre dans le rôle d'un programmeur qui recherche des erreurs dans son code afin de proposer une interaction qui permette de détecter au plus vite l'erreur effective parmi un ensemble d'erreurs possibles.
+- curiosité et bonne humeur
+
+
+#### Besoins Clients
+Besoins : 
+j'ai écrit un programme et ses spécifications, je me rends compte que mon programme ne répond pas à la spécification attendue, je voudrais un outil qui m'aide à trouver où est l'erreur dans le programme.
+Pistes :
+Je connais des outils qui fournissent des diagnostics mais ils donnent trop de possibilités et je voudrais que l'on me guide pour trouver au plus vite l'erreur. Un affichage graphique des erreurs dans le code source pourrait m'aider. Et pourquoi pas suivre le chemin de l'erreur en déviant une ou plusieurs conditions dans le programme ?
+
+#### Résultats Attendus
+- livrable 1 ; étant donné un programme et une liste de numéros de lignes dans ce programme, mettre en évidence de façon graphique ces instructions dans le code source java, grâce à un plugin eclipse 
+- livrable 2 : étant donné un programme contenant une erreur, lancer les outils de localisation d'erreur pour récupérer plusieurs listes d'instructions suspectes et les mettre en évidence de façon graphique dans le code source java 
+- livrable 3 : au lieu d'afficher la totalité des instructions suspectes, avancer pas à pas dans le programme en présentant les instructions suspectes au fur et à mesure et en demandant à l'utilisateur quel chemin il veut prendre dans le programme (i.e. sur un branchement ou une boucle, veut-il prendre la partie if, la partie else, entrer ou non dans la boucle ...)
+- livrable 4 : définir des critères qui permettraient d'aider l'utilisateur à explorer une branche plutôt qu'une autre dans l'outil défini dans le livrable 3
+     
+
+#### Informations Administratives
+  * Contact : Hélène Collavizza <helen@polytech.unice.fr>
+  * Identifiant sujet : `Y1415-S013`
+  * Type : Engineering
+  * Parcours Recommandés : AL, IHM
+     

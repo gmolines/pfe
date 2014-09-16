@@ -1,0 +1,47 @@
+---
+layout: post
+title: "Génération d'objectifs par des agents intelligents"
+date: 2014-09-14 23:36:07
+categories: [dispo, web]
+pid: Y1415-S018
+type: Engineering
+contact: Célia Da Costa Pereira
+---
+       
+Les chercheurs dans le domaine des systèmes multi-agents sont de plus en plus conscients de l'importance de l'intégration du processus de génération d'objectifs lors de la représentation des capacités d'un agent intelligent. En effet, l'idée de fixer les objectifs d'un agent a priori est valide seulement lorsque les composantes du système dans lequel agit l'agent ne varient pas au cours du temps, i.e., lorsque le cadre considéré est statique. Dans la plupart des problèmes réels, ces composantes évoluent et, par conséquent, l'agent devrait aussi reconsidérer (réviser) ses croyances avant de regénérer ses objectifs pour que ces derniers soient adaptés à la nouvelle situation. 
+
+
+Le but de ce projet de fin d'études est d'implémenter un ensemble d'algorithmes déjà proposés en littérature qui permettent, d'une part de mettre à jour les croyances d'un agent sur la base des nouvelles informations et, d'autre part, étant donnés les croyances de l'agent et un ensemble de règles de raisonnement, de générer les objectifs pertinents.  
+
+Un prototype écrit en Java qui implémente la partie révision des croyances et une version simplifiée du processus de génération des objectifs existe déjà [1]. Le but du projet est d'étendre et de compléter ce prototype en réalisant tous les algorithmes proposés en littérature.
+
+#### Compétences Requises
+Bonne connaissance du langage Java.
+
+
+#### Besoins Clients
+Travail demandé :
+- prise en main du logiciel existant ;
+- extension du module de révision de croyances afin de réaliser les opérateurs hybrides décrits en littérature [2, 3];
+- réalisation de l'algorithme de génération des objectifs décrit en [4].
+ 
+Bibliographie
+
+1. Célia da Costa Pereira, Andrea G. B. Tettamanzi: A syntactic possibilistic belief change operator: Theory and empirical study. Web Intelligence and Agent Systems 12(2): 155-169 (2014).				
+2. Salem Benferhat, Célia da Costa Pereira, Andrea Tettamanzi: Hybrid Possibilistic Conditioning for Revision under Weighted Inputs. ECAI 2012: 151-156.
+3. Salem Benferhat, Célia da Costa Pereira, Andrea G. B. Tettamanzi: Syntactic Computation of Hybrid Possibilistic Conditioning under Uncertain Inputs. IJCAI 2013.
+4. Célia da Costa Pereira, Andrea G. B. Tettamanzi: Syntactic Possibilistic Goal Generation. ECAI 2014: 711-716. 
+
+Contact : Célia da Costa Pereira, Andrea Tettamanzi, labratoire I3S.
+E-Mail : celia.pereira@unice.fr ; andrea.tettamanzi@unice.fr
+
+#### Résultats Attendus
+Un logiciel réalisant les algorithmes proposés en littérature.
+     
+
+#### Informations Administratives
+  * Contact : Célia Da Costa Pereira <celia.pereira@unice.fr>
+  * Identifiant sujet : `Y1415-S018`
+  * Type : Engineering
+  * Parcours Recommandés : WEB
+     

@@ -1,0 +1,50 @@
+---
+layout: post
+title: "Bibliothèques d’exemples d’utilisation de VisuLab pour la création de tableaux de bord de visualisation de données"
+date: 2014-09-15 18:58:08
+categories: [dispo, ihm]
+pid: Y1415-S048
+type: Engineering
+contact: Audrey Occello
+---
+       
+Sujet disponible sur : http://atelierihm.unice.fr/enseignements/sujets-de-pfe
+
+Dans l’équipe RAINBOW, nous avons une bibliothèque nommée VisuLab qui permet de construire des Tableaux de bord pour permettre la visualisation de données. Nous proposons plusieurs sujets en lien avec ces travaux.
+
+L’outil VisuLab n’est qu’une Bibliothèque. Elle est actuellement utilisée pour visualiser les données issus de capteurs tel que ceux du projet SmartCampus, mais aussi des résultats de recherche en apprentissage de données ou encore des données issus de capteurs médicaux. Il est important d’augmenter la base d’exemples et de la documenter à partir de scénari utiles afin d’une part de valider la bibliothèque et d’autre part d’interagir avec de futurs partenaires.
+
+Objectifs :
+
+Valider la bibliothèque actuelle au travers d’exemples pertinents et utiles.
+
+#### Compétences Requises
+- Conception et évaluation des IHM
+- Adaptation des interfaces à l'environnement
+- Interfaces tactiles et interfaces réparties sur plusieurs supports
+
+
+#### Besoins Clients
+Pistes :
+
+-Prendre en main la bibliothèque au travers des exemples existants
+-Identifier de nouveaux exemples pertinents
+-Les implémenter en utilisant VisuLab
+
+Démarche :
+
+Ce sujet implique une étude de l’existant afin d’identifier des scenari utiles. L’identification des scenari les plus pertinents par rapports aux fonctionnalités devra se faire en ayant une démarche centrée utilisateur avec les concepteurs de la bibliothèque. L’étude permettra de valider la bibliothèque mais aussi de mettre en avant les différents points à  renforcer afin d’augmenter les possibilités en visualisations de données de la bibliothèque VisuLab.
+
+#### Résultats Attendus
+- Etude utilisateur
+- Description des scenarii si possible de manière catégoriser
+- Maquettage/Prototypage des différents scenarii
+- Développement des différents scenarii en utilisant la bibliothèque VisuLab
+     
+
+#### Informations Administratives
+  * Contact : Audrey Occello <occello@polytech.unice.fr>
+  * Identifiant sujet : `Y1415-S048`
+  * Type : Engineering
+  * Parcours Recommandés : IHM
+     

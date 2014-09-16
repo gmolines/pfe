@@ -1,0 +1,36 @@
+---
+layout: post
+title: "Réalisation et annotation d'un jeu de données multi-Kinect pour de la reconnaissance d'actions en temps réel"
+date: 2014-09-15 21:57:41
+categories: [dispo, gmd, web]
+pid: Y1415-S052
+type: Engineering
+contact: Christel Dartigues-Pallez
+---
+       
+Encadrants: Christel Dartigues-Pallez, Frédéric Precioso, Equipe MinD, Laboratoire I3S
+Dans la cadre de ses travaux sur l'apprentissage, l'équipe MinD travaille sur la reconnaissance d'actions en temps réel à partir d'un flux vidéo + profondeur capté par une Kinect. Notre système est déjà capable de reconnaitre un ensemble de positions fixes (assis main levée, debout mains baissées, etc.) ainsi qu'un ensemble d'actions plus complexes (boire, parler au téléphone, travailler sur un ordinateur). La technique que nous utilisons pour cela est basée sur un algorithme classique de Random Forest (forêts aléatoires de décision). Les recherches actuelles s'orientent vers de la reconnaissance d'actions à partie de plusieurs flux vidéos.
+L'objectif de ce PFE ingénieur est, à l'aide de plusieurs Kinect, de créer des scénarios mettant en scène des actions pré-définies (boire, téléphoner, travailler sur l'ordinateur, écrre au tableau, etc.) filmées par plusieurs Kinects. Le challenge sera ici multiple: créer des scénarii, utiliser plusieurs Kinects pour les filmer, synchroniser les flux vidéo des Kinects, élaborer un outil d'annotation automatisé de séquences vidéos. En fonction de la vitesse de résolution des problèmes précédents, il sera également envisagé d'utilisé des algorithmes d'apprentissages sur les flux vidéos pour apprendre les actions spécifiques. Les résultats de cette approche pourront être directement comparés à ceux de notre approche actuelle qui fait la même chose avec une seule Kinect. Une extension souhaitée de ce travail sera de rendre publique le jeu de données généré afin que la communauté scientifique puisse l'utiliser à titre de comparaison.
+
+#### Compétences Requises
+Ce projet de fin d'études nécessite des connaissances dans les algorithmes d'apprentissage ainsi que les qualités inhérentes à une activité de recherche: esprit d'initiative, autonomie, force de proposition.
+
+
+#### Besoins Clients
+L'équipe MinD souhaite disposer d'un jeu de données constitué de flux vidéos illustrant différentes actions telles que boire, téléphoner, travailler sur un ordinateur, écrire au tableau, etc. Ces différents flux vidéo doivent ensuite être synchronisés. Une fois les différentes vidéos synchronisées, elles devront être annotés en fonction des actions qui y seront filmées. Un algorithme d'apprentissage pourra ensuite être utilisé afin de reconnaitre les actions.
+
+#### Résultats Attendus
+- Élaboration d'un ensemble de scenarii correspondant aux actions qui vont être étudiées
+- Ensemble de flux vidéos correspondant aux précédents scenarii en utilisant des Kinects
+- Méthode de synchronisation des flux vidéo des différentes Kinects utilisées
+- Méthode d'annotation de séquences vidéo
+- Optionnel: implémentation d'une méthode d'apprentissage
+- Optionnel: comparaison des perfrmances de la méthode d'apprentissage implémentée par rapport à une méthode d'apprentissage utilisant le flux vidéo d'une seule Kinect
+     
+
+#### Informations Administratives
+  * Contact : Christel Dartigues-Pallez <Christel.DARTIGUES-PALLEZ@unice.fr>
+  * Identifiant sujet : `Y1415-S052`
+  * Type : Engineering
+  * Parcours Recommandés : GMD, WEB
+     

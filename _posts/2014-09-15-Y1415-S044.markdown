@@ -1,0 +1,41 @@
+---
+layout: post
+title: "Aide à la mise en place d’ateliers pour personnes atteintes d’Alzheimer"
+date: 2014-09-15 17:57:42
+categories: [dispo, ihm]
+pid: Y1415-S044
+type: Engineering
+contact: Anne-Marie Dery-Pinna
+---
+       
+Ce sujet vous est proposé dans le cadre d’une coopération que le projet RAINBOW a avec le Centre d’Accueil de jour pour personnes atteintes d’Alzheimer (http://www.accueil-alzheimer.fr/) 
+
+Les animatrices d’atelier (neuropsychologues et psychomotriciennes) ont besoin d’outils qui leur permettent de mettre plus facilement en place les ateliers participatifs proposés au centre.  Ces ateliers doivent permettre aux personnes atteintes d’Alzheimer de travailler la mémoire et les repères dans l’espace.
+
+Ces ateliers concernent simultanément entre 5 et 10 accueillis. Même si l’atelier est commun, il est important de personnaliser l’interaction avec chacun d’entre eux. Nombre de ces ateliers peuvent être construits à partit de photos ou d’objets du quotidien familiers aux accueillis.
+
+Les premières discussions avec les animatrices d’atelier ont déjà mis en évidence les points suivants :
+
+a.  il serait intéressant de mettre en place une base de photos/sons/vidéos facilement extensible avec l’aide des familles ou des personnels de soins à domicile.
+b.   il faudrait pouvoir annoter les données pour faciliter leur consultation et la recherche d’éléments pour l’activité.
+c.  il faudrait permettre de construire à partir de ces données des planches de travail à imprimer ou à utiliser via un support informatique.
+
+#### Compétences Requises
+Suivre e cours de CEIHM et être à l'aise avec le développement d'IHM
+
+
+#### Besoins Clients
+Ce sujet implique une démarche centrée utilisateurs comprenant une analyse des besoins auprès des personnes concernées, la mise en place de POC (proofs of concepts; preuves de concepts) qui doivent être évaluées par les futurs utilisateurs  et la mise en place au centre d’un outil utilisable pour au moins un type d’activités.
+
+Les étudiants devront rencontrer les animatrices et observer des ateliers pour avoir une bonne idée des types d'activités qui seront utiles et accessible à ce public.
+
+#### Résultats Attendus
+Dans le cadre de la démarche centrée utilisateur plusieurs livrables sont donc attendus : le modèle des utilisateurs, l'analyse des besoins, la description des tâches, la mise en place d'un POC et a mise en œuvre d'un premier outil de création d'ateliers facilement extensible.
+     
+
+#### Informations Administratives
+  * Contact : Anne-Marie Dery-Pinna <pinna@polytech.unice.fr>
+  * Identifiant sujet : `Y1415-S044`
+  * Type : Engineering
+  * Parcours Recommandés : IHM
+     

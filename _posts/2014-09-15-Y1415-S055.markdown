@@ -1,0 +1,33 @@
+---
+layout: post
+title: "ATLAS: Langage d’interaction avec les outils Atlassian"
+date: 2014-09-15 22:16:27
+categories: [dispo, al]
+pid: Y1415-S055
+type: Engineering
+contact: Sébastien Mosser
+---
+       
+Atlassian est un éditeur logiciel proposant des outils de génie logiciel en support au cycle de développement : suivi de tickets, gestion de versions, intégration continue, … Leurs produits (Jira, Bamboo, Stash, …) sont leaders mondiaux du domaine, et intensivement déployés en industrie. Ces outils fonctionnent en couplage lâche: les systèmes sont indépendants les uns des autres, et reposent sur le partage de données (e.g., les projets utilisent la même clé, les utilisateurs le même login, …). Ainsi, on peut utiliser les outils de manière indépendante. Mais le prix à payer est une configuration fastidieuse et répétitive.
+
+Ce projet se propose de créer un langage spécifique à la configuration des outils d’Atlassian. Plutôt que d’utiliser les interfaces web de configuration de chaque outil, un administrateur pourra configurer ses besoins dans un langage, et utiliser un outil qui mettra à jour automatiquement les outils déployés en production.
+
+#### Compétences Requises
+un goût pour la modélisation et le développement logiciel pour la partie langage, et des connaissances en applications réparties et services (SOAP, REST) pour l’interaction avec les outils.
+
+
+#### Besoins Clients
+Dans ce langage, il sera possible de déclarer les utilisateurs, les projets, les attentes pour chaque projet vis à vis des outils (e.g., “besoin d’un gestionnaire de version en lecture écriture pour les développeurs et en lecture seule pour le client”). Le langage disposera d’un interprète qui communiquera avec les outils déployés pour mettre à jour les outils de manière cohérente. Les outils étant déployés au sein de Polytech, l’exemple de gestion de promotions sera utilisé comme validation.
+
+#### Résultats Attendus
+* Une étude des capacités de chaque outil Atlassian (au minimum Jira pour le suivi de tickets, Stash pour la gestion de version, Bamboo pour l’intégration continue et Fisheye pour l’exploration de code source).
+  * Un langage exploitant ces capacités couplé à un interprète permettant leur mise en oeuvre.
+  * Une bibliothèque d’exemples, issue de cas d’étude réels.
+     
+
+#### Informations Administratives
+  * Contact : Sébastien Mosser <mosser@i3s.unice.fr>
+  * Identifiant sujet : `Y1415-S055`
+  * Type : Engineering
+  * Parcours Recommandés : AL
+     

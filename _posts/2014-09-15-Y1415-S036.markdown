@@ -1,0 +1,54 @@
+---
+layout: post
+title: "Étude préalable à la refonte technique de la plateforme d'enseignement en ligne JALON"
+date: 2014-09-15 16:23:51
+categories: [dispo, al, web]
+pid: Y1415-S036
+type: Engineering
+contact: Philippe Pomédio
+---
+       
+JALON est une plate-forme open-source d'enseignement en ligne, développée par les équipes de l'UNS, reposant dans sa version actuelle sur l'environnement Zope/Plone.
+
+Le projet proposé s'inscrit dans la démarche d'évolution du produit vers un environnement technique centré sur un framework MVC dédié Web/WebServices. Cette opération d'évolution a pour objectifs :
+
+* D'assurer une interopérabilité entre JALON et les principales plateformes de MOOC
+* De formuler des propositions visant à étendre JALON avec les fonctionnalités typiques d'une plateforme de MOOC.
+
+Ces objectifs se déclinent de la façon suivante :
+* Recenser les modules fonctionnels d'une plate-forme d'enseignement en ligne et en produire la cartographie
+* Élaborer une modélisation des données persistantes
+* Concevoir une architecture modulaire adaptée au cadre technique retenu (langage orienté objet et framework MVC dédié Web/WebServices).
+
+#### Compétences Requises
+* Capacités d'analyse et de synthèse
+* Maîtrise du langage de modélisation UML
+* Experience en développement orienté objet
+* Organisé, rigoureux
+* Capacités d’écoute
+
+
+#### Besoins Clients
+// cf description générale du projet.
+Pistes :
+
+* Réaliser une étude de l'existant (Jalon dans sa version actuelle) en formulant des pistes d'évolution s'appuyant notamment sur les fonctionnalités des principales plateformes d'enseignement à distance et de Mooc. (point : "Recenser les modules fonctionnels d'une plate-forme d'enseignement en ligne et en produire la cartographie")
+
+* La maîtrise d'ouvrage ne souhaite pas limiter l'architecture cible aux BDD relationnelles. (point "Élaborer une modélisation des données persistantes")
+
+#### Résultats Attendus
+// cf description générale du projet.
+Livrables attendus : 
+* Cartographie des modules fonctionnels d'une plate-forme d'enseignement en ligne ouverte.
+
+* Modélisation (schema UML et description) des données persistantes
+
+* Concevoir une architecture modulaire (schema UML et description) adaptée au cadre technique retenu (langage orienté objet et framework MVC dédié Web/WebServices).
+     
+
+#### Informations Administratives
+  * Contact : Philippe Pomédio <philippe.pomedio@unice.fr>
+  * Identifiant sujet : `Y1415-S036`
+  * Type : Engineering
+  * Parcours Recommandés : AL, WEB
+     

@@ -1,0 +1,32 @@
+---
+layout: post
+title: "Et si l'utilisateur reprenait le contrôle des systèmes adaptatif ?"
+date: 2014-09-12 15:19:16
+categories: [dispo, iam, ihm]
+pid: Y1415-S010
+type: Research
+contact: Gaëtan Rey
+---
+       
+Nous entrons actuellement dans l’ère de l’informatique ambiante dans laquelle les objets du quotidien deviennent des dispositifs connectés. De nombreux travaux de recherche mais également industriels visent à collecter et utiliser les données de ces dispositifs pour adapter leur fonctionnement au profit de l'utilisateur. On trouve notamment le projet CONTINUUM (CONTinuté de service en Informatique UbiqUitaire et Mobile) du laboratoire I3S qui traite du problème de la continuité de service en informatique ambiante et qui a mis en œuvre ses résultats sur les métiers des travailleurs mobiles en partenariat avec Suez Environnement et Lyonnaise des eaux. D'autres acteurs industriels (comme par exemple EDF R&D, ...) s'intéressent également à ctte problématique.
+
+Cependant, aussi efficaces soient ils, ces systèmes d’adaptation au contexte (environnement, ...) ne sont pas parfait du point de vu de l'utilisateur final. Le but de ce PFE sera d'étudier les approches de type End-User-Programming et End-User-Development pour permettre à des utilisateurs non expert  de contrôler ses applications. C'est à dire lui permettre de configurer à différents niveaux les mécanismes d'adaptations ainsi que les dispositifs utilisés.
+
+#### Compétences Requises
+-> savoir travailler en autonomie
+-> être intéressé par la recherche ou vouloir s'y initier
+
+
+#### Références
+
+  * Équipe: Rainbow
+  * [http://delivery.acm.org/10.1145/1130000/1125472/p75-myers.pdf?ip=138.96.18.16&id=1125472&acc=ACTIVE%20SERVICE&key=7EBF6E77E86B478F.C083A567C83E14C8.4D4702B0C3E38B35.4D4702B0C3E38B35&CFID=424587985&CFTOKEN=93769508&__acm__=1410525688_d3240687d28954629a9ddf0c48eb4f79](http://delivery.acm.org/10.1145/1130000/1125472/p75-myers.pdf?ip=138.96.18.16&id=1125472&acc=ACTIVE%20SERVICE&key=7EBF6E77E86B478F.C083A567C83E14C8.4D4702B0C3E38B35.4D4702B0C3E38B35&CFID=424587985&CFTOKEN=93769508&__acm__=1410525688_d3240687d28954629a9ddf0c48eb4f79)
+  * [http://continuum.unice.fr/_media/livrables:t2.1_2.2_modelisation_du_contexte_et_adaptation.pdf](http://continuum.unice.fr/_media/livrables:t2.1_2.2_modelisation_du_contexte_et_adaptation.pdf)
+  * [http://iihm.imag.fr/publs/2012/THESE_Fontaine_Emeric.pdf](http://iihm.imag.fr/publs/2012/THESE_Fontaine_Emeric.pdf)
+
+#### Informations Administratives
+  * Contact : Gaëtan Rey <Gaetan.Rey@unice.fr>
+  * Identifiant sujet : `Y1415-S010`
+  * Type : Research
+  * Parcours Recommandés : IAM, IHM
+     

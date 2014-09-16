@@ -1,0 +1,42 @@
+---
+layout: post
+title: "Plate-forme générique logicielle-matérielle pour objets connectés"
+date: 2014-09-15 13:20:32
+categories: [dispo, iam]
+pid: Y1415-S031
+type: Engineering
+contact: Stéphane Lavirotte
+---
+       
+Stéphane Lavirotte et Jean-Yves Tigli : Equipe Rainbow, Laboratoire I3S
+
+De multiples objets connectés arrivent actuellement sur le marché. Mais de nouveaux usages restent à explorer faisant émerger la nécessité de disposer d’un environnement de prototypage rapide tant matériel que logiciel pour la mise au point de nouveaux objets connectés et l’étude de nouveaux usages.
+Les possibilités de plates-formes matérielles et de boîtes à outils logicielles sont très nombreuses pour la réalisation de tels prototypes. Ces plates-formes sont de plus ou moins avancées technologiquement : depuis des plates-formes à base de microcontrôleur, jusqu’à des plates-formes embarquant un microprocesseur, des performances de calcul et une capacité de stockage très confortable (par exemple, Raspberry Pi). D’autre part, la variété des capteurs et des actionneurs connectable à de telles plates-formes va permettre d’exprimer de nombreux cas d’utilisation non anticipables lors de la conception de la solution.
+L’objectif de ce projet est de faire une étude des différentes solutions existantes sur le marché permettant de réaliser des prototypes de nouveaux objets connectés. Cette étude devra porter tant sur les plates-formes en elles-mêmes que sur la diversité des capteurs que l’on peut y connecter, la facilité de mise en œuvre et d’utilisation, mais aussi sur les contraintes technologiques (autonomie des capteurs, connectivité sans fil, …).
+
+#### Compétences Requises
+Les compétences attendues pour traiter ce sujet sont :
+-	Capacité à apprendre de nouveaux outils ou environnements de développement
+-	Capacité à prendre en main et à tester des solutions matérielles (plates-formes et capteurs)
+-	Des compétences personnelles comme : initiative et force de proposition, autonomie dans le travail, sens de l’organisation, rigueur et méthodologie de développement et d’évaluation des résultats, …
+
+
+#### Besoins Clients
+La solution retenue devra tenir compte de la facilité d’utilisation du kit et de la diversité des solutions que ce kit pourra créer. On veillera en particulier à la mise en place d’une solution générique permettant de réaliser un prototypage avec un développement de code minimum et une facilité de mise en œuvre (pas de solution ad hoc pour chaque type de capteur à connecter). 
+Une reconnaissance automatique du type de capteur connecté sera à étudier.
+L’évaluation de la solution reposera sur la rapidité et la facilité de mise en œuvre. L’idéal est d’arriver à une solution de type plug and play des capteurs sans avoir à développer un quelconque code pour l’intégration de ce capteur ou actionneur dans le prototype d’objet connecté.
+Des solutions matérielles particulière seront proposées et devront être testées.
+
+#### Résultats Attendus
+- Une étude des différentes solutions existantes pour les plates-formes, les capteurs et actionneurs aux regards de critères comme : pour les plate-forme : la capacité de calcul, de stockage et de mise en œuvre logicielle ; et pour les capteurs actionneurs : les caractéristiques de réutilisation des capteurs sur différentes plates-formes, les modes de communication, l’autonomie des capteurs, …
+- Cette étude devra déboucher sur une mise en œuvre d’un kit matériel/logiciel pour le prototypage d’objets connectés
+- La rédaction d’un rapport sur l’analyse des performances et d’une documentation pour la mise en œuvre du kit est attendue en fin de projet
+- Un démonstrateur devra être mis en place utilisant le kit proposé. Ce démonstrateur devra mettre en avant les avantages de la solution proposée.
+     
+
+#### Informations Administratives
+  * Contact : Stéphane Lavirotte <stephane.lavirotte@unice.fr>
+  * Identifiant sujet : `Y1415-S031`
+  * Type : Engineering
+  * Parcours Recommandés : IAM
+     

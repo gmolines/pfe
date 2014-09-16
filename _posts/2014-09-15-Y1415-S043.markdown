@@ -1,0 +1,51 @@
+---
+layout: post
+title: "Intégrer et enrichir les métadonnées des collections du patrimoine culturel grâce au web de données."
+date: 2014-09-15 17:51:28
+categories: [dispo, web]
+pid: Y1415-S043
+type: Research
+contact: Catherine Faron-Zucker
+---
+       
+L'entrepôt virtuel "Archivio Nuova Scrittura" contient une collection d'œuvres d'art actuellement détenues par deux musées italiens (MART a Rovereto et MUSEION a Bolzano). Il s'agit d'un dépôt d'environ 1000 enregistrements numériques d'œuvres d'art décrites par une image, un ensemble de métadonnées (auteur, année, lieu, technique, etc), et du texte libre.
+Plusieurs institutions du patrimoine culturel commencent à explorer la valeur ajoutée de partager leurs données [1][2], de les ouvrir aux initiatives qui utilisent le nuage de Données Ouvertes (Linked Data Cloud) pour intégrer et enrichir les métadonnées des collections du patrimoine culturel. Dans cette direction, l'objectif du PFE est de transformer l'accès aux documents en
+fournissant des informations culturelles (par exemple, les annonces d'événements, les descriptions des artistes, etc.) en ajoutant des données liées compréhensibles par les machines et leur représentation sémantique basée sur les ontologies.
+Cela permettrait aux utilisateurs de formuler des requêtes beaucoup plus complexes sur les données sémantiquement enrichies et interconnectées aussi avec d'autres bases de connaissances (par exemple avec DBpedia, une version structurée de Wikipedia), en s'appuyant sur les formalismes du web de données. Par exemple, il serait possible de combiner l'information
+chronologique sur les œuvres avec les informations relatives aux auteurs, à l'histoire de la collection, etc. Le dépôt Archivio Nuova Scrittura pourrait donc devenir une plate-forme pour la découverte d'informations plutôt que juste une collection d'art virtuelle disponible en ligne.
+ 
+Objectifs:
+- Exploration des bases de connaissances existantes à partir desquelles des
+informations complémentaires peuvent être extraites.
+- Traduction des données de l'Archivio Nuova Scrittura en RDF.
+- Implémentation d'un algorithme pour l'extraction de données structurées
+(RDF) à partir de contenus non structurés (en se basant sur le WikiFramework [3]).
+- Interconnexion des données extraites aux données publiées sur le web des données à travers DBpedia.
+ 
+Références
+http://mwf2014.museumsandtheweb.com/proposals/creating-a-platform-for-navigating-verbo-visual-art-collections/
+http://dbpedia.org
+[1] Johan Oomen, Marieke van Erp and Lotte Belice Baltussen (2012) Sharing cultural heritage the linked open data way: why you should sign up. Museums and the Web 2012, San Diego, CA, USA, April 11-14 2012.
+[2] Chiel van den Akker, Marieke van Erp, Lora Aroyo, Ardjan van Nuland, Lourens van der Meij, Guus Schreiber and Susan Legêne (2013) From Information Delivery to Interpretation Support: Evaluating Cultural Heritage Access on the Web.
+Proceedings of WebSci’13. Paris, France, May 2013.
+[3] Elena Cabrio, Julien Cojan, Alessio Palmero Aprosio, Fabien Gandon (2012). Natural Language Interaction with the Web of Data by Mining its Textual Side, Intelligenza Artificiale 6 (2012), pp. 121–133. Special Issue on Natural Language Processing in the Web Era. IOS Press.
+
+#### Compétences Requises
+Intérêt pour le Web, notamment le web de données.
+Programmation : Java. Quelques connaissances en Traitement Automatique du Langage et sur le Web et le Web Sémantique (standards RDF-S/OWL/SPARQL, consommation de linked data) sont un plus.
+
+
+#### Références
+
+  * Équipe: Wimmics
+  * [http://mwf2014.museumsandtheweb.com/proposals/creating-a-platform-for-navigating-verbo-visual-art-collections/](http://mwf2014.museumsandtheweb.com/proposals/creating-a-platform-for-navigating-verbo-visual-art-collections/)
+  * [http://www.museumsandtheweb.com/mw2012/papers/sharing_cultural_heritage_the_linked_open_data](http://www.museumsandtheweb.com/mw2012/papers/sharing_cultural_heritage_the_linked_open_data)
+  * [http://dbpedia.org](http://dbpedia.org)
+  * [http://iospress.metapress.com/content/b66h5677n1760082/](http://iospress.metapress.com/content/b66h5677n1760082/)
+
+#### Informations Administratives
+  * Contact : Catherine Faron-Zucker <elena.cabrio@inria.fr>
+  * Identifiant sujet : `Y1415-S043`
+  * Type : Research
+  * Parcours Recommandés : WEB
+     

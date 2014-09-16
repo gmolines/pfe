@@ -1,0 +1,32 @@
+---
+layout: post
+title: "Reconnaissance d'actions en temps réel à partir de flux vidéo + profondeur issus de Microsoft Kinect"
+date: 2014-09-15 10:26:05
+categories: [dispo, gmd, web]
+pid: Y1415-S023
+type: Research
+contact: Christel Dartigues-Pallez
+---
+       
+Christel Dartigues-Pallez et Frédéric Précios : Equipe MinD, Laboratoire I3S.
+Dans la cadre de ses travaux sur l'apprentissage, l'équipe MinD travaille sur la reconnaissance d'actions en temps réel à partir d'un flux vidéo + profondeur capté par une Kinect. Notre système est déjà capable de reconnaitre un ensemble de positions fixes (assis main levée, debout mains baissées, etc.) ainsi qu'un ensemble d'actions plus complexes (boire, parler au téléphone, travailler sur un ordinateur). La technique que nous utilisons pour cela est basée sur un algorithme classique de Random Forest (forêts aléatoires de décision). Nous nous intéressons à un autre type d'algorithme plus complexe: les Hierarchical Random Forest.
+L'objectif de ce PFE recherche est dans un premier temps de faire une étude bibliographique de ce type particulier de Random Forest puis d'en implémenter un. Nous travaillons à partir de flux vidéo obtenus à partir d'une Kinect. Ce dispositif nous permet de récupérer le squelette de la personne qui a été filmée. Ce squelette est constitué de 20 jointures, comme indiqué dans le schéma ci-dessous. A partir de ces 20 jointures, nous calculons actuellement un vecteur de 3600 valeurs qui contient les coordonnées X, Y et Z de chaque jointure, toutes les distances possibles ainsi que tous les angles possibles entre les jointures du squelette. Ce vecteur est ensuite fourni à notre algorithme de Random Forest qui peut ensuite reconnaitre certaines actions. Nous testons notre approche avec un jeu de vidéo représentant 16 actions possibles.
+
+#### Compétences Requises
+Ce projet de fin d'études nécessite des connaissances dans les algoithmes d'apprentissage ainsi que les qualités inhérentes à une activité de recherche: esprit d'initiative, autonomie, force de proposition.
+
+
+#### Références
+
+  * Équipe: MinD
+  * [http://www.sciencedirect.com/science/article/pii/S0167865513002778](http://www.sciencedirect.com/science/article/pii/S0167865513002778)
+  * [http://ijcai.org/papers13/Papers/IJCAI13-363.pdf](http://ijcai.org/papers13/Papers/IJCAI13-363.pdf)
+  * [http://www.crcnetbase.com/doi/abs/10.1201/b15789-4](http://www.crcnetbase.com/doi/abs/10.1201/b15789-4)
+  * [http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=6618967&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D6618967](http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=6618967&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D6618967)
+
+#### Informations Administratives
+  * Contact : Christel Dartigues-Pallez <Christel.DARTIGUES-PALLEZ@unice.fr>
+  * Identifiant sujet : `Y1415-S023`
+  * Type : Research
+  * Parcours Recommandés : GMD, WEB
+     

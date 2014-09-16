@@ -1,0 +1,40 @@
+---
+layout: post
+title: "Amélioration de la sécurisation de données dans un mobile"
+date: 2014-09-15 17:10:22
+categories: [dispo, caspar]
+pid: Y1415-S040
+type: Research
+contact: Marc Arnaert
+---
+       
+Aujourd'hui, l'utilisation de nouvelles technologies sur les mobiles se démocratise. Ainsi de plus en plus d'applications proposent d'échanger vos données sur Internet et dans le Cloud. Mais qu’en est-il réellement du respect de la confidentialité de vos données personnelles ?
+
+L'objectif de ce projet de recherche sera de travailler sur ces technologies en proposant une recherche sur
+- Les concepts et Les codes déjà développés.
+- De faire un état de l'art des techniques existantes de sécurisation des données (chiffrement, robustesse, attaques existantes)
+- D'établir un comparatif basé sur un modèle D.I.C.T.NR (Disponibilité, Intégrité, Confidentialité, Traçabilité, Non-Répudiation), sur la consommation énergétique et la rapidité du traitement du chiffrement.
+- D'établir un P.O.C (Proof Of Concept) afin d'améliorer le processus.
+- - De proposer des améliorations pour en augmenter la sécurité, la rapidité de chiffrement ou d'en diminuer sa consommation énergétique.
+
+#### Compétences Requises
+Des compétences techniques:
+L'ingénieur possède de bonnes connaissances scientifiques du sujet lié au projet R&D, du fonctionnement d'un projet R&D (cycle de recherche, étapes de gestion d'un projet scientifique...) et du marché associé au projet afin de bien cerner l'environnement général de ses activités. Il maîtrise l'anglais, à l'oral comme à l'écrit, tant pour prendre connaissance des travaux menés, que pour rédiger ses propres conclusions.
+Il aura également une bonne maîtrise des bases de communications réseaux et protocolaires et de bonnes connaissances de la sécurisation des réseaux et des communications.
+ 
+Des qualités personnelles :
+L'ingénieur possède de bonnes capacités à travailler en équipe car ce métier s'inscrit dans le cadre d'une équipe projet. Ses qualités relationnelles et de communication lui permettent de collaborer avec l'ensemble des collègues et d'échanger sur les sujets de recherche en interne ou sur Internet. Organisé, il gère son projet et respecte les contraintes définies préalablement (délais, coûts, cahier des charges...). Rigoureux, il obtient des résultats fiables et sait tenir les délais. Ses qualités de synthèse et d'analyse l'amènent à discerner, parmi toutes les pistes envisageables, les solutions techniques intéressantes. Il possède enfin une aisance rédactionnelle pour ses rapports et notes scientifiques sur l'avancée de ses propres activités ou de son projet.
+
+
+#### Références
+
+  * Équipe: I3S - Rainbow - K. Boudaoud
+  * [http://tools.ietf.org/html/rfc4835](http://tools.ietf.org/html/rfc4835)
+  * [http://en.wikipedia.org/wiki/AES_implementations](http://en.wikipedia.org/wiki/AES_implementations)
+
+#### Informations Administratives
+  * Contact : Marc Arnaert <arnaert@i3s.unice.fr>
+  * Identifiant sujet : `Y1415-S040`
+  * Type : Research
+  * Parcours Recommandés : CASPAR
+     

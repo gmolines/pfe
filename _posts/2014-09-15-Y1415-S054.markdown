@@ -1,0 +1,30 @@
+---
+layout: post
+title: "Arcade Game Maker: refactoring en Scala"
+date: 2014-09-15 22:15:15
+categories: [dispo, al]
+pid: Y1415-S054
+type: Engineering
+contact: Philippe Collet
+---
+       
+L’Arcade Game Maker (http://www.sei.cmu.edu/productlines/ppl/) est une référence pour l’enseignement et l’expérimentation des techniques de lignes de produits logiciels depuis plus de 10 ans. Ces techniques permettent de créer des variantes d’un même système logiciel en maîtrisant les points de variabilité et en utilisant des techniques d’implémentation variées (paramétrage, patrons de conception, génération de code). L’Arcade Game Maker est donc une ligne de produits de petits jeux vidéo, mais sa conception et son implémentation partielle sont maintenant dépassés par rapport aux nouveaux langages et techniques (par exemple, Scala, http://www.scala-lang.org/). Le but de ce projet est de construire une nouvelle ligne, conçue et implémentée en Scala, qui utilise ces nouvelles techniques (langages spécifiques internes, générateurs, techniques classiques mais implémentées en Scala).
+
+#### Compétences Requises
+Des connaissances en développement au dessus de la JVM (Java, l’apprentissage de Scala est prévu lors du projet), un goût pour le génie logiciel et ses techniques avancées, la capacité de travailler en intégration continue.
+
+
+#### Besoins Clients
+La nouvelle version de l’Arcade Game Maker doit être bien documentée, que ce soit au niveau des choix d’architecture et de conception de la ligne de produits que pour les techniques d’implémentation utilisées. La qualité de la réalisation sera privilégiée à la quantité.
+
+#### Résultats Attendus
+* Une étude de la variabilité spécifiée dans l’Arcade Game Maker et des possibilités d’implémentation à l’aide de mécanismes Scala (orientés objets, fonctionnels) ou de techniques de génération (langages internes, générateur de code).
+  * Une implémentation de l’Arcade Game Maker avec une documentation appropriée (points de variation explicites, séparation entre l’architecture de la ligne de produits et les implémentations).
+     
+
+#### Informations Administratives
+  * Contact : Philippe Collet <Philippe.collet@unice.fr>
+  * Identifiant sujet : `Y1415-S054`
+  * Type : Engineering
+  * Parcours Recommandés : AL
+     

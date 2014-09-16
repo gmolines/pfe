@@ -1,0 +1,33 @@
+---
+layout: post
+title: "Cartographie incrémentielle des Systèmes d'information"
+date: 2014-09-15 22:22:10
+categories: [dispo, al]
+pid: Y1415-S059
+type: Research
+contact: Mireille Blay-Fornarino
+---
+       
+« Un système d’information est un ensemble organisé de ressources (…) permettant d’acquérir, de traiter, de stocker des informations (…) dans et entre des organisations » Robert Reix
+En janvier 2014, le Gartner group annonce que les dépenses en matière de “logiciels d'entreprise” connaîtront le taux de croissance annuel le plus important dans le domaine de l’IT, avec des prévisions de 6,8 pour cent [1]. En effet, utilisés au quotidien, ces systèmes doivent évoluer en particulier pour améliorer les relations entre l’homme (client, commercial, gestionnaire de logistiques, ..) et la machine, prendre en compte les nouveaux modes de communication et ainsi accroître l’efficacité même des entreprises. La complexité intrinsèque de ces systèmes construit le plus souvent sur de nombreuses années comme une imbrications d’applications accompagnée de développements spécifiques rend difficile la visibilité de l’ensemble et de fait son évolution.
+La cartographie est alors un outil clef  pour comprendre le fonctionnement de l’entreprise et favoriser l’évolution du SI. Cependant « cartographier » un SI est une tâche lourde, longue et coûteuse. Une des difficultés de la cartographie est de prendre en compte les points de vue des différents inter-acteurs autour du SI et non seulement de les modéliser mais également d’assurer la cohérence entre ces points de vue et de supporter leurs évolutions. C’est là l’objectif de ce PFE étudier les approches existantes dans ce domaine et proposer une approche nouvelle pour soutenir une approche incrémentale de la construction des cartographies. 
+A priori le focus sera mis dans ce projet sur les business process. Ce projet pourra être poursuivi en stage et éventuellement en thèse dans le cadre d’une bourse CIFRE avec la société Atos qui est à l’origine de ce sujet.
+
+#### Compétences Requises
+* Bonne connaissance en modélisation objet
+  * Notions d'architectures logicielles
+  * Goûts pour l'analyse du terrain
+
+
+#### Références
+
+  * Équipe: MODALIS
+  * [https://wwwmatthes.in.tum.de/pages/qmobnr2wocn2/BS11-On-the-State-of-the-Art-in-Enterprise-Architecture-Management...](https://wwwmatthes.in.tum.de/pages/qmobnr2wocn2/BS11-On-the-State-of-the-Art-in-Enterprise-Architecture-Management...)
+  * [https://mireilleblayfornarino.i3s.unice.fr/lib/exe/fetch.php?media=p159-brummermann.pdf](https://mireilleblayfornarino.i3s.unice.fr/lib/exe/fetch.php?media=p159-brummermann.pdf)
+
+#### Informations Administratives
+  * Contact : Mireille Blay-Fornarino <blay@i3s.unice.fr>
+  * Identifiant sujet : `Y1415-S059`
+  * Type : Research
+  * Parcours Recommandés : AL
+     
