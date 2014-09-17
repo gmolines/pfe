@@ -5,7 +5,7 @@ date: 2014-09-15 17:10:22
 categories: [dispo, caspar]
 pid: Y1415-S040
 type: Research
-contact: Marc Arnaert
+contact: Karima Boudaoud
 ---
        
 Aujourd'hui, l'utilisation de nouvelles technologies sur les mobiles se démocratise. Ainsi de plus en plus d'applications proposent d'échanger vos données sur Internet et dans le Cloud. Mais qu’en est-il réellement du respect de la confidentialité de vos données personnelles ?
@@ -34,7 +34,7 @@ L'ingénieur possède de bonnes capacités à travailler en équipe car ce méti
   * [http://en.wikipedia.org/wiki/AES_implementations](http://en.wikipedia.org/wiki/AES_implementations)
 
 #### Informations Administratives
-  * Contact : Marc Arnaert <arnaert@i3s.unice.fr>
+  * Contact : Karima Boudaoud <karima@polytech.unice.fr>
   * Identifiant sujet : `Y1415-S040`
   * Type : Research
   * Parcours Recommandés : CASPAR
