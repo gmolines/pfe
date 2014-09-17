@@ -2,7 +2,7 @@
 layout: post
 title: "Réalisation et annotation d'un jeu de données multi-Kinect pour de la reconnaissance d'actions en temps réel"
 date: 2014-09-15 21:57:41
-categories: [dispo, gmd, web]
+categories: [dispo, ihm, gmd, web]
 pid: Y1415-S052
 type: Engineering
 contact: Christel Dartigues-Pallez
@@ -34,5 +34,5 @@ L'équipe MinD souhaite disposer d'un jeu de données constitué de flux vidéos
   * Contact : Christel Dartigues-Pallez <Christel.DARTIGUES-PALLEZ@unice.fr>
   * Identifiant sujet : `Y1415-S052`
   * Type : Engineering
-  * Parcours Recommandés : GMD, WEB
+  * Parcours Recommandés : IHM, GMD, WEB
      
