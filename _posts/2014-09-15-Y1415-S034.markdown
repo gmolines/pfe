@@ -2,7 +2,7 @@
 layout: post
 title: "Calcul de “bonnes” décompositions de graphes"
 date: 2014-09-15 15:40:46
-categories: [dispo, caspar, web]
+categories: [dispo, web]
 pid: Y1415-S034
 type: Research
 contact: Nicolas NISSE
@@ -34,5 +34,5 @@ bases de théorie des graphes et d’algorithmique, notions de complexité, prog
   * Contact : Nicolas NISSE <nicolas.nisse@inria.fr>
   * Identifiant sujet : `Y1415-S034`
   * Type : Research
-  * Parcours Recommandés : CASPAR, WEB
+  * Parcours Recommandés :  WEB
      
