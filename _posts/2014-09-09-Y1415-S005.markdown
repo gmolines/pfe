@@ -2,7 +2,7 @@
 layout: post
 title: "Visualisation d'un modèle 3D à partir d'un casque VR"
 date: 2014-09-09 15:18:25
-categories: [dispo, gmd, iam, ihm]
+categories: [dispo, gmd, ihm]
 pid: Y1415-S005
 type: Engineering
 contact: Eric Bailly
@@ -39,5 +39,5 @@ De plus ce projet peut faire l'objet du concours création d'entreprise (Fondati
   * Contact : Eric Bailly <bailly@unice.fr>
   * Identifiant sujet : `Y1415-S005`
   * Type : Engineering
-  * Parcours Recommandés : GMD, IAM, IHM
+  * Parcours Recommandés : GMD, IHM
      
