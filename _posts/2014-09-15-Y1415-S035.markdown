@@ -2,7 +2,7 @@
 layout: post
 title: "Reconnaissance d’objets par le robot Nao"
 date: 2014-09-15 15:41:43
-categories: [dispo, gmd, iam, web]
+categories: [dispo, gmd, web]
 pid: Y1415-S035
 type: Research
 contact: Lionel Fillatre
@@ -27,5 +27,5 @@ L'étudiant doit connaître le langage C++ et/ou Python. Il est recommandé d’
   * Contact : Lionel Fillatre <lionel.fillatre@i3s.unice.fr>
   * Identifiant sujet : `Y1415-S035`
   * Type : Research
-  * Parcours Recommandés : GMD, IAM, WEB
+  * Parcours Recommandés : GMD, WEB
      
