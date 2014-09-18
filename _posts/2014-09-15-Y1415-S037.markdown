@@ -2,7 +2,7 @@
 layout: post
 title: "Création d'un site de soumission d'article scientifique avancé"
 date: 2014-09-15 16:27:43
-categories: [dispo, ihm, al, web, caspar]
+categories: [dispo, ihm, al, web]
 pid: Y1415-S037
 type: Engineering
 contact: Olivier DALLE
@@ -41,5 +41,5 @@ Un site web demo deployé sur un site de production réel tel que amazon ou hero
   * Contact : Olivier DALLE <olivier.dalle@unice.fr>
   * Identifiant sujet : `Y1415-S037`
   * Type : Engineering
-  * Parcours Recommandés :  IHM, CASPAR, WEB, AL
+  * Parcours Recommandés :  IHM, WEB, AL
      
