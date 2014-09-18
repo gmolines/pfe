@@ -15,9 +15,15 @@ Par exemple l’activité physique dans un parcours de traitement d’un diabét
 
 Il s’agit donc de réaliser une plateforme de collecte des données issues de capteurs (vitesse, distance parcourue, fréquence cardiaque, taux de glycémie, etc..) permettant de faire le suivi de l’activité spatio-temporelle et physiologique de la personne. Ces données seront stockées par la suite dans une base de données qui permettra de raisonner sur ces données pour pouvoir effectuer des recommandations.  
 
+La partie collecte des données utilisera le framework et les APIs de la plateforme open source SmartCampus (développée par l’équipe de recherche MODALIS localisée à l’EPU).
+
+Le projet devra participer à la création d’un modèle pour ces données et à leur stockage dans une base de données. Une autre tâche consistera à exploiter ces données pour effectuer des raisonnements dessus et donner des recommandations sur les activités à effectuer par la personne. Dans le cas d’un diabétique, d’un insuffisant cardiaque, d’un sportif de haut niveau, on pourra recommander certains parcours, certains objectifs, certains temps à atteindre lors d’un exercice physique, pour atteindre le but « améliorer santé », « améliorer ses performances », etc. 
+
+Les données utiliseront les formats du web de données (RDF et RDF/S), une base de données de type CORESE sera utilisée pour leur exploitation et pour le raisonnement. On utilisera ici le langage SPARQL du W3C pour les requêtes et des algorithmes classiques utilisés dans les systèmes de recommandation pour la mise en correspondance de profils (les personnes) et de ressources (les activités, les pathologies, etc). C’est assez similaire aux techniques utilisées par Amazon pour recommander un livre ou un disque (« des personnes similaires à vous ont aussi aimé… »).
+
 **Encadrement**
 
-Le travail sera suivi par des membres de l'équipe WIMMICS : Amel BEN OTHMANE (amel.ben-othmane@inria.fr), Michel BUFFA (michel.buffa@unice.fr), Amosse EDOUARD (edouard@unice.fr) et Nhan LE THANH (nhan.le-thanh@unice.fr).
+Le travail sera suivi par des membres de l'équipe WIMMICS : Michel BUFFA (michel.buffa@unice.fr) et Nhan LE THANH (nhan.le-thanh@unice.fr).
 
 Plan prévisionnel
 
@@ -26,14 +32,14 @@ Plan prévisionnel
 -	Etape 3 : Spécifier et développer les différents modules du système (serveur et clients)
 -	Etape 4 : Tests unitaires, tests d'intégration et déploiement du prototype ;
 -	Etape 5 : Analyse du résultat obtenu et rédaction du rapport final.
--	En parallèle avec les tâches 1, 2 et 3 : tests technologiques, découvertes de la programmation Android, du SDK de la montre connectée, mise en place de la chaine de traitement avec des données simulées, etc…
+-	En parallèle avec les tâches 1, 2 et 3 : tests technologiques, découvertes de la plateforme logicielle SmartCampus, du SDK des  montres connectées, mise en place de la chaine de traitement avec des données simulées, etc…
 
 Outils & technologies :  
 
--	Client Web : HTML5, JavaScript, CSS,  Google Maps/Open Street Maps. Nous aurons peut être besoin d’une application web « hybride », programmée en technologies web mais compilée en natif permettant l'accès aux APIs bas niveau du téléphone, c’est ce qui semble nécessaire pour accéder au SDK des montres connectées. Une solution PhoneGap/Cordova est à envisager. Des frameworks tels que Angular JS / IONIC CSS/JS et un simulateur de back end comme FireBase peuvent être de bonnes pistes. 
+-	Client Web : SmartCampus, HTML5, JavaScript, CSS,  Google Maps/Open Street Maps. Nous aurons peut être besoin d’une application web « hybride », programmée en technologies web mais compilée en natif permettant l'accès aux APIs bas niveau du téléphone, c’est ce qui semble nécessaire pour accéder au SDK des montres connectées. Une solution PhoneGap/Cordova est à envisager. Des frameworks tels que Angular JS / IONIC CSS/JS et un simulateur de back end comme FireBase peuvent être de bonnes pistes. 
 -	Serveur : technologie libre (JavaEE / NodeJS)
--	Base de données : MongoDB 
--	Capteur : Smart Body Analyser (Balance Withings), LifeTrack, Motorola 360, montres Garmin, Galaxy Wear 2, etc... (en cours d’évaluation)
+-	Base de données : MongoDB / CORESE 
+-	Capteur : Smart Body Analyser (Balance Withings), LifeTrack, Motorola 360, montres Garmin, Galaxy Gear, etc... (en cours d’évaluation, certainement Galaxy Gear S et Motorola moto 360)
 
 #### Compétences Requises
 - maitrise des langages de programmation dans l'environnement web et géolocalisation : java, html5, javascript, CSS, Google Maps/Open Street Maps, etc.
@@ -63,4 +69,3 @@ Cette plateforme sera constituée :
   * Identifiant sujet : `Y1415-S014`
   * Type : Engineering
   * Parcours Recommandés : IAM, WEB
-     
