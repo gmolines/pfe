@@ -2,7 +2,7 @@
 layout: post
 title: "UbiUnity: Simulation d'environnements 3D pour l'informatique ambiante"
 date: 2014-09-15 11:17:01
-categories: [dispo, iam, caspar, gmd]
+categories: [dispo, iam,  gmd]
 pid: Y1415-S025
 type: Engineering
 contact: Stéphane Lavirotte
@@ -55,5 +55,5 @@ Les compétences attendues pour traiter ce sujet sont :
   * Contact : Stéphane Lavirotte <stephane.lavirotte@unice.fr>
   * Identifiant sujet : `Y1415-S025`
   * Type : Engineering
-  * Parcours Recommandés : IAM, CASPAR, GMD
+  * Parcours Recommandés : IAM,  GMD
      
