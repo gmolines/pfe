@@ -36,7 +36,12 @@ Proceedings of WebSci’13. Paris, France, May 2013.
 Intérêt pour le Web, notamment le web de données.
 Programmation : Java. Quelques connaissances en Traitement Automatique du Langage et sur le Web et le Web Sémantique (standards RDF-S/OWL/SPARQL, consommation de linked data) sont un plus.
 
+Co-encadrantes (équipe WIMMICS) :
 
+  * Elena Cabrio elena.cabrio@inria.fr,
+  * Catherine Faron Zucker faron@unice.fr
+  * Serena Villata serena.villata@inria.fr
+  * 
 #### Références
 
   * Équipe: Wimmics
@@ -46,7 +51,7 @@ Programmation : Java. Quelques connaissances en Traitement Automatique du Langa
   * [http://iospress.metapress.com/content/b66h5677n1760082/](http://iospress.metapress.com/content/b66h5677n1760082/)
 
 #### Informations Administratives
-  * Contact : Catherine Faron-Zucker <elena.cabrio@inria.fr>
+  * Contact : Catherine Faron-Zucker <faron@polytech.unice.fr>
   * Identifiant sujet : `Y1415-S043`
   * Type : Research
   * Parcours Recommandés : WEB
