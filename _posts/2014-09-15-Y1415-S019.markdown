@@ -27,7 +27,7 @@ Language Processing in the Web Era. IOS Press.
 - https://web.stanford.edu/class/cs124/lec/rel.pptx (overview on Relation Extraction from Stanford University)
 - Daniel Gerber, Axel-Cyrille Ngonga Ngomo, Extracting multilingual natural-language patterns for RDF predicates, Proceedings of the 18th international conference on Knowledge Engineering and Knowledge Management, pp. 87-96 (2012), Springer-Verlag. 
 
-Co-encadrantes:
+Co-encadrantes (équipe WIMMICS) :
 
   * Elena Cabrio elena.cabrio@inria.fr
   * Catherine Faron Zucker faron@unice.fr
