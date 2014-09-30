@@ -2,7 +2,8 @@
 layout: post
 title: "Intégrer et enrichir les métadonnées des collections du patrimoine culturel grâce au web de données."
 date: 2014-09-15 17:51:28
-categories: [dispo, web]
+categories: [oqp, web]
+students: ["Ahmed Missaoui"]
 pid: Y1415-S043
 type: Research
 contact: Catherine Faron-Zucker
