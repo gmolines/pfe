@@ -2,7 +2,8 @@
 layout: post
 title: "Publication de données de zoologie antique sur le Web de données"
 date: 2014-09-15 08:40:24
-categories: [dispo, web]
+categories: [oqp, web]
+students: ["Molka Dhouib - Tounsi"]
 pid: Y1415-S019
 type: Research
 contact: Catherine Faron Zucker
