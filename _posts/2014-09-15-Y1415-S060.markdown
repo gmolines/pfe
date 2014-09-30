@@ -2,7 +2,8 @@
 layout: post
 title: "Intégration faiblement couplée de Langages Spécifiques au(x) Domaine(s)"
 date: 2014-09-15 22:24:30
-categories: [dispo, al]
+categories: [oqp, al]
+students: ["Ludovic Mouline"]
 pid: Y1415-S060
 type: Research
 contact: Sébastien Mosser
