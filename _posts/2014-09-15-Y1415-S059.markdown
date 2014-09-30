@@ -2,7 +2,8 @@
 layout: post
 title: "Cartographie incrémentielle des Systèmes d'information"
 date: 2014-09-15 22:22:10
-categories: [dispo, al]
+categories: [oqp, al]
+students: ["Icare Joly"]
 pid: Y1415-S059
 type: Research
 contact: Mireille Blay-Fornarino
