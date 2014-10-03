@@ -2,7 +2,8 @@
 layout: post
 title: "Intégration d’objets connectés hétérogènes et démonstrateurs"
 date: 2014-09-15 18:39:15
-categories: [dispo, iam, ihm]
+categories: [oqp, iam, ihm]
+students: ["Marie-Catherine Turchini", "Alexia Llorens", "Adrien Casanova"]
 pid: Y1415-S046
 type: Engineering
 contact: Gaëtan Rey
