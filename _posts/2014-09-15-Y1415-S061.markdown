@@ -2,7 +2,8 @@
 layout: post
 title: "Island: langage de configuration pour un générateur de terrain aléatoire"
 date: 2014-09-15 22:26:03
-categories: [dispo, al]
+categories: [oqp, al]
+students: ["Fabien Foerster"]
 pid: Y1415-S061
 type: Research
 contact: Sébastien Mosser
