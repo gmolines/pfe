@@ -2,7 +2,8 @@
 layout: post
 title: "SmartCampus: Capteurs virtuels sur infrastructure physique"
 date: 2014-09-15 22:18:54
-categories: [dispo, al, iam]
+categories: [oqp, al, iam]
+students: ["Romain Alexandre", "Cecile Cammilieri", "Clément Duffau", "Jérôme Rancati"]
 pid: Y1415-S057
 type: Engineering
 contact: Sébastien Mosser
