@@ -21,7 +21,7 @@ menu: false
 
 {% for post in site.posts %}
     {% if post.categories contains 'oqp' %}
-  * [{{$post.title}}]({{ BASE_PATH }}/pfe{{ post.url }})
+  * [{{$post.title}}]({{ BASE_PATH }}/pfe{{ post.url }}) ({{ $post.pid }})
     * Étudiants: {%for stud in post.students %} *{{stud}}*,{%endfor %}
     {% endif %}
 {% endfor %}
