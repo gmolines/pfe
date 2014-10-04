@@ -2,7 +2,8 @@
 layout: post
 title: "Amélioration et évaluation d'une application d'échanges de données sécurisées dans un environnement mobile"
 date: 2014-09-15 17:32:02
-categories: [dispo, caspar]
+categories: [oqp, caspar]
+students: ["Ben Abdejelil Mohamed", "Bouabid Abouabaida", "Olivier Donovan", "Rasamizanany Sam Ko Kune"]
 pid: Y1415-S042
 type: Engineering
 contact: Karima Boudaoud
