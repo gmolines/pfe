@@ -2,7 +2,8 @@
 layout: post
 title: "Amélioration de la sécurisation de données dans un mobile"
 date: 2014-09-15 17:10:22
-categories: [dispo, caspar]
+categories: [oqp, caspar]
+students: ["Robert Roberta"]
 pid: Y1415-S040
 type: Research
 contact: Karima Boudaoud
