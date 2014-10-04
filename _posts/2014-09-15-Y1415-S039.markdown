@@ -2,7 +2,8 @@
 layout: post
 title: "Amélioration de la sécurisation des Echanges NFC et Bluetooth"
 date: 2014-09-15 16:58:08
-categories: [dispo, caspar]
+categories: [oqp, caspar]
+students: ["Delpech Laurent", "Elsas Christopher", "Lantheaume Julien", "Vedrine Michel"]
 pid: Y1415-S039
 type: Engineering
 contact: Marc Arnaert
