@@ -25,10 +25,14 @@ L'approche sera validée sur des problèmes d'examen, qui devront préalablem
 
 Éventuellement, une ontologie en langage OWL et un moteur de raisonnement pourraient être couplés au système pour augmenter l’expressivité des descriptions des états initiaux et finaux.
 
+Coencadrement :
+
+  - Andrea Tettamanzi, andrea.tettamanzi@unice.fr 
+  - Catherine Faron Zucker, faron@unice.fr
 
 #### Informations Administratives
-  * Contact : Sébastien Mosser <mosser@i3s.unice.fr>
-  * Identifiant sujet : `Y1415-S061`
+  * Contact : Catherine Faron Zucker, faron@unice.fr
+  * Identifiant sujet : `Y1415-S063`
   * Type : Research
-  * Parcours Recommandés : AL
+  * Parcours Recommandés : WEB
      
