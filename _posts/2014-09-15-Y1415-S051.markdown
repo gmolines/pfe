@@ -2,7 +2,8 @@
 layout: post
 title: "Sélection Sémantique de Services pour Dispositif dans des Systèmes Ambiants"
 date: 2014-09-15 19:48:17
-categories: [dispo, iam, web]
+categories: [oqp, iam, web]
+students: ["Rocher Gerald"]
 pid: Y1415-S051
 type: Research
 contact: Jean-Yves Tigli
