@@ -2,7 +2,8 @@
 layout: post
 title: "Analyse de flux video dans des drones"
 date: 2014-09-15 10:57:55
-categories: [dispo, gmd]
+categories: [oqp, gmd]
+students: ["Lirone Samoun"]
 pid: Y1415-S024
 type: Research
 contact: Diane Lingrand
