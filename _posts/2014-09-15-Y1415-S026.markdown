@@ -2,7 +2,8 @@
 layout: post
 title: "Optimisation d'une application C++ de simulation de fusion nucléaire"
 date: 2014-09-15 11:26:50
-categories: [dispo, al]
+categories: [oqp, al]
+students: ["Pierre Bouillet", "Damien Viano", "Hennani Jamal", "William TASSOUX"]
 pid: Y1415-S026
 type: Engineering
 contact: Sid Touati
