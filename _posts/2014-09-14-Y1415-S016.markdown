@@ -2,7 +2,8 @@
 layout: post
 title: "Informatique cognitive pour le traitement de données complexes"
 date: 2014-09-14 21:20:11
-categories: [dispo, gmd, web]
+categories: [oqp, gmd, web]
+students: ["Damien Lepiller"]
 pid: Y1415-S016
 type: Research
 contact: Lionel Fillatre
