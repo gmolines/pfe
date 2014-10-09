@@ -2,7 +2,8 @@
 layout: post
 title: "Auto-adaptation des méthodes d'apprentissage aux variations dynamiques des dispositifs"
 date: 2014-09-15 10:16:26
-categories: [dispo, gmd, iam, web]
+categories: [oqp, gmd, iam, web]
+students: ["Luis Gioanni"]
 pid: Y1415-S021
 type: Research
 contact: Christel Dartigues Pallez
