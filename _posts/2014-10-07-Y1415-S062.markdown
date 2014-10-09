@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AlTo"
+title: "AlTo - Bring your music All Together"
 date: 2014-10-07 22:18:54
 categories: [oqp, al, ihm]
 students: ["Antoine Lavail", "Eric Masoero", "Swann Jumelle", "Robin Vivant"]
@@ -9,17 +9,34 @@ type: Engineering
 contact: Anne-Marie Déry
 ---
 
-@@Description générale du sujet (2 paragraphes)
+AlTo : Bring your music All Together, est un projet développé dans le cadre du projet innovation SI4 2013-2014 (https://www.youtube.com/watch?v=y4-QTeq3EH0). L’application web qui a été réalisée propose à l'utilisateur : 
+	- La liaison et l'unification de ses listes de lecture sur deux services musicaux (SoundCloud et YouTube). 
+	- Une méta-recherche sur ces deux services.
+	- La lecture d’un musique dans un lecteur unifié.
+	- La possibilité de se déclarer développeur, et de proposer un plugin qui s’intégrera dans AlTo et sera disponible à l’ensemble des utilisateurs enregistrés.
+
+L’objectif de ce projet de fin d’études est de reprendre la base développée l’année précédente et y apporter des améliorations pour renforcer la qualité de l’expérience utilisateur et unifier davantage les informations fournies par les services musicaux externes. En effet, l’interface existante est minimaliste. Le premier objectif est de proposer une nouvelle façon de représenter/interagir avec les données multimédia du web. Une seconde composante est l’intégration plus poussée des différents services musicaux (ajout de nouveaux fournisseurs de musique, une description et présentation unifiée des oeuvres d’un artiste, récolte de méta-données…). Enfin, le dernier axe de ce projet est d’ajouter des interactions entre les utilisateurs de la plateforme, c’est à dire intégrer une dimension sociale, aujourd’hui fortement recommandée lors du lancement d’un nouveau produit sur le marché. Ces interactions pourront se présenter sous une ou plusieurs formes : partage de liste de lectures, de « mur » , recommendation d’artistes, chat, etc.
+
+
 
 #### Compétences Requises
-* @@Matières ou compétences nécessaire pour mener à bien le projet
+
+- Conception et Évaluation des IHM
+- Développement Web (HTML / CSS / JS)
+- Un background en système distribué pour intégrer des services externes
 
 
 #### Besoins Clients
-@@Vos besoins initiaux
+
+Le besoin majeur est la développement d’une plateforme fusionnant le catalogue musical d’un utilisateur authentifié sur différents services musicaux. Cet utilisateur doit accéder à une interface simple, intuitive et originale, qui mettra en avant les capacités de l'application proposée. Le regroupement d’informations issues de différentes APIs est une de ses composantes essentielles. Enfin, l’utilisateur souhaite pouvoir interagir avec ses contacts / amis, pour échanger des données (chat, partage d’actualités…).
+
 
 #### Résultats Attendus
- *  @@Ce que vous espérez livrer
+
+- Une application web responsive, possédant une/des nouvelle(s) technique(s) d’interaction(s) avec des données musicales.
+- Une fusion d’informations poussée de différents services musicaux.
+- Une récolte de méta-données sur les titres / albums / artistes.
+- La création d’une composante sociale au sein de la plateforme, pour autoriser des interactions entre les utilisateurs.
 
 #### Informations Administratives
  * Contact : Anne-Marie Déry <pinna@polytech.unice.fr>
