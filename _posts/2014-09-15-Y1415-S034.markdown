@@ -2,7 +2,8 @@
 layout: post
 title: "Calcul de “bonnes” décompositions de graphes"
 date: 2014-09-15 15:40:46
-categories: [dispo, web]
+categories: [oqp, web]
+students: ["Rodrigo Scheller Boss"]
 pid: Y1415-S034
 type: Research
 contact: Nicolas NISSE
