@@ -2,7 +2,8 @@
 layout: post
 title: "Apprentissage automatique pour le Big Data"
 date: 2014-09-12 20:00:39
-categories: [dispo, gmd, web]
+categories: [oqp, gmd, web]
+students: ["Johanna Sellame"]
 pid: Y1415-S012
 type: Research
 contact: Lionel Fillatre
