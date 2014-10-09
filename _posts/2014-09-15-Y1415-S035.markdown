@@ -3,6 +3,7 @@ layout: post
 title: "Reconnaissance d’objets par le robot Nao"
 date: 2014-09-15 15:41:43
 categories: [dispo, gmd, web]
+students: ["Raphael Gazzotti "]
 pid: Y1415-S035
 type: Research
 contact: Lionel Fillatre
