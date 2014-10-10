@@ -4,7 +4,7 @@ title: "Etude et migration d'une ferme SharePoint 2010 en SharePoint 2013"
 date: 2014-10-07 22:18:54
 categories: [oqp, al]
 students: ["Nicolas Donato"]
-pid: Y1415-S062
+pid: Y1415-S064
 type: Engineering
 contact: Sébastien Mosser
 ---
