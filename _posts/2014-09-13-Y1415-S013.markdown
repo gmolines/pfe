@@ -2,7 +2,8 @@
 layout: post
 title: "Aide au diagnostic pour la vérification de programmes"
 date: 2014-09-13 09:30:06
-categories: [dispo, al, ihm]
+categories: [oqp, al, ihm]
+students: ["Clément Cristin", "Stéphane Nivot"]
 pid: Y1415-S013
 type: Engineering
 contact: Hélène Collavizza
