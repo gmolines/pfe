@@ -3,7 +3,7 @@ layout: post
 title: "Etude comparative d’interactions tangibles, tactiles ou tactiles et tangibles"
 date: 2014-09-15 19:38:25
 categories: [oqp, ihm]
-students: ["Benazet Vincent", "Lavoine Paul", "Poinsot Valentin"]
+students: ["Benazet Vincent", "Lavoine Paul", "Poinsot Valentin", "Alfonsi Martin"]
 pid: Y1415-S050
 type: Engineering
 contact: Alain Giboin
