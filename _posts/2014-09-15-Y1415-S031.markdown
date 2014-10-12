@@ -3,7 +3,7 @@ layout: post
 title: "Plate-forme générique logicielle-matérielle pour objets connectés"
 date: 2014-09-15 13:20:32
 categories: [oqp, iam]
-students: ["El Amin Moustafa", "Palma Adam", "Stirbu Maria-Cristina"]
+students: ["El Amin Moustafa", "Palma Adam", "Stirbu Maria-Cristina", "Ftouhi Rami"]
 pid: Y1415-S031
 type: Engineering
 contact: Stéphane Lavirotte
