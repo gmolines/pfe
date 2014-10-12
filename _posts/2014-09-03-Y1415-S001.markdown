@@ -2,7 +2,8 @@
 layout: post
 title: "Extraction d'axone à partir d'imagerie confocale"
 date: 2014-09-03 16:44:36
-categories: [dispo, gmd]
+categories: [oqp, gmd]
+students: ["Chen Zhang", "Farias Jeova"]
 pid: Y1415-S001
 type: Engineering
 contact: Xavier Descombes
