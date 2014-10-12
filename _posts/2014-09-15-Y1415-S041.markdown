@@ -2,7 +2,8 @@
 layout: post
 title: "Une approche top-down pour la composition dynamique de services en informatique ambiante"
 date: 2014-09-15 19:28:17
-categories: [dispo, al, iam, web]
+categories: [oqp, al, iam, web]
+students: ["Farhat Yosra"]
 pid: Y1415-S041
 type: Research
 contact: Isabelle Mirbel
