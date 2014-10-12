@@ -2,7 +2,8 @@
 layout: post
 title: "Adaptation temps réel d'un système embarqué (par exemple un téléphone) au contexte"
 date: 2014-09-15 13:52:18
-categories: [dispo, al, iam]
+categories: [oqp, al, iam]
+students: ["Akrout Amine"]
 pid: Y1415-S032
 type: Research
 contact: Gaëtan Rey
