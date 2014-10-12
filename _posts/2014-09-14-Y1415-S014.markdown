@@ -2,7 +2,8 @@
 layout: post
 title: "Objets connectés : suivi, collecte et analyse de données en temps réel"
 date: 2014-09-14 11:17:04
-categories: [dispo, iam, web]
+categories: [oqp, iam, web]
+students: ["Ben Mahmoud	Skander", "Gharsaly	Dalele", "Ouhichi	Haykel", "Zayani	Amal"]
 pid: Y1415-S014
 type: Engineering
 contact: Nhan LE THANH
