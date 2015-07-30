@@ -3,7 +3,7 @@ layout: page
 title: Home
 menu: false
 ---
-## Propositions de projets 2014 - 2015
+## Propositions de projets 2015 - 2016
 
   * [Tous les sujets]({{BASE_PATH}} all-subjects) (ordre alphabétique)
   * [Tous les sujets]({{BASE_PATH}} pids) (Project ID)
