@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "TitreTest"
-date: 2015-08-18 22:26:13
-categories: [dispo, al, iam]
-pid: Y1415-S001
-type: Research
-contact: TestPrénom TestNom
+title: "proj2"
+date: 2015-08-18 22:27:38
+categories: [dispo, caspar, iam, ihm, web]
+pid: Y1516-S002
+type: Engineering
+contact: Prénom2 Nom2
 ---
        
 1. Field of Description
@@ -42,18 +42,19 @@ In many cases, the trades include a number of exotic products such as derivative
 It will be understood that use of the PFE-determination method taught herein can be provided in a software product or package (e.g., that may be provided in a counterparty credit risk management system or other special purpose computer implementation). The use of the PFE-determination method will allow investment or financial institutions to include trade types that may not be currently supported in their counterparty credit risk calculations. Also, those skilled in the financial product and risk management arts will readily recognize and understand that the method taught herein is not limited to use in determining PFE. The techniques may be applied to perform calculations similar to calculating PFE such as, but not limited to, credit value adjustment (CVA) and initial margin (IM) calculations.
 
 #### Compétences Requises
-skills
+skills 2
 
 
-#### Références
+#### Besoins Clients
+yes....
 
-  * Équipe: team
-  * [http://bib1.com](http://bib1.com)
-  * [http://bib2.com](http://bib2.com)
+#### Résultats Attendus
+of course....
+     
 
 #### Informations Administratives
-  * Contact : TestPrénom TestNom <mail@foo.com>
-  * Identifiant sujet : `Y1415-S001`
-  * Type : Research
-  * Parcours Recommandés : AL, IAM
+  * Contact : Prénom2 Nom2 <foo@bar.com>
+  * Identifiant sujet : `Y1516-S002`
+  * Type : Engineering
+  * Parcours Recommandés : CASPAR, IAM, IHM, WEB
      

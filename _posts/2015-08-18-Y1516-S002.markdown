@@ -3,7 +3,7 @@ layout: post
 title: "proj2"
 date: 2015-08-18 22:27:38
 categories: [dispo, caspar, iam, ihm, web]
-pid: Y1415-S002
+pid: Y1516-S002
 type: Engineering
 contact: Prénom2 Nom2
 ---
@@ -54,7 +54,7 @@ of course....
 
 #### Informations Administratives
   * Contact : Prénom2 Nom2 <foo@bar.com>
-  * Identifiant sujet : `Y1415-S002`
+  * Identifiant sujet : `Y1516-S002`
   * Type : Engineering
   * Parcours Recommandés : CASPAR, IAM, IHM, WEB
      
