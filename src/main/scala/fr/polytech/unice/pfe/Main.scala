@@ -37,7 +37,7 @@ object ProjectFactory {
 
 
   def apply(row: Row): Project = {
-    val pid = f"Y1415-S${row.getRowNum}%03d"
+    val pid = f"Y1516-S${row.getRowNum}%03d"
     println(s"## Handling project [$pid]")
 
     // Common
