@@ -2,7 +2,7 @@
 layout: post
 title: "Environnement ambiant Multi-Contexte"
 date: 2015-09-10 11:39:38
-categories: [dispo, al, iam, web]
+categories: [dispo, al]
 pid: Y1516-S009
 type: Research
 contact: Gaëtan Rey
@@ -33,5 +33,5 @@ Les solutions existantes sont en c#, mais le langage des futurs solutions pourra
   * Contact : Gaëtan Rey <Gaetan.Rey@unice.fr>
   * Identifiant sujet : `Y1516-S009`
   * Type : Research
-  * Parcours Recommandés : AL, IAM, WEB
+  * Parcours Recommandés : AL
      

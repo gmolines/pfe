@@ -2,7 +2,7 @@
 layout: post
 title: "Merging experimental and production clusters"
 date: 2015-09-11 15:19:24
-categories: [dispo, al, caspar, gmd]
+categories: [dispo, al]
 pid: Y1516-S019
 type: Research
 contact: Fabrice Huet
@@ -30,5 +30,5 @@ Analyse de données, Big Data, Modélisation
   * Contact : Fabrice Huet <fabrice.huet@unice.fr>
   * Identifiant sujet : `Y1516-S019`
   * Type : Research
-  * Parcours Recommandés : AL, CASPAR, GMD
+  * Parcours Recommandés : AL
      

@@ -2,7 +2,7 @@
 layout: post
 title: "Gestionnaire de déduplication"
 date: 2015-09-11 15:21:24
-categories: [dispo, al, gmd, ihm]
+categories: [dispo, al]
 pid: Y1516-S020
 type: Engineering
 contact: Fabrice Huet
@@ -32,5 +32,5 @@ Le logiciel fourni à la fin de ce PFE sera composé de deux parties. Un backend
   * Contact : Fabrice Huet <fabrice.huet@gmail.com>
   * Identifiant sujet : `Y1516-S020`
   * Type : Engineering
-  * Parcours Recommandés : AL, GMD, IHM
+  * Parcours Recommandés : AL
      

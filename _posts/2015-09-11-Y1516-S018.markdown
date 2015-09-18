@@ -2,7 +2,7 @@
 layout: post
 title: "Intégrer et enrichir les métadonnées des collections du patrimoine culturel grâce au web de données"
 date: 2015-09-11 14:34:36
-categories: [dispo, al, web]
+categories: [dispo, al]
 pid: Y1516-S018
 type: Research
 contact: Elena Cabrio
@@ -46,5 +46,5 @@ Ingénierie des Connaissances
   * Contact : Elena Cabrio <elena.cabrio@unice.fr>
   * Identifiant sujet : `Y1516-S018`
   * Type : Research
-  * Parcours Recommandés : AL, WEB
+  * Parcours Recommandés : AL
      

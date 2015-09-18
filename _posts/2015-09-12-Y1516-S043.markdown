@@ -2,7 +2,7 @@
 layout: post
 title: "BotanIR"
 date: 2015-09-12 21:01:58
-categories: [dispo, gmd, iam, ihm, web]
+categories: [dispo,  iam]
 pid: Y1516-S043
 type: Engineering
 contact: Diane Lingrand
@@ -60,5 +60,5 @@ b. Amélioration de la reconnaissance des plantes implémentée sur le serveur s
   * Contact : Diane Lingrand <lingrand@i3s.unice.fr>
   * Identifiant sujet : `Y1516-S043`
   * Type : Engineering
-  * Parcours Recommandés : GMD, IAM, IHM, WEB
+  * Parcours Recommandés :  IAM
      

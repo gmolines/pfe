@@ -2,7 +2,7 @@
 layout: post
 title: "Computing Continuous SPARQL Query over RDF Streams on Storm Platform"
 date: 2015-09-11 15:42:00
-categories: [dispo, al, caspar, gmd, web]
+categories: [dispo, al]
 pid: Y1516-S021
 type: Research
 contact: Fabrice Huet
@@ -42,5 +42,5 @@ Prerequisite:
   * Contact : Fabrice Huet <fabrice.huet@unice.fr>
   * Identifiant sujet : `Y1516-S021`
   * Type : Research
-  * Parcours Recommandés : AL, CASPAR, GMD, WEB
+  * Parcours Recommandés : AL
      

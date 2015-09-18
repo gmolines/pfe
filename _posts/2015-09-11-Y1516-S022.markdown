@@ -2,7 +2,7 @@
 layout: post
 title: "Localisation d'erreurs"
 date: 2015-09-11 15:47:17
-categories: [dispo, al, caspar]
+categories: [dispo, al]
 pid: Y1516-S022
 type: Research
 contact: Hélène Collavizza
@@ -44,5 +44,5 @@ Compétences
   * Contact : Hélène Collavizza <helen@polytech.unice.fr>
   * Identifiant sujet : `Y1516-S022`
   * Type : Research
-  * Parcours Recommandés : AL, CASPAR
+  * Parcours Recommandés : AL
      

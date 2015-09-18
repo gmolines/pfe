@@ -2,7 +2,7 @@
 layout: post
 title: "Langage de simulation de capteurs"
 date: 2015-09-11 18:12:32
-categories: [dispo, al, iam]
+categories: [dispo, al]
 pid: Y1516-S029
 type: Engineering
 contact: Sébastien Mosser
@@ -44,5 +44,5 @@ Les simulations pourront reposer sur un cloud pour gérer le passage à l'échel
   * Contact : Sébastien Mosser <mosser@i3s.unice.fr>
   * Identifiant sujet : `Y1516-S029`
   * Type : Engineering
-  * Parcours Recommandés : AL, IAM
+  * Parcours Recommandés : AL
      
