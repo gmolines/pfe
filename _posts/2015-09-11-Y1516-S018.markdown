@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Intégrer et enrichir les métadonnées des collections du patrimoine culturel grâce au web de données"
-date: 2015-09-11 14:34:36
+date: 2015-09-11 15:21:24
 categories: [dispo, al]
 pid: Y1516-S018
 type: Research

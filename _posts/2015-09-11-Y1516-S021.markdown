@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Computing Continuous SPARQL Query over RDF Streams on Storm Platform"
-date: 2015-09-11 15:42:00
+date: 2015-09-11 17:07:57
 categories: [dispo, al]
 pid: Y1516-S021
 type: Research

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Ecran de Conférence Interactif"
-date: 2015-09-13 01:22:36
+date: 2015-09-14 16:30:54
 categories: [dispo, al, iam]
 pid: Y1516-S045
 type: Engineering

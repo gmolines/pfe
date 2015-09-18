@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Design an Algorithm to Processing k Nearest Neighbor over Data Stream"
-date: 2015-09-11 17:07:57
+date: 2015-09-11 17:10:20
 categories: [dispo, al]
 pid: Y1516-S023
 type: Research

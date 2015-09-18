@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Gestion des accès sur les campus de l’UNS : alignement de systèmes d’information"
-date: 2015-09-08 15:27:28
+date: 2015-09-11 10:06:35
 categories: [dispo, al]
 pid: Y1516-S008
 type: Engineering

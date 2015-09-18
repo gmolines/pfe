@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Variabilité logicielle et programmation fonctionelle"
-date: 2015-09-11 18:06:28
+date: 2015-09-11 18:14:43
 categories: [dispo, al]
 pid: Y1516-S028
 type: Research

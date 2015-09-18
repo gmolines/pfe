@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Miroir intelligent pour Personnes Alzheimer"
-date: 2015-09-11 10:55:10
+date: 2015-09-11 11:39:10
 categories: [dispo, al, iam]
 pid: Y1516-S013
 type: Engineering

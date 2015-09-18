@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Vers une ligne de produits logiciels pour la construction de workflows d’ « apprentissage automatique »"
-date: 2015-09-11 12:03:30
+date: 2015-09-11 14:34:36
 categories: [dispo, al]
 pid: Y1516-S016
 type: Engineering

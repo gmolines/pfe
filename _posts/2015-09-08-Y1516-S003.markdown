@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Plateforme d'imagerie biologique"
-date: 2015-08-18 22:27:38
+date: 2015-09-08 12:26:01
 categories: [dispo, al]
 pid: Y1516-S003
 type: Engineering

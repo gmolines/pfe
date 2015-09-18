@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Projets DeViNT nouvelle génération"
-date: 2015-08-25 11:15:10
+date: 2015-09-08 12:45:09
 categories: [dispo, al, iam]
 pid: Y1516-S004
 type: Engineering

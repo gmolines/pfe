@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Application mobile de capture des besoins informatiques d'utilisateurs non-informaticiens"
-date: 2015-09-12 14:16:17
+date: 2015-09-12 14:45:56
 categories: [dispo, al, iam]
 pid: Y1516-S040
 type: Engineering

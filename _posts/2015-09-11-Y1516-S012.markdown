@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Informatisation multi-dispositifs d'un atelier Mémoire pour Personnes Alzheimer"
-date: 2015-09-11 09:59:30
+date: 2015-09-11 11:03:41
 categories: [dispo, al, iam]
 pid: Y1516-S012
 type: Engineering

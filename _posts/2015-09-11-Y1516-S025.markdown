@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Développement d'un Outil d'Annotation collaborative de textes zoologiques"
-date: 2015-09-11 17:10:20
+date: 2015-09-11 17:50:00
 categories: [dispo,  iam]
 pid: Y1516-S025
 type: Engineering

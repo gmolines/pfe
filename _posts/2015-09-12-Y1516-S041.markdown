@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Interfaces tactiles pour la visualisation 3D"
-date: 2015-09-12 14:23:31
+date: 2015-09-12 21:01:58
 categories: [dispo,  iam]
 pid: Y1516-S041
 type: Engineering
