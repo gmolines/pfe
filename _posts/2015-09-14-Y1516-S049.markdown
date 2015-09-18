@@ -1,0 +1,32 @@
+---
+layout: post
+title: "Auto drone multicapteur"
+date: 2015-09-14 18:59:57
+categories: [dispo, Set(AL)]
+pid: Y1516-S049
+type: Engineering
+contact: ERIC BAILLY
+---
+       
+Ce projet se divise en 2 objectifs. Il s'agit tout d'abord de programmer un drone afin qu'il puisse effectuer un vol de manière autonome en suivant une trajectoire prédéfinie mais, et c'est là la difficulté, en conservant une altitude constante par rapport au sol, donc en épousant le relief. Pour cela il faudra surement lui intégrer un module radar (à choisir et définir ensemble). Une fois cette étape réalisée, il faudra, après avoir adapté sur le drone un capteur (voir plus bas), créer une interface logicielle permettant la récupération des données issues du capteur. 
+Le drone est équipé d'une carte multiwii facilement programmable et d'un bon gps. Il est suffisamment puissant pour soulever la petite électronique qu'il faudra lui rajouter. 
+Concernant les capteurs, deux nous semblent particulièrement intéressants : un compteur dit "geiger" (ou semblable), un détecteur de métaux. L'objectif à terme et de pouvoir utiliser les données recueillies afin de créer une cartographie fine des phénomènes mesurés.
+
+#### Compétences Requises
+Outre des compétences classique en programmation, les étudiants impliqués dans ce projet devront avoir des connaissances dans la programmation des carte de type "arduino" ainsi que dans les "upgrades" possible de ces cartes (ajout du radar, des capteurs).
+
+
+#### Besoins Clients
+En tant que client nous avons besoin de personnes capables de bien maitriser les interfaces capteurs/arduino/données. Des connaissances de base en electronique seraient un plus. 
+Enfin, ce projet est dynamique et donc évoluera selon les "idées, conseils, réflexions" de l'ensemble des participants. 
+
+#### Résultats Attendus
+In fine le drone devra pouvoir être programmé pour suivre un vol prédéfini en suivant le relief. Il devra être capable d'enregistrer les données du capteur, la position fourni par le gps et de les restituer afin de pouvoir les utiliser (cartographie).
+     
+
+#### Informations Administratives
+  * Contact : ERIC BAILLY <bailly@unice.fr>
+  * Identifiant sujet : `Y1516-S049`
+  * Type : Engineering
+  * Parcours Recommandés : Set(AL)
+     

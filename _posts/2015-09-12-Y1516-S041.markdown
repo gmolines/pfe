@@ -1,0 +1,33 @@
+---
+layout: post
+title: "Interfaces tactiles pour la visualisation 3D"
+date: 2015-09-12 14:23:31
+categories: [dispo, Set(IHM)]
+pid: Y1516-S041
+type: Engineering
+contact: Philippe Renevier Gonin
+---
+       
+Les systèmes et interfaces tactiles se multiplient et ouvrent le challenge de pouvoir manipuler, visualiser et comparer des modèles géométriques 3D. Comment, à partir d’une interface tactile, réussir à réaliser ces opérations complexes ? Et à la base, quel environnement de développement choisir ? (Androïd ? iPad ? Windows?...). Que devient cette équation complexe quand on est confronté au besoin supplémentaire de visualisation en stéréovision ? Faut-il ou non prévoir l’utilisation d’un stylet ? Peut-on réaliser une interface permettant à la fois l’utilisation à la souris et l’utilisation tactile ? Doit-on envisager d'autres formes d'interactions (virtualité augmentée, commande vocale, etc.) ? Nous sommes confrontés actuellement à ce problème qui s’inscrit dans les recherches liées aux interfaces homme-machine.
+
+Le projet se fait en collaboration avec Matilde GONZALEZ, de l'entreprise Quantificare, spécialisée dans la 3D et la e-santé, et Philippe Renevier Gonin, enseignant-chercheur à l'Université Nice Sophia Antipolis. Les courriels de contact sont mgonzalez@quantificare.com et philippe.renevier@unice.fr
+
+#### Compétences Requises
+Ce PFE requière un goût prononcé pour la 3D, l’interface homme-machine, l’ergonomie, les technologies innovantes, la modélisation 3D ainsi qu’une bonne connaissance de la programmation.
+
+
+#### Besoins Clients
+Définir une interface ergonomique pour la visualisation et la comparaison des modèles 3D.
+
+#### Résultats Attendus
+•	Étude et choix des technologies
+•	Étude des besoins auprès des utilisateurs
+•	Démonstration, sur tablette, de la solution retenue
+     
+
+#### Informations Administratives
+  * Contact : Philippe Renevier Gonin <philippe.renevier@unice.fr>
+  * Identifiant sujet : `Y1516-S041`
+  * Type : Engineering
+  * Parcours Recommandés : Set(IHM)
+     

@@ -1,0 +1,64 @@
+---
+layout: post
+title: "BotanIR"
+date: 2015-09-12 21:01:58
+categories: [dispo, Set(IHM)]
+pid: Y1516-S043
+type: Engineering
+contact: Diane Lingrand
+---
+       
+En collaboration avec :
+Nicolas Pasquier pasquier@i3s.unice.fr
+Andrea Tettamanzi andrea.tettamanzi@unice.fr
+Celia da Costa Pereira celia.pereira@unice.fr
+Diane Lingrand lingrand@i3s.unice.fr
+
+
+Le but de ce projet est la conception d’une plateforme logicielle fournissant d’une part un système d'information évolué intégrant des informations de géo-localisation, stockant de façon optimale (sans redondance mais en préservant toutes les interdépendances) l’ensemble des données hétérogènes présentes dans l'entrepôt de données botaniques actuel BIOKET avec l'intégration d'un moteur de recherche pour extraire des informations complexes des données textuelles contenues dans BIOKET en s'appuyant sur la bibliothèque logicielle Apache Lucène (voir par exemple le champ Leaves de l'espèce Alphonsea gaudichaudiana : http://www.biotik.org/laos/species/a/alpga/alpga_en.html). 
+
+Les tâches à réaliser dans ce projet pour la partie système d'information correspondent aux trois étapes suivantes :
+1. Passage de l'entrepôt de données BIOKET dans le framework big data
+2. Mise en place d'un serveur Internet virtualisé pour l'entrepôt de données big data BIOKET
+3. Intégration d'outils analytiques du big data (big data mining) dans le serveur Internet BIOKET.
+
+En parallèle un moteur de recherche d'images sera développé, pour retrouver de l’information non-textuelle comme par exemple retrouver une ou plusieurs plantes à partir, d’une photo prise en situation réelle. Un prototype Javascript est déjà disponible à l'adresse suivante: http://sparks-vm7.i3s.unice.fr. Il s'agit, depuis un navigateur sur ordinateur ou terminal mobile, de communiquer avec une application de reconnaissance d'images de plantes basée sur OpenCV, tournant sur un serveur. Depuis un ordinateur, on peut envoyer une image alors que depuis un téléphone portable, il est également possible d'envoyer directement une photo prise par l'appareil photo. Cette photo est ensuite analysée sur le serveur est le résultat consiste en une liste des 5 meilleurs résultats.
+
+- amélioration du démonstrateur web existant (notamment concernant la visualisation);
+- réalisation d'une application mobile sur Android afin de pouvoir effectuer le maximum de traitements off-line
+- de réaliser une étude IHM afin de prendre en compte l'expertise de l'utilisateur tout en lui simplifiant la tâche le plus possible;
+- d'améliorer la reconnaissance des plantes implémentée sur le serveur
+
+#### Compétences Requises
+Compétence dans un ou plusieurs des domaines suivants seraient bénéfiques :
+MySQL, Node.js, Angular.js, traitement d'images
+
+
+#### Besoins Clients
+Les botanistes (amateurs ou professionnels) veulent prendre une ou plusieurs photos d'une plante et pouvoir envoyer par leur smartphone (ou autre moyen de communication) ces photos pour vérifier sur un serveur distant s'il faut cueillir la plante (pour la stocker dans le système d'information) ou si c'est inutile car la plante est déjà dans le système d'information.
+
+Ils veulent aussi pouvoir fouiller rapidement et efficacement la totalité des informations stockées dans le système d'information, l'enrichir simplement et combiner les informations avec d'autres bases d'informations botaniques à travers le monde.
+
+#### Résultats Attendus
+1) a. État de l'art des solutions du big data management (NoSQL, HDFS, etc.) et Étude de la solution la plus adaptée pour la matérialisation du big data warehouse BioKET.
+b. Amélioration du démonstrateur web existant (notamment concernant la visualisation); 
+
+2) a. Mise en oeuvre de la solution retenue (mise en place de la plate-forme big data, conversion et
+migration des données de BioKET, optimisation des structures physiques, etc.).
+b. Réalisation d'une application mobile sur Android afin de pouvoir effectuer le maximum de traitements off-line (l'accès à Internet n'est pas forcément garanti en montagne) en s'appuyant sur la version Android de la bibliothèque OpenCV. On pourra notamment considérer une communication ultérieure avec le serveur; 
+
+3) a. Visualisation des données : affichage des données résultant d'une sélection multi-critères sur des données de l'entrepôt de données BioKET et interfaçage avec des serveurs et outils en-ligne tels que GeoCAT pour la visualisation géolocalisée de données sur la biodiversité des espèces.
+b. Réalisation d'une étude IHM afin de prendre en compte l'expertise de l'utilisateur tout en lui simplifiant la tâche le plus possible;
+
+
+4) a. État de l'art des outils du big data mining pour la classification supervisée et non-supervisée
+(clustering), et l'extraction de motifs fréquents (associations, itemsets, etc.). Étude des outils adaptés aux besoins analytiques de l'entrepôt de données BioKET. Mise en oeuvre des outils retenus.
+b. Amélioration de la reconnaissance des plantes implémentée sur le serveur selon différents axes: utiliser conjointement plusieurs images de différentes parties d'une plante (feuille, fleur, tronc, ...), utiliser les meta-données associées aux images (coordonnées GPS, ...), améliorer la base d'apprentissage.
+     
+
+#### Informations Administratives
+  * Contact : Diane Lingrand <lingrand@i3s.unice.fr>
+  * Identifiant sujet : `Y1516-S043`
+  * Type : Engineering
+  * Parcours Recommandés : Set(IHM)
+     

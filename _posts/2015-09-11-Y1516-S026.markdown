@@ -1,0 +1,71 @@
+---
+layout: post
+title: "Ecoknowledge"
+date: 2015-09-11 17:26:18
+categories: [dispo, Set(AL, IHM)]
+pid: Y1516-S026
+type: Engineering
+contact: Sébastien Mosser
+---
+       
+Ecoknowledge est une plateforme permettant de gamifier un réseaux de capteurs, prototypée durant l'été 2015 au sein d'I3S/Sparks. Les bureaux de l'équipe Sparks sont équipés de capteurs de température, humidité, présence, ouverture de porte, ... 
+
+Le but de la plateforme est de sensibiliser les gens sur leurs consommations et la sécurité des bâtiments, en reposant sur le concept de Défis lancés aux usagers du bâtiment, et de badges gagnés lors de la réalisation des défis.
+
+Le projet portera sur la mise en place d'une plateforme qui permettra:
+  - de créer des équipes d'utilisateurs prêt a relever des défis
+  - de créer des objectifs a atteindre pour créer les défis
+  - de se connecter au middleware SmartCampus pour calculer la réalisation des objectifs
+
+Scientifiquement parlant, les difficultés du projet sont les suivantes:
+  1. Modéliser un langage permettant d'exprimer les objectifs, comme par exemple "la température a baissée de 25% par rapport au mois dernier" ou "quand la personne est absente de son bureau alors la lumière est éteinte"
+  2. fournir un moteur d'execution capable d'interpréter ces objectifs
+  3. gérer le passage a l'échelle de la solution pour garantir un temps de calcul efficace malgré les gros volume de donnés récoltés (1 capteur récolte plus d'1Gb de données par an),
+
+#### Compétences Requises
+  - Modélisation
+  - Développement logiciel
+  - Envie de toucher du doigts de problèmes "durs" de passage a l'échelle
+
+
+#### Besoins Clients
+Un défi peut être "baisser la conso électrique de 10%" et le badge s'appeler "à mort EDF" et rapporter 10 points.
+
+L'utilisateur final ne fait que relever des défis et récupérer (éventuellement) des badges/points.
+
+L'administrateur, lui, crée les défis. On parle alors d'objectifs.
+Un objectif est composé :
+d'un nom, d'une période de validité, d'un temps octroyé pour le réaliser, de conditions et d'un badge.
+
+Les objectifs sont le coeur même du système. C'est là qu'est tout l'intérêt et la complexité du projet.
+Les conditions peuvent être du genre :
+La température a baissé de 25% par rapport à juin 2015,
+ou encore la porte de l'étage est fermée tout le temps la nuit des weekend, 80% du temps les nuits de semaine et au moins 50% les journées de semaine
+ou enfin : la température du bureau est supérieur à 25°C, 80% du temps.
+
+Donc pour résumer :
+l'administrateur crée un objectif, avec des conditions (parfois complexes) et lui rattache un badge.
+
+l'utilisateur peut alors "relever cet objectif" (=> relever le défi) et automatiquement on calcul où il en est de ce défi (à combien il remplit les conditions/critères de l'objectif). Si à la fin du temps donné, toutes les conditions sont à 100%, il a un badge.
+
+Maintenant complexifions un peu.
+L'objectif peut être récurrent au jour/la semaine/ le mois, et se relance automatiquement en fin de vie, que l'utilisateur l'ait réussi ou pas.
+Plus l'utilisateur réussit l'objectif, plus "le niveau du badge acquis" augmente (bronze/argent/or/platine/etc...). On a alors des badges composites.
+
+Des objectifs composite permettent d'exprimer "il y a une baisse de 25% de consommation PUIS la consommation varie de 2% pendant 15 jours".
+
+Ce greffe alors l'aspect "jeu", puisqu'un utilisateur a un score, on peut classer les utilisateurs.
+Mais les utilisateurs appartiennent aussi à des équipes, qui ont elles-mêmes des objectifs, et peuvent donc également être classées.
+
+#### Résultats Attendus
+  - plateforme logicielle web 
+  -  documentation du langage de modélisation des objectifs
+  - benchmark de temps d'exécution et de charge serveur pour le calcul des badges.
+     
+
+#### Informations Administratives
+  * Contact : Sébastien Mosser <mosser@i3s.unice.fr>
+  * Identifiant sujet : `Y1516-S026`
+  * Type : Engineering
+  * Parcours Recommandés : Set(AL, IHM)
+     

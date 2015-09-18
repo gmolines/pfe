@@ -1,0 +1,50 @@
+---
+layout: post
+title: "Intégrer et enrichir les métadonnées des collections du patrimoine culturel grâce au web de données"
+date: 2015-09-11 14:34:36
+categories: [dispo, Set(AL)]
+pid: Y1516-S018
+type: Research
+contact: Elena Cabrio
+---
+       
+Projet co-encadré par Elena Cabrio, Serena Villata et Catherine Faron Zucker.
+
+L'entrepôt virtuel "Archivio Nuova Scrittura" contient une collection d'œuvres d'art actuellement détenues par deux musées italiens (MART a Rovereto et MUSEION a Bolzano). Il s'agit d'un dépôt d'environ 2000 enregistrements numériques d'œuvres d'art décrites par une image, un ensemble de métadonnées (auteur, année, lieu, technique, etc), et du texte libre. Plusieurs institutions du patrimoine culturel commencent à explorer la valeur ajoutée de partager leurs données [1][2], de les ouvrir aux initiatives qui utilisent le nuage de Données Ouvertes (Linked Data Cloud) pour intégrer et enrichir les métadonnées des collections du patrimoine culturel. Dans cette direction, l'objectif du PFE est de transformer l'accès aux documents en fournissant des informations culturelles (par exemple, les annonces d'événements, les descriptions des artistes, etc.) en ajoutant des données liées compréhensibles par les machines et leur représentation sémantique basée sur les ontologies.
+Cela permettrait aux utilisateurs de formuler des requêtes beaucoup plus complexes sur les données sémantiquement enrichies et interconnectées aussi avec d'autres bases de connaissances (par exemple avec DBpedia, une version structurée de Wikipedia), en s'appuyant sur les formalismes du web de données. Par exemple, il serait possible de combiner l'information chronologique sur les œuvres avec les informations relatives aux auteurs, à l'histoire de la collection, etc. Le dépôt Archivio Nuova Scrittura pourrait donc devenir une plate-forme pour la découverte d'informations plutôt que juste une collection d'art virtuelle disponible en ligne.  En se basant sur les résultats obtenus lors d'un PFE de l’année dernière sur le même sujet, les objectifs du PFE que nous proposons à une équipe de 4 étudiants sont les suivants :
+Objectifs:
+- Exploration des bases de connaissances existantes à partir desquelles des informations complémentaires peuvent être extraites.
+- Nettoyage et élargissement de la base de données en RDF de l'Archivio Nuova Scrittura, avec introduction de données multimodales (videos, audio, images, transcriptions).
+- Interconnexion des données extraites aux données publiées sur le web des données à travers DBpedia, ou des autres bases de connaissances sur le Linked Open Data.
+- Implémentation d'un algorithme pour l'extraction de données structurées (RDF) à partir de contenus non structurés comme des textes en langage naturel (en se basant sur le WikiFramework [3]).
+- Gestion de problématiques liées au manque de données (taille de la collection, qui comprend des artistes peu connus et pour lesquels peu de données peuvent être récupérées sur le Web, plusieurs œuvre «sans titre » ).
+- Réconciliation d 'information obtenue par des sources différentes (qui peut être discordante) [4].
+- Implémentation d'une plateforme pour l'exploration des données et métadonnées du dépôt Archivio Nuova Scrittura (par exemple, recherche par mots-clefs, questions en langage naturel).
+
+Références
+http://mwf2014.museumsandtheweb.com/proposals/creating-a-platform-for-navigating-verbo-visual-art-collections/
+http://dbpedia.org
+[1] Johan Oomen, Marieke van Erp and Lotte Belice Baltussen (2012) Sharing cultural heritage the linked open data way:  why you should sign up. Museums and the Web 2012, San Diego, CA, USA, April 11-14 2012.
+[2] Chiel van den Akker, Marieke van Erp, Lora Aroyo, Ardjan van Nuland, Lourens van der Meij, Guus Schreiber and Susan  Legêne (2013) From Information Delivery to Interpretation Support: Evaluating Cultural Heritage Access on the Web.  Proceedings of WebSci’13. Paris, France, May 2013.
+[3] Elena Cabrio, Julien Cojan, Alessio Palmero Aprosio, Fabien Gandon (2012). Natural Language Interaction with the Web of Data by Mining its Textual Side, Intelligenza Artificiale 6 (2012), pp. 121–133. Special Issue on Natural  Language Processing in the Web Era. IOS Press.
+[4] Elena Cabrio, Alessio Palmero Aprosio, Serena Villata (2014) Reconciling Information in DBpedia through a Question Answering System, Proceedings of the 13th International Semantic Web Conference (ISWC 2014). Demo paper. Riva del Garda, Italy.
+
+#### Compétences Requises
+Web Sémantique
+Ingénierie des Connaissances
+
+
+#### Références
+
+  * Équipe: Wimmics
+  * [http://www.museumsandtheweb.com/mw2012/papers/sharing_cultural_heritage_the_linked_open_data](http://www.museumsandtheweb.com/mw2012/papers/sharing_cultural_heritage_the_linked_open_data)
+  * [http://www.cs.vu.nl/~guus/papers/Akker13a.pdf](http://www.cs.vu.nl/~guus/papers/Akker13a.pdf)
+  * [http://content.iospress.com/articles/intelligenza-artificiale/ia034](http://content.iospress.com/articles/intelligenza-artificiale/ia034)
+  * [http://ceur-ws.org/Vol-1272/paper_44.pdf](http://ceur-ws.org/Vol-1272/paper_44.pdf)
+
+#### Informations Administratives
+  * Contact : Elena Cabrio <elena.cabrio@unice.fr>
+  * Identifiant sujet : `Y1516-S018`
+  * Type : Research
+  * Parcours Recommandés : Set(AL)
+     

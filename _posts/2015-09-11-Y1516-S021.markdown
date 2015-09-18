@@ -1,0 +1,46 @@
+---
+layout: post
+title: "Computing Continuous SPARQL Query over RDF Streams on Storm Platform"
+date: 2015-09-11 15:42:00
+categories: [dispo, Set(AL)]
+pid: Y1516-S021
+type: Research
+contact: Fabrice Huet
+---
+       
+As the data on the web exploring, it is important to have the huge amount of data on the web available in a standard format. The Resource Description Framework (RDF) is a data model whose purpose is to form a comprehensive framework to integrate data from different fields. It is a flexible data model used in the Semantic Web (a Web of data), on which we can do querying or reasoning. SPARQL is a query language for querying RDF data.
+ 
+The growth of RDF data is doubling every year. And sometime we need an answer in real-time or quasi real-time. So it is very important to have a platform, which can treat the huge RDF data in a parallel and continuous way.
+ 
+Stream is a sequence of data made available over time. A stream can be thought of as items on a conveyor belt being processed one at a time rather than in large batches. Apache Storm is a real-time, fault-tolerant and distributed stream data processing system. Storm is currently being used to run various critical computations in Twitter at scale, and in real-time. It uses custom created ”Spout” and ”Bolt” to define information sources and manipulations to allow batch distributed processing of streaming data. A Storm application is designed as a ”topology” in the shape of a directed acyclic graph (DAG) with spouts and bolts acting as the graph vertices. Edges on the graph are named streams and direct data from one node to another. Together, the topology acts as a data transformation pipeline.
+ 
+The purpose of this PFE is to implement the SPARQL Query over RDF data on a stream-processing platform --- Storm. This PFE has four steps:
+-   The first step is to find a way to decompose the Query into sub-queries.
+-   The second step is to write the ”Spout” of this processing in Storm
+-   The third step is to write the “Bolt” of this processing in Storm
+-   The last step will be eventually to perform a benchmark to verify the results.
+ 
+The students will be provided with several instructions and published papers about RDF, SPARQL, Storm and Stream Processing. A preliminary research of how to decompose the query in a parallel way has already been done. The students will have to understand this decompose model and to implement in Storm.
+
+This work will be done in collaboration with Sophie Song, PhD student in the Scale Group
+
+#### Compétences Requises
+Prerequisite:
+    - have a good background in Java.
+    - have the ability to learn a new processing platform
+    - the knowledge about RDF or Storm will be a big plus
+
+
+#### Références
+
+  * Équipe: Scale
+  * [http://www.w3.org/rdf/](http://www.w3.org/rdf/)
+  * [http://www.w3.org/tr/rdf-sparql-query/](http://www.w3.org/tr/rdf-sparql-query/)
+  * [http://storm-project.net](http://storm-project.net)
+
+#### Informations Administratives
+  * Contact : Fabrice Huet <fabrice.huet@unice.fr>
+  * Identifiant sujet : `Y1516-S021`
+  * Type : Research
+  * Parcours Recommandés : Set(AL)
+     

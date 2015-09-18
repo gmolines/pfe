@@ -1,0 +1,37 @@
+---
+layout: post
+title: "Environnement ambiant Multi-Contexte"
+date: 2015-09-10 11:39:38
+categories: [dispo, Set(AL)]
+pid: Y1516-S009
+type: Research
+contact: Gaëtan Rey
+---
+       
+Alors que de plus en plus d'objets connectés (smartphones, capteurs, montres connectées, ...) peuplent notre environnement quotidien, la plus part des travaux actuels cherchent à prendre en compte ces éléments comme un tout immuable.
+
+De notre point de vue, nous considérons qu'il n'est pas possible de définir à l'avance un ensemble immuable de préoccupations utilisateurs et qu'il serait plus judicieux de considérer cet ensemble comme évolutif. Il conviendrait alors de définir non pas 1 préoccupation mais bien plusieurs, indépendantes les unes des autres (au moment de la conception) et d'être capable de mettre en œuvre la fusion de celles-ci à l'exécution et cela en fonction du contexte (état de l'application et de l'environnement) courant.
+
+Le but de ce projet est des mettre en œuvre un telle architecture en s'aidant, si besoin, de solutions logicielles déjà existantes.
+
+#### Compétences Requises
+Les étudiants devront avoir 
+-> Des notions d'architecture logicielle, de services logiciels.
+-> La capacité de prendre en main des solutions existantes.
+-> De la créativité et ingéniosité pour mettre en œuvre des solutions Innovantes.
+Les solutions existantes sont en c#, mais le langage des futurs solutions pourra être changé des besoins du projet et des souhaits des étudiants.
+
+
+#### Références
+
+  * Équipe: Sparks
+  * [http://continuum.unice.fr/_media/livrables:t2.1_2.2_modelisation_du_contexte_et_adaptation.pdf](http://continuum.unice.fr/_media/livrables:t2.1_2.2_modelisation_du_contexte_et_adaptation.pdf)
+  * [http://dl.acm.org/citation.cfm?id=1463126](http://dl.acm.org/citation.cfm?id=1463126)
+  * [http://dl.acm.org/citation.cfm?id=593572](http://dl.acm.org/citation.cfm?id=593572)
+
+#### Informations Administratives
+  * Contact : Gaëtan Rey <Gaetan.Rey@unice.fr>
+  * Identifiant sujet : `Y1516-S009`
+  * Type : Research
+  * Parcours Recommandés : Set(AL)
+     

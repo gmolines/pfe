@@ -1,0 +1,52 @@
+---
+layout: post
+title: "Bibliothèque de visualisation de données"
+date: 2015-09-11 17:50:00
+categories: [dispo, Set(AL, IHM)]
+pid: Y1516-S027
+type: Engineering
+contact: Sébastien Mosser
+---
+       
+La visualisation de données est un domaine profitant de l’expansion du web. Ainsi, de plus en plus de bibliothèques voient le jour, offrant parfois plusieurs centaines de visualisations.
+
+Lors de la conception d’un dashboard (tableau de bord) utilisé pour surveiller et contrôler un système, l’intégration de plusieurs bibliothèques pour leurs widgets spécifiques peut se révéler complexe, mais nécessaire si l’on veut pouvoir profiter des visualisations les plus adaptées au problème à résoudre.
+
+Objectifs :
+
+Ce projet de fin d’étude a pour objectif principal de concevoir et développer une surcouche à différentes bibliothèques qui permettrait de faciliter la déclaration d’un dashboard de visualisation en restant indépendant de la bibliothèque concrète sous-jacente.
+
+En suivant un processus itératif, vous devrez :
+
+  - proposer un format de configuration suffisant pour permettre la construction d’un dashboard
+    - quelles visualisations ?
+    - quel placement ?
+    - quelles données ?
+  
+  - identifier des visualisations cibles et pour chacune :
+    - la tester dans un cas concret
+    - caractériser ses capacités
+    - identifier ses inputs nécessaires
+    - la rendre disponible dans l'API de configuration (par exemple l’encapsuler dans une directive Angular)
+
+#### Compétences Requises
+  - Compétences en développement web
+  - capacité d'abstraction et de modélisation
+  - gout pour l'analyse et la recherche 
+
+
+#### Besoins Clients
+L'approche sera entièrement dirigée par l'implémentation, avec pour objectif d'obtenir très rapidement un produit minimal viable qui sera progressivement enrichi au fur et a mesure du développement du projet
+
+#### Résultats Attendus
+  - une bibliothèque javascript permettant de visualiser des données
+  - une preuve de concept exploitant cette bibliothèque
+  - une analyse des capacités des différentes visualisations définies
+     
+
+#### Informations Administratives
+  * Contact : Sébastien Mosser <mosser@i3s.unice.fr>
+  * Identifiant sujet : `Y1516-S027`
+  * Type : Engineering
+  * Parcours Recommandés : Set(AL, IHM)
+     

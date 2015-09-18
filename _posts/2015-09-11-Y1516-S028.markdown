@@ -1,0 +1,30 @@
+---
+layout: post
+title: "Variabilité logicielle et programmation fonctionelle"
+date: 2015-09-11 18:06:28
+categories: [dispo, Set(AL)]
+pid: Y1516-S028
+type: Research
+contact: Sébastien Mosser
+---
+       
+L’objectif de ce projet est d’étudier comment les mécanismes de modularité présents dans Scala (e.g., traits, curryfication) peuvent être exploités pour permettre la configuration d’éléments variables. L’étude sera appliquée à Island pour la validation expérimentale, mais travaillera dans un contexte plus large: comment les possibilités objet et fonctionnelles de Scala peuvent elles être exploitées dans un contexte de modélisation et d’exploitation de la variabilité?
+
+Le projet MODALIS de l’équipe Sparks travaille sur la modélisation de la variabilité logicielle. Le logiciel “Island” (Sébastien Mosser, Philippe Collet) est un générateur de terrain aléatoire qui permet de créer des îles (utilisé en projet pour le cours OQL en 3A). Ces îles sont variables, par leur taille, leur forme, leur bio-diversité, … Island est écrit en Scala, et dispose d’un petit langage interne (une API) qui permet de configurer une île. Cependant, cette API n’as pas été conçue pour supporter la configuration complète des îles, et possède de nombreuse limites. Par exemple, elle ne prend pas en compte un certain nombre de contraintes “métier”: certains algorithmes de calcul de l’altitude ne sont pas compatibles avec certaines formes d’îles.
+
+#### Compétences Requises
+Des connaissances en langage fonctionnels (e.g., Scheme, Lisp) et objet (e.g., Java, C++). Des bases en Scala, ou mieux, avoir suivi le cours de Martin Odersky sur Coursera (l’apprentissage de Scala sera compris dans le temps de projet dans le cas contraire). Une grande curiosité, les possibilités d’application sur Island sont très vastes.
+
+
+#### Références
+
+  * Équipe: Sparks / Modalis
+  * [http://infoscience.epfl.ch/record/52656/files/ScalaOverview.pdf](http://infoscience.epfl.ch/record/52656/files/ScalaOverview.pdf)
+  * [https://ece.uwaterloo.ca/~kczarnec/splc04.pdf](https://ece.uwaterloo.ca/~kczarnec/splc04.pdf)
+
+#### Informations Administratives
+  * Contact : Sébastien Mosser <mosser@i3s.unice.fr>
+  * Identifiant sujet : `Y1516-S028`
+  * Type : Research
+  * Parcours Recommandés : Set(AL)
+     
