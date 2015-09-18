@@ -28,4 +28,5 @@ l'utilisateur final doit pouvoir naviguer dans le modèle VRML grâce au casque 
   * Identifiant sujet : `Y1516-S050`
   * Type : Engineering
   * Parcours Recommandés : IHM
-     
+
+
