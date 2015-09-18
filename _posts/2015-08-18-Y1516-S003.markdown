@@ -2,7 +2,7 @@
 layout: post
 title: "Plateforme d'imagerie biologique"
 date: 2015-08-18 22:27:38
-categories: [dispo, Set(AL)]
+categories: [dispo, al]
 pid: Y1516-S003
 type: Engineering
 contact: Gregoire Malandain
