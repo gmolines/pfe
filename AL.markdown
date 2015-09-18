@@ -8,7 +8,7 @@ permalink: /al/
 {% assign sorted_posts = (site.posts | sort: 'title') %}
 
 {% for post in sorted_posts %}
-    {% if post.categories contains 'AL' or post.categories contains 'dispo' %}
+    {% if post.categories contains 'al' and post.categories contains 'dispo' %}
 ### {% if post.type == 'Research' %}[R]{% else %}[I]{% endif %} {{post.title}}    
   * Contact: {{post.contact}}
   * Identifiant projet: {{$post.pid}}
