@@ -2,7 +2,7 @@
 layout: post
 title: "Navigation dans un modème VRML 3D à partir d'un casque "cardboard""
 date: 2015-09-14 21:38:03
-categories: [dispo,  iam]
+categories: [dispo, ihm]
 pid: Y1516-S050
 type: Engineering
 contact: ERIC BAILLY
@@ -27,5 +27,5 @@ l'utilisateur final doit pouvoir naviguer dans le modèle VRML grâce au casque 
   * Contact : ERIC BAILLY <bailly@unice.fr>
   * Identifiant sujet : `Y1516-S050`
   * Type : Engineering
-  * Parcours Recommandés :  IAM
+  * Parcours Recommandés : IHM
      

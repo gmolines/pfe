@@ -2,7 +2,7 @@
 layout: post
 title: "Visualiseur d’objets 3D en réalité virtuelle pour Google CardBoard en utilisant la technologie Cintoo3D"
 date: 2015-09-11 17:26:18
-categories: [dispo,  iam]
+categories: [dispo, ihm]
 pid: Y1516-S024
 type: Engineering
 contact: Anis Meftah
@@ -30,5 +30,5 @@ L’objectif de ce projet est de développer une solution de visualisation 3D su
   * Contact : Anis Meftah <meftah@cintoo3d.com>
   * Identifiant sujet : `Y1516-S024`
   * Type : Engineering
-  * Parcours Recommandés :  IAM
+  * Parcours Recommandés : IHM
      

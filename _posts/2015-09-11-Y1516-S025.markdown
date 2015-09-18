@@ -2,7 +2,7 @@
 layout: post
 title: "Développement d'un Outil d'Annotation collaborative de textes zoologiques"
 date: 2015-09-11 17:50:00
-categories: [dispo,  iam]
+categories: [dispo, ihm]
 pid: Y1516-S025
 type: Engineering
 contact: Catherine FARON ZUCKER
@@ -54,5 +54,5 @@ Un modèle de données RDF doit être établi et il doit être possible d'export
   * Contact : Catherine FARON ZUCKER <faron@i3s.unice.fr>
   * Identifiant sujet : `Y1516-S025`
   * Type : Engineering
-  * Parcours Recommandés :  IAM
+  * Parcours Recommandés : IHM
      

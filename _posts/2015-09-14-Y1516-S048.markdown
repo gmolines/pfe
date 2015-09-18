@@ -2,7 +2,7 @@
 layout: post
 title: "Modélisation 3D par Kinect"
 date: 2015-09-14 21:00:00
-categories: [dispo,  iam]
+categories: [dispo, ihm]
 pid: Y1516-S048
 type: Engineering
 contact: ERIC BAILLY
@@ -26,5 +26,5 @@ Un logiciel avec un GUI (interface) utilisable facilement, sans connaissance de 
   * Contact : ERIC BAILLY <bailly@unice.fr>
   * Identifiant sujet : `Y1516-S048`
   * Type : Engineering
-  * Parcours Recommandés :  IAM
+  * Parcours Recommandés : IHM
      
