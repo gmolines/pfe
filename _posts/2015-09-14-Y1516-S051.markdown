@@ -1,0 +1,32 @@
+---
+layout: post
+title: "casque encephalogramme et navigation dans un modèle 3D"
+date: 2015-09-14 21:59:27
+categories: [dispo, ihm]
+pid: Y1516-S051
+type: Engineering
+contact: ERIC BAILLY
+---
+       
+Les recherches sur les interfaces de commande par la pensée viennent de mettre en lumière la possibilité d'utiliser des casques intégrant un système d’électro-encéphalogramme. De plus en plus de produits accessibles sont en vente et de nombreuses ressources permettent d'en fabriquer (DIY). 
+A partir d'un de ces casques (que nous achèterons ou que les étudiants fabriqueront), l'objectif est de monter une interface permettant de manipuler par la pensée un modèle en 3D (vrml). Nous avons présenté ce type de projet il y a 2 ans en PFE mais la manipulation se faisait à travers un Leap Motion. Les résultats étaient probants.
+
+C'est un projet très ouvert et il peut comporter une partie réalisation manuelle du casque (un Do It Yourself) mais l'objectif est clairement défini : réussir la manipulation par la pensée d'un objet 3D.
+
+#### Compétences Requises
+Les étudiants devront posséder des compétences manuelles si il y a création du casque. De plus il faudra créer une interface électronique permettant de connecter le casque au pc. Enfin une interface logiciel intégrera la transformation des signaux électriques fournis par le casque en ordres exécutés par le logiciel comportant le modèle VRML (de nombreux viewer existent).
+
+
+#### Besoins Clients
+Les étudiants devront être inventifs, de conseil, prêt à s'investir dans un projet délicat mais très novateur.
+
+#### Résultats Attendus
+un casque, sa conection au pc, l'architecture logicielle permettant la récupération des signaux électriques et leur transformation en ordre, l'interface avec un viewer vrml.
+     
+
+#### Informations Administratives
+  * Contact : ERIC BAILLY <bailly@unice.fr>
+  * Identifiant sujet : `Y1516-S051`
+  * Type : Engineering
+  * Parcours Recommandés : IHM
+     
