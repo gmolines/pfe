@@ -9,8 +9,8 @@ import org.apache.poi.ss.usermodel.{Row, WorkbookFactory}
 
 object Main extends App {
 
-  final val START = 1
-  final val STOP =  32
+  final val START = 2
+  final val STOP =  54
 
   final val OUTPUT_DIR = "./outputs"
 
@@ -27,7 +27,9 @@ object Main extends App {
 
   val projects = dataset foreach { row =>
     val project = ProjectFactory(row)
-    project.toMarkdown
+    if (project != null) {
+    	project.toMarkdown
+	  }
   }
 
 }
@@ -40,6 +42,7 @@ object ProjectFactory {
     val pid = f"Y1516-S${row.getRowNum}%03d"
     println(s"## Handling project [$pid]")
 
+    if (row.getCell(17).getStringCellValue == "yes") {
     // Common
     val rawDate = row.getCell(0).getDateCellValue
     val date = new SimpleDateFormat("yyyy-MM-dd").format(rawDate)
@@ -47,23 +50,34 @@ object ProjectFactory {
     val firstName = row.getCell(2).getStringCellValue.capitalize
     val lastName = row.getCell(1).getStringCellValue.capitalize
     val email = row.getCell(3).getStringCellValue
-    val title = row.getCell(5).getStringCellValue
-    val majors = buildMajors(row.getCell(6).getStringCellValue)
-    val description = row.getCell(7).getStringCellValue
-    val skills = row.getCell(8).getStringCellValue
+    val title = row.getCell(18).getStringCellValue
+    val majors = buildMajors(row.getCell(31).getStringCellValue)
+//    val majors = buildMajors(row.getCell(11).getStringCellValue,
+//    	row.getCell(12).getStringCellValue,
+//    	row.getCell(13).getStringCellValue,
+//    	row.getCell(14).getStringCellValue,
+//    	row.getCell(15).getStringCellValue,
+//    	row.getCell(16).getStringCellValue)
+    val description = row.getCell(19).getStringCellValue
+    val skills = row.getCell(20).getStringCellValue
 
     val common = Common(pid, date, hour, firstName, lastName, email, title, majors, description, skills)
 
     // Research or engineering
-    if (row.getCell(9).getStringCellValue == "Recherche") {
-      val team = row.getCell(11).getStringCellValue
+    if (row.getCell(24).getStringCellValue == "Recherche") {
+      val team = row.getCell(26).getStringCellValue
       val biblio = buildBiblio(row)
       Research(common, team, biblio)
     } else {
-      val requirements = row.getCell(16).getStringCellValue
-      val results = row.getCell(17).getStringCellValue
+      val requirements = row.getCell(21).getStringCellValue
+      val results = row.getCell(22).getStringCellValue
       Engineering(common, requirements, results)
     }
+    }
+    else{
+    null
+    }
+    
 
   }
 
@@ -72,8 +86,38 @@ object ProjectFactory {
     (data.split(",") filter { _.contains(":") } map { d => d.split(":")(0) }).toSet
   }
 
+//  def buildMajors(isAL: String, isCaspar: String, isGMD: String, isIHM: String, isIAM: String, isWEB: String): Set[String] = {
+//  	var res = Set.empty[String]
+//	val res = scala.collection.mutable.Map[String, String]()
+//  	if (isAL == "yes") {
+//  		res put ("AL","")
+//		res += "AL"
+//  	}
+//  	if (isCaspar == "yes") {
+//  		res put ("CASPAR","")
+//		res += "CASPAR"
+//  	}
+//  	if (isGMD == "yes") {
+//  		res put ("GMD","")
+//		res += "GMD"
+//  	}
+//  	if (isIHM == "yes") {
+//  		res put ("IHM","")
+//		res += "IHM"
+//  	}
+//  	if (isIAM == "yes") {
+//  		res put ("IAM","")
+//		res += "IAM"
+//  	}
+//  	if (isWEB == "yes") {
+//  		res put ("WEB","")
+//		res += "WEB"
+//  	}
+//  	res
+//  }
+
   def buildBiblio(row: Row): Set[String] = {
-    (Set[String]() /: Seq(12,13,14,15)) { (acc, n) =>
+    (Set[String]() /: Seq(27,28,29,30)) { (acc, n) =>
       try {
         val data = row.getCell(n).getStringCellValue
         acc + data
@@ -107,6 +151,7 @@ trait Project {
          |contact: ${common.firstName} ${common.lastName}
          |---
        """.stripMargin
+       
     val body =
     s"""
        |${common.description}
