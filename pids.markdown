@@ -1,7 +1,7 @@
 ---
 layout: page
 title: all
-longtitle: Sujets proposés en 2014-2015
+longtitle: Sujets proposés en 2015-2016
 permalink: /pids/
 ---
 {% assign sorted_posts = (site.posts | sort: 'pid') %}

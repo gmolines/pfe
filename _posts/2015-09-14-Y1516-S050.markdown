@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Navigation dans un modème VRML 3D à partir d'un casque "cardboard""
+title: "Navigation dans un modème VRML 3D à partir d'un casque cardboard"
 date: 2015-09-14 21:38:03
 categories: [dispo, ihm]
 pid: Y1516-S050
