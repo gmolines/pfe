@@ -1,34 +1,36 @@
 ---
 layout: post
-title: "Merging experimental and production clusters"
-date: 2015-09-11 15:42:00
-categories: [dispo, al]
+title: "Gestionnaire de déduplication"
+date: 2015-09-11 15:47:17
+categories: [dispo, al,gmd]
 pid: Y1516-S019
-type: Research
+type: Engineering
 contact: Fabrice Huet
 ---
        
-Researchers regularly use remote computing resources as part of their research. A lot of  research organisations have in-house clusters which are easily accessible, with few limitations. Depending on the type of research, the number of nodes and the duration of the computation vary. For example, testing some distributed algorithm might require a large number of nodes for a few hours, whereas performing an astronomical simulation might last weeks. To deal with such a wide spectrum of requirements, clusters are usually set-up for a particular workload. A research cluster will allow jobs of short duration, but on a large number of nodes. On the other hand, a production cluster will allow very long running jobs on a few nodes to give every user a chance. This limitations are usually described in a charter and enforced by a scheduler. 
-Very large Cloud providers like Amazon don't have such a problem because of the "infinite" number of nodes they provide
-and the associated cost for the user. However, a university cannot afford this.
+ La numérisation de tous les fichiers multimédia (photos, vidéos, musiques...) conduit à une accumulation de fichiers qu'il est difficile d'organiser. En effet, il n'existe pas de moyen automatique fiable pour classer les photos par thème ou par personne y apparaissant. Combiné au faible coût du stockage, il n'est pas rare d'avoir plusieurs copies d'un même fichier sur un disque dur. La déduplication est une opération qui consiste à détecter des fichiers identiques pour n'en garder qu'une copie. Elle peut se faire directement au niveau du système de fichiers (par exemple ZFS) ou grâce à un logiciel externe. De base, on peut considérer que 2 fichiers sont identiques si ils ont  exactement le même contenu, à l'octet près. C'est très facile à détecter en comparant le checksum (MD5 ou SHA-1 par exemple) et relativement fiable. Mais pour certains fichiers, on peut aller plus loin. Par exemple une photo peut exister à différentes résolutions, ou avec de légères différences. Dans ce cas, le checksum sera différent alors que les fichiers seront similaires. Pour traiter ce cas, on peut par exemple utiliser du Locality Sensitive Hashing sur une signature de l'image.
 
-The aim of this PFE is to answer the following question: is there a set of rules which would allow both experimental and production workloads on a single platform ?
-
-To answer this question, the students will have access to the logs of two job schedulers (experimental and production). The first part of the work will hence consist in data-mining to extract relevant information (job duration, resources requested, resources granted...). In the second part, these informations will be used to design an ideal cluster which allows for the execution of the most of the jobs, with a limited cost. This will be done mostly through simulations. 
+Le but de ce projet est de construire un logiciel permettant de chercher des fichiers identiques ou similaires sur un système de fichiers. Ce logiciel utilisera une interface Web (HTML5 et JQuery) pour communiquer avec un back-end chargé de l'indexation et la recherche de contenus similaires (Java). Il existe une version initiale de ce logiciel dont il est possible de se servir. Elle fournit, entre autre, la recherche d'images similaires.
 
 #### Compétences Requises
-Analyse de données, Big Data, Modélisation
+Java, HTML5, JavaScript, JQuery, Bootstrap
 
 
-#### Références
+#### Besoins Clients
+Le logiciel devra au moins avoir les fonctionnalités suivantes :
+- Gestion de centaines de milliers de fichiers
+- Indexation des fichiers dans une BD de taille réduite
+- Recherche de fichiers identiques ou similaires (images au moins)
+- Recherche de repertoires contenant des fichiers identiques ou similaires
+- Support du drag'n'drop pour chercher dans la base des images similaires à partir d'une image du web
 
-  * Équipe: Scale
-  * [http://simgrid.gforge.inria.fr/](http://simgrid.gforge.inria.fr/)
-  * [https://www.grid5000.fr/mediawiki/index.php/Grid5000:Home](https://www.grid5000.fr/mediawiki/index.php/Grid5000:Home)
+#### Résultats Attendus
+Le logiciel fourni à la fin de ce PFE sera composé de deux parties. Un backend efficace (taille de la BD réduite et rapidité d'exécution) et extensible (ajout de nouveaux algorithmes de comparaisons). Un frontend intuitif permettant de chercher efficacement des duplicats dans une large quantité de fichiers. 
+     
 
 #### Informations Administratives
-  * Contact : Fabrice Huet <fabrice.huet@unice.fr>
+  * Contact : Fabrice Huet <fabrice.huet@gmail.com>
   * Identifiant sujet : `Y1516-S019`
-  * Type : Research
-  * Parcours Recommandés : AL
+  * Type : Engineering
+  * Parcours Recommandés : AL,GMD
      

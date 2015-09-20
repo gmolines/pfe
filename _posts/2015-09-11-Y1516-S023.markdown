@@ -1,44 +1,34 @@
 ---
 layout: post
-title: "Design an Algorithm to Processing k Nearest Neighbor over Data Stream"
-date: 2015-09-11 17:10:20
-categories: [dispo, al]
+title: "Visualiseur d’objets 3D en réalité virtuelle pour Google CardBoard en utilisant la technologie Cintoo3D"
+date: 2015-09-11 17:26:18
+categories: [dispo, gmd,ihm]
 pid: Y1516-S023
-type: Research
-contact: Fabrice Huet
+type: Engineering
+contact: Anis Meftah
 ---
        
-Given a point p and a set of points S, the kNN operation finds the k closest points to p in S. It is a computational intensive task with a large range of applications such as machine learning, knowledge discovery or data mining. However, as the volume and the dimension of data increase, only distributed approaches can perform such costly operation in a reasonable time. Recent works have focused on implementing efficient solutions using the MapReduce programming model because it is suitable for distributed large-scale data processing. But now the problem is: sometime we may want the answer in real-time or quasi real-time, while MapReduce is an offline processing platform and it can not adapt to the update of data.
- 
-Stream is a sequence of data made available over time. A data stream can be thought of as items on a conveyor belt being processed one at a time rather than in large batches. Apache Storm is a real-time, fault-tolerant and distributed stream data processing system. Storm is currently being used to run various critical computations in Twitter at scale, and in real-time.
- 
-The purpose of this PFE is to implement the kNN join over data stream on a stream-processing platform --- Storm. This PFE has four steps:
--   The first step is to get familiar with the existing kNN algorithm processing on MapReduce.
--   The second step is to propose a continuous way of processing these algorithms (or propose a new algorithm), which can efficiently run kNN join on Storm with a good data partitioning strategy.
--   The third step is to implement this algorithm in Storm
--   The last step will be eventually to perform a benchmark to verify the results.
- 
-The students will be provided with several instructions about Storm and Stream Processing, and several papers we have already published on processing kNN on MapReduce. A preliminary version of many algorithms for kNN join on MapReduce will also be provided. The students need to understand these algorithms and make them work in a continuous way on Storm
+La Réalité Virtuelle permet de faire percevoir à un utilisateur un monde artificiel (créé numériquement) ressemblant à un monde réel et de donner à cet utilisateur la possibilité d'interagir intuitivement et naturellement avec ce monde. Grâce au port de lunettes 3D et à des images 3D en stéréo projetées il est alors possible d’avoir une perception visuelle de la profondeur de l’environnement virtuel et de créer ainsi à l’utilisateur l'illusion de voir les objets de la scène virtuelle "sortir" de l’écran et de se sentir ainsi présent dans un "vrai" espace 3D. Le nouveau système développées par Google, les Google CardBoards, permettent aujourd’hui à l'aide d’un simple smartphone, de créer ce monde virtuel.
 
-This work will be done in collaboration with Sophie Song, PhD student in the Scale group.
+L’objectif de ce projet est de développer une solution de visualisation 3D sur Google CardBoard grâce à la technologie Cintoo3D. Un scénario qui permet à l’utilisateur de se déplacer aisément et de façon ergonomique dans le monde virtuel devra aussi être proposé. La technologie développée par Cintoo3D, Start-Up de Sophia Antipolis (www.cintoo3d.com), permet de streamer et de visualiser des données 3D massives (très détaillées) sur des clients légers et nomades tels que les smartphones, et s’avère donc très pertinente pour de telles applications de réalité virtuelle ou encore de réalité augmentée. En effet, la visualisation de données 3D très détaillées permettra d’augmenter le réalisme de l’immersion.
 
 #### Compétences Requises
-Prerequisite:
-- to have a good background in Java.
-      - to have the ability to learn a new processing platform and new algorithms.
-      - the knowledge about kNN or Storm will be a big plus
- 
+- Programmation pour plateformes mobiles Android/iOS/ Windows Mobile
+- Librairie graphique OpenGL
+- C++, Java, Javascript
 
 
-#### Références
+#### Besoins Clients
+L’objectif de ce projet est de développer une solution de visualisation 3D sur Google CardBoard grâce à la technologie Cintoo3D. Un scénario qui permet à l’utilisateur de se déplacer aisément et de façon ergonomique dans le monde virtuel utilisant les les commandes vocales et les capteurs disponible comme le capteur gyroscopique, gps... 
 
-  * Équipe: Scale
-  * [ http://storm-project.net]( http://storm-project.net)
-  * [https://hal.inria.fr/hal-01097337](https://hal.inria.fr/hal-01097337)
+#### Résultats Attendus
+- Application pour Android et/ou iOS
+- Navigation et déplacement dans un monde 3D en réalité virtuelle en utilisant les Google CardBoard
+     
 
 #### Informations Administratives
-  * Contact : Fabrice Huet <fabrice.huet@gmail.com>
+  * Contact : Anis Meftah <meftah@cintoo3d.com>
   * Identifiant sujet : `Y1516-S023`
-  * Type : Research
-  * Parcours Recommandés : AL
+  * Type : Engineering
+  * Parcours Recommandés : GMD,IHM
      

@@ -1,30 +1,32 @@
 ---
 layout: post
-title: "Modélisation 3D par Kinect"
-date: 2015-09-14 21:00:00
-categories: [dispo, ihm]
+title: "Auto drone multicapteur"
+date: 2015-09-14 21:21:06
+categories: [dispo, al]
 pid: Y1516-S048
 type: Engineering
 contact: ERIC BAILLY
 ---
        
-Ce projet vise à mettre en place une application permettant à une kinect (caméra de la xbox de microsoft), connectée à un PC de modéliser en 3 dimensions l'intérieur d'un bâtiment et de produire une cartographie 2D des différentes pièces de ce bâtiment, avec une métrique (géoréférencement) associée. Il existe déjà des versions "open source" de ce type d'application mais elles ne sont ni finalisées (bêta) ni ne proposent de métrique c'est à dire la possibilité de mesurer les pièces. Ainsi, à partir des coordonnées géographiques fournies par un GPS, l'application doit être capable grâce aux capteurs de la kinect de mesurer la distance parcouru et ainsi de créer le plan métré en 2D;
-Nous possédons une kinect, version 1, connectable en USB sur pc, mais il sera possible d'acquérir une version 2, à priori plus sensible et de meilleure résolution. Les outils de programmation permettant de gérer le géoréférencement existent (notamment des bibliothèque en python).
+Ce projet se divise en 2 objectifs. Il s'agit tout d'abord de programmer un drone afin qu'il puisse effectuer un vol de manière autonome en suivant une trajectoire prédéfinie mais, et c'est là la difficulté, en conservant une altitude constante par rapport au sol, donc en épousant le relief. Pour cela il faudra surement lui intégrer un module radar (à choisir et définir ensemble). Une fois cette étape réalisée, il faudra, après avoir adapté sur le drone un capteur (voir plus bas), créer une interface logicielle permettant la récupération des données issues du capteur. 
+Le drone est équipé d'une carte multiwii facilement programmable et d'un bon gps. Il est suffisamment puissant pour soulever la petite électronique qu'il faudra lui rajouter. 
+Concernant les capteurs, deux nous semblent particulièrement intéressants : un compteur dit "geiger" (ou semblable), un détecteur de métaux. L'objectif à terme et de pouvoir utiliser les données recueillies afin de créer une cartographie fine des phénomènes mesurés.
 
 #### Compétences Requises
-Si le projet est des à présent bien défini et cadré, il n'en demeure pas moins dynamique. Ainsi, outre des qualités en programmation, nous recherchons de l'inventivité, de la réflexion, de l'inspiration et une grande implication des étudiants choisissant ce projet.
+Outre des compétences classique en programmation, les étudiants impliqués dans ce projet devront avoir des connaissances dans la programmation des carte de type "arduino" ainsi que dans les "upgrades" possible de ces cartes (ajout du radar, des capteurs).
 
 
 #### Besoins Clients
-En tant que client, nous ne sommes pas des spécialistes en programmation. Les étudiants devront donc apporter une structuration professionnelle au projet, proposer des solutions et s'adapter en permanence à l'évolution du projet.
+En tant que client nous avons besoin de personnes capables de bien maitriser les interfaces capteurs/arduino/données. Des connaissances de base en electronique seraient un plus. 
+Enfin, ce projet est dynamique et donc évoluera selon les "idées, conseils, réflexions" de l'ensemble des participants. 
 
 #### Résultats Attendus
-Un logiciel avec un GUI (interface) utilisable facilement, sans connaissance de la programmation et répondant aux objectifs préalablement définis.
+In fine le drone devra pouvoir être programmé pour suivre un vol prédéfini en suivant le relief. Il devra être capable d'enregistrer les données du capteur, la position fourni par le gps et de les restituer afin de pouvoir les utiliser (cartographie).
      
 
 #### Informations Administratives
   * Contact : ERIC BAILLY <bailly@unice.fr>
   * Identifiant sujet : `Y1516-S048`
   * Type : Engineering
-  * Parcours Recommandés : IHM
+  * Parcours Recommandés : AL
      

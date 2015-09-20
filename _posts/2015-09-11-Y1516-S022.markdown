@@ -1,48 +1,44 @@
 ---
 layout: post
-title: "Localisation d'erreurs"
-date: 2015-09-11 17:08:47
-categories: [dispo, al]
+title: "Design an Algorithm to Processing k Nearest Neighbor over Data Stream"
+date: 2015-09-11 17:10:20
+categories: [dispo, al,gmd,web]
 pid: Y1516-S022
 type: Research
-contact: Hélène Collavizza
+contact: Fabrice Huet
 ---
        
-Contexte
-Valider le logiciel est primordial et peut représenter jusqu'à 70% du temps de conception. Dans l'équipe CeV (Contraintes et Vérification) nous développons un outil basé sur la programmation par contraintes pour la vérification des programmes Java annotés avec des spécifications JML (Java Modeling Language http://www.eecs.ucf.edu/~leavens/JML//index.shtml). En cas de non conformité, nos outils fournissent un contre-exemple c'est à dire des valeurs d'entrées pour lesquelles le programme est incorrect. Actuellement, nous nous intéressons à la localisation des erreurs c'est à dire à identifier dans le programme quelles sont les instructions qui ont causé l'erreur.
+Given a point p and a set of points S, the kNN operation finds the k closest points to p in S. It is a computational intensive task with a large range of applications such as machine learning, knowledge discovery or data mining. However, as the volume and the dimension of data increase, only distributed approaches can perform such costly operation in a reasonable time. Recent works have focused on implementing efficient solutions using the MapReduce programming model because it is suitable for distributed large-scale data processing. But now the problem is: sometime we may want the answer in real-time or quasi real-time, while MapReduce is an offline processing platform and it can not adapt to the update of data.
+ 
+Stream is a sequence of data made available over time. A data stream can be thought of as items on a conveyor belt being processed one at a time rather than in large batches. Apache Storm is a real-time, fault-tolerant and distributed stream data processing system. Storm is currently being used to run various critical computations in Twitter at scale, and in real-time.
+ 
+The purpose of this PFE is to implement the kNN join over data stream on a stream-processing platform --- Storm. This PFE has four steps:
+-   The first step is to get familiar with the existing kNN algorithm processing on MapReduce.
+-   The second step is to propose a continuous way of processing these algorithms (or propose a new algorithm), which can efficiently run kNN join on Storm with a good data partitioning strategy.
+-   The third step is to implement this algorithm in Storm
+-   The last step will be eventually to perform a benchmark to verify the results.
+ 
+The students will be provided with several instructions about Storm and Stream Processing, and several papers we have already published on processing kNN on MapReduce. A preliminary version of many algorithms for kNN join on MapReduce will also be provided. The students need to understand these algorithms and make them work in a continuous way on Storm
 
-Approche
-Notre approche se base sur la programmation par contraintes. Étant donné un programme et une propriété P sur ce programme, nous construisons un Graphe de Flôt de Contrôle (CFG) dont les noeuds sont des contraintes correspondant aux blocs du programme. Puis nous parcourons ce graphe, chemin après chemin, pour vérifier que le système contenant les contraintes du chemin et la négation de P n'a pas de solution. Si une solution existe, alors les valeurs correspondantes (valeurs des entrées) sont un contre-exemple puisqu'elles valident la négation de P.  
-Si un contre-exemple est trouvé, nous cherchons ensuite à identifier les portions de code qui ont pu causer l'erreur. Pour cela, nous effectuons à nouveau un parcours en profondeur du graphe pour calculer des MCS (Minimal Correction Set) sur les chemins proches du chemin induit par le contre-exemple https://hal.archives-ouvertes.fr/hal-01094227/document.
-
-Objectif
-L'objectif de ce projet est d'affiner notre approche en améliorant l'implémentation de l'algorithme de localisation (algorithme de parcours du graphe et algorithme de calcul des MCS). La nouvelle version devra être testée sur un ensemble significatif d'exemples. Selon les résultats, une poursuite en thèse est envisageable.
-
-Résultats attendus
-
-- livrable 1 : créer un visiteur qui étant donné un programme java et un contre-exemple, affiche les contraintes du chemin associé à ce contre-exemple.
-- livrable 2 : implémentation de l'algorithme de localisation en utilisant le calcul des MCS standard
-- livrable 3 : plate-forme de test
-- livrable 4 : amélioration des algorithmes
+This work will be done in collaboration with Sophie Song, PhD student in the Scale group.
 
 #### Compétences Requises
-Compétences
-- savoir étendre une architecture contenant un code Java conséquent et des appels à différents outils externes.
-- être à l'aise avec les parcours de graphe
-- être à l'aise en compilation pour comprendre comment nous construisons le CFG à partir du code source Java avec l'analyseur JDT d'eclipse  http://www.eclipse.org/jdt/ 
-- curiosité et bonne humeur
+Prerequisite:
+- to have a good background in Java.
+      - to have the ability to learn a new processing platform and new algorithms.
+      - the knowledge about kNN or Storm will be a big plus
+ 
 
 
 #### Références
 
-  * Équipe: CEV
-  * [https://hal.archives-ouvertes.fr/hal-01094227/document](https://hal.archives-ouvertes.fr/hal-01094227/document)
-  * [https://hal.archives-ouvertes.fr/hal-00957255v2/document](https://hal.archives-ouvertes.fr/hal-00957255v2/document)
-  * [http://users.polytech.unice.fr/~rueher/Publis/sttt.pdf](http://users.polytech.unice.fr/~rueher/Publis/sttt.pdf)
+  * Équipe: Scale
+  * [ http://storm-project.net]( http://storm-project.net)
+  * [https://hal.inria.fr/hal-01097337](https://hal.inria.fr/hal-01097337)
 
 #### Informations Administratives
-  * Contact : Hélène Collavizza <helen@polytech.unice.fr>
+  * Contact : Fabrice Huet <fabrice.huet@gmail.com>
   * Identifiant sujet : `Y1516-S022`
   * Type : Research
-  * Parcours Recommandés : AL
+  * Parcours Recommandés : AL,GMD,WEB
      

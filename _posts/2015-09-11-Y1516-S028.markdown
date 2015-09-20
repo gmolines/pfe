@@ -1,30 +1,48 @@
 ---
 layout: post
-title: "Variabilité logicielle et programmation fonctionelle"
-date: 2015-09-11 18:14:43
-categories: [dispo, al]
+title: "Langage de simulation de capteurs"
+date: 2015-09-11 18:25:41
+categories: [dispo, al,iam]
 pid: Y1516-S028
-type: Research
+type: Engineering
 contact: Sébastien Mosser
 ---
        
-L’objectif de ce projet est d’étudier comment les mécanismes de modularité présents dans Scala (e.g., traits, curryfication) peuvent être exploités pour permettre la configuration d’éléments variables. L’étude sera appliquée à Island pour la validation expérimentale, mais travaillera dans un contexte plus large: comment les possibilités objet et fonctionnelles de Scala peuvent elles être exploitées dans un contexte de modélisation et d’exploitation de la variabilité?
+Le projet Smart Campus étudie les possibilités d'équipement du campus SophiaTech en capteurs, ainsi que les différents services pouvant se construire sur ces capteurs. L’objectif est de fournir une plate-forme “open data”, offrant des données accessibles à tous, chacun pouvant s’il le souhaite fournir de nouveaux services utilisant ces données. Au sein d’un projet de cette envergure, le développement est très coûteux en temps et en argent. L'objectif de ce projet est de fournir un framework permettant de mettre en place des capteurs simulés.
 
-Le projet MODALIS de l’équipe Sparks travaille sur la modélisation de la variabilité logicielle. Le logiciel “Island” (Sébastien Mosser, Philippe Collet) est un générateur de terrain aléatoire qui permet de créer des îles (utilisé en projet pour le cours OQL en 3A). Ces îles sont variables, par leur taille, leur forme, leur bio-diversité, … Island est écrit en Scala, et dispose d’un petit langage interne (une API) qui permet de configurer une île. Cependant, cette API n’as pas été conçue pour supporter la configuration complète des îles, et possède de nombreuse limites. Par exemple, elle ne prend pas en compte un certain nombre de contraintes “métier”: certains algorithmes de calcul de l’altitude ne sont pas compatibles avec certaines formes d’îles.
+Le framework ainsi défini devra permettre :
+  - Le rejeu de données existantes depuis un fichier
+  - a simulation de données qui pourraient être fournies par des capteurs, à l’aide de
+la définition et de l’utilisation de loi mathématiques.
+
+Une attention particulière sera portée sur le passage a l'échelle et le déploiement aisé de la solution.
+
+Un prototype de ce système à été défini en janvier 2014, en reposant sur la technologie Akka de TypeSafe
 
 #### Compétences Requises
-Des connaissances en langage fonctionnels (e.g., Scheme, Lisp) et objet (e.g., Java, C++). Des bases en Scala, ou mieux, avoir suivi le cours de Martin Odersky sur Coursera (l’apprentissage de Scala sera compris dans le temps de projet dans le cas contraire). Une grande curiosité, les possibilités d’application sur Island sont très vastes.
+  - Architecture logicielle
+  - gout pour la modélisation
+  - connaissances en systèmes distribués pour l'exécution et le déploiement
 
 
-#### Références
+#### Besoins Clients
+  - Identifier comment les comportements des capteurs sont modélisable
+  - fournir très rapidement un produit minimal viable permettant de valider les hypothèses faites.
 
-  * Équipe: Sparks / Modalis
-  * [http://infoscience.epfl.ch/record/52656/files/ScalaOverview.pdf](http://infoscience.epfl.ch/record/52656/files/ScalaOverview.pdf)
-  * [https://ece.uwaterloo.ca/~kczarnec/splc04.pdf](https://ece.uwaterloo.ca/~kczarnec/splc04.pdf)
+Ces travaux pourront être mené en relation avec l'Université du Luxembourg et le SINTEF (Norvège), qui ont des besoins en terme de simulation de capteurs dans le cadre de leurs recherches.
+
+#### Résultats Attendus
+  - Un langage permettant de modéliser le comportement de capteurs (aléatoire, chaine de markov, polynôme, FSM, ...)
+  - un moteur d'exécution distribué permettant de déployer une simulation
+  - un mode de simulation "génératif" qui donne un journal des valeurs pour les capteurs modélisé (stocké dans un fichier)
+  - un mode de simulation "on the fly" lançant les capteurs en temps réel 
+
+Les simulations pourront reposer sur un cloud pour gérer le passage à l'échelle
+     
 
 #### Informations Administratives
   * Contact : Sébastien Mosser <mosser@i3s.unice.fr>
   * Identifiant sujet : `Y1516-S028`
-  * Type : Research
-  * Parcours Recommandés : AL
+  * Type : Engineering
+  * Parcours Recommandés : AL,IAM
      

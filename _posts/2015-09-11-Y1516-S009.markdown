@@ -2,7 +2,7 @@
 layout: post
 title: "Environnement ambiant Multi-Contexte"
 date: 2015-09-11 07:14:42
-categories: [dispo, al]
+categories: [dispo, al,iam,web]
 pid: Y1516-S009
 type: Research
 contact: Gaëtan Rey
@@ -13,6 +13,7 @@ Alors que de plus en plus d'objets connectés (smartphones, capteurs, montres co
 De notre point de vue, nous considérons qu'il n'est pas possible de définir à l'avance un ensemble immuable de préoccupations utilisateurs et qu'il serait plus judicieux de considérer cet ensemble comme évolutif. Il conviendrait alors de définir non pas 1 préoccupation mais bien plusieurs, indépendantes les unes des autres (au moment de la conception) et d'être capable de mettre en œuvre la fusion de celles-ci à l'exécution et cela en fonction du contexte (état de l'application et de l'environnement) courant.
 
 Le but de ce projet est des mettre en œuvre un telle architecture en s'aidant, si besoin, de solutions logicielles déjà existantes.
+Ce sujet est valide pour les parcours AL et IAM. Il peut aussi inclure UN étudiant de WEB mélé à des IAM et AL, mais pas 3 ou 4 WEBs.
 
 #### Compétences Requises
 Les étudiants devront avoir 
@@ -33,5 +34,5 @@ Les solutions existantes sont en c#, mais le langage des futurs solutions pourra
   * Contact : Gaëtan Rey <Gaetan.Rey@unice.fr>
   * Identifiant sujet : `Y1516-S009`
   * Type : Research
-  * Parcours Recommandés : AL
+  * Parcours Recommandés : AL,IAM,WEB
      

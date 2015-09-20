@@ -1,64 +1,45 @@
 ---
 layout: post
-title: "Vers une ligne de produits logiciels pour la construction de workflows d’ « apprentissage automatique »"
-date: 2015-09-11 14:34:36
-categories: [dispo, al]
+title: "Dispositif d’étude de placement des lettres sur un support physique 3D pour les enfants dyslexiques"
+date: 2015-09-11 15:19:24
+categories: [dispo, gmd]
 pid: Y1516-S016
-type: Engineering
-contact: Frédéric Precioso
+type: Research
+contact: Estelle PERRIN
 ---
        
-Contexte :
-L’apprentissage automatique est aujourd’hui très utilisé pour, à partir de données existantes (traces de navigation, bases de données, données brutes…),  extraire de l’information pour ensuite la transformer en connaissance et ainsi pouvoir détecter automatiquement les visages dans vos appareils photo ou vos smartphones, filtrer les spams dans votre logiciel de lecture de mails, reconnaitre vos amis dans vos photos sur Facebook ou Google Picasa ou encore prévoir les tendances et comportements futurs d’utilisateurs. 
-Pour détecter la présence de visage (voire les sourires et les yeux fermés), votre appareil photo va faire appel à un algorithme de Boosting. Pour reconnaître mes proches sur Facebook et Google Picasa c’est plutôt un méga réseau de neurones artificiels (Deep Learning) qui est mis en œuvre. Pour détecter les piétons automatiquement dans les voitures, on va implémenter un algorithme de Support Vector Machines. Dans la Kinect, les équipes de Microsoft Research à Cambridge ont intégré un algorithme de forêts aléatoires d’arbres décisionnels (Random Decision Forest) pour décider de la position de votre corps dans l’espace et permettre à votre avatar à l’écran d’interagir avec le monde virtuel 3D dans lequel il se trouve.
-
-Cette présentation d’exemples semble indiquer qu’à chaque problème correspond un algorithme d’apprentissage automatique, or il n’en est rien. En effet, l’algorithme de Boosting mentionné précédemment pour la détection de visage est le même pour la détection des spams dans vos mails, ou encore la prévision de consommation d’énergie. De même, l’algorithme de Deep Learning utilisé pour l’identification des personnes Facebook ou Google Picasa sert également à la reconnaissance vocale (Siri d’Apple et Skyvi de Google), ou encore l’extraction de communautés dans les réseaux sociaux.
-
-Ces algorithmes sont donc génériques et chaque donnée est transformée en un tableau de nombres (un vecteur) pour être ensuite entrée dans l’algorithme considéré et construire ainsi la décision ou extraire l’information recherchée. Si la conception d’un nouvel algorithme est une question très difficile qui requiert une expertise en recherche, le choix et l’utilisation d’algorithme existant ainsi que les choix des transformations des données brutes de départ en tableau de nombres sont tout à fait accessibles. Les choix de l’algorithme d’apprentissage va être directement lié au volume de données à traiter, à la quantité d’informations utilisées pour représenter une donnée, aux ressources de calcul disponibles…Les choix de transformation des données brutes de départ en tableaux de nombres dépend directement du format de ces données : numérique, texte, son, image, ou signaux de compteurs électriques…
-
-Ainsi face à un problème de fouille de données, le néophyte est désarmé pour choisir les bons algorithmes, les bons paramètres et les bons enchaînements de traitements en fonction de ses objectifs, des données dont il dispose, de leur taille etc. Ce projet vise à proposer des aides aux choix des algorithmes et à la construction des workflows, en utilisant des techniques de lignes de produits logiciels. Sur la base d'une modélisation de la variabilité des algorithmes d'apprentissages, la ligne permet de "générer" automatiquement les bons workflows en fonction des données de l'utilisateur. Ces technologies sont aujourd'hui largement utilisées, par exemple  dans l'industrie de l'automobile et l'internet des objets. A notre connaissance, ces techniques n'ont pas été utilisées dans le cadre de l'aide à la construction des algorithmes d'apprentissage, alors que les besoins sont aujourd'hui de plus en plus pressants. 
-
-Objectifs :
-Il s’agit donc (1) d’étudier quelques algorithmes et workflows, (2) de proposer une caractérisation de ces algorithmes dans les termes d’un utilisateur non-expert, (3) de proposer une solution permettant de choisir les algorithmes et de les composer.
-
-Pour la partie workflow, on pourra s’appuyer ou s’inspirer de solutions déjà bien avancées : http://www.clowdflows.org/ mais aussi des plateformes comme Azure Machine Learning.
-Pour la mise en œuvre de l’usine logicielle on utilisera des techniques de lignes de produits logiciels.
-Le choix des algorithmes à étudier et comparer plus spécifiquement sera déterminé ultérieurement.
-
-
-Encadrants : 
-Mme Mireille Blay-Fornarino, blay@i3s.unice.fr
-M. Frédéric Precioso, precioso@i3s.unice.fr
+Avec un vaste répertoire de manifestations, les troubles liés à la dyslexie sont très complexes. Le terme « dyslexie » est apparu en 1887. Il provient du Grec (dus, lexis), signifie littéralement « mauvais mot » [1] [2] et a été introduit par l’ophtalmologiste Rudolf Berlin [2], même si actuellement une définition universelle scientifique n’a toujours pas été établie. Selon [3], la dyslexie chez les enfants est « l’écart détecté entre les capacités de lecture d’un enfant et son intelligence alors que cet enfant reçoit des cours de lecture adapté à son intelligence ». Les troubles liés à la dyslexie sont considérés comme étant des troubles perturbant significativement et spécifiquement les capacités de lecture et d’écriture des individus. Ces troubles sont directement liés à des fonctions neurobiologiques [4], et en tant que tels, ne peuvent donc pas être corrigés et perdurent donc pendant la vie adulte de l’individu, l’impactant dans sa vie de tous les jours. 
+La majorité des cas de dyslexie implique une dyslexie développementale - une condition qui commence tôt dans la vie et dure indéfiniment mais qui peut également se développer plus tard à cause d’une blessure au cerveau [5]. La dyslexie développementale est généralement détectée pendant l’enfance ou l’adolescence et son diagnostic est basé sur des symptômes comportementaux tels qu’une mauvaise prononciation, un manque de fluidité verbale, une difficulté à apprendre les lettres ou les langues étrangères et un niveau en orthographe en dessous de la moyenne. La plupart des dyslexiques commettent souvent les mêmes types d’erreurs [6] et c’est ainsi qu’ils peuvent être détectés. S’ajoutent à cela des problèmes de mémoire et de concentration [7]. 
+ 
+Comme les symptômes de la dyslexie touchent entre autres des enfants, les technologies de l’information et de la communication dont le but est d’aider ces individus sont directement reliées à l’apprentissage. La plupart des aides apportées utilisent principalement des logiciels d’aide à la remédiation. Mais la remédiation est difficile puisque la dyslexie ne provient pas d’un mauvais fonctionnement mental mais correspond à une fonction neurobiologique. 
+Dans ce contexte, nous proposons d’étudier comment les enfants dyslexiques perçoivent les mots en trois dimensions afin de leur proposer plus tard des interfaces homme machine qui leur soient dédiées. Le cadre de l’étude est expliqué dans [8] et consiste à montrer un mot sur un grand écran à un enfant afin qu’il le reproduise sur un dispositif physique en trois dimensions. L’idée est basée sur le fait que les enfants dyslexiques perçoivent les choses de façon tridimensionnelle. Le but de ce sujet est donc :
+1)	de construire un dispositif éventuellement sommaire – un arbre sur les branches duquel les enfants pourront déposer des lettres. A l’intérieur de ces lettres se situeront des capteurs afin de détecter leur position en trois dimensions ;
+2)	de développer le programme de capture de placement sur le réseau de capteurs puis de représenter en trois dimensions l’arbre des lettres de l’enfant ;
+3)	d’extraire un ensemble d’informations pertinentes par une fouille de données à partir des multiples jeux d’un enfant. Nous aimerions savoir par exemple s’il existe un modèle répétitif de représentation d’un mot chez un enfant donné mais aussi quelles sont les lettres qui ne sont pas dans la bonne position, et si elles ne le sont pas, s’il existe une ou plusieurs dispositions préférentielles ou une confusion éventuelle répétitive entre deux lettres ou l’existence ou non d’un ordre dans lequel elles sont disposées …
+[1]	V. W. Berninger, K. H. Nielsen, R. D. Abbott, E. Wijsman, and W. Raskind, “Writing Problems in Developmental Dyslexia: Under-Recognized and Under-Treated,” J. Sch. Psychol., vol. 46, no. 1, pp. 1–21, Feb. 2008.
+[2]	P. Ott, How to Detect and Manage Dyslexia: A Reference and Resource Manual, 1 edition. Oxford: Heinemann, 1997.
+[3]	F. Ramus, S. Rosen, S. C. Dakin, B. L. Day, J. M. Castellote, S. White, and U. Frith, “Theories of developmental dyslexia: insights from a multiple case study of dyslexic adults,” Brain, vol. 126, no. 4, pp. 841–865, 2003.
+[4]	K. Kalyvioti and T. A. Mikropoulos, “Virtual Environments and Dyslexia: A Literature Review,” Procedia Comput. Sci., vol. 27, pp. 138–147, 2014.
+[5]	A. Castles and M. Coltheart, “Varieties of developmental dyslexia,” Cognition, vol. 47, no. 2, pp. 149–180, 1993.
+[6]	M. J. Snowling, “Individual differences in dyslexia,” Aust. J. Learn. Disabil., vol. 6, no. 4, pp. 4–5, Dec. 2001.
+[7]	L. Sprenger-Charolles, P. Colé, P. Lacert, and W. Serniclaes, “On subtypes of developmental dyslexia: Evidence from processing time and accuracy scores,” vol. 54, no. 2, pp. 87–104, Jun. 2000.
+ [8]    H. Fouchal, E. Perrin, P. Renson, "Collecting data about the way dyslexic children write", The IEEE GlobeCom Conference 2015, à paraître
 
 #### Compétences Requises
-Des étudiants de AL sont attendus sur ce projet pour gérer la modélisation et la mise en oeuvre de la ligne de produits.
-
-Des étudiants de GMD sont attendus pour caractériser les algorithmes d'apprentissage et proposer et valider des workflows.
+programmation capteurs ; programmation événementielle ; base de données ; fouille de données ; indoor positionning
 
 
-#### Besoins Clients
-En tant qu'utilisateur du logiciel nous aimerions pouvoir exposer notre problème et être guidés dans les choix d'algorithmes à utiliser, leur paramétrage et la construction des enchainements de services nécessaire à l'apprentissage.
+#### Références
 
-En tant que Chercheur, nous aimerions disposer d'un outil nous permettant de déclarer de nouveaux algorithmes et les rendre utilisables facilement par des utilisateurs finaux.
-
-#### Résultats Attendus
-1a- Une modélisation de quelques "types d'apprentissage" qui capture d'un point de vue utilisateur final les critères de choix. 
-Par exemples : Disposez-vous d'exemples de données ? Les données sont-elles obtenues dynamiquement (réactions d'un robot à un jeu de données, évolutions des comportements utilisateurs, ..) ? Connaissez-vous les valeurs intéressantes dans ces exemples? Que recherchez-vous : Des catégories, Des valeurs, des anomalies? 
-Cette modélisation pourra s'appuyer sur les formalismes de représentation de la variabilité tels que les feature Models qui est très utilisé dans les lignes de produits logiciels.
-
-1b- Une mise en oeuvre de cette modélisation (1a) permettra de vérifier la justesse de la modélisation.
-
-2a- Une modélisation de quelques algorithmes choisis qui capture entre autres : le type des données attendues en entrée, les données produites, les objectifs, la précision, la durée, les besoins en puissance de calcul, l'utilisation de la linéarité, … 
-
-3- Un prototype de ligne de produits : 
-Sur la base des choix utilisateurs des "types d'apprentissage" seront proposés sous la forme d'enchainements de services (workflows) dans lesquels différents choix d'algorithmes resteront possibles.  Ces workflows pourront être produits directement dans l'environnement Clowdflows. 
-
-4- Optionnel : Aide au choix et à la configuration des algorithmes… Une fois les grandes classes d'algorithmes déterminées,, il convient de choisir et paramétrer plus précisément les algorithmes. Ces choix peuvent nécessiter une analyse des données,  des comparaisons d'exécution, de résultats sur plusieurs algorithmes. Une génération de tels workflows serait assurément un plus  pour les utilisateurs.
-     
+  * Équipe: SysCom / Mind
+  * [https://drive.google.com/file/d/0B_DCyr3UqlbYNGZTMzhFbnZCVGM/view?usp=sharing](https://drive.google.com/file/d/0B_DCyr3UqlbYNGZTMzhFbnZCVGM/view?usp=sharing)
+  * [http://www.sciencedirect.com/science/article/pii/S0022440506001075](http://www.sciencedirect.com/science/article/pii/S0022440506001075)
+  * [http://www.sciencedirect.com/science/article/pii/S1877050914000192](http://www.sciencedirect.com/science/article/pii/S1877050914000192)
+  * [http://www.itransport.sk/archive/?vid=1&aid=3&kid=100101-16&q=f1](http://www.itransport.sk/archive/?vid=1&aid=3&kid=100101-16&q=f1)
 
 #### Informations Administratives
-  * Contact : Frédéric Precioso <Frederic.PRECIOSO@unice.fr>
+  * Contact : Estelle PERRIN <estelle.perrin@univ-reims.fr>
   * Identifiant sujet : `Y1516-S016`
-  * Type : Engineering
-  * Parcours Recommandés : AL
+  * Type : Research
+  * Parcours Recommandés : GMD
      

@@ -1,0 +1,29 @@
+---
+layout: post
+title: "we are data"
+date: 2015-09-17 19:28:24
+categories: [dispo, gmd]
+pid: Y1516-S052
+type: Research
+contact: Christel Dartigues-Pallez
+---
+       
+Le sujet se base autour d’une problématique réelle d’une entreprise locale de prise de photo et de capture d’informations. Des bornes photos, reparties dans le monde, permettent de capturer des photos d’utilisateurs, de les diffuser (mails, réseaux sociaux), et de capturer des données complémentaires (formulaire de question lors de la prise de vue, etc ...).  L’objectif du sujet est de travailler une présentation interactive des données capturées, sous la forme d'une carte interactive à l'instar de http://wearedata.watchdogs.com. Une carte interactive de ce type permet plusieurs choses dans des contextes différents. 1. D'une part, elle permet de présenter une vue différente de l'utilisateur Si on considère par exemple un évènement unique (salon, exposition) avec un ensemble de bornes photos, il serait possible de présenter les flux migratoire des utilisateurs dans le salon, leur vitesse de déplacement, les centres d'intérêts, les zones d'intérêts, etc ... le tout à partir des heures de passages sur chacune des machines, ou en ajoutant des capteurs d'informations supplémentaires si ils sont jugés utiles. Si on considère un ensemble d'utilisateurs sur des évènements différents, ce type de carte peut également mettre en avant des similitudes ou des relations, et permettre d'intégrer des systèmes statistiques d'extraction de données pour identifier des utilisateurs cibles de prochaines manifestations. 2. D'autre part, elle permet de visualiser la viralité et la diffusion d'une photo / d'un évènement.
+Avec ce type de représentation, on peut voir une photo apparaitre en un lieu (celui de la prise de vue) et au fur et à mesure du temps, la voir se propager vers d'autres lieux : ceux où un email contenant la photo aura été ouvert, où ceux depuis lesquels un des réseaux sociaux qui la partage aura permis sa visualisation. À nouveau, des comportements peuvent également être analysés et présentés (device utilisé, temps de visualisation, type de partages ... le tout en fonction des données initiales). Ce sujet a plusieurs aspects, qui ne doivent pas obligatoirement tous être traités simultanément, mais qui forment un ensemble cohérent. On considère que la base de données des informations existe. Le jeu de donné fourni dépassera le million d’enregistrement. Le premier challenge consistera en la mise en œuvre d’un système de présentation intégrant à la fois les données mais aussi l’information temporelle (activité temps réel, ou propagation sur une durée fixée par exemple).
+
+#### Compétences Requises
+Gestion de très gros volumes de données
+
+
+#### Références
+
+  * Équipe: SPARKS projet MinD
+  * [http://wearedata.watchdogs.com](http://wearedata.watchdogs.com)
+  * [http://sydney.edu.au/engineering/it/~shhong/temporal.htm](http://sydney.edu.au/engineering/it/~shhong/temporal.htm)
+
+#### Informations Administratives
+  * Contact : Christel Dartigues-Pallez <dartigue@unice.fr>
+  * Identifiant sujet : `Y1516-S052`
+  * Type : Research
+  * Parcours Recommandés : GMD
+     

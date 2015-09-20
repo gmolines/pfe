@@ -1,0 +1,38 @@
+---
+layout: post
+title: "Composition opportuniste de capteurs pour la reconnaissance d’activités"
+date: 2015-09-14 18:59:57
+categories: [dispo, iam]
+pid: Y1516-S046
+type: Research
+contact: Stéphane Lavirotte
+---
+       
+Dans le cadre de ce projet de fin d’études, nous disposons d’un ensemble de données issues de différents capteurs portés (accéléromètres, magnétomètres, gyroscopes, centrales inertielles, …) et équipant un environnement physique (détecteur de présence, contacteurs, …). Notre objectif est de reconnaître les activités d’un utilisateur à partir de ces données.
+La problématique de l’étude proposée est que nous ne pouvons pas faire de présuppositions sur la disponibilité des capteurs ; on peut même avoir de nouveaux capteurs non connus a priori qui vont concourir à la reconnaissance de l’activité. L’approche souhaitée est donc de réaliser cette reconnaissance de manière totalement opportuniste, en fonction des capteurs disponibles à un instant donné.
+Nous avons déjà mis en place différents algorithmes d’apprentissage permettant de reconnaître l’activité d’un utilisateur. L’apprentissage de l’activité a été réalisé pour chaque capteur indépendamment puis avec des configurations de capteurs en nombre variables. Les résultats obtenus sont cohérents avec les autres travaux du domaine et il a été possible d’améliorer ces résultats grâce à l’utilisation d’algorithmes d’apprentissage de type Random Forest.
+Le premier objectif de ce stage est de repartir des résultats obtenus précédemment pour être maintenant capable de composer les résultats obtenus pour reconnaître des activités plus complexes qui soient la compositions d'activités de base.
+Cette amélioration de la reconnaissance des activités doit toutefois reste dans une approche compatible avec l'approche opportuniste (on ne connaît pas tous les capteurs à l'avance et on ne connaît pas non plus toutes les activités at design-time).
+Un deuxième challenge pour aller aussi vers plus d'opportuniste est la possibilité pour les capteurs de dialoguer entre eux sans passer par un point de centralisation des informations. Les questions essentielles sont alors que sont les informations essentielles à échanger ou partager.
+
+Projet en collaboration entre Rainbow et Mind:
+Stéphane Lavirotte et Jean-Yves Tigli : Groupe Rainbow, Laboratoire I3S
+Christel Dartigues Pallez et Frédéric Precioso : Groupe Mind, Laboratoire I3S
+
+#### Compétences Requises
+Connaissances en applications réparties
+Compétences du parcours IAM
+
+
+#### Références
+
+  * Équipe: Rainbow-Mind
+  * [http://www.sciencedirect.com/science/article/pii/S0167865512004205](http://www.sciencedirect.com/science/article/pii/S0167865512004205)
+  * [https://www.pervasive.jku.at/Research/Publications/_Documents/adaptive_2012_1_30_50028.pdf](https://www.pervasive.jku.at/Research/Publications/_Documents/adaptive_2012_1_30_50028.pdf)
+
+#### Informations Administratives
+  * Contact : Stéphane Lavirotte <stephane.lavirotte@unice.fr>
+  * Identifiant sujet : `Y1516-S046`
+  * Type : Research
+  * Parcours Recommandés : IAM
+     

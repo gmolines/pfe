@@ -1,0 +1,40 @@
+---
+layout: post
+title: "Algorithme d'Evolution Différentielle Auto-Adaptatif"
+date: 2015-09-11 10:55:10
+categories: [dispo, gmd,web]
+pid: Y1516-S011
+type: Research
+contact: Denis Pallez
+---
+       
+Nous souhaitons mettre au point un nouvel algorithme évolutionnaire [Ref1] basé sur l'évolution différentielle [Ref2]. Les algorithmes évolutionnaires sont une adaptation informatique de la théorie de l'évolution de Darwin (les etres vivants les plus adpatés survivent à leur environnement) afin de résoudre des problèmes complexes (domaines dans lesquels ils sont utilisés : https://en.wik	ipedia.org/wiki/List_of_genetic_algorithm_applications) . L'évolution différentielle est un des nombreux algorithmes évolutionnaires, trés utilisé depuis plusieurs années en optimisation aussi bien continue que discrète. Cet algo nécessite un certain nombre de paramètres comme Np (nb entier) pour le nombre de solutions à considérer, ou F (nb réel) pour représenter la capacité d'exploration de l'algorithme, ou encore Cr (nb réel) pour le taux de croisement des solutions entre elles. Ces dernieres années, les chercheurs s'intéressent à configurer automatiquement les valeurs de ces paramètres pendant l'exécution de l'algorithme defini comme l'auto-adaptation. Nous souhaitons mettre au point un nouvel algorithme en apprenant les valeurs les plus pertinentes tout en nous concentrant sur des problèmes à résoudre de grandes dimensions. 
+
+Démarche envisagée
++ Faire un petit état de l'art (quelques articles scientifiques)
++ Implémenter 1 ou 2 algorithmes pertinents en plus de ceux disponible dans le framework utilisé (JMetal [Ref4])
++ Voire comment ils se comportent en grande dimensions
++ Proposer une amélioration de cet algorithme en concertation avec l'encadrant
++ Développer le nouvel algorithme
++ Tester cet algorithme sur un benchmark
++ Rédiger un compte rendu sous forme d'article
+
+#### Compétences Requises
++ Développement Java
++ Curiosité pour la recherche
+
+
+#### Références
+
+  * Équipe: SPARKS
+  * [https://fr.wikipedia.org/wiki/Algorithme_évolutionniste](https://fr.wikipedia.org/wiki/Algorithme_évolutionniste)
+  * [https://en.wikipedia.org/wiki/Differential_evolution](https://en.wikipedia.org/wiki/Differential_evolution)
+  * [http://link.springer.com/article/10.1007%2Fs10878-014-9773-6](http://link.springer.com/article/10.1007%2Fs10878-014-9773-6)
+  * [http://jmetal.sourceforge.net](http://jmetal.sourceforge.net)
+
+#### Informations Administratives
+  * Contact : Denis Pallez <denis.pallez@unice.fr>
+  * Identifiant sujet : `Y1516-S011`
+  * Type : Research
+  * Parcours Recommandés : GMD,WEB
+     

@@ -1,36 +1,33 @@
 ---
 layout: post
-title: "Sécurité et vie privée dans l’Internet des Objets"
-date: 2015-09-11 19:14:17
+title: "Sécurité et vie privée dans le « Mobile Cloud »"
+date: 2015-09-11 19:55:51
 categories: [dispo, caspar]
 pid: Y1516-S033
 type: Research
 contact: KARIMA BOUDAOUD
 ---
        
-L’Internet des objets (IoT) est de plus en plus populaire pour connecter les « Objets » à l’Internet (exp. réfrigérateur intelligent). La prochaine évolution est le Web des Objets (WoT) qui permet de connecter de tels objets au Web pour faciliter l’accès aux données et construire des applications intelligentes en combinant des données provenant de différents objets. L’un des défis majeurs de l’Internet et Web des objets est la gestion de la sécurité et la vie privée à cause de l’hétérogénéité des communications, protocoles, architectures, données, systèmes et applications.
-L’objectif principal de ce projet sera donc d’identifier les 1) besoins en sécurité et vie privée d’un point de vue utilisateur et technologique ainsi que 2) les solutions existantes.
+Le paradigme Mobile Cloud, né du modèle Cloud Computing model, est une suite logique de l’introduction du Cloud Computing dans l’écosystème mobile. L’avantage principal de ce nouveau modèle est qu’il permet à des utilisateurs mobiles d’accéder à leurs données stockées et traitées dans un Cloud à n’importe quel moment et à partir de n’importe où et qui exécute des applications puissantes sans se soucier des ressources du téléphone. Bien que le Mobile Cloud présente de nombreux avantages, de nombreuses questions de sécurité restent ouvertes. En effet, d’un point de sécurité, le Mobile Cloud introduit les mêmes risques que le Cloud Computing car il peut être sujet aux mêmes attaques ciblant un Cloud en plus des menaces de sécurité inhérentes aux appareils mobiles.
+L’objectif principal de ce projet sera donc d’identifier, dans le cadre des applications Mobile Cloud les 1) besoins en sécurité et vie privée d’un point de vue utilisateur et technologique ainsi que 2) les solutions existantes.
 
 Planning :
-
 Le travail se décomposera en plusieurs phases :
-
 •	Etude des besoins utilisateurs 
 •	Etude des attaques de sécurité et des menaces contre la vie privée des utilisateurs
 •	Etude comparative des solutions de sécurité existantes
 •	Rédaction d’un état de l’art suite aux différentes études 
-•	Proposition d’un POC (Preuve de concept) pour améliorer la sécurité et la vie privée dans le domaine de l’Internet des Objets/ Web des objets.
+•	Proposition d’un POC (Preuve de concept) pour améliorer la sécurité et la vie privée dans le domaine du Mobile Cloud
 
 #### Compétences Requises
-- Connaissance requises en sécurité 
-- Il est recommandé que l'un des étudiants du groupe suive le module "Conception et Evaluation des IHMs.
+Sécurité
 
 
 #### Références
 
   * Équipe: Rainbow
-  * [http://www.jocm.us/uploadfile/2013/0412/20130412025359146.pdf](http://www.jocm.us/uploadfile/2013/0412/20130412025359146.pdf)
-  * [http://www.sciencedirect.com/science/article/pii/S1389128610001568](http://www.sciencedirect.com/science/article/pii/S1389128610001568)
+  * [http://www.sciencedirect.com/science/article/pii/S0167739X12001318](http://www.sciencedirect.com/science/article/pii/S0167739X12001318)
+  * [ http://www.ijeit.com/Vol%203/Issue%201/IJEIT1412201307_73.pdf]( http://www.ijeit.com/Vol%203/Issue%201/IJEIT1412201307_73.pdf)
 
 #### Informations Administratives
   * Contact : KARIMA BOUDAOUD <karima@polytech.unice.fr>

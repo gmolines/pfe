@@ -1,48 +1,31 @@
 ---
 layout: post
-title: "Langage de simulation de capteurs"
-date: 2015-09-11 18:25:41
-categories: [dispo, al]
+title: "Gestionnaire d'accès aux dispositifs partagés en Intelligence Ambiante :  Du modèle au composant"
+date: 2015-09-11 18:27:00
+categories: [dispo, iam]
 pid: Y1516-S029
-type: Engineering
-contact: Sébastien Mosser
+type: Research
+contact: Jean-Yves  Tigli
 ---
        
-Le projet Smart Campus étudie les possibilités d'équipement du campus SophiaTech en capteurs, ainsi que les différents services pouvant se construire sur ces capteurs. L’objectif est de fournir une plate-forme “open data”, offrant des données accessibles à tous, chacun pouvant s’il le souhaite fournir de nouveaux services utilisant ces données. Au sein d’un projet de cette envergure, le développement est très coûteux en temps et en argent. L'objectif de ce projet est de fournir un framework permettant de mettre en place des capteurs simulés.
-
-Le framework ainsi défini devra permettre :
-  - Le rejeu de données existantes depuis un fichier
-  - a simulation de données qui pourraient être fournies par des capteurs, à l’aide de
-la définition et de l’utilisation de loi mathématiques.
-
-Une attention particulière sera portée sur le passage a l'échelle et le déploiement aisé de la solution.
-
-Un prototype de ce système à été défini en janvier 2014, en reposant sur la technologie Akka de TypeSafe
+Les applications dans le domaine de l'intelligence ambiante sont souvent développées sous formes de composition de Web Services fournis par des Dispositifs (smart phone, smart TV, appareils domotiques, équipements portés comme une montre, des lunettes connectées ...).
+Selon les dispositifs disponibles à chaque instant, plusieurs applications peuvent être déployées en parallèle. Dans ce cas un nous rencontrons le problème du partage des dispositifs.Pour étudier ce problème nous nous appuyons sur un modèle comportemental du dispositifs basés sur un formalisme à base d'automates synchrones. Certaines publications récentes avec nos collègues de l'INRIA, nous ont permis de mettre en place des mécanismes de composition synchrone solutionnant certains de ces conflits d'accès. Néanmoins, ces solutions produisent des automates que nous devons encapsuler dès lors dans des composants classiques de l'application.
+Peu de travaux on étudier une approche générique pour cette étape. Le projet consiste donc à étudier et concevoir un modèle de machine d'exécution à plusieurs stratégies et d'évaluer l'impact que cela peut avoir. Des résultats concluants pourront faire l'objet d'une publication scientifique. 
 
 #### Compétences Requises
-  - Architecture logicielle
-  - gout pour la modélisation
-  - connaissances en systèmes distribués pour l'exécution et le déploiement
+Enseignements IAM
 
 
-#### Besoins Clients
-  - Identifier comment les comportements des capteurs sont modélisable
-  - fournir très rapidement un produit minimal viable permettant de valider les hypothèses faites.
+#### Références
 
-Ces travaux pourront être mené en relation avec l'Université du Luxembourg et le SINTEF (Norvège), qui ont des besoins en terme de simulation de capteurs dans le cadre de leurs recherches.
-
-#### Résultats Attendus
-  - Un langage permettant de modéliser le comportement de capteurs (aléatoire, chaine de markov, polynôme, FSM, ...)
-  - un moteur d'exécution distribué permettant de déployer une simulation
-  - un mode de simulation "génératif" qui donne un journal des valeurs pour les capteurs modélisé (stocké dans un fichier)
-  - un mode de simulation "on the fly" lançant les capteurs en temps réel 
-
-Les simulations pourront reposer sur un cloud pour gérer le passage à l'échelle
-     
+  * Équipe: SPARKS
+  * [http://link.springer.com/chapter/10.1007%2F978-3-642-22045-6_12](http://link.springer.com/chapter/10.1007%2F978-3-642-22045-6_12)
+  * [https://hal.inria.fr/inria-00565860v2/document](https://hal.inria.fr/inria-00565860v2/document)
+  * [http://www.researchgate.net/publication/4042968_SAS_architecture_Verification_Oriented_Formal_Modeling_of_Concrete_Critical_Systems*](http://www.researchgate.net/publication/4042968_SAS_architecture_Verification_Oriented_Formal_Modeling_of_Concrete_Critical_Systems*)
 
 #### Informations Administratives
-  * Contact : Sébastien Mosser <mosser@i3s.unice.fr>
+  * Contact : Jean-Yves  Tigli <tigli@unice.fr>
   * Identifiant sujet : `Y1516-S029`
-  * Type : Engineering
-  * Parcours Recommandés : AL
+  * Type : Research
+  * Parcours Recommandés : IAM
      

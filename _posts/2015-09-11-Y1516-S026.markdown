@@ -1,66 +1,47 @@
 ---
 layout: post
-title: "Ecoknowledge"
-date: 2015-09-11 18:06:28
+title: "Bibliothèque de visualisation de données"
+date: 2015-09-11 18:12:32
 categories: [dispo, al,ihm]
 pid: Y1516-S026
 type: Engineering
 contact: Sébastien Mosser
 ---
        
-Ecoknowledge est une plateforme permettant de gamifier un réseaux de capteurs, prototypée durant l'été 2015 au sein d'I3S/Sparks. Les bureaux de l'équipe Sparks sont équipés de capteurs de température, humidité, présence, ouverture de porte, ... 
+La visualisation de données est un domaine profitant de l’expansion du web. Ainsi, de plus en plus de bibliothèques voient le jour, offrant parfois plusieurs centaines de visualisations.
 
-Le but de la plateforme est de sensibiliser les gens sur leurs consommations et la sécurité des bâtiments, en reposant sur le concept de Défis lancés aux usagers du bâtiment, et de badges gagnés lors de la réalisation des défis.
+Lors de la conception d’un dashboard (tableau de bord) utilisé pour surveiller et contrôler un système, l’intégration de plusieurs bibliothèques pour leurs widgets spécifiques peut se révéler complexe, mais nécessaire si l’on veut pouvoir profiter des visualisations les plus adaptées au problème à résoudre.
 
-Le projet portera sur la mise en place d'une plateforme qui permettra:
-  - de créer des équipes d'utilisateurs prêt a relever des défis
-  - de créer des objectifs a atteindre pour créer les défis
-  - de se connecter au middleware SmartCampus pour calculer la réalisation des objectifs
+Objectifs :
 
-Scientifiquement parlant, les difficultés du projet sont les suivantes:
-  1. Modéliser un langage permettant d'exprimer les objectifs, comme par exemple "la température a baissée de 25% par rapport au mois dernier" ou "quand la personne est absente de son bureau alors la lumière est éteinte"
-  2. fournir un moteur d'execution capable d'interpréter ces objectifs
-  3. gérer le passage a l'échelle de la solution pour garantir un temps de calcul efficace malgré les gros volume de donnés récoltés (1 capteur récolte plus d'1Gb de données par an),
+Ce projet de fin d’étude a pour objectif principal de concevoir et développer une surcouche à différentes bibliothèques qui permettrait de faciliter la déclaration d’un dashboard de visualisation en restant indépendant de la bibliothèque concrète sous-jacente.
+
+En suivant un processus itératif, vous devrez :
+
+  - proposer un format de configuration suffisant pour permettre la construction d’un dashboard
+    - quelles visualisations ?
+    - quel placement ?
+    - quelles données ?
+  
+  - identifier des visualisations cibles et pour chacune :
+    - la tester dans un cas concret
+    - caractériser ses capacités
+    - identifier ses inputs nécessaires
+    - la rendre disponible dans l'API de configuration (par exemple l’encapsuler dans une directive Angular)
 
 #### Compétences Requises
-  - Modélisation
-  - Développement logiciel
-  - Envie de toucher du doigts de problèmes "durs" de passage a l'échelle
+  - Compétences en développement web
+  - capacité d'abstraction et de modélisation
+  - gout pour l'analyse et la recherche 
 
 
 #### Besoins Clients
-Un défi peut être "baisser la conso électrique de 10%" et le badge s'appeler "à mort EDF" et rapporter 10 points.
-
-L'utilisateur final ne fait que relever des défis et récupérer (éventuellement) des badges/points.
-
-L'administrateur, lui, crée les défis. On parle alors d'objectifs.
-Un objectif est composé :
-d'un nom, d'une période de validité, d'un temps octroyé pour le réaliser, de conditions et d'un badge.
-
-Les objectifs sont le coeur même du système. C'est là qu'est tout l'intérêt et la complexité du projet.
-Les conditions peuvent être du genre :
-La température a baissé de 25% par rapport à juin 2015,
-ou encore la porte de l'étage est fermée tout le temps la nuit des weekend, 80% du temps les nuits de semaine et au moins 50% les journées de semaine
-ou enfin : la température du bureau est supérieur à 25°C, 80% du temps.
-
-Donc pour résumer :
-l'administrateur crée un objectif, avec des conditions (parfois complexes) et lui rattache un badge.
-
-l'utilisateur peut alors "relever cet objectif" (=> relever le défi) et automatiquement on calcul où il en est de ce défi (à combien il remplit les conditions/critères de l'objectif). Si à la fin du temps donné, toutes les conditions sont à 100%, il a un badge.
-
-Maintenant complexifions un peu.
-L'objectif peut être récurrent au jour/la semaine/ le mois, et se relance automatiquement en fin de vie, que l'utilisateur l'ait réussi ou pas.
-Plus l'utilisateur réussit l'objectif, plus "le niveau du badge acquis" augmente (bronze/argent/or/platine/etc...). On a alors des badges composites.
-
-Des objectifs composite permettent d'exprimer "il y a une baisse de 25% de consommation PUIS la consommation varie de 2% pendant 15 jours".
-
-Ce greffe alors l'aspect "jeu", puisqu'un utilisateur a un score, on peut classer les utilisateurs.
-Mais les utilisateurs appartiennent aussi à des équipes, qui ont elles-mêmes des objectifs, et peuvent donc également être classées.
+L'approche sera entièrement dirigée par l'implémentation, avec pour objectif d'obtenir très rapidement un produit minimal viable qui sera progressivement enrichi au fur et a mesure du développement du projet
 
 #### Résultats Attendus
-  - plateforme logicielle web 
-  -  documentation du langage de modélisation des objectifs
-  - benchmark de temps d'exécution et de charge serveur pour le calcul des badges.
+  - une bibliothèque javascript permettant de visualiser des données
+  - une preuve de concept exploitant cette bibliothèque
+  - une analyse des capacités des différentes visualisations définies
      
 
 #### Informations Administratives

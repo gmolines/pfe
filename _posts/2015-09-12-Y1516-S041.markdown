@@ -1,33 +1,52 @@
 ---
 layout: post
-title: "Interfaces tactiles pour la visualisation 3D"
-date: 2015-09-12 21:01:58
-categories: [dispo, ihm]
+title: "Apprentissage vidéo embarqué"
+date: 2015-09-12 22:18:00
+categories: [dispo, gmd]
 pid: Y1516-S041
 type: Engineering
-contact: Philippe Renevier Gonin
+contact: Frederic Precioso
 ---
        
-Les systèmes et interfaces tactiles se multiplient et ouvrent le challenge de pouvoir manipuler, visualiser et comparer des modèles géométriques 3D. Comment, à partir d’une interface tactile, réussir à réaliser ces opérations complexes ? Et à la base, quel environnement de développement choisir ? (Androïd ? iPad ? Windows?...). Que devient cette équation complexe quand on est confronté au besoin supplémentaire de visualisation en stéréovision ? Faut-il ou non prévoir l’utilisation d’un stylet ? Peut-on réaliser une interface permettant à la fois l’utilisation à la souris et l’utilisation tactile ? Doit-on envisager d'autres formes d'interactions (virtualité augmentée, commande vocale, etc.) ? Nous sommes confrontés actuellement à ce problème qui s’inscrit dans les recherches liées aux interfaces homme-machine.
+Projet en Collaboration avec :
+Mme Diane Lingrand, lingrand@i3s.unice.fr
+Mme Katy Blanc, katy.blanc@i3s.unice.fr
+Mme Mélanie Ducoffe, melanie.ducoffe@i3s.unice.fr
 
-Le projet se fait en collaboration avec Matilde GONZALEZ, de l'entreprise Quantificare, spécialisée dans la 3D et la e-santé, et Philippe Renevier Gonin, enseignant-chercheur à l'Université Nice Sophia Antipolis. Les courriels de contact sont mgonzalez@quantificare.com et philippe.renevier@unice.fr
+La dernière décennie a vu l’essor des méthodes d’apprentissage automatique (Machine Learning) pour l’aide à la décision et la recherche d’information dans les grands volumes de données. La première success-story du Machine Learning est probablement AdaBoost, en particulier avec son intégration dans les appareils photos pour la détection de visage au début des années 2000. Ensuite, l’algorithme Support Vector Machines a été embarqué dans les voitures pour la détection de piétons, et les Forêts aléatoires (Random Forest) ont été intégrées dans la Kinect de Microsoft pour reconnaitre la position dans l’espace des personnes. Dans les cinq dernières années, les efforts conséquents de géants de l’industrie de l’information, comme Google, Microsoft, Yahoo, IBM, Facebook, ont permis de faire émerger des modèles de réseaux de neurones artificiels dits « architectures profondes » pour répondre à des applications à fort enjeu économique telles que la recherche d’information dans d’immenses volumes de contenus multimédia [1], la reconnaissance de la parole [2, 3, 4], l’extraction de communautés sociales à partir des réseaux sociaux [5], ou encore l’extraction de connaissances à partir de données textuelles [6].
+		
+Les succès retentissants à la fin des années 2000 de l’apprentissage par architectures profondes dépassant très largement les performances des méthodes de références pour des tâches classiques de reconnaissances de la parole, de recherche d’objets dans d’images et de traitements automatiques de la langue, en particulier pour de très grands volumes de données, ont entrainés un engouement sans précédent des communautés scientifiques de l’apprentissage, de la vision par ordinateur, du traitement de la parole et du traitement automatique de la langue.
+
+Cependant toutes ces méthodes de machine learning requièrent le plus souvent des ressources de mémoire et de calcul très importantes lors de la phase d’entrainement. Cela rend leur intégration dans de petites plateformes dédiées à l’intelligence embarquée plus difficile.
+
+Ce domaine est en plein essor : Nvidia fait partie des leaders dans ce domaine et développe des cartes Jetson à base de puces Tegra (http://www.nvidia.fr/object/tegra-k1-processor-fr.html) pour le calcul embarqué que ce soit pour la robotique (http://jetsonhacks.com/2015/03/23/airborne-jetson-tk1-drones-gtc-2015/) ou pour l’automobile (http://www.nvidia.fr/object/advanced-driver-assistance-systems-fr.html , http://www.nvidia.fr/object/jetson-pro-automotive-development-platform-fr.html ).
+
+L’objet de ce projet est d’implémenter les algorithmes récents de Machine Learning (et plus particulièrement de Deep Learning) sur les plateformes embarquées que nous avons (Raspberry Pi, Firefly http://en.t-firefly.com/en/, et 2 Nvidia Tegra K1) pour l’analyse de contenu vidéo afin d’être éventuellement intégré dans notre voiture autonome (https://www.youtube.com/watch?v=QKJx1_3F2eA) ou sur un drone Parrot Kalamos.
 
 #### Compétences Requises
-Ce PFE requière un goût prononcé pour la 3D, l’interface homme-machine, l’ergonomie, les technologies innovantes, la modélisation 3D ainsi qu’une bonne connaissance de la programmation.
+Pas de compétences requises si ce n'est :
+Intérêt pour l'apprentissage automatique (Machine Learning)
+Des connaissances de Python seraient un plus
 
 
 #### Besoins Clients
-Définir une interface ergonomique pour la visualisation et la comparaison des modèles 3D.
+Nous souhaitons dans un premier temps avoir une vision claire des algorithmes de deep learning (principalement) qui peuvent être implémentés sur différentes plateformes embarquées.
+
+Dans un second temps ces algorithmes seront appliqués pour l'analyse de contenu vidéo en particulier pour la navigation d'une voiture autonome et éventuellement d'un drone.
 
 #### Résultats Attendus
-•	Étude et choix des technologies
-•	Étude des besoins auprès des utilisateurs
-•	Démonstration, sur tablette, de la solution retenue
+1) Etude des algorithmes de deep learning.
+
+2) Etude de l'implémentation sur nos cartes de développement Raspberry Pi, Firefly et Nvidia Tegra K1.
+
+3) Application des algorithmes de Machine Learning choisis pour améliorer l'intelligence de notre voiture autonome.
+
+4) Applications des algorithmes de Machine Learning choisis dans un drone Parrot Kalamos.
      
 
 #### Informations Administratives
-  * Contact : Philippe Renevier Gonin <philippe.renevier@unice.fr>
+  * Contact : Frederic Precioso <precioso@i3s.unice.fr>
   * Identifiant sujet : `Y1516-S041`
   * Type : Engineering
-  * Parcours Recommandés : IHM
+  * Parcours Recommandés : GMD
      

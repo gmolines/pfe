@@ -1,58 +1,71 @@
 ---
 layout: post
-title: "Développement d'un Outil d'Annotation collaborative de textes zoologiques"
-date: 2015-09-11 17:50:00
-categories: [dispo, ihm]
+title: "Ecoknowledge"
+date: 2015-09-11 18:06:28
+categories: [dispo, al,ihm]
 pid: Y1516-S025
 type: Engineering
-contact: Catherine FARON ZUCKER
+contact: Sébastien Mosser
 ---
        
-Ce sujet de PFE s’inscrit dans le cadre d’un projet interdisciplinaire sur les humanités numériques mené en collaboration avec le laboratoire de recherche CEPAM de l’UNS qui vise à la construction d’un thésaurus de zoologie antique et médiévale. Une des étapes de ce projet consiste à marquer des textes anciens numérisés, ainsi que des pièces archéologiques répertoriées, pour mettre en évidence certains éléments sémantiques. Ce marquage, effectué de façon collaborative par plusieurs chercheurs, doit être indépendant du balisage structural (en XML) et de l’annotation philologique ; sa fonction est de servir de base pour la construction d’une folksonomie et, ensuite, d’une ontologie.
+Ecoknowledge est une plateforme permettant de gamifier un réseaux de capteurs, prototypée durant l'été 2015 au sein d'I3S/Sparks. Les bureaux de l'équipe Sparks sont équipés de capteurs de température, humidité, présence, ouverture de porte, ... 
 
-L’objectif de ce PFE est la réalisation d’une application Web d’assistance au marquage de matériels textuels et archéologiques. Le système doit offrir aux utilisateurs, historiens et philologues, une IHM simple et intuitive qui leur permette d’associer des tags à des unités de texte arbitraires (ouvrages, chapitres, paragraphes, phrases, expressions ou mots individuels) ou d’autre type (images, photos, fiches de description de pièces archéologiques, etc.).
-Il doit permettre de réaliser un travail collaboratif d’annotation : les annotations des différents utilisateurs devront être différenciées. Différents types d’annotations devraient également pouvoir coexister en étant visuellement différenciées (e.g. annotation des zoonymes et annotation des caractéristiques anatomiques)
+Le but de la plateforme est de sensibiliser les gens sur leurs consommations et la sécurité des bâtiments, en reposant sur le concept de Défis lancés aux usagers du bâtiment, et de badges gagnés lors de la réalisation des défis.
 
-Le système doit gérer l’inscription et l’authentification des utilisateurs et gérer des droits d’accès différenciés (lecture ou lecture-écriture) selon la classe des utilisateurs, ainsi que prévoir une interface d’administration.
+Le projet portera sur la mise en place d'une plateforme qui permettra:
+  - de créer des équipes d'utilisateurs prêt a relever des défis
+  - de créer des objectifs a atteindre pour créer les défis
+  - de se connecter au middleware SmartCampus pour calculer la réalisation des objectifs
 
-Les associations « unité textuelle ou multimédia – tag » devront être stockées dans une base de données au format RDF, physiquement séparée et indépendante des matériels textuels faisant l’objet du travail d’annotation, et structurées de façon à permettre leur utilisation pour la recherche d’information (donc comme un index des matériels), la fouille de données et l’extraction de connaissances.
-
-En fonction de l’avancement du projet, des fonctionnalités d'interrogation sémantique des textes annotés pourront être développées, et/ou un travail exploratoire de fouille de données pourra être réalisé sur les données produites.
-
-Ce PFE fait suite à un TER en M1 IFI dont les résultats pourront être réutilisés.
-
-Encadrants: Catherine Faron Zucker et Andrea Tettamanzi
+Scientifiquement parlant, les difficultés du projet sont les suivantes:
+  1. Modéliser un langage permettant d'exprimer les objectifs, comme par exemple "la température a baissée de 25% par rapport au mois dernier" ou "quand la personne est absente de son bureau alors la lumière est éteinte"
+  2. fournir un moteur d'execution capable d'interpréter ces objectifs
+  3. gérer le passage a l'échelle de la solution pour garantir un temps de calcul efficace malgré les gros volume de donnés récoltés (1 capteur récolte plus d'1Gb de données par an),
 
 #### Compétences Requises
-HTML5
-Conception IHM
-Web de données
-Ingénierie des Connaissances
-
-Idéalement ce PFE associerait 4 étudiants des filières WEB, IHM et AL.
-
-Ce sujet est d'abord orienté ingénierie mais pourrait au moins en partie aborder des questions de recherche
+  - Modélisation
+  - Développement logiciel
+  - Envie de toucher du doigts de problèmes "durs" de passage a l'échelle
 
 
 #### Besoins Clients
-Le système doit offrir aux utilisateurs une IHM simple et intuitive qui leur permette d’associer des tags à des unités de texte arbitraires ou d’autre type.
-Il doit permettre de réaliser un travail collaboratif d’annotation: les annotations des différents utilisateurs devront être différenciées. Différents types d’annotations devraient également pouvoir coexister en étant visuellement différenciées.
-Il doit gérer l’inscription et l’authentification des utilisateurs et gérer des droits d’accès différenciés (lecture ou lecture-écriture) selon la classe des utilisateurs, ainsi que prévoir une interface d’administration.
+Un défi peut être "baisser la conso électrique de 10%" et le badge s'appeler "à mort EDF" et rapporter 10 points.
 
-Un modèle de données RDF doit être établi et il doit être possible d'exporter au format RDF les annotations produites par le système.
+L'utilisateur final ne fait que relever des défis et récupérer (éventuellement) des badges/points.
 
-.
+L'administrateur, lui, crée les défis. On parle alors d'objectifs.
+Un objectif est composé :
+d'un nom, d'une période de validité, d'un temps octroyé pour le réaliser, de conditions et d'un badge.
+
+Les objectifs sont le coeur même du système. C'est là qu'est tout l'intérêt et la complexité du projet.
+Les conditions peuvent être du genre :
+La température a baissé de 25% par rapport à juin 2015,
+ou encore la porte de l'étage est fermée tout le temps la nuit des weekend, 80% du temps les nuits de semaine et au moins 50% les journées de semaine
+ou enfin : la température du bureau est supérieur à 25°C, 80% du temps.
+
+Donc pour résumer :
+l'administrateur crée un objectif, avec des conditions (parfois complexes) et lui rattache un badge.
+
+l'utilisateur peut alors "relever cet objectif" (=> relever le défi) et automatiquement on calcul où il en est de ce défi (à combien il remplit les conditions/critères de l'objectif). Si à la fin du temps donné, toutes les conditions sont à 100%, il a un badge.
+
+Maintenant complexifions un peu.
+L'objectif peut être récurrent au jour/la semaine/ le mois, et se relance automatiquement en fin de vie, que l'utilisateur l'ait réussi ou pas.
+Plus l'utilisateur réussit l'objectif, plus "le niveau du badge acquis" augmente (bronze/argent/or/platine/etc...). On a alors des badges composites.
+
+Des objectifs composite permettent d'exprimer "il y a une baisse de 25% de consommation PUIS la consommation varie de 2% pendant 15 jours".
+
+Ce greffe alors l'aspect "jeu", puisqu'un utilisateur a un score, on peut classer les utilisateurs.
+Mais les utilisateurs appartiennent aussi à des équipes, qui ont elles-mêmes des objectifs, et peuvent donc également être classées.
 
 #### Résultats Attendus
-- une application Web répondant aux besoins exprimés
-- un modèle d'annotations RDF
-- deux textes annotés test permettant de valider les fonctionnalités du système
-- une évaluation de l'utilisabilité du système par les utilisateurs du CEPAM
+  - plateforme logicielle web 
+  -  documentation du langage de modélisation des objectifs
+  - benchmark de temps d'exécution et de charge serveur pour le calcul des badges.
      
 
 #### Informations Administratives
-  * Contact : Catherine FARON ZUCKER <faron@i3s.unice.fr>
+  * Contact : Sébastien Mosser <mosser@i3s.unice.fr>
   * Identifiant sujet : `Y1516-S025`
   * Type : Engineering
-  * Parcours Recommandés : IHM
+  * Parcours Recommandés : AL,IHM
      

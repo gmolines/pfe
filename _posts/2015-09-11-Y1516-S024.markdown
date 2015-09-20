@@ -1,34 +1,58 @@
 ---
 layout: post
-title: "Visualiseur d’objets 3D en réalité virtuelle pour Google CardBoard en utilisant la technologie Cintoo3D"
-date: 2015-09-11 17:26:18
-categories: [dispo, ihm]
+title: "Développement d'un Outil d'Annotation collaborative de textes zoologiques"
+date: 2015-09-11 17:50:00
+categories: [dispo, ihm,web]
 pid: Y1516-S024
 type: Engineering
-contact: Anis Meftah
+contact: Catherine FARON ZUCKER
 ---
        
-La Réalité Virtuelle permet de faire percevoir à un utilisateur un monde artificiel (créé numériquement) ressemblant à un monde réel et de donner à cet utilisateur la possibilité d'interagir intuitivement et naturellement avec ce monde. Grâce au port de lunettes 3D et à des images 3D en stéréo projetées il est alors possible d’avoir une perception visuelle de la profondeur de l’environnement virtuel et de créer ainsi à l’utilisateur l'illusion de voir les objets de la scène virtuelle "sortir" de l’écran et de se sentir ainsi présent dans un "vrai" espace 3D. Le nouveau système développées par Google, les Google CardBoards, permettent aujourd’hui à l'aide d’un simple smartphone, de créer ce monde virtuel.
+Ce sujet de PFE s’inscrit dans le cadre d’un projet interdisciplinaire sur les humanités numériques mené en collaboration avec le laboratoire de recherche CEPAM de l’UNS qui vise à la construction d’un thésaurus de zoologie antique et médiévale. Une des étapes de ce projet consiste à marquer des textes anciens numérisés, ainsi que des pièces archéologiques répertoriées, pour mettre en évidence certains éléments sémantiques. Ce marquage, effectué de façon collaborative par plusieurs chercheurs, doit être indépendant du balisage structural (en XML) et de l’annotation philologique ; sa fonction est de servir de base pour la construction d’une folksonomie et, ensuite, d’une ontologie.
 
-L’objectif de ce projet est de développer une solution de visualisation 3D sur Google CardBoard grâce à la technologie Cintoo3D. Un scénario qui permet à l’utilisateur de se déplacer aisément et de façon ergonomique dans le monde virtuel devra aussi être proposé. La technologie développée par Cintoo3D, Start-Up de Sophia Antipolis (www.cintoo3d.com), permet de streamer et de visualiser des données 3D massives (très détaillées) sur des clients légers et nomades tels que les smartphones, et s’avère donc très pertinente pour de telles applications de réalité virtuelle ou encore de réalité augmentée. En effet, la visualisation de données 3D très détaillées permettra d’augmenter le réalisme de l’immersion.
+L’objectif de ce PFE est la réalisation d’une application Web d’assistance au marquage de matériels textuels et archéologiques. Le système doit offrir aux utilisateurs, historiens et philologues, une IHM simple et intuitive qui leur permette d’associer des tags à des unités de texte arbitraires (ouvrages, chapitres, paragraphes, phrases, expressions ou mots individuels) ou d’autre type (images, photos, fiches de description de pièces archéologiques, etc.).
+Il doit permettre de réaliser un travail collaboratif d’annotation : les annotations des différents utilisateurs devront être différenciées. Différents types d’annotations devraient également pouvoir coexister en étant visuellement différenciées (e.g. annotation des zoonymes et annotation des caractéristiques anatomiques)
+
+Le système doit gérer l’inscription et l’authentification des utilisateurs et gérer des droits d’accès différenciés (lecture ou lecture-écriture) selon la classe des utilisateurs, ainsi que prévoir une interface d’administration.
+
+Les associations « unité textuelle ou multimédia – tag » devront être stockées dans une base de données au format RDF, physiquement séparée et indépendante des matériels textuels faisant l’objet du travail d’annotation, et structurées de façon à permettre leur utilisation pour la recherche d’information (donc comme un index des matériels), la fouille de données et l’extraction de connaissances.
+
+En fonction de l’avancement du projet, des fonctionnalités d'interrogation sémantique des textes annotés pourront être développées, et/ou un travail exploratoire de fouille de données pourra être réalisé sur les données produites.
+
+Ce PFE fait suite à un TER en M1 IFI dont les résultats pourront être réutilisés.
+
+Encadrants: Catherine Faron Zucker et Andrea Tettamanzi
 
 #### Compétences Requises
-- Programmation pour plateformes mobiles Android/iOS/ Windows Mobile
-- Librairie graphique OpenGL
-- C++, Java, Javascript
+HTML5
+Conception IHM
+Web de données
+Ingénierie des Connaissances
+
+Idéalement ce PFE associerait 4 étudiants des filières WEB, IHM et AL.
+
+Ce sujet est d'abord orienté ingénierie mais pourrait au moins en partie aborder des questions de recherche
 
 
 #### Besoins Clients
-L’objectif de ce projet est de développer une solution de visualisation 3D sur Google CardBoard grâce à la technologie Cintoo3D. Un scénario qui permet à l’utilisateur de se déplacer aisément et de façon ergonomique dans le monde virtuel utilisant les les commandes vocales et les capteurs disponible comme le capteur gyroscopique, gps... 
+Le système doit offrir aux utilisateurs une IHM simple et intuitive qui leur permette d’associer des tags à des unités de texte arbitraires ou d’autre type.
+Il doit permettre de réaliser un travail collaboratif d’annotation: les annotations des différents utilisateurs devront être différenciées. Différents types d’annotations devraient également pouvoir coexister en étant visuellement différenciées.
+Il doit gérer l’inscription et l’authentification des utilisateurs et gérer des droits d’accès différenciés (lecture ou lecture-écriture) selon la classe des utilisateurs, ainsi que prévoir une interface d’administration.
+
+Un modèle de données RDF doit être établi et il doit être possible d'exporter au format RDF les annotations produites par le système.
+
+.
 
 #### Résultats Attendus
-- Application pour Android et/ou iOS
-- Navigation et déplacement dans un monde 3D en réalité virtuelle en utilisant les Google CardBoard
+- une application Web répondant aux besoins exprimés
+- un modèle d'annotations RDF
+- deux textes annotés test permettant de valider les fonctionnalités du système
+- une évaluation de l'utilisabilité du système par les utilisateurs du CEPAM
      
 
 #### Informations Administratives
-  * Contact : Anis Meftah <meftah@cintoo3d.com>
+  * Contact : Catherine FARON ZUCKER <faron@i3s.unice.fr>
   * Identifiant sujet : `Y1516-S024`
   * Type : Engineering
-  * Parcours Recommandés : IHM
+  * Parcours Recommandés : IHM,WEB
      
