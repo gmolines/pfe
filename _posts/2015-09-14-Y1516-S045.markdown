@@ -2,7 +2,7 @@
 layout: post
 title: "UbiUnity: Simulation d’environnements 3D pour l’Informatique Ambiante"
 date: 2015-09-14 18:36:27
-categories: [iam]
+categories: [oqp,iam]
 pid: Y1516-S045
 type: Engineering
 contact: Stéphane Lavirotte

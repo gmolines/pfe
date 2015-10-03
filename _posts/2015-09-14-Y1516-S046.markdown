@@ -2,7 +2,7 @@
 layout: post
 title: "Composition opportuniste de capteurs pour la reconnaissance d’activités"
 date: 2015-09-14 18:59:57
-categories: [iam]
+categories: [oqp,iam]
 pid: Y1516-S046
 type: Research
 contact: Stéphane Lavirotte

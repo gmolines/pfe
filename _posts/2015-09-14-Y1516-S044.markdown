@@ -2,7 +2,7 @@
 layout: post
 title: "Ecran de Conférence Interactif"
 date: 2015-09-14 16:30:54
-categories: [al,ihm]
+categories: [oqp,al,ihm]
 pid: Y1516-S044
 type: Engineering
 contact: Simon Urli

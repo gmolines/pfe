@@ -2,10 +2,11 @@
 layout: post
 title: "Fouille de données environnementales issues du site de Port Cros"
 date: 2015-09-10 11:39:38
-categories: [gmd]
+categories: [oqp,gmd]
 pid: Y1516-S007
 type: Research
 contact: Christel Dartigues-Pallez
+students: CLAQUIN	Benjamin,MONTALIEU	Vincent,Smach	Houda, ZHU	Yuting
 ---
        
 Le parc national de Port Cros abrite de nombreux sites touristiques qui accueillent chaque année des milliers de touristes, mais qui abrite également tout au long de l’année des chercheurs. Ceux-ci travaillent depuis plus de 10 ans à la collecte d’informations de terrain sur la fréquentation des îles de Port Cros et Porquerolles. Nous disposons ainsi de plus de 8Go de données textuelles collectées par des enquêtes faites sur le terrain.
