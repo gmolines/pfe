@@ -2,7 +2,7 @@
 layout: post
 title: "Fouille de données environnementales issues du site de Port Cros"
 date: 2015-09-10 11:39:38
-categories: [dispo, gmd]
+categories: [gmd]
 pid: Y1516-S007
 type: Research
 contact: Christel Dartigues-Pallez

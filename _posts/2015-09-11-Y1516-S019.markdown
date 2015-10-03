@@ -2,7 +2,7 @@
 layout: post
 title: "Gestionnaire de déduplication"
 date: 2015-09-11 15:47:17
-categories: [dispo, al,gmd]
+categories: [al,gmd]
 pid: Y1516-S019
 type: Engineering
 contact: Fabrice Huet
