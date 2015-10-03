@@ -6,6 +6,7 @@ categories: [oqp,iam]
 pid: Y1516-S046
 type: Research
 contact: Stéphane Lavirotte
+students: Nizar BOUSSARSAR, Farouk ELHKHOLY, Tianhao SHI, Yuqi WANG
 ---
        
 Dans le cadre de ce projet de fin d’études, nous disposons d’un ensemble de données issues de différents capteurs portés (accéléromètres, magnétomètres, gyroscopes, centrales inertielles, …) et équipant un environnement physique (détecteur de présence, contacteurs, …). Notre objectif est de reconnaître les activités d’un utilisateur à partir de ces données.

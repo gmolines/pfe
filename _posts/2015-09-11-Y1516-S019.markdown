@@ -6,6 +6,7 @@ categories: [oqp,al,gmd]
 pid: Y1516-S019
 type: Engineering
 contact: Fabrice Huet
+students: Ivan BELOKOGNE, Mahmoud DIALLO, Hamza MAGROUN
 ---
        
  La numérisation de tous les fichiers multimédia (photos, vidéos, musiques...) conduit à une accumulation de fichiers qu'il est difficile d'organiser. En effet, il n'existe pas de moyen automatique fiable pour classer les photos par thème ou par personne y apparaissant. Combiné au faible coût du stockage, il n'est pas rare d'avoir plusieurs copies d'un même fichier sur un disque dur. La déduplication est une opération qui consiste à détecter des fichiers identiques pour n'en garder qu'une copie. Elle peut se faire directement au niveau du système de fichiers (par exemple ZFS) ou grâce à un logiciel externe. De base, on peut considérer que 2 fichiers sont identiques si ils ont  exactement le même contenu, à l'octet près. C'est très facile à détecter en comparant le checksum (MD5 ou SHA-1 par exemple) et relativement fiable. Mais pour certains fichiers, on peut aller plus loin. Par exemple une photo peut exister à différentes résolutions, ou avec de légères différences. Dans ce cas, le checksum sera différent alors que les fichiers seront similaires. Pour traiter ce cas, on peut par exemple utiliser du Locality Sensitive Hashing sur une signature de l'image.
