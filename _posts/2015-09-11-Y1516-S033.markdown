@@ -2,10 +2,11 @@
 layout: post
 title: "Sécurité et vie privée dans le « Mobile Cloud »"
 date: 2015-09-11 19:55:51
-categories: [dispo, caspar]
+categories: [oqp, caspar]
 pid: Y1516-S033
 type: Research
 contact: KARIMA BOUDAOUD
+students: Maxime MULTARI, Didier MARTINI, Sabrina Irisarri Gonzalez Deibe, Félix BERNACKI
 ---
        
 Le paradigme Mobile Cloud, né du modèle Cloud Computing model, est une suite logique de l’introduction du Cloud Computing dans l’écosystème mobile. L’avantage principal de ce nouveau modèle est qu’il permet à des utilisateurs mobiles d’accéder à leurs données stockées et traitées dans un Cloud à n’importe quel moment et à partir de n’importe où et qui exécute des applications puissantes sans se soucier des ressources du téléphone. Bien que le Mobile Cloud présente de nombreux avantages, de nombreuses questions de sécurité restent ouvertes. En effet, d’un point de sécurité, le Mobile Cloud introduit les mêmes risques que le Cloud Computing car il peut être sujet aux mêmes attaques ciblant un Cloud en plus des menaces de sécurité inhérentes aux appareils mobiles.
