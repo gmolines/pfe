@@ -2,10 +2,11 @@
 layout: post
 title: "Architecture de Dashboards configurables pour SmartCampus"
 date: 2015-09-11 18:35:38
-categories: [dispo, al,ihm]
+categories: [oqp, al,ihm]
 pid: Y1516-S030
 type: Engineering
 contact: Philippe Collet
+students: Salah BENNOUR HAMZA, Quentin CORNEVIN, Marc KARASSEV, Garance VALLAT
 ---
        
 SmartCampus est une initiative du laboratoire I3S ayant pour but de fédérer plusieurs travaux issus des projets de l’équipe SPARKS. Elle se traduit en une infrastructure distribuée permettant la collecte de données à partir de plusieurs réseaux de capteurs physiques. Cette infrastructure déployée au quatrième étage du bâtiment Templiers I sert également de terrain d’expérimentation pour des travaux de recherches autour des Smart Systems (Smart building, Smart cities...), de la visualisation et de la fouille de données.
