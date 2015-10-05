@@ -2,10 +2,11 @@
 layout: post
 title: "Sécurité et vie privée dans l’Internet des Objets"
 date: 2015-09-11 19:14:17
-categories: [dispo, caspar]
+categories: [oqp, caspar]
 pid: Y1516-S032
 type: Research
 contact: KARIMA BOUDAOUD
+students: Jean-Charles GASTAUD, Fabrice AGAGAH, Camille YACOUB, Robin FASSINA-MOSCHINI
 ---
        
 L’Internet des objets (IoT) est de plus en plus populaire pour connecter les « Objets » à l’Internet (exp. réfrigérateur intelligent). La prochaine évolution est le Web des Objets (WoT) qui permet de connecter de tels objets au Web pour faciliter l’accès aux données et construire des applications intelligentes en combinant des données provenant de différents objets. L’un des défis majeurs de l’Internet et Web des objets est la gestion de la sécurité et la vie privée à cause de l’hétérogénéité des communications, protocoles, architectures, données, systèmes et applications.
