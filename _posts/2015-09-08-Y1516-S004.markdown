@@ -2,10 +2,11 @@
 layout: post
 title: "Projets DeViNT nouvelle génération"
 date: 2015-09-08 12:45:09
-categories: [dispo, al,ihm]
+categories: [oqp, al,ihm]
 pid: Y1516-S004
 type: Engineering
 contact: Hélène Collavizza
+students: Thibault PIKETTY, Audric CHABERT, Kevin JUSTAL, Alexandre TISSIERE
 ---
        
 Il s'agit de remettre au goût du jour l'environnement de développement des projets DeViNT (Déficients Visuels et Nouvelles Technologies).
