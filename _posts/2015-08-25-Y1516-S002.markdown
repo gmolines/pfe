@@ -2,10 +2,12 @@
 layout: post
 title: "Smart Mirror Interface"
 date: 2015-08-25 11:15:10
-categories: [dispo, gmd,iam]
+categories: [oqp, gmd,iam]
 pid: Y1516-S002
 type: Engineering
 contact: Gaetan Rey
+students: Amal ZAYANI
+group: 14
 ---
        
 Aujourd'hui, avec l’explosion de l’informatique ambiantes, on voit nos habitations se peupler de nombreuses solutions domotiques et d’objets connectés/communisants (OC). Cependant, actuellement, seul des interfaces web propriétaires ou pour smartphones permettent de configurer et piloter les OC. 
