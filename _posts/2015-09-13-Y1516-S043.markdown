@@ -2,10 +2,12 @@
 layout: post
 title: "Semantics from 3D"
 date: 2015-09-13 18:26:49
-categories: [dispo, gmd]
+categories: [oqp, gmd]
 pid: Y1516-S043
 type: Research
 contact: Frederic Precioso
+students: Asmaa FILLATRE, Quentin DEBARD, Danny SCHMITT
+group: 13
 ---
        
 Ce projet se fait en collaboration avec :
