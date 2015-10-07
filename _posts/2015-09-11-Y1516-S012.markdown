@@ -7,6 +7,7 @@ pid: Y1516-S012
 type: Engineering
 contact: Anne-Marie Dery
 students: Marina DELERCE-MAURIS, Jeremy ROUMEGUE, Sonia TUAL
+group: 12
 ---
        
 Contexte : Ce projet est proposé dans le cadre d’une collaboration entre Polytech et le centre d’accueil de jour pour Personnes Alzheimer de Sophia Antipolis amorcée l’an passé dans le but d’informatiser des ateliers Mémoire pour Personnes Alzheimer. Cette collaboration avait donné lieu à plusieurs projets  l’an passé  (ex. : http://atelierihm.unice.fr/enseignements/category/2014-2015-ceihm-gr1/),  dont vous pourrez vous inspirer pour mettre en place une plateforme de création et de suivi d’ateliers  permettant de conserver la collaboration entre les différents intervenants : patients, famille et personnel spécialisé ( neuropsychologues, psychomotriciens…). Certains des ateliers ont fait l’objet d’implémentations, comme l’atelier Brossage de dents https://www.youtube.com/watch?v=5tFhcrsWB6c ; http://youtu.be/cioymEJPo1o)  et l’atelier Loupe intelligente (https://www.youtube.com/watch?v=NnCMkUz8qsA&feature=youtu.be ).

@@ -7,6 +7,7 @@ pid: Y1516-S007
 type: Research
 contact: Christel Dartigues-Pallez
 students: Benjamin CLAQUIN,Vincent MONTALIEU,Houda SMACH,Yuting ZHU
+group: 2
 ---
        
 Le parc national de Port Cros abrite de nombreux sites touristiques qui accueillent chaque année des milliers de touristes, mais qui abrite également tout au long de l’année des chercheurs. Ceux-ci travaillent depuis plus de 10 ans à la collecte d’informations de terrain sur la fréquentation des îles de Port Cros et Porquerolles. Nous disposons ainsi de plus de 8Go de données textuelles collectées par des enquêtes faites sur le terrain.

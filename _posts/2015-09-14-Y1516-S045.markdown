@@ -7,6 +7,7 @@ pid: Y1516-S045
 type: Engineering
 contact: Stéphane Lavirotte
 students: Franck DECHAVANNE, Nabil ELMOUSSAID, Benjamin LISSILLOUR, Etienne STROBBE
+group: 5
 ---
        
 L’Ubiquarium est un laboratoire d’expérimentation in vitro de solutions logicielles pour

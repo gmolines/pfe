@@ -7,6 +7,7 @@ pid: Y1516-S004
 type: Engineering
 contact: Hélène Collavizza
 students: Thibault PIKETTY, Audric CHABERT, Kevin JUSTAL, Alexandre TISSIERE
+group: 11
 ---
        
 Il s'agit de remettre au goût du jour l'environnement de développement des projets DeViNT (Déficients Visuels et Nouvelles Technologies).

@@ -7,6 +7,7 @@ pid: Y1516-S029
 type: Research
 contact: Jean-Yves  Tigli
 students: Asma DHANE, Raed CHAMMAN, Ameni MERAI
+group: 7
 ---
        
 Les applications dans le domaine de l'intelligence ambiante sont souvent développées sous formes de composition de Web Services fournis par des Dispositifs (smart phone, smart TV, appareils domotiques, équipements portés comme une montre, des lunettes connectées ...).

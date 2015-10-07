@@ -7,6 +7,7 @@ pid: Y1516-S044
 type: Engineering
 contact: Simon Urli
 students: Guillaume BORG, Max DESTORS, Bezeid MOULAYE ELY, Romain PALMERO
+group: 1
 ---
        
 Encadrement : Simon Urli, Christian Brel et Anne-Marie Dery.
