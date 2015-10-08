@@ -6,6 +6,8 @@ categories: [dispo, al]
 pid: Y1516-S048
 type: Engineering
 contact: ERIC BAILLY
+students: Louis PENNACHIO, Pierre LECA, Clément FORNERIS
+group: 20
 ---
        
 Ce projet se divise en 2 objectifs. Il s'agit tout d'abord de programmer un drone afin qu'il puisse effectuer un vol de manière autonome en suivant une trajectoire prédéfinie mais, et c'est là la difficulté, en conservant une altitude constante par rapport au sol, donc en épousant le relief. Pour cela il faudra surement lui intégrer un module radar (à choisir et définir ensemble). Une fois cette étape réalisée, il faudra, après avoir adapté sur le drone un capteur (voir plus bas), créer une interface logicielle permettant la récupération des données issues du capteur. 

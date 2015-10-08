@@ -2,12 +2,14 @@
 layout: post
 title: "Efficient computing of k nearest neighbors over CAN structured overlay"
 date: 2015-09-11 21:55:04
-categories: [dispo, gmd,web]
+categories: [oqp, gmd,web]
 pid: Y1516-S034
 type: Research
 contact: Justine Rochas
+students: Mounir GUIZANI, Farouk JOMAA, Ghassan NAOUIS
+group: 19
 ---
-       
+
 The k nearest neighbors (kNN) is an operation that, for a given point in a data space, finds its k closest points in a set of points S.
 The k nearest neighbors join is a costly operation in the sense that, for every point in a set R, all the points in S have to be checked against a distance metric to find close points.
 To be efficient and scale to large sets R and S, one have to compute this operation in a distributed environment, such as a cluster or a cloud.
