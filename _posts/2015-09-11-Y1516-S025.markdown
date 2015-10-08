@@ -2,10 +2,12 @@
 layout: post
 title: "Ecoknowledge"
 date: 2015-09-11 18:06:28
-categories: [dispo, al,ihm]
+categories: [oqp, al,ihm]
 pid: Y1516-S025
 type: Engineering
 contact: Sébastien Mosser
+students: Benjamin BENNI, Sébastien PETILLON, Hugo SIMOND
+group: 18
 ---
        
 Ecoknowledge est une plateforme permettant de gamifier un réseaux de capteurs, prototypée durant l'été 2015 au sein d'I3S/Sparks. Les bureaux de l'équipe Sparks sont équipés de capteurs de température, humidité, présence, ouverture de porte, ... 
