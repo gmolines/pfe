@@ -2,10 +2,12 @@
 layout: post
 title: "Design an Algorithm to Processing k Nearest Neighbor over Data Stream"
 date: 2015-09-11 17:10:20
-categories: [dispo, al,gmd,web]
+categories: [oqp, al,gmd,web]
 pid: Y1516-S022
 type: Research
 contact: Fabrice Huet
+students: Youssef SALIM, Benjamin PORTA, Karim GAWISH
+group: 17
 ---
        
 Given a point p and a set of points S, the kNN operation finds the k closest points to p in S. It is a computational intensive task with a large range of applications such as machine learning, knowledge discovery or data mining. However, as the volume and the dimension of data increase, only distributed approaches can perform such costly operation in a reasonable time. Recent works have focused on implementing efficient solutions using the MapReduce programming model because it is suitable for distributed large-scale data processing. But now the problem is: sometime we may want the answer in real-time or quasi real-time, while MapReduce is an offline processing platform and it can not adapt to the update of data.
