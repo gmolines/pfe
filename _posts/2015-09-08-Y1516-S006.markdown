@@ -2,10 +2,12 @@
 layout: post
 title: "Génération de nuages de points multirésolutions à partir de cartes de profondeur (kinects)"
 date: 2015-09-08 15:27:28
-categories: [dispo, gmd]
+categories: [oqp, gmd]
 pid: Y1516-S006
 type: Research
 contact: Marc Antonini
+students: Ouandji TCHEBEMOU, Nehla ZHOUITEN, Izaias MACHADO, Mahamat Abdoulaye CHAZALI
+group: 16
 ---
        
 Les objets 3D sont aujourd’hui omniprésents dans tous les domaines tels que la médecine, l’aéronautique, les jeux sérieux, le cinéma d’animation, la réalité virtuelle et augmentée, etc. Tous ces domaines sont en permanence à la recherche d’une qualité et d’une fidélité accrue. C’est ainsi que les nouveaux procédés d'acquisition, de création et de diffusion de données 3D, qu’elles soient surfaciques ou volumiques, permettent de produire des objets 3D de plus en plus détaillés, et qu’il est possible aujourd’hui de scanner des villes entières ! 
