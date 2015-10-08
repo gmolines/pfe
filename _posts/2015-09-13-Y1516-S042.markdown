@@ -2,10 +2,12 @@
 layout: post
 title: "BotanIR"
 date: 2015-09-13 01:22:36
-categories: [dispo, gmd,ihm,web]
+categories: [oqp, gmd,ihm,web]
 pid: Y1516-S042
 type: Engineering
 contact: Diane Lingrand
+students: Jean-Philippe KHA, Jonathan PUJOL, Riana RABEHASY, Nicolas SINTES
+group: 15
 ---
        
 En collaboration avec :
