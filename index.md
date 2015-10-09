@@ -23,6 +23,7 @@ menu: false
     {% if post.categories contains 'oqp' %}
   * [{{$post.title}}]({{ BASE_PATH }}/pfe{{ post.url }}) ({{ $post.pid }})
     * Numéro de groupe: {{ $post.group }}
+    * Encadrant:  {{ $post.contact }}
     * Étudiants: {%for stud in post.students %} *{{stud}}*,{%endfor %}
     {% endif %}
 {% endfor %}
