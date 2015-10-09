@@ -6,7 +6,7 @@ categories: [oqp, iam]
 pid: Y1516-S029
 type: Research
 contact: Jean-Yves  Tigli
-students: Asma DHANE, Raed CHAMMAN, Ameni MERAI
+students: Asma DHANE, Raed CHAMMAN, Ameni MERAI, Eric OTTO
 group: 7
 ---
        

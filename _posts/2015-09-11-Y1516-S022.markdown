@@ -6,7 +6,7 @@ categories: [oqp, al,gmd,web]
 pid: Y1516-S022
 type: Research
 contact: Fabrice Huet
-students: Youssef SALIM, Benjamin PORTA, Karim GAWISH
+students: Youssef SALIM, Benjamin PORTA, Karim GAWISH, Asmaa FILLATRE
 group: 17
 ---
        

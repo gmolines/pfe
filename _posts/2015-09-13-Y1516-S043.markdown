@@ -6,7 +6,7 @@ categories: [oqp, gmd]
 pid: Y1516-S043
 type: Research
 contact: Frederic Precioso
-students: Asmaa FILLATRE, Quentin DEBARD, Danny SCHMITT, Yasmina BOUZBIBA
+students: Quentin DEBARD, Danny SCHMITT, Yasmina BOUZBIBA
 group: 13
 ---
        
