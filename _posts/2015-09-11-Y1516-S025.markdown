@@ -5,7 +5,7 @@ date: 2015-09-11 18:06:28
 categories: [oqp, al,ihm]
 pid: Y1516-S025
 type: Engineering
-contact: Sébastien Mosser
+contact: Philippe Collet
 students: Benjamin BENNI, Sébastien PETILLON, Hugo SIMOND
 group: 18
 ---

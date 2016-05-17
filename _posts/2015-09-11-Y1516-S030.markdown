@@ -5,7 +5,7 @@ date: 2015-09-11 18:35:38
 categories: [oqp, al,ihm]
 pid: Y1516-S030
 type: Engineering
-contact: Philippe Collet
+contact: Sébastien Mosser
 students: Salah BENNOUR HAMZA, Quentin CORNEVIN, Marc KARASSEV, Garance VALLAT
 group: 9
 ---
