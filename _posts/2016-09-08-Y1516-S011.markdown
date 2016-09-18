@@ -1,0 +1,38 @@
+---
+layout: post
+title: "REPLIQUANT : Réalisation d’un dEmonstrateur pour une PLateforme d’InformatiQUe AmbiaNTe"
+date: 2016-09-08 19:10:39
+categories: [dispo, gmd,iam]
+pid: Y1516-S011
+type: Engineering
+contact: Gaëtan Rey
+---
+       
+Le gestionnaire de contextes (GdC), est une plateforme d’adaptation d’applications de manière dynamique au contexte. Il a été développé au sein de l’équipe SPARKS et s’appuie sur la plateforme WComp de cette même équipe. Le but de ce projet, est de développer un scénario de démonstration du GdC et de la mettre en œuvre dans une démonstration facilement transportable. Le choix et la définition du scénario sera fait en concertation entre les étudiants et le responsable du sujet et pourra intégrer des éléments domotiques, multimédia, de santé, ou tout autres bonnes idées.
+
+#### Compétences Requises
+Techniquement parlant, les compétences requises dépendront de l’orientation que les étudiants souhaitent donner au projet et des solutions techniques qu’ils auront choisies. 
+
+Une connaissance du C# est souhaitable du fait que la suite logicielle est développée dans ce langage. Cependant, il n’y a pas de contrainte sur le langage de développement du démonstrateur final.
+
+
+#### Besoins Clients
+Les besoins du client reprennent les 2 premiers objectifs du projet, c’est-à-dire :
+•	Définir un scénario permettant d’illustrer les capacités du gestionnaire de contexte de l’équipe SPARKS. Ce scénario devra avoir une complexité maitrisée pour être facilement compréhensible dans son ensemble et facilement mis en œuvre.
+•	Réaliser un démonstrateur du scénario défini précédemment. Ce démonstrateur devra être facilement transportable et mis en œuvre.
+
+#### Résultats Attendus
+Les résultats attendus sont au minimum :
+•	Un scénario d’illustration du gestionnaire de contextes.
+•	Un démonstrateur mettant en œuvre le scénario.
+•	Une vidéo du démonstrateur.
+
+Si les étudiants avancent assez vites, le projet pourra également donner lieu à des expérimentations. Les résultats recueillis pourront ainsi être analysés et on pourra également réaliser une publication dans une conférence scientifique.
+     
+
+#### Informations Administratives
+  * Contact : Gaëtan Rey <Gaetan.Rey@unice.fr>
+  * Identifiant sujet : `Y1516-S011`
+  * Type : Engineering
+  * Parcours Recommandés : GMD,IAM
+     

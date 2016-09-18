@@ -1,0 +1,36 @@
+---
+layout: post
+title: "Secure communications for unmanned vehicles"
+date: 2016-09-14 23:46:49
+categories: [dispo, caspar,iam]
+pid: Y1516-S044
+type: Engineering
+contact: Yves ROUDIER
+---
+       
+This project aims at developing a secure communication stack for controlling and monitoring unmanned, partially autonomous vehicles (rovers, drones, etc.). The aim is to enable the transmission of commands and data between the autonomous vehicle and the control station as well as within the vehicle subsystems.
+
+#### Compétences Requises
+- C/C++ programming
+- to a lesser extent, Java development
+- understanding of cryptographic protocols
+
+groups with students from different backgrounds as highlighted above are encouraged.
+
+
+#### Besoins Clients
+Our expectations are related to middleware implementation and to managing a restrained environment for cryptographic implementation.
+
+#### Résultats Attendus
+The students should deliver:
+- control station - vehicle secure protocol stack
+- secure internal communication middleware (security objectives to be defined)
+- documentation and benchmarks illustrating the feasibility and/or limitations of the implementation
+     
+
+#### Informations Administratives
+  * Contact : Yves ROUDIER <Yves.Roudier@unice.fr>
+  * Identifiant sujet : `Y1516-S044`
+  * Type : Engineering
+  * Parcours Recommandés : CASPAR,IAM
+     

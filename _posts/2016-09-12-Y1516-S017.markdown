@@ -1,0 +1,31 @@
+---
+layout: post
+title: "Tensor big data with Python"
+date: 2016-09-12 17:41:54
+categories: [dispo, gmd]
+pid: Y1516-S017
+type: Engineering
+contact: Rodrigo Cabral Farias
+---
+       
+In this project the students will code methods to fit tensor models in Python. Tensor models appear in many applications such as recommender systems, community structure analysis, geoscience, chemometrics and traffic analysis. They are a type of non supervised machine learning technique used to find patterns in multidimensional data. As an application the students will apply their code to find patterns in movie ratings (like IMDB or Allocine ratings) and then predict the ratings for missing points (missing user x movie rating). 
+
+#### Compétences Requises
+- Basics of machine learning
+- Basic python coding
+- A bit of optimization
+
+
+#### Besoins Clients
+Already in detailed description.
+
+#### Résultats Attendus
+Python code for the methods described in the detailed description and also at least one or two method modifications for data not fitting into standard RAM (>32Go).
+     
+
+#### Informations Administratives
+  * Contact : Rodrigo Cabral Farias <cabral@unice.fr>
+  * Identifiant sujet : `Y1516-S017`
+  * Type : Engineering
+  * Parcours Recommandés : GMD
+     

@@ -1,0 +1,36 @@
+---
+layout: post
+title: "Développement d'un bot en Java pour un jeu"
+date: 2016-09-06 09:30:26
+categories: [dispo, gmd]
+pid: Y1516-S006
+type: Engineering
+contact: Denis PALLEZ
+---
+       
+Utilisation d'une librairie d'algorithmes évolutionnaires pour développer un bot du jeu Himalaya ( https://fr.wikipedia.org/wiki/Himalaya_(jeu) en sachant que le jeu a déja été développé et les sources seront fournies.
+
+#### Compétences Requises
+— bonne connaissance de Java
+— envie de découvrir de nouveaux algorithmes d’optimisation basé sur l’aléatoire (algorithmes
+évolutionnaires)
+— capacité à lire des documents en anglais
+
+
+#### Besoins Clients
++ suivre les tutoriaux de la librairie d'algorithmes évolutionnaires
++ lire quelques articles scientifiques
++ analyser le code qui implémente le jeu Himalaya
++ implémenter un algorithme évolutionnaire expliqué dans un article scientifique
+
+#### Résultats Attendus
++ un bot intelligent (un algorithme évolutionnaire multiobjectif et dynamique) par étudiant
++ un résumé du projet sous forme d'article scientifique
+     
+
+#### Informations Administratives
+  * Contact : Denis PALLEZ <denis.pallez@unice.fr>
+  * Identifiant sujet : `Y1516-S006`
+  * Type : Engineering
+  * Parcours Recommandés : GMD
+     

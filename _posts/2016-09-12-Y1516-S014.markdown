@@ -1,0 +1,34 @@
+---
+layout: post
+title: "Maquettage de langage-métier (DSL) pour la description de scénarios"
+date: 2016-09-12 13:18:26
+categories: [dispo, al]
+pid: Y1516-S014
+type: Engineering
+contact: Jean-Yves Tigli
+---
+       
+Dans le domaine médical, nous étudions des outils de "monitoring" des patients reposant sur la reconnaissance automatique de scénarios à partir de vidéos. Nous définissons un langage-métier (Domain Specific Language ou DSL) afin de permettre aux médecins de décrire les scénarios d'intérêt : réaliser des exercices, des "jeux sérieux", prévenir des incidents,  détecter des problèmes physiques, etc. Ce langage doit avoir une représentation graphique. Le but du stage est de comparer différents outils de génération de DSL en réalisant diverses maquettes et de définir le choix le plus souhaitable en terme d'ergonomie pour les utilisateurs (médecins) et de compatibilité avec des outils existants d'analyse de scénarios. Ce projet de fin d’étude pourrait être suivi d’un stage.
+
+#### Compétences Requises
+Architecture logicielle, modélisation de logiciel (UML), interfaces.
+Curiosité, autonomie.
+
+
+#### Besoins Clients
+- Panorama des outils de génération de DSL (graphique).
+- Sélection d'outils adéquats pour la représentation du langage de scénarios (actuellement une forme de combinaison Activity Diagram/Timing Diagram d'UML).
+- Comparaison des ces outils sur des scénarios fournis.
+
+#### Résultats Attendus
+- Maquettes d'évaluation avec les différents outils
+- Document de comparaison des outils selon des critères à déterminer
+- Proposition de choix
+     
+
+#### Informations Administratives
+  * Contact : Jean-Yves Tigli <tigli@unice.fr>
+  * Identifiant sujet : `Y1516-S014`
+  * Type : Engineering
+  * Parcours Recommandés : AL
+     

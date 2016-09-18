@@ -1,0 +1,79 @@
+---
+layout: post
+title: "Minority Report 2 - évaluation de l’impact de la disposition des images sur le mouvement des yeux"
+date: 2016-09-14 17:48:34
+categories: [dispo, gmd,web]
+pid: Y1516-S036
+type: Engineering
+contact: Alain Giboin
+---
+       
+Les personnages du film Minority Report contrôlent les écrans avec les yeux.
+Deux études portant sur deux bases différentes d’images ont montré que les seules données du regard permettaient d’identifier, en moins d’une seconde de visualisation, l’image que l’utilisateur va sélectionner parmi deux présentées en fonction d’un critère objectif de recherche (ex. :animal). On vous propose de reproduire ces deux études, en faisant varier le nombre d’images et leur disposition. Dans un 2e temps, vous réaliserez une page web « réaliste » (type Google Image, DiscoveryHub, GaZIR) afin d’analyser l’impact de la disposition sur le temps de décision. Vous pourrez étendre l’analyse à une recherche portant sur un critère subjectif (ex. :’animaux mignons/surprenants/amusants).
+
+#### Compétences Requises
+•	C++
+•	La connaissance de l'IDE Qt Creator et d'Android sont un plus.
+•	Installation rapide de logiciels et vérification de compatibilité
+       o	SDK analysis (reconnaissance faciale) pour eye tracker
+       o	Windows 7 / Windows 10 pour la surface tactile (vérifier la compatibilité avec l’application)
+•	Compétences en IHM
+       o	Elaboration et passation de protocoles d’expérimentation avec utilisateur
+       o	Technologies d’interaction
+•	Web
+•	Notions de statistique
+
+
+#### Besoins Clients
+Dans le but d’annoter des images par le regard, une étude de data mining que nous avons réalisée (voir référence #1) a montré qu’il était possible d’inférer à partir des seules données du regard, l’image que l’utilisateur va choisir parmi 2 images présentées, en moins d’une seconde, dans le cadre de recherche d’images illustrant une catégorie donnée (animaux, personnes, véhicules, mobilier). L’étude des données du regard s’est faite à posteriori pour extraire une règle généralisable à un ensemble d’utilisateurs, quelle que soit la catégorie à chercher. 70% des inférences étaient correctes, sur les 6960 réalisées.
+
+Cette étude est une étude préliminaire en vue d’être intégrée comme phase d’apprentissage à un moteur de recherche d’images. L’annotation par le regard pourrait se substituer à l’habituelle recherche par mot-clé ou à la sélection par souris. Elle a été réalisée dans un cadre de paradigme de préférence visuelle, limité à des paires d’images présentées successivement. 
+Nous souhaitons vérifier que les résultats obtenus dans l’étude (voir référence #1) pour des images standard, et dans l’étude (voir référence #2) pour des images de recettes de cuisine, sont généralisables. Pour cela, nous vous proposons de réaliser des expérimentations où vous ferez varier le nombre d’images présentées, le support de présentation (ordinateur, tablette, mobile) et la taille des images (*).
+
+Afin de se rapprocher d’une situation quotidienne de recherche d’images (Google, Discovery Hub, GaZIR), vous devrez réaliser un site permettant de réaliser cette expérience avec une interface plus réaliste, adaptables sur plusieurs supports (mobile, tablette). Ce sera l’occasion d’étudier l’influence de la taille du support sur le mouvement des yeux (voir référence #3)(**).
+Enfin, vous pourrez évaluer le mouvement des yeux sur une tâche plus subjective sur la base d’images de cuisine. Cette étape est subsidiaire.
+
+            (*) Cette première partie peut être réalisée dans le cadre des TP du module 
+                TIM(techniques d’interaction et multi-modalité).
+            (**) Cette page web pourra être utile aux étudiants du PFE Minority Report 1,
+                  qui seront alors vos clients. Un moyen d’évaluation de votre travail pourra
+                  être le bon fonctionnement de cette partie dans le sujet PFE Minority Report 1.
+
+#### Résultats Attendus
+-	Comparaison des performances de classification entre la présentation aléatoire de paires d’images prédéterminées (1) et la présentation interactive d’images intégrant la décision par le regard
+-	Comparaison des performances de classification entre les différents modes d’interaction qui seront testés (souris, interface tactile, regard).
+
+
+
+1er protocole : étude de l’impact de la position des images à l’écran
+
+1er rapport
+o	questionnaire utilisateurs + réponses
+o	analyse de l’impact des catégories d’utilisateurs (déterminées par le questionnaire préliminaire) sur les résultats obtenus
+o	questionnaire feedback utilisateur + analyse des réponses
+o	étude comparative entre les différentes présentations
+
+2e rapport :
+o	Maquettage et justification de la présentation de la page web.
+o	Retours « client » des étudiants du PFE1 
+
+Autres rendus :
+o	programme en c++ pour tester l’impact du positionnement des images, en intégrant les contraintes du protocole fourni (1).
+o	vidéo de démonstration du protocole à présenter aux utilisateurs
+o	page web
+
+2e  protocole : extension aux images de recettes
+
+Rapports :
+cf 1er protocole, en adaptant à la subjectivité inhérente au contexte de recherche d’images de cuisine
+
+Autres rendus : 
+constitution d’une base permettant de répondre aux exigences du protocole (les images sont fournies, il s’agit de les regrouper de manière optimale)
+     
+
+#### Informations Administratives
+  * Contact : Alain Giboin <alain.giboin@inria.fr>
+  * Identifiant sujet : `Y1516-S036`
+  * Type : Engineering
+  * Parcours Recommandés : GMD,WEB
+     

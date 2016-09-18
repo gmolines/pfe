@@ -1,0 +1,38 @@
+---
+layout: post
+title: "In-depth understanding of deep learning"
+date: 2016-09-14 01:07:02
+categories: [dispo, al,gmd]
+pid: Y1516-S026
+type: Engineering
+contact: Frédéric Precioso
+---
+       
+Le deep learning désigne un ensemble de méthodes dont les résultats sont en train de révolutionner les domaines de l'analyse de données, de la décision et de l'extraction d'information. On retrouve du deep learning dans les voitures autonomes, la reconnaissance vocale des smartphones, la reconnaissance faciale sur le web, etc. Cependant, ces architectures posent deux principaux obstacles.
+Le premier est que ces algorithmes ne sont pas constructifs. Ils ne répondent à aucune des questions telles que: combien de couches ? Combien de neurones ? Comment connecter les neurones entre eux ?
+Le second problème concerne l'optimisation de toutes ces connexions: on peut imaginer ce problème comme étant de trouver le bon réglage pour autant de potentiomètres que de connexions constituant le réseau.
+
+#### Compétences Requises
+Programmation au moins en C++ et Python
+Connaissance en Machine Learning et des réseaux de neurones en particulier appréciée
+Aimer les challenges !
+Esprit d'équipe
+
+
+#### Besoins Clients
+Si vous arrivez à reproduire les résultats sur les challenges proposés par les encadrants vous passerez du grade de Jeune Padawan à ce lui de Chevalier Jedi en Deep Learning, et vous aurez acquis des compétences rares dans ces méthodes qui sont aujourd’hui de plus en plus recherchées par les entreprises.
+
+Si en plus vous parvenez à améliorer l'un ou l'autre des résultats à partir des pistes et hypothèses que nous avons au laboratoire, ou même à partir de vos propres idées sur la base de votre nouvelle expérience dans ces méthodes, vous atteindrez le grade de Maître Jedi en Deep Learning. Une option sur un stage de 6 mois dans notre équipe ou une chaleureuse recommandation pour un stage chez nos partenaires académiques ou industriels, est possible.
+
+#### Résultats Attendus
+Pour chaque benchmark, nous attendrons un rapport détaillé des expérimentations réalisées, des techniques utilisées et des problèmes rencontrés pour obtenir les résultats.
+
+Un rapport global sera réalisé incrémentalement pour combiner les expériences sur les différents benchmarks et en conclure un guide général de bonnes pratique.
+     
+
+#### Informations Administratives
+  * Contact : Frédéric Precioso <precioso@unice.fr>
+  * Identifiant sujet : `Y1516-S026`
+  * Type : Engineering
+  * Parcours Recommandés : AL,GMD
+     

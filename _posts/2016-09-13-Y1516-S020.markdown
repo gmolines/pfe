@@ -1,0 +1,35 @@
+---
+layout: post
+title: "Prise en compte des temps de réponse des capteurs dans la reconnaissance d’activités pour des applications de terrain"
+date: 2016-09-13 10:31:48
+categories: [dispo, iam]
+pid: Y1516-S020
+type: Engineering
+contact: Stéphane LAVIROTTE
+---
+       
+Dans le cadre de ce projet de fin d’études, nous disposons d’un ensemble de données issues de différents capteurs portés et équipant un environnement physique. Nous sommes actuellement capables, à partir de ces données, de leur appliquer des algorithmes d’apprentissage et de reconnaître des activités humaines prédéfinies. L’apprentissage de l’activité a été réalisé par chaque capteur puis nous avons mis en place un processus de fusion des décisions des capteurs capable de prendre en compte différentes configurations de capteurs. L’objectif de ce PFE est d’aller plus loin dans l’adaptabilité du système et de permettre un fonctionnement avec des données qui soient fournies avec une échelle de temps compatible avec l'Internet des Objets et les protocoles s'y rattachant. 
+
+#### Compétences Requises
+Connaissances en applications réparties
+Compétences du parcours IAM
+
+
+#### Besoins Clients
+Une étude est attendues sur l'analyse de l'état de l'art concernant les méthodes utilisées pour gérer la non synchronisation des sources de données et la compatibilité avec des fréquences de mesures faibles.
+Une proposition et une implémentation d'une approche pour gérer ce problème.
+Une étude des sources de données réutilisables pour ce problème ou la création de données permettant d'expérimenter la solution proposée.
+
+#### Résultats Attendus
+ - Etat de l'art des méthodes pour gérer les données non synchronisées
+ - Analyse des sources de données possibles ou production de données
+ - Proposition d'une approche argumentée
+ - Implémentation de la solution retenue
+     
+
+#### Informations Administratives
+  * Contact : Stéphane LAVIROTTE <stephane.lavirotte@unice.fr>
+  * Identifiant sujet : `Y1516-S020`
+  * Type : Engineering
+  * Parcours Recommandés : IAM
+     

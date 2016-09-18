@@ -1,0 +1,30 @@
+---
+layout: post
+title: "Objets Connectés Autonomes"
+date: 2016-09-14 18:38:05
+categories: [dispo, iam]
+pid: Y1516-S039
+type: Engineering
+contact: Stéphane Lavirotte
+---
+       
+Nous collaborons actuellement avec des  équipes à l’étranger utilisant des technologies ouvertes mais moins classiques pour pouvoir développer des objets connectés critiques comme par exemple des drones miniatures (moins d’une centaine de grammes). Dans ce PFE, il est demandé de faire une étude des solutions disponibles en terme de plateforme matérielle/logicielle pour la mise en œuvre de tels objets et d’ajouter une capacité de communication à ces drones.
+
+#### Compétences Requises
+Compétences du parcours IAM
+Systèmes Embarqués
+
+
+#### Besoins Clients
+Dans ce PFE et suite à l’étude  précédente il s’agit de se focaliser sur les technologies de communication inter-objets qui pourraient à la fois permettre des communications plus ou moins longue distance, avec une bande passante raisonnable et surtout une faible consommation pour respecter les contraintes déjà identifiées. L’étude portera alors sur des technologies existantes et facilement disponibles comme Sigfox, LoRa mais aussi Bluetooth Low Energy, ZigBee etc. 
+
+#### Résultats Attendus
+Le PFE s’achèvera sur la définition d’un kit matériel/logiciel approprié à la criticité des objets connectés adressés par ce projet et la réalisation d’un prototype d’illustration.
+     
+
+#### Informations Administratives
+  * Contact : Stéphane Lavirotte <stephane.lavirotte@unice.fr>
+  * Identifiant sujet : `Y1516-S039`
+  * Type : Engineering
+  * Parcours Recommandés : IAM
+     

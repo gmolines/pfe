@@ -1,0 +1,32 @@
+---
+layout: post
+title: "Développement d'un visualiseur d'objets 3D spécifique au Zspace pour des applications de réalité virtuelle"
+date: 2016-09-09 15:12:57
+categories: [dispo, gmd]
+pid: Y1516-S012
+type: Engineering
+contact: Frédéric / marc Payan / Antonini
+---
+       
+Le but de ce PFE est de développer un visualiseur d'objets 3D spécifique au Zspace, qui est un nouveau système de visualisation de type « holographique » : http://zspace.com/.
+Il sera entre autres demandé de programmer, via un SDK, une solution pour afficher et manipuler des données 3D issues de la capture de la réalité (maillages surfaciques et nuages de points).
+Ce PFE se déroulera au sein du laboratoire CNRS I3S, situé sur le Campus SophiaTech.
+
+#### Compétences Requises
+Lange de programmation : C/C++
+Des connaissances en OpenGL et en 3D (informatique graphique) seraient un plus appréciable.
+
+
+#### Besoins Clients
+Ce PFE doit conduire à la réalisation d'un prototype de démonstration sur Zspace, dédié à nos thématiques de recherche.
+
+#### Résultats Attendus
+- Prototype de démonstration (voir au dessus)
+     
+
+#### Informations Administratives
+  * Contact : Frédéric / marc Payan / Antonini <fpayan@i3s.unice.fr>
+  * Identifiant sujet : `Y1516-S012`
+  * Type : Engineering
+  * Parcours Recommandés : GMD
+     

@@ -1,0 +1,29 @@
+---
+layout: post
+title: "Comment définir la qualité d'expérience en réalité virtuelle : conception d'un outil complet pour l'évaluation de contenu par l'utilisateur"
+date: 2016-09-14 20:35:53
+categories: [dispo, gmd]
+pid: Y1516-S041
+type: Engineering
+contact: Diane Lingrand
+---
+       
+La réalité virtuelle (Virtual Reality – VR) est en train de connaître un développement rapide avec l'arrivée sur le marché en 2016 de casques multiples.  La VR représente une révolution d'expérience pour l'utilisateur, mais représente aussi un challenge énorme pour la transmission par Internet. Comme premier pas vers un meilleur streaming du contenu VR, l'objectif de ce projet est la conception d'un outil pour effectuer des tests utilisateurs, afin d'obtenir des premières métriques de qualité d'expérience en réalité virtuelle.
+
+#### Compétences Requises
+Compétences de programmation générale (Java, Python, C++, API, Sockets) et de statistiques de base. L'expérience en programmation mobile est un plus.
+
+
+#### Besoins Clients
+Voir objectifs et méthodologie ci-dessus.
+
+#### Résultats Attendus
+Voir objectifs et méthodologie ci-dessus.
+     
+
+#### Informations Administratives
+  * Contact : Diane Lingrand <lingrand@polytech.unice.fr>
+  * Identifiant sujet : `Y1516-S041`
+  * Type : Engineering
+  * Parcours Recommandés : GMD
+     

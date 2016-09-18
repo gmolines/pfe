@@ -1,0 +1,33 @@
+---
+layout: post
+title: "Effets audio temps réel pour guitare"
+date: 2016-08-29 13:59:45
+categories: [dispo, web]
+pid: Y1516-S002
+type: Engineering
+contact: Michel BUFFA
+---
+       
+Le projet consiste à développer un multi-effet pour guitariste, fonctionnant en temps réel dans une page Web, sans latence apparente. On branche la guitare sur une carte son reliée en USB à l'ordinateur, on ouvre une page Web et on joue, on peut changer les sons en temps réel etc. Guitar RIg 5 pour le Web !
+
+#### Compétences Requises
+JavaScript, NodeJS, le projet utilise l'API standard du W3C WebAudio mais vous serez formé au début du projet. D'autres frameworks JS sont envisageables. MongoDB sera certainement utilisé pour la persistence.
+
+
+#### Besoins Clients
+Je veux une application ergonomique, simple à utiliser, et qui vient avec des préréglages d'usine de qualité (presets pour différents types de sons: clair, crunch, metal, blues, classic rock, pink floyd, police, etc)
+
+#### Résultats Attendus
+Un premier prototype permettant de chainer des effets audio existants en les assemblants sous la forme d'un graphe, à la manière de l'application Chrome Guitar FX (https://chrome.google.com/webstore/detail/guitarfx/nbjaofogegcpkeobcnpdkkpdioogeajj),
+
+Un second prototype permettant de sauvegarder / restaurer des presets
+
+Un troisième prototype avec des effets de meilleure qualité que ceux qui existent
+     
+
+#### Informations Administratives
+  * Contact : Michel BUFFA <micbuffa@gmail.com>
+  * Identifiant sujet : `Y1516-S002`
+  * Type : Engineering
+  * Parcours Recommandés : WEB
+     

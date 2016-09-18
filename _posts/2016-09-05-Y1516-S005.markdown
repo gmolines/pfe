@@ -1,0 +1,36 @@
+---
+layout: post
+title: "Developpement de composants Web Polymer automatisable et controllables via des controlleurs hardware MIDI"
+date: 2016-09-05 14:44:47
+categories: [dispo, al,web]
+pid: Y1516-S005
+type: Engineering
+contact: Michel BUFFA
+---
+       
+WebAudio, une API standard du W3C permet de développer des applications Web musicales de qualité proche des applications de Musique Assistée par Ordinateur (MAO) natives. Par exemple, le simulateur d'amplificateur de guitare suivant : mainline.i3s.unice.fr/AmpSim
+La GUI de cette application, de même que celles de nombreux synthétiseurs virtuels tournant dans des pages Web, utilise des composants polymers dédiés comme par exemple ceux de : https://github.com/g200kg/webaudio-controls
+
+Le but du projet consiste à développer / modifier ces composants pour qu'on puisse les contrôler depuis des controlleurs MIDI 
+
+Il faudra que cette lib puisse "mapper" via ce que l'on appelle le "midi learn" n'importe quel controlleur sur n'importe quel composant (potentiomètre, interrupteur, bouton, etc.)
+
+#### Compétences Requises
+Technologies Web, JavaScript.
+
+
+#### Besoins Clients
+- Pouvoir utiliser n'importe quel device de contrôle en faisant du "midi learn", c'est à dire en touchant un bouton de la GUI et en bougeant ensuite un controleur hardware pour associer le bouton physique au bouton dans la GUI.
+
+#### Résultats Attendus
+Besoin = utiliser guitare en main le simulateur d'ampli via un contrôleur midi hardware, en tournant des boutons
+
+Pouvoir développer facilement des GUI Web riches pour des applications musicales demandant des widgets graphiques riches (boutons rotatifs, vu mètres, interrupteurs, etc), contrôlables par matériel midi connecté.
+     
+
+#### Informations Administratives
+  * Contact : Michel BUFFA <buffa@unice.fr>
+  * Identifiant sujet : `Y1516-S005`
+  * Type : Engineering
+  * Parcours Recommandés : AL,WEB
+     

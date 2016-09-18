@@ -1,0 +1,33 @@
+---
+layout: post
+title: "NavDashCam: Secure and Communicating Video System"
+date: 2016-09-14 22:50:52
+categories: [dispo, caspar,iam]
+pid: Y1516-S043
+type: Engineering
+contact: Yves ROUDIER
+---
+       
+This project aims at developing a securely communicating video camera, also acting as a tamper-proof blackbox archiving video rushes from the nearby environment of a vehicle, as well as a sensor for navigation purposes.
+
+#### Compétences Requises
+- C/C++ programming
+- system programming, threads
+- If possible, knowledge in GPU programming
+
+
+#### Besoins Clients
+This project aims at prototyping GPU based cryptography in a very constrained environment and in the longer term developing software libraries for generalizing such solutions.
+
+#### Résultats Attendus
+- state of the art about GPU based cryptography programming
+- prototype of connected camera software for Raspberry Pi
+- performance benchmarks
+     
+
+#### Informations Administratives
+  * Contact : Yves ROUDIER <Yves.Roudier@unice.fr>
+  * Identifiant sujet : `Y1516-S043`
+  * Type : Engineering
+  * Parcours Recommandés : CASPAR,IAM
+     

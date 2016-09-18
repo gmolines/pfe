@@ -1,0 +1,38 @@
+---
+layout: post
+title: "ROCKflows: Sélection de workflows de machine learning par comparaison"
+date: 2016-09-12 14:08:23
+categories: [dispo, al]
+pid: Y1516-S016
+type: Engineering
+contact: Mireille Blay-Fornaino
+---
+       
+ROCKflows est un projet de recherche visant à construire un outil de définition de workflow de machine learning. L’idée est de proposer automatiquement à l’utilisateur final des workflows cohérents, à partir de ses données et objectifs. Le projet utilise une approche ingénierie des modèles afin d’exprimer toute la variabilité du domaine du machine learning, et de générer des workflows exécutables. L’implémentation actuelle du système permet une comparaison à haut niveau des workflows entre différents critères (meilleure précision, temps d’exécution dans la moyenne, etc.). Dans le cadre de ce PFE, il s’agit d’étendre le système actuel en prenant en compte des valeurs réelles estimées et en proposant à l’utilisateur de faire un compromis plus fin entre ces différents critères.
+
+#### Compétences Requises
+Adaptabilité, rigueur, bon niveau de code
+
+Langages utilisés :
+Java (bon niveau requis), AngularJS (connaissance de la technologie appréciable mais non requise)
+
+
+#### Besoins Clients
+L’outil de modélisation TouchCORE (http://touchcore.cs.mcgill.ca) a une approche utilisant les Goal Models du domaine de l’ingénierie des exigences (requirements engineering) afin d’associer certaines caractéristiques d’une ligne de produits, à des objectifs non fonctionnels tels que la vitesse d’exécution du système, le nombre de messages échangés, etc. Utiliser leur API CORE (avec quelques ajouts) est une solution envisagée pour proposer à l’utilisateur de faire des compromis entre ses différents objectifs.
+
+Il est demandé de:
+- reprendre le prototype existant liant CORE et ROCKFlows
+- réaliser une recherche et étude comparative d’autres technologies ou approches
+- intégrer la solution choisie dans le système existant.
+
+#### Résultats Attendus
+- Etude (prototypes, comparaisons) et proposition d’approches répondant au besoin d’une deuxième étape de configuration des workflow, présentant à la fois les algorithmes de pré-processing possibles, et des valeurs plus précises de performances, etc.
+- Implémentation de l’approche choisie dans l’outil et si possible dans l’interface graphique Web (AngularJS).
+     
+
+#### Informations Administratives
+  * Contact : Mireille Blay-Fornaino <blay@unice.fr>
+  * Identifiant sujet : `Y1516-S016`
+  * Type : Engineering
+  * Parcours Recommandés : AL
+     

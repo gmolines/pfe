@@ -1,0 +1,35 @@
+---
+layout: post
+title: "ROCKflows: Enrichissement d’une ligne de produit de machine learning par domaine d’application"
+date: 2016-09-12 14:05:18
+categories: [dispo, gmd]
+pid: Y1516-S015
+type: Engineering
+contact: Mireille Blay-Fornarino
+---
+       
+ROCKFlows est un projet de recherche visant à construire un outil de définition de workflow de machine learning (ML). L’idée est de proposer automatiquement des workflows à l’utilisateur à partir de ses données et de ses objectifs.  Le projet utilise une approche ingénierie des modèles afin d’exprimer la variabilité du ML et de générer des workflows exécutables. Dans le cadre de ce PFE il s’agit d’enrichir le système existant en prenant en compte un ou des domaines du ML tels que l’analyse d’image, de vidéos, de données bio-médicales, etc. Par ex, si le choix porte sur l’analyse d’images, suite au projet, un utilisateur pourra demander à rechercher des voitures dans sa base d’images au lieu de dire qu’il veut appliquer des algorithmes de classification sur une base de vecteurs d’entiers.
+
+#### Compétences Requises
+Curiosité, Adaptabilité
+
+
+#### Besoins Clients
+D’un point de vue utilisateur final, il s’agit de :
+- faciliter la construction d’un workflow en fonction de son problème métier et des données dont il dispose.
+D’un point de vue équipe ROCKflows, il s’agit de : 
+- mieux cerner d’un point de vue usage, des domaines d’applications du Machine Learning, i.e. comprendre les besoins d’un non-expert;
+- étudier la façon de les intégrer à la ligne de produits ainsi qu'à l'interface graphique. L’analyse d’image semble être un bon domaine d’application mais n’est pas imposé.
+
+#### Résultats Attendus
+- Enrichissement de la ligne par des domaines d’applications du Machine Learning : intégration d’au moins une partie d’un domaine d’application permettant de réaliser un workflow complet (au moins un algorithme de Machine Learning, un de pré-processing). 
+- Amélioration de l'outil pour favoriser son utilisation par un non-expert dans le ou les domaines ciblés.
+- Si possible : Mise en place de mécanismes de prise en charge de différents domaines dans la LPL et l’interface utilisateur.
+     
+
+#### Informations Administratives
+  * Contact : Mireille Blay-Fornarino <blay@i3s.unice.fr>
+  * Identifiant sujet : `Y1516-S015`
+  * Type : Engineering
+  * Parcours Recommandés : GMD
+     

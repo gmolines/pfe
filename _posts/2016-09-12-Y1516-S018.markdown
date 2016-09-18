@@ -1,0 +1,33 @@
+---
+layout: post
+title: "codage interactif pour la navigation à point de vue libre de scènes 3D"
+date: 2016-09-12 21:32:26
+categories: [dispo, gmd]
+pid: Y1516-S018
+type: Engineering
+contact: Frédéric / Marc Payan / Antonini
+---
+       
+La visualisation avec point de vue libre (freeview point visualization) est un système de transmission de contenus multimédia, dans lequel l’utilisateur observe une scène depuis n’importe quel point de vue. Etant donné le volume des données, un décodage interactif est conseillé : l'idée est de ne transmettre qu’une mise à jour des données présentes dans le champ de vision. Pour la vidéo, plusieurs techniques de codage interactif ont déjà été proposées. Durant ce PFE, nous allons étudier la possibilité de faire du codage interactif pour la navigation à point de vue libre de scènes 3D définie par maillages 3D. Ce PFE se déroulera au sein du laboratoire CNRS I3S (SophiaTech). Il pourra déboucher sur un Stage au 2ème semestre, si les résultats sont encourageants.
+
+#### Compétences Requises
+Programmation en C++, 
+utilisation éventuelle de Matlab. 
+Des expériences dans des librairies orientées géométrie telles que OPENGL pourront être un plus.
+
+
+#### Besoins Clients
+Durant ce PFE, nous allons étudier la possibilité de faire du codage interactif pour la navigation à point de vue libre de scènes 3D définie par maillages 3D. Nous allons devoir analyser les différentes caractéristiques d'objets 3D contenus dans des scènes 3D. et si possible avoir un visualiseur permettant d'afficher les objets avec des codes couleurs en fonction de leurs statistiques ou de leurs propriétés telles que la courbure la normale etc...
+
+#### Résultats Attendus
+- un outil permettant la lecture et l'analyse de différentes caractéristiques géométriques et statistiques de maillages triangulaires d'objets 3D.
+- le visualiseur décrit ci-dessus
+- un rapport en fin de PFE décrivant les résultats de différentes analyses décrites ci dessus.
+     
+
+#### Informations Administratives
+  * Contact : Frédéric / Marc Payan / Antonini <fpayan@i3s.unice.fr>
+  * Identifiant sujet : `Y1516-S018`
+  * Type : Engineering
+  * Parcours Recommandés : GMD
+     

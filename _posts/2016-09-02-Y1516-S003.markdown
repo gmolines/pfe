@@ -1,0 +1,40 @@
+---
+layout: post
+title: "INVITEE : INstrumentation et VIsualisation de Tests de coupE à l’Epée"
+date: 2016-09-02 14:12:44
+categories: [dispo, gmd,iam]
+pid: Y1516-S003
+type: Engineering
+contact: Gaëtan Rey
+---
+       
+Les Arts Martiaux Historiques Européens (AMHE) consiste en une étude et mise en pratique des méthodes de combats telles qu’elles sont décrites dans des sources historiques. Une sous partie de cette discipline consiste à étudier le geste de coupe avec une épée (à une ou deux mains). LE but de ce projet sera de fournir des outils d’observation de l’épée pour établir ou valider la notion de « bon geste ». Et donc aider les pratiquant à savoir comme effectuer une frappe à l’épée.
+
+#### Compétences Requises
+Techniquement parlant, les compétences requises dépendront de l’orientation que les étudiants souhaitent donner au projet et des solutions techniques qu’ils auront choisies.
+
+
+#### Besoins Clients
+Les besoins du client reprennent les 2 premiers objectifs du projet, c’est-à-dire :
+
+•	De disposer d’un système permettant d’observer/mesurer facilement les mouvements d’une épée. Ce système devra être facilement manipulable par des non informaticien et aisément transportable. De plus il devra s’adapter à différents types d’épées.
+
+•	D’avoir la possibilité de visualiser simplement les mesures, soit à l’aide d’une simulation 3D, soit à l’aide d’une synchronisation avec une vidéo (ou sous d’autres formes).
+
+#### Résultats Attendus
+Les résultats attendus sont au minimum :
+
+•	Un système d’observation et de mesure des mouvements d’une épée, accompagné de son manuel d’utilisation
+
+•	Un système de visualisation des données précédentes, accompagné de son manuel d’utilisation
+
+•	Une vidéo de présentation et d’illustration des deux systèmes précédents.
+Si les étudiants avancent assez vites, le projet pourra également donner lieu à des expérimentations auprès d’un panel d’utilisateurs expérimentés. Les résultats recueillis pourront ainsi être analysés et une synthèse de ce travail pourrait être publier dans la revue « acta periodica duellatorum ».
+     
+
+#### Informations Administratives
+  * Contact : Gaëtan Rey <Gaetan.Rey@unice.fr>
+  * Identifiant sujet : `Y1516-S003`
+  * Type : Engineering
+  * Parcours Recommandés : GMD,IAM
+     

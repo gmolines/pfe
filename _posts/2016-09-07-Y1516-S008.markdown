@@ -1,0 +1,31 @@
+---
+layout: post
+title: "Synergie Ingénierie des Besoins - Interaction Homme Machine"
+date: 2016-09-07 10:25:35
+categories: [dispo, web]
+pid: Y1516-S008
+type: Engineering
+contact: Philippe Renevier Gonin
+---
+       
+L’ingénierie des Besoins (IB) ou les démarches centrées utilisateurs pour la conception de l’Interaction Homme-Machine (IHM) exploitent des données sur les usages et sur les besoins exprimés pour produire de nouveaux produits informatiques (applications, systèmes d’information, etc.)
+Les procédés en IB en IHM sont différents mais présentent des points communs notamment en exploitant des informations similaires. 
+Les objectifs de ce projet sont d’étudier la complémentarité des approches IB et IHM, d’identifier les concepts communs ou les relations entre concepts et de développer un environnement de capture des besoins.
+
+#### Compétences Requises
+capacité d'abstraction (bibliographie et conceptualisation), programmation (Java ou Web)
+
+
+#### Besoins Clients
+Une étude de l’existant en IB et en IHM pour analyser les ressources utilisées lors de la capture des besoins et leurs exploitations dans les méthodes de conception. Il conviendra alors d’établir les relations (correspondance, complémentarité, spécificité, incompatibilité, etc.) entre les concepts et les ressources. Une attention particulière doit être portée à la traçabilité des concepts (leur origine, leur exploitation, etc.)
+
+#### Résultats Attendus
+Les résultats attendus sont l’étude de la complémentarité des approches IB et IHM, l’identification des relations entre concepts et le développement d’un environnement de capture des besoins.
+     
+
+#### Informations Administratives
+  * Contact : Philippe Renevier Gonin <philippe.renevier@unice.fr>
+  * Identifiant sujet : `Y1516-S008`
+  * Type : Engineering
+  * Parcours Recommandés : WEB
+     

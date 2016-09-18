@@ -1,0 +1,36 @@
+---
+layout: post
+title: "Deep Learning avec Google TensorFlow"
+date: 2016-09-14 17:22:08
+categories: [dispo, gmd,web]
+pid: Y1516-S035
+type: Engineering
+contact: Lionel Fillatre
+---
+       
+Le Deep Learning (ou apprentissage profond) est une technique d'analyse de données actuellement très en vogue. De nombreuses solutions logicielles sont désormais proposées pour apprendre et tester un réseau profond de façon simple. Le framework Google TensorFlow proposé récemment par Google est une solution séduisante. Nous disposons en interne d'un classifieur qui pourrait être intégré à l'architecture TensorFlow. Nous souhaitons donc que le groupe d'étudiants du PFE prenne en main le framework Google TensorFlow et y intègre notre classifieur. Parmi les applications envisagées pour tester le code réalisé, les étudiants pourront par exemple classifier des images biologiques de cellules.
+
+#### Compétences Requises
+- Programmation informatique (connaître préalablement Python n'est pas nécessaire)
+- Notions de bases en machine learning (réseau de neurones, SVM, etc.)
+- Connaissance de bases en images (pixels, représentation en niveaux de gris)
+- Notions de base en optimisation numérique (descente de gradient)
+
+
+#### Besoins Clients
+Il est demandé aux étudiants de produire une solution logicielle qui s'intègre parfaitement avec le framework Google TensorFlow. De ce fait, ce projet a une composante Ingénierie très prononcée. Cependant, le classifieur développé par notre équipe n'a pas été initialement conçu pour un réseau de neurones profond. Les étudiants pourront donc étudier l'adaptation de notre classifieur à un réseau de neurones profond, ce qui donnera une certaine orientation Recherche au projet. En résumé, il s'agit donc d'un projet qui combine des aspects Recherche et des aspects Ingénierie. L'équilibre entre ces deux aspects dépendra des étudiants.
+
+#### Résultats Attendus
+Principaux livrables attendus :
+- descriptif détaillé du framework Google TensorFlow
+- architecture Deep Learning avec notre algorithme de classification
+- code Python qui s'intègre au Framework Google TensorFlow
+- évaluation quantitative des performances du classifieur.
+     
+
+#### Informations Administratives
+  * Contact : Lionel Fillatre <lionel.fillatre@i3s.unice.fr>
+  * Identifiant sujet : `Y1516-S035`
+  * Type : Engineering
+  * Parcours Recommandés : GMD,WEB
+     

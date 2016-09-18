@@ -1,0 +1,32 @@
+---
+layout: post
+title: "Modèles d'usage et modèles de besoin"
+date: 2016-09-08 15:46:53
+categories: [dispo, web]
+pid: Y1516-S010
+type: Engineering
+contact: Pierre Crescenzo
+---
+       
+Études des modèles d'usage et des modèles de besoin : comparaisons pour extraire les ressemblances et dissemblances, définition d'une ontologie commune
+
+#### Compétences Requises
+Capacités d'abstraction ; Envie d'apprendre, de comprendre, d'inventer ; Rigueur, autonomie et dynamisme
+
+
+#### Besoins Clients
+Résultat de la comparaison entre modèles de besoin et modèles d'usages, du dévoilement des concepts commun ou se ressemblant, des différences essentielles
+
+#### Résultats Attendus
+- Un résumé de chaque article étudié (dans le contexte du sujet)
+- Des discussions et des propositions de concepts pour un modèle rapprochant besoins et usages
+- Une ontologie commune aux besoins et usages
+- Si le groupe a suffisamment avancé : Programmation d'un prototype de logiciel permettant de modéliser besoins et usages sous forme de diagrammes
+     
+
+#### Informations Administratives
+  * Contact : Pierre Crescenzo <pierre.crescenzo@unice.fr>
+  * Identifiant sujet : `Y1516-S010`
+  * Type : Engineering
+  * Parcours Recommandés : WEB
+     

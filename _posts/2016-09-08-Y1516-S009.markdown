@@ -1,0 +1,34 @@
+---
+layout: post
+title: "Contribution au développement d’application mobile (réseaux sociaux) en partenariat avec une startup"
+date: 2016-09-08 14:41:47
+categories: [dispo, web]
+pid: Y1516-S009
+type: Engineering
+contact: Didier Parigot
+---
+       
+Depuis trois ans, l’équipe de recherche Zenith (https://team.inria.fr/zenith) de l’Inria collabore étroitement avec la startup Beepeers (http://www.beepeers.com), spécialisée dans le développement et la commercialisation de réseaux sociaux mobiles (android/iOS) associés à des manifestations musicale et culturelle (p.ex., Plages électroniques, Festival International du Jeu). L’objectif du projet consiste à refondre complètement les applications mobiles (android/iOS), en migrant celles-ci vers React Native (https://facebook.github.io/react-native), une nouvelle technologie  basées sur des technologies web (JavaScript ES6, React, Redux, etc.). Ce projet sera, pour les étudiants, une excellente formation à ces technologies émergeantes.
+
+#### Compétences Requises
+Le langage utilisé sera JavaScript.
+
+React Native est une technologie très jeune (2015) et nous formerons les étudiants à celle-ci. 
+Des connaissances sur le développement Android ou iOS peuvent être un plus, mais ne sont pas strictement indispensable.
+
+
+#### Besoins Clients
+L'objectif est de valider à l'aide de l'implémentation de différents écrans l'architecture globale des applications mobile avec cette technologie React Native (en cours de conception).
+
+Tous ce travail sera piloté par Benjamin Billet (docteur-ingénieur) dans les locaux de l'Inria en collaboration avec Beepeers.
+
+#### Résultats Attendus
+Pour un écran ou une série d’écrans mettre en place la chaine complète allant de l'application mobile aux services du serveur et que cela fonctionnement sur un jeu de test (base de donnée graphe préexistante).
+     
+
+#### Informations Administratives
+  * Contact : Didier Parigot <didier.parigot@inria.fr>
+  * Identifiant sujet : `Y1516-S009`
+  * Type : Engineering
+  * Parcours Recommandés : WEB
+     

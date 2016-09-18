@@ -1,0 +1,30 @@
+---
+layout: post
+title: "Télé-présence et Objets Connectés"
+date: 2016-09-14 18:28:50
+categories: [dispo, iam]
+pid: Y1516-S038
+type: Engineering
+contact: Stéphane Lavirotte
+---
+       
+Aujourd’hui plusieurs plateformes d’habitat intelligent ou connectés ont été déployées dans des lieux géographiques distants (Amiqual4Home à Grenoble, 27Delvalle à Nice, …). Nous disposons d’une solution permettant d’interconnecter plusieurs sites distants de manière sécurisée et d’interconnecter des dispositifs issus de chacun des sites. S’il est possible d’avoir un Dashboard représentant l’état des dispositifs dans les différents lieux, nous souhaitons mettre en place un système plus complet de télé-présence, éventuellement mobile, qui permette de suivre à distance les actions dans l’environnement physique.
+
+#### Compétences Requises
+Compétences du Parcours IAM: Internet des Objets, Middleware of Things
+
+
+#### Besoins Clients
+Une première partie du travail de PFE consistera donc à étudier les différentes solutions existantes en tenant compte des contraintes énoncées précédemment. Dans le cas où aucune solution existante ne soit satisfaisante au regard de nos critères de choix, il faudra proposer une solution originale. La solution retenue devra être mise en œuvre pour interconnecter des sites distants (l’Ubiquarium à Polytech, à 27Delvalle à Nice et sur d’autres sites à l’étranger). Une analyse des performances sera réalisée pour vérifier que la solution retenue correspond aux attentes. 
+
+#### Résultats Attendus
+- Documents d'étude sur les solutions existantes et adaptées au problème présenté
+- Mise en oeuvre d'une solution technique répondant au problème
+     
+
+#### Informations Administratives
+  * Contact : Stéphane Lavirotte <stephane.lavirotte@unice.fr>
+  * Identifiant sujet : `Y1516-S038`
+  * Type : Engineering
+  * Parcours Recommandés : IAM
+     

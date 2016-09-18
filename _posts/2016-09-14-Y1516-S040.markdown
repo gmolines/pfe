@@ -1,0 +1,36 @@
+---
+layout: post
+title: "SDR platform for the monitoring and analysis of (in)secure wireless communications"
+date: 2016-09-14 20:00:41
+categories: [dispo, al,caspar,iam]
+pid: Y1516-S040
+type: Engineering
+contact: Yves ROUDIER
+---
+       
+This project aims at developing a platform for detecting insecure wireless communications between communicating devices (mobile phones, watches, RFIDs, ...) and at experimenting using different wireless devices. The platform will then be used to experiment with different wirelessly communicating devices.
+
+#### Compétences Requises
+- C/C++ and/or Python knowledge
+- Basic understanding of how cryptographic protocols work (mostly encryption)
+- if possible, knowledge of some wireless protocols and/or in embedded systems
+
+groups with students from different backgrounds as highlighted above are encouraged.
+
+
+#### Besoins Clients
+Our expectations are ultimately related to understanding hands-on to what extent an SDR receiver only approach may help find out weaknesses, and to what extent the human expertise may be automated with a simple approach.
+
+#### Résultats Attendus
+- short survey of available SDR software analysis tools
+- traces documenting the experiments done
+- analysis of the traces together with a survey of related wireless protocol security mechanisms
+- extension of one SDR software (possibly GNU Radio)
+     
+
+#### Informations Administratives
+  * Contact : Yves ROUDIER <Yves.Roudier@unice.fr>
+  * Identifiant sujet : `Y1516-S040`
+  * Type : Engineering
+  * Parcours Recommandés : AL,CASPAR,IAM
+     

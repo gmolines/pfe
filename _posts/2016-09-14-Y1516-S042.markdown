@@ -1,0 +1,30 @@
+---
+layout: post
+title: "Privacy protection through binary instrumentation"
+date: 2016-09-14 20:45:00
+categories: [dispo, caspar]
+pid: Y1516-S042
+type: Engineering
+contact: Yves ROUDIER
+---
+       
+This project aims at experimenting with binary instrumentation technologies in order to assess whether privacy leaks may result from executing third-party software as well as to prevent these leaks from happening by introducing protections into the application.
+
+#### Compétences Requises
+- C/C++ programming (or possibly Java programming)
+- understanding of privacy issues and security policies (notably access control and/or usage control)
+
+
+#### Besoins Clients
+We plan to review existing applications and if possible produce an assessment of their behavior therefore the monitoring part might be more developed than the protection mechanism part if the students show some interest towards that approach.
+
+#### Résultats Attendus
+We expect to produce a small instrumentation tool with traces that would be easily analyzed. Time permitting, if results can be obtained out of enough third-party software, the project might even lead to contributing to a scientific paper publication.
+     
+
+#### Informations Administratives
+  * Contact : Yves ROUDIER <Yves.Roudier@unice.fr>
+  * Identifiant sujet : `Y1516-S042`
+  * Type : Engineering
+  * Parcours Recommandés : CASPAR
+     
