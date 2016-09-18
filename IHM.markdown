@@ -9,7 +9,7 @@ permalink: /ihm/
 
 {% for post in sorted_posts %}
     {% if post.categories contains 'ihm' and post.categories contains 'dispo' %}
-### {% if post.type == 'Research' %}[R]{% else %}[I]{% endif %} {{post.title}}    
+### {{post.title}}    
   * Contact: {{post.contact}}
   * Identifiant projet: {{$post.pid}}
   * [Description complète du sujet]({{ site.baseurl }}{{ post.url }})
