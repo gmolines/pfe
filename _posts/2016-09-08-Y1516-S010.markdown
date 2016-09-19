@@ -2,7 +2,7 @@
 layout: post
 title: "Modèles d'usage et modèles de besoin"
 date: 2016-09-08 15:46:53
-categories: [dispo, web]
+categories: [dispo, ihm,web]
 pid: Y1516-S010
 type: Engineering
 contact: Pierre Crescenzo
@@ -28,5 +28,5 @@ Résultat de la comparaison entre modèles de besoin et modèles d'usages, du d�
   * Contact : Pierre Crescenzo <pierre.crescenzo@unice.fr>
   * Identifiant sujet : `Y1516-S010`
   * Type : Engineering
-  * Parcours Recommandés : WEB
+  * Parcours Recommandés : IHM,WEB
      

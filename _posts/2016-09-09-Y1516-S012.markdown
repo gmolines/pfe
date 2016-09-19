@@ -2,7 +2,7 @@
 layout: post
 title: "Développement d'un visualiseur d'objets 3D spécifique au Zspace pour des applications de réalité virtuelle"
 date: 2016-09-09 15:12:57
-categories: [dispo, gmd]
+categories: [dispo, gmd,ihm]
 pid: Y1516-S012
 type: Engineering
 contact: Frédéric / marc Payan / Antonini
@@ -28,5 +28,5 @@ Ce PFE doit conduire à la réalisation d'un prototype de démonstration sur Zsp
   * Contact : Frédéric / marc Payan / Antonini <fpayan@i3s.unice.fr>
   * Identifiant sujet : `Y1516-S012`
   * Type : Engineering
-  * Parcours Recommandés : GMD
+  * Parcours Recommandés : GMD,IHM
      

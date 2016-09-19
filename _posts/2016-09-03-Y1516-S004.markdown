@@ -1,0 +1,31 @@
+---
+layout: post
+title: "Modélisation 3D par Kinect"
+date: 2016-09-03 08:50:32
+categories: [dispo, ihm]
+pid: Y1516-S004
+type: Engineering
+contact: ERIC BAILLY
+---
+       
+Modéliser un intérieur (bâtiment, grotte etc?) en 3D automatiquement avec une kinect reliée à un PC. Création du plan 2D, géoréférencement et métrique de cet intérieur.
+
+#### Compétences Requises
+Les étudiants devront maitriser bien évidemment la programmation (de préférence python mais rien n'est figé). L'interface du logiciel doit être réfléchie (mon expérience d'encadrant montre que trop souvent les projets demeurent inutilisables par un utilisateur non rompu à la programmation, que je suis, ce qui est un point négatif).
+ La connectique ne devrait pas poser de problème, donc pas de compétence électronique demandée.
+Tout projet étant dynamique il sera demandé aux étudiants de proposer toute évolution leur paraissant pertinente. L'objectif est d'obtenir la modélisation. Les moyens pour y arriver sont donc multiples et les étudiants auront a cœur de faire preuve d'imagination et d'initiative.
+
+
+#### Besoins Clients
+EN tant que client l'objectif est donc de rendre un produit fini (même en version bêta) qui permet la modélisation en 3D.
+
+#### Résultats Attendus
+Le logiciel avec une interface utilisateur bien réfléchi
+     
+
+#### Informations Administratives
+  * Contact : ERIC BAILLY <bailly@unice.fr>
+  * Identifiant sujet : `Y1516-S004`
+  * Type : Engineering
+  * Parcours Recommandés : IHM
+     

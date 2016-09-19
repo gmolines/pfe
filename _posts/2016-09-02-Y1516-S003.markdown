@@ -2,7 +2,7 @@
 layout: post
 title: "INVITEE : INstrumentation et VIsualisation de Tests de coupE à l’Epée"
 date: 2016-09-02 14:12:44
-categories: [dispo, gmd,iam]
+categories: [dispo, gmd,iam,ihm]
 pid: Y1516-S003
 type: Engineering
 contact: Gaëtan Rey
@@ -36,5 +36,5 @@ Si les étudiants avancent assez vites, le projet pourra également donner lieu 
   * Contact : Gaëtan Rey <Gaetan.Rey@unice.fr>
   * Identifiant sujet : `Y1516-S003`
   * Type : Engineering
-  * Parcours Recommandés : GMD,IAM
+  * Parcours Recommandés : GMD,IAM,IHM
      

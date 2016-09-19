@@ -2,7 +2,7 @@
 layout: post
 title: "Minority Report 2 - évaluation de l’impact de la disposition des images sur le mouvement des yeux"
 date: 2016-09-14 17:48:34
-categories: [dispo, gmd,web]
+categories: [dispo, gmd,ihm,web]
 pid: Y1516-S036
 type: Engineering
 contact: Alain Giboin
@@ -75,5 +75,5 @@ constitution d’une base permettant de répondre aux exigences du protocole (le
   * Contact : Alain Giboin <alain.giboin@inria.fr>
   * Identifiant sujet : `Y1516-S036`
   * Type : Engineering
-  * Parcours Recommandés : GMD,WEB
+  * Parcours Recommandés : GMD,IHM,WEB
      

@@ -1,0 +1,36 @@
+---
+layout: post
+title: "casque encephalographique et manipulation d'un objet 3D"
+date: 2016-09-14 12:38:50
+categories: [dispo, ihm]
+pid: Y1516-S032
+type: Engineering
+contact: Eric BAILLY
+---
+       
+casque encéphalographique et manipulation d'un objet 3D
+
+L'objectif de ce projet est de créer un casque encéphalographique. 
+Celui-ci doit être couplé avec une électronique et un logiciel permettant de piloter la visualisation d'un objet 3D sur pc.
+
+#### Compétences Requises
+Les étudiants choisissant ce projet devront être capables de créer des prototypes d'objets donc d'être assez manuels. 
+Ils devront maitriser la programmation arduino (de préférence en python).
+Les étudiants devront montrer leur capacité d'adaptation et leur dynamisme. Le sujet est en lui même non figé, il peut évoluer suivant les idées de chacun et son avancement. Ainsi les étudiants prendront une part entière dans la conception générale du sujet.
+
+
+#### Besoins Clients
+Il faut des personnes ayant, outre des capacités en informatique et interfaçage avec un arduino, l'envie d'investir et de s'impliquer dans ce projet dans la finalité est très pragmatique (cf résultat). Il faudra donc s'informer de l'existant et être inventif.
+
+#### Résultats Attendus
+Il faudra donc un prototype de casque, relié a un arduino. 
+Il faudra le logiciel permettant sa gestion et l'interfaçage avec le browser.
+In finé, il faut un résultat pragmatique, restant bien évidemment sous la forme d'un prototype mais utilisable.
+     
+
+#### Informations Administratives
+  * Contact : Eric BAILLY <bailly@unice.fr>
+  * Identifiant sujet : `Y1516-S032`
+  * Type : Engineering
+  * Parcours Recommandés : IHM
+     

@@ -2,7 +2,7 @@
 layout: post
 title: "Conception d'une interface de visualisation de graphes d'argumentation pour l'exploration des structures argumentatives en langage naturel."
 date: 2016-09-09 16:51:21
-categories: [dispo, web]
+categories: [dispo, ihm,web]
 pid: Y1516-S013
 type: Engineering
 contact: Serena Villata
@@ -26,5 +26,5 @@ Le but du PFE est de concevoir une interface utilisateur appropriée pour la vis
   * Contact : Serena Villata <villata@i3s.unice.fr>
   * Identifiant sujet : `Y1516-S013`
   * Type : Engineering
-  * Parcours Recommandés : WEB
+  * Parcours Recommandés : IHM,WEB
      

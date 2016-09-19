@@ -2,7 +2,7 @@
 layout: post
 title: "Effets audio temps réel pour guitare"
 date: 2016-08-29 13:59:45
-categories: [dispo, web]
+categories: [dispo, ihm,web]
 pid: Y1516-S002
 type: Engineering
 contact: Michel BUFFA
@@ -29,5 +29,5 @@ Un troisième prototype avec des effets de meilleure qualité que ceux qui exist
   * Contact : Michel BUFFA <micbuffa@gmail.com>
   * Identifiant sujet : `Y1516-S002`
   * Type : Engineering
-  * Parcours Recommandés : WEB
+  * Parcours Recommandés : IHM,WEB
      

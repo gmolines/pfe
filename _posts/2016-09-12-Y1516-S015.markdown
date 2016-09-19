@@ -2,7 +2,7 @@
 layout: post
 title: "ROCKflows: Enrichissement d’une ligne de produit de machine learning par domaine d’application"
 date: 2016-09-12 14:05:18
-categories: [dispo, gmd]
+categories: [dispo, gmd,ihm]
 pid: Y1516-S015
 type: Engineering
 contact: Mireille Blay-Fornarino
@@ -31,5 +31,5 @@ D’un point de vue équipe ROCKflows, il s’agit de :
   * Contact : Mireille Blay-Fornarino <blay@i3s.unice.fr>
   * Identifiant sujet : `Y1516-S015`
   * Type : Engineering
-  * Parcours Recommandés : GMD
+  * Parcours Recommandés : GMD,IHM
      

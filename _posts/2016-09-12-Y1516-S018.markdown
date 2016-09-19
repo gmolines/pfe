@@ -2,7 +2,7 @@
 layout: post
 title: "codage interactif pour la navigation à point de vue libre de scènes 3D"
 date: 2016-09-12 21:32:26
-categories: [dispo, gmd]
+categories: [dispo, gmd,ihm]
 pid: Y1516-S018
 type: Engineering
 contact: Frédéric / Marc Payan / Antonini
@@ -29,5 +29,5 @@ Durant ce PFE, nous allons étudier la possibilité de faire du codage interacti
   * Contact : Frédéric / Marc Payan / Antonini <fpayan@i3s.unice.fr>
   * Identifiant sujet : `Y1516-S018`
   * Type : Engineering
-  * Parcours Recommandés : GMD
+  * Parcours Recommandés : GMD,IHM
      

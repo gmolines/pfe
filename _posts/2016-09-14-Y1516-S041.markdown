@@ -2,7 +2,7 @@
 layout: post
 title: "Comment définir la qualité d'expérience en réalité virtuelle : conception d'un outil complet pour l'évaluation de contenu par l'utilisateur"
 date: 2016-09-14 20:35:53
-categories: [dispo, gmd]
+categories: [dispo, gmd,ihm]
 pid: Y1516-S041
 type: Engineering
 contact: Diane Lingrand
@@ -25,5 +25,5 @@ Voir objectifs et méthodologie ci-dessus.
   * Contact : Diane Lingrand <lingrand@polytech.unice.fr>
   * Identifiant sujet : `Y1516-S041`
   * Type : Engineering
-  * Parcours Recommandés : GMD
+  * Parcours Recommandés : GMD,IHM
      

@@ -2,7 +2,7 @@
 layout: post
 title: "Synergie Ingénierie des Besoins - Interaction Homme Machine"
 date: 2016-09-07 10:25:35
-categories: [dispo, web]
+categories: [dispo, ihm,web]
 pid: Y1516-S008
 type: Engineering
 contact: Philippe Renevier Gonin
@@ -27,5 +27,5 @@ Les résultats attendus sont l’étude de la complémentarité des approches IB
   * Contact : Philippe Renevier Gonin <philippe.renevier@unice.fr>
   * Identifiant sujet : `Y1516-S008`
   * Type : Engineering
-  * Parcours Recommandés : WEB
+  * Parcours Recommandés : IHM,WEB
      

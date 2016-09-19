@@ -2,7 +2,7 @@
 layout: post
 title: "Minority Report 1 - évaluation de différents modes d'indexation d'images"
 date: 2016-09-14 17:51:17
-categories: [dispo, gmd,web]
+categories: [dispo, gmd,ihm,web]
 pid: Y1516-S037
 type: Engineering
 contact: Alain Giboin
@@ -75,5 +75,5 @@ constitution d’une base permettant de répondre aux exigences du protocole (le
   * Contact : Alain Giboin <alain.giboin@inria.fr>
   * Identifiant sujet : `Y1516-S037`
   * Type : Engineering
-  * Parcours Recommandés : GMD,WEB
+  * Parcours Recommandés : GMD,IHM,WEB
      

@@ -2,7 +2,7 @@
 layout: post
 title: "Développement d'algorithmes évolutionnaires pour le paramétrage d'un logiciel de Bio-Info"
 date: 2016-09-14 08:49:25
-categories: [dispo, gmd,web]
+categories: [dispo, gmd,ihm,web]
 pid: Y1516-S028
 type: Engineering
 contact: Denis Pallez
@@ -32,5 +32,5 @@ Au moins 2 algorithmes
   * Contact : Denis Pallez <denis.pallez@unice.fr>
   * Identifiant sujet : `Y1516-S028`
   * Type : Engineering
-  * Parcours Recommandés : GMD,WEB
+  * Parcours Recommandés : GMD,IHM,WEB
      
