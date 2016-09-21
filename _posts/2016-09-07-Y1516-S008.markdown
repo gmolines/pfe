@@ -12,6 +12,28 @@ L’ingénierie des Besoins (IB) ou les démarches centrées utilisateurs pour l
 Les procédés en IB en IHM sont différents mais présentent des points communs notamment en exploitant des informations similaires. 
 Les objectifs de ce projet sont d’étudier la complémentarité des approches IB et IHM, d’identifier les concepts communs ou les relations entre concepts et de développer un environnement de capture des besoins.
 
+Contexte du projet : 
+L’ingénierie des Besoins (IB) ou les démarches centrées utilisateurs pour la conception de l’Interaction Homme-Machine (IHM) exploitent des données sur les usages et sur les besoins exprimés pour produire de nouveaux produits informatiques (applications, systèmes d’information, etc.)
+Les procédés en IB en IHM sont différents mais présentent des points communs notamment en exploitant des informations similaires. 
+Les objectifs de ce projet sont d’étudier la complémentarité des approches IB et IHM, d’identifier les concepts communs ou les relations entre concepts et de développer un environnement de capture des besoins.
+
+Travail demandé : 
+Commes les experts en IB ou en IHM se basent sur une analyse des usages et des besoins exprimés pour en déduire les modèles à partir desquels ils concevront le futur produit, une de leurs activités est d’analyser ces données. Celles-ci se présentent sous forme :
+Écrites ou tapées, retranscriptions d’interview ou éléments rédigés, etc. 
+Vidéos de personnes en situations réelles, en situations contrôlées, d’interview, etc.
+Schématique : dessin à main levée, schéma numérique, etc.
+etc.
+L’analyse consiste à étuder ces ressources, à en extraire des concepts clefs comme les objectifs et tâches à réaliser, les données manipulées, les contraintes exprimées (ou non), etc. 
+
+Le travail demandé est donc de construire un framework qui permet de manipuler de telles sources, d’en extraire des parties, de définir (ou réutiliser) des concepts clefs. Ces concepts doivent être ensuite structurés. 
+
+Méthode de travail : 
+Une démarche itérative est demandée, en suivant les notions de découpage vertical, de tests unitaires et des rencontres fréquentes avec les encadrants. 
+L’outil est au choix des étudiants en Java “desktop”, en Java Android ou sur une technologie web. 
+
+Encadrants : Philippe Renevier Gonin (Philippe.Renevier@unice.fr) et Pierre Crescenzo (Pierre.Crescenzo@unice.fr) 
+Employeur/Lieu : Laboratoire I3S, équipe SPARKS, 4e étage du bâtiment Templiers I (ou Ouest)
+
 #### Compétences Requises
 capacité d'abstraction (bibliographie et conceptualisation), programmation (Java ou Web)
 

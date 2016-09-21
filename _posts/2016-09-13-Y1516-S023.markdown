@@ -10,6 +10,20 @@ contact: Logre Ivan
        
 Le projet consiste en la validation d'hypothèse sur la conception de dashboard, à travers des tests utilisateur. Il comprend le développement de la plateforme de test, le passage de tests sur un groupe témoin, ainsi que l'analyse des données pour en ressortir des métriques. Keywords : Web, Centré Utilisateur, Visualisation
 
+[Contexte]
+
+Les dashboards (ou tableaux de bord) sont un moyen communément utilisé pour la visualisation de données en provenance de capteur. Il s’agit de concevoir un ensemble cohérent de widgets graphiques, présentant à l’utilisateur un aspect du système monitoré. La conception d’un dashboard passe par le choix des visualisations appropriées, compte tenu des données en entrées et de l’analyse souhaitée.
+Le besoin de visualisation croit avec l’essor de l’IoT et du Big Data [1] et motive ainsi l’assistanat et l’automatisation dans la production de dashboards. Cependant, l’offre grandissante de widgets de visualisation rend difficile le choix d’une visualisation pertinente et adaptée au contexte.
+Nous proposons d’étudier l’apport d’une approche par modélisation [2], i.e. fournir au concepteur de dashboard un vocabulaire adapté pour exprimer son besoin de visualisation et lui proposer automatiquement des widgets en fonction de ses choix. 
+
+[Travail à réaliser]
+
+L'objectif du projet est la mise en place d’un processus complet de test utilisateur :
+1.	Développer un site web permettant de faire passer un test utilisateur destiné à valider des hypothèses préétablies et qui vous sont fournies.
+2.	Vérifier très rapidement la pertinence du test auprès d’un échantillon représentatif d’utilisateur, et adapter au besoin.
+3.	Mettre en place les captures de données nécessaires à la validation des hypothèses par le calcul de métriques et l’analyse de celles-ci.
+Ce projet s’inscrit dans une démarche scientifique et nécessite une interaction fréquente avec les chercheurs impliqués et avec des utilisateurs cibles. Le jalon d’une première version démontrable quelques semaines après le début du projet est crucial.
+
 #### Compétences Requises
 •	Capture et prise en compte des besoins utilisateurs
 •	Compétences en technologies web

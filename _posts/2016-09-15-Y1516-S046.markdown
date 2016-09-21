@@ -10,6 +10,14 @@ contact: Jean-Yves Tigli
        
 Dans les « Cyber-physical Systems » les applications logicielles utilisent des dispositifs physiques interagissant avec un environnement réel. Classiquement, dans les environnements de développement, des modèles déterministes permettent d'en valider le fonctionnement. Dans le cas des systèmes cyber-physiques, les interactions des applications avec un environnement réel incertain, ne permettent plus d’utiliser de telles approches pour valider les applications. De récents travaux dans notre équipe permettent de quantifier, au cours du temps, la qualité variable des applications malgré les aléas de l'environnement. Le travail proposé est de construire un outil qui transférera les résultats théoriques publiés dans un outil de conception d’applications cyber-physiques.
 
+Aujourd'hui de nombreuses applications logicielles utilisent des dispositifs physiques interagissant avec un environnement réel. Ce sont alors des « Cyber-physical Systems » (https://en.wikipedia.org/wiki/Cyber-physical_system). Classiquement des modèles déterministes du comportement des applications logicielles permettent d'en valider le fonctionnement. Ils sont au cœur d’outils que vous retrouvez dans vos environnements de développement. Dans le cas des systèmes cyber-physiques, les interactions des applications avec un environnement réel, partiellement connu et incertain, ne permettent plus de se satisfaire de telles approches pour valider les applications. De récents résultats de recherche dans notre équipe permettent d'évaluer la qualité du comportement des applications malgré les aléas liés à l'environnement. Ils se basent sur des modèles stochastiques (HMM : Modèle de Markov caché) qui permettent dès lors de quantifier la  qualité de l’application qui évolue au cours du temps (sorte de degré de satisfaction sur le comportement de l’application), plutôt qu’une conformité « vrai/fausse » réductrice dans un environnement physique et incertain.
+Le travail proposé ici est de construire un outil qui transférera les résultats théoriques déjà publiés dans un outil de conception d’applications cyber-physiques, qui 
+- Transforme des règles qui ont été écrites dans les langages graphiques ou textuels métier pour la domotique, la gestion des villes et des bâtiments en énergie, en éclairage, en sécurité … vers un modèle de type machine à état fini le cas échéant.
+-  Assister le concepteur d’application dans l’instrumentation capteur de l’environnement physique de l’application.
+- Mettre en œuvre les algorithmes de la publication de recherche pour la  quantification permanente de la qualité de l’application.
+- Concevoir les IHM qui assisteront le concepteur d’applications cyber-physiques.
+Après une étude des différents langages métiers les plus utilisés, les étudiants choisiront celui qui sera concerné par le premier prototype de l’outil.
+
 #### Compétences Requises
 Compétences en programmation et développement graphique.
 

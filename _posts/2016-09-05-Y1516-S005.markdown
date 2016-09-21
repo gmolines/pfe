@@ -15,6 +15,16 @@ Le but du projet consiste à développer / modifier ces composants pour qu'on pu
 
 Il faudra que cette lib puisse "mapper" via ce que l'on appelle le "midi learn" n'importe quel controlleur sur n'importe quel composant (potentiomètre, interrupteur, bouton, etc.)
 
+Etude rapide des principes de WebAudio (API JavaScript standard dans les browsers web modernes)
+Etude rapide de WebMidi, l'API JavaScript standard du W3C pour échanger des messages midi.
+Etude des composants WebAudio control (utilisant le framework Polymer de Google)
+
+Design d'une librairie permettant de  "mapper" via ce que l'on appelle le "midi learn" n'importe quel controlleur sur n'importe quel composant (potentiomètre, interrupteur, bouton, etc.). Design patterns obligatoires ici car on devra faire du MVC.
+
+Modification ou écriture de nouvaux composants controllables via midi et intégration dans quelques applications WebAudio (dont l'ampli de guitare)
+
+On fournira aux élèves plusieurs devices midi pour les tests. Par exemple comme par exemple : https://www.amazon.fr/Novation-Launch-Control-XL-Contr%C3%B4leur/dp/B00LXBC92M/ref=sr_1_2?ie=UTF8&qid=1473078566&sr=8-2&keywords=novation+launch+control
+
 #### Compétences Requises
 Technologies Web, JavaScript.
 

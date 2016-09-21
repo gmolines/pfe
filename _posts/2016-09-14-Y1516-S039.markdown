@@ -10,6 +10,16 @@ contact: Stéphane Lavirotte
        
 Nous collaborons actuellement avec des  équipes à l’étranger utilisant des technologies ouvertes mais moins classiques pour pouvoir développer des objets connectés critiques comme par exemple des drones miniatures (moins d’une centaine de grammes). Dans ce PFE, il est demandé de faire une étude des solutions disponibles en terme de plateforme matérielle/logicielle pour la mise en œuvre de tels objets et d’ajouter une capacité de communication à ces drones.
 
+Il est possible aujourd’hui de développer ses propres objets connectés ou prototype à l’aide de diverses plateformes très largement diffusées (Arduino, Raspberry Pi, Beaglebone, …). Mais pour pouvoir intégrer, dissimuler, ces plateformes dans des objets du quotidien (bracelet, montre, portefeuille connectés, …), plusieurs critères sont importants pour mener à bien ces projets : les performances de calcul, la capacité mémoire et de stockage, les entrées/sorties disponibles, la capacité de communication, mais aussi la miniaturisation et bien sûr l’autonomie énergétique.
+Dans ce PFE, il est demandé de faire une étude des solutions disponibles en terme de plateforme matérielle/logicielle pour la mise en œuvre de tels objets. Il sera demandé d’étudier les différentes plateformes miniatures et kits pouvant répondre à la problématique de miniaturisation, mais aussi et surtout les différents protocoles de communication spécifiques aux objets connectés offrant des caractéristiques adaptées (basse consommation énergétique).
+Nous collaborons actuellement avec des  équipes à l’étranger utilisant des technologies ouvertes mais moins classiques pour pouvoir développer des objets connectés critiques comme par exemple des drones miniatures (moins d’une centaine de grammes). Les étudiants de ce PFE seront amenés à échanger des informations avec ces équipes afin de ne pas perdre trop de temps sur l’acquisition d’une expertise déjà acquise par d’autres.
+Dans ce PFE et suite à l’étude  précédente il s’agit de se focaliser sur les technologies de communication inter-objets qui pourraient à la fois permettre des communications plus ou moins longue distance, avec une bande passante raisonnable et surtout une faible consommation pour respecter les contraintes déjà identifiées. L’étude portera alors sur des technologies existantes et facilement disponibles comme Sigfox, LoRa mais aussi Bluetooth Low Energy, ZigBee etc. 
+Le PFE s’achèvera sur la définition d’un kit matériel/logiciel approprié à la criticité des objets connectés adressés par ce projet et la réalisation d’un prototype d’illustration.
+
+Contacts:
+ - Stéphane Lavirotte
+ - Jean-Yves Tigli
+
 #### Compétences Requises
 Compétences du parcours IAM
 Systèmes Embarqués

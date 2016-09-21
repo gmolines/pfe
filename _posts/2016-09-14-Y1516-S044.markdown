@@ -10,6 +10,22 @@ contact: Yves ROUDIER
        
 This project aims at developing a secure communication stack for controlling and monitoring unmanned, partially autonomous vehicles (rovers, drones, etc.). The aim is to enable the transmission of commands and data between the autonomous vehicle and the control station as well as within the vehicle subsystems.
 
+The development of unmanned robotic vehicles is increasingly important in situations where human beings either have a hard time exploring areas because they are dangerous or because they are too extended for the manpower available. Both are for instance typical of search & rescue operations (earthquakes, floods, ...) where a limited crew of rescuers generally already has to deal with their usual priorities (local exploration of wrecked buildings, healing injured people, etc.). We have proposed an architecture for such unmanned vehicles in order to satisfy all required functions with dependability.
+
+The work will consist in implementing cryptographic protocols and access control mechanisms to the unmanned vehicle's functions. The work will be divided into 3 main parts:
+
+1) Implementing a secure remotely accessible flight controller: the system will be developed on top of an existing controller like the APM 2.6 (or another Arduino-based flight controller like Multiwii - or even non-Arduino controllers like the Naze32)
+- the software stack implementing the telemetry radio link will be secured
+- in particular, vehicle sensor data will also be transmitted on demanded over the telemetry data link with integrity and confidentiality guarantees
+- commands will also be added over the telemetry link with integrity and authenticity guarantees.
+- finally, a radio link with a better bandwidth will be integrated into the system
+
+2) Onboard communications will be developed for deploying sensors and functions in a distributed manner (mostly hierarchical)
+
+3) Full sensed data transmission after the vehicle has returned to home will be implemented, for instance over a serial connection.
+
+This project will be carried on in the framework of an ongoing collaboration with Tullio Tanzi, from Telecom ParisTech.
+
 #### Compétences Requises
 - C/C++ programming
 - to a lesser extent, Java development

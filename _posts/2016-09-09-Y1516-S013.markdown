@@ -10,6 +10,15 @@ contact: Serena Villata
        
 Le but du PFE est de concevoir une interface utilisateur appropriée pour la visualisation interactive des graphes d'argumentation, qui permet la lecture du contenu des arguments textuels. Le système devra prendre en entrée un fichier json, contenant des couples d'arguments textuels avec leur relation, et il devra retourner une visualisation en graphe de la structure argumentative.
 
+Co-encadrant: Elena Cabrio
+« Argument mining » sur un ensemble de documents textuels implique l'identification automatique des structures argumentatives au sein du discours, par exemple les prémisses, les conclusions et le schéma d'argumentation, ainsi que les relations entre les arguments (support, attaque). À ce jour, les chercheurs ont étudié des méthodes pour l'extraction des arguments dans des domaines tels que les documents juridiques, les débats en ligne, revues de produits, la littérature académique, les commentaires des utilisateurs et les articles de journaux.
+Étant données les données de sortie d'un système de fouille d'arguments, un défi qui reste a attaquer est la visualisation des graphes d'argumentation avec les arguments textuels comme nœuds du graphe, et les relations entre les arguments comme arcs.
+
+Le but du PFE est de concevoir une interface utilisateur appropriée pour la visualisation interactive des graphes d'argumentation, qui permet la lecture du contenu des arguments textuels. Le système devra prendre en entrée un fichier json, contenant des couples d'arguments textuels avec leur relation, et il devra retourner une visualisation en graphe de la structure argumentative.
+
+Références :
+Elena Cabrio, Serena Villata: Natural Language Arguments: A Combined Approach. ECAI 2012: 205-210
+
 #### Compétences Requises
 -  Experience sur un des langages de programmation suivants (Python, Java) et technologies (XML, JSON,  HTML5, scripting tools)
 

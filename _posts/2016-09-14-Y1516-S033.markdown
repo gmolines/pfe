@@ -10,6 +10,20 @@ contact: Fabrice Huet
        
 Le but de ce projet est d'implémenter, dans une application 3-tiers existante, des algorithmes de recherche d'images identiques ou légèrement modifiées. 
 
+1) Contexte
+La numérisation de tous les fichiers multimédia (photos, vidéos, musiques...) conduit à une accumulation de fichiers qu’il est difficile d’organiser. En effet, il n’existe pas de moyen au- tomatique fiable pour classer les photos par thème ou par personne y apparaissant. Combiné au faible coût du stockage, il n’est pas rare d’avoir plusieurs copies d’un même fichier sur un disque dur. La déduplication est une opération qui consiste à détecter des fichiers identiques pour n’en garder qu’une copie. Elle peut se faire directement au niveau du système de fichiers (par exemple ZFS) ou grâce à un logiciel externe. De base, on peut considérer que 2 fichiers sont identiques si ils ont exactement le même contenu, à l’octet près. C’est très facile à détecter en comparant le checksum (MD5 ou SHA-1 par exemple) et relativement fiable. Mais pour certains fichiers, on peut aller plus loin. Par exemple une image peut exister à différentes résolutions, ou avec de légères différences. Dans ce cas, le checksum sera différent alors que les fichiers seront similaires. Des approches basées sur une signature des images peut permettre de retrouver les différentes copies même quand elles sont des différences importantes. 
+
+2) 
+L'objectif de ce projet est de proposer, implémenter et tester des algorithmes de recherches d'images légèrement modifiées. Les étudiants devront chercher la littérature pour trouver des algorithmes et les adapter à notre cas d'utilisation. Une étude comparative sera effectuée afin de déterminer les avantages et inconvénients de chacun. Les critères suivants seront évalués en priorité : 
+  *) Vitesse d'exécution
+  *) Utilisation mémoire
+  *) Espace requis dans la BD
+  *) Qualité (recall, precision)
+Suivant la taille et la motivation du groupe, la partie front-end pourra être améliorée. 
+
+3) Existant
+Un logiciel n-tiers (BD, backend Java, front-end HTML5/JS) est disponible et fournit des résultats préliminaires relativement fiable. Il servira de base à ce projet. Il implémente un algorithme simple d'extraction de signature. 
+
 #### Compétences Requises
 Un bon niveau de Java est requis. 
 

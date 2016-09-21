@@ -13,6 +13,16 @@ casque encéphalographique et manipulation d'un objet 3D
 L'objectif de ce projet est de créer un casque encéphalographique. 
 Celui-ci doit être couplé avec une électronique et un logiciel permettant de piloter la visualisation d'un objet 3D sur pc.
 
+Ainsi le projet se décompose en 4 phases :
+La création physique du casque (choix des électrodes, support ...). 
+La création de l'interface avec l'arduino l'interface entre l'arduino et le logiciel de visualisation 3D
+La phase d'apprentissage (quelle activité cérébrale pour quelle interaction).
+
+Il faudra donc commander du matériel (électrodes, arduino, support pour la tête ...). Un budget est évidemment prévue. Il faudra peut-être utiliser une imprimante 3D pour créer le support. 
+L'arduino n'est qu'un exemple, mais semble être adapté. L'interfaçage se fera dans le langage le plus pertinent, mais le python sera préféré. 
+Le type d'objet qu'il faut manipuler est écrit en VRML est peut être visualisé sur un browser de type firefox (aidé par l'extension Cortona3D). 
+Enfin une phase de tests et d'essais devra permettre d'isoler certaines activités cérébrales pour en déduire les actions qu'elles piloteront.
+
 #### Compétences Requises
 Les étudiants choisissant ce projet devront être capables de créer des prototypes d'objets donc d'être assez manuels. 
 Ils devront maitriser la programmation arduino (de préférence en python).

@@ -10,6 +10,16 @@ contact: Yves ROUDIER
        
 This project aims at experimenting with binary instrumentation technologies in order to assess whether privacy leaks may result from executing third-party software as well as to prevent these leaks from happening by introducing protections into the application.
 
+The students will firstly familiarize themselves with tools that are available to perform such a binary instrumentation. The Intel architecture will be used in priority, as there exist instrumentation libraries like Pin and/or Libdft or Dytan readily available. Depending on the background of the students, Java bytecode or Android (Dalvik) bytecode may be envisaged as an 
+alternative "binary" platform, but appropriate tools will then have to be found or possibly written by the group.
+
+The project will aim at three increasingly complex objectives:
+- producing privacy / information flow logs based on a simple specification (for instance a configuration file);
+- dynamically tracing the information flows in the application, for instance using data tainting. The information flows to be monitored will be determined based on a more complex specification consisting in the definition of platform- or application-specific security rules to be enforced. Such monitoring policy rulesets should be modularly composable as much as possible
+- introducing data retention mechanims. Such mechanisms will implement a simple access or even usage control model to be selected for the disclosure of privacy-sensitive data sources.
+
+The tool developed will be tested with toy examples, then applied to existing applications that will be selected because of their notorious privacy leaks.
+
 #### Compétences Requises
 - C/C++ programming (or possibly Java programming)
 - understanding of privacy issues and security policies (notably access control and/or usage control)

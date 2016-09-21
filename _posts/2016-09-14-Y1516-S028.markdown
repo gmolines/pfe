@@ -10,6 +10,24 @@ contact: Denis Pallez
        
 Développer, tester et mettre au point des algorithmes à partir d'articles scientifiques
 
+Contexte:
+Nous disposons actuellement d'un logiciel de bio-informatique developpé en Python capable de prédire automatiquement des assocations entre des morceaux d'ADN et des maladies humaines (par ex. le cancer). Ce programme est controlé par de nombreux parametres et chaque execution peut prendre jusqu'à 4h pour calculer les prédictions.
+Afin d’identifier le paramétrage optimal du programme de prédiction, nous envisageons d’utiliser des algorithmes évolutionnaires, bien adaptés à la recherche, en un temps raisonnable, de solutions approchées à un problème d'optimisation. Le principe consiste à faire "évoluer" plsuieurs paramétrages différents en appliquant des opérateurs d’évolution comme la sélection, le croisement, la mutation. L’avantage de ces algorithmes est qu’ils sont naturellement parallèles et nous avons deja implémentés le framework qui permet de lancer les calculs sur la grille de l'Université de Nice (http://calculs.unice.fr ).
+
+Besoins : 
+Actuellement, nous utilisons un Algortihme Génétique classique pour l'évolution mais nous souhaitons mettre au point un algorithme plus adapté qui tiendrait compte des précédentes évaluations, de la diversité génétique...
+
+Pistes :
++ Dans un premier temps, nous allons développer et intégrer un ou plusieurs algorithmes proposés dans la litterature (articles scientifiques à l'appui) qui nous semble adaptés à notres problème
++ Les algorithmes développés seront vérifiés en comparant les mesures obtenues avec celles décrites dans les articles
++ Un nouvel algorithme sera construit, développé et comparé avec ceux de la litterature
+
++ Grille de calcul de l'Université : http://calculs.unice.fr
++ Librairie Inspyred : http://pythonhosted.org/inspyred/
++ Article scientifique qui présente l'algorithme qui devra etre développé : https://www.researchgate.net/publication/279527945_A_Novel_Multi-objectivisation_Approach_for_Optimising_the_Protein_Inverse_Folding_Problem
++ Algorithme évolutionnaires de Wikipedia : http://en.wikipedia.org/wiki/Evolutionary_computation
++ Algorithme scientifique qui présente les Algorithmes évolutionanires : http://onlinelibrary.wiley.com/doi/10.1002/widm.1124/full
+
 #### Compétences Requises
 Développement Python
 lecture en anglais

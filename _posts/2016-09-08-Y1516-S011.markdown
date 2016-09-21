@@ -10,6 +10,24 @@ contact: Gaëtan Rey
        
 Le gestionnaire de contextes (GdC), est une plateforme d’adaptation d’applications de manière dynamique au contexte. Il a été développé au sein de l’équipe SPARKS et s’appuie sur la plateforme WComp de cette même équipe. Le but de ce projet, est de développer un scénario de démonstration du GdC et de la mettre en œuvre dans une démonstration facilement transportable. Le choix et la définition du scénario sera fait en concertation entre les étudiants et le responsable du sujet et pourra intégrer des éléments domotiques, multimédia, de santé, ou tout autres bonnes idées.
 
+L’équipe de recherche SPARKS s’intéresse depuis de nombreuses années à l’adaptation d’application au contexte (context-aware system). C’est-à-dire la prise en compte par l’application ou par une couche logicielle intermédiaire (middleware) de l’environnement physique (température, ensoleillement, humidité, …), de l’environnement social (fonction du lieu, période de l’année, …), de l’environnement système (capacité mémoire, puissance processeur, énergie disponible, …) et de l’utilisateur (caractéristiques décrivant l’utilisateur) dans le but de garantir un fonctionnement idéal de l’application en adaptant celle-ci. Bien entendu cette adaptation n’a pas uniquement lieu lors de la conception de l’application mais durant son exécution.
+
+Ce dernier point implique que l’application (ou le middleware) soit capable d’observer les différentes facettes du contexte, d’identifier la situation courante et d’appliquer les adaptations les plus adapter à cet état. Et tout cela, sans que les concepteurs et les développeurs n’aient la possibilité de prévoir l’ensemble des situations que vont rencontrer leurs applications.
+Pour répondre à ces problématiques, l’équipe SPARKS a développé une suite logicielle (Gestionnaire de contextes, tisseurs de règles d’adaptation et conteneur applicatif). Cette suite a déjà fait l’objet d’études et de mise en œuvre sur le terrain avec de grands industriels (Suez Environnement, Lyonnaise des eaux, EDF R&D, …).
+
+Les buts de ce projet sont donc multiples :
+1.	 Concevoir un scénario de démonstration : Le but est ici de réfléchir à un scénario de démonstration de la suite logicielle et en particulier du gestionnaire de contexte. L’idée est d’avoir un scénario simple a expliqué, facilement démontrable (donc transportable), assez réaliste et illustrant les capacités du gestionnaire de contextes.
+
+2.	Développer et mettre en œuvre le scénario de démonstration : Une fois le scénario clairement défini, il faudra le mettre en œuvre sous la forme d’une démonstration claire et facilement transportable. Cela pourra vouloir dire faire fonctionner le démonstrateur avec des capteurs simulés (ou des enregistrements préalables de données).
+
+3.	Réalisation d’expérimentation / collecte de données : suivant le scénario choisi, on pourra imaginer réaliser des séances de collecte de données en de véritable cas d’usage et même aller jusqu’à de véritables expérimentations.
+
+4.	Promouvoir les résultats : Une vidéo réelle du démonstrateur pourra être réalisée et une publication de la démonstration dans une conférence scientifique pourra être envisagé.
+
+Si les objectifs du projet sont clairement définis, la manière de les mettre en œuvre laisse une large place à l’imagination et l’ingéniosité des étudiants. De même, largement orienté multi-parcours, ce projet pourra être adapté en fonction de la composition du groupe. Si les 2 premiers objectifs sont incontournables, les suivants dépendront d’une part de la sensibilité des étudiants sur le sujet et d’autres part de la vitesse d’avancement du projet.
+
+Enfin, on peut aussi orienter le projet sous la forme d’un projet de recherche qui laissera plus de liberté aux étudiants mais leur demandera une certaine forme de recul permettant la modélisation des résultats. Ou au contraire, un projet très ingénierie, avec un cahier des charges strict qui laisse moins de place à l’exploration. Bien entendu, une forme intermédiaire est également possible.
+
 #### Compétences Requises
 Techniquement parlant, les compétences requises dépendront de l’orientation que les étudiants souhaitent donner au projet et des solutions techniques qu’ils auront choisies. 
 

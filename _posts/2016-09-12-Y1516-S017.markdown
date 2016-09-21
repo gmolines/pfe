@@ -10,6 +10,44 @@ contact: Rodrigo Cabral Farias
        
 In this project the students will code methods to fit tensor models in Python. Tensor models appear in many applications such as recommender systems, community structure analysis, geoscience, chemometrics and traffic analysis. They are a type of non supervised machine learning technique used to find patterns in multidimensional data. As an application the students will apply their code to find patterns in movie ratings (like IMDB or Allocine ratings) and then predict the ratings for missing points (missing user x movie rating). 
 
+With applications ranging from large scale recommender systems [1] to geoscience applications [2] and from chemometrics applications [3] to community structure retrieval [4], multilinear models such as nonnegative matrix factorization [5,6] and tensors [7] became widespread data mining and prediction tools.
+
+Example in recommender systems: 
+
+In Video on Demand (VOD) platforms, e.g. Netflix, one is interested in recommending movie titles to users. For each user the recommender system  must generate a personalized set of proposals that is expected to be fit to the user profile.  By doing so, the number of movie demands is expected to be maximized.
+
+The recommender platform has data on the movie ratings for each user and the ratings are normally indexed by a time stamp. Since users only rate movies they have watched, the three dimensional block of data (Userx x Movie x Time) has multiple missing entries. The advantage of tensor models in this context is that, under some constraints, they can be fit to multidimensional blocks of data with only a few present entries. Thus, by querying the obtained tensor model on the missing points, we can predict their values (the missing ratings). Clearly, difficulties will arise when the blocks of data are huge (thousands of users and movies), since data manipulation in this case cannot be done in a straightforward manner. 
+     
+Objective of the project:
+
+In this project, the students are asked to develop a python library for fitting multilinear models, that is tensor and matrix factorization models. The students will be first asked to code standard algorithms from the literature such as multiplicative algorithms [6, 8], conjugate gradient [9],and alternating methods [10]. Then, these methods will be put into test on datasets with increasing sizes. After, pointing out the limits of each method and the sources of these limitations, the students will look for modifications of the standard methods well fit for large datasets. The students are expected to code these modifications and not only test it on simulated datasets but also on real datasets.  A possible example of application on a real dataset can be movie recommendantion, as previously described, using the MovieLens datasets, but other examples can be considered (community structure retrieval, geoscience and/or urban traffic analysis).
+
+Requirements and acquired knowledge:
+
+This project will require some skills on optimization, linear algebra, machine learning and coding. After this project, the students will be able to grasp some of the difficulties of dealing with big data in a machine learning/optimization context and will have some experience on recommender systems.
+
+References:
+
+[1]	Zhang, S., Wang, W., Ford, J., & Makedon, F. (2006, April). Learning from Incomplete Ratings Using Non-negative Matrix Factorization. In SDM (Vol. 6, pp. 548-552).
+
+[2] 	Pauca, V. P., Piper, J., & Plemmons, R. J. (2006). Nonnegative matrix factorization for spectral data analysis. Linearalgebra and its applications, 416(1), 29-47.
+
+[3]     Smilde, A., Bro, R., & Geladi, P. (2005). Multi-way analysis: applications in the chemical sciences. John Wiley & Sons.
+
+[4]	Gauvin, L., Panisson, A., & Cattuto, C. (2014). Detecting the community structure and activity patterns of temporal networks: a non-negative tensor factorization approach. 	PloS one, 9(1), e86028.
+
+[5]	Paatero, P., & Tapper, U. (1994). Positive matrix factorization: A non-negative factor model with optimal utilization of error estimates of data values. Environmetrics, 5(2), 111-126.
+
+[6]	Lee, D. D., & Seung, H. S. (2001). Algorithms for non-negative matrix factorization. In Advances in neural information processing systems (pp. 556-562).
+
+[7]	Kolda, T. G., & Bader, B. W. (2009). Tensor decompositions and applications. SIAM review, 51(3), 455-500.
+
+[8]	Cichocki, A., Zdunek, R., Phan, A. H., & Amari, S. I. (2009). Nonnegative matrix and tensor factorizations: applications to exploratory multi-way data analysis and blind source separation. John Wiley & Sons.
+	
+[9]	Nocedal, J., & Wright, S. (2006). Numerical optimization. Springer Science & Business Media.
+
+[10]	Comon, P., Luciani, X., & De Almeida, A. L. (2009). Tensor decompositions, alternating least squares and other tales. Journal of chemometrics, 23(7-8), 393-405.     
+
 #### Compétences Requises
 - Basics of machine learning
 - Basic python coding

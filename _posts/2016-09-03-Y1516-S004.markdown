@@ -10,6 +10,16 @@ contact: ERIC BAILLY
        
 Modéliser un intérieur (bâtiment, grotte etc?) en 3D automatiquement avec une kinect reliée à un PC. Création du plan 2D, géoréférencement et métrique de cet intérieur.
 
+Bonjour,
+
+Ce projet a pour objectif principal de proposer une solution Low-cost permettant la modélisation en 3D d'un intérieur, par exemple un bâtiment ou une grotte. 
+Les techniques existantes font le plus souvent appel à un équipement extrêmement couteux (laser ...). La Kinect de microsoft  (v1, mais surtout v2, les api existent) propose un ensemble de capteurs propices à ce type de projet, pour un cout dérisoire.
+Ainsi les étudiants auront comme finalité première, aprés le couplage kinect/PC, la création du logiciel informatique permettant cette mise en 3D.
+De plus, dès lors que la phase modélisation sera effectuée, il sera opportun de créer une cartographie 2D de l'espace modélisé ainsi que sa métrique.
+Enfin, la kinect permettant d'interpréter les déplacements, le géoréférencement (les coordonnées géographiques) devra être généré.
+L'ergonomie du logiciel reste à débattre. Un multifenêtrage permettrait de visualiser la 3D, La 2D et de fournir des éléments informatifs sur le lieu modélisé.
+Une fois ces phases réalisées, il faudra pour rendre autonome la solution (PC portable, batteries pour la kinect, support permettant de maintenir cet ensemble, afin de créer une solution embarquée.
+
 #### Compétences Requises
 Les étudiants devront maitriser bien évidemment la programmation (de préférence python mais rien n'est figé). L'interface du logiciel doit être réfléchie (mon expérience d'encadrant montre que trop souvent les projets demeurent inutilisables par un utilisateur non rompu à la programmation, que je suis, ce qui est un point négatif).
  La connectique ne devrait pas poser de problème, donc pas de compétence électronique demandée.

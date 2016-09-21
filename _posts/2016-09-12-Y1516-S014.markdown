@@ -10,6 +10,22 @@ contact: Jean-Yves Tigli
        
 Dans le domaine médical, nous étudions des outils de "monitoring" des patients reposant sur la reconnaissance automatique de scénarios à partir de vidéos. Nous définissons un langage-métier (Domain Specific Language ou DSL) afin de permettre aux médecins de décrire les scénarios d'intérêt : réaliser des exercices, des "jeux sérieux", prévenir des incidents,  détecter des problèmes physiques, etc. Ce langage doit avoir une représentation graphique. Le but du stage est de comparer différents outils de génération de DSL en réalisant diverses maquettes et de définir le choix le plus souhaitable en terme d'ergonomie pour les utilisateurs (médecins) et de compatibilité avec des outils existants d'analyse de scénarios. Ce projet de fin d’étude pourrait être suivi d’un stage.
 
+Contexte et partenaires
+
+Le projet a pour cadre les travaux de l'équipe Stars d'INRIA Sophia spécialisée dans l'analyse et la reconnaissance d'activités dans des vidéos. Il sera co-encadré par Sabine Moisan, CR INRIA (sabine.moisan@inria.fr). La description et la reconnaissance de scénarios est un axe important sur lequel il existe une collaboration entre Stars, le LEAT (Daniel Gaffé) et l'I3S (Jean-Yves Tigli et Stéphane Lavirotte). En outre, depuis de nombreuses années, Stars collabore avec des médecins du CHU de Nice, en particulier dans le cadre du suivi de patients souffrant d'Alzheimer. Stars travaille également avec la société Ludotic de Nice, spécialisée dans l'ergonomie des interfaces (une thèse de doctorat commune est en cours).
+
+Langage de description de scénarios
+
+La description d'un scénario (médical ou autre) inclut la définition des acteurs intervenants (patients, infirmières, praticiens…), des événements influençant le déroulement du scénario (chute, sonnerie du téléphone, réussite ou échec d'une activité, déplacement des acteurs...), des enchainements possibles des événements ou activités (en séquence, en parallèle, en exclusion...). Le langage-métier  (actuellement en phase Beta) permet une telle description à la fois de manière textuelle (facile à analyser automatiquement) et de manière graphique (plus agréable pour les utilisateurs finaux). 
+
+L'objectif du stage est 
+- de faire un panorama des outils de génération de DSL existants (souvent issus du monde UML) et d'en sélectionner les plus pertinents pour permettre la représentation graphique de notre langage de scénarios ;
+- de réaliser  diverses maquettes de scénarios avec ces outils sélectionnés ;
+- de définir des critères d'évaluation afin de comparer ces différents solutions ;
+- de proposer le meilleur choix en terme d'ergonomie pour les utilisateurs et de compatibilité avec des outils existants d'analyse de scénarios.
+
+En fonction des résultats obtenus, le sujet de PFE pourrait donner lieu a un stage dans l'équipe Stars de l'INRIA..
+
 #### Compétences Requises
 Architecture logicielle, modélisation de logiciel (UML), interfaces.
 Curiosité, autonomie.

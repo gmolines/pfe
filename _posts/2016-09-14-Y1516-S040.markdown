@@ -10,6 +10,16 @@ contact: Yves ROUDIER
        
 This project aims at developing a platform for detecting insecure wireless communications between communicating devices (mobile phones, watches, RFIDs, ...) and at experimenting using different wireless devices. The platform will then be used to experiment with different wirelessly communicating devices.
 
+In recent years, we have seen the introduction of wireless protocols into many devices. In particular, the development of the Internet of Things (IoT) has generated many developments around radiofrequency identification and low-energy communication protocols. Such protocols however are not always secure and may be subject to attacks. We propose to follow a blackbox approach to studying such protocols.
+
+This project aims at:
+- experimenting with tools (e.g. GnuRadio) available for monitoring wireless communications on top of a simple Software Defined Radio (SDR) receiver in order to precisely understand their suitability or limitations. The criteria used will notably include the type of protocol, frequency used, range expected, etc.;
+- capturing traces of live exchanges out of available devices (mobile phones, RFID tags, NFC tags, wearable computing devices, smart watches ...);
+- analysing these traces, reverse engineering wireless protocols, and notably determining whether the communication is encrypted.
+- partly automating such analyses for example through the extension of the available SDR software in order to detect and monitor similar communication patterns.
+
+Time permitting, more complex analyses may be further explored with an SDR emitter in order to emulate an active device.
+
 #### Compétences Requises
 - C/C++ and/or Python knowledge
 - Basic understanding of how cryptographic protocols work (mostly encryption)

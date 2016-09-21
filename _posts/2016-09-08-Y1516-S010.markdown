@@ -10,6 +10,19 @@ contact: Pierre Crescenzo
        
 Études des modèles d'usage et des modèles de besoin : comparaisons pour extraire les ressemblances et dissemblances, définition d'une ontologie commune
 
+Nous considérons ici l'Informatique au sens large de son acception : la Science de l'Information (celle-ci étant le support des connaissances et communications) plutôt que seulement la Science des Ordinateurs. Alors, dans l'étude des Systèmes Informatiques (ou Systèmes d'Information), il y a notamment une phase en amont (celle qui consiste à capter, comprendre, décrire, etc. les besoins des futurs utilisateurs et les exigences techniques) nommée Ingénierie des Besoins, et une phase en aval (celle qui consiste à capter, comprendre, décrire, etc. la manière dont le système est finalement utilisé) nommée Usages. Vus ainsi, les besoins et usages peuvent faire référence à un unique concept à des moments différents de son cycle de vie (avant l'implémentation et après l'utilisation).
+
+Le sujet de ce travail de recherche consiste en l'étude des modèles actuellement utilisés par ceux qui travaillent sur l'Ingénierie des Besoins et par ceux qui travaillent sur les Usages. Il sera mis en exergue les ressemblances et dissemblances de ces modèles, leurs capacités et leurs limites. Pour concrétiser le résultat de ce travail, il sera proposé un concept généralisant ceux de besoin et d'usage notamment au travers d'une ontologie commune.
+
+Quelques définitions pour figer les choses :
+- Système d’Information : ensemble de ressources qui permet de gérer l’information d’une organisation (souvent abrégé en SI).
+- Partie Prenante : personne ou organisation impliquée dans un SI.
+- Besoin : désir d’une Partie Prenante.
+- Exigence : capacité qui doit être présente dans un SI (un Besoin peut induire zéro, une ou plusieurs Exigences ; une Exigence peut être induite par plusieurs Besoins ; les Besoins ne sont pas les seules sources d’Exigences).
+- Usage : façon de se servir d’un SI existant.
+- Ingénierie : discipline qui traite avec synthèse de l’étude, l’analyse, la conception, la réalisation, l’outillage et l’organisation, sous les aspects techniques et humains.
+- Demande : expression explicite d’un Besoin (le Besoin et son expression étant généralement confondus, on parle souvent indifféremment de Demande, Demande de Besoin ou Besoin).
+
 #### Compétences Requises
 Capacités d'abstraction ; Envie d'apprendre, de comprendre, d'inventer ; Rigueur, autonomie et dynamisme
 

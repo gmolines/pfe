@@ -11,6 +11,12 @@ contact: Anne Marie DERY
 Les personnes atteintes de la maladie Alzheimer ont, entre autres, des problèmes pour se repérer dans l’espace et peuvent facilement se perdre même dans une zone géographique restreinte et censée être connue d’eux. En collaboration avec le centre d’accueil de Jour de Biot, un groupe d’étudiants a étudié les besoins d’un suivi GPS des accueillis du centre pour permettre à ceux-ci de sortir du bâtiment et de se promener dans le jardin sans être accompagné par un aidant.
 Cette étude a donné lieu à un prototype qui intéresse fortement le centre. Le travail demandé dans ce PFE est de repartir de cette étude pour proposer et mettre en œuvre une solution qui pourrait être installée en fin d’année dans le centre de Biot afin de pouvoir être testée et mise en service.
 
+L'objectif du projet est proposer une solution qui permette aux principaux utilisateurs du centre d’accomplir les taches suivantes :
+1.	Les professionnelles de santé (neurospychologue, AMP, Psychomotriciennes) doivent pouvoir suivre les patients lors de leur promenade via une tablette, et recevoir des alertes en cas de problèmes (sortie de la zone sécurisée, chute…) afin de pouvoir les rejoindre ou intervenir en cas de nécessité. Dans le contexte de cette promenade à l’extérieur, elles envisagent également la mise en place éventuelle de bornes d’activités permettant d’occuper et de stimuler les accueillis
+2.	Les accueillis doivent se sentir en sécurité et ne pas être perturbé par le matériel qui leur permettra le suivi. Le nombre d’interactions possibles et/ou demandées de leur côté doit être minimal. Ils ne doivent interagir que si cela est nécessaire et de façon très simple.
+3.	Les responsables du centre doivent pouvoir à la fin du projet prendre une décision quant à la possibilité de mettre en place une telle solution dans leur centre. Ils doivent avoir une idée précise du coût de la mise en place de la solution optimale et des différentes variantes possibles en fonction de l’investissement financier relatif.
+Le but du projet nécessite une démarche professionnelle qui permettra d’aboutir à une solution viable ou à une argumentation des limites technologiques ou d’usages qui ne permettent pas l’aboutissement du projet.
+
 #### Compétences Requises
 •	Goût pour la prise en compte des besoins utilisateurs 
 •	Compétences en technologies mobiles (montres connectées, téléphone, tablettes)

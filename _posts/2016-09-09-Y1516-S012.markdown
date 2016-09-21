@@ -12,6 +12,15 @@ Le but de ce PFE est de développer un visualiseur d'objets 3D spécifique au Zs
 Il sera entre autres demandé de programmer, via un SDK, une solution pour afficher et manipuler des données 3D issues de la capture de la réalité (maillages surfaciques et nuages de points).
 Ce PFE se déroulera au sein du laboratoire CNRS I3S, situé sur le Campus SophiaTech.
 
+Le Zspace est un nouveau système de visualisation de type « holographique » d'objets 3D dédiée aux applications de réalité virtuelle : http://zspace.com/.
+Grace à son stylet et son système de détection de mouvement du visage, Il permet aux utilisateur d'interagir avec des objets simulés dans un environnement virtuel comme s'ils étaient réels.
+
+Le but de ce PFE est de développer un visualiseur d'objets 3D spécifique au Zspace, puis dans un second temps, d'imaginer des manipulations afin de créer une démonstration en rapport avec les axes de recherche du groupe Mediacoding (http://www.i3s.unice.fr/mediacoding) du laboratoire CNRS I3S.
+
+Il sera entre autres demandé de programmer, via un SDK, une solution pour afficher et manipuler des données 3D issues de la capture de la réalité (maillages surfaciques et nuages de points). Une partie de ces données pourra être acquise directement par les étudiants via différents systèmes d'acquisition (Kinect, scanner stéréoscopique, lidar...) disponibles au laboratoire.
+
+Ce stage se déroulera au sein du laboratoire CNRS I3S, situé sur le campus, sous la responsabilité de Frédéric Payan (MCF à l’Université de Nice-Sophia Antipolis) et de Marc Antonini (Directeur de Recherche CNRS).
+
 #### Compétences Requises
 Lange de programmation : C/C++
 Des connaissances en OpenGL et en 3D (informatique graphique) seraient un plus appréciable.

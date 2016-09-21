@@ -14,6 +14,17 @@ Jusqu’ici les applications qui sont utilisées dans le centre le sont uniqueme
 L’objectif de ce PFE est de fournir un outil qui permet d’évaluer la satisfaction des applications actuelles dans d’autres contextes d’usage : sans aidant, sur tablette et/ ou en collaboration (avec plusieurs patients).
 Ce PFE sera encadré également par Anne Marie Dery et se fera en étroite collaboration avec le centre d'accueil de jour de Biot.
 
+Les patient Alzheimer accueillis au Centre d’Accueil de Jour Alzheimer de Biot Sophia Antipolis (http://www.accueil-alzheimer.fr/) pratiquent dans la journée plusieurs activités permettant de maintenir le plus longtemps possible leur autonomie. Certaines activités se font sous forme d’atelier en groupe avec les animatrices, d’autres se pratiquent seul avec la psychomotricienne ou la neuropsychologue dans leur bureau. Les animatrices expriment également le besoin de maintenir les patients actifs lors des moments de la journée où ils sont seuls. Plus concrètement, les animatrices souhaiteraient disposer à terme d’un ensemble d’applications répondant à ces besoins. 
+Les animatrices savent mesurer par l’observation l’adéquation d’une application proposée en utilisant des métriques non formelles telles que nombre d’erreurs et des temps de réponse en fonction de chaque patient. 
+L’objectif de ce PFE est de formaliser et d’automatiser cette observation et de  fournir des visualisations adaptées de ces métriques permettant d’apprécier au mieux l’adéquation d’applications. 
+Pour prouver l’intérêt d’un tel outil, les étudiants évalueront avec leur outil  la satisfaction d’une application existante satisfaisante et de ses variantes dans d’autres contextes d’usages.
+Les étapes envisagées sont les suivantes :
+•	définir les métriques (temps de réponse, nombre d’erreurs, durée de l’exercice, etc.) 
+•	spécifier et implémenter un l’outil de visualisation pour  ces métriques
+•	réaliser une expérience permettant de tester l’outil sur une application d’ordonnancement « Habille-toi » utilisée sur ordinateur tactile avec l’aide d’une animatrice.
+•	Faire varier le  contexte d’usage : sans l’animatrice, sur tablette, en groupe.
+•	En fonction des résultats faire évoluer l’application Habille-toi, les métriques et/ou l’outil de visualisation pour améliorer l’adéquation de l’application si nécessaire.
+
 #### Compétences Requises
 Développement d'applications web multi-supports
 Architecture répartie (mise en place d'un serveur et d'un protocole de communication)

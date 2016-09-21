@@ -10,6 +10,26 @@ contact: Gaëtan Rey
        
 Les Arts Martiaux Historiques Européens (AMHE) consiste en une étude et mise en pratique des méthodes de combats telles qu’elles sont décrites dans des sources historiques. Une sous partie de cette discipline consiste à étudier le geste de coupe avec une épée (à une ou deux mains). LE but de ce projet sera de fournir des outils d’observation de l’épée pour établir ou valider la notion de « bon geste ». Et donc aider les pratiquant à savoir comme effectuer une frappe à l’épée.
 
+De nombreux pratiquants des Arts Martiaux Historiques Européens (AMHE) étudient le maniement d’armes comme des épées à l’aide de simulateurs métalliques. Si ces simulateurs reprennent les formes historiques et les matériaux des armes de l’époque (ou leur équivalent moderne) ils ne permettent pas de simuler pleinement l’usage de telles armes. Pour pallier ce problème, on utilise alors de véritable armes (épée à une ou deux mains) sur des exercices particuliers intitulés « tests de coupe ». 
+
+Si aujourd’hui ces tests permettent aux pratiquants d’appréhender le bon geste de manière empirique, aucune véritable étude n’a eu lieu pour connaitre les mouvements les plus efficaces. D’où l’idée de ce projet.
+
+Les buts de ce projet sont donc multiple :
+
+1.	Observer et mesurer les mouvements de l’épée lors d’une frappe : cela pourra par exemple être fait à l’aide de capteurs positionnés sur l’épée. 
+
+2.	Visualiser les résultats : avoir un ensemble de données dans un fichier texte est une chose, pouvoir les exploiter en est une autre. Ici plusieurs solutions peuvent être proposées comme visualiser les mouvements de l’épée sur une simulation 3D contrôlable ou directement en superposition d’une vidéo. 
+
+3.	Etablir des jeux de tests : des expérimentations en sécurité et sous contrôle pourront avoir lieu. On pourra également envisager de faire de véritables séances d’expérimentation avec des personnes expérimentés pour évaluer le système.
+
+4.	Analyser les résultats : Suite au trois premières étapes, il convient maintenant d’exploiter les résultats obtenus et de voir si on peut répondre aux questions que se posent les pratiquants des AMHE.
+
+5.	Promouvoir les résultats : En plus des éventuelles vidéos et des pages web, Il est prévu d’écrire un article dans la revue « acta periodica duellatorum » 
+
+Si les objectifs du projet sont clairement définis, la manière de les mettre en œuvre laisse une large place à l’imagination et l’ingéniosité des étudiants. De même, largement orienté multi-parcours, ce projet pourra être adapté en fonction de la composition du groupe. Si les 2 premiers objectifs sont incontournables, les suivants dépendront d’une part de la sensibilité des étudiants sur le sujet et d’autres part de la vitesse d’avancement du projet.
+
+Enfin, on peut aussi orienter le projet sous la forme d’un projet de recherche qui laissera plus de liberté aux étudiants mais leur demandera une certaine forme de recul permettant la modélisation des résultats. Ou au contraire, un projet très ingénierie, avec un cahier des charges strict qui laisse moins de place à l’exploration. Bien entendu, une forme intermédiaire est également possible.
+
 #### Compétences Requises
 Techniquement parlant, les compétences requises dépendront de l’orientation que les étudiants souhaitent donner au projet et des solutions techniques qu’ils auront choisies.
 

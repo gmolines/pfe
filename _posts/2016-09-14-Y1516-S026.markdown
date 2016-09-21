@@ -12,6 +12,20 @@ Le deep learning désigne un ensemble de méthodes dont les résultats sont en t
 Le premier est que ces algorithmes ne sont pas constructifs. Ils ne répondent à aucune des questions telles que: combien de couches ? Combien de neurones ? Comment connecter les neurones entre eux ?
 Le second problème concerne l'optimisation de toutes ces connexions: on peut imaginer ce problème comme étant de trouver le bon réglage pour autant de potentiomètres que de connexions constituant le réseau.
 
+Dans les grandes lignes, une architecture de deep learning c'est réseau de neurones artificiels (modèle informatique simplifié de neurone biologique), organisé en couches successives interconnectées (i.e. réseaux de neurones profonds). Pour prendre une décision, détecter un objet ou reconnaître une personne avec un tel algorithme, on doit fournir suffisamment d'exemples (pour lesquels on connait le résultat à prédire) en entrée et faire en sorte que chaque connexion du réseau "s'optimise" pour que l’ensemble du réseau fournisse la bonne décision.
+
+L'optimisation des réseaux de neurones profonds n'a pu être réalisée et produire les résultats mentionnés précédemment que grâce à plusieurs techniques:
+- le choix de l'initialisation des valeurs des connexions
+- le choix des fonctions d'activations (sigmoïd, Rectified Linear Unit (ReLU), Leaky ReLU, Random ReLU, etc...)
+- l'étape d'apprentissage
+- le choix de la technique d'optimisation 
+- la régularisation de l'optimisation
+- la désactivation de neurones à chaque itération (dropout)
+
+L'objectif de ce PFE est d'arriver à reproduire les résultats des meilleures études scientifiques sur les bases de données standard (aussi appelées benchmark) comme ImageNet, Plankton, CIFAR, SVHN, MNIST, etc. Même si cela semble simple, juste reproduire les résultats des meilleures études nécessitent de s'investir profondément dans ces algorithmes et les techniques mentionnées ci-dessus. 
+
+Ce projet sera réalisé en étroite collaboration avec le groupe Deep Learning de l'équipe SPARKS du laboratoire I3S.
+
 #### Compétences Requises
 Programmation au moins en C++ et Python
 Connaissance en Machine Learning et des réseaux de neurones en particulier appréciée

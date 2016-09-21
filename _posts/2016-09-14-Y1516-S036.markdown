@@ -11,6 +11,26 @@ contact: Alain Giboin
 Les personnages du film Minority Report contrôlent les écrans avec les yeux.
 Deux études portant sur deux bases différentes d’images ont montré que les seules données du regard permettaient d’identifier, en moins d’une seconde de visualisation, l’image que l’utilisateur va sélectionner parmi deux présentées en fonction d’un critère objectif de recherche (ex. :animal). On vous propose de reproduire ces deux études, en faisant varier le nombre d’images et leur disposition. Dans un 2e temps, vous réaliserez une page web « réaliste » (type Google Image, DiscoveryHub, GaZIR) afin d’analyser l’impact de la disposition sur le temps de décision. Vous pourrez étendre l’analyse à une recherche portant sur un critère subjectif (ex. :’animaux mignons/surprenants/amusants).
 
+N-B. Ce PFE sera également encadré par Stéphanie Lopez, Diane Lingrand et Frédéric Precioso.
+
+Ce travail se fait dans la continuité de deux études réalisées dans le cadre du projet ANR VISIIR (voir références #1 et #2).
+
+1.	Recueil des données eye tracker dans le cadre de la recherche d’images (voir référence  #1), afin d’évaluer l’impact de la disposition et du nombre d’images présentées à l’utilisateur.
+N.B. : cette tâche pourra être réalisée dans le cadre des TP du module TIM (techniques d’interaction et multi-modalité).
+
+2.	Extension à la recherche d’images de cuisine. Voir référence #2.
+a.	Elaboration d’une base (les images seront fournies ; il vous faudra les regrouper en catégories générales afin de répondre aux problématiques identifiées).
+N.B. : Cette tâche pourra être réalisée en collaboration avec le sujet PFE Minority Report 1.
+
+3.	Adaptation à un contexte de visualisation d’images de la vie quotidienne
+a.	Réalisation d’une page web réaliste (type Google, Discovery Hub, GaZIR).
+b.	Expérimentation avec des utilisateurs (adaptation de la phase 1 au contexte plus complexe).
+c.	Possibilité de tester sur d’autres types de supports (mobiles, tablettes) tout en gardant la décision par le regard.
+Cette partie pourra être testée par les étudiants du PFE Minority Report 1 (qui seront donc vos clients), qui utilisent également le mouvement des yeux sur des images.
+
+4.	Subsidiaire : Reprise du protocole avec tâche subjective liée aux recettes de cuisine 
+a.	Les utilisateurs sélectionneront dans une première phase les images qui les intéressent le plus (ou qui les étonnent le plus, ou les amusent le plus…). Par la suite, dans un ensemble d’images, il s’agit de retrouver les images intéressantes/étonnantes/amusantes, par les données du regard uniquement. Vous pouvez vous inspirer de l’étude #4.
+
 #### Compétences Requises
 •	C++
 •	La connaissance de l'IDE Qt Creator et d'Android sont un plus.
