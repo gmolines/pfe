@@ -59,9 +59,10 @@ object ProjectFactory {
 //    	row.getCell(15).getStringCellValue,
 //    	row.getCell(16).getStringCellValue)
     val description = row.getCell(19).getStringCellValue
+    val descriptionDetaillee = row.getCell(23).getStringCellValue
     val skills = row.getCell(20).getStringCellValue
 
-    val common = Common(pid, date, hour, firstName, lastName, email, title, majors, description, skills)
+    val common = Common(pid, date, hour, firstName, lastName, email, title, majors, description, descriptionDetaillee, skills)
 
     // Research or engineering
     if (row.getCell(24).getStringCellValue == "Recherche") {
@@ -156,6 +157,8 @@ trait Project {
     s"""
        |${common.description}
        |
+       |${common.descriptionDetaillee}
+       |
        |#### Compétences Requises
        |${common.skills}
        |
@@ -176,7 +179,7 @@ trait Project {
 }
 
 case class Common( pid: String, date: String, hour: String, firstName: String, lastName: String, email: String,
-  title : String, majors: Set[String], description: String, skills: String)
+  title : String, majors: Set[String], description: String, descriptionDetaillee: String, skills: String)
 
 case class Research(common: Common, team: String, biblio: Set[String]) extends Project {
   override def specific: String = {
