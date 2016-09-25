@@ -7,6 +7,7 @@ pid: Y1516-S040
 type: Engineering
 contact: Yves ROUDIER
 students: Lucas MARTINEZ, Cindy NAJJAR, Lucas SOUMILLE, Pascal TUNG
+group: 1
 ---
        
 This project aims at developing a platform for detecting insecure wireless communications between communicating devices (mobile phones, watches, RFIDs, ...) and at experimenting using different wireless devices. The platform will then be used to experiment with different wirelessly communicating devices.

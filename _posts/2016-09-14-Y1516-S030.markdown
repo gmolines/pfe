@@ -6,6 +6,8 @@ categories: [dispo, al,ihm]
 pid: Y1516-S030
 type: Engineering
 contact: Sébastien Mosser
+students: Issam Belhassen, Alexandre Cazala, Pierre Massanes, Lucas Sauvage
+group: 2
 ---
        
 Pour travailler sur la vision produit ou encore sur la priorisation d'un ensemble de tâches ou stories, il existe de nombreux "jeux sérieux" qui permettent d'aider une équipe a produire le meilleur résultat possible pour celle-ci. Ces jeux sont (i) définis par un rédacteur qui le décrit, (ii) animés par un facilitateur avec une équipe de participants et finalement (iii) restitués aux participants. L'objectif du projet est de définir un ensemble d'applications collaborant entre elle pour assister ces 3 types d'utilisateurs. L'expérimentation se fera en collaboration avec des facilitateurs professionnels ainsi que des participants. Co-encadrement avec Anne-Marie Déry.
