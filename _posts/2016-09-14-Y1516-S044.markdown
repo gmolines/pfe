@@ -2,10 +2,12 @@
 layout: post
 title: "Secure communications for unmanned vehicles"
 date: 2016-09-14 23:46:49
-categories: [dispo, caspar,iam]
+categories: [oqp, caspar,iam]
 pid: Y1516-S044
 type: Engineering
 contact: Yves ROUDIER
+students: Loryn Fontaine, Florent Goumot-Labesse, Nicolas Hory, Jean-Loic Mugner
+group: 3
 ---
        
 This project aims at developing a secure communication stack for controlling and monitoring unmanned, partially autonomous vehicles (rovers, drones, etc.). The aim is to enable the transmission of commands and data between the autonomous vehicle and the control station as well as within the vehicle subsystems.
