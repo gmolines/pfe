@@ -2,10 +2,12 @@
 layout: post
 title: "INVITEE : INstrumentation et VIsualisation de Tests de coupE à l’Epée"
 date: 2016-09-02 14:12:44
-categories: [dispo, gmd,iam,ihm]
+categories: [oqp, gmd,iam,ihm]
 pid: Y1516-S003
 type: Engineering
 contact: Gaëtan Rey
+students: Zhengqin Yan, Mathieu Stackler, Bénédicte Lagouge, Nathael Nogues
+group: 4
 ---
        
 Les Arts Martiaux Historiques Européens (AMHE) consiste en une étude et mise en pratique des méthodes de combats telles qu’elles sont décrites dans des sources historiques. Une sous partie de cette discipline consiste à étudier le geste de coupe avec une épée (à une ou deux mains). LE but de ce projet sera de fournir des outils d’observation de l’épée pour établir ou valider la notion de « bon geste ». Et donc aider les pratiquant à savoir comme effectuer une frappe à l’épée.
