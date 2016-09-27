@@ -2,10 +2,12 @@
 layout: post
 title: "Modélisation 3D par Kinect"
 date: 2016-09-03 08:50:32
-categories: [dispo, ihm]
+categories: [oqp, ihm]
 pid: Y1516-S004
 type: Engineering
 contact: ERIC BAILLY
+students: Julien ANDRE, Antoine ROLLIN, Nicolas SARROCHE, Thibaut SORIANO
+group: 5
 ---
        
 Modéliser un intérieur (bâtiment, grotte etc?) en 3D automatiquement avec une kinect reliée à un PC. Création du plan 2D, géoréférencement et métrique de cet intérieur.
