@@ -2,10 +2,12 @@
 layout: post
 title: "Privacy protection through binary instrumentation"
 date: 2016-09-14 20:45:00
-categories: [dispo, caspar]
+categories: [oqp, caspar]
 pid: Y1516-S042
 type: Engineering
 contact: Yves ROUDIER
+students: Thibaud CANALE, Hanane Chttou El Malhi, Shanley GODWIN, Valéry ORESTE
+group: 7
 ---
        
 This project aims at experimenting with binary instrumentation technologies in order to assess whether privacy leaks may result from executing third-party software as well as to prevent these leaks from happening by introducing protections into the application.
