@@ -2,10 +2,12 @@
 layout: post
 title: "Effets audio temps réel pour guitare"
 date: 2016-08-29 13:59:45
-categories: [dispo, ihm,web]
+categories: [oqp, ihm,web]
 pid: Y1516-S002
 type: Engineering
 contact: Michel BUFFA
+students: Christophe Cappe, Vincent Forquet, Edouard Germain, Yann Guidez
+group: 6
 ---
        
 Le projet consiste à développer un multi-effet pour guitariste, fonctionnant en temps réel dans une page Web, sans latence apparente. On branche la guitare sur une carte son reliée en USB à l'ordinateur, on ouvre une page Web et on joue, on peut changer les sons en temps réel etc. Guitar RIg 5 pour le Web !
