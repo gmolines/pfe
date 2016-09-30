@@ -2,10 +2,12 @@
 layout: post
 title: "Visualisation et édition de graphes pour l’aide à la décision - Application au biomédical et l'aérospatiale"
 date: 2016-09-13 21:07:07
-categories: [dispo, al,ihm,web]
+categories: [oqp, al,ihm,web]
 pid: Y1516-S025
 type: Engineering
 contact: Clément DUFFAU
+students: Arnaud LEGRAND, Haïfa GHIDHAOUI, Yassine GUERMAZI, Ashraf Nasri
+group: 8
 ---
        
 Ce PFE s’inscrit dans le cadre d’une thèse en génie logiciel appliquée au biomédical.  Le défi de ce PFE est de fournir un outil permettant de représenter une succession de prises de décisions. L’objectif est, par exemple, de pouvoir justifier des choix sur un projet lors du passage de certification. La visualisation de telles décisions se fait sous forme de diagramme d’argumentation (graphes embellis). Il existe de nombreuses bibliothèques permettant de visualiser des graphes. Celles-ci sont limitées dès lors que l’on veut décorer ce graphe (ajouts d’éléments sémantiques, personnalisation d’un noeud). L’objectif de ce PFE est donc, entre autre, de pallier ce problème en développant un framework de visualisation et d’édition de graphes dans le contexte des biotechnologies et aérospatial
