@@ -2,10 +2,12 @@
 layout: post
 title: "Mise en place d’un suivi GPS pour patients Alzheimer "
 date: 2016-09-13 11:14:37
-categories: [dispo, al,iam,ihm]
+categories: [oqp, al,iam,ihm]
 pid: Y1516-S021
 type: Engineering
 contact: Anne Marie DERY
+students: Dominique Dib, Meriem Chebaane, Rémy Giangrasso, Eslam Hossam
+group: 11
 ---
        
 Les personnes atteintes de la maladie Alzheimer ont, entre autres, des problèmes pour se repérer dans l’espace et peuvent facilement se perdre même dans une zone géographique restreinte et censée être connue d’eux. En collaboration avec le centre d’accueil de Jour de Biot, un groupe d’étudiants a étudié les besoins d’un suivi GPS des accueillis du centre pour permettre à ceux-ci de sortir du bâtiment et de se promener dans le jardin sans être accompagné par un aidant.
