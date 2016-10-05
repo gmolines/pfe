@@ -2,10 +2,12 @@
 layout: post
 title: "Télé-présence et Objets Connectés"
 date: 2016-09-14 18:28:50
-categories: [dispo, iam]
+categories: [oqp, iam]
 pid: Y1516-S038
 type: Engineering
 contact: Stéphane Lavirotte
+students: Heitzler	Charles, Meimari	Sherif, Nasreldin	Randa, Seree	Yann
+group: 13
 ---
        
 Aujourd’hui plusieurs plateformes d’habitat intelligent ou connectés ont été déployées dans des lieux géographiques distants (Amiqual4Home à Grenoble, 27Delvalle à Nice, …). Nous disposons d’une solution permettant d’interconnecter plusieurs sites distants de manière sécurisée et d’interconnecter des dispositifs issus de chacun des sites. S’il est possible d’avoir un Dashboard représentant l’état des dispositifs dans les différents lieux, nous souhaitons mettre en place un système plus complet de télé-présence, éventuellement mobile, qui permette de suivre à distance les actions dans l’environnement physique.
