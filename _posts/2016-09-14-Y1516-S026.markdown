@@ -2,10 +2,12 @@
 layout: post
 title: "In-depth understanding of deep learning"
 date: 2016-09-14 01:07:02
-categories: [dispo, al,gmd]
+categories: [oqp, al,gmd]
 pid: Y1516-S026
 type: Engineering
 contact: Frédéric Precioso
+students: DEBARD	Guillaume, FAGARD	Christophe, Limam	Mohamed, Issarane	Hausmane
+group: 16
 ---
        
 Le deep learning désigne un ensemble de méthodes dont les résultats sont en train de révolutionner les domaines de l'analyse de données, de la décision et de l'extraction d'information. On retrouve du deep learning dans les voitures autonomes, la reconnaissance vocale des smartphones, la reconnaissance faciale sur le web, etc. Cependant, ces architectures posent deux principaux obstacles.
