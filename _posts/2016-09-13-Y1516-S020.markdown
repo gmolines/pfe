@@ -2,10 +2,12 @@
 layout: post
 title: "Prise en compte des temps de réponse des capteurs dans la reconnaissance d’activités pour des applications de terrain"
 date: 2016-09-13 10:31:48
-categories: [dispo, iam]
+categories: [oqp, iam]
 pid: Y1516-S020
 type: Engineering
 contact: Stéphane LAVIROTTE
+students: CHAPON	Gatien, COLOMBET	Auréien, LABORDE	Quentin, ROBIN	Gregory
+group: 14
 ---
        
 Dans le cadre de ce projet de fin d’études, nous disposons d’un ensemble de données issues de différents capteurs portés et équipant un environnement physique. Nous sommes actuellement capables, à partir de ces données, de leur appliquer des algorithmes d’apprentissage et de reconnaître des activités humaines prédéfinies. L’apprentissage de l’activité a été réalisé par chaque capteur puis nous avons mis en place un processus de fusion des décisions des capteurs capable de prendre en compte différentes configurations de capteurs. L’objectif de ce PFE est d’aller plus loin dans l’adaptabilité du système et de permettre un fonctionnement avec des données qui soient fournies avec une échelle de temps compatible avec l'Internet des Objets et les protocoles s'y rattachant. 
