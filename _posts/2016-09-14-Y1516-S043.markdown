@@ -2,10 +2,12 @@
 layout: post
 title: "NavDashCam: Secure and Communicating Video System"
 date: 2016-09-14 22:50:52
-categories: [dispo, caspar,iam]
+categories: [oqp, caspar,iam]
 pid: Y1516-S043
 type: Engineering
 contact: Yves ROUDIER
+students: BIN SABARI Shafiq	Daniel, OBER	Thibault, SIBUT	Clément, WEPHRE	Quentin
+group: 12
 ---
        
 This project aims at developing a securely communicating video camera, also acting as a tamper-proof blackbox archiving video rushes from the nearby environment of a vehicle, as well as a sensor for navigation purposes.
