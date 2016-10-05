@@ -2,10 +2,12 @@
 layout: post
 title: "Objets Connectés Autonomes"
 date: 2016-09-14 18:38:05
-categories: [dispo, iam]
+categories: [oqp, iam]
 pid: Y1516-S039
 type: Engineering
 contact: Stéphane Lavirotte
+students: Fliss	Nidhal, Haouel	Ameni, Jebara	Insaf, Messiha	Bichoy
+group: 15
 ---
        
 Nous collaborons actuellement avec des  équipes à l’étranger utilisant des technologies ouvertes mais moins classiques pour pouvoir développer des objets connectés critiques comme par exemple des drones miniatures (moins d’une centaine de grammes). Dans ce PFE, il est demandé de faire une étude des solutions disponibles en terme de plateforme matérielle/logicielle pour la mise en œuvre de tels objets et d’ajouter une capacité de communication à ces drones.
