@@ -2,10 +2,12 @@
 layout: post
 title: "Recherche rapide d'images dupliquées"
 date: 2016-09-14 14:18:12
-categories: [dispo, al,gmd]
+categories: [oqp, al,gmd]
 pid: Y1516-S033
 type: Engineering
 contact: Fabrice Huet
+students: BOUMEDINE	Cyrus, FAURE-COUDEYRAS	Amaury, POTAGES	Loïc, DENNE	Djoe
+group: 17
 ---
        
 Le but de ce projet est d'implémenter, dans une application 3-tiers existante, des algorithmes de recherche d'images identiques ou légèrement modifiées. 
