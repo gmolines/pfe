@@ -2,10 +2,12 @@
 layout: post
 title: "Developpement de composants Web Polymer automatisable et controllables via des controlleurs hardware MIDI"
 date: 2016-09-05 14:44:47
-categories: [dispo, al,ihm,web]
+categories: [oqp, al,ihm,web]
 pid: Y1516-S005
 type: Engineering
 contact: Michel BUFFA
+students: Balde Thierno	Mamadou, YU	Kaiwen
+group: 18
 ---
        
 WebAudio, une API standard du W3C permet de développer des applications Web musicales de qualité proche des applications de Musique Assistée par Ordinateur (MAO) natives. Par exemple, le simulateur d'amplificateur de guitare suivant : mainline.i3s.unice.fr/AmpSim
