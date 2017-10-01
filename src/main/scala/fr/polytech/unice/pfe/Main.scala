@@ -51,7 +51,7 @@ object ProjectFactory {
     val lastName = row.getCell(1).getStringCellValue.capitalize
     val email = row.getCell(3).getStringCellValue
     val title = row.getCell(18).getStringCellValue
-    val majors = buildMajors(row.getCell(31).getStringCellValue)
+    val majors = buildMajors(row.getCell(33).getStringCellValue)
     val description = row.getCell(19).getStringCellValue
     val descriptionDetaillee = row.getCell(23).getStringCellValue
     val skills = row.getCell(20).getStringCellValue
@@ -59,8 +59,10 @@ object ProjectFactory {
     val biblio = buildBiblio(row)
     val requirements = row.getCell(21).getStringCellValue
     val results = row.getCell(22).getStringCellValue
+    val effectifMin = row.getCell(31).getStringCellValue
+    val effectifMax = row.getCell(32).getStringCellValue
 
-    val common = Common(pid, date, hour, firstName, lastName, email, title, majors, description, descriptionDetaillee, skills, team, biblio, requirements, results)
+    val common = Common(pid, date, hour, firstName, lastName, email, title, majors, description, descriptionDetaillee, skills, team, biblio, requirements, results, effectifMin, effectifMax)
 
     // Research or engineering
     if (row.getCell(24).getStringCellValue == "Recherche") {
@@ -142,7 +144,7 @@ trait Project {
        |#### Informations Administratives
        |  * Contact : ${common.firstName} ${common.lastName} <${common.email}>
        |  * Identifiant sujet : `${common.pid}`
-       |  * Type : ${this.getClass.getSimpleName}
+       |  * Effectif : entre ${common.effectifMin} et ${common.effectifMax} étudiant(e)s
        |  * Parcours Recommandés : ${(common.majors map {_.toUpperCase}).mkString(",")}
        |  * Équipe: ${common.team}
        |
