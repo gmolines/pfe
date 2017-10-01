@@ -57,16 +57,16 @@ object ProjectFactory {
     val skills = row.getCell(20).getStringCellValue
     val team = row.getCell(26).getStringCellValue
     val biblio = buildBiblio(row)
+    val requirements = row.getCell(21).getStringCellValue
+    val results = row.getCell(22).getStringCellValue
 
-    val common = Common(pid, date, hour, firstName, lastName, email, title, majors, description, descriptionDetaillee, skills, team, biblio)
+    val common = Common(pid, date, hour, firstName, lastName, email, title, majors, description, descriptionDetaillee, skills, team, biblio, requirements, results)
 
     // Research or engineering
     if (row.getCell(24).getStringCellValue == "Recherche") {
       Research(common)
     } else {
-      val requirements = row.getCell(21).getStringCellValue
-      val results = row.getCell(22).getStringCellValue
-      Engineering(common, requirements, results)
+      Engineering(common)
     }
     }
     else{
@@ -136,12 +136,15 @@ trait Project {
        |  * Parcours Recommandés : ${(common.majors map {_.toUpperCase}).mkString(",")}
        |  * Équipe: ${common.team}
        |
-       | blah blah
        |#### Références
-       | blah blah
        |
        |${(common.biblio map { ref => s"  * [$ref]($ref)" }).mkString("\n")}
-       | blah blah
+       |
+       |#### Besoins Clients
+       |${common.reqs}
+       |
+       |#### Résultats Attendus
+       |${common.results}
      """.stripMargin
 
    cartouche + body
@@ -152,27 +155,21 @@ trait Project {
 }
 
 case class Common( pid: String, date: String, hour: String, firstName: String, lastName: String, email: String,
-  title : String, majors: Set[String], description: String, descriptionDetaillee: String, skills: String, team: String, biblio: Set[String])
+  title : String, majors: Set[String], description: String, descriptionDetaillee: String, skills: String,
+  team: String, biblio: Set[String], reqs: String, results: String)
 
 case class Research(common: Common) extends Project {
   override def specific: String = {
-    val head = s"""
-       |#### Références
+	s"""
        |
-       |""".stripMargin
-//    head +  (biblio map { ref => s"  * [$ref]($ref)" }).mkString("\n")
-	head + "abc"
+     """.stripMargin
   }
 
 }
 
-case class Engineering(common: Common, reqs: String, results: String) extends Project  {
+case class Engineering(common: Common) extends Project  {
   override def specific: String =
     s"""
-       |#### Besoins Clients
-       |$reqs
        |
-       |#### Résultats Attendus
-       |$results
      """.stripMargin
 }
