@@ -43,4 +43,5 @@ Concrêtement il faudra être capable de projeter sur une pyramide que vous aure
   * Identifiant sujet : `Y1718-S016`
   * Type : Engineering
   * Parcours Recommandés : IHM
+  * Équipe: CMMC/ESPACE
      

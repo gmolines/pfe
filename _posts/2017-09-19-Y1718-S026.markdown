@@ -1,40 +1,37 @@
 ---
 layout: post
-title: "Utilisabilité  et sécurité des mécanismes d’authentification sur smartphones "
-date: 2017-09-19 20:02:25
+title: "Gestion de la sécurité orientée utilisateur (User-centric)"
+date: 2017-09-19 20:45:00
 categories: [dispo, caspar,ihm]
 pid: Y1718-S026
 type: Engineering
 contact: KARIMA BOUDAOUD
 ---
        
-L’objectif du projet est d’implémenter différents mécanismes d’authentification pour smartphones (PINs, mots de passe, mots de passe graphiques, etc…) puis de proposer différentes variantes de ces mécanismes en  proposant différentes IHMs tout en tenant compte de l’utilisabilité et de la sécurité.
+L’objectif  de ce projet est d’étudier les problèmes  rencontrés par les différents types d’utilisateurs (utilisateurs finaux, développeurs, administrateurs, …) lors de l’utilisation (pour les utilisateurs finaux) ou d’implémentation (pour les développeurs) de mécanismes de sécurité ou d’applications sécurisées  ou de protocoles de communications sécurité et 2) d de recherche dans le domaine.
 
-Les mécanismes d’authentification pour smartphones permettent essentiellement de protéger les données stockées sur le téléphone mobile. Parmi les mécanismes existants on distingue des solutions tels que les codes PIN, les mots de passe textuels, les mots de passe graphiques, la reconnaissance d’empreintes digitales (cas sur Iphones récents), faciale (proposé sur versions récentes d’Android), etc. 
-Différentes études ont déjà été réalisées sur l’utilisation de certaines techniques d’authentification tels que les mots de passe textuels et graphiques en tenant compte de l’aspect utilisabilité [Loge et al. 2016] [Tupsamudre et al. 2017]. Certaines de ces études ont révélé un manque d’utilisabilité des IHMs d’authentification et essayé de proposer des améliorations. L’objectif de ce projet sera d’implémenter plusieurs variantes des mécanismes d’authentification en proposant différentes IHMs. Pour cela, le travail se décomposera en plusieurs phases :
+Bien que de nombreux mécanismes de sécurité existent pour sécuriser les systèmes, réseaux et applications, les failles de sécurité et les attaques ne cessent d’augmenter. L’une des raisons est la mauvaise utilisation de ces mécanismes soit par l’utilisateur final en configurant par exemple les paramètres de sécurité de son objet connecté ou de son smartphone soit par le développeur lorsqu’il implémente ces mécanismes.  
+L’objectif  principal de ce projet sera donc : 1) d’identifier les problèmes  rencontrés par les différents types d’utilisateurs (utilisateurs finaux, développeurs, administrateurs, …) lors de l’utilisation (pour les utilisateurs finaux) ou de l’implémentation (pour les développeurs) de ces mécanismes de sécurité et 2) d’étudier les approches orientées utilisateurs (User-centric) existantes pour résoudre ces problèmes.
 
-•	Etude comparative des différents mécanismes d’authentification existants d’un point de vue sécurité et utilisabilité. Il faudra en particulier identifier les problèmes généralement rencontrés par les utilisateurs finaux en terme d’usage.
-•	Implémentation des mécanismes d’authentification les plus utilisés
-•	Implémentation de plusieurs variantes d’IHMs pour chacun des mécanismes choisis
-•	Evaluation des différentes variantes.
+Le travail se décomposera en plusieurs phases :
 
-Autres encadrants:
-- Anne-Marie Dery Pinna 
-- Marco Winckler  
+•	Etude des problèmes  rencontrés par les différents types d’utilisateurs 
+•	Analyse comparative des approches existantes pour résoudre les problèmes identifiés
+•	Amélioration d’un mécanisme de sécurité, d’un point de vue utilisabilité
+
 
 
 #### Compétences Requises
-1) Un étudiant ayant des compétences en  IHM  (.ie. du parcours IHM) et 2 étudiants ayant des compétences en sécurité (.ie. du parcours CASPAR)
+1 étudiant (e) ayant des compétences en IHM (i.e. du parcours  IHM) et 1 ou 2 étudiant(e)s ayant des compétences en sécurité (i.e. du parcours CASPAR) ou 2 ou 3 étudiants ayant des compétences en sécurité (i.e. du parcours CASPAR) 
 
 
 #### Besoins Clients
-Cette étude doit permettre à différents types d’utilisateurs d’utiliser des mécanismes d’authentification qui soient facilement utilisables et suffisamment sécurisés.
+Cette étude doit permettre de faire un état de l’art sur les problèmes d’utilisabilité et de développement rencontrés par les différents types d’utilisateurs et de proposer des pistes de recherche dans le domaine.
 
 #### Résultats Attendus
-•	Comparaison des mécanismes d’authentification existants pour les smartphones
-•	Implémentation de 3 mécanismes d’authentification ; 
-•	Proposition de plusieurs variantes de ces mécanismes en proposant différents IHMs.
-
+•	Classification des problèmes rencontrés par les différents types d’utilisateurs
+•	Analyse comparative des approches existantes pour résoudre les problèmes identifiés
+•	Proposition de l’amélioration d’un mécanisme de sécurité, d’un point de vue utilisabilité
      
 
 #### Informations Administratives
@@ -42,4 +39,5 @@ Cette étude doit permettre à différents types d’utilisateurs d’utiliser d
   * Identifiant sujet : `Y1718-S026`
   * Type : Engineering
   * Parcours Recommandés : CASPAR,IHM
+  * Équipe: SPARKS
      

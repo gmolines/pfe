@@ -3,7 +3,7 @@ layout: post
 title: "Sécurité d’objets connectés de santé et bien être"
 date: 2017-09-19 20:09:51
 categories: [dispo, caspar]
-pid: Y1718-S041
+pid: Y1718-S025
 type: Engineering
 contact: KARIMA BOUDAOUD
 ---
@@ -43,7 +43,8 @@ Cette étude doit permettre d’identifier des failles de sécurité sur différ
 
 #### Informations Administratives
   * Contact : KARIMA BOUDAOUD <karima.boudaoud@unice.fr>
-  * Identifiant sujet : `Y1718-S041`
+  * Identifiant sujet : `Y1718-S025`
   * Type : Engineering
   * Parcours Recommandés : CASPAR
+  * Équipe: SPARKS
      

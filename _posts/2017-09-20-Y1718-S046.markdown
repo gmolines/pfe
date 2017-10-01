@@ -1,42 +1,47 @@
 ---
 layout: post
-title: "Liage du thesaurus TAXREF du Muséum National d'Histoire Naturelle avec des sources de données du Web"
-date: 2017-09-20 23:23:13
-categories: [dispo, web]
+title: "Algorithmes d'apprentissage sur infrastructure embarquée Jetson TX1"
+date: 2017-09-20 21:45:46
+categories: [dispo, al,sd]
 pid: Y1718-S046
 type: Engineering
-contact: Michel Franck
+contact: Johan Montagnat
 ---
        
-Le Web de données constitue une immense base de connaissances distribuée à l'échelle du Web. Un point crucial pour son exploitation réside dans l'existence de liens identifiant les mêmes ressources à travers différentes sources de données. Ce projet vise à explorer des techniques de liage de données et à les appliquer à la classification des espèces animales et végétales développée par le Muséum National d'Histoire Naturelle. Le travail consistera à prendre en main plusieurs logiciels de liage de données et à trouver des méthodes pour accélérer la découverte de liens tout en garantissant un haut niveau de précision et d'exhaustivité des liens découverts.
+L'objet de ce stage sera d'étudier la performance de différentes bibliothèques logicielles standard d'apprentissage sur une architecture embarquée légère de type Jetson TX1 qui exploite un GPU pour l'accélération des calculs. Les étudiants devront à la fois disposer de la maîtrise système (Linux) pour déployer et paramétrer différentes bibliothèques et être capable de planifier et de conduire des plans d'expérience pour comparer la performance de différentes solutions à partir de benchmarks de référence. Un objectif secondaire est d'exploiter les possibilités de parallélisation des calculs d'apprentissage sur plusieurs modules Jetson simultanément, afin de consituer une plateforme parallèle extensible à moindre coût.
 
-Le Web de données fait émerger une base de connaissances distribuée à l'échelle du Web, touchant tous les domaines de la connaissance. Il se construit par la publication sur le Web de jeux les données dans des formats standards (notamment RDF), et par le liage de ces jeux de données les uns aux autres. Par exemple, en identifiant qu'une espèce de dauphin décrite dans Wikipedia est la même qu'une espèce décrite dans une base de données spécialisée dans les animaux marins, on permet de naviguer d'une source de données à l'autre à travers les liens créés et ainsi enrichir l'information sur les espèces disponible pour l'utilisateur.
+Si les algorithmes d'apprentissage, et en particulier l'apprentissage profond (deep learning), ont rencontré des succès considérables ces dernières années dans de nombreux domaines, le coût des algorithmes utilisés (en puissance de calcul et donc en consommation électrique) est rarement mis en avant. De fait, les résultats emblématiques font souvent appel à des puissances pétaflopiques complètement inaccessibles à un grand nombre d'applications. L'enjeu devient souvent de définir un compromis acceptable entre puissance de calcul (qui influe directement sur la qualité du résultat) et coût. Des accélérateurs sont communément utilisés pour les algorithmes d'apprentissage, mais malgré l'efficacité reconnue des GPUs les besoins énergétiques restent souvent considérables.
 
-Or, plusieurs facteurs rendent ce travail de liage difficile : la masse des données (trouver des ressources identiques parmi des centaines de milliers), les divergences entre sources de données (langue, orthographe, point de vue), l'hétérogénéité des représentations, etc. Pour cette raison, de nombreux travaux ont produit des logiciels spécialisés dans la découverte automatique de liens.
+L'objet de ce stage sera d'étudier la faisabilité et la performance du déploiement de différentes bibliothèques logicielles standard d'apprentissage qui exploitent CUDA (GPU nVIdia), telles que Theano, Caffe, TensorFlow..., sur une architecture embarquée légère de type Jetson TX1. Ces composants à bas coût et basse consommation en font des cibles idéales pour le déploiement d'applications utilisant l'apprentissage dans une contexte de capacité énergétique limitée. Les étudiants devront à la fois disposer de la maîtrise système (Linux) pour déployer et paramétrer différentes bibliothèques et être capable de planifier et de conduire des plans d'expérience pour comparer la performance de différentes solutions à partir de réseaux de référence (tels que NMIST). Un objectif secondaire est d'exploiter les possibilités de parallélisation des calculs d'apprentissage sur plusieurs modules Jetson simultanément, afin de consituer une plateforme parallèle extensible à moindre coût.
 
-Ce projet, encadré par Franck Michel et Catherine Faron-Zucker,  vise à explorer des techniques de liage de données dans le cadre d'un travail effectué avec le Muséum National d'Histoire Naturelle (Paris). On souhaite aligner une classification des espèces animales et végétales connues sur les territoires français, TAXREF [1], avec des jeux de données déjà publiés sur le Web. Le travail consistera à :
-1. prendre en main au moins deux logiciels de liage de données, e.g. SILK [2] et LIMES [3] : configuration de l'outil, développement d'un plugin si nécessaire, exécution sur des ressources de calcul suffisantes.
-2. appliquer ces logiciels au cas de TAXREF, trouver des moyens d'améliorer l'efficacité du processus (temps d'exécution; précision, validité et exhaustivité des liens découverts)
-3. mettre en évidence les avantages/inconvénients des différentes approches.
-
-[1] https://inpn.mnhn.fr/programme/referentiel-taxonomique-taxref
-[2] http://silkframework.org/
-[3] http://aksw.org/Projects/LIMES.html
+Etapes:
+  - Etude des bibliothèques logicielles d'apprentissage les plus communément utilisées
+  - Installation d'un noyau linux sur les kits Jetson
+  - Déploiement et configuratoin de différentes bibliothèques ciblées
+  - Définition et exécution d'une campagne de test de performances à partir de benchmarks standards
+  - Etude bibliographique sur les possibilités de mise en oeuvre en parallèle et expérimentation
 
 #### Compétences Requises
-Suivre le module "Web of Data"
+Linux. Notions de parallélisation. Notions en CUDA ou machine learning appréciées.
 
 
 #### Besoins Clients
-Etude des outils de liage de données, comparaison des niveaux de précision et d'exhaustivité des liens découverts
+  - Déploiement de piles logicielles exploitant CUDA sur un système embarqué
+  - Analyse de performance
+  - Comparaison des différentes solutions exploitables
 
 #### Résultats Attendus
-Comparatif des outils. Liage concret de TAXREF avec des jeux de données publiés sur le Web
+  - Système installé et configuré
+  - Documentation de la procédure d'installation
+  - Description des benchmarks
+  - Rapport de performances
+  - Etude bibliographique des possibilités de parallélisation
      
 
 #### Informations Administratives
-  * Contact : Michel Franck <franck.michel@cnrs.fr>
+  * Contact : Johan Montagnat <johan.montagnat@cnrs.fr>
   * Identifiant sujet : `Y1718-S046`
   * Type : Engineering
-  * Parcours Recommandés : WEB
+  * Parcours Recommandés : AL,SD
+  * Équipe: SPARKS
      

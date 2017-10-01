@@ -1,42 +1,50 @@
 ---
 layout: post
-title: "Gestion de la sécurité orientée utilisateur (User-centric)"
-date: 2017-09-19 20:45:00
-categories: [dispo, caspar,ihm]
+title: "Qu’apprendre d’une base d’images ?"
+date: 2017-09-19 21:40:38
+categories: [dispo, al,sd]
 pid: Y1718-S027
 type: Engineering
-contact: KARIMA BOUDAOUD
+contact: Diane Lingrand
 ---
        
-L’objectif  de ce projet est d’étudier les problèmes  rencontrés par les différents types d’utilisateurs (utilisateurs finaux, développeurs, administrateurs, …) lors de l’utilisation (pour les utilisateurs finaux) ou d’implémentation (pour les développeurs) de mécanismes de sécurité ou d’applications sécurisées  ou de protocoles de communications sécurité et 2) d de recherche dans le domaine.
+Le Machine Learning (ML) est un domaine complexe et en plein boom, offrant des possibilités très variées en particulier en analyse d’images. Cependant, la multitude d’algorithmes, l’impact encore peu connu entre les caractéristiques des données d’entrées et les performances de la prédiction, la difficulté à choisir comment transformer ces données et paramétrer les algorithmes rendent l’accès à ce domaine difficile, conduisant ainsi à l’utilisation d’outils pas toujours adaptés.
+Votre objectif est d’étudier ce qui se fait dans le domaine du ML et de l’analyse d’images, d’analyser les besoins et de proposer des interfaces qui permettraient de proposer des solutions adaptées en fonction des problèmes posés.
 
-Bien que de nombreux mécanismes de sécurité existent pour sécuriser les systèmes, réseaux et applications, les failles de sécurité et les attaques ne cessent d’augmenter. L’une des raisons est la mauvaise utilisation de ces mécanismes soit par l’utilisateur final en configurant par exemple les paramètres de sécurité de son objet connecté ou de son smartphone soit par le développeur lorsqu’il implémente ces mécanismes.  
-L’objectif  principal de ce projet sera donc : 1) d’identifier les problèmes  rencontrés par les différents types d’utilisateurs (utilisateurs finaux, développeurs, administrateurs, …) lors de l’utilisation (pour les utilisateurs finaux) ou de l’implémentation (pour les développeurs) de ces mécanismes de sécurité et 2) d’étudier les approches orientées utilisateurs (User-centric) existantes pour résoudre ces problèmes.
+Le Machine Learning est un domaine complexe et en plein boom, offrant des possibilités très variées en particulier en analyse d’images (conduire des voitures autonomes et reconnaître des situations connues, classer des images, identifier une maladie à partir de masses d’IRM, reconnaître automatiquement vos amis sur les photos que vous partagez sur les réseaux sociaux, ...). Cependant, la multitude d’algorithmes, l’impact encore peu connu entre les caractéristiques des données d’entrées (e.g. qualité des photos, encodage) et les performances de la prédiction, la difficulté à choisir comment transformer ces données et à paramétriser les algorithmes rendent l’accès à ce domaine difficile, conduisant ainsi à l’utilisation d’outils pas toujours adaptés.
+Votre objectif est d’étudier ce qui se fait dans le domaine du machine learning et de l’analyse d’images, de comprendre les besoins des utilisateurs néophyte en Machine Learning et de proposer des interfaces qui permettraient de proposer différentes solutions en fonction des problèmes posés. 
 
-Le travail se décomposera en plusieurs phases :
+Ce travail pourra reposer/s’inspirer de ROCKflows, un projet de recherche permettant de construire automatiquement un workflow de machine learning à partir des besoins et des données de l’utilisateur. La plateforme comporte (i) une partie Ligne de produit logicielle (LPL), renfermant de la connaissance sur les algorithmes, les processus de transformations de données et leurs performances par rapport à certaines données d’entrée ; (ii) un portfolio d’algorithmes visant à permettre l’automatisation des expérimentations. 
+Cette connaissance est ensuite présentée à l’utilisateur sous la forme d’une interface de configuration accessible à l’adresse http://rockflows.i3s.unice.fr. Mais cette connaissance reste difficile à appréhender pour un non expert. Votre rôle est de concevoir une couche métier adaptée à l’analyse d’image par ML ce qui devrait entrainer un enrichissement de la plateforme. 
+Les champs d’application du machine learning étant très vastes, les experts sont généralement spécialisés dans un type de traitements ou d’études. Par exemple, dans le cas de l’analyse d’image, des traitements très spécifiques sont utilisés : extractions de caractéristiques visuelles e.g. SIFT, construction d’une représentation visuelle, eg. Visual Dictionary. Il semble alors essentiel d’aider nos utilisateurs en leur proposant ces spécificités dès le début du processus de configuration des workflows.
+Le sujet sera adapté en fonction de la composition de l’équipe en mettant l’accent soit sur les aspects ML, soit IHM, soit AL.
 
-•	Etude des problèmes  rencontrés par les différents types d’utilisateurs 
-•	Analyse comparative des approches existantes pour résoudre les problèmes identifiés
-•	Amélioration d’un mécanisme de sécurité, d’un point de vue utilisabilité
-
-
+Le projet sera encadré à la fois par Diane Lingrand (expertise Machine Learning et Analyse d’images) et  Mireille Blay-Fornarino (Expertise LPL et ROCKFlows).
 
 #### Compétences Requises
-1 étudiant (e) ayant des compétences en IHM (i.e. du parcours  IHM) et 1 ou 2 étudiant(e)s ayant des compétences en sécurité (i.e. du parcours CASPAR) ou 2 ou 3 étudiants ayant des compétences en sécurité (i.e. du parcours CASPAR) 
+Curiosité, Adaptabilité
 
 
 #### Besoins Clients
-Cette étude doit permettre de faire un état de l’art sur les problèmes d’utilisabilité et de développement rencontrés par les différents types d’utilisateurs et de proposer des pistes de recherche dans le domaine.
+D’un point de vue utilisateur final, il s’agit de :
+faciliter la construction d’un workflow en fonction de son problème métier lié à des masses d’images et des données dont il dispose. Ainsi un utilisateur pourra demander à rechercher des voitures dans sa base d’images au lieu de dire qu’il veut appliquer des algorithmes de classification sur une base de vecteurs d’entiers.
+
+D’un point de vue équipe ROCKflows, il s’agit de : 
+caractériser les besoins d’un non-expert à la fois au niveau métier et au niveau algorithmique ; 
+proposer une interface graphique adaptée et l’architecture associée.
 
 #### Résultats Attendus
-•	Classification des problèmes rencontrés par les différents types d’utilisateurs
-•	Analyse comparative des approches existantes pour résoudre les problèmes identifiés
-•	Proposition de l’amélioration d’un mécanisme de sécurité, d’un point de vue utilisabilité
+
+Caractérisation de quelques grandes familles de besoin en matière de ML et analyse d’images
+Identification d’outils permettant de répondre aux besoins
+Prototype d’interface graphique (De préférence avec AngularJS)
+(Facultatif) Connexion à ROCKFlows
      
 
 #### Informations Administratives
-  * Contact : KARIMA BOUDAOUD <karima.boudaoud@unice.fr>
+  * Contact : Diane Lingrand <lingrand@i3s.unice.fr>
   * Identifiant sujet : `Y1718-S027`
   * Type : Engineering
-  * Parcours Recommandés : CASPAR,IHM
+  * Parcours Recommandés : AL,SD
+  * Équipe: SPARKS
      

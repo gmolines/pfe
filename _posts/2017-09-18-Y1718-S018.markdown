@@ -41,4 +41,5 @@ Les utilisateurs sont de concepteurs et/ou évaluateurs de systèmes interactifs
   * Identifiant sujet : `Y1718-S018`
   * Type : Engineering
   * Parcours Recommandés : IHM
+  * Équipe: SPARKS
      

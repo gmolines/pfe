@@ -1,49 +1,46 @@
 ---
 layout: post
-title: "Sécurité et vie privée dans l’Internet des Objets"
-date: 2017-09-19 19:41:07
-categories: [dispo, caspar]
+title: "Prédiction de retards aériens avec Spark et Deep Learning"
+date: 2017-09-19 22:03:25
+categories: [dispo, sd]
 pid: Y1718-S028
 type: Engineering
-contact: KARIMA BOUDAOUD
+contact: Lionel Fillatre
 ---
        
-L’objectif du projet est : 1) d’étudier les problèmes de sécurité et de vie privée liés à l’utilisation des objets connectés ; 2) d’analyser les mécanismes de sécurité ainsi que les PET (Privacy Enhancing Technologies) existants et 3) de proposer une amélioration d’une solution existante.
+Ce projet s’intéresse à la prédiction des retards dans le domaine du transport aérien : un vol donné sera-t-il en retard ou à l’heure ? Le volume de données est important, ce qui nécessite d’employer un stockage de données du type Hadoop. L’environnement Spark sera utilisé pour analyser les données. Enfin, une bibliothèque de Deep Learning, compatible avec Spark, sera exploitée pour prédire au mieux les retards en fonction des caractéristiques des trajets aériens et des conditions météorologiques. Un data scientist de la société Amadeus jouera le rôle du client et pourra régulièrement être consulté.
 
-L’Internet des objets (IoT) est de plus en plus populaire pour connecter les « Objets » à l’Internet (exp. réfrigérateur intelligent). La prochaine évolution est le Web des Objets (WoT) qui permet de connecter de tels objets au Web pour faciliter l’accès aux données et construire des applications intelligentes en combinant des données provenant de différents objets. L’un des défis majeurs de l’Internet et Web des objets est la gestion de la sécurité et la vie privée à cause de l’hétérogénéité des communications, protocoles, architectures, données, systèmes et applications.
-L’objectif principal de ce projet sera donc d’identifier les 1) besoins en sécurité et vie privée d’un point de vue utilisateur et technologique ainsi que 2) les solutions existantes.
+Contexte :
+Nous souhaitons améliorer la prédiction des retards dans les trajets aériens. La prédiction doit prendre en compte à la fois les caractéristiques du trajet et les conditions météorologiques. Afin d’obtenir une prédiction performante, nous souhaitons étudier l’efficacité des architectures profondes (« Deep Learning »). Les données utilisées sont publiques (« open data ») et étiquetées ; autrement dit, les retards exacts des vols sont connus et peuvent être comparés aux retards prévus. À terme, la quantité de données pourrait être très significative, ce qui nécessite dès à présent que la prédiction fonctionne sur une architecture du type Big Data.
 
+Objectifs :
+Le PFE comporte plusieurs objectifs. Dan, un premier temps, il s’agit d’analyser les données des trajets aériens afin de détecter d’éventuelles données aberrantes (« outliers ») et de comprendre la nature statistique des données. Ensuite, il convient de relier ces données aux conditions météorologiques qui correspondent aux dates des trajets. Enfin, la partie la plus ambitieuse du projet consiste à définir, puis implémenter, une architecture profonde pour prédire les retards. Les données seront décomposées en une base d’entrainement et une base de test. Le modèle sera appris sur la base d’entrainement, puis tester sur la base de test. La méthode sera comparée avec quelques approches classiques déjà programmées.
 
-
-Planning :
-
-Le travail se décomposera en plusieurs phases :
-
-•	Etude des attaques de sécurité et des menaces contre la vie privée des utilisateurs lors de l’utilisation des objets connectés. 
-•	Classification des attaques identifiées
-•	Analyse des solutions de sécurité  existantes
-•	Proposition d’un POC (Preuve de concept) pour améliorer la sécurité et la vie privée dans le domaine de l’Internet des Objets/ Web des objets.
-
-
+Principales tâches à effectuer :
+Tout d’abord, le groupe d’étudiants devra s’initier aux données manipulées et tester les principales méthodes de la littérature pour prédire les retards. Des programmes Spark déjà existants seront fournis.
+Ensuite, le groupe devra choisir une bibliothèque de Deep Learning compatible avec Spark et définir une architecture profonde pertinente.
+Enfin, le groupe devra programmer l’architecture retenue et comparer les résultats obtenus avec ceux des approches classiques.
 
 #### Compétences Requises
-connaissances en sécurité
+Machine learning ; Programmation (Python et/ou Java et/ou Scala) ; Spark et Hadoop
 
 
 #### Besoins Clients
-Cette étude doit permettre d’identifier les problèmes de « Privacy » et sécurité ainsi que les solutions existantes et de proposer des pistes de recherche dans le domaine.
+Les retards dans les trajets aériens ont des conséquences financières non-négligeables et peuvent également contribuer à dégrader la qualité de service pour les voyageurs. Il est donc souhaitable de prédire assez précisément la survenue d’un retard afin que des mesures adéquates puissent être envisagées. 
+La prédiction des retards doit tenir compte de nombreux éléments, y compris des informations météorologiques. La volumétrie potentielle est donc énorme et il convient de proposer une solution qui fonctionne dans un environnement du type « Big Data ». Le Deep Learning propose actuellement des solutions de classification et d’estimation extrêmement performantes. Il est donc pertinent d’utiliser cette approche pour la prédiction des retards aériens. Un data scientist de la société Amadeus pourra être consulté par les étudiants. Il pourra notamment les aider à mieux comprendre les données, Spark et le Deep Learning.
+
 
 #### Résultats Attendus
-•	Classification des attaques de sécurité et des menaces contre la vie privée des utilisateurs
-•	Etude comparative des solutions de sécurité  existantes
-•	Rédaction d’un état de l’art suite aux différentes études 
-•	Proposition d’un POC (Preuve de concept) pour améliorer la sécurité et la vie privée dans le domaine de l’Internet des Objets/ Web des objets.
+- Un code Spark commenté fournissant la prédiction des retards.
+- Un rapport décrivant l’architecture Deep Learning proposée pour la prédiction des retards.
+- Un document pour installer et exécuter l’environnement informatique retenue.
 
      
 
 #### Informations Administratives
-  * Contact : KARIMA BOUDAOUD <karima.boudaoud@unice.fr>
+  * Contact : Lionel Fillatre <lionel.fillatre@i3s.unice.fr>
   * Identifiant sujet : `Y1718-S028`
   * Type : Engineering
-  * Parcours Recommandés : CASPAR
+  * Parcours Recommandés : SD
+  * Équipe: SIS/MediaCoding
      

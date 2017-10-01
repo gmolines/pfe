@@ -36,4 +36,5 @@ In finé l'utilisateur doit pouvoir décrire à travers une interface IHM simple
   * Identifiant sujet : `Y1718-S017`
   * Type : Engineering
   * Parcours Recommandés : IHM
+  * Équipe: CMMC
      

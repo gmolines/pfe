@@ -73,4 +73,5 @@ Un code qui mette en évidence les scénarios évoqués ci-dessus.
   * Identifiant sujet : `Y1718-S002`
   * Type : Engineering
   * Parcours Recommandés : AL,IHM
+  * Équipe: SPARKS
      

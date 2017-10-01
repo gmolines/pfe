@@ -3,7 +3,7 @@ layout: post
 title: "Long-term digital data storage on DNA"
 date: 2017-09-12 16:49:22
 categories: [dispo, sd]
-pid: Y1718-S031
+pid: Y1718-S008
 type: Engineering
 contact: Marc Antonini
 ---
@@ -44,7 +44,8 @@ The different tasks/deliverable of the PFE are the following:
 
 #### Informations Administratives
   * Contact : Marc Antonini <am@i3s.unice.fr>
-  * Identifiant sujet : `Y1718-S031`
+  * Identifiant sujet : `Y1718-S008`
   * Type : Engineering
   * Parcours Recommandés : SD
+  * Équipe: SIS / MediaCoding
      

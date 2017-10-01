@@ -3,7 +3,7 @@ layout: post
 title: "Vitrine de démonstration et évaluation en ligne des systèmes interactifs"
 date: 2017-09-18 18:41:33
 categories: [dispo, ihm]
-pid: Y1718-S013
+pid: Y1718-S015
 type: Engineering
 contact: Marco Winckler
 ---
@@ -35,7 +35,8 @@ Il faut tenir en compte les besoin de l’équipe de conception/évaluation du s
 
 #### Informations Administratives
   * Contact : Marco Winckler <winckler@i3s.unice.fr>
-  * Identifiant sujet : `Y1718-S013`
+  * Identifiant sujet : `Y1718-S015`
   * Type : Engineering
   * Parcours Recommandés : IHM
+  * Équipe: SPARKS
      

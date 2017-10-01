@@ -1,0 +1,50 @@
+---
+layout: post
+title: "Sécurité et vie privée dans l’Internet des Objets"
+date: 2017-09-19 19:41:07
+categories: [dispo, caspar]
+pid: Y1718-S023
+type: Engineering
+contact: KARIMA BOUDAOUD
+---
+       
+L’objectif du projet est : 1) d’étudier les problèmes de sécurité et de vie privée liés à l’utilisation des objets connectés ; 2) d’analyser les mécanismes de sécurité ainsi que les PET (Privacy Enhancing Technologies) existants et 3) de proposer une amélioration d’une solution existante.
+
+L’Internet des objets (IoT) est de plus en plus populaire pour connecter les « Objets » à l’Internet (exp. réfrigérateur intelligent). La prochaine évolution est le Web des Objets (WoT) qui permet de connecter de tels objets au Web pour faciliter l’accès aux données et construire des applications intelligentes en combinant des données provenant de différents objets. L’un des défis majeurs de l’Internet et Web des objets est la gestion de la sécurité et la vie privée à cause de l’hétérogénéité des communications, protocoles, architectures, données, systèmes et applications.
+L’objectif principal de ce projet sera donc d’identifier les 1) besoins en sécurité et vie privée d’un point de vue utilisateur et technologique ainsi que 2) les solutions existantes.
+
+
+
+Planning :
+
+Le travail se décomposera en plusieurs phases :
+
+•	Etude des attaques de sécurité et des menaces contre la vie privée des utilisateurs lors de l’utilisation des objets connectés. 
+•	Classification des attaques identifiées
+•	Analyse des solutions de sécurité  existantes
+•	Proposition d’un POC (Preuve de concept) pour améliorer la sécurité et la vie privée dans le domaine de l’Internet des Objets/ Web des objets.
+
+
+
+#### Compétences Requises
+connaissances en sécurité
+
+
+#### Besoins Clients
+Cette étude doit permettre d’identifier les problèmes de « Privacy » et sécurité ainsi que les solutions existantes et de proposer des pistes de recherche dans le domaine.
+
+#### Résultats Attendus
+•	Classification des attaques de sécurité et des menaces contre la vie privée des utilisateurs
+•	Etude comparative des solutions de sécurité  existantes
+•	Rédaction d’un état de l’art suite aux différentes études 
+•	Proposition d’un POC (Preuve de concept) pour améliorer la sécurité et la vie privée dans le domaine de l’Internet des Objets/ Web des objets.
+
+     
+
+#### Informations Administratives
+  * Contact : KARIMA BOUDAOUD <karima.boudaoud@unice.fr>
+  * Identifiant sujet : `Y1718-S023`
+  * Type : Engineering
+  * Parcours Recommandés : CASPAR
+  * Équipe: SPARKS
+     

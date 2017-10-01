@@ -1,0 +1,38 @@
+---
+layout: post
+title: "Visualisation de GRPH (en javascript)"
+date: 2017-09-20 22:41:53
+categories: [dispo, ihm,web]
+pid: Y1718-S047
+type: Engineering
+contact: Julien Deantoni
+---
+       
+GRPH (http://www.i3s.unice.fr/~hogie/software/?name=grph) est une librairie haute performance pour la manipulation de graphe. Elle est développée au sein du laboratoire I3S. Celle ci ne dispose pas de manière simple permettant de visualiser le graphe. Le but du PFE est de fournir une vue interactive du graphe sur laquelle on peut représenter différentes données (comme un chemin particulier dans le graphe). 
+
+LA librairie haute performance GRPH (http://www.i3s.unice.fr/~hogie/software/?name=grph) permet de manipuler de gros graphes depuis le langage Java. Il peut être intéressant de représenter de tels graphes graphiquement pour faciliter la compréhension de certains phénomènes liés à la construction du graphe. Par exemple, si le graphe représente tous les chemins d'exécution d'un programme concurrent, on aimerait représenter tous les chemins permettant d'atteindre un certain état de notre programme. 
+
+Le but du PFE est de fournir un visionneur de graphe permettant de naviguer dans le graphe de manière simple. Il devra supporter les requêtes programmatiques afin de créer/modifier le graphe visualisé. Il devra aussi supporter différents algorithmes de placements (comme ceux définis par graphviz (http://www.graphviz.org/) ou ELK (https://www.eclipse.org/elk/)).
+
+ Le choix de la technologie utilisée est libre. Javascript semble a priori un candidat intéressant mais l'intégration dans eclipse est un point important pour l'équipe et sera discuté.
+
+#### Compétences Requises
+Java, javascript
+
+
+#### Besoins Clients
+Nous voulons un visualisateur de graphe permettant de mettre en avant le résultat de certains calculs. La représentation de certains chemins dans le graph, l'application de différentes layout sont des features nécessaires. Les librairies utilisées doivent être compatible EPL. Une intégration dans eclipse (comme une vue par exemple) est un plus. 
+
+#### Résultats Attendus
+Un premier livrable décrivant les différentes librairies qui ont été choisies (avec le rational) ainsi que les licences associées.
+Un deuxième livrable représentant l'architecture choisie 
+La livraison du logiciel.
+     
+
+#### Informations Administratives
+  * Contact : Julien Deantoni <julien.deantoni@polytech.unice.fr>
+  * Identifiant sujet : `Y1718-S047`
+  * Type : Engineering
+  * Parcours Recommandés : IHM,WEB
+  * Équipe: Kairos
+     

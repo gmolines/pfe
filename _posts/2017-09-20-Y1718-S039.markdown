@@ -1,0 +1,43 @@
+---
+layout: post
+title: "Security Requirements Engineering Platform"
+date: 2017-09-20 18:19:57
+categories: [dispo, caspar,ihm,web]
+pid: Y1718-S039
+type: Engineering
+contact: Yves ROUDIER
+---
+       
+This project aims at extending an existing platform for security requirements engineering. The current platform, which is based on Java, should be extended with a Javascript front-end and collaborative mechanisms. Furthermore, the platform should be extended in order to analyze the relationships of security requirements with safety requirements.
+
+Security requirements engineering is a central process in the system/software development lifecycle approaches that Following a secure-by-design philosophy. It consists in determining both the security threats and the security objectives to achieve, the latter then being used to control software development and deployment. 
+
+Different techniques have been introduced over the years, notably goal-oriented techniques like attack trees. We have developed an extension of the SysML formalism (an extension of UML) in order to capture security requirements in a graphical manner. We are relying on the TTool platform, a Java based implementation, in order to capture and analyze these diagrams. The platform integrates multiple backends (model-checkers, simulators, and analysis tools) in order to verify the security properties of the system designed with the platform.
+
+We propose in this project to :
+- extend TTool through the development of a more portable front-end, based on Javascript, in order to provide designers access to the tool through a web-only interface
+- introduce further formalisms into SysML in order to capture interactions (reinforcements and conflicts) between security and safety requirements. This should result in the extension of SysML diagrams and the graphical front-end to support them. This should also result in the development of an analysis tool for identifying and analyzing such interactions.
+- add a collaboration layer in order for multiple developers to specify security and safety requirements with proper locking, notification, etc.
+
+#### Compétences Requises
+Java and Javascript programming, basic knowledge about cybersecurity, basic knowledge of UML/SysML
+
+
+#### Besoins Clients
+We expect both:
+- the development of a portable front-end giving access to the functionalities of the platform that we use over a web interface with an easy to use man-machine interface
+- creative proposals for the extension of the SysML-Sec approach. This relates to the representation and analysis of the interactions between security requirements (e.g. need to control access to some sensitive data, need to verify integrity of some piece of software, etc.) and safety requirements (need to introduce some redundant implementation for an algorithm, need to ensure the availability of some data). These proposals should rely on an academic bibliography and extend the state of the art.
+
+#### Résultats Attendus
+- state of the art on interactions between security and safety requirements.
+- report detailing the approach used to specify and analyze security and safety requirements with proper examples taken from the literature. 
+- Javascript/Java based implementation and its documentation.
+     
+
+#### Informations Administratives
+  * Contact : Yves ROUDIER <Yves.Roudier@unice.fr>
+  * Identifiant sujet : `Y1718-S039`
+  * Type : Engineering
+  * Parcours Recommandés : CASPAR,IHM,WEB
+  * Équipe: SPARKS
+     

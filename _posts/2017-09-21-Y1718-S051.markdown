@@ -3,7 +3,7 @@ layout: post
 title: "A chaque saison sa maladie"
 date: 2017-09-21 01:26:55
 categories: [dispo, web]
-pid: Y1718-S047
+pid: Y1718-S051
 type: Engineering
 contact: Michel Riveill
 ---
@@ -48,7 +48,8 @@ Bien évidemment, vous serez accompagné dans toute cette tâche.
 
 #### Informations Administratives
   * Contact : Michel Riveill <michel.riveill@unice.fr>
-  * Identifiant sujet : `Y1718-S047`
+  * Identifiant sujet : `Y1718-S051`
   * Type : Engineering
   * Parcours Recommandés : WEB
+  * Équipe: SPARKS
      

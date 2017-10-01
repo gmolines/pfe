@@ -1,37 +1,75 @@
 ---
 layout: post
-title: "Kiel Bill 3"
-date: 2017-09-20 18:32:30
-categories: [dispo, al]
+title: "OWASP web vulnerabilities in a secure browser"
+date: 2017-09-20 18:01:03
+categories: [dispo, caspar]
 pid: Y1718-S038
 type: Engineering
-contact: Frédéric MALLET
+contact: Tamara Rezk
 ---
        
-Observation modulaire d'événements temporels dans la chaine de compilation de l'environnement Kieler
+Design and implementation of suitable OWASP-top ten information flow policies for  the Flowfox secure browser.
 
-Le projet se déroule dans le cadre d'une collaboration entre l'équipe Kairos (I3S/INRIA) et l'Université de Kiel. 
-L'environnement Kieler développé par l'Université de Kiel fournit un environnement synchrone de modélisation à base de machine à états, avec une assistance à la simulation et à la génération de code. La chaîne de compilation consiste en une série de transformations de modèles qui conduit à la cible choisie (code C, code Lego, code Java, circuit). Les modèles ne sont pas équipés d'annotations temporelles. On se propose d'intégrer cette notion de temps en ajoutant une transformation dans la chaine proposée par Kieler. Cette chaine est pleinement intégrée à la plateforme Eclipse par un développement open-source.
-Le groupe aura a charge d'étudier l'intégration. Il devra se familiariser avec la plateforme Eclipse et la chaine de compilation d'Eclipse. Une pratique écrite de l'anglais est indispensable pour lire la documentation de Kieler et intéragir avec l'équipe de développement allemande à Kiel.
-Planning:
-- les premières huit semaines seront consacrées à l'étude de l'environnement Kieler (https://rtsys.informatik.uni-kiel.de/confluence/display/KIELER) et du mécanisme d'observation proposé par Kairos.
-- Le reste du PFE devra proposer une solution d'intégration partielle et bien documentée pour permettre la reprise de la solution.
+A modern browser acts more or less like an operating system, executing programs (or called scripts in the web context) sent from various web sites or stakeholders, while offering a powerful API to these scripts. Because of this API, purely static web pages have evolved from purely static web pages to full-blown web application that dynamically render interactive content. The overall conclusion is that the web is a very influential application platform whereby the technological complexity makes it vulnerable in many ways.
+
+Despite several baked-in countermeasures within your browser, many important attacks remain possible:
+
+Scripts are an important enabler to exploit low-level vulnerabilities within the browser.
+Scripts can leak a fair amount of, privacy-sensitive information, such as your browsing history.
+Scripts can fingerprint your browser to enable tracking your browser as you are surfing the web.
+FlowFox is a fully functional web browser that implements a precise and general information flow control mechanism for web scripts based on the technique of secure multi-execution. 
+
+The goal of this PFE is to perform a scientific study of the limits of FlowFox in enforcing the most popular web vulnerabilities listed in OWASP top 10. 
+
+
+
+More precisely, the PFE has five stages: 
+
+1) Study of information flow policies [3][4]
+
+2) Flowfox Learning phase [1]
+
+3) Proposal of OWASP [2] encoding using information flow policies 
+
+4) Implementation of policies in FlowFox 
+
+5) Pen Testing 
+
+Having taken the CASPAR course on Web Application Security is required for this PFE.
+
+[1] https://distrinet.cs.kuleuven.be/software/FlowFox/#flowfox
+
+[2] https://www.owasp.org/index.php/Top_10_2017-Top_10
+
+[3] https://www.cs.cornell.edu/andru/papers/jsac/sm-jsac03.pdf
+
+[4] http://www.cse.chalmers.se/~andrei/sabelfeld-sands-jcs07.pdf 
 
 #### Compétences Requises
-Bonne maitrise de Java, Connaissance de Eclipse appréciée, Expérience dans la transformation de modèles en bonus.
+Students must have taken the couse "Securité des applications Web"  (CASPAR or equivalent
 
 
 #### Besoins Clients
-Ajouter une étape dans la chaine de compilation/transformation de Kieler pour ajouter une nouvelle cible de génération qui intègre la prise en compte d'annotations temporelles.
+More precisely, the PFE has five stages: 
+
+1) Study of information flow policies [3][4]
+
+2) Flowfox Learning phase [1]
+
+3) Proposal of OWASP [2] encoding using information flow policies  (RECHERCHE)
+
+4) Implementation of policies in FlowFox  (IMPLEMENTATION)
+
+5) Pen Testing 
 
 #### Résultats Attendus
-Plugin pour Eclipse compatible avec Kieler qui implante le mécanisme d'extension temporelle.
-Documentation technique qui décrit la solution proposée.
+A report and a Flowfox implementation
      
 
 #### Informations Administratives
-  * Contact : Frédéric MALLET <Frederic.Mallet@inria.fr>
+  * Contact : Tamara Rezk <tamara.rezk@inria.fr>
   * Identifiant sujet : `Y1718-S038`
   * Type : Engineering
-  * Parcours Recommandés : AL
+  * Parcours Recommandés : CASPAR
+  * Équipe: N/A
      

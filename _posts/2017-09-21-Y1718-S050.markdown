@@ -3,7 +3,7 @@ layout: post
 title: "Classification automatique d’images de plancton par Deep Learning ou apprentissage hybride Deep Features/Random Forest"
 date: 2017-09-21 01:06:16
 categories: [dispo, sd]
-pid: Y1718-S011
+pid: Y1718-S050
 type: Engineering
 contact: Eric Debreuve
 ---
@@ -30,7 +30,8 @@ L’implémentation sera faite en langage Python. Les tests seront menés sur la
 
 #### Informations Administratives
   * Contact : Eric Debreuve <debreuve@i3s.unice.fr>
-  * Identifiant sujet : `Y1718-S011`
+  * Identifiant sujet : `Y1718-S050`
   * Type : Engineering
   * Parcours Recommandés : SD
+  * Équipe: Morphème
      

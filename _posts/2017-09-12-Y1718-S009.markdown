@@ -1,32 +1,32 @@
 ---
 layout: post
-title: "Simulateur d'amplificateur guitare à lampes temps réel sur le Web"
-date: 2017-09-12 17:01:30
+title: "Plugins WebAudio (VSTs pour le Web)"
+date: 2017-09-12 16:52:08
 categories: [dispo, ihm,web]
 pid: Y1718-S009
 type: Engineering
 contact: Michel Buffa
 ---
        
-Simulateur temps réel d'amplificateur de guitare à lampes sur le Web
+Plugins audio temps réels réutilisables pour application Web de musique
 
-Michel Buffa a déjà écrit deux simulateurs d'amplificateurs guitare à lampes sur le Web, dont une re-création d'un Marshall JCM800, à l'aide de l'API standard dans vos navigateur, WebAudio. Ce projet consistera à reprendre l'approche existante pour créer un ou deux autres modèles d'amplificateurs (Fender Deluxe ou Twin Reverb, Vox AC 30, Mesa Boogie...). Vous bénéficierez de l'expérience de votre encadreur, et pourrez partir d'un modèle déjà recréé pour l'adapter au schéma electronique d'un autre modèle.
+L'API WebAudio (standard dans les navigateurs) est en version 1. Elle permet déjà beaucoup de choses (allez voir les différents Garageband existants dans les navigateurs comme soundtrap.com ou bandlab.com ou encore ampedstudio.com). Nous avons dans notre équipe de recherche Wimmics développé déjà plusieurs effets audio évolués (delay, flanger, reverb, distorsion, etc), et nous les avons mis sous forme de composants réutilisables. La specification WebAudio version 2 démarre en ce moment, et nous souhaitons contribuer à un futur standard pour des plugins audio sur le Web similaires aux plugins existants dans le monde natif (plugins VSTs / RA / Juice / etc.).
 
-Voir démos YouTube, chercher "WebAudio guitar", et démo sur https://wasabi.i3s.unice.fr/AmpSim3 et AmpSimFA à la fin.
+Le projet consistera à étudier la meilleure manière de concevoir des plugins WebAudio interchangeables entre applications, et contribuer à l'évolution de l'API WebAudio. Nous sommes en contacts étroits avec les implémenteurs chez Google et Mozilla + Michel Buffa fait partie du groupe WebAudio du W3C qui travaille sur la spécification.
 
-Ce travail a fait l'objet de plusieurs publications. Sur Mac OS on peut réellement jouer de la guitare live, sans latence, et avec un son de très bonne qualité.
+Vous bénéficierez de notre expérience, et de plugins prototypes simples pouvant servir de base de départ. Démos sur demande (buffa@unice.fr)
 
-Tout est codé en JavaScript, de manière modulaire et reproduit avec une approche de haut niveau le circuit electronique de l'amplificateur. Voir cette présentation: https://docs.google.com/presentation/d/1_eJKtQ16yXKWkG81V13bJ5gWGG-eeXLKy9YVpf86zCk/edit?usp=sharing elle contient plusieurs vidéos...
+Technologies : JavaScript ES6 / NodeJS / WebAudio / WebMidi
 
 #### Compétences Requises
-JavaScript, idée de comment marche un ampli guitare ou du moins, du son produit. Si un guitariste electrique dans le lot, c'est un plus.
+JavaScript niveau minimal, intérêt pour la Musique Assistée par ordinateur
 
 
 #### Besoins Clients
-Avoir plusieurs modèles d'amplificateurs "classic rock" recréés dans une application Web.
+J'ai écrit une application musicale sur le Web, je veux pouvoir intégrer des effets audios sous forme de plugins, écrits par d'autres personnes.
 
 #### Résultats Attendus
-Un ou deux amplis simulés de plus.
+Un modèle de plugin WebAudio, des exemples prototypes de plugins et d'applications hosts compatibles avec ces plugins.
      
 
 #### Informations Administratives
@@ -34,4 +34,5 @@ Un ou deux amplis simulés de plus.
   * Identifiant sujet : `Y1718-S009`
   * Type : Engineering
   * Parcours Recommandés : IHM,WEB
+  * Équipe: WIMMICS
      

@@ -1,37 +1,51 @@
 ---
 layout: post
-title: "Requêtes SPARQL sur flux de données"
-date: 2017-09-20 14:35:49
-categories: [dispo, web]
+title: "Développement d’un modèle de simulation (Système Multi-Agents) des impacts des changements climatiques et économiques sur la dynamique du peuplement à l’époque romaine"
+date: 2017-09-20 11:55:17
+categories: [dispo, al,sd]
 pid: Y1718-S030
 type: Engineering
-contact: Fabrice Huet
+contact: Célia Da Costa Pereira
 ---
        
-Le but de ce projet est de travailler sur une plateforme d'analyse de requêtes SPARQL sur des flux de données. Un prototype utilisant la plateforme Storm existe et permet de traiter des requêtes simples. Le but de ce PFE est d'étendre cette plateforme et effectuer des expérimentations à large échelle. 
+Ce PFE a pour objet de réaliser un modèle de simulation en NetLogo avec des extensions en Java pour étudier l’impact des changements climatiques et du contexte économique sur le comportement de propriétaires fonciers dans le sud de la Gaule à l'époque romaine.
 
-Apache Storm est une plateforme qui permet d'effectuer des traitements sur des flux de données. Un programme est décrit comme topologie, c'est à dire une successions d'étapes de traitement. Il est ensuite déployé sur un ensemble de machines. Storm se charge de toutes les étapes de communication et de synchronisation. 
-Dans le cadre de travaux menés dans l'équipe COMRED de l'I3S, nous avons développé une stratégie permettant d'exécuter des requêtes écrites en SPARQL sur Storm sur des données au format RDF. Les requêtes sont décomposées en sous requêtes qui sont distribuées sur les différentes machines. Dans le cas de conjonctions, des communications sont nécessaires et sont intégrées directement dans la description de la topologie. Les données qui entrent dans le système ont toutes un timestamp et une requête SPARQL ne s'intéresse qu'à celles qui sont entrées récemment dans le système. 
-Un prototype de la plateforme complète existe et servira de base à ce PFE. 
-Les objectifs sont :
-  - Intégrer JENA (https://jena.apache.org/) 
-  - Mettre en place une traduction automatique SPARQL->Topologie Storm
-  - Effectuer des tests et expérimentations à large échelle
+
+Description du sujet :
+La modélisation basée sur les agents (ou Système Multi-Agents : SMA) est un outil pour l’étude des systèmes complexes, alternatif et complémentaire aux outils mathématiques. Son avantage principal est qu’elle permet une description plus réaliste et détaillée du phénomène étudié. Les agents sont des entités discrètes et autonomes qui ont des objectifs et un comportement ; il peut y avoir plusieurs types d’agents dans un même modèle. La modélisation à base d’agents est fondée sur l’hypothèse selon laquelle les principaux aspects du comportement et de l'interaction des agents peuvent être décrits et qu’il est possible, à partir de cette description, de (re)construire des processus et des systèmes complexes de bas en haut. La simulation est l'outil principal pour tester les théories sur le fonctionnement des systèmes étudiés. Le champ d’application de cette méthode est très vaste, allant de la biologie à l’économie, de l’archéologie à la sociologie.
+Ce PFE a pour objet d’implémenter un système de modélisation à base d’agents simulant l’impact des changements climatiques et du contexte économique sur le comportement de propriétaires fonciers gallo-romains. En fonction du revenu qu’ils tirent de leurs exploitations agricoles, qui dépend à la fois de facteurs naturels (fertilité des sols, conditions climatiques) et socio-économiques (statut social et  pouvoir économique du propriétaire, état du marché), les propriétaires fonciers peuvent décider d’agrandir leur exploitation, de la maintenir sans changement, de l’abandonner ou de créer une nouvelle exploitation. Ainsi, en simulant les processus de création et d’abandon des sites, le SMA vise à mieux comprendre les facteurs à l’origine de l’évolution du nombre et de la répartition spatiale des sites ruraux au cours de l’Antiquité, telle qu’elle est observée par l’archéologie (Bertoncello et al. 2012). Au-delà de son intérêt historique, le modèle permet d’appréhender le comportement d’agents cognitifs dans un contexte économique et climatique changeant, et peut donc entrer en résonance avec les problématiques sociétales actuelles. Ce PFE s’inscrit dans le projet interdisciplinaire ModelAnSet de l’académie d’excellence « Systèmes complexes » de l’Université Côte d’Azur, mené en collaboration avec des archéologues et paléoenvironnementalistes du CEPAM.
+
+Type de projet : Ingénierie
+
+Encadrants : Célia da Costa Pereira (celia.pereira@unice.fr, I3S), Andrea Tettamanzi (andrea.tettamanzi@unice.fr, I3S)
+
+Références
+Bertoncello F., Fovet E., Gandini C., Trément F., Nuninger L. (2012). The spatio-temporal dynamics of settlement patterns from 800 BC to 800 AD in Central and Southern Gaul: models for an interregional comparison over the long term (Chapitre 3). In. C. Gandini, Favory F., Nuninger L. (Eds.). Settlement Patterns, Production and Trades from the Neolithic to the Middle Ages. ARCHAEDYN, Seven Millennia of Territorial Dynamics, Final Conference, Dijon, 23-25 june 2008. British Archaeological Reports Int. Series, 2370, 2012 : 51-64.
+Célia da Costa Pereira et Andrea Tettamanzi (2010). An integrated possibilistic framework for goal generation in cognitive agents. AAMAS 2010: 1239-1246.Volker Grimm et al. (2006). A standard protocol for describing individual-based and agent-based models. Ecological Modelling 198.
 
 #### Compétences Requises
-Java, SPARQL, RDF
+Connaissance du langage Java.
+Familiarité avec la conception et programmation orientées objet.
+Une connaissance préalable de la plate-forme NetLogo (et de son langage de programmation, qui est un dialecte du Logo) serait bénéfique, même si non requise.
+
 
 
 #### Besoins Clients
-Idéalement j'aimerais avoir un outil qui prenne une requête SPARQL et automatise le déploiement et les expérimentations
+Les archéologues et paléoenvironnementalistes qui participent au projet ModelAnSet ont produit une description du modèle à réaliser en utilisant le formalisme UML et en suivant le protocole ODD (Grimm et al. 2006), un protocole standard pour la description de modèles de simulation basés sur les agents. Ces documents seront utilisés comme spécification du système à développer.
+Un aspect original du modèle est qu’il se base sur des agents cognitifs BDI (belief-desires-intentions), c’est-à-dire dotés de capacités de raisonnement et de croyances, désirs et intentions. Il est prévu d’utiliser la bibliothèque Java KOBDIG, qui fournit les fonctionnalités de base pour ce type d’agents (da Costa Pereira et Tettamanzi 2010), pour le développement du système.
+Puisque le système devra être utilisé par des non-informaticiens qui ont déjà une certaine familiarité avec la plate-forme NetLogo (https://ccl.northwestern.edu/netlogo/), il est envisagé de développer le modèle sur NetLogo, avec des extensions en Java.
+Ce PFE peut déboucher sur un stage de recherche dans le cadre du projet ModelAnSet.
 
 #### Résultats Attendus
-Un logiciel de bonne qualité
+Un prototype de modèle de simulation en NetLogo, avec des extensions écrites en Java pour supporter des agents cognitifs de type BDI, utilisable pour la validation expérimentale des hypothèses avancées par les participants au projet ModelAnSet.
+Le code développé devra être conçu et documenté de manière à faciliter sa maintenance et son évolution après la fin du PFE.
+
      
 
 #### Informations Administratives
-  * Contact : Fabrice Huet <fabrice.huet@unice.fr>
+  * Contact : Célia Da Costa Pereira <celia.pereira@unice.fr>
   * Identifiant sujet : `Y1718-S030`
   * Type : Engineering
-  * Parcours Recommandés : WEB
+  * Parcours Recommandés : AL,SD
+  * Équipe: SPARKS
      

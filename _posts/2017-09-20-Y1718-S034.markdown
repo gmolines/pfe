@@ -1,45 +1,48 @@
 ---
 layout: post
-title: "Etude et Implémentation d’un Configurateur d’expérimentations pour  vidéos en réalité Virtuelle. "
-date: 2017-09-20 15:22:30
+title: ": Outils de communication dédiés au parcours IHM"
+date: 2017-09-20 15:37:08
 categories: [dispo, ihm]
 pid: Y1718-S034
 type: Engineering
 contact: Anne-Marie Dery-Pinna
 ---
        
-Ce PFE s’inscrit dans le cadre du projet  « User Centric Approach for Streaming Virtual Reality (UCA4SVR) » qui a pour ambition de fournir des méthodes offrant une qualité d’expérience utilisateur (QoE) à la visualisation en streaming de vidéos en réalité virtuelle à travers un casque (type Samsung Gear Vr, Oculus RIFT ou autre). Le projet explore l’impact de différentes techniques d’éditions de vidéos sur les paramètres de l’expérience de streaming (qualité perçue, bande passante utilisée, etc.). Les étudiants auront à étudier les besoins de l’équipe afin de mettre en place un outil de configuration d’expérimentations adapté permettant de faire varier les paramètres de façon pertinente. 
+En IHM mon rêve en tant que responsable de parcours c’est d’avoir une communication, interne à Polytech, High Tech du parcours qui illustre tout ce que les étudiants du parcours sont capables de faire et on en est loin, très loin… 
+Les étudiants devront réaliser un prototype fonctionnel illustrant leur proposition. L’idée est de pouvoir répondre aux questions et besoins récurrents  et de profiter du cadre de travail dans lequel on est et  du matériel que nous avons en notre possession. Les questions que les étudiants posent sont par exemple : quel métier offre le parcours (que font les anciens ?) , où pourrais-je trouver un stage à l’étranger ?  (où sont partis les anciens ?)…  
 
+Capitaliser les informations utiles (embauches des anciens, entreprises qui recrutent à l’étranger, enseignants et leurs compétences, métiers à la sortie et au bout de plusieurs années…)  et illustrer les compétences acquises (projets étudiants illustratifs, …)  sont les deux points les plus difficiles pour un responsable de parcours. Tout  ce qui est géré par l’Atelier IHM et ce qui est potentiellement gérable par des outils slack, ou autre, n’est globalement pas satisfaisant et de loin une « mauvaise vitrine » du parcours IHM. 
 
+Les outils en notre possession actuellement sont très orientés web et réseaux sociaux mais restent en fait très traditionnels et utilisables sur des dispositifs qui deviennent standards Smartphone avec des interactions classiques (tactile).
 
-Une vidéo en réalité virtuelle est une vidéo à 360°. La problématique est que de telles vidéos sont très volumineuses et ne peuvent donc être envoyées dans leur intégralité à une qualité maximum sur les réseaux actuels. De plus la croissance continue de la résolution des vidéos fait que même si les réseaux évoluent, ces vidéos ne pourront toujours pas être transmises à leur qualité maximum en streaming. Il convient donc de trouver des solutions à ce problème et c’est ce qu’explore ce projet de recherche. ). Ce travail initié par une équipe réseau du laboratoire I3S se fait en collaboration avec les chercheurs en IHM du laboratoire et  l’entreprise Adastra Films de Cannes. 
+Nous passons tous une grande partie de notre temps à Polytech, nous disposons localement de moyens d’interactions qui pourraient peut-être faciliter nos échanges d’information. La question est comment les exploiter au mieux ?
 
-Dans le cadre de ce projet, une plate-forme de streaming de vidéos en réalité virtuelle intégrant de nouvelles idées pour améliorer la qualité d’expérience des utilisateurs (QoE) a été développée. La QoE «  représente l'ensemble des caractéristiques objectives et subjectives propres à satisfaire, fidéliser ou donner confiance à un utilisateur au travers du cycle de vie d'un service ». Une plate-forme de visualisation externe en temps réel a aussi été développée pour les démonstrations.
-Les travaux actuels se basent sur une prédiction du regard de l’utilisateur afin de pouvoir lui offrir la meilleure qualité vidéo dans son angle de vue et  de dégrader la qualité progressivement en s’éloignant de cet angle. Le projet a choisi d’explorer plutôt l’impact de différentes techniques d’éditions de vidéos sur les paramètres de l’expérience de streaming (qualité perçue, bande passante utilisée, etc.). Une des tâches dans l’édition de vidéos telle qu’elle est effectuée actuellement dans le projet consiste à identifier des «  points d’intérêt » sur  lesquels nous souhaitons que le spectateur s’attarde. Nous nommons ces points des snap-changes. Placer le regard de l’utilisateur automatiquement face à une scène via les snap-changes a de bonnes propriétés pour améliorer la qualité de la vidéo face au  regard de l’utilisateur.
-On peut de plus associer une sémantique à ces points en fonction du contenu, Dans le cas d’une publicité par exemple, il ne faut pas rater la mise en valeur du produit ou l’offre commerciale associée ; dans le cadre d’une série, il ne faut pas manquer une étape importante de l’intrigue. C’est au concepteur de la vidéo à terme de placer ces points d’intérêt. Ce qu’il faut mesurer c’est l’influence de la fréquence et la pertinence des points choisis pour avoir une QoE optimale aussi bien au niveau du ressenti de l’utilisateur que des performances réseau. Ces points sont donc des éléments centraux des expérimentations.  Actuellement  ces points sont renseignés dans un fichier de méta-données qui est ensuite utilisé par le lecteur lors de la visualisation
+Il sera demandé aux étudiants de mettre en pratique l’enseignement de CEIHM pour identifier les besoins, faire une analyse de l’existant.
+Par exemple, au-delà des aspects purement pédagogiques dans le cadre du parcours, quel poids donner aux informations à  communiquer : veille technologique,  postes où sont affectés les anciens, possibles stages à l’étranger, matériels empruntables, disponibilité des enseignants, travail de recherche en parallèle, projets personnels des étudiants…
+ 
+On pourrait imaginer utiliser la réalité augmentée devant la porte du bureau d’un enseignant en cas d’absence  (QRcode..) ou si la salle IHM est fermée pour récupérer des informations utiles en temps réel, utiliser un mur ou la  table tactile pour avoir une visualisation plus adaptée d’informations plus denses comme les projets des anciens étudiants ou leur  affectation géographique,… 
 
-Déroulement 
-La  tâche de ce PFE au sein du projet UCA4SVR sera de développer un outil permettant de faciliter essentiellement le placement de ces snap-changes en fonction des résultats des expérimentations précédentes ou des variables d’expérimentation  évaluées. Cet outil devra prendre en considération des résultats d’expérimentations passées ou des simulations pour proposer de nouvelles configurations prometteuses.
-Le déroulement prévu est le suivant : identification des besoins de l’équipe et compréhension de l’existant pendant les 8 premières semaines.
-Pendant le mois en temps plein : la première semaine itérations sur une maquette haute-fidélité. Les 3 semaines suivantes implémentations incrémentales des fonctionnalités identifiées pour l’outil.
+Les étudiants  devront proposer un prototype fonctionnel après avoir fait valider des maquettes intermédiaires.
+Il sera également demandé d’avoir une solution la plus adaptée aux dispositifs visés en s’inspirant du module adaptation des IHM et de choisir les interactions en respectant les règles vues dans le modules TIM. 
+Les qualités attendues sont la  créativité tout en ayant  conscience de la faisabilité et de l’utilisabilité de la solution présentée.
 
-Environnement technique
-La solution technique existante repose sur des téléphones Samsung Galaxy S7 et des casques Samsung Gear VR pour la visualisation en réalité augmentée. Le téléphone communique avec un serveur web hébergeant les vidéos à travers un réseau de machines virtuelles servant à contrôler les conditions du réseau (débit, latence). Le lecteur utilise les meta-données sur les snap-changes sous forme d’un fichier texte au format CSV avec un point par ligne. Les informations sur un point sont le temps auquel intervient le changement de scène et l’angle auquel on souhaite que l’utilisateur regarde.
+Déroulement
+Pendant les 8 premières semaines les étudiants devront faire une analyse des besoins et identifier les preuves de concepts les plus importantes pour la suite et l’étude faisabilité technologique.
+Dans les 4 semaines ils devront mettre en place les prototypes fonctionnels, faire des tests utilisateurs et revenir éventuellement sur leurs conclusions préliminaires
 
-Intervenants : Lucile Sassatelli, Marco Winckler, Alain Giboin 
+Intervenants : C. Brel, Alain Giboin, Marco Winckler
 
 
 #### Compétences Requises
-Cours de CEIHM,  intérêt pour la VR préférable, voir environnement technique dans la description détaillée
+les modules IHM, de la créativité 
 
 
 #### Besoins Clients
-Etude et Implémentation d’un Configurateur d’expérimentations pour  vidéos en réalité Virtuelle. 
+Avoir une proposition d'outils de communication innovants pour le parcours IHM
 
 #### Résultats Attendus
-A la fin des 8 semaines : identification des besoins de l’équipe et compréhension de l’existant 
-Pendant le mois en temps plein : la première semaine itérations sur une maquette haute-fidélité. Les 3 semaines suivantes implémentations incrémentales des fonctionnalités identifiées pour l’outil.
-
+A la fin des 8 premières semaines : une analyse des besoins et une spécification  des preuves de concepts les plus importantes pour la suite 
+Dans les 4 semaines ils devront mettre en place les prototypes fonctionnels, et faire des tests utilisateurs 
      
 
 #### Informations Administratives
@@ -47,4 +50,5 @@ Pendant le mois en temps plein : la première semaine itérations sur une maquet
   * Identifiant sujet : `Y1718-S034`
   * Type : Engineering
   * Parcours Recommandés : IHM
+  * Équipe: Sparks
      

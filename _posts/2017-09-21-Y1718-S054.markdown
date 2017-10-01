@@ -3,7 +3,7 @@ layout: post
 title: "Classification de vidéos par le mouvement"
 date: 2017-09-21 06:19:33
 categories: [dispo, sd]
-pid: Y1718-S012
+pid: Y1718-S054
 type: Engineering
 contact: Katy Blanc
 ---
@@ -48,7 +48,8 @@ Le deuxième objectif vise à étendre le champ d’application de notre représ
 
 #### Informations Administratives
   * Contact : Katy Blanc <kblanc@i3s.unice.fr>
-  * Identifiant sujet : `Y1718-S012`
+  * Identifiant sujet : `Y1718-S054`
   * Type : Engineering
   * Parcours Recommandés : SD
+  * Équipe: SPARKS
      

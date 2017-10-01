@@ -3,7 +3,7 @@ layout: post
 title: "Amélioration d’un système d’affichage interactif d’objets 3D"
 date: 2017-09-13 18:31:42
 categories: [dispo, sd]
-pid: Y1718-S010
+pid: Y1718-S011
 type: Engineering
 contact: Frédéric Payan
 ---
@@ -43,7 +43,8 @@ Notre besoin est d'améliorer l'affichage interactif des données coté client. 
 
 #### Informations Administratives
   * Contact : Frédéric Payan <fpayan@i3s.unice.fr>
-  * Identifiant sujet : `Y1718-S010`
+  * Identifiant sujet : `Y1718-S011`
   * Type : Engineering
   * Parcours Recommandés : SD
+  * Équipe: SIS - Mediacoding
      
