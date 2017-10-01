@@ -10,7 +10,7 @@ import org.apache.poi.ss.usermodel.{Row, WorkbookFactory}
 object Main extends App {
 
   final val START = 1
-  final val STOP =  55
+  final val STOP =  56
 
   final val OUTPUT_DIR = "./outputs"
 
@@ -56,13 +56,13 @@ object ProjectFactory {
     val descriptionDetaillee = row.getCell(23).getStringCellValue
     val skills = row.getCell(20).getStringCellValue
     val team = row.getCell(26).getStringCellValue
+    val biblio = buildBiblio(row)
 
-    val common = Common(pid, date, hour, firstName, lastName, email, title, majors, description, descriptionDetaillee, skills, team)
+    val common = Common(pid, date, hour, firstName, lastName, email, title, majors, description, descriptionDetaillee, skills, team, biblio)
 
     // Research or engineering
     if (row.getCell(24).getStringCellValue == "Recherche") {
-      val biblio = buildBiblio(row)
-      Research(common, biblio)
+      Research(common)
     } else {
       val requirements = row.getCell(21).getStringCellValue
       val results = row.getCell(22).getStringCellValue
@@ -135,6 +135,11 @@ trait Project {
        |  * Type : ${this.getClass.getSimpleName}
        |  * Parcours Recommandés : ${(common.majors map {_.toUpperCase}).mkString(",")}
        |  * Équipe: ${common.team}
+       |
+       |#### Références
+       |
+       |${(common.biblio map { ref => s"  * [$ref]($ref)" }).mkString("\n")}
+       
      """.stripMargin
 
    cartouche + body
@@ -145,15 +150,16 @@ trait Project {
 }
 
 case class Common( pid: String, date: String, hour: String, firstName: String, lastName: String, email: String,
-  title : String, majors: Set[String], description: String, descriptionDetaillee: String, skills: String, team: String)
+  title : String, majors: Set[String], description: String, descriptionDetaillee: String, skills: String, team: String, biblio: Set[String])
 
-case class Research(common: Common, biblio: Set[String]) extends Project {
+case class Research(common: Common) extends Project {
   override def specific: String = {
     val head = s"""
        |#### Références
        |
        |""".stripMargin
-    head +  (biblio map { ref => s"  * [$ref]($ref)" }).mkString("\n")
+//    head +  (biblio map { ref => s"  * [$ref]($ref)" }).mkString("\n")
+	head + "abc"
   }
 
 }
