@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ": Outils de communication dédiés au parcours IHM"
+title: "Outils de communication dédiés au parcours IHM"
 date: 2017-09-20 15:37:08
 categories: [dispo, ihm]
 pid: Y1718-S034
@@ -51,4 +51,9 @@ Dans les 4 semaines ils devront mettre en place les prototypes fonctionnels, et 
   * Type : Engineering
   * Parcours Recommandés : IHM
   * Équipe: Sparks
+
+#### Références
+
+
+       
      

@@ -52,4 +52,11 @@ Le deuxième objectif vise à étendre le champ d’application de notre représ
   * Type : Engineering
   * Parcours Recommandés : SD
   * Équipe: SPARKS
+
+#### Références
+
+  * [http://www.i3s.unice.fr/~kblanc/documents/singletsPaper.pdf](http://www.i3s.unice.fr/~kblanc/documents/singletsPaper.pdf)
+  * [http://vlg.cs.dartmouth.edu/c3d/c3d_video.pdf](http://vlg.cs.dartmouth.edu/c3d/c3d_video.pdf)
+  * [https://hal.inria.fr/hal-00803241/file/IJCV.pdf](https://hal.inria.fr/hal-00803241/file/IJCV.pdf)
+       
      

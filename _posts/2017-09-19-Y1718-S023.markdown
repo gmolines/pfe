@@ -47,4 +47,11 @@ Cette étude doit permettre d’identifier les problèmes de « Privacy » et s�
   * Type : Engineering
   * Parcours Recommandés : CASPAR
   * Équipe: SPARKS
+
+#### Références
+
+  * [http://www.jocm.us/uploadfile/2013/0412/20130412025359146.pdf](http://www.jocm.us/uploadfile/2013/0412/20130412025359146.pdf)
+  * [http://www.sciencedirect.com/science/article/pii/S1389128610001568](http://www.sciencedirect.com/science/article/pii/S1389128610001568)
+  * [http://dx.doi.org/10.1016/j.comnet.2014.11.008](http://dx.doi.org/10.1016/j.comnet.2014.11.008)
+       
      

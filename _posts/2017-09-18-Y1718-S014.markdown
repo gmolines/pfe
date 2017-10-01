@@ -46,4 +46,11 @@ En particulier:
   * Type : Engineering
   * Parcours Recommandés : AL
   * Équipe: Scale
+
+#### Références
+
+  * [http://www.btrplace.org/pubs/hermenier-socc17.pdf](http://www.btrplace.org/pubs/hermenier-socc17.pdf)
+  * [http://www.btrplace.org/](http://www.btrplace.org/)
+  * [https://wiki.openstack.org/wiki/Nova](https://wiki.openstack.org/wiki/Nova)
+       
      

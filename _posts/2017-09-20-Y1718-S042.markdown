@@ -39,4 +39,12 @@ We firstly expect the development of a translation tool for encoding security-re
   * Type : Engineering
   * Parcours Recommandés : AL,CASPAR
   * Équipe: SPARKS
+
+#### Références
+
+  * [http://pp.ipd.kit.edu/projects/joana/](http://pp.ipd.kit.edu/projects/joana/)
+  * [https://github.com/joana-team/joana](https://github.com/joana-team/joana)
+  * [http://cadp.inria.fr/](http://cadp.inria.fr/)
+  * [http://cadp.inria.fr/man/evaluator.html](http://cadp.inria.fr/man/evaluator.html)
+       
      

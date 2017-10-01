@@ -35,4 +35,11 @@ La livraison du logiciel.
   * Type : Engineering
   * Parcours Recommandés : IHM,WEB
   * Équipe: Kairos
+
+#### Références
+
+  * [http://www.i3s.unice.fr/~hogie/software/?name=grph](http://www.i3s.unice.fr/~hogie/software/?name=grph)
+  * [http://www.graphviz.org/](http://www.graphviz.org/)
+  * [https://angryloki.github.io/wikidata-graph-builder/](https://angryloki.github.io/wikidata-graph-builder/)
+       
      

@@ -48,4 +48,10 @@ Pendant le mois en temps plein : la première semaine itérations sur une maquet
   * Type : Engineering
   * Parcours Recommandés : IHM
   * Équipe: Sparks et Signet
+
+#### Références
+
+  * [https://developers.facebook.com/videos/f8-2017/-the-evolution-of-dynamic-streaming/](https://developers.facebook.com/videos/f8-2017/-the-evolution-of-dynamic-streaming/)
+  * [https://www.youtube.com/watch?v=cJg_tPB0Nu0](https://www.youtube.com/watch?v=cJg_tPB0Nu0)
+       
      

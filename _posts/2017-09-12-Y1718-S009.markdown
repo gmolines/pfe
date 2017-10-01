@@ -35,4 +35,9 @@ Un modèle de plugin WebAudio, des exemples prototypes de plugins et d'applicati
   * Type : Engineering
   * Parcours Recommandés : IHM,WEB
   * Équipe: WIMMICS
+
+#### Références
+
+
+       
      

@@ -35,4 +35,9 @@ Un ou deux amplis simulés de plus.
   * Type : Engineering
   * Parcours Recommandés : IHM,WEB
   * Équipe: WIMMICS
+
+#### Références
+
+  * [http://eecs.qmul.ac.uk/~keno/26.pdf](http://eecs.qmul.ac.uk/~keno/26.pdf)
+       
      

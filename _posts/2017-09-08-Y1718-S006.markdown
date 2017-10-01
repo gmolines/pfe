@@ -49,4 +49,12 @@ Un rendu par sprint (code source, tests, documentation, solution déployée)
   * Type : Engineering
   * Parcours Recommandés : AL,IHM
   * Équipe: SPARKS
+
+#### Références
+
+  * [https://docs.google.com/document/d/1EzEoY5XPon6qRMXFlEPEg2Uom888JhXa4APuUnfy7Lw/edit?usp=sharing](https://docs.google.com/document/d/1EzEoY5XPon6qRMXFlEPEg2Uom888JhXa4APuUnfy7Lw/edit?usp=sharing)
+  * [http://www.thomaspolacsek.net/rcis2016.pdf](http://www.thomaspolacsek.net/rcis2016.pdf)
+  * [https://drive.google.com/open?id=0B47cCZhk8GPnVElrUmxCclIxa2M](https://drive.google.com/open?id=0B47cCZhk8GPnVElrUmxCclIxa2M)
+  * [https://drive.google.com/open?id=0B47cCZhk8GPnWmVKWWhOTDJSck0](https://drive.google.com/open?id=0B47cCZhk8GPnWmVKWWhOTDJSck0)
+       
      

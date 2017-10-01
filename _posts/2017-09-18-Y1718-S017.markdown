@@ -37,4 +37,10 @@ In finé l'utilisateur doit pouvoir décrire à travers une interface IHM simple
   * Type : Engineering
   * Parcours Recommandés : IHM
   * Équipe: CMMC
+
+#### Références
+
+  * [https://forum.drotek.com/t/controleur-multiwii-v2-0-ajout-dun-sonar/165](https://forum.drotek.com/t/controleur-multiwii-v2-0-ajout-dun-sonar/165)
+  * [https://www.researchgate.net/publication/314239012_L%27utilisation_des_micro-drones_pour_la_prospection_archeologique_a_basse_altitude](https://www.researchgate.net/publication/314239012_L%27utilisation_des_micro-drones_pour_la_prospection_archeologique_a_basse_altitude)
+       
      

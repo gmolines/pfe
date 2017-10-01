@@ -74,4 +74,10 @@ Un code qui mette en évidence les scénarios évoqués ci-dessus.
   * Type : Engineering
   * Parcours Recommandés : AL,IHM
   * Équipe: SPARKS
+
+#### Références
+
+  * [http://www.i3s.unice.fr/~riveill/2017-18-stages/presentation-simulateur.webarchive](http://www.i3s.unice.fr/~riveill/2017-18-stages/presentation-simulateur.webarchive)
+  * [https://hal.archives-ouvertes.fr/hal-01575135](https://hal.archives-ouvertes.fr/hal-01575135)
+       
      

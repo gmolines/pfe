@@ -46,4 +46,10 @@ L’implémentation devra être validée par des tests sur des images de cellule
   * Type : Engineering
   * Parcours Recommandés : SD
   * Équipe: Morpheme (mixte Inria/I3S)
+
+#### Références
+
+  * [http://greenteapress.com/thinkpython/thinkpython.pdf](http://greenteapress.com/thinkpython/thinkpython.pdf)
+  * [https://hal.archives-ouvertes.fr/hal-01383165v1](https://hal.archives-ouvertes.fr/hal-01383165v1)
+       
      

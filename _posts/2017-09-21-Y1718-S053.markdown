@@ -59,4 +59,12 @@ Votre travail permettra de répondre à deux besoins principaux :
   * Type : Engineering
   * Parcours Recommandés : SD
   * Équipe: SPARKS
+
+#### Références
+
+  * [https://arxiv.org/pdf/1703.00955](https://arxiv.org/pdf/1703.00955)
+  * [http://facweb.plattsburgh.edu/steve.mansfield/ARVO2017MNREADSentences.pdf](http://facweb.plattsburgh.edu/steve.mansfield/ARVO2017MNREADSentences.pdf)
+  * [http://www.icoph.org/dynamic/attachments/resources/icovisualacuity1984.pdf](http://www.icoph.org/dynamic/attachments/resources/icovisualacuity1984.pdf)
+  * [http://aclweb.org/anthology/W16-0202](http://aclweb.org/anthology/W16-0202)
+       
      

@@ -35,4 +35,10 @@ Un logiciel de bonne qualité
   * Type : Engineering
   * Parcours Recommandés : WEB
   * Équipe: COMRED/Scale
+
+#### Références
+
+  * [https://jena.apache.org/](https://jena.apache.org/)
+  * [http://storm.apache.org/](http://storm.apache.org/)
+       
      

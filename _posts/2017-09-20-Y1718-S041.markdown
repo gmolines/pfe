@@ -46,4 +46,12 @@ Une transformation et sa mise en oeuvre dans un serveur
   * Type : Engineering
   * Parcours Recommandés : WEB
   * Équipe: Wimmics
+
+#### Références
+
+  * [http://ns.inria.fr/sparql-template](http://ns.inria.fr/sparql-template)
+  * [http://ns.inria.fr/sparql-extension](http://ns.inria.fr/sparql-extension)
+  * [https://hal.inria.fr/hal-01186047v1](https://hal.inria.fr/hal-01186047v1)
+  * [https://hal.inria.fr/hal-01589162v1](https://hal.inria.fr/hal-01589162v1)
+       
      

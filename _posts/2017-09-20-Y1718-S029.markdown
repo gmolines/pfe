@@ -43,4 +43,9 @@ Cette solution devra être utilisable simplement par tous types de personnels de
   * Type : Engineering
   * Parcours Recommandés : SD,WEB
   * Équipe: SPARKS
+
+#### Références
+
+  * [https://www.researchgate.net/publication/224160756_Educational_Data_Mining_A_Review_of_the_State_of_the_Art ](https://www.researchgate.net/publication/224160756_Educational_Data_Mining_A_Review_of_the_State_of_the_Art )
+       
      

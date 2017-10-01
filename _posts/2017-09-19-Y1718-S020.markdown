@@ -33,4 +33,11 @@ Programmation Web (Java Script, Ajax, HTML5, D3 ce serait un plus). Connaissance
   * Type : Engineering
   * Parcours Recommandés : IHM
   * Équipe: SPARKS
+
+#### Références
+
+  * [https://d3js.org/](https://d3js.org/)
+  * [https://www2.pelotas.ifsul.edu.br/~cava/MGExplorer4/](https://www2.pelotas.ifsul.edu.br/~cava/MGExplorer4/)
+  * [http://dl.acm.org/citation.cfm?id=3019684&dl=ACM&coll=DL&CFID=986588961&CFTOKEN=68683614](http://dl.acm.org/citation.cfm?id=3019684&dl=ACM&coll=DL&CFID=986588961&CFTOKEN=68683614)
+       
      

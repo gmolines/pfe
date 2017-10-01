@@ -40,4 +40,10 @@ Cette étude doit permettre de faire un état de l’art sur les problèmes d’
   * Type : Engineering
   * Parcours Recommandés : CASPAR,IHM
   * Équipe: SPARKS
+
+#### Références
+
+  * [http://dx.doi.org/10.14722/eurousec.2017.230016](http://dx.doi.org/10.14722/eurousec.2017.230016)
+  * [http://dx.doi.org/10.14722/eurousec.2016.23012](http://dx.doi.org/10.14722/eurousec.2016.23012)
+       
      

@@ -34,4 +34,12 @@ L’implémentation sera faite en langage Python. Les tests seront menés sur la
   * Type : Engineering
   * Parcours Recommandés : SD
   * Équipe: Morphème
+
+#### Références
+
+  * [https://nneverova.github.io/nslides/presentation_softshake_151022_novideos.pdf](https://nneverova.github.io/nslides/presentation_softshake_151022_novideos.pdf)
+  * [https://dimensionless.in/introduction-to-random-forest/](https://dimensionless.in/introduction-to-random-forest/)
+  * [http://www.obs-vlfr.fr/data/view/zoo/ecotaxa_ml/](http://www.obs-vlfr.fr/data/view/zoo/ecotaxa_ml/)
+  * [http://ecotaxa.obs-vlfr.fr/](http://ecotaxa.obs-vlfr.fr/)
+       
      

@@ -44,4 +44,9 @@ Concrêtement il faudra être capable de projeter sur une pyramide que vous aure
   * Type : Engineering
   * Parcours Recommandés : IHM
   * Équipe: CMMC/ESPACE
+
+#### Références
+
+  * [http://www.3demotion.net/project/hologramme-scenographie/](http://www.3demotion.net/project/hologramme-scenographie/)
+       
      

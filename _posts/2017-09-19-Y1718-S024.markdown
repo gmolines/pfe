@@ -43,4 +43,10 @@ Cette étude doit permettre à différents types d’utilisateurs d’utiliser d
   * Type : Engineering
   * Parcours Recommandés : CASPAR,IHM
   * Équipe: SPARKS
+
+#### Références
+
+  * [http://dx.doi.org/10.14722/eurosec.2016.23001](http://dx.doi.org/10.14722/eurosec.2016.23001)
+  * [http://dx.doi.org/10.14722/eurosec.2017.23004](http://dx.doi.org/10.14722/eurosec.2017.23004)
+       
      

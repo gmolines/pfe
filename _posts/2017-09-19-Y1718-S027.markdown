@@ -47,4 +47,12 @@ Prototype d’interface graphique (De préférence avec AngularJS)
   * Type : Engineering
   * Parcours Recommandés : AL,SD
   * Équipe: SPARKS
+
+#### Références
+
+  * [https://www.ibm.com/analytics/watson-analytics/](https://www.ibm.com/analytics/watson-analytics/)
+  * [http://www.phaedra.io/](http://www.phaedra.io/)
+  * [https://moodle.polytech.unice.fr/course/view.php?id=33](https://moodle.polytech.unice.fr/course/view.php?id=33)
+  * [https://azure.microsoft.com/fr-fr/documentation/articles/machine-learning-algorithm-cheat-sheet/](https://azure.microsoft.com/fr-fr/documentation/articles/machine-learning-algorithm-cheat-sheet/)
+       
      

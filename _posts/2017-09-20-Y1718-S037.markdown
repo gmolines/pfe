@@ -63,4 +63,10 @@ Un tableau comparatif mettant en évidence les points forts / faibles de chaque 
   * Type : Engineering
   * Parcours Recommandés : SD
   * Équipe: Sparks
+
+#### Références
+
+  * [http://weka.wikispaces.com/](http://weka.wikispaces.com/)
+  * [https://docs.google.com/presentation/d/1pBPxYitjK3dzi7ItB6em6Q4giwSS82qPLJCKO2Z1Q80/edit?usp=sharing](https://docs.google.com/presentation/d/1pBPxYitjK3dzi7ItB6em6Q4giwSS82qPLJCKO2Z1Q80/edit?usp=sharing)
+       
      

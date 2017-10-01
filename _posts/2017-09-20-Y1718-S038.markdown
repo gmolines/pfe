@@ -72,4 +72,11 @@ A report and a Flowfox implementation
   * Type : Engineering
   * Parcours Recommandés : CASPAR
   * Équipe: N/A
+
+#### Références
+
+  * [https://www.owasp.org/index.php/Top_10_2017-Top_10](https://www.owasp.org/index.php/Top_10_2017-Top_10)
+  * [https://www.cs.cornell.edu/andru/papers/jsac/sm-jsac03.pdf](https://www.cs.cornell.edu/andru/papers/jsac/sm-jsac03.pdf)
+  * [http://www.cse.chalmers.se/~andrei/sabelfeld-sands-jcs07.pdf ](http://www.cse.chalmers.se/~andrei/sabelfeld-sands-jcs07.pdf )
+       
      

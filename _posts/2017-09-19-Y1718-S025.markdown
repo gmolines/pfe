@@ -47,4 +47,11 @@ Cette étude doit permettre d’identifier des failles de sécurité sur différ
   * Type : Engineering
   * Parcours Recommandés : CASPAR
   * Équipe: SPARKS
+
+#### Références
+
+  * [http://www.ciusante.org](http://www.ciusante.org)
+  * [http://www.sciencedirect.com/science/article/pii/S1389128610001568](http://www.sciencedirect.com/science/article/pii/S1389128610001568)
+  * [http://dx.doi.org/10.1016/j.comnet.2014.11.008](http://dx.doi.org/10.1016/j.comnet.2014.11.008)
+       
      
