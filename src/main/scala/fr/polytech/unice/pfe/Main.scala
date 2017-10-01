@@ -129,6 +129,16 @@ trait Project {
        |
        |${this.specific}
        |
+       |#### Besoins Clients
+       |${common.reqs}
+       |
+       |#### Résultats Attendus
+       |${common.results}
+       |
+       |#### Références
+       |
+       |${(common.biblio map { ref => s"  * [$ref]($ref)" }).mkString("\n")}
+       |
        |#### Informations Administratives
        |  * Contact : ${common.firstName} ${common.lastName} <${common.email}>
        |  * Identifiant sujet : `${common.pid}`
@@ -136,15 +146,6 @@ trait Project {
        |  * Parcours Recommandés : ${(common.majors map {_.toUpperCase}).mkString(",")}
        |  * Équipe: ${common.team}
        |
-       |#### Références
-       |
-       |${(common.biblio map { ref => s"  * [$ref]($ref)" }).mkString("\n")}
-       |
-       |#### Besoins Clients
-       |${common.reqs}
-       |
-       |#### Résultats Attendus
-       |${common.results}
      """.stripMargin
 
    cartouche + body
