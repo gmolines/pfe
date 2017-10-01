@@ -159,7 +159,7 @@ trait Project {
 
 case class Common( pid: String, date: String, hour: String, firstName: String, lastName: String, email: String,
   title : String, majors: Set[String], description: String, descriptionDetaillee: String, skills: String,
-  team: String, biblio: Set[String], reqs: String, results: String)
+  team: String, biblio: Set[String], reqs: String, results: String, effectifMin: String, effectifMax: String)
 
 case class Research(common: Common) extends Project {
   override def specific: String = {
