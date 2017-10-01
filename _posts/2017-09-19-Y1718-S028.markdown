@@ -44,10 +44,12 @@ La prédiction des retards doit tenir compte de nombreux éléments, y compris d
   * Parcours Recommandés : SD
   * Équipe: SIS/MediaCoding
 
+ blah blah
 #### Références
+ blah blah
 
   * [http://deeplearning.net/](http://deeplearning.net/)
   * [https://spark.apache.org/](https://spark.apache.org/)
   * [https://www.codementor.io/jadianes/mllib-basic-statistics-exploratory-data-analysis-du107nxsy](https://www.codementor.io/jadianes/mllib-basic-statistics-exploratory-data-analysis-du107nxsy)
-       
+ blah blah
      

@@ -42,8 +42,10 @@ L’implémentation devra être validée sur une base d’images en microscopie 
   * Parcours Recommandés : SD
   * Équipe: Equipe Morpheme (Inria/I3S/iBV)
 
+ blah blah
 #### Références
+ blah blah
 
 
-       
+ blah blah
      

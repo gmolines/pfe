@@ -48,8 +48,10 @@ Notre besoin est d'améliorer l'affichage interactif des données coté client. 
   * Parcours Recommandés : SD
   * Équipe: SIS - Mediacoding
 
+ blah blah
 #### Références
+ blah blah
 
 
-       
+ blah blah
      

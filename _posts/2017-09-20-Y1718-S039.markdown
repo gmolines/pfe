@@ -41,9 +41,11 @@ We expect both:
   * Parcours Recommandés : CASPAR,IHM,WEB
   * Équipe: SPARKS
 
+ blah blah
 #### Références
+ blah blah
 
   * [https://841cd919-a-62cb3a1a-s-sites.googlegroups.com/site/ludovicpietrecambacedes/publications/files/RESS-2012-preprint.pdf?attachauth=ANoY7cpEhZNlFUiNyusaQrpQ6bl-sCC2ZXorvDEUAv2LkFgle3oJnsaZISKDChpfHbfapuCOAc9O5TnxbzkKTRwwGKGCkHcEQ1iJ3nHhW1KBiJWCMS9yoLEEhGHGyYhjYkC7qV4zMiMA5Lk9T2ZsZkqUnlhNOxoomhoMuwlXyOO5RRLWJi_GVyDd4QoatblIlOz2O9j2SVibnagEcPnndalvLx35mWZLF8C3o9Lt-3lsMUcjocDffQSJAcMck07Jz3p_yHguun6V5Enm4RLAbcg7E0h0q1eOMA%3D%3D&attredirects=0](https://841cd919-a-62cb3a1a-s-sites.googlegroups.com/site/ludovicpietrecambacedes/publications/files/RESS-2012-preprint.pdf?attachauth=ANoY7cpEhZNlFUiNyusaQrpQ6bl-sCC2ZXorvDEUAv2LkFgle3oJnsaZISKDChpfHbfapuCOAc9O5TnxbzkKTRwwGKGCkHcEQ1iJ3nHhW1KBiJWCMS9yoLEEhGHGyYhjYkC7qV4zMiMA5Lk9T2ZsZkqUnlhNOxoomhoMuwlXyOO5RRLWJi_GVyDd4QoatblIlOz2O9j2SVibnagEcPnndalvLx35mWZLF8C3o9Lt-3lsMUcjocDffQSJAcMck07Jz3p_yHguun6V5Enm4RLAbcg7E0h0q1eOMA%3D%3D&attredirects=0)
   * [http://www.eurecom.fr/fr/publication/4186/download/rs-publi-4186.pdf](http://www.eurecom.fr/fr/publication/4186/download/rs-publi-4186.pdf)
-       
+ blah blah
      

@@ -44,9 +44,11 @@ Cette étude doit permettre à différents types d’utilisateurs d’utiliser d
   * Parcours Recommandés : CASPAR,IHM
   * Équipe: SPARKS
 
+ blah blah
 #### Références
+ blah blah
 
   * [http://dx.doi.org/10.14722/eurosec.2016.23001](http://dx.doi.org/10.14722/eurosec.2016.23001)
   * [http://dx.doi.org/10.14722/eurosec.2017.23004](http://dx.doi.org/10.14722/eurosec.2017.23004)
-       
+ blah blah
      

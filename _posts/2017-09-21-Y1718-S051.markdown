@@ -53,11 +53,13 @@ Bien évidemment, vous serez accompagné dans toute cette tâche.
   * Parcours Recommandés : WEB
   * Équipe: SPARKS
 
+ blah blah
 #### Références
+ blah blah
 
   * [https://astro.temple.edu/~tua87106/sdm16.pdf](https://astro.temple.edu/~tua87106/sdm16.pdf)
   * [https://arxiv.org/pdf/1607.07519](https://arxiv.org/pdf/1607.07519)
   * [http://aclweb.org/anthology/W/W16/W16-2926.pdf	](http://aclweb.org/anthology/W/W16/W16-2926.pdf	)
   * [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5341604/pdf/nihms-845642.pdf](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5341604/pdf/nihms-845642.pdf)
-       
+ blah blah
      

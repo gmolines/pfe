@@ -36,9 +36,11 @@ Documentation technique qui décrit la solution proposée.
   * Parcours Recommandés : AL
   * Équipe: Kairos / COMRED
 
+ blah blah
 #### Références
+ blah blah
 
   * [https://rtsys.informatik.uni-kiel.de/confluence/display/KIELER](https://rtsys.informatik.uni-kiel.de/confluence/display/KIELER)
   * [http://dx.doi.org/10.1109/RSP.2012.6380695](http://dx.doi.org/10.1109/RSP.2012.6380695)
-       
+ blah blah
      

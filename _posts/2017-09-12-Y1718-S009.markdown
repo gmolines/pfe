@@ -36,8 +36,10 @@ Un modèle de plugin WebAudio, des exemples prototypes de plugins et d'applicati
   * Parcours Recommandés : IHM,WEB
   * Équipe: WIMMICS
 
+ blah blah
 #### Références
+ blah blah
 
 
-       
+ blah blah
      

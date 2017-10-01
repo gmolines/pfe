@@ -49,9 +49,11 @@ The different tasks/deliverable of the PFE are the following:
   * Parcours Recommandés : SD
   * Équipe: SIS / MediaCoding
 
+ blah blah
 #### Références
+ blah blah
 
   * [http://www.nature.com/polopoly_fs/1.20496!/menu/main/topColumns/topLeftColumn/pdf/537022a.pdf](http://www.nature.com/polopoly_fs/1.20496!/menu/main/topColumns/topLeftColumn/pdf/537022a.pdf)
   * [https://ai2-s2-pdfs.s3.amazonaws.com/b972/5dc8381ad9ca0f853ca6576a6c326dc594f1.pdf](https://ai2-s2-pdfs.s3.amazonaws.com/b972/5dc8381ad9ca0f853ca6576a6c326dc594f1.pdf)
-       
+ blah blah
      

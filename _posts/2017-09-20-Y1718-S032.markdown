@@ -50,10 +50,12 @@ Pendant les 4 semaines à temps plein, des prototypes hautes fidélité à faire
   * Parcours Recommandés : IHM
   * Équipe: Sparks
 
+ blah blah
 #### Références
+ blah blah
 
   * [https://developers.facebook.com/videos/f8-2017/-the-evolution-of-dynamic-streaming/](https://developers.facebook.com/videos/f8-2017/-the-evolution-of-dynamic-streaming/)
   * [https://www.lesnumeriques.com/tv-televiseur/utiliser-google-cast-sur-televiseur-android-tv-a3009.html](https://www.lesnumeriques.com/tv-televiseur/utiliser-google-cast-sur-televiseur-android-tv-a3009.html)
   * [https://www.youtube.com/watch?v=cJg_tPB0Nu0](https://www.youtube.com/watch?v=cJg_tPB0Nu0)
-       
+ blah blah
      

@@ -40,11 +40,13 @@ We firstly expect the development of a translation tool for encoding security-re
   * Parcours Recommandés : AL,CASPAR
   * Équipe: SPARKS
 
+ blah blah
 #### Références
+ blah blah
 
   * [http://pp.ipd.kit.edu/projects/joana/](http://pp.ipd.kit.edu/projects/joana/)
   * [https://github.com/joana-team/joana](https://github.com/joana-team/joana)
   * [http://cadp.inria.fr/](http://cadp.inria.fr/)
   * [http://cadp.inria.fr/man/evaluator.html](http://cadp.inria.fr/man/evaluator.html)
-       
+ blah blah
      

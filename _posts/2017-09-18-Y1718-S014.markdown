@@ -47,10 +47,12 @@ En particulier:
   * Parcours Recommandés : AL
   * Équipe: Scale
 
+ blah blah
 #### Références
+ blah blah
 
   * [http://www.btrplace.org/pubs/hermenier-socc17.pdf](http://www.btrplace.org/pubs/hermenier-socc17.pdf)
   * [http://www.btrplace.org/](http://www.btrplace.org/)
   * [https://wiki.openstack.org/wiki/Nova](https://wiki.openstack.org/wiki/Nova)
-       
+ blah blah
      

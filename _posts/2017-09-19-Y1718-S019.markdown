@@ -35,11 +35,13 @@ Cette étude est destiné à aider à des développer et/ou évaluateurs des int
   * Parcours Recommandés : IHM
   * Équipe: SPARKS
 
+ blah blah
 #### Références
+ blah blah
 
   * [http://doi.acm.org/10.1145/2207676.2208676](http://doi.acm.org/10.1145/2207676.2208676)
   * [http://doi.acm.org/10.1145/1526709.1526817](http://doi.acm.org/10.1145/1526709.1526817)
   * [http://www.techspot.com/news/46484-developer-finds-hidden-smartphone-logging-app.html](http://www.techspot.com/news/46484-developer-finds-hidden-smartphone-logging-app.html)
   * [http://dl.acm.org/citation.cfm?id=371593&dl=ACM&coll=DL&CFID=986588961&CFTOKEN=68683614](http://dl.acm.org/citation.cfm?id=371593&dl=ACM&coll=DL&CFID=986588961&CFTOKEN=68683614)
-       
+ blah blah
      

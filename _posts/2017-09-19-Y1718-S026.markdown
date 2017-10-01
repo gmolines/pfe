@@ -41,9 +41,11 @@ Cette étude doit permettre de faire un état de l’art sur les problèmes d’
   * Parcours Recommandés : CASPAR,IHM
   * Équipe: SPARKS
 
+ blah blah
 #### Références
+ blah blah
 
   * [http://dx.doi.org/10.14722/eurousec.2017.230016](http://dx.doi.org/10.14722/eurousec.2017.230016)
   * [http://dx.doi.org/10.14722/eurousec.2016.23012](http://dx.doi.org/10.14722/eurousec.2016.23012)
-       
+ blah blah
      

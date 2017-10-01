@@ -54,8 +54,10 @@ code + rapport
   * Parcours Recommandés : SD
   * Équipe: SPARKS
 
+ blah blah
 #### Références
+ blah blah
 
   * [https://nyx.unice.fr/proton/biblio/displayReference.php?export=htmlLong&&idPaper=2781](https://nyx.unice.fr/proton/biblio/displayReference.php?export=htmlLong&&idPaper=2781)
-       
+ blah blah
      

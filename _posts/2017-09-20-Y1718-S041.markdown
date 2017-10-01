@@ -47,11 +47,13 @@ Une transformation et sa mise en oeuvre dans un serveur
   * Parcours Recommandés : WEB
   * Équipe: Wimmics
 
+ blah blah
 #### Références
+ blah blah
 
   * [http://ns.inria.fr/sparql-template](http://ns.inria.fr/sparql-template)
   * [http://ns.inria.fr/sparql-extension](http://ns.inria.fr/sparql-extension)
   * [https://hal.inria.fr/hal-01186047v1](https://hal.inria.fr/hal-01186047v1)
   * [https://hal.inria.fr/hal-01589162v1](https://hal.inria.fr/hal-01589162v1)
-       
+ blah blah
      

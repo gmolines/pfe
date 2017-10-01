@@ -36,9 +36,11 @@ Un logiciel de bonne qualité
   * Parcours Recommandés : WEB
   * Équipe: COMRED/Scale
 
+ blah blah
 #### Références
+ blah blah
 
   * [https://jena.apache.org/](https://jena.apache.org/)
   * [http://storm.apache.org/](http://storm.apache.org/)
-       
+ blah blah
      

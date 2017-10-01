@@ -40,9 +40,11 @@ Il faut tenir en compte les besoin de l’équipe de conception/évaluation du s
   * Parcours Recommandés : IHM
   * Équipe: SPARKS
 
+ blah blah
 #### Références
+ blah blah
 
   * [http://attrakdiff.de/](http://attrakdiff.de/)
   * [http://dl.acm.org/citation.cfm?id=2817913](http://dl.acm.org/citation.cfm?id=2817913)
-       
+ blah blah
      

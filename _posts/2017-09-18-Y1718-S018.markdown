@@ -43,9 +43,11 @@ Les utilisateurs sont de concepteurs et/ou évaluateurs de systèmes interactifs
   * Parcours Recommandés : IHM
   * Équipe: SPARKS
 
+ blah blah
 #### Références
+ blah blah
 
   * [https://link.springer.com/chapter/10.1007/978-3-642-34347-6_4](https://link.springer.com/chapter/10.1007/978-3-642-34347-6_4)
   * [https://www.google.fr/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=0ahUKEwid-Ku7oa_WAhWB1hoKHb0ZD3gQFggoMAA&url=https%3A%2F%2Fwww.irit.fr%2F~Marco.Winckler%2Fpublications%2F2007-EIS.pdf&usg=AFQjCNF7taM_ECXMTO1ljirl4PDEZGCbtg](https://www.google.fr/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=0ahUKEwid-Ku7oa_WAhWB1hoKHb0ZD3gQFggoMAA&url=https%3A%2F%2Fwww.irit.fr%2F~Marco.Winckler%2Fpublications%2F2007-EIS.pdf&usg=AFQjCNF7taM_ECXMTO1ljirl4PDEZGCbtg)
-       
+ blah blah
      

@@ -35,10 +35,12 @@ La(es) technique(s) de visualisation développée(s) doivent s’intégrer dans 
   * Parcours Recommandés : IHM,WEB
   * Équipe: SPARKS
 
+ blah blah
 #### Références
+ blah blah
 
   * [https://d3js.org/](https://d3js.org/)
   * [https://www2.pelotas.ifsul.edu.br/~cava/MGExplorer4/](https://www2.pelotas.ifsul.edu.br/~cava/MGExplorer4/)
   * [http://dl.acm.org/citation.cfm?id=3019684&dl=ACM&coll=DL&CFID=986588961&CFTOKEN=68683614](http://dl.acm.org/citation.cfm?id=3019684&dl=ACM&coll=DL&CFID=986588961&CFTOKEN=68683614)
-       
+ blah blah
      

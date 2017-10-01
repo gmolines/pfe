@@ -63,9 +63,11 @@ The cartography of the computing devices interactions in the wild
   * Parcours Recommandés : CASPAR
   * Équipe: SIS / SigNet
 
+ blah blah
 #### Références
+ blah blah
 
   * [http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.121.2318&rep=rep1&type=pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.121.2318&rep=rep1&type=pdf)
   * [http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.84.9649&rep=rep1&type=pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.84.9649&rep=rep1&type=pdf)
-       
+ blah blah
      
