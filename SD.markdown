@@ -1,15 +1,15 @@
 ---
 layout: page
-title: GMD
-longtitle: Génie Multimédia pour les Données massives
+title: SD
+longtitle: Sciences des Données
 shortcut: true
-permalink: /gmd/
+permalink: /sd/
 ---
 
 {% assign sorted_posts = (site.posts | sort: 'title') %}
 
 {% for post in sorted_posts %}
-    {% if post.categories contains 'gmd' and post.categories contains 'dispo' %}
+    {% if post.categories contains 'sd' and post.categories contains 'dispo' %}
 ### {{post.title}}    
   * Contact: {{post.contact}}
   * Identifiant projet: {{$post.pid}}
