@@ -39,7 +39,7 @@ object ProjectFactory {
 
 
   def apply(row: Row): Project = {
-    val pid = f"Y1516-S${row.getRowNum}%03d"
+    val pid = f"Y1718-S${row.getRowNum}%03d"
     println(s"## Handling project [$pid]")
 
     if (row.getCell(17).getStringCellValue == "yes") {
@@ -87,7 +87,7 @@ object ProjectFactory {
     (data.split(",") filter { _.contains(":") } map { d => d.split(":")(0) }).toSet
   }
 
-//  def buildMajors(isAL: String, isCaspar: String, isGMD: String, isIHM: String, isIAM: String, isWEB: String): Set[String] = {
+//  def buildMajors(isAL: String, isCaspar: String, isSD: String, isIHM: String, isIAM: String, isWEB: String): Set[String] = {
 //  	var res = Set.empty[String]
 //	val res = scala.collection.mutable.Map[String, String]()
 //  	if (isAL == "yes") {
@@ -98,9 +98,9 @@ object ProjectFactory {
 //  		res put ("CASPAR","")
 //		res += "CASPAR"
 //  	}
-//  	if (isGMD == "yes") {
-//  		res put ("GMD","")
-//		res += "GMD"
+//  	if (isSD == "yes") {
+//  		res put ("SD","")
+//		res += "SD"
 //  	}
 //  	if (isIHM == "yes") {
 //  		res put ("IHM","")
