@@ -25,6 +25,16 @@ JavaScript, idée de comment marche un ampli guitare ou du moins, du son produit
 
      
 
+#### Besoins Clients
+Avoir plusieurs modèles d'amplificateurs "classic rock" recréés dans une application Web.
+
+#### Résultats Attendus
+Un ou deux amplis simulés de plus.
+
+#### Références
+
+  * [http://eecs.qmul.ac.uk/~keno/26.pdf](http://eecs.qmul.ac.uk/~keno/26.pdf)
+
 #### Informations Administratives
   * Contact : Michel Buffa <buffa@unice.fr>
   * Identifiant sujet : `Y1718-S010`
@@ -32,13 +42,4 @@ JavaScript, idée de comment marche un ampli guitare ou du moins, du son produit
   * Parcours Recommandés : IHM,WEB
   * Équipe: WIMMICS
 
-#### Références
-
-  * [http://eecs.qmul.ac.uk/~keno/26.pdf](http://eecs.qmul.ac.uk/~keno/26.pdf)
-
-#### Besoins Clients
-Avoir plusieurs modèles d'amplificateurs "classic rock" recréés dans une application Web.
-
-#### Résultats Attendus
-Un ou deux amplis simulés de plus.
      

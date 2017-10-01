@@ -21,20 +21,6 @@ Capacité d'analyse et synthèse. Bases sur la programmation sur smarthphone.
 
      
 
-#### Informations Administratives
-  * Contact : Marco Winckler <winckler@i3s.unice.fr>
-  * Identifiant sujet : `Y1718-S019`
-  * Type : Engineering
-  * Parcours Recommandés : IHM
-  * Équipe: SPARKS
-
-#### Références
-
-  * [http://doi.acm.org/10.1145/2207676.2208676](http://doi.acm.org/10.1145/2207676.2208676)
-  * [http://doi.acm.org/10.1145/1526709.1526817](http://doi.acm.org/10.1145/1526709.1526817)
-  * [http://www.techspot.com/news/46484-developer-finds-hidden-smartphone-logging-app.html](http://www.techspot.com/news/46484-developer-finds-hidden-smartphone-logging-app.html)
-  * [http://dl.acm.org/citation.cfm?id=371593&dl=ACM&coll=DL&CFID=986588961&CFTOKEN=68683614](http://dl.acm.org/citation.cfm?id=371593&dl=ACM&coll=DL&CFID=986588961&CFTOKEN=68683614)
-
 #### Besoins Clients
 Cette étude est destiné à aider à des développer et/ou évaluateurs des interfaces IHM déployé sur smartphone.  
 
@@ -43,4 +29,19 @@ Cette étude est destiné à aider à des développer et/ou évaluateurs des int
 •	Expérimentation des outils de log sur smartphone et analyse comparative par rapport aux types d’événement collecté, intégration avec d’autres applications, contraintes de confidentialité, etc.
 •	Identification de techniques de visualisation susceptible de représenter les évènements collectés ; 
 •	Proposition et prototypage d’une (ou plusieurs) technique de visualisation pour la représentation d’évènement de log ; 
+
+#### Références
+
+  * [http://doi.acm.org/10.1145/2207676.2208676](http://doi.acm.org/10.1145/2207676.2208676)
+  * [http://doi.acm.org/10.1145/1526709.1526817](http://doi.acm.org/10.1145/1526709.1526817)
+  * [http://www.techspot.com/news/46484-developer-finds-hidden-smartphone-logging-app.html](http://www.techspot.com/news/46484-developer-finds-hidden-smartphone-logging-app.html)
+  * [http://dl.acm.org/citation.cfm?id=371593&dl=ACM&coll=DL&CFID=986588961&CFTOKEN=68683614](http://dl.acm.org/citation.cfm?id=371593&dl=ACM&coll=DL&CFID=986588961&CFTOKEN=68683614)
+
+#### Informations Administratives
+  * Contact : Marco Winckler <winckler@i3s.unice.fr>
+  * Identifiant sujet : `Y1718-S019`
+  * Type : Engineering
+  * Parcours Recommandés : IHM
+  * Équipe: SPARKS
+
      

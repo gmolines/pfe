@@ -40,6 +40,17 @@ les modules IHM, de la créativité
 
      
 
+#### Besoins Clients
+Avoir une proposition d'outils de communication innovants pour le parcours IHM
+
+#### Résultats Attendus
+A la fin des 8 premières semaines : une analyse des besoins et une spécification  des preuves de concepts les plus importantes pour la suite 
+Dans les 4 semaines ils devront mettre en place les prototypes fonctionnels, et faire des tests utilisateurs 
+
+#### Références
+
+
+
 #### Informations Administratives
   * Contact : Anne-Marie Dery-Pinna <pinna@polytech.unice.fr>
   * Identifiant sujet : `Y1718-S034`
@@ -47,14 +58,4 @@ les modules IHM, de la créativité
   * Parcours Recommandés : IHM
   * Équipe: Sparks
 
-#### Références
-
-
-
-#### Besoins Clients
-Avoir une proposition d'outils de communication innovants pour le parcours IHM
-
-#### Résultats Attendus
-A la fin des 8 premières semaines : une analyse des besoins et une spécification  des preuves de concepts les plus importantes pour la suite 
-Dans les 4 semaines ils devront mettre en place les prototypes fonctionnels, et faire des tests utilisateurs 
      

@@ -36,12 +36,11 @@ Web, Web sémantique, programmation, Java
 
      
 
-#### Informations Administratives
-  * Contact : Olivier Corby <olivier.corby@inria.fr>
-  * Identifiant sujet : `Y1718-S041`
-  * Type : Engineering
-  * Parcours Recommandés : WEB
-  * Équipe: Wimmics
+#### Besoins Clients
+Voir le sujet
+
+#### Résultats Attendus
+Une transformation et sa mise en oeuvre dans un serveur
 
 #### Références
 
@@ -50,9 +49,11 @@ Web, Web sémantique, programmation, Java
   * [https://hal.inria.fr/hal-01186047v1](https://hal.inria.fr/hal-01186047v1)
   * [https://hal.inria.fr/hal-01589162v1](https://hal.inria.fr/hal-01589162v1)
 
-#### Besoins Clients
-Voir le sujet
+#### Informations Administratives
+  * Contact : Olivier Corby <olivier.corby@inria.fr>
+  * Identifiant sujet : `Y1718-S041`
+  * Type : Engineering
+  * Parcours Recommandés : WEB
+  * Équipe: Wimmics
 
-#### Résultats Attendus
-Une transformation et sa mise en oeuvre dans un serveur
      

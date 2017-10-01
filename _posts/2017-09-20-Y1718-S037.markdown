@@ -52,6 +52,18 @@ Programmation java, de la rigueur pour rendre reproductible les exécutions
 
      
 
+#### Besoins Clients
+identifier des critères de comparaisons permettant de dire qu'un algorithme sera a priori meilleur qu'un autre pour un jeu de donnée précis.
+
+#### Résultats Attendus
+Du code permettant de lancer les différents algorithmes afin d'obtenir leur performance
+Un tableau comparatif mettant en évidence les points forts / faibles de chaque algorithmes
+
+#### Références
+
+  * [http://weka.wikispaces.com/](http://weka.wikispaces.com/)
+  * [https://docs.google.com/presentation/d/1pBPxYitjK3dzi7ItB6em6Q4giwSS82qPLJCKO2Z1Q80/edit?usp=sharing](https://docs.google.com/presentation/d/1pBPxYitjK3dzi7ItB6em6Q4giwSS82qPLJCKO2Z1Q80/edit?usp=sharing)
+
 #### Informations Administratives
   * Contact : Michel Riveill <michel.riveill@unice.fr>
   * Identifiant sujet : `Y1718-S037`
@@ -59,15 +71,4 @@ Programmation java, de la rigueur pour rendre reproductible les exécutions
   * Parcours Recommandés : SD
   * Équipe: Sparks
 
-#### Références
-
-  * [http://weka.wikispaces.com/](http://weka.wikispaces.com/)
-  * [https://docs.google.com/presentation/d/1pBPxYitjK3dzi7ItB6em6Q4giwSS82qPLJCKO2Z1Q80/edit?usp=sharing](https://docs.google.com/presentation/d/1pBPxYitjK3dzi7ItB6em6Q4giwSS82qPLJCKO2Z1Q80/edit?usp=sharing)
-
-#### Besoins Clients
-identifier des critères de comparaisons permettant de dire qu'un algorithme sera a priori meilleur qu'un autre pour un jeu de donnée précis.
-
-#### Résultats Attendus
-Du code permettant de lancer les différents algorithmes afin d'obtenir leur performance
-Un tableau comparatif mettant en évidence les points forts / faibles de chaque algorithmes
      

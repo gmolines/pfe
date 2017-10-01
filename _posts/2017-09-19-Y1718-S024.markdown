@@ -30,18 +30,6 @@ Autres encadrants:
 
      
 
-#### Informations Administratives
-  * Contact : KARIMA BOUDAOUD <karima.boudaoud@unice.fr>
-  * Identifiant sujet : `Y1718-S024`
-  * Type : Engineering
-  * Parcours Recommandés : CASPAR,IHM
-  * Équipe: SPARKS
-
-#### Références
-
-  * [http://dx.doi.org/10.14722/eurosec.2016.23001](http://dx.doi.org/10.14722/eurosec.2016.23001)
-  * [http://dx.doi.org/10.14722/eurosec.2017.23004](http://dx.doi.org/10.14722/eurosec.2017.23004)
-
 #### Besoins Clients
 Cette étude doit permettre à différents types d’utilisateurs d’utiliser des mécanismes d’authentification qui soient facilement utilisables et suffisamment sécurisés.
 
@@ -49,5 +37,18 @@ Cette étude doit permettre à différents types d’utilisateurs d’utiliser d
 •	Comparaison des mécanismes d’authentification existants pour les smartphones
 •	Implémentation de 3 mécanismes d’authentification ; 
 •	Proposition de plusieurs variantes de ces mécanismes en proposant différents IHMs.
+
+
+#### Références
+
+  * [http://dx.doi.org/10.14722/eurosec.2016.23001](http://dx.doi.org/10.14722/eurosec.2016.23001)
+  * [http://dx.doi.org/10.14722/eurosec.2017.23004](http://dx.doi.org/10.14722/eurosec.2017.23004)
+
+#### Informations Administratives
+  * Contact : KARIMA BOUDAOUD <karima.boudaoud@unice.fr>
+  * Identifiant sujet : `Y1718-S024`
+  * Type : Engineering
+  * Parcours Recommandés : CASPAR,IHM
+  * Équipe: SPARKS
 
      

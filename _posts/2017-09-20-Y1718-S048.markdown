@@ -30,6 +30,16 @@ Suivre le module "Web of Data"
 
      
 
+#### Besoins Clients
+Etude des outils de liage de données, comparaison des niveaux de précision et d'exhaustivité des liens découverts
+
+#### Résultats Attendus
+Comparatif des outils. Liage concret de TAXREF avec des jeux de données publiés sur le Web
+
+#### Références
+
+
+
 #### Informations Administratives
   * Contact : Michel Franck <franck.michel@cnrs.fr>
   * Identifiant sujet : `Y1718-S048`
@@ -37,13 +47,4 @@ Suivre le module "Web of Data"
   * Parcours Recommandés : WEB
   * Équipe: SPARKS
 
-#### Références
-
-
-
-#### Besoins Clients
-Etude des outils de liage de données, comparaison des niveaux de précision et d'exhaustivité des liens découverts
-
-#### Résultats Attendus
-Comparatif des outils. Liage concret de TAXREF avec des jeux de données publiés sur le Web
      

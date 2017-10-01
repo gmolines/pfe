@@ -28,20 +28,6 @@ Curiosité, Adaptabilité
 
      
 
-#### Informations Administratives
-  * Contact : Diane Lingrand <lingrand@i3s.unice.fr>
-  * Identifiant sujet : `Y1718-S027`
-  * Type : Engineering
-  * Parcours Recommandés : AL,SD
-  * Équipe: SPARKS
-
-#### Références
-
-  * [https://www.ibm.com/analytics/watson-analytics/](https://www.ibm.com/analytics/watson-analytics/)
-  * [http://www.phaedra.io/](http://www.phaedra.io/)
-  * [https://moodle.polytech.unice.fr/course/view.php?id=33](https://moodle.polytech.unice.fr/course/view.php?id=33)
-  * [https://azure.microsoft.com/fr-fr/documentation/articles/machine-learning-algorithm-cheat-sheet/](https://azure.microsoft.com/fr-fr/documentation/articles/machine-learning-algorithm-cheat-sheet/)
-
 #### Besoins Clients
 D’un point de vue utilisateur final, il s’agit de :
 faciliter la construction d’un workflow en fonction de son problème métier lié à des masses d’images et des données dont il dispose. Ainsi un utilisateur pourra demander à rechercher des voitures dans sa base d’images au lieu de dire qu’il veut appliquer des algorithmes de classification sur une base de vecteurs d’entiers.
@@ -56,4 +42,19 @@ Caractérisation de quelques grandes familles de besoin en matière de ML et ana
 Identification d’outils permettant de répondre aux besoins
 Prototype d’interface graphique (De préférence avec AngularJS)
 (Facultatif) Connexion à ROCKFlows
+
+#### Références
+
+  * [https://www.ibm.com/analytics/watson-analytics/](https://www.ibm.com/analytics/watson-analytics/)
+  * [http://www.phaedra.io/](http://www.phaedra.io/)
+  * [https://moodle.polytech.unice.fr/course/view.php?id=33](https://moodle.polytech.unice.fr/course/view.php?id=33)
+  * [https://azure.microsoft.com/fr-fr/documentation/articles/machine-learning-algorithm-cheat-sheet/](https://azure.microsoft.com/fr-fr/documentation/articles/machine-learning-algorithm-cheat-sheet/)
+
+#### Informations Administratives
+  * Contact : Diane Lingrand <lingrand@i3s.unice.fr>
+  * Identifiant sujet : `Y1718-S027`
+  * Type : Engineering
+  * Parcours Recommandés : AL,SD
+  * Équipe: SPARKS
+
      

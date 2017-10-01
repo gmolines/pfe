@@ -31,6 +31,16 @@ Programmation C++, connaissances d'OpenMP, maitrise des outils de compilation
 
      
 
+#### Besoins Clients
+le besoin est une étude expérimentale des goulots d'étranglement de la librairie ENAS.
+
+#### Résultats Attendus
+une amélioration des performances.
+
+#### Références
+
+
+
 #### Informations Administratives
   * Contact : Sid Touati <Sid.Touati@inria.fr>
   * Identifiant sujet : `Y1718-S004`
@@ -38,13 +48,4 @@ Programmation C++, connaissances d'OpenMP, maitrise des outils de compilation
   * Parcours Recommandés : AL
   * Équipe: kairos
 
-#### Références
-
-
-
-#### Besoins Clients
-le besoin est une étude expérimentale des goulots d'étranglement de la librairie ENAS.
-
-#### Résultats Attendus
-une amélioration des performances.
      

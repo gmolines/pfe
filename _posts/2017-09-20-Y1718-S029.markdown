@@ -27,17 +27,6 @@ L’idée de ce projet est de mettre en place une solution logicielle intégrant
 
      
 
-#### Informations Administratives
-  * Contact : Gaëtan Rey <Gaetan.Rey@unice.fr>
-  * Identifiant sujet : `Y1718-S029`
-  * Type : Engineering
-  * Parcours Recommandés : SD,WEB
-  * Équipe: SPARKS
-
-#### Références
-
-  * [https://www.researchgate.net/publication/224160756_Educational_Data_Mining_A_Review_of_the_State_of_the_Art ](https://www.researchgate.net/publication/224160756_Educational_Data_Mining_A_Review_of_the_State_of_the_Art )
-
 #### Besoins Clients
 Il faudrait pouvoir disposer d’une solution logicielle capable d’apprendre sur les résultats des années précédentes pour conseiller les recruteurs sur les chances de réussite des candidats mais également les candidats eux même pour aider leur orientation.
 Cette solution devra être utilisable simplement par tous types de personnels de l’université et adaptable aux contraintes des formations. Chaque partie, celle des recruteurs comme celle « grand public », devra présenter une vue synthétique et adaptée au public visé.
@@ -48,5 +37,17 @@ Cette solution devra être utilisable simplement par tous types de personnels de
 	Cette plateforme devra permettre de sélectionner, mettre en œuvre et fournir des informations (détaillées et synthétiques) permettant une comparaison/évaluation des algorithmes de prédiction travaillant sur les données précédemment importées
 	Cette plateforme devra être utilisable par des non informaticiens pour les aider à interpréter les résultats
 	Une application à destination des candidats pourra être envisagée, dans un second temps, pour leur permettre d’autoévaluer leur chance de réussite et donc de les aider dans leur formation.
+
+
+#### Références
+
+  * [https://www.researchgate.net/publication/224160756_Educational_Data_Mining_A_Review_of_the_State_of_the_Art ](https://www.researchgate.net/publication/224160756_Educational_Data_Mining_A_Review_of_the_State_of_the_Art )
+
+#### Informations Administratives
+  * Contact : Gaëtan Rey <Gaetan.Rey@unice.fr>
+  * Identifiant sujet : `Y1718-S029`
+  * Type : Engineering
+  * Parcours Recommandés : SD,WEB
+  * Équipe: SPARKS
 
      

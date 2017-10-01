@@ -23,18 +23,6 @@ Techno Web (HTML 5)
 
      
 
-#### Informations Administratives
-  * Contact : Marco Winckler <winckler@i3s.unice.fr>
-  * Identifiant sujet : `Y1718-S018`
-  * Type : Engineering
-  * Parcours Recommandés : IHM
-  * Équipe: SPARKS
-
-#### Références
-
-  * [https://link.springer.com/chapter/10.1007/978-3-642-34347-6_4](https://link.springer.com/chapter/10.1007/978-3-642-34347-6_4)
-  * [https://www.google.fr/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=0ahUKEwid-Ku7oa_WAhWB1hoKHb0ZD3gQFggoMAA&url=https%3A%2F%2Fwww.irit.fr%2F~Marco.Winckler%2Fpublications%2F2007-EIS.pdf&usg=AFQjCNF7taM_ECXMTO1ljirl4PDEZGCbtg](https://www.google.fr/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=0ahUKEwid-Ku7oa_WAhWB1hoKHb0ZD3gQFggoMAA&url=https%3A%2F%2Fwww.irit.fr%2F~Marco.Winckler%2Fpublications%2F2007-EIS.pdf&usg=AFQjCNF7taM_ECXMTO1ljirl4PDEZGCbtg)
-
 #### Besoins Clients
 Les utilisateurs sont de concepteurs et/ou évaluateurs de systèmes interactifs.
 
@@ -48,5 +36,18 @@ Les utilisateurs sont de concepteurs et/ou évaluateurs de systèmes interactifs
 •	Pour faciliter la collaboration entre les utilisateurs qui devront pouvoir alimenter la base de données à distance, le développement avec des technologies Web s’impose. 
 •	L’application doit pouvoir être accessible sur plusieurs navigateurs Web. 
 •	Il faudrait tout même une interface d’administration pour contrôler l’accès des nouveaux utilisateurs (admis sur création de compte) et vérifier qu’ils ne vandalisent pas la base de données, par exemple, un utilisateur peux laisser un commentaire sur n’importe quelle règle mais il ne peut pas modifier/effacer une règles qu’il n’aura pas ajouter à la basé. 
+
+
+#### Références
+
+  * [https://link.springer.com/chapter/10.1007/978-3-642-34347-6_4](https://link.springer.com/chapter/10.1007/978-3-642-34347-6_4)
+  * [https://www.google.fr/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=0ahUKEwid-Ku7oa_WAhWB1hoKHb0ZD3gQFggoMAA&url=https%3A%2F%2Fwww.irit.fr%2F~Marco.Winckler%2Fpublications%2F2007-EIS.pdf&usg=AFQjCNF7taM_ECXMTO1ljirl4PDEZGCbtg](https://www.google.fr/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=0ahUKEwid-Ku7oa_WAhWB1hoKHb0ZD3gQFggoMAA&url=https%3A%2F%2Fwww.irit.fr%2F~Marco.Winckler%2Fpublications%2F2007-EIS.pdf&usg=AFQjCNF7taM_ECXMTO1ljirl4PDEZGCbtg)
+
+#### Informations Administratives
+  * Contact : Marco Winckler <winckler@i3s.unice.fr>
+  * Identifiant sujet : `Y1718-S018`
+  * Type : Engineering
+  * Parcours Recommandés : IHM
+  * Équipe: SPARKS
 
      

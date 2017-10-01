@@ -33,12 +33,13 @@ Bonnes connaissance en Python & connaissances en Machine Learning appréciées
 
      
 
-#### Informations Administratives
-  * Contact : Frederic Precioso <precioso@unice.fr>
-  * Identifiant sujet : `Y1718-S052`
-  * Type : Engineering
-  * Parcours Recommandés : WEB
-  * Équipe: SPARKS
+#### Besoins Clients
+nous souhaitons expérimenter différentes méthodes permettant d’associer des labels à des noms de personnes, localisations, organisations, produits, etc. (en anglais : Named-entity recognition-NER). Les différentes méthodes que nous utiliserons reposeront sur différentes formes de réseaux de neurones récurrents ayant la capacité à prendre des décisions en fonction du contexte. Afin que vous puissiez vous concentrer sur la mise en œuvre des algorithmes, puis leurs comparaisons, nous utiliserons un jeu de données normalisés publiés en 2015 dans le cadre du challenge CLEF eHealth. Une partie des résultats sont connus et il sera donc possible de savoir si ces approches nouvelles permettent de faire mieux en cette fin d’année 2017 ou début 2018 qu’en 2015.
+
+#### Résultats Attendus
+- Rapport de l'étude bibliographique
+- Documentation pour l'utilisation du code écrit
+- Rapport expliquant les choix techniques
 
 #### Références
 
@@ -47,11 +48,11 @@ Bonnes connaissance en Python & connaissances en Machine Learning appréciées
   * [http://www.sciencedirect.com.proxy.unice.fr/science/article/pii/S1532046417300977/pdfft?md5=a67e08002f916c392176e7e67f9a8929&pid=1-s2.0-S1532046417300977-main.pdf](http://www.sciencedirect.com.proxy.unice.fr/science/article/pii/S1532046417300977/pdfft?md5=a67e08002f916c392176e7e67f9a8929&pid=1-s2.0-S1532046417300977-main.pdf)
   * [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5167535/pdf/nihms823957.pdf	](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5167535/pdf/nihms823957.pdf	)
 
-#### Besoins Clients
-nous souhaitons expérimenter différentes méthodes permettant d’associer des labels à des noms de personnes, localisations, organisations, produits, etc. (en anglais : Named-entity recognition-NER). Les différentes méthodes que nous utiliserons reposeront sur différentes formes de réseaux de neurones récurrents ayant la capacité à prendre des décisions en fonction du contexte. Afin que vous puissiez vous concentrer sur la mise en œuvre des algorithmes, puis leurs comparaisons, nous utiliserons un jeu de données normalisés publiés en 2015 dans le cadre du challenge CLEF eHealth. Une partie des résultats sont connus et il sera donc possible de savoir si ces approches nouvelles permettent de faire mieux en cette fin d’année 2017 ou début 2018 qu’en 2015.
+#### Informations Administratives
+  * Contact : Frederic Precioso <precioso@unice.fr>
+  * Identifiant sujet : `Y1718-S052`
+  * Type : Engineering
+  * Parcours Recommandés : WEB
+  * Équipe: SPARKS
 
-#### Résultats Attendus
-- Rapport de l'étude bibliographique
-- Documentation pour l'utilisation du code écrit
-- Rapport expliquant les choix techniques
      

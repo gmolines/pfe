@@ -45,20 +45,6 @@ Nous  recherchons  des  candidats  hautement  motivés  pour  travailler  sur  u
 
      
 
-#### Informations Administratives
-  * Contact : Pierre Kornprobst <kornprobst@sophia.inria.fr>
-  * Identifiant sujet : `Y1718-S053`
-  * Type : Engineering
-  * Parcours Recommandés : SD
-  * Équipe: SPARKS
-
-#### Références
-
-  * [https://arxiv.org/pdf/1703.00955](https://arxiv.org/pdf/1703.00955)
-  * [http://facweb.plattsburgh.edu/steve.mansfield/ARVO2017MNREADSentences.pdf](http://facweb.plattsburgh.edu/steve.mansfield/ARVO2017MNREADSentences.pdf)
-  * [http://www.icoph.org/dynamic/attachments/resources/icovisualacuity1984.pdf](http://www.icoph.org/dynamic/attachments/resources/icovisualacuity1984.pdf)
-  * [http://aclweb.org/anthology/W16-0202](http://aclweb.org/anthology/W16-0202)
-
 #### Besoins Clients
 Votre travail permettra de répondre à deux besoins principaux :
 - Le premier est celui d’élargir le corpus du matériel de test MNREAD pour les recherches nécessitant des tests répétés et pour évaluer les effets de variables de texte autres que la taille de l’impression. L’originalité de l’approche proposée est d’utiliser les réseaux de neurones récurrents, contrairement à une approche de type graphe récemment proposée, qui vont permettre de générer des phrases avec un coût calcul minimal et surtout de transférer la structure des phrases d'une langue à l'autre (transfer learning). 
@@ -68,4 +54,19 @@ Votre travail permettra de répondre à deux besoins principaux :
 - Documentation pour l'utilisation du code écrit
 - Rapport expliquant les choix techniques
 - Code implémenté en Python
+
+#### Références
+
+  * [https://arxiv.org/pdf/1703.00955](https://arxiv.org/pdf/1703.00955)
+  * [http://facweb.plattsburgh.edu/steve.mansfield/ARVO2017MNREADSentences.pdf](http://facweb.plattsburgh.edu/steve.mansfield/ARVO2017MNREADSentences.pdf)
+  * [http://www.icoph.org/dynamic/attachments/resources/icovisualacuity1984.pdf](http://www.icoph.org/dynamic/attachments/resources/icovisualacuity1984.pdf)
+  * [http://aclweb.org/anthology/W16-0202](http://aclweb.org/anthology/W16-0202)
+
+#### Informations Administratives
+  * Contact : Pierre Kornprobst <kornprobst@sophia.inria.fr>
+  * Identifiant sujet : `Y1718-S053`
+  * Type : Engineering
+  * Parcours Recommandés : SD
+  * Équipe: SPARKS
+
      

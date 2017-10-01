@@ -25,6 +25,17 @@ Java, SPARQL, RDF
 
      
 
+#### Besoins Clients
+Idéalement j'aimerais avoir un outil qui prenne une requête SPARQL et automatise le déploiement et les expérimentations
+
+#### Résultats Attendus
+Un logiciel de bonne qualité
+
+#### Références
+
+  * [https://jena.apache.org/](https://jena.apache.org/)
+  * [http://storm.apache.org/](http://storm.apache.org/)
+
 #### Informations Administratives
   * Contact : Fabrice Huet <fabrice.huet@unice.fr>
   * Identifiant sujet : `Y1718-S031`
@@ -32,14 +43,4 @@ Java, SPARQL, RDF
   * Parcours Recommandés : WEB
   * Équipe: COMRED/Scale
 
-#### Références
-
-  * [https://jena.apache.org/](https://jena.apache.org/)
-  * [http://storm.apache.org/](http://storm.apache.org/)
-
-#### Besoins Clients
-Idéalement j'aimerais avoir un outil qui prenne une requête SPARQL et automatise le déploiement et les expérimentations
-
-#### Résultats Attendus
-Un logiciel de bonne qualité
      

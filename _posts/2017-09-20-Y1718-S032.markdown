@@ -36,19 +36,6 @@ Cours de CEIHM,  intérêt pour la VR préférable, voir  environnement techniqu
 
      
 
-#### Informations Administratives
-  * Contact : Anne-Marie Dery-Pinna <pinna@polytech.unice.fr>
-  * Identifiant sujet : `Y1718-S032`
-  * Type : Engineering
-  * Parcours Recommandés : IHM
-  * Équipe: Sparks
-
-#### Références
-
-  * [https://developers.facebook.com/videos/f8-2017/-the-evolution-of-dynamic-streaming/](https://developers.facebook.com/videos/f8-2017/-the-evolution-of-dynamic-streaming/)
-  * [https://www.lesnumeriques.com/tv-televiseur/utiliser-google-cast-sur-televiseur-android-tv-a3009.html](https://www.lesnumeriques.com/tv-televiseur/utiliser-google-cast-sur-televiseur-android-tv-a3009.html)
-  * [https://www.youtube.com/watch?v=cJg_tPB0Nu0](https://www.youtube.com/watch?v=cJg_tPB0Nu0)
-
 #### Besoins Clients
 Améliorer le  Dashboard  de  suivi d’expérimentations pour vidéos en réalité virtuelle
 
@@ -56,5 +43,19 @@ Améliorer le  Dashboard  de  suivi d’expérimentations pour vidéos en réali
 A la fin des 8 premières semaines, il sera attendu une prise en main du  système existant et une première spécification des  améliorations à apporter. 
 
 Pendant les 4 semaines à temps plein, des prototypes hautes fidélité à faire valider par l'équipe puis  implémentation et test des nouvelles fonctionnalités. Le système sera ensuite utilisé lors d’une démonstration scientifique d’ici la fin du premier trimestre 2018
+
+
+#### Références
+
+  * [https://developers.facebook.com/videos/f8-2017/-the-evolution-of-dynamic-streaming/](https://developers.facebook.com/videos/f8-2017/-the-evolution-of-dynamic-streaming/)
+  * [https://www.lesnumeriques.com/tv-televiseur/utiliser-google-cast-sur-televiseur-android-tv-a3009.html](https://www.lesnumeriques.com/tv-televiseur/utiliser-google-cast-sur-televiseur-android-tv-a3009.html)
+  * [https://www.youtube.com/watch?v=cJg_tPB0Nu0](https://www.youtube.com/watch?v=cJg_tPB0Nu0)
+
+#### Informations Administratives
+  * Contact : Anne-Marie Dery-Pinna <pinna@polytech.unice.fr>
+  * Identifiant sujet : `Y1718-S032`
+  * Type : Engineering
+  * Parcours Recommandés : IHM
+  * Équipe: Sparks
 
      

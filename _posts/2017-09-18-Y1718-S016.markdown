@@ -34,6 +34,16 @@ connaissance logiciel et format 3D, utilisation d'un fablab pour créer la pyram
 
      
 
+#### Besoins Clients
+En tant que client nous attendons des propositions de solutions techniques (logicielle pour la visualisations des modèles 3D) et matérielles (quel pc et quel support visuel - la pyramide). Ce sujet est dynamique, ouvert et offre de nombreuses possibilités.
+
+#### Résultats Attendus
+Concrêtement il faudra être capable de projeter sur une pyramide que vous aurez fabriqué un modéle 3D (fichier) qui vous sera fourni.
+
+#### Références
+
+  * [http://www.3demotion.net/project/hologramme-scenographie/](http://www.3demotion.net/project/hologramme-scenographie/)
+
 #### Informations Administratives
   * Contact : ERIC BAILLY <BAILLY@UNICE.FR>
   * Identifiant sujet : `Y1718-S016`
@@ -41,13 +51,4 @@ connaissance logiciel et format 3D, utilisation d'un fablab pour créer la pyram
   * Parcours Recommandés : IHM
   * Équipe: CMMC/ESPACE
 
-#### Références
-
-  * [http://www.3demotion.net/project/hologramme-scenographie/](http://www.3demotion.net/project/hologramme-scenographie/)
-
-#### Besoins Clients
-En tant que client nous attendons des propositions de solutions techniques (logicielle pour la visualisations des modèles 3D) et matérielles (quel pc et quel support visuel - la pyramide). Ce sujet est dynamique, ouvert et offre de nombreuses possibilités.
-
-#### Résultats Attendus
-Concrêtement il faudra être capable de projeter sur une pyramide que vous aurez fabriqué un modéle 3D (fichier) qui vous sera fourni.
      

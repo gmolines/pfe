@@ -33,19 +33,6 @@ connaissances en sécurité
 
      
 
-#### Informations Administratives
-  * Contact : KARIMA BOUDAOUD <karima.boudaoud@unice.fr>
-  * Identifiant sujet : `Y1718-S023`
-  * Type : Engineering
-  * Parcours Recommandés : CASPAR
-  * Équipe: SPARKS
-
-#### Références
-
-  * [http://www.jocm.us/uploadfile/2013/0412/20130412025359146.pdf](http://www.jocm.us/uploadfile/2013/0412/20130412025359146.pdf)
-  * [http://www.sciencedirect.com/science/article/pii/S1389128610001568](http://www.sciencedirect.com/science/article/pii/S1389128610001568)
-  * [http://dx.doi.org/10.1016/j.comnet.2014.11.008](http://dx.doi.org/10.1016/j.comnet.2014.11.008)
-
 #### Besoins Clients
 Cette étude doit permettre d’identifier les problèmes de « Privacy » et sécurité ainsi que les solutions existantes et de proposer des pistes de recherche dans le domaine.
 
@@ -54,5 +41,19 @@ Cette étude doit permettre d’identifier les problèmes de « Privacy » et s�
 •	Etude comparative des solutions de sécurité  existantes
 •	Rédaction d’un état de l’art suite aux différentes études 
 •	Proposition d’un POC (Preuve de concept) pour améliorer la sécurité et la vie privée dans le domaine de l’Internet des Objets/ Web des objets.
+
+
+#### Références
+
+  * [http://www.jocm.us/uploadfile/2013/0412/20130412025359146.pdf](http://www.jocm.us/uploadfile/2013/0412/20130412025359146.pdf)
+  * [http://www.sciencedirect.com/science/article/pii/S1389128610001568](http://www.sciencedirect.com/science/article/pii/S1389128610001568)
+  * [http://dx.doi.org/10.1016/j.comnet.2014.11.008](http://dx.doi.org/10.1016/j.comnet.2014.11.008)
+
+#### Informations Administratives
+  * Contact : KARIMA BOUDAOUD <karima.boudaoud@unice.fr>
+  * Identifiant sujet : `Y1718-S023`
+  * Type : Engineering
+  * Parcours Recommandés : CASPAR
+  * Équipe: SPARKS
 
      

@@ -23,19 +23,6 @@ Java, javascript
 
      
 
-#### Informations Administratives
-  * Contact : Julien Deantoni <julien.deantoni@polytech.unice.fr>
-  * Identifiant sujet : `Y1718-S047`
-  * Type : Engineering
-  * Parcours Recommandés : IHM,WEB
-  * Équipe: Kairos
-
-#### Références
-
-  * [http://www.i3s.unice.fr/~hogie/software/?name=grph](http://www.i3s.unice.fr/~hogie/software/?name=grph)
-  * [http://www.graphviz.org/](http://www.graphviz.org/)
-  * [https://angryloki.github.io/wikidata-graph-builder/](https://angryloki.github.io/wikidata-graph-builder/)
-
 #### Besoins Clients
 Nous voulons un visualisateur de graphe permettant de mettre en avant le résultat de certains calculs. La représentation de certains chemins dans le graph, l'application de différentes layout sont des features nécessaires. Les librairies utilisées doivent être compatible EPL. Une intégration dans eclipse (comme une vue par exemple) est un plus. 
 
@@ -43,4 +30,18 @@ Nous voulons un visualisateur de graphe permettant de mettre en avant le résult
 Un premier livrable décrivant les différentes librairies qui ont été choisies (avec le rational) ainsi que les licences associées.
 Un deuxième livrable représentant l'architecture choisie 
 La livraison du logiciel.
+
+#### Références
+
+  * [http://www.i3s.unice.fr/~hogie/software/?name=grph](http://www.i3s.unice.fr/~hogie/software/?name=grph)
+  * [http://www.graphviz.org/](http://www.graphviz.org/)
+  * [https://angryloki.github.io/wikidata-graph-builder/](https://angryloki.github.io/wikidata-graph-builder/)
+
+#### Informations Administratives
+  * Contact : Julien Deantoni <julien.deantoni@polytech.unice.fr>
+  * Identifiant sujet : `Y1718-S047`
+  * Type : Engineering
+  * Parcours Recommandés : IHM,WEB
+  * Équipe: Kairos
+
      

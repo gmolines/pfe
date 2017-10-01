@@ -52,12 +52,11 @@ Connaitre ou vouloir apprendre python
 
      
 
-#### Informations Administratives
-  * Contact : Michel Riveill <Michel.RIVEILL@unice.fr>
-  * Identifiant sujet : `Y1718-S003`
-  * Type : Engineering
-  * Parcours Recommandés : AL,CASPAR
-  * Équipe: Sparks
+#### Besoins Clients
+Savoir faire des recommandations pour un jeu de données 'standard'
+
+#### Résultats Attendus
+Avoir un système de recommandation susceptible de faire des recommandations selon deux stratégies différentes.
 
 #### Références
 
@@ -66,9 +65,11 @@ Connaitre ou vouloir apprendre python
   * [https://www.podcastscience.fm/dossiers/2012/04/25/les-algorithmes-de-recommandation/](https://www.podcastscience.fm/dossiers/2012/04/25/les-algorithmes-de-recommandation/)
   * [https://www.researchgate.net/publication/275890626_State_of_the_Art_Recommender_System](https://www.researchgate.net/publication/275890626_State_of_the_Art_Recommender_System)
 
-#### Besoins Clients
-Savoir faire des recommandations pour un jeu de données 'standard'
+#### Informations Administratives
+  * Contact : Michel Riveill <Michel.RIVEILL@unice.fr>
+  * Identifiant sujet : `Y1718-S003`
+  * Type : Engineering
+  * Parcours Recommandés : AL,CASPAR
+  * Équipe: Sparks
 
-#### Résultats Attendus
-Avoir un système de recommandation susceptible de faire des recommandations selon deux stratégies différentes.
      

@@ -27,6 +27,17 @@ Une compétence dans l'univers des drônes est requise (vous ou une connaissance
 
      
 
+#### Besoins Clients
+Les besoins sont définis : optimiser la fonction de hauteur du drone par l'ajout de plusieurs sonars, la récupération des données issues des capteurs.
+
+#### Résultats Attendus
+In finé l'utilisateur doit pouvoir décrire à travers une interface IHM simple une trajectoire, une hauteur et pouvoir récupérer sous forme d'un fichier, les coordonnées gps de chaque mesure prises.
+
+#### Références
+
+  * [https://forum.drotek.com/t/controleur-multiwii-v2-0-ajout-dun-sonar/165](https://forum.drotek.com/t/controleur-multiwii-v2-0-ajout-dun-sonar/165)
+  * [https://www.researchgate.net/publication/314239012_L%27utilisation_des_micro-drones_pour_la_prospection_archeologique_a_basse_altitude](https://www.researchgate.net/publication/314239012_L%27utilisation_des_micro-drones_pour_la_prospection_archeologique_a_basse_altitude)
+
 #### Informations Administratives
   * Contact : Eric Bailly <bailly@unice.fr>
   * Identifiant sujet : `Y1718-S017`
@@ -34,14 +45,4 @@ Une compétence dans l'univers des drônes est requise (vous ou une connaissance
   * Parcours Recommandés : IHM
   * Équipe: CMMC
 
-#### Références
-
-  * [https://forum.drotek.com/t/controleur-multiwii-v2-0-ajout-dun-sonar/165](https://forum.drotek.com/t/controleur-multiwii-v2-0-ajout-dun-sonar/165)
-  * [https://www.researchgate.net/publication/314239012_L%27utilisation_des_micro-drones_pour_la_prospection_archeologique_a_basse_altitude](https://www.researchgate.net/publication/314239012_L%27utilisation_des_micro-drones_pour_la_prospection_archeologique_a_basse_altitude)
-
-#### Besoins Clients
-Les besoins sont définis : optimiser la fonction de hauteur du drone par l'ajout de plusieurs sonars, la récupération des données issues des capteurs.
-
-#### Résultats Attendus
-In finé l'utilisateur doit pouvoir décrire à travers une interface IHM simple une trajectoire, une hauteur et pouvoir récupérer sous forme d'un fichier, les coordonnées gps de chaque mesure prises.
      

@@ -36,23 +36,24 @@ Cours de CEIHM,  intérêt pour la VR préférable, voir environnement technique
 
      
 
-#### Informations Administratives
-  * Contact : Anne-Marie Dery-Pinna <pinna@polytech.unice.fr>
-  * Identifiant sujet : `Y1718-S033`
-  * Type : Engineering
-  * Parcours Recommandés : IHM
-  * Équipe: Sparks et Signet
-
-#### Références
-
-  * [https://developers.facebook.com/videos/f8-2017/-the-evolution-of-dynamic-streaming/](https://developers.facebook.com/videos/f8-2017/-the-evolution-of-dynamic-streaming/)
-  * [https://www.youtube.com/watch?v=cJg_tPB0Nu0](https://www.youtube.com/watch?v=cJg_tPB0Nu0)
-
 #### Besoins Clients
 Etude et Implémentation d’un Configurateur d’expérimentations pour  vidéos en réalité Virtuelle. 
 
 #### Résultats Attendus
 A la fin des 8 semaines : identification des besoins de l’équipe et compréhension de l’existant 
 Pendant le mois en temps plein : la première semaine itérations sur une maquette haute-fidélité. Les 3 semaines suivantes implémentations incrémentales des fonctionnalités identifiées pour l’outil.
+
+
+#### Références
+
+  * [https://developers.facebook.com/videos/f8-2017/-the-evolution-of-dynamic-streaming/](https://developers.facebook.com/videos/f8-2017/-the-evolution-of-dynamic-streaming/)
+  * [https://www.youtube.com/watch?v=cJg_tPB0Nu0](https://www.youtube.com/watch?v=cJg_tPB0Nu0)
+
+#### Informations Administratives
+  * Contact : Anne-Marie Dery-Pinna <pinna@polytech.unice.fr>
+  * Identifiant sujet : `Y1718-S033`
+  * Type : Engineering
+  * Parcours Recommandés : IHM
+  * Équipe: Sparks et Signet
 
      

@@ -43,6 +43,16 @@ C++, OpenCV
 
      
 
+#### Besoins Clients
+voir sujet
+
+#### Résultats Attendus
+code + rapport
+
+#### Références
+
+  * [https://nyx.unice.fr/proton/biblio/displayReference.php?export=htmlLong&&idPaper=2781](https://nyx.unice.fr/proton/biblio/displayReference.php?export=htmlLong&&idPaper=2781)
+
 #### Informations Administratives
   * Contact : Diane Lingrand <lingrand@i3s.unice.fr>
   * Identifiant sujet : `Y1718-S013`
@@ -50,13 +60,4 @@ C++, OpenCV
   * Parcours Recommandés : SD
   * Équipe: SPARKS
 
-#### Références
-
-  * [https://nyx.unice.fr/proton/biblio/displayReference.php?export=htmlLong&&idPaper=2781](https://nyx.unice.fr/proton/biblio/displayReference.php?export=htmlLong&&idPaper=2781)
-
-#### Besoins Clients
-voir sujet
-
-#### Résultats Attendus
-code + rapport
      

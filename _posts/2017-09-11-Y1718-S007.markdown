@@ -33,18 +33,6 @@ Encadrement :
 
      
 
-#### Informations Administratives
-  * Contact : Eric Debreuve <eric.debreuve@cnrs.fr>
-  * Identifiant sujet : `Y1718-S007`
-  * Type : Engineering
-  * Parcours Recommandés : SD
-  * Équipe: Morpheme (mixte Inria/I3S)
-
-#### Références
-
-  * [http://greenteapress.com/thinkpython/thinkpython.pdf](http://greenteapress.com/thinkpython/thinkpython.pdf)
-  * [https://hal.archives-ouvertes.fr/hal-01383165v1](https://hal.archives-ouvertes.fr/hal-01383165v1)
-
 #### Besoins Clients
 Il s’agira d’implémenter en langage Python un algorithme de détection d’objets plus ou moins elliptiques dans une image. Cet algorithme est fondé sur la méthode des processus ponctuels marqués (PPM) qui permet de détecter simultanément un nombre quelconque d’objets tout en gérant des contraintes inter-objets telles que la tolérance à la superposition des objets (en particulier la non-superposition stricte).
 L’implémentation devra être validée par des tests sur des images de cellules en microscopie par fluorescence dans le cadre d’une étude en biologie. De plus, à l’issue du PFE, le code sera utilisé à grande échelle sur ce type d’images. Il est donc important que d’autres développeurs puissent l’intégrer dans une chaîne de traitement plus large, le débugger si besoin et le faire évoluer. Il devra donc être bien structuré et un minimum commenté/documenté. Si la qualité du code et de la documentation le permettent, le code pourra être déposé sur Python Package Index (PyPI) ou une autre plateforme, au nom de l’étudiant(e) naturellement.
@@ -53,4 +41,17 @@ L’implémentation devra être validée par des tests sur des images de cellule
 1 - Code Python
 2 - Documentation
 3 - Rapport/manuel d'utilisation type tutoriel
+
+#### Références
+
+  * [http://greenteapress.com/thinkpython/thinkpython.pdf](http://greenteapress.com/thinkpython/thinkpython.pdf)
+  * [https://hal.archives-ouvertes.fr/hal-01383165v1](https://hal.archives-ouvertes.fr/hal-01383165v1)
+
+#### Informations Administratives
+  * Contact : Eric Debreuve <eric.debreuve@cnrs.fr>
+  * Identifiant sujet : `Y1718-S007`
+  * Type : Engineering
+  * Parcours Recommandés : SD
+  * Équipe: Morpheme (mixte Inria/I3S)
+
      

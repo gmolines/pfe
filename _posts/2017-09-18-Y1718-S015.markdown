@@ -25,18 +25,6 @@ Techno Web (HTML 5)
 
      
 
-#### Informations Administratives
-  * Contact : Marco Winckler <winckler@i3s.unice.fr>
-  * Identifiant sujet : `Y1718-S015`
-  * Type : Engineering
-  * Parcours Recommandés : IHM
-  * Équipe: SPARKS
-
-#### Références
-
-  * [http://attrakdiff.de/](http://attrakdiff.de/)
-  * [http://dl.acm.org/citation.cfm?id=2817913](http://dl.acm.org/citation.cfm?id=2817913)
-
 #### Besoins Clients
 Il faut tenir en compte les besoin de l’équipe de conception/évaluation du système interactifs qui est diffusé en ligne ainsi que les besoins des utilisateurs qui participent du test. 
 
@@ -46,4 +34,17 @@ Il faut tenir en compte les besoin de l’équipe de conception/évaluation du s
 •	Un outil de diffusion qui permettrait d’attendre le public ciblé par l’expérimentation ; 
 •	Un outil de suivi et d’analyse des résultats obtenus auprès des utilisateurs ;
 •	Possibilité d’exporter les données obtenues avec l’expérimentation. 
+
+#### Références
+
+  * [http://attrakdiff.de/](http://attrakdiff.de/)
+  * [http://dl.acm.org/citation.cfm?id=2817913](http://dl.acm.org/citation.cfm?id=2817913)
+
+#### Informations Administratives
+  * Contact : Marco Winckler <winckler@i3s.unice.fr>
+  * Identifiant sujet : `Y1718-S015`
+  * Type : Engineering
+  * Parcours Recommandés : IHM
+  * Équipe: SPARKS
+
      

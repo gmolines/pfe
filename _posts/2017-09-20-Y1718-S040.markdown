@@ -24,6 +24,18 @@ Bonne maitrise de Java, Connaissance de Eclipse appréciée, Expérience dans la
 
      
 
+#### Besoins Clients
+Ajouter une étape dans la chaine de compilation/transformation de Kieler pour ajouter une nouvelle cible de génération qui intègre la prise en compte d'annotations temporelles.
+
+#### Résultats Attendus
+Plugin pour Eclipse compatible avec Kieler qui implante le mécanisme d'extension temporelle.
+Documentation technique qui décrit la solution proposée.
+
+#### Références
+
+  * [https://rtsys.informatik.uni-kiel.de/confluence/display/KIELER](https://rtsys.informatik.uni-kiel.de/confluence/display/KIELER)
+  * [http://dx.doi.org/10.1109/RSP.2012.6380695](http://dx.doi.org/10.1109/RSP.2012.6380695)
+
 #### Informations Administratives
   * Contact : Frédéric MALLET <Frederic.Mallet@inria.fr>
   * Identifiant sujet : `Y1718-S040`
@@ -31,15 +43,4 @@ Bonne maitrise de Java, Connaissance de Eclipse appréciée, Expérience dans la
   * Parcours Recommandés : AL
   * Équipe: Kairos / COMRED
 
-#### Références
-
-  * [https://rtsys.informatik.uni-kiel.de/confluence/display/KIELER](https://rtsys.informatik.uni-kiel.de/confluence/display/KIELER)
-  * [http://dx.doi.org/10.1109/RSP.2012.6380695](http://dx.doi.org/10.1109/RSP.2012.6380695)
-
-#### Besoins Clients
-Ajouter une étape dans la chaine de compilation/transformation de Kieler pour ajouter une nouvelle cible de génération qui intègre la prise en compte d'annotations temporelles.
-
-#### Résultats Attendus
-Plugin pour Eclipse compatible avec Kieler qui implante le mécanisme d'extension temporelle.
-Documentation technique qui décrit la solution proposée.
      

@@ -30,6 +30,17 @@ Encadrement :
 
      
 
+#### Besoins Clients
+L’implémentation devra être validée sur une base d’images en microscopie par fluorescence dans le cadre d’une étude en biologie. De plus, à l’issue du PFE, l’application sera utilisée à long terme. Il est donc important que d’autres développeurs puissent la débugger si besoin et la faire évoluer. Le code devra donc être bien structuré et un minimum commenté/documenté. Si la qualité du code et de la documentation le permettent, le code pourra être déposé sur Python Package Index (PyPI) ou une autre plateforme, au nom de l’étudiant(e) naturellement.
+
+#### Résultats Attendus
+- Documentation pour l'application (avec exemples d'utilisation incluant des copies d'écran)
+- Rapport de PFE expliquant les choix techniques
+
+#### Références
+
+
+
 #### Informations Administratives
   * Contact : Eric Debreuve <eric.debreuve@cnrs.fr>
   * Identifiant sujet : `Y1718-S022`
@@ -37,14 +48,4 @@ Encadrement :
   * Parcours Recommandés : SD
   * Équipe: Equipe Morpheme (Inria/I3S/iBV)
 
-#### Références
-
-
-
-#### Besoins Clients
-L’implémentation devra être validée sur une base d’images en microscopie par fluorescence dans le cadre d’une étude en biologie. De plus, à l’issue du PFE, l’application sera utilisée à long terme. Il est donc important que d’autres développeurs puissent la débugger si besoin et la faire évoluer. Le code devra donc être bien structuré et un minimum commenté/documenté. Si la qualité du code et de la documentation le permettent, le code pourra être déposé sur Python Package Index (PyPI) ou une autre plateforme, au nom de l’étudiant(e) naturellement.
-
-#### Résultats Attendus
-- Documentation pour l'application (avec exemples d'utilisation incluant des copies d'écran)
-- Rapport de PFE expliquant les choix techniques
      

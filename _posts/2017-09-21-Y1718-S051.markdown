@@ -35,20 +35,6 @@ Bonnes connaissances en Python & connaissances en Machine Learning appréciées
 
      
 
-#### Informations Administratives
-  * Contact : Michel Riveill <michel.riveill@unice.fr>
-  * Identifiant sujet : `Y1718-S051`
-  * Type : Engineering
-  * Parcours Recommandés : WEB
-  * Équipe: SPARKS
-
-#### Références
-
-  * [https://astro.temple.edu/~tua87106/sdm16.pdf](https://astro.temple.edu/~tua87106/sdm16.pdf)
-  * [https://arxiv.org/pdf/1607.07519](https://arxiv.org/pdf/1607.07519)
-  * [http://aclweb.org/anthology/W/W16/W16-2926.pdf	](http://aclweb.org/anthology/W/W16/W16-2926.pdf	)
-  * [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5341604/pdf/nihms-845642.pdf](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5341604/pdf/nihms-845642.pdf)
-
 #### Besoins Clients
 Nous souhaitons in fine que l’algorithme choisi puisse s’exécuter sur une architecture à faible empreinte énergétique.
 Pour cela, nous essayerons de comparer, divers algorithmes selon deux axes :
@@ -61,4 +47,19 @@ Bien évidemment, vous serez accompagné dans toute cette tâche.
 - Rapport de l'étude bibliographique
 - Documentation pour l'utilisation du code écrit
 - Rapport expliquant les choix techniques
+
+#### Références
+
+  * [https://astro.temple.edu/~tua87106/sdm16.pdf](https://astro.temple.edu/~tua87106/sdm16.pdf)
+  * [https://arxiv.org/pdf/1607.07519](https://arxiv.org/pdf/1607.07519)
+  * [http://aclweb.org/anthology/W/W16/W16-2926.pdf	](http://aclweb.org/anthology/W/W16/W16-2926.pdf	)
+  * [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5341604/pdf/nihms-845642.pdf](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5341604/pdf/nihms-845642.pdf)
+
+#### Informations Administratives
+  * Contact : Michel Riveill <michel.riveill@unice.fr>
+  * Identifiant sujet : `Y1718-S051`
+  * Type : Engineering
+  * Parcours Recommandés : WEB
+  * Équipe: SPARKS
+
      
