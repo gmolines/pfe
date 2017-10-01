@@ -1,0 +1,115 @@
+---
+layout: post
+title: "Decompostion de besoins utilisateurs pour l'informatique ambiante"
+date: 2017-09-01 12:17:17
+categories: [dispo, iam]
+pid: Y1718-S005
+type: Engineering
+contact: Isabelle Mirbel
+---
+       
+Le web des objets donne la possibilité aux utilisateurs de programmer les objets de tous les jours et de créer de nouveaux services au-dessus de dispositifs intégrés. L'idée de ce projet est de proposer à un utilisateur, à partir de l'expression d'un besoin de haut niveau, de pouvoir exécuter un enchaînement/assemblage de services sans avoir besoin ni de savoir comment le besoin peut-être satisfait (décomposé) ni quels services doivent être mobilisés. A partir des travaux qui ont déjà été initiés dans sens, il s'agira de proposer un langage de description sémantique des buts de haut niveau et un mécanisme de raisonnement pour générer un plan d'excution de services répondant au besoin et contrôler dynamiquement son avancement en fonction des dispositifs disponibles.
+
+Grâce à la miniaturisation des appareils informatiques et à la
+prolifération des systèmes embarqués, les ordinateurs connectés
+peuvent maintenant être facilement intégrés dans les objets du
+quotidien, les transformant en objets intelligents et donnant
+naissance au web des objets.
+
+Un des principaux objectifs du web des objets est de donner la
+possibilité aux utilisateurs de programmer ces objets de tous les
+jours et de créer de nouveaux services au-dessus de dispositifs
+intégrés. Pour cela, des travaux ont été menés pour proposer une
+infrastructure qui prend en charge la découverte et la
+recherche de dispositifs intelligents et des services qui leur sont
+associés. Mais pour tirer partie de ces objets intelligents, il est
+également nécessaire de proposer des moyens de comprendre comment
+combiner les services découverts pour créer des fonctionnalités
+avancées qui apportent une valeur ajoutée.
+
+On peut citer l'exemple d'un soignant qui souhaite mettre en place un
+suivi d'une personne âgée à domicile. Ce suivi va consister, entre
+autre, à faire en sorte que la personne suive son traitement
+(c'est-à-dire qu'elle prenne ses médicaments à heure fixe), qu'elle
+maintienne des liens avec ses proches (par exemple en regardant les
+photos mises en ligne par sa famille) et à maintenir un bon
+environnement (par exemple en aérant la pièce chaque jour). Pour lui
+faire regarder les photos, par exemple, il faudra plus précisément
+attirer son attention sur l'ordinateur et lancer l'application pour
+visionner des photos.
+
+Pour supporter ce genre de scénario, il faut pouvoir décrire les
+règles propres au domaine d'expertise (mettre en place un suivi d'une
+personne âgée à domicile c'est faire en sorte qu'elle prenne son
+traitement, qu'elle conserve des liens avec ses proches, etc) et les
+façons de les rendre effectives. Une façon effective de faire en sorte
+que la personne prenne ses médicaments consiste à attirer son
+attention à l'aide d'une lumière (c'est-à-dire la faire clignoter);
+une autre façon de faire peut consister à utiliser un indicateur
+sonore.
+
+L'idée de ce projet est de proposer à un utilisateur (le soignant), à
+partir de l'expression d'un besoin de haut niveau (mettre en place un
+suivi d'une personne âgée à domicile), de pouvoir exécuter un
+enchaînement/assemblage de services sans avoir besoin ni de savoir
+comment le besoin peut-être satisfait ni quels services doivent être
+mobilisés. Pour cela, le système envisagé aura pour vocation de (i)
+construire un plan d'exécution de services répondant à un besoin puis,
+au fur et à mesure de l'exécution du plan, de (ii) modifier
+éventuellement le plan afin de dynamiquement tenir compte des
+dispositifs ou services disponibles au moment de l'exécution des
+différentes étapes du plan. Pour cela, le projet reposera sur une
+première base de connaissances dans laquelle auront été stockées au
+préalable les besoins de haut niveau, les règles du domaine
+d'expertise et les façons de les rendre effective et une seconde base
+de connaissances dans laquelle seront publiés les services potentiels
+disponibles dans l'environnement de l'utilisateur et l'état
+d'avancement du scénario courant. Des ontologies seront utilisées pour
+décrire le mieux possible le contenu de ces bases de connaissances.
+
+
+
+#### Compétences Requises
+Une connaissance des langages est techniques du web sémantique serait un plus.
+
+
+
+     
+
+#### Besoins Clients
+Ce projet consistera donc plus précisément à :
+
+1. proposer un langage de description sémantique des buts de haut
+niveau, des règles du domaine d'expertise et des façons de les rendre
+effectives.
+
+2. constituer une base de connaissances test de ces buts de haut
+niveau, règles du domaine d'expertise et façons de les rendre
+effectives pour montrer la pertinence du langage proposé.
+
+3. proposer un mécanisme de raisonnement qui permette à partir d'un
+but de haut niveau (choisi parmi ceux présents dans la base de
+connaissances) de construire automatiquement un plan d'exécution de
+services parmi ceux publiés dans la base de connaissances et de
+dynamiquement contrôler et adapter son exécution. Ce mécanisme sera
+testé sur la base de connaissances test.
+
+4. développer un démonstrateur.
+
+
+#### Résultats Attendus
+document de description du langage de description sémantique des buts, document décrivant le fonctionnement de moteur de raisonnement, demonstrateur
+
+#### Références
+
+  * [https://research.utwente.nl/en/publications/service-tailoring-towards-personalized-homecare-systems](https://research.utwente.nl/en/publications/service-tailoring-towards-personalized-homecare-systems)
+  * [http://ieeexplore.ieee.org/document/7956523/](http://ieeexplore.ieee.org/document/7956523/)
+
+#### Informations Administratives
+  * Contact : Isabelle Mirbel <isabelle.mirbel@unice.fr>
+  * Identifiant sujet : `Y1718-S005`
+  * Type : Engineering
+  * Parcours Recommandés : IAM
+  * Équipe: SPARKS
+
+     

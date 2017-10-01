@@ -1,0 +1,55 @@
+---
+layout: post
+title: "Web des objets connectés et annotations sémantiques"
+date: 2017-09-29 12:02:44
+categories: [dispo, iam]
+pid: Y1718-S056
+type: Engineering
+contact: Jean-Yves Tigli
+---
+       
+L'objectif du projet est d'introduire des annotations et un raisonnement sémantique pour la sélection de services liés à des objets connectés pour des applications plus intelligentes.
+
+Nombre d’objets physiques de notre vie quotidienne, autrefois isolés, se trouvent aujourd’hui en capacité de d’interagir avec les utilisateurs et l’environnement physique au travers d'applications logicielles (Internet des Objets). Le trop grand nombre de standards IoT over IP font qu'aujourd'hui les technologies les plus utilisées sont celles des Web Services Logicielles pour une meilleure convergence et interopérabilité technologique. On parlera alors de Web of Things (WoT).
+
+Dès lors les objets et les services qu'ils offrent sont impliqués dans des orchestrations de services. Plus récemment ,ils peuvent même l'être de manière dynamique par des mécanismes de recherche et découverte de services et de gestion de leur disponibilités à la volée.
+
+Ainsi les applications logicielles dans les domaines des Smart Homes, Smart Cities, Smart Buildings, Smart Cars, Smart Factories, Smart Wears  ... sont maintenant des applications logicielles qui interagissent avec un grand nombre d'objets et de dispositifs connectés. Elles peuvent évoluer en permanence fonction des services logiciels offerts et disponibles à chaque instant.
+
+Exemples d'application pour un Smart Wearable Computer pour un agent de Suez Envionnement: sur https://continuum.unice.fr/demo, en particulier : https://continuum.unice.fr/_media/livrables:demo.wmv
+
+Dès lors un nouveau défi se pose. Les objets et dispositifs disponibles à chaque instant sont tellement nombreux qu'il est difficile de garantir un nombre raisonnable d'applications pertinentes sur les seules règles de composition logicielles basées sur les API des objets.
+
+Ce projet a donc pour objectif d'introduire au delà de leur API, des annotations sémantiques attachées aux objets (SWoT, Semantic Web of Things).
+
+Le mécanisme de recherche et découverte de services pourra alors s'appuyer sur ces informations sémantiques pour sélectionner de manière plus pertinente, les objets et dispositifs. Les annotations pourront porter sur des profils utilisateurs, des informations contextuelles, des données constructeurs, ...
+
+Les applications déployées se limiteront ainsi à des interactions avec un nombre plus restreint d'objets et dispositifs, et en seront plus pertinentes.
+
+Pour les étudiants intéressés par la recherche, ce sujet peut prendre une direction plus théorique et déboucher sur une thèse en bourse CIFRE avec un industriel collaborant avec le laboratoire I3S sur le sujet. En effet, dès lors que les annotations sémantiques s'appuient sur des modèles de connaissances hétérogènes (ex. diverses ontologies), le raisonnement basés sur ces connaissances nécessitent de mettre en relation des concepts qui ne le sont pas a priori. On parlera alors d'alignement sémantique et on évaluera différentes approches dans le domaine du SWoT et de la sélection dynamique de service.
+
+#### Compétences Requises
+Etudiant IAM et/ou WEB
+
+
+
+     
+
+#### Besoins Clients
+Cf détail du sujet
+
+#### Résultats Attendus
+Dans le domaine de l'ingénierie, un démonstrateur basé sur des objets connectés et un framework pour la prise en compte de la sémantique. Des expérimentations seront menées dans le cadre d'un appartement existant doté d'objts connectés.
+
+#### Références
+
+  * []()
+
+#### Informations Administratives
+  * Contact : Jean-Yves Tigli <tigli@unice.fr>
+  * Identifiant sujet : `Y1718-S056`
+  * Type : Engineering
+  * Parcours Recommandés : IAM
+  * Équipe: SPARKS
+
+     

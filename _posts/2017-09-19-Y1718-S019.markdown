@@ -2,7 +2,7 @@
 layout: post
 title: "Outils d’analyse et de visualisation de logs de l’activité des utilisateurs sur smartphone"
 date: 2017-09-19 13:34:39
-categories: [dispo, ihm]
+categories: [dispo, iam,ihm]
 pid: Y1718-S019
 type: Engineering
 contact: Marco Winckler
@@ -41,7 +41,7 @@ Cette étude est destiné à aider à des développer et/ou évaluateurs des int
   * Contact : Marco Winckler <winckler@i3s.unice.fr>
   * Identifiant sujet : `Y1718-S019`
   * Type : Engineering
-  * Parcours Recommandés : IHM
+  * Parcours Recommandés : IAM,IHM
   * Équipe: SPARKS
 
      
