@@ -9,8 +9,8 @@ import org.apache.poi.ss.usermodel.{Row, WorkbookFactory}
 
 object Main extends App {
 
-  final val START = 2
-  final val STOP =  53
+  final val START = 1
+  final val STOP =  55
 
   final val OUTPUT_DIR = "./outputs"
 
@@ -52,23 +52,17 @@ object ProjectFactory {
     val email = row.getCell(3).getStringCellValue
     val title = row.getCell(18).getStringCellValue
     val majors = buildMajors(row.getCell(31).getStringCellValue)
-//    val majors = buildMajors(row.getCell(11).getStringCellValue,
-//    	row.getCell(12).getStringCellValue,
-//    	row.getCell(13).getStringCellValue,
-//    	row.getCell(14).getStringCellValue,
-//    	row.getCell(15).getStringCellValue,
-//    	row.getCell(16).getStringCellValue)
     val description = row.getCell(19).getStringCellValue
     val descriptionDetaillee = row.getCell(23).getStringCellValue
     val skills = row.getCell(20).getStringCellValue
+    val team = row.getCell(26).getStringCellValue
 
-    val common = Common(pid, date, hour, firstName, lastName, email, title, majors, description, descriptionDetaillee, skills)
+    val common = Common(pid, date, hour, firstName, lastName, email, title, majors, description, descriptionDetaillee, skills, team)
 
     // Research or engineering
     if (row.getCell(24).getStringCellValue == "Recherche") {
-      val team = row.getCell(26).getStringCellValue
       val biblio = buildBiblio(row)
-      Research(common, team, biblio)
+      Research(common, biblio)
     } else {
       val requirements = row.getCell(21).getStringCellValue
       val results = row.getCell(22).getStringCellValue
@@ -87,35 +81,6 @@ object ProjectFactory {
     (data.split(",") filter { _.contains(":") } map { d => d.split(":")(0) }).toSet
   }
 
-//  def buildMajors(isAL: String, isCaspar: String, isSD: String, isIHM: String, isIAM: String, isWEB: String): Set[String] = {
-//  	var res = Set.empty[String]
-//	val res = scala.collection.mutable.Map[String, String]()
-//  	if (isAL == "yes") {
-//  		res put ("AL","")
-//		res += "AL"
-//  	}
-//  	if (isCaspar == "yes") {
-//  		res put ("CASPAR","")
-//		res += "CASPAR"
-//  	}
-//  	if (isSD == "yes") {
-//  		res put ("SD","")
-//		res += "SD"
-//  	}
-//  	if (isIHM == "yes") {
-//  		res put ("IHM","")
-//		res += "IHM"
-//  	}
-//  	if (isIAM == "yes") {
-//  		res put ("IAM","")
-//		res += "IAM"
-//  	}
-//  	if (isWEB == "yes") {
-//  		res put ("WEB","")
-//		res += "WEB"
-//  	}
-//  	res
-//  }
 
   def buildBiblio(row: Row): Set[String] = {
     (Set[String]() /: Seq(27,28,29,30)) { (acc, n) =>
@@ -169,6 +134,7 @@ trait Project {
        |  * Identifiant sujet : `${common.pid}`
        |  * Type : ${this.getClass.getSimpleName}
        |  * Parcours Recommandés : ${(common.majors map {_.toUpperCase}).mkString(",")}
+       |  * Équipe: ${common.team}
      """.stripMargin
 
    cartouche + body
@@ -179,14 +145,13 @@ trait Project {
 }
 
 case class Common( pid: String, date: String, hour: String, firstName: String, lastName: String, email: String,
-  title : String, majors: Set[String], description: String, descriptionDetaillee: String, skills: String)
+  title : String, majors: Set[String], description: String, descriptionDetaillee: String, skills: String, team: String)
 
-case class Research(common: Common, team: String, biblio: Set[String]) extends Project {
+case class Research(common: Common, biblio: Set[String]) extends Project {
   override def specific: String = {
     val head = s"""
        |#### Références
        |
-       |  * Équipe: $team
        |""".stripMargin
     head +  (biblio map { ref => s"  * [$ref]($ref)" }).mkString("\n")
   }
