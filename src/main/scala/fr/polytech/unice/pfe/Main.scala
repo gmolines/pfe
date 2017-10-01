@@ -136,10 +136,12 @@ trait Project {
        |  * Parcours Recommandés : ${(common.majors map {_.toUpperCase}).mkString(",")}
        |  * Équipe: ${common.team}
        |
+       | blah blah
        |#### Références
+       | blah blah
        |
        |${(common.biblio map { ref => s"  * [$ref]($ref)" }).mkString("\n")}
-       
+       | blah blah
      """.stripMargin
 
    cartouche + body
