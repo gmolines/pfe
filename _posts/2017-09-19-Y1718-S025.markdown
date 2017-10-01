@@ -2,10 +2,11 @@
 layout: post
 title: "Sécurité d’objets connectés de santé et bien être"
 date: 2017-09-19 20:09:51
-categories: [dispo, caspar,iam]
+categories: [oqp, caspar,iam]
 pid: Y1718-S025
 type: Engineering
 contact: KARIMA BOUDAOUD
+students: Sadry Fievet, Sarah Loukmi, Dhiaeddine Guezguez
 ---
        
 L’objectif du projet est d’identifier les failles de sécurité et de vie privée concernant  des objets connectés de santé et bien être puis de proposer une amélioration de la sécurité de ces objets.
