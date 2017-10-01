@@ -38,7 +38,7 @@ Un ou deux amplis simulés de plus.
 #### Informations Administratives
   * Contact : Michel Buffa <buffa@unice.fr>
   * Identifiant sujet : `Y1718-S010`
-  * Type : Engineering
+  * Effectif : entre 2 et 3 étudiant(e)s
   * Parcours Recommandés : IHM,WEB
   * Équipe: WIMMICS
 

@@ -43,7 +43,7 @@ Comparatif des outils. Liage concret de TAXREF avec des jeux de données publié
 #### Informations Administratives
   * Contact : Michel Franck <franck.michel@cnrs.fr>
   * Identifiant sujet : `Y1718-S048`
-  * Type : Engineering
+  * Effectif : entre 2 et 2 étudiant(e)s
   * Parcours Recommandés : WEB
   * Équipe: SPARKS
 

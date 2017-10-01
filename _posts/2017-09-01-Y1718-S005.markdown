@@ -108,7 +108,7 @@ document de description du langage de description sémantique des buts, document
 #### Informations Administratives
   * Contact : Isabelle Mirbel <isabelle.mirbel@unice.fr>
   * Identifiant sujet : `Y1718-S005`
-  * Type : Engineering
+  * Effectif : entre 2 et 2 étudiant(e)s
   * Parcours Recommandés : IAM
   * Équipe: SPARKS
 

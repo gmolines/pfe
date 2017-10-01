@@ -48,7 +48,7 @@ Dans le domaine de l'ingénierie, un démonstrateur basé sur des objets connect
 #### Informations Administratives
   * Contact : Jean-Yves Tigli <tigli@unice.fr>
   * Identifiant sujet : `Y1718-S056`
-  * Type : Engineering
+  * Effectif : entre 2 et 3 étudiant(e)s
   * Parcours Recommandés : IAM
   * Équipe: SPARKS
 

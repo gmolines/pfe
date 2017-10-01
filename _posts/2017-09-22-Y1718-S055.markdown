@@ -66,7 +66,7 @@ The cartography of the computing devices interactions in the wild
 #### Informations Administratives
   * Contact : Dino Lopez <dino.lopez@unice.fr>
   * Identifiant sujet : `Y1718-S055`
-  * Type : Engineering
+  * Effectif : entre 2 et 2 étudiant(e)s
   * Parcours Recommandés : CASPAR
   * Équipe: SIS / SigNet
 

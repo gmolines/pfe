@@ -65,7 +65,7 @@ Votre travail permettra de répondre à deux besoins principaux :
 #### Informations Administratives
   * Contact : Pierre Kornprobst <kornprobst@sophia.inria.fr>
   * Identifiant sujet : `Y1718-S053`
-  * Type : Engineering
+  * Effectif : entre 2 et 3 étudiant(e)s
   * Parcours Recommandés : SD
   * Équipe: SPARKS
 

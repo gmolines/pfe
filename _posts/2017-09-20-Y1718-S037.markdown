@@ -67,7 +67,7 @@ Un tableau comparatif mettant en évidence les points forts / faibles de chaque 
 #### Informations Administratives
   * Contact : Michel Riveill <michel.riveill@unice.fr>
   * Identifiant sujet : `Y1718-S037`
-  * Type : Engineering
+  * Effectif : entre 2 et 3 étudiant(e)s
   * Parcours Recommandés : SD
   * Équipe: Sparks
 

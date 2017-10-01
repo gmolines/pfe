@@ -55,7 +55,7 @@ Un rendu par sprint (code source, tests, documentation, solution déployée)
 #### Informations Administratives
   * Contact : Clément DUFFAU <duffau@i3s.unice.fr>
   * Identifiant sujet : `Y1718-S006`
-  * Type : Engineering
+  * Effectif : entre 2 et 3 étudiant(e)s
   * Parcours Recommandés : AL,IHM
   * Équipe: SPARKS
 

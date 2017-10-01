@@ -44,7 +44,7 @@ une amélioration des performances.
 #### Informations Administratives
   * Contact : Sid Touati <Sid.Touati@inria.fr>
   * Identifiant sujet : `Y1718-S004`
-  * Type : Engineering
+  * Effectif : entre 2 et 2 étudiant(e)s
   * Parcours Recommandés : AL
   * Équipe: kairos
 

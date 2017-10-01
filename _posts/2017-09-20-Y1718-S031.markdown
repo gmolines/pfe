@@ -39,7 +39,7 @@ Un logiciel de bonne qualité
 #### Informations Administratives
   * Contact : Fabrice Huet <fabrice.huet@unice.fr>
   * Identifiant sujet : `Y1718-S031`
-  * Type : Engineering
+  * Effectif : entre 2 et 2 étudiant(e)s
   * Parcours Recommandés : WEB
   * Équipe: COMRED/Scale
 

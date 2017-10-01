@@ -51,7 +51,7 @@ nous souhaitons expérimenter différentes méthodes permettant d’associer des
 #### Informations Administratives
   * Contact : Frederic Precioso <precioso@unice.fr>
   * Identifiant sujet : `Y1718-S052`
-  * Type : Engineering
+  * Effectif : entre 2 et 3 étudiant(e)s
   * Parcours Recommandés : WEB
   * Équipe: SPARKS
 

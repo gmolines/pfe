@@ -47,7 +47,7 @@ Concrêtement il faudra être capable de projeter sur une pyramide que vous aure
 #### Informations Administratives
   * Contact : ERIC BAILLY <BAILLY@UNICE.FR>
   * Identifiant sujet : `Y1718-S016`
-  * Type : Engineering
+  * Effectif : entre 2 et 3 étudiant(e)s
   * Parcours Recommandés : IHM
   * Équipe: CMMC/ESPACE
 

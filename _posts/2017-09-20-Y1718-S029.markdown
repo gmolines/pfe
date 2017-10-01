@@ -46,7 +46,7 @@ Cette solution devra être utilisable simplement par tous types de personnels de
 #### Informations Administratives
   * Contact : Gaëtan Rey <Gaetan.Rey@unice.fr>
   * Identifiant sujet : `Y1718-S029`
-  * Type : Engineering
+  * Effectif : entre 2 et 3 étudiant(e)s
   * Parcours Recommandés : SD,WEB
   * Équipe: SPARKS
 

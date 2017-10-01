@@ -52,7 +52,7 @@ Une transformation et sa mise en oeuvre dans un serveur
 #### Informations Administratives
   * Contact : Olivier Corby <olivier.corby@inria.fr>
   * Identifiant sujet : `Y1718-S041`
-  * Type : Engineering
+  * Effectif : entre 2 et 2 étudiant(e)s
   * Parcours Recommandés : WEB
   * Équipe: Wimmics
 

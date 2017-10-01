@@ -51,7 +51,7 @@ Le code développé devra être conçu et documenté de manière à faciliter sa
 #### Informations Administratives
   * Contact : Célia Da Costa Pereira <celia.pereira@unice.fr>
   * Identifiant sujet : `Y1718-S030`
-  * Type : Engineering
+  * Effectif : entre 2 et 3 étudiant(e)s
   * Parcours Recommandés : AL,SD
   * Équipe: SPARKS
 

@@ -38,7 +38,7 @@ Réaliser les développements logiciels sur mobile et sur cible embarquées néc
 #### Informations Administratives
   * Contact : Stéphane Lavirotte <stephane.lavirotte@unice.fr>
   * Identifiant sujet : `Y1718-S049`
-  * Type : Engineering
+  * Effectif : entre 2 et 2 étudiant(e)s
   * Parcours Recommandés : IAM
   * Équipe: Enseignants IAM dans le cadres du cours OCS
 

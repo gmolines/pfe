@@ -45,7 +45,7 @@ We firstly expect the development of a translation tool for encoding security-re
 #### Informations Administratives
   * Contact : Yves ROUDIER <Yves.Roudier@unice.fr>
   * Identifiant sujet : `Y1718-S042`
-  * Type : Engineering
+  * Effectif : entre 2 et 3 étudiant(e)s
   * Parcours Recommandés : AL,CASPAR
   * Équipe: SPARKS
 

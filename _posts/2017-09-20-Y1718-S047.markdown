@@ -40,7 +40,7 @@ La livraison du logiciel.
 #### Informations Administratives
   * Contact : Julien Deantoni <julien.deantoni@polytech.unice.fr>
   * Identifiant sujet : `Y1718-S047`
-  * Type : Engineering
+  * Effectif : entre 2 et 3 étudiant(e)s
   * Parcours Recommandés : IHM,WEB
   * Équipe: Kairos
 

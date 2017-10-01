@@ -39,7 +39,7 @@ La(es) technique(s) de visualisation développée(s) doivent s’intégrer dans 
 #### Informations Administratives
   * Contact : Marco Winckler <winckler@i3s.unice.fr>
   * Identifiant sujet : `Y1718-S035`
-  * Type : Engineering
+  * Effectif : entre 2 et 2 étudiant(e)s
   * Parcours Recommandés : IHM,WEB
   * Équipe: SPARKS
 

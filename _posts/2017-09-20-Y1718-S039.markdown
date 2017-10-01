@@ -44,7 +44,7 @@ We expect both:
 #### Informations Administratives
   * Contact : Yves ROUDIER <Yves.Roudier@unice.fr>
   * Identifiant sujet : `Y1718-S039`
-  * Type : Engineering
+  * Effectif : entre 2 et 3 étudiant(e)s
   * Parcours Recommandés : CASPAR,IHM,WEB
   * Équipe: SPARKS
 

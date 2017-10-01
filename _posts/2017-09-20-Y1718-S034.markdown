@@ -54,7 +54,7 @@ Dans les 4 semaines ils devront mettre en place les prototypes fonctionnels, et 
 #### Informations Administratives
   * Contact : Anne-Marie Dery-Pinna <pinna@polytech.unice.fr>
   * Identifiant sujet : `Y1718-S034`
-  * Type : Engineering
+  * Effectif : entre 2 et 3 étudiant(e)s
   * Parcours Recommandés : IHM
   * Équipe: Sparks
 

@@ -52,7 +52,7 @@ Cette étude doit permettre d’identifier des failles de sécurité sur différ
 #### Informations Administratives
   * Contact : KARIMA BOUDAOUD <karima.boudaoud@unice.fr>
   * Identifiant sujet : `Y1718-S025`
-  * Type : Engineering
+  * Effectif : entre 3 et 3 étudiant(e)s
   * Parcours Recommandés : CASPAR,IAM
   * Équipe: SPARKS
 

@@ -51,7 +51,7 @@ En particulier:
 #### Informations Administratives
   * Contact : Ludovic Henrio <ludovic.henrio@cnrs.fr>
   * Identifiant sujet : `Y1718-S014`
-  * Type : Engineering
+  * Effectif : entre 2 et 3 étudiant(e)s
   * Parcours Recommandés : AL
   * Équipe: Scale
 

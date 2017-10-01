@@ -49,7 +49,7 @@ Linux. Notions de parallélisation. Notions en CUDA ou machine learning appréci
 #### Informations Administratives
   * Contact : Johan Montagnat <johan.montagnat@cnrs.fr>
   * Identifiant sujet : `Y1718-S046`
-  * Type : Engineering
+  * Effectif : entre 2 et 3 étudiant(e)s
   * Parcours Recommandés : AL,SD
   * Équipe: SPARKS
 

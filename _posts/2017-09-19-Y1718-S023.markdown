@@ -52,7 +52,7 @@ Cette étude doit permettre d’identifier les problèmes de « Privacy » et s�
 #### Informations Administratives
   * Contact : KARIMA BOUDAOUD <karima.boudaoud@unice.fr>
   * Identifiant sujet : `Y1718-S023`
-  * Type : Engineering
+  * Effectif : entre 3 et 3 étudiant(e)s
   * Parcours Recommandés : CASPAR
   * Équipe: SPARKS
 

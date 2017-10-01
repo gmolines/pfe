@@ -40,7 +40,7 @@ Cette étude est destiné à aider à des développer et/ou évaluateurs des int
 #### Informations Administratives
   * Contact : Marco Winckler <winckler@i3s.unice.fr>
   * Identifiant sujet : `Y1718-S019`
-  * Type : Engineering
+  * Effectif : entre 2 et 2 étudiant(e)s
   * Parcours Recommandés : IAM,IHM
   * Équipe: SPARKS
 

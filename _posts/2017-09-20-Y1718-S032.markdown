@@ -54,7 +54,7 @@ Pendant les 4 semaines à temps plein, des prototypes hautes fidélité à faire
 #### Informations Administratives
   * Contact : Anne-Marie Dery-Pinna <pinna@polytech.unice.fr>
   * Identifiant sujet : `Y1718-S032`
-  * Type : Engineering
+  * Effectif : entre 2 et 3 étudiant(e)s
   * Parcours Recommandés : IHM
   * Équipe: Sparks
 

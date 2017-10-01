@@ -41,7 +41,7 @@ In finé l'utilisateur doit pouvoir décrire à travers une interface IHM simple
 #### Informations Administratives
   * Contact : Eric Bailly <bailly@unice.fr>
   * Identifiant sujet : `Y1718-S017`
-  * Type : Engineering
+  * Effectif : entre 2 et 3 étudiant(e)s
   * Parcours Recommandés : IHM
   * Équipe: CMMC
 

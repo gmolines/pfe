@@ -48,7 +48,7 @@ La prédiction des retards doit tenir compte de nombreux éléments, y compris d
 #### Informations Administratives
   * Contact : Lionel Fillatre <lionel.fillatre@i3s.unice.fr>
   * Identifiant sujet : `Y1718-S028`
-  * Type : Engineering
+  * Effectif : entre 2 et 3 étudiant(e)s
   * Parcours Recommandés : SD
   * Équipe: SIS/MediaCoding
 

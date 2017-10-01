@@ -77,7 +77,7 @@ A report and a Flowfox implementation
 #### Informations Administratives
   * Contact : Tamara Rezk <tamara.rezk@inria.fr>
   * Identifiant sujet : `Y1718-S038`
-  * Type : Engineering
+  * Effectif : entre 2 et 3 étudiant(e)s
   * Parcours Recommandés : CASPAR
   * Équipe: N/A
 

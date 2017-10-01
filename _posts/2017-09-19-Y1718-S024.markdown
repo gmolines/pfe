@@ -47,7 +47,7 @@ Cette étude doit permettre à différents types d’utilisateurs d’utiliser d
 #### Informations Administratives
   * Contact : KARIMA BOUDAOUD <karima.boudaoud@unice.fr>
   * Identifiant sujet : `Y1718-S024`
-  * Type : Engineering
+  * Effectif : entre 3 et 3 étudiant(e)s
   * Parcours Recommandés : CASPAR,IHM
   * Équipe: SPARKS
 

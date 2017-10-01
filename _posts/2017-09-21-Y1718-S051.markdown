@@ -58,7 +58,7 @@ Bien évidemment, vous serez accompagné dans toute cette tâche.
 #### Informations Administratives
   * Contact : Michel Riveill <michel.riveill@unice.fr>
   * Identifiant sujet : `Y1718-S051`
-  * Type : Engineering
+  * Effectif : entre 2 et 3 étudiant(e)s
   * Parcours Recommandés : WEB
   * Équipe: SPARKS
 

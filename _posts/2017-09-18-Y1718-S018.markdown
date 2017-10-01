@@ -46,7 +46,7 @@ Les utilisateurs sont de concepteurs et/ou évaluateurs de systèmes interactifs
 #### Informations Administratives
   * Contact : Marco Winckler <winckler@i3s.unice.fr>
   * Identifiant sujet : `Y1718-S018`
-  * Type : Engineering
+  * Effectif : entre 2 et 2 étudiant(e)s
   * Parcours Recommandés : IHM
   * Équipe: SPARKS
 
