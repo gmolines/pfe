@@ -29,15 +29,7 @@ Ce travail sera encadré à la fois par Ludovic Henrio et par Fabien Hermenier (
 Java, Python
 
 
-#### Besoins Clients
-Pourvoir certifier l'absence de bug dans l'implémentation d'OpenStack Nova.
 
-#### Résultats Attendus
-Un portage de l'outil Safeplace pour la vérification d'algorithme de placement de machines virtuelles adapté à OpenStack Nova. 
-En particulier: 
-- une adaptation du langage de spécification si nécessaire; 
-- un environnement de test adapté à OpenStack Nova; 
-- des expérimantations reproduisant les bugs connus de la plateforme et/ou de nouveaux bugs.
      
 
 #### Informations Administratives
@@ -47,12 +39,19 @@ En particulier:
   * Parcours Recommandés : AL
   * Équipe: Scale
 
- blah blah
 #### Références
- blah blah
 
   * [http://www.btrplace.org/pubs/hermenier-socc17.pdf](http://www.btrplace.org/pubs/hermenier-socc17.pdf)
   * [http://www.btrplace.org/](http://www.btrplace.org/)
   * [https://wiki.openstack.org/wiki/Nova](https://wiki.openstack.org/wiki/Nova)
- blah blah
+
+#### Besoins Clients
+Pourvoir certifier l'absence de bug dans l'implémentation d'OpenStack Nova.
+
+#### Résultats Attendus
+Un portage de l'outil Safeplace pour la vérification d'algorithme de placement de machines virtuelles adapté à OpenStack Nova. 
+En particulier: 
+- une adaptation du langage de spécification si nécessaire; 
+- un environnement de test adapté à OpenStack Nova; 
+- des expérimantations reproduisant les bugs connus de la plateforme et/ou de nouveaux bugs.
      

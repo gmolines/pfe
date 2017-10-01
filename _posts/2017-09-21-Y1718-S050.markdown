@@ -20,12 +20,7 @@ Encadrement par Jean-Olivier Irisson <irisson@normalesup.org> et Frédéric Prec
 •	Volonté de travailler dans un contexte plus recherche qu’ingénieur (l’aspect implémentation n’est qu’une partie du travail ; l’aspect analyse et compréhension des résultats est également importante).
 
 
-#### Besoins Clients
-L’implémentation sera faite en langage Python. Les tests seront menés sur la base d’images du LOV. De plus, les résultats de ce travail sont destinés à être exploités à long terme. Il est donc important que d’autres développeurs puissent débugger le code écrit si besoin et le faire évoluer. Il devra donc être bien structuré et un minimum commenté/documenté.
 
-#### Résultats Attendus
-- Documentation pour l'utilisation du code écrit
-- Rapport expliquant les choix techniques
      
 
 #### Informations Administratives
@@ -35,13 +30,17 @@ L’implémentation sera faite en langage Python. Les tests seront menés sur la
   * Parcours Recommandés : SD
   * Équipe: Morphème
 
- blah blah
 #### Références
- blah blah
 
   * [https://nneverova.github.io/nslides/presentation_softshake_151022_novideos.pdf](https://nneverova.github.io/nslides/presentation_softshake_151022_novideos.pdf)
   * [https://dimensionless.in/introduction-to-random-forest/](https://dimensionless.in/introduction-to-random-forest/)
   * [http://www.obs-vlfr.fr/data/view/zoo/ecotaxa_ml/](http://www.obs-vlfr.fr/data/view/zoo/ecotaxa_ml/)
   * [http://ecotaxa.obs-vlfr.fr/](http://ecotaxa.obs-vlfr.fr/)
- blah blah
+
+#### Besoins Clients
+L’implémentation sera faite en langage Python. Les tests seront menés sur la base d’images du LOV. De plus, les résultats de ce travail sont destinés à être exploités à long terme. Il est donc important que d’autres développeurs puissent débugger le code écrit si besoin et le faire évoluer. Il devra donc être bien structuré et un minimum commenté/documenté.
+
+#### Résultats Attendus
+- Documentation pour l'utilisation du code écrit
+- Rapport expliquant les choix techniques
      

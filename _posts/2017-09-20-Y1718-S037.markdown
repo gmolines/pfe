@@ -49,12 +49,7 @@ Email : michel.riveill@unice.fr
 Programmation java, de la rigueur pour rendre reproductible les exécutions
 
 
-#### Besoins Clients
-identifier des critères de comparaisons permettant de dire qu'un algorithme sera a priori meilleur qu'un autre pour un jeu de donnée précis.
 
-#### Résultats Attendus
-Du code permettant de lancer les différents algorithmes afin d'obtenir leur performance
-Un tableau comparatif mettant en évidence les points forts / faibles de chaque algorithmes
      
 
 #### Informations Administratives
@@ -64,11 +59,15 @@ Un tableau comparatif mettant en évidence les points forts / faibles de chaque 
   * Parcours Recommandés : SD
   * Équipe: Sparks
 
- blah blah
 #### Références
- blah blah
 
   * [http://weka.wikispaces.com/](http://weka.wikispaces.com/)
   * [https://docs.google.com/presentation/d/1pBPxYitjK3dzi7ItB6em6Q4giwSS82qPLJCKO2Z1Q80/edit?usp=sharing](https://docs.google.com/presentation/d/1pBPxYitjK3dzi7ItB6em6Q4giwSS82qPLJCKO2Z1Q80/edit?usp=sharing)
- blah blah
+
+#### Besoins Clients
+identifier des critères de comparaisons permettant de dire qu'un algorithme sera a priori meilleur qu'un autre pour un jeu de donnée précis.
+
+#### Résultats Attendus
+Du code permettant de lancer les différents algorithmes afin d'obtenir leur performance
+Un tableau comparatif mettant en évidence les points forts / faibles de chaque algorithmes
      

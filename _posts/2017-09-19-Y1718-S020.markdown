@@ -20,11 +20,7 @@ La(es) technique(s) de visualisation à developper sont à discuter avec les ét
 Programmation Web (Java Script, Ajax, HTML5, D3 ce serait un plus). Connaissance de base sur la visualisation de données.  
 
 
-#### Besoins Clients
-La(es) technique(s) de visualisation développée(s) doivent s’intégrer dans MGExplorer. L’outil doit rester utilisable en ligne. Les utilisateurs de ces techniques de visualisation sont typiquement de data scientistes. 
 
-#### Résultats Attendus
-Programmation Web (Java Script, Ajax, HTML5, D3 ce serait un plus). Connaissance de base sur la visualisation de données.  
      
 
 #### Informations Administratives
@@ -34,12 +30,15 @@ Programmation Web (Java Script, Ajax, HTML5, D3 ce serait un plus). Connaissance
   * Parcours Recommandés : IHM
   * Équipe: SPARKS
 
- blah blah
 #### Références
- blah blah
 
   * [https://d3js.org/](https://d3js.org/)
   * [https://www2.pelotas.ifsul.edu.br/~cava/MGExplorer4/](https://www2.pelotas.ifsul.edu.br/~cava/MGExplorer4/)
   * [http://dl.acm.org/citation.cfm?id=3019684&dl=ACM&coll=DL&CFID=986588961&CFTOKEN=68683614](http://dl.acm.org/citation.cfm?id=3019684&dl=ACM&coll=DL&CFID=986588961&CFTOKEN=68683614)
- blah blah
+
+#### Besoins Clients
+La(es) technique(s) de visualisation développée(s) doivent s’intégrer dans MGExplorer. L’outil doit rester utilisable en ligne. Les utilisateurs de ces techniques de visualisation sont typiquement de data scientistes. 
+
+#### Résultats Attendus
+Programmation Web (Java Script, Ajax, HTML5, D3 ce serait un plus). Connaissance de base sur la visualisation de données.  
      

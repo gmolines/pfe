@@ -30,6 +30,21 @@ To provide a proof of concept of the proposed approach, we propose during this P
 Good skills in programming (C, C++, Matlab)
 
 
+
+     
+
+#### Informations Administratives
+  * Contact : Marc Antonini <am@i3s.unice.fr>
+  * Identifiant sujet : `Y1718-S008`
+  * Type : Engineering
+  * Parcours Recommandés : SD
+  * Équipe: SIS / MediaCoding
+
+#### Références
+
+  * [http://www.nature.com/polopoly_fs/1.20496!/menu/main/topColumns/topLeftColumn/pdf/537022a.pdf](http://www.nature.com/polopoly_fs/1.20496!/menu/main/topColumns/topLeftColumn/pdf/537022a.pdf)
+  * [https://ai2-s2-pdfs.s3.amazonaws.com/b972/5dc8381ad9ca0f853ca6576a6c326dc594f1.pdf](https://ai2-s2-pdfs.s3.amazonaws.com/b972/5dc8381ad9ca0f853ca6576a6c326dc594f1.pdf)
+
 #### Besoins Clients
 DNA coding is a quaternary coding processing that must be adapted to digital data (sequence of bits) if one wants to use DNA as a storage support. Then, as DNA structures are based on an assembly of 4 “bases” {A, C, G, T} and if one wants to exploit the DNA mechanism as a compact source code, the most important issue to solve is to extend the concept of binary code word to quaternary code word.
 
@@ -40,20 +55,4 @@ The different tasks/deliverable of the PFE are the following:
 - DNA stack-run development
 - First DNA sequencing tests on images
 - Creation of the repository
-     
-
-#### Informations Administratives
-  * Contact : Marc Antonini <am@i3s.unice.fr>
-  * Identifiant sujet : `Y1718-S008`
-  * Type : Engineering
-  * Parcours Recommandés : SD
-  * Équipe: SIS / MediaCoding
-
- blah blah
-#### Références
- blah blah
-
-  * [http://www.nature.com/polopoly_fs/1.20496!/menu/main/topColumns/topLeftColumn/pdf/537022a.pdf](http://www.nature.com/polopoly_fs/1.20496!/menu/main/topColumns/topLeftColumn/pdf/537022a.pdf)
-  * [https://ai2-s2-pdfs.s3.amazonaws.com/b972/5dc8381ad9ca0f853ca6576a6c326dc594f1.pdf](https://ai2-s2-pdfs.s3.amazonaws.com/b972/5dc8381ad9ca0f853ca6576a6c326dc594f1.pdf)
- blah blah
      

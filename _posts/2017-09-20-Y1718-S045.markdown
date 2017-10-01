@@ -20,15 +20,7 @@ Génie logiciel
 Modélisation, conception
 
 
-#### Besoins Clients
-Un framework permettant de modéliser les réécritures
-Un moteur d'exécution permettant de les appliquer
-un système de détection de conflits entre règles, lors de l’exécution
-un analyseur statique identifiant les conflits entre règles, a la compilation
 
-#### Résultats Attendus
-Une preuve de concept répondant aux besoins, au dessus de la JVM (java, scala, …)
-On pourra utiliser Spoon pour la réécriture de code
      
 
 #### Informations Administratives
@@ -38,10 +30,17 @@ On pourra utiliser Spoon pour la réécriture de code
   * Parcours Recommandés : AL
   * Équipe: N/A
 
- blah blah
 #### Références
- blah blah
 
 
- blah blah
+
+#### Besoins Clients
+Un framework permettant de modéliser les réécritures
+Un moteur d'exécution permettant de les appliquer
+un système de détection de conflits entre règles, lors de l’exécution
+un analyseur statique identifiant les conflits entre règles, a la compilation
+
+#### Résultats Attendus
+Une preuve de concept répondant aux besoins, au dessus de la JVM (java, scala, …)
+On pourra utiliser Spoon pour la réécriture de code
      

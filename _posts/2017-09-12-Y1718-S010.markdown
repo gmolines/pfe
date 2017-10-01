@@ -22,11 +22,7 @@ Tout est codé en JavaScript, de manière modulaire et reproduit avec une approc
 JavaScript, idée de comment marche un ampli guitare ou du moins, du son produit. Si un guitariste electrique dans le lot, c'est un plus.
 
 
-#### Besoins Clients
-Avoir plusieurs modèles d'amplificateurs "classic rock" recréés dans une application Web.
 
-#### Résultats Attendus
-Un ou deux amplis simulés de plus.
      
 
 #### Informations Administratives
@@ -36,10 +32,13 @@ Un ou deux amplis simulés de plus.
   * Parcours Recommandés : IHM,WEB
   * Équipe: WIMMICS
 
- blah blah
 #### Références
- blah blah
 
   * [http://eecs.qmul.ac.uk/~keno/26.pdf](http://eecs.qmul.ac.uk/~keno/26.pdf)
- blah blah
+
+#### Besoins Clients
+Avoir plusieurs modèles d'amplificateurs "classic rock" recréés dans une application Web.
+
+#### Résultats Attendus
+Un ou deux amplis simulés de plus.
      

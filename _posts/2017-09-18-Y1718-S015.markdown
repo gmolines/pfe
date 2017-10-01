@@ -22,15 +22,7 @@ Références
 Techno Web (HTML 5)
 
 
-#### Besoins Clients
-Il faut tenir en compte les besoin de l’équipe de conception/évaluation du système interactifs qui est diffusé en ligne ainsi que les besoins des utilisateurs qui participent du test. 
 
-#### Résultats Attendus
-•	Un site web du type vitrine qui permet la diffusion de prototype à tester ;
-•	Une interface de configuration de l’évaluation avec la possibilité d’intégrer de questionnaires standard (SUS, AttrakDiff, etc.) et des questions personnalisé (propres à l’application ; 
-•	Un outil de diffusion qui permettrait d’attendre le public ciblé par l’expérimentation ; 
-•	Un outil de suivi et d’analyse des résultats obtenus auprès des utilisateurs ;
-•	Possibilité d’exporter les données obtenues avec l’expérimentation. 
      
 
 #### Informations Administratives
@@ -40,11 +32,18 @@ Il faut tenir en compte les besoin de l’équipe de conception/évaluation du s
   * Parcours Recommandés : IHM
   * Équipe: SPARKS
 
- blah blah
 #### Références
- blah blah
 
   * [http://attrakdiff.de/](http://attrakdiff.de/)
   * [http://dl.acm.org/citation.cfm?id=2817913](http://dl.acm.org/citation.cfm?id=2817913)
- blah blah
+
+#### Besoins Clients
+Il faut tenir en compte les besoin de l’équipe de conception/évaluation du système interactifs qui est diffusé en ligne ainsi que les besoins des utilisateurs qui participent du test. 
+
+#### Résultats Attendus
+•	Un site web du type vitrine qui permet la diffusion de prototype à tester ;
+•	Une interface de configuration de l’évaluation avec la possibilité d’intégrer de questionnaires standard (SUS, AttrakDiff, etc.) et des questions personnalisé (propres à l’application ; 
+•	Un outil de diffusion qui permettrait d’attendre le public ciblé par l’expérimentation ; 
+•	Un outil de suivi et d’analyse des résultats obtenus auprès des utilisateurs ;
+•	Possibilité d’exporter les données obtenues avec l’expérimentation. 
      

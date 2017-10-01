@@ -40,11 +40,7 @@ Intervenants dans l'encadrement: Katy Blanc et Frédéric Precioso
 C++, OpenCV
 
 
-#### Besoins Clients
-voir sujet
 
-#### Résultats Attendus
-code + rapport
      
 
 #### Informations Administratives
@@ -54,10 +50,13 @@ code + rapport
   * Parcours Recommandés : SD
   * Équipe: SPARKS
 
- blah blah
 #### Références
- blah blah
 
   * [https://nyx.unice.fr/proton/biblio/displayReference.php?export=htmlLong&&idPaper=2781](https://nyx.unice.fr/proton/biblio/displayReference.php?export=htmlLong&&idPaper=2781)
- blah blah
+
+#### Besoins Clients
+voir sujet
+
+#### Résultats Attendus
+code + rapport
      

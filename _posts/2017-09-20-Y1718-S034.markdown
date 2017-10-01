@@ -37,12 +37,7 @@ Intervenants : C. Brel, Alain Giboin, Marco Winckler
 les modules IHM, de la créativité 
 
 
-#### Besoins Clients
-Avoir une proposition d'outils de communication innovants pour le parcours IHM
 
-#### Résultats Attendus
-A la fin des 8 premières semaines : une analyse des besoins et une spécification  des preuves de concepts les plus importantes pour la suite 
-Dans les 4 semaines ils devront mettre en place les prototypes fonctionnels, et faire des tests utilisateurs 
      
 
 #### Informations Administratives
@@ -52,10 +47,14 @@ Dans les 4 semaines ils devront mettre en place les prototypes fonctionnels, et 
   * Parcours Recommandés : IHM
   * Équipe: Sparks
 
- blah blah
 #### Références
- blah blah
 
 
- blah blah
+
+#### Besoins Clients
+Avoir une proposition d'outils de communication innovants pour le parcours IHM
+
+#### Résultats Attendus
+A la fin des 8 premières semaines : une analyse des besoins et une spécification  des preuves de concepts les plus importantes pour la suite 
+Dans les 4 semaines ils devront mettre en place les prototypes fonctionnels, et faire des tests utilisateurs 
      

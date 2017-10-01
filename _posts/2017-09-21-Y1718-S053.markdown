@@ -42,15 +42,7 @@ De bonnes connaissances en Python & des connaissances en Machine Learning voire 
 Nous  recherchons  des  candidats  hautement  motivés  pour  travailler  sur  un  sujet  transdisciplinaire avec des applications dans le domaine du handicap visuel.
 
 
-#### Besoins Clients
-Votre travail permettra de répondre à deux besoins principaux :
-- Le premier est celui d’élargir le corpus du matériel de test MNREAD pour les recherches nécessitant des tests répétés et pour évaluer les effets de variables de texte autres que la taille de l’impression. L’originalité de l’approche proposée est d’utiliser les réseaux de neurones récurrents, contrairement à une approche de type graphe récemment proposée, qui vont permettre de générer des phrases avec un coût calcul minimal et surtout de transférer la structure des phrases d'une langue à l'autre (transfer learning). 
-- Le deuxième est de disposer d’une méthode permettant de générer automatiquement des tables de lectures  normalisées  pour  différentes  langues.   En  effet,  le  test  MNREAD  a  été  conçu  en  anglais puis  il  est  actuellement  décliné "à  la  main”  dans  plusieurs  autres  langues.   Disposer  d’un  outil automatique  serait  donc  particulièrement  utile  pour  que  ce  test  soit  largement  diffusé et  utile  au plus grand nombre, indépendamment de leur langue.
 
-#### Résultats Attendus
-- Documentation pour l'utilisation du code écrit
-- Rapport expliquant les choix techniques
-- Code implémenté en Python
      
 
 #### Informations Administratives
@@ -60,13 +52,20 @@ Votre travail permettra de répondre à deux besoins principaux :
   * Parcours Recommandés : SD
   * Équipe: SPARKS
 
- blah blah
 #### Références
- blah blah
 
   * [https://arxiv.org/pdf/1703.00955](https://arxiv.org/pdf/1703.00955)
   * [http://facweb.plattsburgh.edu/steve.mansfield/ARVO2017MNREADSentences.pdf](http://facweb.plattsburgh.edu/steve.mansfield/ARVO2017MNREADSentences.pdf)
   * [http://www.icoph.org/dynamic/attachments/resources/icovisualacuity1984.pdf](http://www.icoph.org/dynamic/attachments/resources/icovisualacuity1984.pdf)
   * [http://aclweb.org/anthology/W16-0202](http://aclweb.org/anthology/W16-0202)
- blah blah
+
+#### Besoins Clients
+Votre travail permettra de répondre à deux besoins principaux :
+- Le premier est celui d’élargir le corpus du matériel de test MNREAD pour les recherches nécessitant des tests répétés et pour évaluer les effets de variables de texte autres que la taille de l’impression. L’originalité de l’approche proposée est d’utiliser les réseaux de neurones récurrents, contrairement à une approche de type graphe récemment proposée, qui vont permettre de générer des phrases avec un coût calcul minimal et surtout de transférer la structure des phrases d'une langue à l'autre (transfer learning). 
+- Le deuxième est de disposer d’une méthode permettant de générer automatiquement des tables de lectures  normalisées  pour  différentes  langues.   En  effet,  le  test  MNREAD  a  été  conçu  en  anglais puis  il  est  actuellement  décliné "à  la  main”  dans  plusieurs  autres  langues.   Disposer  d’un  outil automatique  serait  donc  particulièrement  utile  pour  que  ce  test  soit  largement  diffusé et  utile  au plus grand nombre, indépendamment de leur langue.
+
+#### Résultats Attendus
+- Documentation pour l'utilisation du code écrit
+- Rapport expliquant les choix techniques
+- Code implémenté en Python
      

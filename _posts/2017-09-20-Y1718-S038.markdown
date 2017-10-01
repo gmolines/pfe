@@ -49,6 +49,22 @@ Having taken the CASPAR course on Web Application Security is required for this 
 Students must have taken the couse "Securité des applications Web"  (CASPAR or equivalent
 
 
+
+     
+
+#### Informations Administratives
+  * Contact : Tamara Rezk <tamara.rezk@inria.fr>
+  * Identifiant sujet : `Y1718-S038`
+  * Type : Engineering
+  * Parcours Recommandés : CASPAR
+  * Équipe: N/A
+
+#### Références
+
+  * [https://www.owasp.org/index.php/Top_10_2017-Top_10](https://www.owasp.org/index.php/Top_10_2017-Top_10)
+  * [https://www.cs.cornell.edu/andru/papers/jsac/sm-jsac03.pdf](https://www.cs.cornell.edu/andru/papers/jsac/sm-jsac03.pdf)
+  * [http://www.cse.chalmers.se/~andrei/sabelfeld-sands-jcs07.pdf ](http://www.cse.chalmers.se/~andrei/sabelfeld-sands-jcs07.pdf )
+
 #### Besoins Clients
 More precisely, the PFE has five stages: 
 
@@ -64,21 +80,4 @@ More precisely, the PFE has five stages:
 
 #### Résultats Attendus
 A report and a Flowfox implementation
-     
-
-#### Informations Administratives
-  * Contact : Tamara Rezk <tamara.rezk@inria.fr>
-  * Identifiant sujet : `Y1718-S038`
-  * Type : Engineering
-  * Parcours Recommandés : CASPAR
-  * Équipe: N/A
-
- blah blah
-#### Références
- blah blah
-
-  * [https://www.owasp.org/index.php/Top_10_2017-Top_10](https://www.owasp.org/index.php/Top_10_2017-Top_10)
-  * [https://www.cs.cornell.edu/andru/papers/jsac/sm-jsac03.pdf](https://www.cs.cornell.edu/andru/papers/jsac/sm-jsac03.pdf)
-  * [http://www.cse.chalmers.se/~andrei/sabelfeld-sands-jcs07.pdf ](http://www.cse.chalmers.se/~andrei/sabelfeld-sands-jcs07.pdf )
- blah blah
      

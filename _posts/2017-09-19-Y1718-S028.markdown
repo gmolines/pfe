@@ -25,15 +25,6 @@ Enfin, le groupe devra programmer l’architecture retenue et comparer les résu
 Machine learning ; Programmation (Python et/ou Java et/ou Scala) ; Spark et Hadoop
 
 
-#### Besoins Clients
-Les retards dans les trajets aériens ont des conséquences financières non-négligeables et peuvent également contribuer à dégrader la qualité de service pour les voyageurs. Il est donc souhaitable de prédire assez précisément la survenue d’un retard afin que des mesures adéquates puissent être envisagées. 
-La prédiction des retards doit tenir compte de nombreux éléments, y compris des informations météorologiques. La volumétrie potentielle est donc énorme et il convient de proposer une solution qui fonctionne dans un environnement du type « Big Data ». Le Deep Learning propose actuellement des solutions de classification et d’estimation extrêmement performantes. Il est donc pertinent d’utiliser cette approche pour la prédiction des retards aériens. Un data scientist de la société Amadeus pourra être consulté par les étudiants. Il pourra notamment les aider à mieux comprendre les données, Spark et le Deep Learning.
-
-
-#### Résultats Attendus
-- Un code Spark commenté fournissant la prédiction des retards.
-- Un rapport décrivant l’architecture Deep Learning proposée pour la prédiction des retards.
-- Un document pour installer et exécuter l’environnement informatique retenue.
 
      
 
@@ -44,12 +35,20 @@ La prédiction des retards doit tenir compte de nombreux éléments, y compris d
   * Parcours Recommandés : SD
   * Équipe: SIS/MediaCoding
 
- blah blah
 #### Références
- blah blah
 
   * [http://deeplearning.net/](http://deeplearning.net/)
   * [https://spark.apache.org/](https://spark.apache.org/)
   * [https://www.codementor.io/jadianes/mllib-basic-statistics-exploratory-data-analysis-du107nxsy](https://www.codementor.io/jadianes/mllib-basic-statistics-exploratory-data-analysis-du107nxsy)
- blah blah
+
+#### Besoins Clients
+Les retards dans les trajets aériens ont des conséquences financières non-négligeables et peuvent également contribuer à dégrader la qualité de service pour les voyageurs. Il est donc souhaitable de prédire assez précisément la survenue d’un retard afin que des mesures adéquates puissent être envisagées. 
+La prédiction des retards doit tenir compte de nombreux éléments, y compris des informations météorologiques. La volumétrie potentielle est donc énorme et il convient de proposer une solution qui fonctionne dans un environnement du type « Big Data ». Le Deep Learning propose actuellement des solutions de classification et d’estimation extrêmement performantes. Il est donc pertinent d’utiliser cette approche pour la prédiction des retards aériens. Un data scientist de la société Amadeus pourra être consulté par les étudiants. Il pourra notamment les aider à mieux comprendre les données, Spark et le Deep Learning.
+
+
+#### Résultats Attendus
+- Un code Spark commenté fournissant la prédiction des retards.
+- Un rapport décrivant l’architecture Deep Learning proposée pour la prédiction des retards.
+- Un document pour installer et exécuter l’environnement informatique retenue.
+
      

@@ -27,13 +27,6 @@ Autres encadrants:
 1) Un étudiant ayant des compétences en  IHM  (.ie. du parcours IHM) et 2 étudiants ayant des compétences en sécurité (.ie. du parcours CASPAR)
 
 
-#### Besoins Clients
-Cette étude doit permettre à différents types d’utilisateurs d’utiliser des mécanismes d’authentification qui soient facilement utilisables et suffisamment sécurisés.
-
-#### Résultats Attendus
-•	Comparaison des mécanismes d’authentification existants pour les smartphones
-•	Implémentation de 3 mécanismes d’authentification ; 
-•	Proposition de plusieurs variantes de ces mécanismes en proposant différents IHMs.
 
      
 
@@ -44,11 +37,17 @@ Cette étude doit permettre à différents types d’utilisateurs d’utiliser d
   * Parcours Recommandés : CASPAR,IHM
   * Équipe: SPARKS
 
- blah blah
 #### Références
- blah blah
 
   * [http://dx.doi.org/10.14722/eurosec.2016.23001](http://dx.doi.org/10.14722/eurosec.2016.23001)
   * [http://dx.doi.org/10.14722/eurosec.2017.23004](http://dx.doi.org/10.14722/eurosec.2017.23004)
- blah blah
+
+#### Besoins Clients
+Cette étude doit permettre à différents types d’utilisateurs d’utiliser des mécanismes d’authentification qui soient facilement utilisables et suffisamment sécurisés.
+
+#### Résultats Attendus
+•	Comparaison des mécanismes d’authentification existants pour les smartphones
+•	Implémentation de 3 mécanismes d’authentification ; 
+•	Proposition de plusieurs variantes de ces mécanismes en proposant différents IHMs.
+
      

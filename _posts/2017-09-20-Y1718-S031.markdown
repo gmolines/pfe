@@ -22,11 +22,7 @@ Les objectifs sont :
 Java, SPARQL, RDF
 
 
-#### Besoins Clients
-Idéalement j'aimerais avoir un outil qui prenne une requête SPARQL et automatise le déploiement et les expérimentations
 
-#### Résultats Attendus
-Un logiciel de bonne qualité
      
 
 #### Informations Administratives
@@ -36,11 +32,14 @@ Un logiciel de bonne qualité
   * Parcours Recommandés : WEB
   * Équipe: COMRED/Scale
 
- blah blah
 #### Références
- blah blah
 
   * [https://jena.apache.org/](https://jena.apache.org/)
   * [http://storm.apache.org/](http://storm.apache.org/)
- blah blah
+
+#### Besoins Clients
+Idéalement j'aimerais avoir un outil qui prenne une requête SPARQL et automatise le déploiement et les expérimentations
+
+#### Résultats Attendus
+Un logiciel de bonne qualité
      

@@ -33,12 +33,6 @@ Intervenants : Lucile Sassatelli, Marco Winckler, Alain Giboin
 Cours de CEIHM,  intérêt pour la VR préférable, voir environnement technique dans la description détaillée
 
 
-#### Besoins Clients
-Etude et Implémentation d’un Configurateur d’expérimentations pour  vidéos en réalité Virtuelle. 
-
-#### Résultats Attendus
-A la fin des 8 semaines : identification des besoins de l’équipe et compréhension de l’existant 
-Pendant le mois en temps plein : la première semaine itérations sur une maquette haute-fidélité. Les 3 semaines suivantes implémentations incrémentales des fonctionnalités identifiées pour l’outil.
 
      
 
@@ -49,11 +43,16 @@ Pendant le mois en temps plein : la première semaine itérations sur une maquet
   * Parcours Recommandés : IHM
   * Équipe: Sparks et Signet
 
- blah blah
 #### Références
- blah blah
 
   * [https://developers.facebook.com/videos/f8-2017/-the-evolution-of-dynamic-streaming/](https://developers.facebook.com/videos/f8-2017/-the-evolution-of-dynamic-streaming/)
   * [https://www.youtube.com/watch?v=cJg_tPB0Nu0](https://www.youtube.com/watch?v=cJg_tPB0Nu0)
- blah blah
+
+#### Besoins Clients
+Etude et Implémentation d’un Configurateur d’expérimentations pour  vidéos en réalité Virtuelle. 
+
+#### Résultats Attendus
+A la fin des 8 semaines : identification des besoins de l’équipe et compréhension de l’existant 
+Pendant le mois en temps plein : la première semaine itérations sur une maquette haute-fidélité. Les 3 semaines suivantes implémentations incrémentales des fonctionnalités identifiées pour l’outil.
+
      

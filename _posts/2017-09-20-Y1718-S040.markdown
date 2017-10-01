@@ -21,12 +21,7 @@ Planning:
 Bonne maitrise de Java, Connaissance de Eclipse appréciée, Expérience dans la transformation de modèles en bonus.
 
 
-#### Besoins Clients
-Ajouter une étape dans la chaine de compilation/transformation de Kieler pour ajouter une nouvelle cible de génération qui intègre la prise en compte d'annotations temporelles.
 
-#### Résultats Attendus
-Plugin pour Eclipse compatible avec Kieler qui implante le mécanisme d'extension temporelle.
-Documentation technique qui décrit la solution proposée.
      
 
 #### Informations Administratives
@@ -36,11 +31,15 @@ Documentation technique qui décrit la solution proposée.
   * Parcours Recommandés : AL
   * Équipe: Kairos / COMRED
 
- blah blah
 #### Références
- blah blah
 
   * [https://rtsys.informatik.uni-kiel.de/confluence/display/KIELER](https://rtsys.informatik.uni-kiel.de/confluence/display/KIELER)
   * [http://dx.doi.org/10.1109/RSP.2012.6380695](http://dx.doi.org/10.1109/RSP.2012.6380695)
- blah blah
+
+#### Besoins Clients
+Ajouter une étape dans la chaine de compilation/transformation de Kieler pour ajouter une nouvelle cible de génération qui intègre la prise en compte d'annotations temporelles.
+
+#### Résultats Attendus
+Plugin pour Eclipse compatible avec Kieler qui implante le mécanisme d'extension temporelle.
+Documentation technique qui décrit la solution proposée.
      

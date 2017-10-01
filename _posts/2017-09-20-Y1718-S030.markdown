@@ -30,15 +30,6 @@ Une connaissance préalable de la plate-forme NetLogo (et de son langage de prog
 
 
 
-#### Besoins Clients
-Les archéologues et paléoenvironnementalistes qui participent au projet ModelAnSet ont produit une description du modèle à réaliser en utilisant le formalisme UML et en suivant le protocole ODD (Grimm et al. 2006), un protocole standard pour la description de modèles de simulation basés sur les agents. Ces documents seront utilisés comme spécification du système à développer.
-Un aspect original du modèle est qu’il se base sur des agents cognitifs BDI (belief-desires-intentions), c’est-à-dire dotés de capacités de raisonnement et de croyances, désirs et intentions. Il est prévu d’utiliser la bibliothèque Java KOBDIG, qui fournit les fonctionnalités de base pour ce type d’agents (da Costa Pereira et Tettamanzi 2010), pour le développement du système.
-Puisque le système devra être utilisé par des non-informaticiens qui ont déjà une certaine familiarité avec la plate-forme NetLogo (https://ccl.northwestern.edu/netlogo/), il est envisagé de développer le modèle sur NetLogo, avec des extensions en Java.
-Ce PFE peut déboucher sur un stage de recherche dans le cadre du projet ModelAnSet.
-
-#### Résultats Attendus
-Un prototype de modèle de simulation en NetLogo, avec des extensions écrites en Java pour supporter des agents cognitifs de type BDI, utilisable pour la validation expérimentale des hypothèses avancées par les participants au projet ModelAnSet.
-Le code développé devra être conçu et documenté de manière à faciliter sa maintenance et son évolution après la fin du PFE.
 
      
 
@@ -49,10 +40,18 @@ Le code développé devra être conçu et documenté de manière à faciliter sa
   * Parcours Recommandés : AL,SD
   * Équipe: SPARKS
 
- blah blah
 #### Références
- blah blah
 
 
- blah blah
+
+#### Besoins Clients
+Les archéologues et paléoenvironnementalistes qui participent au projet ModelAnSet ont produit une description du modèle à réaliser en utilisant le formalisme UML et en suivant le protocole ODD (Grimm et al. 2006), un protocole standard pour la description de modèles de simulation basés sur les agents. Ces documents seront utilisés comme spécification du système à développer.
+Un aspect original du modèle est qu’il se base sur des agents cognitifs BDI (belief-desires-intentions), c’est-à-dire dotés de capacités de raisonnement et de croyances, désirs et intentions. Il est prévu d’utiliser la bibliothèque Java KOBDIG, qui fournit les fonctionnalités de base pour ce type d’agents (da Costa Pereira et Tettamanzi 2010), pour le développement du système.
+Puisque le système devra être utilisé par des non-informaticiens qui ont déjà une certaine familiarité avec la plate-forme NetLogo (https://ccl.northwestern.edu/netlogo/), il est envisagé de développer le modèle sur NetLogo, avec des extensions en Java.
+Ce PFE peut déboucher sur un stage de recherche dans le cadre du projet ModelAnSet.
+
+#### Résultats Attendus
+Un prototype de modèle de simulation en NetLogo, avec des extensions écrites en Java pour supporter des agents cognitifs de type BDI, utilisable pour la validation expérimentale des hypothèses avancées par les participants au projet ModelAnSet.
+Le code développé devra être conçu et documenté de manière à faciliter sa maintenance et son évolution après la fin du PFE.
+
      

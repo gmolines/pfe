@@ -17,14 +17,7 @@ systèmes distribués
 bases de données large échelle
 
 
-#### Besoins Clients
-Une base de données interrogeable (e.g., Neo4J / Cypher)
-Des outils logiciels synchronisant la base avec les sources de données
-Un moyen de positionner temporellement les résultats
 
-#### Résultats Attendus
-Un ensemble de logiciels répondant au besoin
-Un déploiement du système via Docker.
      
 
 #### Informations Administratives
@@ -34,10 +27,16 @@ Un déploiement du système via Docker.
   * Parcours Recommandés : AL,SD
   * Équipe: SPARKS
 
- blah blah
 #### Références
- blah blah
 
 
- blah blah
+
+#### Besoins Clients
+Une base de données interrogeable (e.g., Neo4J / Cypher)
+Des outils logiciels synchronisant la base avec les sources de données
+Un moyen de positionner temporellement les résultats
+
+#### Résultats Attendus
+Un ensemble de logiciels répondant au besoin
+Un déploiement du système via Docker.
      

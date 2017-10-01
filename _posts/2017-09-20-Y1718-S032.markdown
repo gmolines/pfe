@@ -33,13 +33,6 @@ Intervenants : Lucile Sassatelli, Marco Winckler, Alain Giboin
 Cours de CEIHM,  intérêt pour la VR préférable, voir  environnement technique de la description détaillée
 
 
-#### Besoins Clients
-Améliorer le  Dashboard  de  suivi d’expérimentations pour vidéos en réalité virtuelle
-
-#### Résultats Attendus
-A la fin des 8 premières semaines, il sera attendu une prise en main du  système existant et une première spécification des  améliorations à apporter. 
-
-Pendant les 4 semaines à temps plein, des prototypes hautes fidélité à faire valider par l'équipe puis  implémentation et test des nouvelles fonctionnalités. Le système sera ensuite utilisé lors d’une démonstration scientifique d’ici la fin du premier trimestre 2018
 
      
 
@@ -50,12 +43,18 @@ Pendant les 4 semaines à temps plein, des prototypes hautes fidélité à faire
   * Parcours Recommandés : IHM
   * Équipe: Sparks
 
- blah blah
 #### Références
- blah blah
 
   * [https://developers.facebook.com/videos/f8-2017/-the-evolution-of-dynamic-streaming/](https://developers.facebook.com/videos/f8-2017/-the-evolution-of-dynamic-streaming/)
   * [https://www.lesnumeriques.com/tv-televiseur/utiliser-google-cast-sur-televiseur-android-tv-a3009.html](https://www.lesnumeriques.com/tv-televiseur/utiliser-google-cast-sur-televiseur-android-tv-a3009.html)
   * [https://www.youtube.com/watch?v=cJg_tPB0Nu0](https://www.youtube.com/watch?v=cJg_tPB0Nu0)
- blah blah
+
+#### Besoins Clients
+Améliorer le  Dashboard  de  suivi d’expérimentations pour vidéos en réalité virtuelle
+
+#### Résultats Attendus
+A la fin des 8 premières semaines, il sera attendu une prise en main du  système existant et une première spécification des  améliorations à apporter. 
+
+Pendant les 4 semaines à temps plein, des prototypes hautes fidélité à faire valider par l'équipe puis  implémentation et test des nouvelles fonctionnalités. Le système sera ensuite utilisé lors d’une démonstration scientifique d’ici la fin du premier trimestre 2018
+
      

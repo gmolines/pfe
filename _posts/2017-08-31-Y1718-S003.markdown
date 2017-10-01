@@ -49,11 +49,7 @@ Email : michel.riveill@unice.fr
 Connaitre ou vouloir apprendre python
 
 
-#### Besoins Clients
-Savoir faire des recommandations pour un jeu de données 'standard'
 
-#### Résultats Attendus
-Avoir un système de recommandation susceptible de faire des recommandations selon deux stratégies différentes.
      
 
 #### Informations Administratives
@@ -63,13 +59,16 @@ Avoir un système de recommandation susceptible de faire des recommandations sel
   * Parcours Recommandés : AL,CASPAR
   * Équipe: Sparks
 
- blah blah
 #### Références
- blah blah
 
   * [https://eric.univ-lyon2.fr/adoc/documents/Lille20161202-Negre.pdf](https://eric.univ-lyon2.fr/adoc/documents/Lille20161202-Negre.pdf)
   * [https://es.slideshare.net/rpicotcl/presentation-decide-21-072015](https://es.slideshare.net/rpicotcl/presentation-decide-21-072015)
   * [https://www.podcastscience.fm/dossiers/2012/04/25/les-algorithmes-de-recommandation/](https://www.podcastscience.fm/dossiers/2012/04/25/les-algorithmes-de-recommandation/)
   * [https://www.researchgate.net/publication/275890626_State_of_the_Art_Recommender_System](https://www.researchgate.net/publication/275890626_State_of_the_Art_Recommender_System)
- blah blah
+
+#### Besoins Clients
+Savoir faire des recommandations pour un jeu de données 'standard'
+
+#### Résultats Attendus
+Avoir un système de recommandation susceptible de faire des recommandations selon deux stratégies différentes.
      

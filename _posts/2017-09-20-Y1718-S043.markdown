@@ -20,6 +20,20 @@ Programmation
 Architecture
 
 
+
+     
+
+#### Informations Administratives
+  * Contact : Sébastien Mosser <mosser@i3s.unice.fr>
+  * Identifiant sujet : `Y1718-S043`
+  * Type : Engineering
+  * Parcours Recommandés : AL,WEB
+  * Équipe: SPARKS
+
+#### Références
+
+
+
 #### Besoins Clients
 Étude des mécanismes d’implémentations de chatbots
 Analyse des sources de données disponibles
@@ -30,19 +44,4 @@ Passage à l’échelle au niveau du campus
 Un produit minimal viable très rapidement
 Un bot “composable” reposant sur un système de plugins
 Une détection des interactions entre modules
-     
-
-#### Informations Administratives
-  * Contact : Sébastien Mosser <mosser@i3s.unice.fr>
-  * Identifiant sujet : `Y1718-S043`
-  * Type : Engineering
-  * Parcours Recommandés : AL,WEB
-  * Équipe: SPARKS
-
- blah blah
-#### Références
- blah blah
-
-
- blah blah
      

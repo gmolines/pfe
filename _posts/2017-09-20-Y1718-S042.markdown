@@ -23,14 +23,7 @@ We have developed a few toy examples that will help start with this translation 
 Java programming
 
 
-#### Besoins Clients
-We firstly expect the development of a translation tool for encoding security-relevant information of a PDG into a transition system usable by CADP’s model-checker. This tool will be a prototype, meaning that we expect that it may crash on a number of programs but that will provide us with a proof of concept. We further expect this prototype to be a tool to explore certification policies as well to write further  examples of non-compliant programs.
 
-#### Résultats Attendus
-- prototype of a translation process between JOANA’s PDG and CADP/EVALUATOR
-- report describing the algorithm used for the translation and documenting the data structures of the tools
-- experiments with the provided examples
-- development of further examples (and possibly security certification policies) and/or experiments with real-world programs.
      
 
 #### Informations Administratives
@@ -40,13 +33,19 @@ We firstly expect the development of a translation tool for encoding security-re
   * Parcours Recommandés : AL,CASPAR
   * Équipe: SPARKS
 
- blah blah
 #### Références
- blah blah
 
   * [http://pp.ipd.kit.edu/projects/joana/](http://pp.ipd.kit.edu/projects/joana/)
   * [https://github.com/joana-team/joana](https://github.com/joana-team/joana)
   * [http://cadp.inria.fr/](http://cadp.inria.fr/)
   * [http://cadp.inria.fr/man/evaluator.html](http://cadp.inria.fr/man/evaluator.html)
- blah blah
+
+#### Besoins Clients
+We firstly expect the development of a translation tool for encoding security-relevant information of a PDG into a transition system usable by CADP’s model-checker. This tool will be a prototype, meaning that we expect that it may crash on a number of programs but that will provide us with a proof of concept. We further expect this prototype to be a tool to explore certification policies as well to write further  examples of non-compliant programs.
+
+#### Résultats Attendus
+- prototype of a translation process between JOANA’s PDG and CADP/EVALUATOR
+- report describing the algorithm used for the translation and documenting the data structures of the tools
+- experiments with the provided examples
+- development of further examples (and possibly security certification policies) and/or experiments with real-world programs.
      

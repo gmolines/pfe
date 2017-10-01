@@ -23,15 +23,7 @@ We propose in this project to :
 Java and Javascript programming, basic knowledge about cybersecurity, basic knowledge of UML/SysML
 
 
-#### Besoins Clients
-We expect both:
-- the development of a portable front-end giving access to the functionalities of the platform that we use over a web interface with an easy to use man-machine interface
-- creative proposals for the extension of the SysML-Sec approach. This relates to the representation and analysis of the interactions between security requirements (e.g. need to control access to some sensitive data, need to verify integrity of some piece of software, etc.) and safety requirements (need to introduce some redundant implementation for an algorithm, need to ensure the availability of some data). These proposals should rely on an academic bibliography and extend the state of the art.
 
-#### Résultats Attendus
-- state of the art on interactions between security and safety requirements.
-- report detailing the approach used to specify and analyze security and safety requirements with proper examples taken from the literature. 
-- Javascript/Java based implementation and its documentation.
      
 
 #### Informations Administratives
@@ -41,11 +33,18 @@ We expect both:
   * Parcours Recommandés : CASPAR,IHM,WEB
   * Équipe: SPARKS
 
- blah blah
 #### Références
- blah blah
 
   * [https://841cd919-a-62cb3a1a-s-sites.googlegroups.com/site/ludovicpietrecambacedes/publications/files/RESS-2012-preprint.pdf?attachauth=ANoY7cpEhZNlFUiNyusaQrpQ6bl-sCC2ZXorvDEUAv2LkFgle3oJnsaZISKDChpfHbfapuCOAc9O5TnxbzkKTRwwGKGCkHcEQ1iJ3nHhW1KBiJWCMS9yoLEEhGHGyYhjYkC7qV4zMiMA5Lk9T2ZsZkqUnlhNOxoomhoMuwlXyOO5RRLWJi_GVyDd4QoatblIlOz2O9j2SVibnagEcPnndalvLx35mWZLF8C3o9Lt-3lsMUcjocDffQSJAcMck07Jz3p_yHguun6V5Enm4RLAbcg7E0h0q1eOMA%3D%3D&attredirects=0](https://841cd919-a-62cb3a1a-s-sites.googlegroups.com/site/ludovicpietrecambacedes/publications/files/RESS-2012-preprint.pdf?attachauth=ANoY7cpEhZNlFUiNyusaQrpQ6bl-sCC2ZXorvDEUAv2LkFgle3oJnsaZISKDChpfHbfapuCOAc9O5TnxbzkKTRwwGKGCkHcEQ1iJ3nHhW1KBiJWCMS9yoLEEhGHGyYhjYkC7qV4zMiMA5Lk9T2ZsZkqUnlhNOxoomhoMuwlXyOO5RRLWJi_GVyDd4QoatblIlOz2O9j2SVibnagEcPnndalvLx35mWZLF8C3o9Lt-3lsMUcjocDffQSJAcMck07Jz3p_yHguun6V5Enm4RLAbcg7E0h0q1eOMA%3D%3D&attredirects=0)
   * [http://www.eurecom.fr/fr/publication/4186/download/rs-publi-4186.pdf](http://www.eurecom.fr/fr/publication/4186/download/rs-publi-4186.pdf)
- blah blah
+
+#### Besoins Clients
+We expect both:
+- the development of a portable front-end giving access to the functionalities of the platform that we use over a web interface with an easy to use man-machine interface
+- creative proposals for the extension of the SysML-Sec approach. This relates to the representation and analysis of the interactions between security requirements (e.g. need to control access to some sensitive data, need to verify integrity of some piece of software, etc.) and safety requirements (need to introduce some redundant implementation for an algorithm, need to ensure the availability of some data). These proposals should rely on an academic bibliography and extend the state of the art.
+
+#### Résultats Attendus
+- state of the art on interactions between security and safety requirements.
+- report detailing the approach used to specify and analyze security and safety requirements with proper examples taken from the literature. 
+- Javascript/Java based implementation and its documentation.
      

@@ -32,12 +32,6 @@ Audrey BEL du centre d’innovation et d’usage de la santé
 un étudiant ayant des compétences en objets connectés (ie. du parcous IAM) et deux étudiants ayant des compétences en sécurité (ie. du parcous CASPAR) ou trois étudiants ayant des compétences en sécurité (ie. du parcous CASPAR) 
 
 
-#### Besoins Clients
-Cette étude doit permettre d’identifier des failles de sécurité sur différents objets connectés et d’améliorer leur sécurité
-
-#### Résultats Attendus
-•	Evaluation et test de la sécurité de différents objets connectés
-•	Implémentation d’une solution de sécurité pour les objets connectés testés.
 
      
 
@@ -48,12 +42,17 @@ Cette étude doit permettre d’identifier des failles de sécurité sur différ
   * Parcours Recommandés : CASPAR
   * Équipe: SPARKS
 
- blah blah
 #### Références
- blah blah
 
   * [http://www.ciusante.org](http://www.ciusante.org)
   * [http://www.sciencedirect.com/science/article/pii/S1389128610001568](http://www.sciencedirect.com/science/article/pii/S1389128610001568)
   * [http://dx.doi.org/10.1016/j.comnet.2014.11.008](http://dx.doi.org/10.1016/j.comnet.2014.11.008)
- blah blah
+
+#### Besoins Clients
+Cette étude doit permettre d’identifier des failles de sécurité sur différents objets connectés et d’améliorer leur sécurité
+
+#### Résultats Attendus
+•	Evaluation et test de la sécurité de différents objets connectés
+•	Implémentation d’une solution de sécurité pour les objets connectés testés.
+
      

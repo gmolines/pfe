@@ -28,11 +28,7 @@ Encadrants:
 Programmation C++, connaissances d'OpenMP, maitrise des outils de compilation
 
 
-#### Besoins Clients
-le besoin est une étude expérimentale des goulots d'étranglement de la librairie ENAS.
 
-#### Résultats Attendus
-une amélioration des performances.
      
 
 #### Informations Administratives
@@ -42,10 +38,13 @@ une amélioration des performances.
   * Parcours Recommandés : AL
   * Équipe: kairos
 
- blah blah
 #### Références
- blah blah
 
 
- blah blah
+
+#### Besoins Clients
+le besoin est une étude expérimentale des goulots d'étranglement de la librairie ENAS.
+
+#### Résultats Attendus
+une amélioration des performances.
      

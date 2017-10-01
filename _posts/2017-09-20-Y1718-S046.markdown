@@ -25,6 +25,22 @@ Etapes:
 Linux. Notions de parallélisation. Notions en CUDA ou machine learning appréciées.
 
 
+
+     
+
+#### Informations Administratives
+  * Contact : Johan Montagnat <johan.montagnat@cnrs.fr>
+  * Identifiant sujet : `Y1718-S046`
+  * Type : Engineering
+  * Parcours Recommandés : AL,SD
+  * Équipe: SPARKS
+
+#### Références
+
+  * [https://www.semanticscholar.org/paper/Are-Very-Deep-Neural-Networks-Feasible-on-Mobile-D-Rallapalli-Qiu/d7896d6be118386a1f76f389210ca4e3a87b0d4a](https://www.semanticscholar.org/paper/Are-Very-Deep-Neural-Networks-Feasible-on-Mobile-D-Rallapalli-Qiu/d7896d6be118386a1f76f389210ca4e3a87b0d4a)
+  * [http://engineering.skymind.io/distributed-deep-learning-part-1-an-introduction-to-distributed-training-of-neural-networks](http://engineering.skymind.io/distributed-deep-learning-part-1-an-introduction-to-distributed-training-of-neural-networks)
+  * [http://www.deeplearningbook.org/](http://www.deeplearningbook.org/)
+
 #### Besoins Clients
   - Déploiement de piles logicielles exploitant CUDA sur un système embarqué
   - Analyse de performance
@@ -36,21 +52,4 @@ Linux. Notions de parallélisation. Notions en CUDA ou machine learning appréci
   - Description des benchmarks
   - Rapport de performances
   - Etude bibliographique des possibilités de parallélisation
-     
-
-#### Informations Administratives
-  * Contact : Johan Montagnat <johan.montagnat@cnrs.fr>
-  * Identifiant sujet : `Y1718-S046`
-  * Type : Engineering
-  * Parcours Recommandés : AL,SD
-  * Équipe: SPARKS
-
- blah blah
-#### Références
- blah blah
-
-  * [https://www.semanticscholar.org/paper/Are-Very-Deep-Neural-Networks-Feasible-on-Mobile-D-Rallapalli-Qiu/d7896d6be118386a1f76f389210ca4e3a87b0d4a](https://www.semanticscholar.org/paper/Are-Very-Deep-Neural-Networks-Feasible-on-Mobile-D-Rallapalli-Qiu/d7896d6be118386a1f76f389210ca4e3a87b0d4a)
-  * [http://engineering.skymind.io/distributed-deep-learning-part-1-an-introduction-to-distributed-training-of-neural-networks](http://engineering.skymind.io/distributed-deep-learning-part-1-an-introduction-to-distributed-training-of-neural-networks)
-  * [http://www.deeplearningbook.org/](http://www.deeplearningbook.org/)
- blah blah
      

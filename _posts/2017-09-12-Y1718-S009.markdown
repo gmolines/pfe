@@ -22,11 +22,7 @@ Technologies : JavaScript ES6 / NodeJS / WebAudio / WebMidi
 JavaScript niveau minimal, intérêt pour la Musique Assistée par ordinateur
 
 
-#### Besoins Clients
-J'ai écrit une application musicale sur le Web, je veux pouvoir intégrer des effets audios sous forme de plugins, écrits par d'autres personnes.
 
-#### Résultats Attendus
-Un modèle de plugin WebAudio, des exemples prototypes de plugins et d'applications hosts compatibles avec ces plugins.
      
 
 #### Informations Administratives
@@ -36,10 +32,13 @@ Un modèle de plugin WebAudio, des exemples prototypes de plugins et d'applicati
   * Parcours Recommandés : IHM,WEB
   * Équipe: WIMMICS
 
- blah blah
 #### Références
- blah blah
 
 
- blah blah
+
+#### Besoins Clients
+J'ai écrit une application musicale sur le Web, je veux pouvoir intégrer des effets audios sous forme de plugins, écrits par d'autres personnes.
+
+#### Résultats Attendus
+Un modèle de plugin WebAudio, des exemples prototypes de plugins et d'applications hosts compatibles avec ces plugins.
      

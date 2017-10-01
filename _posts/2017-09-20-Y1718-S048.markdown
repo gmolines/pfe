@@ -27,11 +27,7 @@ Ce projet, encadré par Franck Michel et Catherine Faron-Zucker,  vise à explor
 Suivre le module "Web of Data"
 
 
-#### Besoins Clients
-Etude des outils de liage de données, comparaison des niveaux de précision et d'exhaustivité des liens découverts
 
-#### Résultats Attendus
-Comparatif des outils. Liage concret de TAXREF avec des jeux de données publiés sur le Web
      
 
 #### Informations Administratives
@@ -41,10 +37,13 @@ Comparatif des outils. Liage concret de TAXREF avec des jeux de données publié
   * Parcours Recommandés : WEB
   * Équipe: SPARKS
 
- blah blah
 #### Références
- blah blah
 
 
- blah blah
+
+#### Besoins Clients
+Etude des outils de liage de données, comparaison des niveaux de précision et d'exhaustivité des liens découverts
+
+#### Résultats Attendus
+Comparatif des outils. Liage concret de TAXREF avec des jeux de données publiés sur le Web
      
