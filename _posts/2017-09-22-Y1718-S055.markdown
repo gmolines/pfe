@@ -1,0 +1,71 @@
+---
+layout: post
+title: "Understanding the end-devices behavior in the wild"
+date: 2017-09-22 12:02:44
+categories: [dispo, caspar]
+pid: Y1718-S055
+type: Engineering
+contact: Dino Lopez
+---
+       
+As web services get momentum, understanding the interaction of computing devices with the multiple Internet servers is a challenging task. Indeed, by installing one networking service/application in a device, multiple connections can be triggered by such an application to different services and different purposes. From the security point of view, such connections can represent important threats to the users’ data privacy. Hence, this PFE aims at understanding the multiple interactions that a computing device can have with the wild Internet, with or without the user’s agreement.
+
+
+Title : Understanding the end-devices behavior in the wild
+
+Contact:
+Dino Lopez – dino.lopez@unice.fr
+Quentin Jacquemart – Quentin.JACQUEMART@unice.fr
+Guillaume Urvoy-Keller – urvoy@i3s.unice.fr
+
+Team:
+SigNet
+
+PFE Description:
+As mobile devices to access Internet and network services get momentum, understanding the interaction of computing devices with the multiple Internet servers is a challenging task. Indeed, by installing one networking service/application in a device, multiple connections can be triggered by such an application to different services and for different purposes, like for instance, live update services, behavioral statistics (related to the way a given user uses the application), tiers-partners connections (e.g. publicity services), just to mention a few.
+
+From the security point of view, such connections can represent important threats to the users’ data privacy, as all these traffic exchanges can occur without a clear understanding of the users. In the worst case, the network traffic exchange might even occur without the user’s agreement.
+To understand the multiple interactions that a computing device can have with the wild Internet, with or without the user’s agreement, this PFE looks for investigating the end-users and end-devices behavior by employing two different methodologies.
+
+First Methodology: in the end user’s device.
+In the first methodology, the students are expected to firstly develop some applications to gather traffic-related fine-grain statistics from computing devices using different Operating Systems, applications and environments and study the work already done by other researchers to characterize the end-user or end-devices behavior.
+
+Then, the students will work to launch the widest possible campaign to collect the traffic related information from users over different locations (e.g. at the university campus, at research lab, etc).
+
+Finally, with all the collected statistics, the students must propose different solutions to cartography and understand the interaction of the computing devices with Internet servers and any other device.
+
+Second Methodology: in a “compromised” router
+The objective of this methodology is two-fold: we aim at understanding whether the users’ behavior changes when it uses an unprotected Internet access (and how) and characterize the “damage” that can be inflicted to such an open Internet gateway. In this case, the student will follow a honeypot approach.
+
+Again, the students are expected to collect traffic-related statistics and propose different strategies to understand the interaction between users and the wild.
+For more information, please don’t hesitate to contact people involved in this project.
+
+Some related papers:
+* Frédéric Giroire, Jaideep Chandrashekar, Gianluca Iannaccone, Konstantina Papagiannaki, Eve M. Schooler, Nina Taft: The Cubicle vs. The Coffee Shop: Behavioral Modes in Enterprise End-Users. PAM 2008: 202-211
+* Thomas Karagiannis, Konstantina Papagiannaki, Nina Taft, Michalis Faloutsos: Profiling the End Host. PAM 2007: 186-196
+
+
+#### Compétences Requises
+C/Python Programming. Knowledges on Linux, Windows, and any OS for mobile devices are welcomed
+
+
+#### Besoins Clients
+Traffic collection + Data analysis to cartography the computing devices interactions
+
+#### Résultats Attendus
+The cartography of the computing devices interactions in the wild
+     
+
+#### Informations Administratives
+  * Contact : Dino Lopez <dino.lopez@unice.fr>
+  * Identifiant sujet : `Y1718-S055`
+  * Type : Engineering
+  * Parcours Recommandés : CASPAR
+  * Équipe: SIS / SigNet
+
+#### Références
+
+  * [http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.121.2318&rep=rep1&type=pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.121.2318&rep=rep1&type=pdf)
+  * [http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.84.9649&rep=rep1&type=pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.84.9649&rep=rep1&type=pdf)
+       
+     
