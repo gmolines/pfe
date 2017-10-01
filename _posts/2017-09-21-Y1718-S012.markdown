@@ -1,0 +1,54 @@
+---
+layout: post
+title: "Classification de vidéos par le mouvement"
+date: 2017-09-21 06:19:33
+categories: [dispo, sd]
+pid: Y1718-S012
+type: Engineering
+contact: Katy Blanc
+---
+       
+L’équipe SPARKS a développé une nouvelle représentation du contenu vidéo pour l’analyse de bases de données multimédia. Grâce à cette représentation, l’équipe a pu construire un système de résumé automatique de match de foot, d’extraction des moments saillants, et de détection des ralentis. Cette nouvelle représentation semble pouvoir être étendue facilement au problème de la recherche de vidéo et de la reconnaissance d’émotions faciales.
+
+Contexte : 
+Dans le domaine de la classification vidéo, les descripteurs vidéo actuels se basent principalement sur les descripteurs images: - soit une vidéo est considérée comme une succession d'images (les frames) décrites une à une par des représentations statiques ;
+- soit une vidéo est considérée comme une image avec une dimension supérieure, le temps, et les descripteurs sont généralisés à cette dimension supérieure en utilisant une technique de suivi d’une frame à l’autre. 
+La méthode de référence aujourd’hui est les « improved Dense Trajectories » : des points saillants sont extraits dans une frame (les coins, les croisements de contours, etc) et ces points statiques sont suivis dans la frame suivante de la vidéo et ainsi de suite afin de créer des trajectoires de points. Même les meilleures méthodes de Deep Learning sur la vidéo, ne permettent pas encore de dépasser les Dense Trajectories.
+Les résultats des méthodes les plus récentes ne dépassent les performances des Dense Trajectories seules qu’en se combinant avec elles (c’est l’exemple de la méthode par Deep Learning : Convolutional 3D).
+L’équipe SPARKS a développé une nouvelle représentation du contenu vidéo pour l’analyse de bases de données multimédia. Grâce à cette représentation, l’équipe a pu construire un système de résumé automatique de match de foot, d’extraction des moments saillants, et de détection des ralentis.
+http://www.i3s.unice.fr/~kblanc/documents/singletsSlides.pdf
+
+L’objectif de ce projet est d’adapter notre nouvelle représentation pour concurrencer les meilleures méthodes de classification et de recherche de vidéos.
+
+Objectifs :
+La description du contenu vidéo que nous avons développée dans l’équipe SPARKS, ne s’appuie pas sur des points caractéristiques dans le domaine image (comme les coins par exemple) mais sur des points singuliers dans le flot de mouvement (tourbillons ou spirales des vecteurs mouvement, etc). 
+Le premier objectif est de reproduire le schéma de description des vidéos par Dense Trajectories mais en reposant les points d’accroche sur nos points singuliers de mouvement et d’évaluer les performances pour la classification de vidéos de sport de la base de référence UCF101.
+Le deuxième objectif vise à étendre le champ d’application de notre représentation de contenu vidéo à la classification d’émotions faciales pour lequel nos travaux semblent particulièrement bien adaptés. On pourra par exemple s’inspirer de la bande annonce de la série tv « Lie to me » http://www.dailymotion.com/video/xbtbmh pour voir l’intérêt d’une approche basée sur des singularités dans le mouvement. Vous appliquerez pour cela notre représentation actuelle de vidéo et l’adapterez pour la reconnaissance d’émotions.
+
+Encadrants :
+Frédéric Precioso, precioso@unice.fr
+Katy Blanc, kblanc@i3s.unice.fr
+Diane Lingrand, lingrand@i3s.unice.fr
+
+#### Compétences Requises
+Bonnes connaissances en C++, OpenCV, en traitement d'images et en machine learning
+
+
+#### Besoins Clients
+Le premier objectif est de reproduire le schéma de description des vidéos par Dense Trajectories mais en reposant les points d’accroche sur nos points singuliers de mouvement et d’évaluer les performances pour la classification de vidéos de sport de la base de référence UCF101.
+
+Le deuxième objectif vise à étendre le champ d’application de notre représentation de contenu vidéo à la classification d’émotions faciales pour lequel nos travaux semblent particulièrement bien adaptés. Vous appliquerez pour cela notre représentation actuelle de vidéo et l’adapterez pour la reconnaissance d’émotions.
+
+#### Résultats Attendus
+- Evaluation de la première phase sur la base UCF101 et rédaction d'un article scientifique si les résultats sont probants
+- Evaluation de la seconde phase sur une base d'émotions faciales fournie par les encadrants et rédaction d'un article scientifique si les résultats sont probants
+- rapport final comprenant l'étude bibliographique, les justifications des choix techniques
+- Documentation (même succincte) du code
+     
+
+#### Informations Administratives
+  * Contact : Katy Blanc <kblanc@i3s.unice.fr>
+  * Identifiant sujet : `Y1718-S012`
+  * Type : Engineering
+  * Parcours Recommandés : SD
+     

@@ -1,0 +1,36 @@
+---
+layout: post
+title: "Classification automatique d’images de plancton par Deep Learning ou apprentissage hybride Deep Features/Random Forest"
+date: 2017-09-21 01:06:16
+categories: [dispo, sd]
+pid: Y1718-S011
+type: Engineering
+contact: Eric Debreuve
+---
+       
+Le sujet est l’apprentissage statistique pour la classification automatique d’images de zooplancton, en collaboration avec le Laboratoire d'Océanographie de Villefranche/Mer qui a déjà étudié (1) l’utilisation de caractéristiques de forme extraites des organismes détectés dans les images pour « nourrir » un classifieur Forêt aléatoire, (2) une méthode basée sur du Deep Learning, et (3) une méthode  hybride pour apprendre les caractéristiques automatiquement par Deep Learning qui sont ensuite intégrée dans un classifieur Forêt aléatoire. Le but du projet est de poursuivre cette étude en sélectionnant/combinant les caractéristiques classiques et celles apprises par Deep Learning et (b) en modifiant l’architecture Deep Learning pour améliorer la classification.
+
+Le sujet est l’apprentissage statistique pour la classification automatique d’images de zooplancton, en collaboration avec le Laboratoire d'Océanographie de Villefranche/Mer qui a déjà étudié 3 approches : (1) l’utilisation de caractéristiques classiques (de forme, statistiques, etc) extraites des organismes détectés dans les images pour « nourrir » un classifieur Forêt aléatoire, (2) une méthode basée sur du Deep Learning, et (3) une méthode  hybride pour apprendre les caractéristiques automatiquement par Deep Learning qui sont ensuite intégrée dans un classifieur Forêt aléatoire. Le but du projet est de poursuivre cette étude en (a) comparant/sélectionnant/combinant les caractéristiques classiques et celles apprises par Deep Learning et (b) en modifiant l’architecture Deep Learning pour améliorer les performances de classification. Le but du projet est de poursuivre cette étude en (a) comparant/sélectionnant/combinant les caractéristiques imaginées par les biologistes et celles apprises par l’approche Deep Learning et (b) en modifiant l’architecture Deep Learning pour améliorer les performances de classification.
+	L’implémentation sera faite en langage Python. Les tests seront menés sur la base d’images du LOV. De plus, les résultats de ce travail sont destinés à être exploités à long terme. Il est donc important que d’autres développeurs puissent débugger le code écrit si besoin et le faire évoluer. Il devra donc être bien structuré et un minimum commenté/documenté. On pourra également évaluer les performances atteintes par notre propre architecture sur les données de la compétition Kaggle sur la reconnaissance de zooplankton (https://www.kaggle.com/c/datasciencebowl) pour mesurer notre solution sur un classement international.
+Encadrement par Jean-Olivier Irisson <irisson@normalesup.org> et Frédéric Precioso <frederic.precioso@unice.fr> 
+
+
+#### Compétences Requises
+•	A l’aise en programmation, de préférence en Python bien sûr (mais une connaissance basique du langage peut suffire en cas de forte motivation pour apprendre rapidement et de manière relativement autonome).
+•	Volonté de travailler dans un contexte plus recherche qu’ingénieur (l’aspect implémentation n’est qu’une partie du travail ; l’aspect analyse et compréhension des résultats est également importante).
+
+
+#### Besoins Clients
+L’implémentation sera faite en langage Python. Les tests seront menés sur la base d’images du LOV. De plus, les résultats de ce travail sont destinés à être exploités à long terme. Il est donc important que d’autres développeurs puissent débugger le code écrit si besoin et le faire évoluer. Il devra donc être bien structuré et un minimum commenté/documenté.
+
+#### Résultats Attendus
+- Documentation pour l'utilisation du code écrit
+- Rapport expliquant les choix techniques
+     
+
+#### Informations Administratives
+  * Contact : Eric Debreuve <debreuve@i3s.unice.fr>
+  * Identifiant sujet : `Y1718-S011`
+  * Type : Engineering
+  * Parcours Recommandés : SD
+     

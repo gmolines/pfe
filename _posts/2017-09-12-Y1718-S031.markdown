@@ -1,0 +1,50 @@
+---
+layout: post
+title: "Long-term digital data storage on DNA"
+date: 2017-09-12 16:49:22
+categories: [dispo, sd]
+pid: Y1718-S031
+type: Engineering
+contact: Marc Antonini
+---
+       
+Storage of digital data is becoming challenging for the humanity due to the relatively short life span of storage devices. Indeed, the durability of digital equipment, either hard drives, flash drives, floppies or CD-ROMs, compare very badly with the one of clay, vinyl or paper. Servers, for instance, have to be replaced about every five years. An interesting alternative approach may stem from the use of DNA, the support of heredity in living organisms. This comes from recent biotechnological developments that allow easy and affordable DNA writing (synthesis) and DNA reading (sequencing). The present PFE project considers the development of a very long-term storage system of digital images based on stack-run coding, where large mass of information may be stored as DNA.
+
+Classical compression schemes (for text, speech, image, video and 3D data) involve three main steps: a transform (e.g. Discrete Cosine Transform [DCT], Discrete Wavelet transform [DWT]…) in order to remove redundancy, a quantization process that reduces the amount of information contained by the source signal, and a binary coding process. Current state of the art of coding is based on binary coding because it is required by the technology and the way nowadays computers work.
+In computer science, coding a source data requires the association of a binary code word composed by a set of “0” and “1”, to each different value the source can take. Basically, code words try to reduce the redundancy and represent the source with fewer bits that carry more information. A compact representation is obtained when the amount of bits that represents the source corresponds to its entropy, which gives the minimum number of bits necessary to describe completely the source without error.
+
+Thanks to its intrinsic properties, DNA coding is a strong opportunity to make a breakthrough for long-term storage of multimedia data, pending some adaptations for using it in digital coding. Indeed, DNA coding is a quaternary coding processing that must be adapted to digital data (sequence of bits) if one wants to use DNA as a storage support. Then, as DNA structures are based on an assembly of 4 “bases” {A, C, G, T} and if one wants to exploit the DNA mechanism as a compact source code, the most important issue to solve is to extend the concept of binary code word to quaternary code word. 
+
+Thus, we need to find solutions to exploit quaternary coding for digital data instead of classical binary coding used by the current computers. The only possibility to exploit the DNA structure for digital data is the stack-run coding algorithm, developed for image coding in 1996 by (Tsai et al.), which is a good candidate to make the link between binary and quaternary coding. To our knowledge, stack-run coding has never been applied for DNA coding. The stack-run coder is an algorithm, which is applied to a signal after it has been first, transformed and quantized to represent every meaningful coefficient, which is necessary for the reconstruction of the signal. As meaningful coefficients are considered the non-zero positive or negative values, which are called “stack” or significant coefficients, while the zeros between them are meaningless coefficients, which are called “run”. Stack-run coding allows to use 4 different symbols, “+”, “-”, “0” and “1”, to represent all the values of a signal. This alphabet would therefore be easily linked to the DNA bases.
+
+In this project, our aim will be to develop an encoding process based on stack-run that allows generating a quaternary stream adapted to DNA sequencing. 
+The proposed solution should be:
+- Efficient in term of compression, i.e., generating quaternary stream with compact length,
+- Decodable,
+- Adapted to DNA sequencing constraints.
+
+To provide a proof of concept of the proposed approach, we propose during this PFE to build up an original “DNA Rosetta repository”, composed by a set of images of the Rosetta stone. This data was chosen because it provided the key to the modern understanding of Egyptian hieroglyphs.
+
+
+#### Compétences Requises
+Good skills in programming (C, C++, Matlab)
+
+
+#### Besoins Clients
+DNA coding is a quaternary coding processing that must be adapted to digital data (sequence of bits) if one wants to use DNA as a storage support. Then, as DNA structures are based on an assembly of 4 “bases” {A, C, G, T} and if one wants to exploit the DNA mechanism as a compact source code, the most important issue to solve is to extend the concept of binary code word to quaternary code word.
+
+#### Résultats Attendus
+The present project considers the development of a very long-term storage system where large mass of information may be stored as DNA. We envision that this approach could provide a credible solution for long term storage of critical information, and therefore offer an appropriate solution for the creation of high-value strategic repositories.
+The different tasks/deliverable of the PFE are the following:
+- State-of-the-art
+- DNA stack-run development
+- First DNA sequencing tests on images
+- Creation of the repository
+     
+
+#### Informations Administratives
+  * Contact : Marc Antonini <am@i3s.unice.fr>
+  * Identifiant sujet : `Y1718-S031`
+  * Type : Engineering
+  * Parcours Recommandés : SD
+     

@@ -1,0 +1,49 @@
+---
+layout: post
+title: "Amélioration d’un système d’affichage interactif d’objets 3D"
+date: 2017-09-13 18:31:42
+categories: [dispo, sd]
+pid: Y1718-S010
+type: Engineering
+contact: Frédéric Payan
+---
+       
+L’objectif principal de ce PFE est d'ajouter des fonctionnalités à un système de visualisation d'objets 3D "view dependent" (appelé aussi interactif) développé dans notre équipe de recherche. Le principe de ce type de ce système de visualisation est de n'afficher coté client que les données visibles depuis un point de vue donné. En cas de mouvement, seules les régions des objets 3D nouvellement visibles sont transmises depuis le serveur vers le terminal client, pour y être affiché. 
+
+Introduction 
+La visualisation avec point de vue libre (freeview point visualization) est un système de transmission de contenus multimédia, dans lequel l’utilisateur peut observer une scène depuis n’importe quel point de vue. Ce type d’applications est très prisé car il apporte une sensation d’im- mersion 3D à l’utilisateur, tout en ayant le "contrôle" sur les données observées.
+
+Pour être performant, le système coté client nécessite un (dé)codage interactif : on transmet uniquement les données inconnues jusqu’à présent qui apparaissent dans le champ de vision de l’utilisateur, à partir de son point de vue (Figure 1).
+Une approche classique pour envoyer un minimum d’information à chaque changement de point de vue est d’utiliser une prédiction coté client : à partir des données affichées depuis le point de vue i, on essaie de prédire ce qui va être vu à partir du nouveau point de vue i + 1, et seule l’erreur de prédiction est envoyée par le serveur.
+
+Contexte du projet
+Dans notre équipe, un stagiaire a récemment développé un système de visua- lisation d’objets 3D. Ce système gère le principe d’affichage interactif décrit ci-dessus :
+1.	On affiche uniquement les parties de l’objet 3D que l’on voit selon notre point de vue (voir Fig. 2).
+2.	Si on déplace l’objet, alors on charge et on affiche les parties devenues visibles selon le nouveau point de vue.
+Le système gère aussi la notion de prédiction : on peut prédire la position des sommets des maillages représentant les objets 3D qui apparaissent selon le nouveau point de vue. Cependant la méthode actuelle est très sommaire.
+
+Objectif 
+L’objectif principal de ce PFE sera de programmer (en C++) d’autres méthodes de prédic- tion, et de comparer l’efficacité de ces prédictions par rapport à celle déjà implémentée.
+ Ce projet sera encadré par Frédéric Payan, enseignant-chercheur de l’Université de Nice Sophia Antipolis, rattaché au laboratoire CNRS I3S situé à Sophia Antipolis, juste à coté du campus SophiaTech. Pour plus d’informations, contactez Frédéric Payan : fpayan@i3s.unice.fr.
+
+
+
+#### Compétences Requises
+Programmation C++. La connaissance de scilab/matlab pourra être utile aussi. 
+
+
+#### Besoins Clients
+Notre besoin est d'améliorer l'affichage interactif des données coté client. Pour cela, il nous faut investiguer les techniques de prédiction coté client, notamment géométriques, qui permettrait de réduire la quantité d'informations à transmettre depuis le serveur, en cas de visualisation à distance des objets 3D. 
+
+
+#### Résultats Attendus
+- L'implémentation de nouvelles méthodes de prédiction de la position des sommets de maillages triangulaires dans notre système actuel
+- Des tests de comparaison avec notre méthode actuelle pour savoir la plus efficace.  
+     
+
+#### Informations Administratives
+  * Contact : Frédéric Payan <fpayan@i3s.unice.fr>
+  * Identifiant sujet : `Y1718-S010`
+  * Type : Engineering
+  * Parcours Recommandés : SD
+     

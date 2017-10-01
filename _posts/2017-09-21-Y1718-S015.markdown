@@ -1,0 +1,61 @@
+---
+layout: post
+title: "Deep MNREAD: Vers une nouvelle génération de tests de lecture pour les déficients visuels"
+date: 2017-09-21 03:08:52
+categories: [dispo, sd]
+pid: Y1718-S015
+type: Engineering
+contact: Pierre Kornprobst
+---
+       
+Votre objectif sera de développer une approche basée sur des réseaux de neurones récurrents pour générer des tests calibrés pour mesurer les capacités de lecture des déficients visuels, et ceci dans plusieurs langues.
+
+Contexte:
+Le  nombre  de  déficients  visuels  (avec  un  trouble  visuel chronique  et  intraitable)  pourrait avoir triplé en 2050, en particulier avec le vieillissement de la population.  Les plus de 50 ans des pays émergents  sont  de  loin  les  plus  touchés.   La  basse-vision  affecte  leur  qualité  de  vie  et  la  réalisation  des tâches  de  la  vie  quotidienne,  leur  déplacement  ainsi  que  des  tâches  essentielles  de  leur  vie  quotidienne telle que la lecture.
+En particulier, la capacité de lire, qui nécessite la vision de près, peut être impactée par de nombreuses pathologies.  La DMLA (dégénérescence maculaire liée à l’age) en est l’une des causes principales, avec 1.5 millions de personnes touchées en France.  Étant donnés les progrès de la médecine pour le traitement des maladies  oculaires  et  la  volonté  des  patients  de  retrouver  une  capacité  de  lecture  confortable,  il  y  a  un intérêt clinique croissant pour avoir des méthodes d’évaluation de la vitesse de lecture qui soient calibrées et standardisées.  L’un des objectifs est d’avoir des méthodes qui permettent des comparaisons entre des patients, indépendamment de la langue, et pour cela répondre des standards qui ont été définis.
+Il est bien admis que lire des mots ou des phrases est une fonction plus complexe que la lecture d’optotypes  individuels  (caractère  ou  figure)  sur  un  diagramme  d’acuité  (utilisés  classiquement  chez votre  ophtalmologiste),  car  les  lettres  individuelles  dans  les  mots  sont  plus  difficiles  à  reconnaître.   En conséquence, l’acuité de loin mesurée avec un seul optotype est un prédicteur limité de la performance de lecture et, par conséquent, ne peut pas élucider la déficience fonctionnelle complète de plusieurs maladies ophtalmiques.  Les tableaux de lecture sont donc inclus dans le cadre d’une évaluation afin d’assurer une évaluation complète des propriétés visuelles.
+Plusieurs tableaux de lecture ont été proposés, basés sur des ensembles de phrases courtes comparables en  terme  de  taille  et  de  contenu  sémantique.   Le  test  MNREAD  en  est  un  exemple  type. Développé par Gordon Legge (Université du Minesotta).  Le test MNREAD propose 5 versions de tableaux de lectures comportant 19 phrases couvrant une large gamme de tailles d’impression. Ces 95 phrases ”classiques”  sont  normalisées  pour  répondre  aux  contraintes  linguistiques  et  typographiques.   C’est  en mesurant les vitesses de lecture des patients pour différentes tailles de fontes que l’on peut estimer quatre paramètres qui caractérisent les capacités du patient.
+
+Description :
+Dans ce projet, vous allez vous plonger dans les réseaux de neurones récurrents.  Ce type de  réseaux  a  une  importance  particulière  pour  l'analyse de données séquentielles et a démontré des performances jamais atteinte pour la classification et la génération de texte.  Dans ce projet, vous allez les mettre en œuvre pour la génération automatique de test de lecture pour les déficients visuels.
+Votre travail permettra de répondre à deux besoins principaux :
+- Le premier est celui d’élargir le corpus du matériel de test MNREAD pour les recherches nécessitant des tests répétés et pour évaluer les effets de variables de texte autres que la taille de l’impression. L’originalité de l’approche proposée est d’utiliser les réseaux de neurones récurrents, contrairement à une approche de type graphe récemment proposée, qui vont permettre de générer des phrases avec un coût calcul minimal et surtout de transférer la structure des phrases d'une langue à l'autre (transfer learning). 
+- Le deuxième est de disposer d’une méthode permettant de générer automatiquement des tables de lectures  normalisées  pour  différentes  langues.   En  effet,  le  test  MNREAD  a  été  conçu  en  anglais puis  il  est  actuellement  décliné "à  la  main”  dans  plusieurs  autres  langues.   Disposer  d’un  outil automatique  serait  donc  particulièrement  utile  pour  que  ce  test  soit  largement  diffusé et  utile  au plus grand nombre, indépendamment de leur langue.
+
+Réalisation :
+Dans une première phase nous allons chercher à construire et tester un modèle de réseaux de  neurones  récurrent  permettant  de  tester  la  qualité de  la  génération  de  phrases.  Les  critères  liés à  la normalisation des résultats attendus  devront être  pris en compte (exemple:  longueur des mots,  nombre total  de  caractères,  la  fréquence  d’occurrence dans  la  langue).  Outre  ces  contraintes,  il  faudra  s’assurer que  les  phrases  générées  ont  bien  un  sens  (alors  que  jusqu'à  présent  les  phrases  des  tests étaient  créées par des humains).  Différents tests seront menés en fonction de la base d’apprentissage choisie qui pourra déterminer un niveau de langage attendu.
+Si  vous  avancez  suffisamment  efficacement  vous  pourrez  vous  intéresser à la génération  de  phrase dans une autre langue pour laquelle nous pouvons disposer d’une personne vérifiant le sens des phrases qui  seront  générées.   Il  pourra  être  intéressant  de  comparer  les  résultats  obtenus  avec  des  langues  de structure grammaticale similaires (exemple: français, anglais, espagnol) avec d’autres langues de racines linguistiques différente.
+Nous espérons faire une publication de ces travaux si les résultats sont concluants.
+
+Pour en savoir  plus sur le test   MNREAD:
+•	La page officielle : http://legge.psych.umn.edu/mnread-acuity-charts
+•	Une vidéo de démonstration :  http://www.precision-vision.com/mn-read-testing-demonstration
+
+Encadrement : 
+- Frédéric  Precioso  (Laboratoire  I3S,  Equipe  SPARKS,  Sophia  Antipolis)  :   Réseaux  de  neurones profonds
+- Pierre Kornprobst (Inria, Equipe BIOVISION, Sophia Antipolis) : Vision artificielle et biologique
+- Eric Castet (Laboratoire de Psychologie Cognitive, Marseille) : Psychophysique de la lecture en basse vision
+
+
+#### Compétences Requises
+De bonnes connaissances en Python & des connaissances en Machine Learning voire Deep Learning seront appréciées.
+Nous  recherchons  des  candidats  hautement  motivés  pour  travailler  sur  un  sujet  transdisciplinaire avec des applications dans le domaine du handicap visuel.
+
+
+#### Besoins Clients
+Votre travail permettra de répondre à deux besoins principaux :
+- Le premier est celui d’élargir le corpus du matériel de test MNREAD pour les recherches nécessitant des tests répétés et pour évaluer les effets de variables de texte autres que la taille de l’impression. L’originalité de l’approche proposée est d’utiliser les réseaux de neurones récurrents, contrairement à une approche de type graphe récemment proposée, qui vont permettre de générer des phrases avec un coût calcul minimal et surtout de transférer la structure des phrases d'une langue à l'autre (transfer learning). 
+- Le deuxième est de disposer d’une méthode permettant de générer automatiquement des tables de lectures  normalisées  pour  différentes  langues.   En  effet,  le  test  MNREAD  a  été  conçu  en  anglais puis  il  est  actuellement  décliné "à  la  main”  dans  plusieurs  autres  langues.   Disposer  d’un  outil automatique  serait  donc  particulièrement  utile  pour  que  ce  test  soit  largement  diffusé et  utile  au plus grand nombre, indépendamment de leur langue.
+
+#### Résultats Attendus
+- Documentation pour l'utilisation du code écrit
+- Rapport expliquant les choix techniques
+- Code implémenté en Python
+     
+
+#### Informations Administratives
+  * Contact : Pierre Kornprobst <kornprobst@sophia.inria.fr>
+  * Identifiant sujet : `Y1718-S015`
+  * Type : Engineering
+  * Parcours Recommandés : SD
+     

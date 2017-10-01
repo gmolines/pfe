@@ -1,0 +1,49 @@
+---
+layout: post
+title: "Sécurité d’objets connectés de santé et bien être"
+date: 2017-09-19 20:09:51
+categories: [dispo, caspar]
+pid: Y1718-S041
+type: Engineering
+contact: KARIMA BOUDAOUD
+---
+       
+L’objectif du projet est d’identifier les failles de sécurité et de vie privée concernant  des objets connectés de santé et bien être puis de proposer une amélioration de la sécurité de ces objets.
+
+Les objets connectés sont de plus en plus utilisés dans le quotidien en particulier dans le domaine de la santé (tensiomètres,…) et du bien être (balance connectée, smartwatch, …). Cependant ces objets connectés peuvent porter atteinte à la vie privée des personnes les utilisant. En effet, les données collectées par l’objet connecté (qui peuvent être stockées sur l’objet connecté lui-même ou sur le smartphone ou encore sur le Cloud), peuvent être récupérées par des personnes malintentionnées. 
+L’objectif principal de ce projet sera d’une part d’identifier les failles de sécurité de plusieurs objets connectés de santé et bien être et d’autre part de proposer une amélioration du mécanisme de sécurité utilisé par l’objet ou d’implémenter une nouvelle solution de sécurité.
+
+Ce projet se fera en collaboration avec le « centre d’innovation et d’usage de la santé » (http://www.ciusante.org) qui fournira les objets connectés à tester.
+
+Planning :
+
+Le travail se décomposera en plusieurs phases :
+
+•	Conduite de tests de sécurité sur différents objets connectés. 
+•	Classification des failles de sécurité détectées.
+•	Implémentation d’une solution de sécurité pour ces objets connectés.
+
+
+Autre encadrant:
+
+Audrey BEL du centre d’innovation et d’usage de la santé
+
+#### Compétences Requises
+un étudiant ayant des compétences en objets connectés (ie. du parcous IAM) et deux étudiants ayant des compétences en sécurité (ie. du parcous CASPAR) ou trois étudiants ayant des compétences en sécurité (ie. du parcous CASPAR) 
+
+
+#### Besoins Clients
+Cette étude doit permettre d’identifier des failles de sécurité sur différents objets connectés et d’améliorer leur sécurité
+
+#### Résultats Attendus
+•	Evaluation et test de la sécurité de différents objets connectés
+•	Implémentation d’une solution de sécurité pour les objets connectés testés.
+
+     
+
+#### Informations Administratives
+  * Contact : KARIMA BOUDAOUD <karima.boudaoud@unice.fr>
+  * Identifiant sujet : `Y1718-S041`
+  * Type : Engineering
+  * Parcours Recommandés : CASPAR
+     

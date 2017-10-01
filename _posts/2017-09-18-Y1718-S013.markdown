@@ -1,0 +1,41 @@
+---
+layout: post
+title: "Vitrine de démonstration et évaluation en ligne des systèmes interactifs"
+date: 2017-09-18 18:41:33
+categories: [dispo, ihm]
+pid: Y1718-S013
+type: Engineering
+contact: Marco Winckler
+---
+       
+L’objective du projet est de développer une plateforme clé-en-main que permettrais la diffusion aisé de système interactifs vers un public ciblé d’utilisateurs bêta-testeurs. La plateforme doit pouvoir diffuser différents types de systèmes interactifs (ex. site Web, applications mobile, etc.). L’évaluation doit pouvoir intégrer de questionnaires standards d’évaluation d’utilisabilité (ex. SUS) et d’UX (ex. AttrakDiff) mais aussi l’ajout des questions personnalisées. 
+
+Contexte : 
+La participation des utilisateurs dans processus de conception est essentielle pour déterminer si le système interactif proposé répond (ou pas) aux besoins des utilisateurs. Pour cette raison, dans une démarche de conception IHM, l’équipe de conception doit présenter les prototypes aux utilisateurs et demander leurs avis. Bien qu’un contact direct avec les utilisateurs soit toujours plus riche, s’il utilisateur ne peut pas se déplacer jusqu’un laboratoire d’utilisabilité (pour observer l’usage du système) il est nécessaire de mettre en place des moyens d’évaluation à distance. 
+Ce projet s’intéresse aux méthodes d’évaluation à distance des systèmes interactifs par le moyen de questionnaires. A ce titre il faut développer une plateforme clé-en-main (du type vitrine) que permettrais la diffusion aisé de système interactifs qui seront par la suite évalué par un publique d’utilisateurs bêta-testeurs. La plateforme doit pouvoir diffuser différents types de systèmes interactifs (ex. site Web, applications mobile, etc.). L’évaluation doit pouvoir intégrer de questionnaires standards d’évaluation d’utilisabilité (ex. SUS ) et d’UX (ex. AttrakDiff) mais aussi l’ajout des questions personnalisées. 
+
+Références 
+•	Brooke, J. (1996). « SUS: a « quick and dirty » usability scale ». In P. W. Jordan, B. Thomas, B. A. Weerdmeester, & A. L. McClelland. Usability Evaluation in Industry. London: Taylor and Francis.
+•	AttrakDiff : http://attrakdiff.de/
+
+#### Compétences Requises
+Techno Web (HTML 5)
+
+
+#### Besoins Clients
+Il faut tenir en compte les besoin de l’équipe de conception/évaluation du système interactifs qui est diffusé en ligne ainsi que les besoins des utilisateurs qui participent du test. 
+
+#### Résultats Attendus
+•	Un site web du type vitrine qui permet la diffusion de prototype à tester ;
+•	Une interface de configuration de l’évaluation avec la possibilité d’intégrer de questionnaires standard (SUS, AttrakDiff, etc.) et des questions personnalisé (propres à l’application ; 
+•	Un outil de diffusion qui permettrait d’attendre le public ciblé par l’expérimentation ; 
+•	Un outil de suivi et d’analyse des résultats obtenus auprès des utilisateurs ;
+•	Possibilité d’exporter les données obtenues avec l’expérimentation. 
+     
+
+#### Informations Administratives
+  * Contact : Marco Winckler <winckler@i3s.unice.fr>
+  * Identifiant sujet : `Y1718-S013`
+  * Type : Engineering
+  * Parcours Recommandés : IHM
+     

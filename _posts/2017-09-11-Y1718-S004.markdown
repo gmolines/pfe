@@ -1,0 +1,48 @@
+---
+layout: post
+title: "Implémentation en Python d'un algorithme de détection d'objects dans les images"
+date: 2017-09-11 17:07:01
+categories: [dispo, sd]
+pid: Y1718-S004
+type: Engineering
+contact: Eric Debreuve
+---
+       
+Le contexte du sujet est la détection d’objets en analyse d’images. Il s’agira d’implémenter en langage Python un algorithme, fondé sur la méthode des processus ponctuels marqués (PPM), de détection d’objets plus ou moins elliptiques dans une image. Cette méthode PPM permet de gérer des contraintes inter-objets telles que la tolérance à la superposition des objets (en particulier la non-superposition stricte). La méthode PPM ayant été développée par l’un des encadrants du PFE, la compréhension de son principe ne posera pas de problème. L’implémentation devra être validée par des tests sur des images de cellules en microscopie par fluorescence dans le cadre d’une étude en biologie.
+
+Contexte :
+En analyse d’images, la détection d’objets consiste à déterminer le contour (ou de manière équivalente, la région intérieure) des objets présents dans l’images où ce qu’on entend par « objet » a été préalablement défini par un modèle. Par exemple, on peut classiquement décider qu’un objet est une région plutôt compacte d’intensité lumineuse ou de couleur nettement distincte de celle de son environnement. Une telle définition est alors traduite en une fonction de score qui dépend des intensités lumineuses ou couleurs des pixels de la région (score élevé => la région correspond bien un objet, score faible => la région ne correspond pas à un objet).
+
+Objectifs :
+Il s’agira d’implémenter en langage Python un algorithme de détection d’objets plus ou moins elliptiques dans une image. Cet algorithme est fondé sur la méthode des processus ponctuels marqués (PPM) qui permet de détecter simultanément un nombre quelconque d’objets tout en gérant des contraintes inter-objets telles que la tolérance à la superposition des objets (en particulier la non-superposition stricte). La méthode PPM ayant été développée par l’un des encadrants du PFE, la compréhension de son principe ne posera pas de problème.
+	On distinguera 2 modèles pour définir un objet : un modèle de forme (que l’on fixera dans un premier temps à une ellipse représentée par ses paramètres), et un modèle d’apparence représenté par une fonction de score. L’implémentation devra être indépendante de la fonction de score. Autrement dit elle prendra cette fonction comme paramètre d’entrée de sorte que l’algorithme de détection pourra être appelé avec différents modèles d’apparence. Si possible, dans un second temps, l’implémentation pourra être rendue indépendante du modèle de forme pour permettre la détection d’objets circulaire, rectangulaires…
+	L’implémentation devra être validée par des tests sur des images de cellules en microscopie par fluorescence dans le cadre d’une étude en biologie. De plus, à l’issue du PFE, le code sera utilisé à grande échelle sur ce type d’images. Il est donc important que d’autres développeurs puissent l’intégrer dans une chaîne de traitement plus large, le débugger si besoin et le faire évoluer. Il devra donc être bien structuré et un minimum commenté/documenté. Si la qualité du code et de la documentation le permettent, le code pourra être déposé sur Python Package Index (PyPI) ou une autre plateforme, au nom de l’étudiant(e) naturellement.
+
+Encadrement :
+    • Equipe Morpheme (Inria, I3S, iBV) hébergée au laboratoire I3S
+    • Site de l’équipe : https://team.inria.fr/morpheme/
+    • Encadrement :
+        ◦ Eric Debreuve		eric.debreuve@cnrs.fr
+        ◦ Xavier Descombes	xavier.descombes@inria.fr
+
+#### Compétences Requises
+    • A l’aise en programmation, de préférence en Python bien sûr (mais une connaissance basique du langage peut suffire en cas de forte motivation pour apprendre rapidement et de manière relativement autonome).
+    • Des bases en traitement d’images sont évidemment un atout mais, le cas échéant, elles seront acquises en début de PFE.
+
+
+#### Besoins Clients
+Il s’agira d’implémenter en langage Python un algorithme de détection d’objets plus ou moins elliptiques dans une image. Cet algorithme est fondé sur la méthode des processus ponctuels marqués (PPM) qui permet de détecter simultanément un nombre quelconque d’objets tout en gérant des contraintes inter-objets telles que la tolérance à la superposition des objets (en particulier la non-superposition stricte).
+L’implémentation devra être validée par des tests sur des images de cellules en microscopie par fluorescence dans le cadre d’une étude en biologie. De plus, à l’issue du PFE, le code sera utilisé à grande échelle sur ce type d’images. Il est donc important que d’autres développeurs puissent l’intégrer dans une chaîne de traitement plus large, le débugger si besoin et le faire évoluer. Il devra donc être bien structuré et un minimum commenté/documenté. Si la qualité du code et de la documentation le permettent, le code pourra être déposé sur Python Package Index (PyPI) ou une autre plateforme, au nom de l’étudiant(e) naturellement.
+
+#### Résultats Attendus
+1 - Code Python
+2 - Documentation
+3 - Rapport/manuel d'utilisation type tutoriel
+     
+
+#### Informations Administratives
+  * Contact : Eric Debreuve <eric.debreuve@cnrs.fr>
+  * Identifiant sujet : `Y1718-S004`
+  * Type : Engineering
+  * Parcours Recommandés : SD
+     

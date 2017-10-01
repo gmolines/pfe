@@ -1,0 +1,44 @@
+---
+layout: post
+title: "Prototype de gestion collaborative de règles ergonomiques."
+date: 2017-09-18 19:30:42
+categories: [dispo, ihm]
+pid: Y1718-S018
+type: Engineering
+contact: Marco Winckler
+---
+       
+L’objectif ce de projet est de faire évoluer (ou développer un nouvel) un outil pour la gestion collaborative de règles ergonomique. Le outil doit permettre de tâches de gestion (ajout, corrections, recherche, etc.) ainsi que tâches d’annotations (ajout de commentaires, vote, etc.) pour un usage collaboratif.
+
+Les connaissances pour la conception d’interface utilisateurs sont souvent disponibles dans la forme de règles ergonomiques/guidelines et/ou patrons de conception d’interface. Les sources de ces règles ergonomiques sont nombreuses et couvrent divers types de systèmes interactifs (ex. applications Web, systèmes mobiles, jeux vidéo, Tablet interactif, …). Si d’un côté il est important pour un concepteur d’avoir des archives assez complet de sources de guidelines, de l’autre côté il est très important de pouvoir consulter ces bases de connaissances et d’en extraire seulement les guidelines qui concernent le type d’application que le concepteur est en train de développer. 
+Les connaissances ergonomiques évoluent en fonctions des études scientifiques. De nombreuses compilations sont publiées sur la forme de norme/standard, guidelines, recommandation et/ou guide de style. La gestion de ces sources d’information ne peut pas se faire sans l’aide d’outil approprié. Par ailleurs, la gestion de ces connaissances peut se faire de façon plus aisé si les tâches sont partagées entre plusieurs utilisateurs qui peuvent exprimer leurs avis sur les recommandations proposés. 
+De façon à donner l’accès au plus grande nombre et permettre la gestion collaborative de la base de réglés ergonomique, il est souhaitable (mais pas obligatoire) l’usage de technologies Web pour le développement du prototype.
+Un premier prototype existe déjà. Les étudiants qui choisiront ce sujet auront accès au code source et ils pourront de réutiliser les parties qui les semblent utiles. 
+Co-encadrement possible avec Anne-Marie Pinna-Dery.
+
+#### Compétences Requises
+Techno Web (HTML 5)
+
+
+#### Besoins Clients
+Les utilisateurs sont de concepteurs et/ou évaluateurs de systèmes interactifs.
+
+#### Résultats Attendus
+•	Avoir une base de donnée pour gérer (selon pattern CRUD) des connaissances ergonomiques formulées en tant que règles ergonomique/patron de design d’interface. 
+•	La formulation des règles doit suivre un structure de design pattern d’interface donnée avec des attributs défini par le template déjà validé en réunion.
+•	Avoir un outil de recherche des règles ergonomique par plusieurs type de critères tels que type de règle ergonomique, par Platform, objet d’interface concernée (ex. menu, en-tête, etc), les règles mieux voté, les plus récentes, …
+•	La base de données doit pouvoir être alimentée par une communauté d’utilisateurs qui, par ailleurs, pourront laisser de commentaires et voter sur le contenu de la base de donnée ; 
+•	Les utilisateurs devront pouvoir documenter sur la même base de données des possibles conflits de recommandation entre règles ergonomique issue de différentes sources; 
+•	Les utilisateurs devront pourvoir constituer des sous-ensembles (une sorte de panier) de règles qui seront constitué pour des besoins spécifiques d’un projet donné.  Les sous-ensembles de règles pourraient être enregistrés pour des usages ultérieurs. 
+•	Pour faciliter la collaboration entre les utilisateurs qui devront pouvoir alimenter la base de données à distance, le développement avec des technologies Web s’impose. 
+•	L’application doit pouvoir être accessible sur plusieurs navigateurs Web. 
+•	Il faudrait tout même une interface d’administration pour contrôler l’accès des nouveaux utilisateurs (admis sur création de compte) et vérifier qu’ils ne vandalisent pas la base de données, par exemple, un utilisateur peux laisser un commentaire sur n’importe quelle règle mais il ne peut pas modifier/effacer une règles qu’il n’aura pas ajouter à la basé. 
+
+     
+
+#### Informations Administratives
+  * Contact : Marco Winckler <winckler@i3s.unice.fr>
+  * Identifiant sujet : `Y1718-S018`
+  * Type : Engineering
+  * Parcours Recommandés : IHM
+     

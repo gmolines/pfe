@@ -1,0 +1,42 @@
+---
+layout: post
+title: "Gestion de la sécurité orientée utilisateur (User-centric)"
+date: 2017-09-19 20:45:00
+categories: [dispo, caspar,ihm]
+pid: Y1718-S027
+type: Engineering
+contact: KARIMA BOUDAOUD
+---
+       
+L’objectif  de ce projet est d’étudier les problèmes  rencontrés par les différents types d’utilisateurs (utilisateurs finaux, développeurs, administrateurs, …) lors de l’utilisation (pour les utilisateurs finaux) ou d’implémentation (pour les développeurs) de mécanismes de sécurité ou d’applications sécurisées  ou de protocoles de communications sécurité et 2) d de recherche dans le domaine.
+
+Bien que de nombreux mécanismes de sécurité existent pour sécuriser les systèmes, réseaux et applications, les failles de sécurité et les attaques ne cessent d’augmenter. L’une des raisons est la mauvaise utilisation de ces mécanismes soit par l’utilisateur final en configurant par exemple les paramètres de sécurité de son objet connecté ou de son smartphone soit par le développeur lorsqu’il implémente ces mécanismes.  
+L’objectif  principal de ce projet sera donc : 1) d’identifier les problèmes  rencontrés par les différents types d’utilisateurs (utilisateurs finaux, développeurs, administrateurs, …) lors de l’utilisation (pour les utilisateurs finaux) ou de l’implémentation (pour les développeurs) de ces mécanismes de sécurité et 2) d’étudier les approches orientées utilisateurs (User-centric) existantes pour résoudre ces problèmes.
+
+Le travail se décomposera en plusieurs phases :
+
+•	Etude des problèmes  rencontrés par les différents types d’utilisateurs 
+•	Analyse comparative des approches existantes pour résoudre les problèmes identifiés
+•	Amélioration d’un mécanisme de sécurité, d’un point de vue utilisabilité
+
+
+
+#### Compétences Requises
+1 étudiant (e) ayant des compétences en IHM (i.e. du parcours  IHM) et 1 ou 2 étudiant(e)s ayant des compétences en sécurité (i.e. du parcours CASPAR) ou 2 ou 3 étudiants ayant des compétences en sécurité (i.e. du parcours CASPAR) 
+
+
+#### Besoins Clients
+Cette étude doit permettre de faire un état de l’art sur les problèmes d’utilisabilité et de développement rencontrés par les différents types d’utilisateurs et de proposer des pistes de recherche dans le domaine.
+
+#### Résultats Attendus
+•	Classification des problèmes rencontrés par les différents types d’utilisateurs
+•	Analyse comparative des approches existantes pour résoudre les problèmes identifiés
+•	Proposition de l’amélioration d’un mécanisme de sécurité, d’un point de vue utilisabilité
+     
+
+#### Informations Administratives
+  * Contact : KARIMA BOUDAOUD <karima.boudaoud@unice.fr>
+  * Identifiant sujet : `Y1718-S027`
+  * Type : Engineering
+  * Parcours Recommandés : CASPAR,IHM
+     

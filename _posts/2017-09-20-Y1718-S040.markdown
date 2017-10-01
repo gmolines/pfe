@@ -1,0 +1,36 @@
+---
+layout: post
+title: "Outils de visualisation de graphes multidimensionnels "
+date: 2017-09-20 15:37:36
+categories: [dispo, ihm,web]
+pid: Y1718-S040
+type: Engineering
+contact: Marco Winckler
+---
+       
+L’objectif de ce projet est de développer de techniques de visualisation de graphs multidimensionnels à l’aide de la librairie D3. La technique de visualisation devra s’intégrer dans le framework MGExplorer qui a été construit pour la visualisation de données de co-publication. 
+
+De nos jours, plusieurs types d’applications (telles que les réseaux sociaux, réseaux informatique, système d’information médicales, etc. ) intègrent un grand volume de données qui sont mieux représentés par le biais des graphes multidimensionnels ; c’est-à-dire, des graphs dont les nœuds et les relations peuvent avoir un ou plusieurs attributs. Sans outils appropriés, l’exploration de ces ensembles de données s’avéré très difficile. Une des avantages des outils de visualisation d’information est que les utilisateurs peuvent explorer l’ensemble de données interactivement sur une forme visuel et graphique. L’objective final de l’exploration de graphes multidimensionnel et d’aider les utilisateurs à comprendre la structure et les relations crées entre les données. Un exemple de technique de visualisation de données multidimensionnel est l’outil MGExplorer : https://www2.pelotas.ifsul.edu.br/~cava/MGExplorer4/
+L’objectif de ce projet est de développer de techniques de visualisation de graphs multidimensionnels qui pourrait s’intégrer à l’outil MGExplorer. Cet outil a été développé à l’aide de la librairie D3 qui a son tour est basé sur JavaScript. 
+Un ensemble de données base sur un réseau de co-auteurs est mis à disposition. Néanmoins, il possible de remplacer le jeu de données par d’autres source de données. Les étudiants ont le choix entre étendre les techniques de visualisation existantes dans MGExplorer et/ou créer de nouvelles. A ce titre le code source MGExplorer sera mis à disposition. 
+La(es) technique(s) de visualisation à developper sont à discuter avec les étudiants. Plusieurs pistes possibles : Scatter Plots, parallel coordinates, tree maps… 
+
+#### Compétences Requises
+Programmation Web (Java Script, Ajax, HTML5, D3 ce serait un plus). Connaissance de base sur la visualisation de données.  
+
+
+#### Besoins Clients
+La(es) technique(s) de visualisation développée(s) doivent s’intégrer dans MGExplorer. L’outil doit rester utilisable en ligne. Les utilisateurs de ces techniques de visualisation sont typiquement de data scientistes. 
+
+#### Résultats Attendus
+•	Amélioration de techniques de visualisation existantes sur MGExplorer et/ou de nouvelles techniques ; 
+•	Description et documentation qui décrit la technique de visualisation ; 
+•	Un module qui permettrait de charger différentes sources de données.  
+     
+
+#### Informations Administratives
+  * Contact : Marco Winckler <winckler@i3s.unice.fr>
+  * Identifiant sujet : `Y1718-S040`
+  * Type : Engineering
+  * Parcours Recommandés : IHM,WEB
+     

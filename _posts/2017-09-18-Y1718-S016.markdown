@@ -1,0 +1,46 @@
+---
+layout: post
+title: "Hologramme 3D"
+date: 2017-09-18 18:43:13
+categories: [dispo, ihm]
+pid: Y1718-S016
+type: Engineering
+contact: ERIC BAILLY
+---
+       
+L'objectif est de créer une visualisation en hologramme et véritable 3D sur une pyramide d'une taille assez grande (80 cm minimum).
+
+Le résultat attendu de ce PFE est l'affichage d'un modèle informatique 3D sous la forme d'un hologramme 3D à travers une pyramide inversée.
+La réalisation passe par deux étapes :
+	Premièrement, il faut envoyer l'image prise de l'objet 3D sous 4 angles différents vers le dispositif d'affichage.
+	Deuxièmement, il faut réaliser une 'pyramide inversée' en 'plexiglas', associer un dispositif d'affichage et ainsi obtenir la visualisation en hologramme tridimensionnel réel.
+
+Détails supplémentaires : 
+	Le modèle 3D sera soit un fichier VRML visualisé à partir d'un logiciel 3D (type Blender) permettant le positionnement de 4 caméras, soit l'utilisation d'un logiciel spécifique (Arcgis) ouvert à la programmation (Python) dans lequel il faudra réaliser le placement de caméra. 
+	Une solution matérielle/logicielle devra être élaborée permettant la visualisation. Le plus pertinent serait 4 sorties vidéo séparées, associées à 4 vidéoprojecteurs.
+Il faudra aussi prévoir une sortie vidéo pour y connecter un écran classique afin de contrôler le PC et le logiciel.
+	La fabrication de la pyramide ne semble pas poser de problème spécifique (fablab). Il faudra toutefois calibrer sa taille avec le choix des vidéoprojecteurs associés (distance) et l'angle d'inclinaison, si cette solution est retenue. Le minimum de taille souhaité pour la pyramide est de 80 cm de hauteur.
+
+Enfin une solution technologique permettant de visualiser l'hologramme dans un environnement lumineux serait un plus.
+Bien évidemment les préconisations ci-dessus sont, comme le projet, dynamiques. L'objectif est l'affichage d'un hologramme en réelle 3D (donc 4 faces différentes) et d'une taille conséquente.
+Le projet sera encadré par un maître d'ouvrage et vous en serez les maîtres d'œuvre. Il y aura donc une interrelation dans laquelle vous aurez à exprimer vos avis, conseils et votre expertise.
+
+Vous serez encadré par plusieurs chercheurs et maître de conférences.
+
+#### Compétences Requises
+connaissance logiciel et format 3D, utilisation d'un fablab pour créer la pyramide.
+
+
+#### Besoins Clients
+En tant que client nous attendons des propositions de solutions techniques (logicielle pour la visualisations des modèles 3D) et matérielles (quel pc et quel support visuel - la pyramide). Ce sujet est dynamique, ouvert et offre de nombreuses possibilités.
+
+#### Résultats Attendus
+Concrêtement il faudra être capable de projeter sur une pyramide que vous aurez fabriqué un modéle 3D (fichier) qui vous sera fourni.
+     
+
+#### Informations Administratives
+  * Contact : ERIC BAILLY <BAILLY@UNICE.FR>
+  * Identifiant sujet : `Y1718-S016`
+  * Type : Engineering
+  * Parcours Recommandés : IHM
+     
