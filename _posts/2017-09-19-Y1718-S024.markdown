@@ -2,10 +2,12 @@
 layout: post
 title: "Utilisabilité  et sécurité des mécanismes d’authentification sur smartphones "
 date: 2017-09-19 20:02:25
-categories: [dispo, caspar,ihm]
+categories: [oqp, caspar,ihm]
 pid: Y1718-S024
 type: Engineering
 contact: KARIMA BOUDAOUD
+students: Abdelkarim Andolerzak, Anasse Ghira, Antoine Rabenandrasana
+group: 6
 ---
        
 L’objectif du projet est d’implémenter différents mécanismes d’authentification pour smartphones (PINs, mots de passe, mots de passe graphiques, etc…) puis de proposer différentes variantes de ces mécanismes en  proposant différentes IHMs tout en tenant compte de l’utilisabilité et de la sécurité.
