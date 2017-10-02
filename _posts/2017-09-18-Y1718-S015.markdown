@@ -2,10 +2,12 @@
 layout: post
 title: "Vitrine de démonstration et évaluation en ligne des systèmes interactifs"
 date: 2017-09-18 18:41:33
-categories: [dispo, ihm]
+categories: [oqp, ihm]
 pid: Y1718-S015
 type: Engineering
 contact: Marco Winckler
+students: David Borry, Baisangour Akhmadov
+group: 5
 ---
        
 L’objective du projet est de développer une plateforme clé-en-main que permettrais la diffusion aisé de système interactifs vers un public ciblé d’utilisateurs bêta-testeurs. La plateforme doit pouvoir diffuser différents types de systèmes interactifs (ex. site Web, applications mobile, etc.). L’évaluation doit pouvoir intégrer de questionnaires standards d’évaluation d’utilisabilité (ex. SUS) et d’UX (ex. AttrakDiff) mais aussi l’ajout des questions personnalisées. 
