@@ -7,6 +7,7 @@ pid: Y1718-S025
 type: Engineering
 contact: KARIMA BOUDAOUD
 students: Sarah Loukhmi, Dhiaeddine Guezguez, Sadry Fievet
+group: 1
 ---
        
 L’objectif du projet est d’identifier les failles de sécurité et de vie privée concernant  des objets connectés de santé et bien être puis de proposer une amélioration de la sécurité de ces objets.
