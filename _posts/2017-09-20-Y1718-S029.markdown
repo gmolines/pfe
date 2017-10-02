@@ -2,7 +2,7 @@
 layout: post
 title: "Création d’un outil d’aide à la décision pour le recrutement d’étudiants dans l’enseignement supérieur"
 date: 2017-09-20 11:26:22
-categories: [dispo, sd,web]
+categories: [dispo, sd,ihm,web]
 pid: Y1718-S029
 type: Engineering
 contact: Gaëtan Rey
@@ -47,7 +47,7 @@ Cette solution devra être utilisable simplement par tous types de personnels de
   * Contact : Gaëtan Rey <Gaetan.Rey@unice.fr>
   * Identifiant sujet : `Y1718-S029`
   * Effectif : entre 2 et 3 étudiant(e)s
-  * Parcours Recommandés : SD,WEB
+  * Parcours Recommandés : SD,IHM,WEB
   * Équipe: SPARKS
 
      

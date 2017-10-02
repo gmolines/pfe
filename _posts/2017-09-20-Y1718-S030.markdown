@@ -2,7 +2,7 @@
 layout: post
 title: "Développement d’un modèle de simulation (Système Multi-Agents) des impacts des changements climatiques et économiques sur la dynamique du peuplement à l’époque romaine"
 date: 2017-09-20 11:55:17
-categories: [dispo, al,sd]
+categories: [dispo, al,sd,web]
 pid: Y1718-S030
 type: Engineering
 contact: Célia Da Costa Pereira
@@ -52,7 +52,7 @@ Le code développé devra être conçu et documenté de manière à faciliter sa
   * Contact : Célia Da Costa Pereira <celia.pereira@unice.fr>
   * Identifiant sujet : `Y1718-S030`
   * Effectif : entre 2 et 3 étudiant(e)s
-  * Parcours Recommandés : AL,SD
+  * Parcours Recommandés : AL,SD,WEB
   * Équipe: SPARKS
 
      

@@ -2,7 +2,7 @@
 layout: post
 title: "Algorithmes d'apprentissage sur infrastructure embarquée Jetson TX1"
 date: 2017-09-20 21:45:46
-categories: [dispo, al,sd]
+categories: [dispo, al,sd,iam]
 pid: Y1718-S046
 type: Engineering
 contact: Johan Montagnat
@@ -50,7 +50,7 @@ Linux. Notions de parallélisation. Notions en CUDA ou machine learning appréci
   * Contact : Johan Montagnat <johan.montagnat@cnrs.fr>
   * Identifiant sujet : `Y1718-S046`
   * Effectif : entre 2 et 3 étudiant(e)s
-  * Parcours Recommandés : AL,SD
+  * Parcours Recommandés : AL,SD,IAM
   * Équipe: SPARKS
 
      
