@@ -80,7 +80,10 @@ object ProjectFactory {
 
 
   def buildMajors(data: String): Set[String] = {
-    (data.split(",") filter { _.contains(":") } map { d => d.split(":")(0) }).toSet
+      println(s"## Found data [$data]")
+    val majors = (data.split(",") filter { _.contains(":") } map { d => d.split(":")(0) }).toSet
+    println(s"## Extracted majors [$majors]")
+    majors
   }
 
 
