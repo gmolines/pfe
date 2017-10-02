@@ -1,0 +1,58 @@
+---
+layout: post
+title: "Enrichissement d’une librairie permettant de manipuler des objets tangibles sur table surface"
+date: 2017-09-29 12:03:44
+categories: [oqp, ihm]
+pid: Y1718-S057
+type: Engineering
+contact: Anne-Marie Dery-Pinna
+students: Kevin Duglué, Rémy Kaloustian
+group: 3
+---
+       
+Dans la salle AtelierIHM  une  table Microsoft Pixel Sense  est à la disposition des étudiants du parcours IHM pour développer des IHM réparties et expérimenter sur un support  collaboratif de grande taille. Cette table a l'avantage d'être tactile et tangible. Cependant Microsoft a décidé d'arrêter la maintenance des outils pour développer une application grâce à cette technologie. Le but de ce projet est d'enrichir une librairie basée sur TUIO avec de nouveaux widgets qui font sens pour des applications tangibles.
+Les étudiants devront fournir une documentation liée à la librairie actuelle et aux nouvelles fonctionnalités développées dans le cadre ce PFE, ainsi qu'une illustration de son utilisation sur des exemples pertinents.
+
+
+Les interactions tangibles permettent aux utilisateurs  d’interagir avec l'information numérique par le moyen de l'environnement physique. Ce type d’interaction peut encourager la collaboration, l'éducation et la conception en passant par des objets physiques signifiants de l’interaction : par exemple de petites voitures pour l’apprentissage du code de la route, des loupes pour rechercher des informations, un badge pour s’identifier. On peut parler de la propriété  d’affordance qui est la capacité d’un objet à présenter une signification évidente et donc à induire immédiatement les actions que l’on peut exécuter en l’utilisant. 
+
+Les étudiants du parcours ont pu explorer les avantages et l’utilisabilité de ce type d’interaction dans le cadre d’applications dédiées aux personnes atteintes d’Alzheimer, de jeux ou d’applications de décorations d’intérieur. Vous trouverez des vidéos sur le site de l’Atelier IHM. Dans les exemples d’interactions mises en œuvre on peut citer : une gomme pour effacer, des boutons pour augmenter le son ou faire varier un tempo… 
+
+La   table Microsoft Pixel Sense  était fournie avec une librairie Microsoft permettant et facilitant les interactions tangibles. Cependant cette librairie n’est plus maintenue.
+Plusieurs solutions ont émergé depuis. Nous avons fait le choix de la solution proposée par TUIO (https://www.tuio.org/).
+TUIO est un framework qui définit un protocole commun et une API pour les surfaces tangibles.  Il permet de faire l’association entre les évènements Touch et les objets tangibles. 
+L'année dernière, une première version d'une librairie basée sur TUIO.org a été mise en place dans le contexte des modules  interfaces tactiles et réparties. La librairie fonctionne correctement et permet de développer de nouveau des applications pouvant utiliser l'interaction tangible mais reste encore trop pauvre en widgets disponibles.
+
+Le but de ce projet est donc d'enrichir cette librairie avec de nouveaux widgets qui font sens pour des applications tangibles, avec comme point de départ les widgets qui existaient dans la librairie fournie par Microsoft à la base.
+Les étudiants devront fournir une documentation liée à la librairie actuelle et aux nouvelles fonctionnalités développées dans le cadre ce PFE
+
+Lors des 8 premières semaines, les étudiants devront se familiariser avec la librairie existante en faisant la documentation. Ils listeront une liste des nouveaux  widgets à fournir.  Pendant les 4 semaines ils implémenteront les nouveaux widgets et les exemples associés.
+
+Intervenants : C. Brel
+
+
+#### Compétences Requises
+Web (HTML/JS/CSS)
+
+
+
+     
+
+#### Besoins Clients
+:Enrichir une librairie permettant de manipuler des objets tangibles sur table surface
+
+#### Résultats Attendus
+A la fin des  8 premières semaines, compléter la documentation de la librairie existante et fournir une liste des nouveaux  widgets à développer. A la fin des 4 semaines implémentation des nouveaux widgets et exemples associés
+
+#### Références
+
+  * [https://www.tuio.org/](https://www.tuio.org/)
+
+#### Informations Administratives
+  * Contact : Anne-Marie Dery-Pinna <pinna@polytech.unice.fr>
+  * Identifiant sujet : `Y1718-S057`
+  * Effectif : entre 2 et 3 étudiant(e)s
+  * Parcours Recommandés : IHM
+  * Équipe: Sparks
+
+     
