@@ -7,6 +7,7 @@ pid: Y1718-S034
 type: Engineering
 contact: Anne-Marie Dery-Pinna
 students: Thibaut Terris, Alicia Marin
+group: 2
 ---
        
 En IHM mon rêve en tant que responsable de parcours c’est d’avoir une communication, interne à Polytech, High Tech du parcours qui illustre tout ce que les étudiants du parcours sont capables de faire et on en est loin, très loin… 
