@@ -2,10 +2,12 @@
 layout: post
 title: "Sécurité et vie privée dans l’Internet des Objets"
 date: 2017-09-19 19:41:07
-categories: [dispo, caspar]
+categories: [oqp, caspar]
 pid: Y1718-S023
 type: Engineering
 contact: KARIMA BOUDAOUD
+students: Sarah Lofti, Basma El Gaabouri, El Mehdi Regragui
+group: 7 
 ---
        
 L’objectif du projet est : 1) d’étudier les problèmes de sécurité et de vie privée liés à l’utilisation des objets connectés ; 2) d’analyser les mécanismes de sécurité ainsi que les PET (Privacy Enhancing Technologies) existants et 3) de proposer une amélioration d’une solution existante.
