@@ -2,10 +2,11 @@
 layout: post
 title: "Outils de communication dédiés au parcours IHM"
 date: 2017-09-20 15:37:08
-categories: [dispo, ihm]
+categories: [oqp, ihm]
 pid: Y1718-S034
 type: Engineering
 contact: Anne-Marie Dery-Pinna
+students: Thibaut Terris, Alicia Marin
 ---
        
 En IHM mon rêve en tant que responsable de parcours c’est d’avoir une communication, interne à Polytech, High Tech du parcours qui illustre tout ce que les étudiants du parcours sont capables de faire et on en est loin, très loin… 
