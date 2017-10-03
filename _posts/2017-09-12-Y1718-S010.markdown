@@ -2,10 +2,12 @@
 layout: post
 title: "Simulateur d'amplificateur guitare à lampes temps réel sur le Web"
 date: 2017-09-12 17:01:30
-categories: [dispo, ihm,web]
+categories: [oqp, ihm,web]
 pid: Y1718-S010
 type: Engineering
 contact: Michel Buffa
+students: Loïc Dalian, Matthieu Barzellino
+group: 8
 ---
        
 Simulateur temps réel d'amplificateur de guitare à lampes sur le Web
