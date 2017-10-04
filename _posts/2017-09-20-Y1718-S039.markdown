@@ -2,10 +2,12 @@
 layout: post
 title: "Security Requirements Engineering Platform"
 date: 2017-09-20 18:19:57
-categories: [dispo, caspar,ihm,web]
+categories: [oqp, caspar,ihm,web]
 pid: Y1718-S039
 type: Engineering
 contact: Yves ROUDIER
+students: Hamza Sahli, Fadoua Berrehili, Mohammed Bouragba
+group: 9
 ---
        
 This project aims at extending an existing platform for security requirements engineering. The current platform, which is based on Java, should be extended with a Javascript front-end and collaborative mechanisms. Furthermore, the platform should be extended in order to analyze the relationships of security requirements with safety requirements.
