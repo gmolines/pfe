@@ -2,10 +2,12 @@
 layout: post
 title: "Plugins WebAudio (VSTs pour le Web)"
 date: 2017-09-12 16:52:08
-categories: [dispo, ihm,web]
+categories: [oqp, ihm,web]
 pid: Y1718-S009
 type: Engineering
 contact: Michel Buffa
+students: Elia Ditmann, Aurélien Curti
+group: 10
 ---
        
 Plugins audio temps réels réutilisables pour application Web de musique
