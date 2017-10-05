@@ -2,10 +2,12 @@
 layout: post
 title: "PolyBot"
 date: 2017-09-20 20:01:15
-categories: [dispo, al,web]
+categories: [oqp, al,web]
 pid: Y1718-S043
 type: Engineering
 contact: Sébastien Mosser
+students: Robin Alonzo, Gaspard Lacroix
+group: 11
 ---
        
 Les chatbots sont de plus en plus utilisés pour transformer la manière d’interagir avec des systèmes informatique. De plus, le département d’informatique utilise la plateforme Slack pour interagir avec les étudiants. Le but de ce projet est de définir une architecture logicielle permettant de déployer PolyBot, un chatbot dédié à la vie de l’école. En fédérant des sources de données de format hétérogènes et multiples (envibus, trafic routier, google agenda, …), PolyBot deviendra un élément clé de la vie quotidienne des étudiants du campus.
