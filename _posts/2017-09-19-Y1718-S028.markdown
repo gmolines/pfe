@@ -2,10 +2,12 @@
 layout: post
 title: "Prédiction de retards aériens avec Spark et Deep Learning"
 date: 2017-09-19 22:03:25
-categories: [dispo, sd]
+categories: [oqp, sd]
 pid: Y1718-S028
 type: Engineering
 contact: Lionel Fillatre
+students: Alice Barbier, Pierre-Alexis Le Borgne, Florian Guillaume
+group: 13
 ---
        
 Ce projet s’intéresse à la prédiction des retards dans le domaine du transport aérien : un vol donné sera-t-il en retard ou à l’heure ? Le volume de données est important, ce qui nécessite d’employer un stockage de données du type Hadoop. L’environnement Spark sera utilisé pour analyser les données. Enfin, une bibliothèque de Deep Learning, compatible avec Spark, sera exploitée pour prédire au mieux les retards en fonction des caractéristiques des trajets aériens et des conditions météorologiques. Un data scientist de la société Amadeus jouera le rôle du client et pourra régulièrement être consulté.
