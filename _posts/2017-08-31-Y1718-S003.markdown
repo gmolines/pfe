@@ -2,10 +2,12 @@
 layout: post
 title: "Dis papa, ca marche comment un système de recommandation ?"
 date: 2017-08-31 10:59:53
-categories: [dispo, al,caspar]
+categories: [oqp, al,caspar]
 pid: Y1718-S003
 type: Engineering
 contact: Michel Riveill
+students: Hamza Lahbabi, Anass El Bouayadi, Abdoulmoughit Afaillal
+group: 12
 ---
        
 Votre mission est hyper-simple : proposer un système de recommandation et décrire ses qualités. Bien évidemment, vous serez aidés tout au long de cette tache et même s’ils existent quelques plates-formes open-sources, rares sont celles qui sont réellement évolutives et qui permettent : d’inclure un nouvel algorithme et de l’évaluer. L’objectif est de travailler sur un volume de données de taille significative. En fonction de votre parcours, nous privilégierons les aspects GL pour AL, privacy pour CASPAR, évaluation pour GMD.
