@@ -6,7 +6,7 @@ categories: [oqp, caspar,iam]
 pid: Y1718-S025
 type: Engineering
 contact: KARIMA BOUDAOUD
-students: Sarah Loukhmi, Dhiaeddine Guezguez, Sadry Fievet
+students: Sarah Loukhmi, Dhiaeddine Guezguez, Sadry Fievet, Ibrahim Abdelkader
 group: 1
 ---
        
