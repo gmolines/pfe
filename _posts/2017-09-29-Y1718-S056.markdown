@@ -2,10 +2,12 @@
 layout: post
 title: "Web des objets connectés et annotations sémantiques"
 date: 2017-09-29 12:02:44
-categories: [dispo, iam]
+categories: [oqp, iam]
 pid: Y1718-S056
 type: Engineering
 contact: Jean-Yves Tigli
+students: Jonathan Boudab, Thomas Chalté
+group: 15
 ---
        
 L'objectif du projet est d'introduire des annotations et un raisonnement sémantique pour la sélection de services liés à des objets connectés pour des applications plus intelligentes.
