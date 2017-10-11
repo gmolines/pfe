@@ -2,10 +2,12 @@
 layout: post
 title: "Un simulateur pour prédire le développement d’une ville"
 date: 2017-08-30 16:40:39
-categories: [dispo, al,ihm]
+categories: [oqp, al,ihm]
 pid: Y1718-S002
 type: Engineering
 contact: Michel Riveill
+students: Thomas Suignard, Matthieu Genovese
+group: 14
 ---
        
 Le simulateur existant est découpé en deux parties : un simulateur multi-agent qui prédit l’évolution d’une ville et un visualisateur qui affiche l’évolution de celle-ci. L’objectif premier du stage est en particulier d’améliorer l’interface de dialogue de la partie simulation (aspect IHM) afin de pouvoir plus aisément modifier les paramètres des scénarios à exécuter et proposer une visualisation de la simulation beaucoup plus convaincante et fluide ; et de revoir l'architecture du simulateur (aspect AL) afin de mieux prendre en compte le comportement intelligent des agents ainsi que les échanges simulateur-visualisateurs.
