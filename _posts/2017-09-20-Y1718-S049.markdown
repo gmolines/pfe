@@ -6,7 +6,7 @@ categories: [oqp, iam]
 pid: Y1718-S049
 type: Engineering
 contact: Stéphane Lavirotte
-students: Nicolas Pepin, Adrien Prestini
+students: Nicolas Pepin, Adrien Prestini, Alexis Metge
 group: 16
 ---
        
