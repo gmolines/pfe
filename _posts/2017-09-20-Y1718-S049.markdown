@@ -2,10 +2,12 @@
 layout: post
 title: "Robot Robot pour la Télé-présence en Enseignement"
 date: 2017-09-20 23:56:24
-categories: [dispo, iam]
+categories: [oqp, iam]
 pid: Y1718-S049
 type: Engineering
 contact: Stéphane Lavirotte
+students: Nicolas Pepin, Adrien Prestini
+group: 16
 ---
        
 Dans le cadre du projet Export, financé par le service de Pédagogie Innovante, nous souhaitons réaliser le développement de logiciels embarqués nécessaires à l'expérimentation envisagée dans le cadre du projet. Des développements iOS, Android, ainsi que sur cible(s) embarquée(s) seront nécessaires. Ces développements utiliseront des services REST interfaçant les commandes permettant de manipuler le robot. Le robot dont nous disposons pour les expérimentations est un robot Double Robotics
