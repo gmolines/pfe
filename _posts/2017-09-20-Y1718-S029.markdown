@@ -2,10 +2,12 @@
 layout: post
 title: "Création d’un outil d’aide à la décision pour le recrutement d’étudiants dans l’enseignement supérieur"
 date: 2017-09-20 11:26:22
-categories: [dispo, sd,ihm,web]
+categories: [oqp, sd,ihm,web]
 pid: Y1718-S029
 type: Engineering
 contact: Gaëtan Rey
+students: Ilias Naamane, Mohamed El Mrihy
+group: 18
 ---
        
 L’idée de ce projet est de mettre en place une solution logicielle ayant pour but de prédire la réussite de futurs candidats et de conseiller les recruteurs sur les choix à faire. Cette solution intégrera des mécanismes d’apprentissage s’appuyant sur un ensemble de données représentant des postulants au moment de leur candidature à une formation et les résultats de ces mêmes candidats obtenus l’année qui suit.
