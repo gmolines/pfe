@@ -2,10 +2,12 @@
 layout: post
 title: "Qu’apprendre d’une base d’images ?"
 date: 2017-09-19 21:40:38
-categories: [dispo, al,sd,ihm]
+categories: [oqp, al,sd,ihm]
 pid: Y1718-S027
 type: Engineering
 contact: Diane Lingrand
+students: Guillaume Faguet, Vincent Fuji Tsang, Maxime Dejeux
+group: 24
 ---
        
 Le Machine Learning (ML) est un domaine complexe et en plein boom, offrant des possibilités très variées en particulier en analyse d’images. Cependant, la multitude d’algorithmes, l’impact encore peu connu entre les caractéristiques des données d’entrées et les performances de la prédiction, la difficulté à choisir comment transformer ces données et paramétrer les algorithmes rendent l’accès à ce domaine difficile, conduisant ainsi à l’utilisation d’outils pas toujours adaptés.
