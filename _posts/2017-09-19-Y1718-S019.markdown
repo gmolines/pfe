@@ -2,10 +2,12 @@
 layout: post
 title: "Outils d’analyse et de visualisation de logs de l’activité des utilisateurs sur smartphone"
 date: 2017-09-19 13:34:39
-categories: [dispo, iam,ihm]
+categories: [oqp, iam,ihm]
 pid: Y1718-S019
 type: Engineering
 contact: Marco Winckler
+students: Thomas Monzein-Stocky, Charly Lafon
+group: 19
 ---
        
 Ce projet a un double enjeu. D’une part il est concerné par le recensement des outils et des techniques existant pour analyser l’activité d’utilisateurs de smartphone. D’autre part, il est question d’identifier les évènements qu’on peut récolter sur un smartphone et de proposer de solutions pour les analyser et les visualiser. 
