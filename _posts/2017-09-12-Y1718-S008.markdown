@@ -6,7 +6,7 @@ categories: [oqp, sd]
 pid: Y1718-S008
 type: Engineering
 contact: Marc Antonini
-students: Riccardo Lo Bianco, Jose Luis Contreras Santos
+students: Riccardo Lo Bianco, Jose Luis Contreras Santos, Jinbo LI, Yuxiang Zhou
 group: 17
 ---
        
