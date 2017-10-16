@@ -2,10 +2,12 @@
 layout: post
 title: "Architecture sur un framework pour la visualisation d’exigences de justification : application au biomedical "
 date: 2017-09-08 14:03:05
-categories: [dispo, al,ihm]
+categories: [oqp, al,ihm]
 pid: Y1718-S006
 type: Engineering
 contact: Clément DUFFAU
+students: Maxime CARLIER, Mathias CHEVALIER 
+group: 21
 ---
        
 Ce PFE s’inscrit dans le cadre du développement d’un support à la “certification” appliqué au biomédical. Le défi de ce PFE est de faire évoluer un outil permettant de représenter une succession de prises de décisions attestant ainsi un argumentaire de façon à permettre son intégration et son usage dans différents contextes applicatifs et d’introduire une dimension “adaptabilité par l’expert métier”. Cet outil vise à permettre notamment de justifier des choix sur un projet lors du passage de certification. La visualisation de telles décisions liées à la sûreté peut se faire sous forme de diagramme de justifications. Une première preuve de concept a permis de mettre en place un outil permettant de manipuler de tels diagrammes. Néanmoins, certaines problématiques restent à explorer.
