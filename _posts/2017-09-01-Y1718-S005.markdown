@@ -2,10 +2,12 @@
 layout: post
 title: "Decompostion de besoins utilisateurs pour l'informatique ambiante"
 date: 2017-09-01 12:17:17
-categories: [dispo, iam]
+categories: [oqp, iam]
 pid: Y1718-S005
 type: Engineering
 contact: Isabelle Mirbel
+students: Zeineb BEN AOUICHA, ABDOULAYE DIOP MAMADOU, Helmi SAHLI
+group: 20
 ---
        
 Le web des objets donne la possibilité aux utilisateurs de programmer les objets de tous les jours et de créer de nouveaux services au-dessus de dispositifs intégrés. L'idée de ce projet est de proposer à un utilisateur, à partir de l'expression d'un besoin de haut niveau, de pouvoir exécuter un enchaînement/assemblage de services sans avoir besoin ni de savoir comment le besoin peut-être satisfait (décomposé) ni quels services doivent être mobilisés. A partir des travaux qui ont déjà été initiés dans sens, il s'agira de proposer un langage de description sémantique des buts de haut niveau et un mécanisme de raisonnement pour générer un plan d'excution de services répondant au besoin et contrôler dynamiquement son avancement en fonction des dispositifs disponibles.
