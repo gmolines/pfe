@@ -2,10 +2,12 @@
 layout: post
 title: "Classification automatique d’images de plancton par Deep Learning ou apprentissage hybride Deep Features/Random Forest"
 date: 2017-09-21 01:06:16
-categories: [dispo, sd]
+categories: [oqp, sd]
 pid: Y1718-S050
 type: Engineering
 contact: Eric Debreuve
+students: Cédric Bailly, Thomas Jalabert, Thomas Mahiout
+group: 23
 ---
        
 Le sujet est l’apprentissage statistique pour la classification automatique d’images de zooplancton, en collaboration avec le Laboratoire d'Océanographie de Villefranche/Mer qui a déjà étudié (1) l’utilisation de caractéristiques de forme extraites des organismes détectés dans les images pour « nourrir » un classifieur Forêt aléatoire, (2) une méthode basée sur du Deep Learning, et (3) une méthode  hybride pour apprendre les caractéristiques automatiquement par Deep Learning qui sont ensuite intégrée dans un classifieur Forêt aléatoire. Le but du projet est de poursuivre cette étude en sélectionnant/combinant les caractéristiques classiques et celles apprises par Deep Learning et (b) en modifiant l’architecture Deep Learning pour améliorer la classification.
