@@ -2,10 +2,12 @@
 layout: post
 title: "Implémentation en Python d'un algorithme de détection d'objects dans les images"
 date: 2017-09-11 17:07:01
-categories: [dispo, sd]
+categories: [oqp, sd]
 pid: Y1718-S007
 type: Engineering
 contact: Eric Debreuve
+students: Wei Wei
+group: 25
 ---
        
 Le contexte du sujet est la détection d’objets en analyse d’images. Il s’agira d’implémenter en langage Python un algorithme, fondé sur la méthode des processus ponctuels marqués (PPM), de détection d’objets plus ou moins elliptiques dans une image. Cette méthode PPM permet de gérer des contraintes inter-objets telles que la tolérance à la superposition des objets (en particulier la non-superposition stricte). La méthode PPM ayant été développée par l’un des encadrants du PFE, la compréhension de son principe ne posera pas de problème. L’implémentation devra être validée par des tests sur des images de cellules en microscopie par fluorescence dans le cadre d’une étude en biologie.
