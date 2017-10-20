@@ -2,10 +2,12 @@
 layout: post
 title: "Navigateur hypertexte pour le serveur open data HAL"
 date: 2017-09-20 19:03:23
-categories: [dispo, web]
+categories: [oqp, web]
 pid: Y1718-S041
 type: Engineering
 contact: Olivier Corby
+students: Koteich Bilal, RACHID Amine
+group: 22
 ---
        
 L'équipe Wimmics développe un langage de transformation de graphes RDF du Web sémantique, STTL [2], et un langage de script pour le Web sémantique, LDScript [3]. 
