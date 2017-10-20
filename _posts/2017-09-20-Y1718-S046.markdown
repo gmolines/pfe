@@ -2,10 +2,12 @@
 layout: post
 title: "Algorithmes d'apprentissage sur infrastructure embarquée Jetson TX1"
 date: 2017-09-20 21:45:46
-categories: [dispo, al,sd,iam]
+categories: [oqp, al,sd,iam]
 pid: Y1718-S046
 type: Engineering
 contact: Johan Montagnat
+students: Alexis BAILLIE, Tiffanie SCHREYECK, Michael THEBAULT
+group: 27
 ---
        
 L'objet de ce stage sera d'étudier la performance de différentes bibliothèques logicielles standard d'apprentissage sur une architecture embarquée légère de type Jetson TX1 qui exploite un GPU pour l'accélération des calculs. Les étudiants devront à la fois disposer de la maîtrise système (Linux) pour déployer et paramétrer différentes bibliothèques et être capable de planifier et de conduire des plans d'expérience pour comparer la performance de différentes solutions à partir de benchmarks de référence. Un objectif secondaire est d'exploiter les possibilités de parallélisation des calculs d'apprentissage sur plusieurs modules Jetson simultanément, afin de consituer une plateforme parallèle extensible à moindre coût.
