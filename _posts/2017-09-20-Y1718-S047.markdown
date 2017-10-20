@@ -2,10 +2,12 @@
 layout: post
 title: "Visualisation de GRPH (en javascript)"
 date: 2017-09-20 22:41:53
-categories: [dispo, ihm,web]
+categories: [oqp, ihm,web]
 pid: Y1718-S047
 type: Engineering
 contact: Julien Deantoni
+students: Alison Berlioz-ricetti
+group: 
 ---
        
 GRPH (http://www.i3s.unice.fr/~hogie/software/?name=grph) est une librairie haute performance pour la manipulation de graphe. Elle est développée au sein du laboratoire I3S. Celle ci ne dispose pas de manière simple permettant de visualiser le graphe. Le but du PFE est de fournir une vue interactive du graphe sur laquelle on peut représenter différentes données (comme un chemin particulier dans le graphe). 
