@@ -2,10 +2,12 @@
 layout: post
 title: "Étude Empirique sur Docker"
 date: 2017-09-20 20:02:35
-categories: [dispo, al,sd]
+categories: [oqp, al,sd]
 pid: Y1718-S044
 type: Engineering
 contact: Sébastien Mosser
+students: Ahmed Fezai
+group: 28
 ---
        
 Docker est une plateforme de référence pour déployer des applications sous la forme de containers. On s’intéresse dans ce projet a définir une étude empirique de l’utilisation de cette plateforme, en utilisant les informations disponibles dans GitHub, DockerHub, DockerStore, …
