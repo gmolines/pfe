@@ -2,10 +2,12 @@
 layout: post
 title: "Algorithmes de clusterisation et ligne de produits logicielles"
 date: 2017-09-20 16:19:05
-categories: [dispo, sd]
+categories: [oqp, sd]
 pid: Y1718-S037
 type: Engineering
 contact: Michel Riveill
+students: Alexis BAILLIE, Tiffanie SCHREYECK, Michael THEBAULT
+group: 27
 ---
        
 Comparaison du comportement des algorithmes de clusterisation en fonction des caractéristiques du jeu de données et des paramètres de l'Algorithme.
