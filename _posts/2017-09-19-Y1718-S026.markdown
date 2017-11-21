@@ -6,7 +6,7 @@ categories: [oqp, caspar,ihm]
 pid: Y1718-S026
 type: Engineering
 contact: KARIMA BOUDAOUD
-students: Jihane Asri, Cyprien Levy et Ulysse Riccio
+students: Jihane Asri, Cyprien Levy
 group: 4
 ---
        
