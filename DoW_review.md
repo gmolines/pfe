@@ -68,7 +68,7 @@ Pas de feedback reçu pour le moment.
 
 ## Groupe 8
 
-Pas de feedback reçu pour le moment.
+Ils ont bien compris le sujet.
 
 ## Groupe 9
 
@@ -76,7 +76,13 @@ Pas de feedback reçu pour le moment.
 
 ## Groupe 10
 
-Pas de feedback reçu pour le moment.
+Le sujet me semble compris et le plan de travail correct. En résumé :
+    Comprendre WebAudio pour le traitement du son
+    Comprendre les limites de la V1 de l'API
+    Comprendre la notion de ""plugin audio de haut niveau"" type VST/JUCE/LV2
+    Ecrire un programme HOST et quelques plugins jouets pour essayer de proposer un standard de plugin WebAUdio
+    Interagir avec notre équipe de recherche pour qu'on aligne notre propre HOST et faire en sorte que vos plugins soient compatibles avec au moins deux hosts respectant le standard.
+    Critiquer/evaluer la solution proposée (il faut que les plugins puissent ne pas avoir de GUI ou des GUI ""libres"" basées sur des librairies JS différentes.
 
 ## Groupe 11
 
