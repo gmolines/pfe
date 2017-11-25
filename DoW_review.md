@@ -2,7 +2,7 @@
 
 ## Groupe 1
 
-Pas de feedback reçu pour le moment.
+Très bonne description du périmètre du projet et bonne compréhension du sujet. Planning prévisionnel très précis et en adéquation avec les objectifs du projet. Manque références sur les objets connectés qui seront testés (ex. lien cers site web des entreprises)
 
 ## Groupe 2
 
@@ -48,7 +48,8 @@ A quoi ont servi les cours de gestion de projet de SI4 ?"
 
 ## Groupe 4
 
-Pas de feedback reçu pour le moment.
+De manière générale, assez bonne compréhension du sujet mais quelques ambiguïtés quand à certains objectifs décrits (voir annotation rapport). Pour ce qui est du plan d’attaque, l’objectif de la semaine 3 n’est pas clair. En ce qui concerne la semaine 4, la tâche décrite manque de précision (par exemple : comment seront cernées les failles ? comment seront analysés les besoins, ….)
+Etant donnée que 5 articles avaient déjà été étudiés, il aurait été intéressant de se baser sur ces articles pour mieux décrire les différentes phases du plan d’attaque et mettre un résumé de ces articles.
 
 ## Groupe 5
 
@@ -60,11 +61,17 @@ Le planning décrit un prototype incrémental (surtout dans la semaine 1). Il es
 
 ## Groupe 6
 
-Pas de feedback reçu pour le moment.
+Bonne compréhension du sujet.
+
+Il faudra bien faire la distinction entre les différents types utilisateurs : les usagers de smartphone et les administrateurs réseaux. Les cas d’usages sont bons mais pas complétement détaillés. 
+
+Même si les mécanismes de sécurité sont connus, faut mettre des références bibliographiques sur ceux qui seront implémentés d’autant plus que ces références sont connues et ont été étudiées lors de la 1ère phase du PFE.
+D’un point de vue forme, le rapport manque un peu de structure et il serait plus facile à lire si les sections étaient mieux délimitées. C’est un point à améliorer pour le rapport final.
 
 ## Groupe 7
 
-Pas de feedback reçu pour le moment.
+Bonne description du périmètre du projet et bonne compréhension du sujet. Faire attention au manque de précision concernant les phases d’étude d’attaques et d’analyses des solutions où il faudra définir les classes d’attaque ainsi que les critères de comparaison. 
+Manque une référence en ce qui concerne l’architecture globale Iot ainsi que le type et nom de l’objet connecté qui sera testé dont le nom était connu lors de la rédaction du rapport.
 
 ## Groupe 8
 
