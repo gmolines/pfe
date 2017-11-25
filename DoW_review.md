@@ -79,7 +79,11 @@ Ils ont bien compris le sujet.
 
 ## Groupe 9
 
-Pas de feedback reçu pour le moment.
+J'ai récupéré de votre part un premier rapport sur lequel j'ai rendu un retour concernant le manque de description de la répartition des tâches et le manque de précision de celles-ci. Un deuxième rapport m'a été ensuite rendu sans aucune description des tâches à effectuer, puis à ma demande avec quelques tâches sur la première semaine du PFE uniquement. Il est indispensable de préparer le travail sur l'ensemble du PFE, d'anticiper leur dépendance. Ce planning doit aussi permettre de planifier plusieurs versions des produits à réaliser, notamment un produit minimum viable permettant d'expérimenter la faisabilité de certains choix architecturaux.
+
+Les différentes version du rapport qui m'ont été rendues reprennent l'énoncé du projet, et résument plusieurs références données en bibliographie. Si cette étape est importante, il n'en demeure pas moins que tout état de l'art doit contenir un certain nombre d'éléments critiques ou de discussions qui sont absents du rapport. D'autre part, j'ai été très surpris de ne trouver aucun élément d'état de l'art des technologies Javascript, et notamment aucune étude des frameworks existants dont j'avais pourtant mentionné oralement que c'était un point de départ.
+
+Finalement, le deuxième rapport décrit une solution basée sur du 3-tiers Java qui est présentée comme le but à atteindre. Nous devons engager une discussion préalable entre cette architecture et celle indiquée dans le sujet de projet s'appuyant directement sur Javascript dans le composant 2ème tier. En particulier, le choix peut avoir des conséquences très importantes en termes de performances pour le dessin et la manipulation des composants des diagrammes.
 
 ## Groupe 10
 
