@@ -158,7 +158,13 @@ Commentaires très détaillés envoyés directement au groupe.
 
 ## Groupe 21
 
-Pas de feedback reçu pour le moment.
+Très bien sur le périmètre du projet. J'aurai quand même aimé avoir un diagramme qui aurait représenté un peu mieux l'architecture haut niveau de la solution existante et votre contribution sur celle-ci (comme au tableau en réunion).
+
+
+Sur les scénarios, quelques nommages qui varient : meta-diagrammes vs pattern-diagrammes, diagramme de justification vs diagramme d'argumentation. Sûrement dû au fait qu'à l'oral j'utilise ses termes indifféremment mais à l'écrit, il faut choisir et s'y tenir. Dans les user stories, j'aurai aimé avoir les critères d'acceptation car en l'état certains termes sont vagues et subjectifs (intuitivement, aisément, sécuriser, validité).
+
+
+Sur le plan d'attaque, très bien. Juste un questionnement sur le sprint 2, vous parlez de mettre en place la création du meta-diagramme et sprint 3 l'utilisation des patterns. Si c'est un mauvais terme sur le sprint 2 et que vous parliez des patterns, c'est bon. Sinon, faut que vous m'expliquiez plus comment vous comptez procéder.
 
 ## Groupe 22
 
@@ -200,4 +206,4 @@ Commentaires très détaillés envoyés directement au groupe.
 
 ## Groupe 30
 
-Pas de feedback reçu pour le moment.
+Très bon rapport, clair et bien rédigé, qui montre une bonne compréhension du problème et de ses enjeux - et cela malgré la complexité du sujet, qui interpelle des notions pas évidentes d'autres disciplines, comme l'archéologie, l'histoire, la géographie environnementale et la paléo-climatologie. La ligne d'attaque me semble faisable, même si un fil ambitieuse - mais qui ne tente rien n'a rien. J'ai été impressionné par le dynamisme et la rapidité de ce groupe qui a été affecté à ce projet très en retard mais qui a déjà presque complètement rattrapé le temps perdu.
