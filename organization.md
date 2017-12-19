@@ -27,8 +27,8 @@ Votre deuxième livrable sera une vidéo de 3 min max expliquant la problématiq
 ## Evaluation
 
 Le PFE sera globalement évalué par les notes suivantes:
-- DoW, le document que vous avez rendu pour le 3 novembre
-- Soutenance de fin de période à temps plein
-- Note de l'encadrant globale sur votre manière de travailler pendant la période à temps et ce que vous avez réussi à livrer
-- Rapport
-- Vidéo
+- DoW, le document que vous avez rendu pour le 3 novembre (coeff 20%)
+- Soutenance de fin de période à temps plein (coeff 30%)
+- Note de l'encadrant globale sur votre manière de travailler pendant la période à temps et ce que vous avez réussi à livrer (15%)
+- Rapport (25%)
+- Vidéo (10%)
