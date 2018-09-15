@@ -1,7 +1,7 @@
 ---
 layout: page
 title: all
-longtitle: Sujets proposés en 2017-2018
+longtitle: Sujets proposés en 2018-2019
 permalink: /all-subjects/
 ---
 {% assign sorted_posts = (site.posts | sort: 'title') %}
