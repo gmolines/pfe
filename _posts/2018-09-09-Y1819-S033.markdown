@@ -1,0 +1,45 @@
+---
+layout: post
+title: "Développement d'une filtre contextualisé dans le cadre de cyberphysical System et de l'IoT "
+date: 2018-09-09 22:59:53
+categories: [dispo, al,iam]
+pid: Y1819-S033
+type: Engineering
+contact: Jean-Yves Tigli 
+---
+       
+S’inscrivant pleinement dans les domaines de l’IoT et des Cyber Physical System, les travaux de recherche du groupe Rainbow de l’équipe SPARKS sur l’informatique ambiante et en particulier ceux sur l’adaptation au contexte, trouvent leur application dans le monde de la eSanté, des usines du futures (Factory 4.0) et bien d’autres domaines applicatifs. Dans le cadre du projet FUI Octopus en partenariat avec EDF, SCALIAN, le CEA, … le CNRS, via le groupe Rainbow, propose de développer un mécanisme de sélection de services contextualisée permettant d’améliorer la prise en compte de l’environnement des différents outils d’adaptation.
+
+Les applications logicielles, maintenant ambiantes, nécessitent toujours plus de capacités d’adaptation face à la diversité des situations (multi-dispositifs, multi-applications, multi-utilisateurs, dans un environnement physique variable). Ce constat est notamment à l’origine de coûts additionnels importants pour le portage des applications dans les domaines des applications de l’informatique ambiante et contextuelle. Cela ne concerne pourtant que le problème de l’adaptation statique des applications à des contextes pré-identifiés lors des phases de design. Que dire alors de l’enjeu proposé par une informatique qui voudrait adapter dynamiquement les applications logicielles à leur contexte d’exécution découvert dynamiquement, évoluant tout aussi dynamiquement, et seulement partiellement connu à priori.
+Pour répondre à cette nouvelle problématique, le groupe Rainbow est à l’origine d’un modèle d’architecture orientée services pour l’Informatique Ambiante appelé SLCA (Service Ligthweight Component Architecture). Ce modèle est proche du modèle SCA du consortium OSOA (Open Service Oriented Architecture), mais plus dédié à la composition de services pour dispositifs ambiants. La composition de services y est alors réalisée par assemblage de composants logiciels légers et par propagation d’événements.
+Les mises en œuvre de cette approche, sous forme d’un système auto-adaptatif, dans de multiples domaines comme le bâtiment intelligent, la ville du futur, l’auto quantification santé etc., ont mis en évidence tout l’intérêt de cette approche.
+Le sujet proposé consiste à étudier et mettre en œuvre des mécanismes de filtrage pour la sélection des services au sein d’un outil préexistant. 
+
+
+#### Compétences Requises
+Des compétences de développement en C# seront un plus pour le projet.
+
+
+
+     
+
+#### Besoins Clients
+Les étudiants devront dans un premier temps analyser la solution actuelle, proposer des types de filtrage possible (allow, deny, sémantique, contextuel…) de manière à concevoir l’architecture de filtrage la plus adapté.
+
+#### Résultats Attendus
+Une implémentation des mécanismes de filtrage qui devra être connectée aux outils du groupe SPARKS
+Une interface (API) permettant de communiquer, configurer, … les mécanismes de filtrage
+Un petit démonstrateur illustrant le travail effectué
+
+#### Références
+
+
+
+#### Informations Administratives
+  * Contact : Jean-Yves Tigli  <Jean-Yves.TIGLI@unice.fr>
+  * Identifiant sujet : `Y1819-S033`
+  * Effectif : entre 2 et 3 étudiant(e)s
+  * Parcours Recommandés : AL,IAM
+  * Équipe: SPARKS
+
+     

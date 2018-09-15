@@ -1,0 +1,59 @@
+---
+layout: post
+title: "Boardgame : Comparaison entre différentes versions d’un jeu. "
+date: 2018-09-11 09:29:44
+categories: [dispo, ihm]
+pid: Y1819-S052
+type: Engineering
+contact: Anne-Marie Dery-Pinna
+---
+       
+Ce sujet porte sur les règles de conception et la jouabilité pour des jeux de plateau (boardgame) augmentés (CATG – computer-augmented tabletop games), généralement des adaptations de jeux existants, dans une configuration « CATG » : les joueurs sont autours d’une table interactive reconnaissant des objets tangibles, chacun dispose d’un dispositif personnel. 
+
+Boardgame : Comparaison entre différentes versions d’un jeu. 
+Résumé
+Dans le cadre d’étude d’interactions collaboratives/compétitives colocalisées, , la théorie de la territorialité [3][1] pour les tables interactives est un support à la conception des jeux de plateau (boardgame) augmentés (CATG – computer-augmented tabletop games) [2]. Cette théorie définit 4 types de territoires : personnels (contrôlés par un joueur, mais qui peuvent être publiques), privée (contrôlés par un joueur et secrets), de groupe (pour tous les joueurs), de stockage (pour tous les joueurs). 
+Nous nous intéressons aux règles de conception et à la jouabilité pour de tels jeux, généralement des adaptations de jeux existants, dans une configuration « CATG » : les joueurs sont autours d’une table interactive reconnaissant des objets tangibles, chacun dispose d’un dispositif personnel. 
+Afin de comparer différentes versions : version traditionnelle, version 100% en ligne, version « CATG ».  Des plateformes, comme « boardgame arena »[4], proposent des jeux en version 100% en ligne. Il s’agit donc de développer un des jeux disponibles sur une de ces plateformes, avec des caractéristiques propices à l’études : une identification claire des territoires, interactions impliquant plusieurs territoires, potentiellement interactions impliquants des territoires personnels, etc. 
+« 7wonders » [5], « 6 qui prend » [6] sont des exemples de jeux qui pourraient faire l’objet d’adaptation 
+Déroulement
+Pendant les 8 premières semaines les étudiants devront proposer une grille d’analyse des jeux selon les deux axes : « conception et territorialité » et « jouabilité », de proposer des métriques pour ces axes, de proposer un ou plusieurs de protocoles de test en rapport avec ces axes, choisir le jeu et en concevoir la version CATG.
+Dans les 4 semaines ils devront implémenter un prototype fonctionnel en vue de faire des tests utilisateurs préliminaires en suivant le(s) protocole(s) de test établi(s), le(s) corrigeant si nécessaire. 
+Références
+1.	Jiannan Li, Saul Greenberg and Ehud Sharlin. 2017.A two-sided collaborative transparent display supporting workspace awareness, International Journal of Human-Computer Studies, vol. 101, pp. 23-44, Elsevier (2017)
+2.	Sebastian Ljunggren and Andreas Lundquist. 2015. Augmenting Suburbia Guidelines for making computer-augmented tabletop games easier to learn. Master thesis, Chalmers University of Technology - Department of Applied Information Technology, Göteborg
+3.	Stacey Scott and Seelagh Carpendale. 2010. Theory of Tabletop Territoriality. In C. Müller-Tomfelde (Ed.) Tabletops - Horizontal Interactive Displays, pages 375-406. Springer, Heidelberg (2010)
+4.	https://fr.boardgamearena.com/
+5.	https://fr.wikipedia.org/wiki/7_Wonders 
+6.	https://fr.wikipedia.org/wiki/6_qui_prend_! 
+
+
+#### Compétences Requises
+CEIHM, dev web
+
+
+
+     
+
+#### Besoins Clients
+Afin de comparer différentes versions : version traditionnelle, version 100% en ligne, version « CATG ».  Des plateformes, comme « boardgame arena »[4], proposent des jeux en version 100% en ligne. Il s’agit donc de développer un des jeux disponibles sur une de ces plateformes, avec des caractéristiques propices à l’études : une identification claire des territoires, interactions impliquant plusieurs territoires, potentiellement interactions impliquants des territoires personnels, etc. 
+
+#### Résultats Attendus
+Pendant les 8 premières semaines les étudiants devront proposer une grille d’analyse des jeux selon les deux axes : « conception et territorialité » et « jouabilité », de proposer des métriques pour ces axes, de proposer un ou plusieurs de protocoles de test en rapport avec ces axes, choisir le jeu et en concevoir la version CATG.
+Dans les 4 semaines ils devront implémenter un prototype fonctionnel en vue de faire des tests utilisateurs préliminaires en suivant le(s) protocole(s) de test établi(s), le(s) corrigeant si nécessaire. 
+
+
+#### Références
+
+  * [https://fr.boardgamearena.com/](https://fr.boardgamearena.com/)
+  * [https://fr.wikipedia.org/wiki/7_Wonders](https://fr.wikipedia.org/wiki/7_Wonders)
+  * [https://fr.wikipedia.org/wiki/6_qui_prend_!](https://fr.wikipedia.org/wiki/6_qui_prend_!)
+
+#### Informations Administratives
+  * Contact : Anne-Marie Dery-Pinna <anne-marie.pinna@unice.fr>
+  * Identifiant sujet : `Y1819-S052`
+  * Effectif : entre 2 et 3 étudiant(e)s
+  * Parcours Recommandés : IHM
+  * Équipe: SPARKS
+
+     

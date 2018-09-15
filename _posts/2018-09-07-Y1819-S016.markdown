@@ -1,0 +1,62 @@
+---
+layout: post
+title: "Intégration de ScreenCast dans OpenShot Video Editor"
+date: 2018-09-07 10:44:03
+categories: [dispo, sd,ihm]
+pid: Y1819-S016
+type: Engineering
+contact: Gaetan Rey
+---
+       
+Openshot Video Editor est un très bon logiciel open source pour monter des vidéos. Il lui manque cependant une fonctionnalité importante pour qu’il puisse remplacer Camtasia. Il s’agit de l’enregistrement de l’écran. Le but de ce projet sera donc d’ajouter cette fonctionnalité à cette application.
+
+Le Centre d’Accompagne Pédagogique de l’université fait la promotion de logiciel pour soutenir la pédagogie de ses enseignants et de ses étudiants. Aujourd’hui, la vidéo est devenue un mode de communication incontournable mais malheureusement, les outils disponibles sont soit payants soit peu ergonomiques ou manquent de fonctionnalités.
+
+Openshot Video Editor est un très bon logiciel open source pour monter des vidéos. Il lui manque cependant une fonctionnalité importante pour qu’il puisse remplacer TechSmith Camtasia. Il s’agit de l’enregistrement de l’écran. Le but de ce projet sera donc d’ajouter cette fonctionnalité à cette application.
+
+De manière plus détaillé, le but sera de fournir les améliorations suivantes dans un premier temps sur Windows (mais par la suite sur Mac OS et Linux puisque Openshot Video Editor est un logiciel multiplateforme) :
+•	D’enregistrer l’intégralité de l’écran
+•	D’enregistrer une zone de l’écran
+•	D’enregistrer un flux caméra (webcam)
+•	De fournir ces enregistrements dans Openshot Video Editor pour qu’ils puissent être utilisé lors du montage de la vidéo
+
+L’ergonomie de la solution sera un élément primordial de ce projet.
+
+D’autres fonctionnalités pourront être proposées par les étudiants comme le suivi de la souris lors de la capture d’écran pour ajouter des effets de mises en valeur de cette dernière lors du montage vidéo.
+
+Une possibilité de poursuite en stage sur le sujet pourra être offerte aux étudiants du projet. 
+
+#### Compétences Requises
+Connaissance du C++ et du python
+Motivation pour s'intégrer dans un projet open source existant
+
+
+
+     
+
+#### Besoins Clients
+Lors de la phase à temps partiel, 
+•	Une étude des fonctionnalités et de l’ergonomie des solutions existante sera réalisée de manière à définir la forme que devra avoir la solution développée.
+•	Une étude des bibliothèques de capture d’écrans et d’enregistrement de caméras sera réalisée. En fonction du résultat de cette étude, un plan d’intégration ou de développement sera défini.
+Lors de la phase à temps plein, des livrables réguliers seront fourni et testés en fonction du plan défini préalablement. Une évaluation de la solution auprès des experts du Centre d’Accompagnement Pédagogique mais aussi des utilisateurs de Camtasia pourra être menée pour valider le projet.
+
+#### Résultats Attendus
+Le principal résultat attendu est l’intégration d’un module d’enregistrement d’écrans (complet ou par zones) au sein du logiciel OpenShop Vidéo Editor. Ce module enregistrera à la fois l’écran et le son du microphone pour des commentaires audio.
+Dans un deuxième temps, ce module devra offrir la possibilité d’enregistrer en parallèle un ou plusieurs flux vidéo provenant de caméra (webcam).
+Le support de l’ensemble des plateformes gérées par OpenShot Video Editor sera un plus. Mais a minima, cela devra fonctionner sur Windows.
+
+
+#### Références
+
+  * [https://www.openshot.org/fr/](https://www.openshot.org/fr/)
+  * [https://github.com/OpenShot](https://github.com/OpenShot)
+  * [http://discover.techsmith.com/camtasia-brand-desktop/](http://discover.techsmith.com/camtasia-brand-desktop/)
+
+#### Informations Administratives
+  * Contact : Gaetan Rey <Gaetan.Rey@unice.fr>
+  * Identifiant sujet : `Y1819-S016`
+  * Effectif : entre 2 et 3 étudiant(e)s
+  * Parcours Recommandés : SD,IHM
+  * Équipe: Ce projet se fera au sein de l'équipe SPARKS mais aussi en lien avec de Centre Accompagnement Pédagogique de l'université
+
+     

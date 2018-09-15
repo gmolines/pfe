@@ -1,0 +1,81 @@
+---
+layout: post
+title: "Deep Speech Recognition in noisy environment"
+date: 2018-09-09 23:44:50
+categories: [dispo, sd]
+pid: Y1819-S034
+type: Engineering
+contact: Frederic Precioso
+---
+       
+Speech recognition (or the recognition of a few voice commands, about twenty for example in a car) in a noisy environment or with an echo (i.e. the device must continue to listen to the user while playing music at the same time) is a real challenge that will be addressed in this project.
+
+Context:
+Speech recognition (or the recognition of a few voice commands, about twenty for example) in a noisy environment or with an echo (i.e. the device must continue to listen to the user while playing music at the same time) is a real challenge. The current classic approach is to concatenate several audio processes: 
+http://www.alango.com/speech-recognition-enhancement-s.php#Block
+
+Block #1 (blue block on the schema):  A classic audio processing algorithm for denoising/de-reverbing with one or more microphone (up to 7 sometimes)
+Block #2 (grey block on the schema):  A speech recognition algorithm (trained on utterances without noise).
+
+This leads to use a lot of microphones, to use a lot of CPU power and to complexify the implementation. 
+
+The project consists of studying: 
+•	the possibility of training a system to recognize the speech in a noisy environment (a signal noise ratio negative) in such a way that one can get rid of the noise suppression chain upstream (no Block # 1)
+•	the solution will have to remain less complex in terms of CPU than the two current audio processes.
+
+As a “toy application” we will evaluate the algorithm proposed in the project on journalist commentaries for soccer games.
+
+We will evaluate the project in different real contexts: smartphone with noisy environment, car with noisy environment.
+
+This project could lead to an internship at NXP in Mougins.
+
+Technical tools: Python and/or C++
+
+Industrial supervisor: Laurent Pilati, NXP 
+
+References
+D. Amodei et al. 2016. Deep speech 2: end-to-end speech recognition in English and mandarin. In Proceedings of the 33rd International Conference on International Conference on Machine Learning - Volume 48 (ICML'16), Maria Florina Balcan and Kilian Q. Weinberger (Eds.), Vol. 48. JMLR.org 173-182.
+
+E. Battenberg et al., "Exploring neural transducers for end-to-end speech recognition," 2017 IEEE Automatic Speech Recognition and Understanding Workshop (ASRU), Okinawa, 2017, pp. 206-213.
+
+Sriram, A., Jun, H., Satheesh, S., & Coates, A. (2017). Cold fusion: Training seq2seq models together with language models. arXiv preprint arXiv:1708.06426.
+
+Li, J., Ye, G., Zhao, R., Droppo, J., & Gong, Y. (2017, December). Acoustic-to-word model without OOV. In Automatic Speech Recognition and Understanding Workshop (ASRU), 2017 IEEE (pp. 111-117). IEEE.
+
+Sriram, A., Jun, H., Gaur, Y., & Satheesh, S. (2017). Robust Speech Recognition Using Generative Adversarial Networks. arXiv preprint arXiv:1711.01567.
+
+
+
+#### Compétences Requises
+Python definitely
+C++ appreciated
+Machine Learning knowledge required, Deep Learning would be a plus
+
+
+
+     
+
+#### Besoins Clients
+One of the target situation is to understand commands inside a car while the radio is on. The solution must run on embedded platforms such as a smartphone for instance. One ultimate experiments would be to test the solution implemented on a smartphone in this situation.
+Depending on the quality of the group working on that project we may investigate how the proposed solution is running efficiently on NXP embedded platforms
+
+#### Résultats Attendus
+Bibliographic report on the current deep learning based solutions for speech recognition in noisy environment
+Source code of two solutions implemented to solve the question
+Final report on the project including extensive tests of the solution
+
+#### Références
+
+  * [https://arxiv.org/abs/1512.02595](https://arxiv.org/abs/1512.02595)
+  * [https://arxiv.org/abs/1707.07413](https://arxiv.org/abs/1707.07413)
+  * [https://arxiv.org/abs/1708.06426](https://arxiv.org/abs/1708.06426)
+  * [https://arxiv.org/abs/1711.01567](https://arxiv.org/abs/1711.01567)
+
+#### Informations Administratives
+  * Contact : Frederic Precioso <precioso@unice.fr>
+  * Identifiant sujet : `Y1819-S034`
+  * Effectif : entre 2 et 3 étudiant(e)s
+  * Parcours Recommandés : SD
+  * Équipe: SPARKS
+
+     

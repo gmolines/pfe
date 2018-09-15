@@ -1,0 +1,52 @@
+---
+layout: post
+title: "Email sécurisé - Une évaluation et étude utilisateur"
+date: 2018-09-07 00:54:22
+categories: [dispo, caspar,ihm]
+pid: Y1718-S014
+type: Engineering
+contact: Karima BOUDAOUD
+---
+       
+L’objectif  de ce projet est d’étudier les problèmes  d’utilisabilité rencontrés par les utilisateurs pour sécuriser leurs mails.
+
+
+La sécurité de bout-en-bout est considérée comme « la solution » pour sécuriser la communication des mails. Bien que les technologies telles que OpenPGP et SMIME existent depuis un certain temps, très souvent les applications mails ne proposent pas de support 
+pour aider l’utilisateur à utiliser ces technologies dans sa vie de tous les jours.
+
+L’objectif de ce project sera d’analyser l’état de l’art  concernant l’utilisation des technologies telles que OpenPGP et S/MIME par les applications mail. Un des résultats de ce projet sera une étude utilisateur concernant les attentes des utilisateurs quant à l’intégration de ces outils dans les applications mails et d’identifier le gap avec l’état de l’art.
+
+Dans le cadre de ce projet, il faudra également  étudier l’initiative récente pEp (Pretty Easy Privacy) dont le but est de faciliter la protection des  mails  et d’assurer une communication sécurisée des mails pour les utilisateurs novices.
+
+
+#### Compétences Requises
+Sécurité (pour les étudiants de la filière CASPAR) et IHM (pour les étudiants du parcours IHM)
+
+
+
+     
+
+#### Besoins Clients
+Cette étude doit permettre  d’étudier les problèmes d’utilisabilité  de technologies telles que OpenPGP et SMIME utilisés par les applications mail et d’analyser dans quelle mesure pEp résous ces problèmes.
+
+
+#### Résultats Attendus
+- Etude des technologies existantes pour la sécurisation des mails (OpenPGP et S/MIME)
+- Etude utilisateur concernant les attentes utilisateurs quant à l’intégration de ces technologies dans les applications mails
+- Etude de pEp (Pretty Easy Privacy)
+- Rédaction d'un article de synthèse
+
+
+#### Références
+
+  * [https://www.vpnmentor.com/blog/pretty-easy-privacy-effective-email-privacy-easy-to-deploy/](https://www.vpnmentor.com/blog/pretty-easy-privacy-effective-email-privacy-easy-to-deploy/)
+  * [https://www.lemonde.fr/pixels/article/2016/01/26/pretty-easy-privacy-le-chiffrement-automatique-par-defaut-pour-tous_4853782_4408996.html](https://www.lemonde.fr/pixels/article/2016/01/26/pretty-easy-privacy-le-chiffrement-automatique-par-defaut-pour-tous_4853782_4408996.html)
+
+#### Informations Administratives
+  * Contact : Karima BOUDAOUD <karima.boudaoud@unice.fr>
+  * Identifiant sujet : `Y1718-S014`
+  * Effectif : entre 2 et 3 étudiant(e)s
+  * Parcours Recommandés : CASPAR,IHM
+  * Équipe: SPARKS
+
+     

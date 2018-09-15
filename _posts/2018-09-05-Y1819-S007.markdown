@@ -1,0 +1,48 @@
+---
+layout: post
+title: "Développement d'une méthode de recalage de représentations 3D de molécules chimiques  "
+date: 2018-09-05 16:01:58
+categories: [dispo, sd]
+pid: Y1819-S007
+type: Engineering
+contact: Frédéric Payan
+---
+       
+ Ce PFE aura pour principal objectif de tester des techniques classiques de recalage de nuage de points 3D (ICP, etc.) sur des représentations 3D de molécules, afin de voir laquelle est la plus adaptée à ce type de données, pour ensuite permettre des calculs de similarité. 
+
+Dans le domaine de la pharmacologie, l’efficacité de l’activité biologique d’une molécule résulte le plus souvent de son interaction avec une protéine. 
+Pour une protéine donnée, deux molécules qui ont des représentations 2D très différentes peuvent avoir la même efficacité d’un point de vue médical. En effet, deux molécules avec des représentations 2D très différentes peuvent en fait avoir une représentation 3D assez similaire. Cette similarité « suffit » pour qu’elles aient au final la même efficacité. 
+Le calcul de cette similarité 3D entre molécules est un problème ouvert : aucune solution n’est réellement satisfaisante aujourd’hui. L’un des verrous est le problème de recalage des représentations 3D de 2 molécules données, nécessaires avant de pouvoir effectuer des calculer de similarités. 
+ Ce PFE aura pour principal objectif de tester des techniques classiques de recalage de nuage de points (par exemple les techniques de type ICP, Iterative closest point) sur des représentations 3D de molécules, afin de voir la plus adaptée à ce type de données, pour ensuite permettre des calculs de similarité. 
+
+Encadrant principal : Frédéric Payan, Enseignant chercheur au laboratoire CNRS I3S, situé à 300 mètres du site Polytech 
+Collaborateurs : Marc Antonini, chercheur à l'I3S, Dominique Douguet, chercheur à l'IPMC.  
+
+
+#### Compétences Requises
+compétences de base en traitement d'objets 3D, programmation (langages à définir) 
+
+
+
+     
+
+#### Besoins Clients
+En premier lieu, les étudiants devront faire une recherche bibliographique sur les techniques de recalage de nuages de points 3D existantes (ICP et variantes, etc.).
+Suivra ensuite une implémentation de plusieurs de ces techniques sur des représentations 3D de molécules afin de retenir in fine la plus adaptée à ce type de données.    
+
+#### Résultats Attendus
+Un code commenté permettant d'appliquer des techniques classiques de recalage de nuages de points 3D, un manuel de prise en main de ce code. L'utilisation de matlab est envisagée mais non obligatoire selon les fonctions qui seront trouvés lors de la recherche bibliographique.
+
+#### Références
+
+  * [https://en.wikipedia.org/wiki/Iterative_closest_point](https://en.wikipedia.org/wiki/Iterative_closest_point)
+  * [https://www.mathworks.com/matlabcentral/fileexchange/24301-finite-iterative-closest-point](https://www.mathworks.com/matlabcentral/fileexchange/24301-finite-iterative-closest-point)
+
+#### Informations Administratives
+  * Contact : Frédéric Payan <fpayan@i3s.unice.fr>
+  * Identifiant sujet : `Y1819-S007`
+  * Effectif : entre 2 et 3 étudiant(e)s
+  * Parcours Recommandés : SD
+  * Équipe: SIS / Mediacoding
+
+     

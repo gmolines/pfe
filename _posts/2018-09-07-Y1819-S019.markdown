@@ -1,0 +1,55 @@
+---
+layout: post
+title: "Storing digital data for eternity: On the use of Machine Learning for robust DNA sequencing"
+date: 2018-09-07 16:53:29
+categories: [dispo, sd]
+pid: Y1819-S019
+type: Engineering
+contact: Marc Antonini
+---
+       
+Storage of digital data is becoming challenging for the humanity due to the relatively short life span of storage devices. Servers, for instance, have to be replaced about every five years. An alternative approach may stem from the use of DNA, the support of heredity in living organisms. This comes from recent biotechnological developments allowing easy and affordable DNA writing (synthesis) and DNA reading (sequencing). Using DNA for storage is not obvious. One must tackle the problem of noise introduced during sequencing. I3S laboratory proposed recently some solutions based on Machine Learning for error correction. In that context, the goal of this PFE is to test the effectiveness of the different machine learning techniques and propose new approaches to tackle the existing problems.
+
+Storage of digital data is becoming challenging for the humanity due to the relatively short life span of storage devices. Indeed, the durability of digital equipment, either hard drives, flash drives, floppies or CD-ROMs, compare very badly with the one of clay, vinyl or paper. Servers, for instance, have to be replaced about every five years. Leave a server farm alone too long and its stored data will degrade and become inaccessible more rapidly than any of its analog predecessors.
+An interesting alternative approach may stem from the use of DNA, the support of heredity in living organisms. This comes from recent biotechnological developments that allow easy and affordable DNA writing (synthesis) and DNA reading (sequencing). This implies that DNA can appear as an attractive support for long-term data storage, representing a relevant alternative for any future archiving. A key first property of DNA is its longevity, when stored in appropriate conditions, i.e. in an oxygen and water-free environment. This is well illustrated by the capacity to analyze and sequence ancient DNA, even when stored in suboptimal conditions.
+In this context, groups of researchers across the world are working on complex forms of data encoding and decoding to optimize the amount of information stored in DNA strands, and the MediaCoding group of the I3S laboratory contributes with its own team. I3S/MediaCoding collaborates with IPMC laboratory that owns the machinery necessary to produce DNA strands, thus providing I3S researchers with insight regarding purely biological issues as well as with the possibility to test theoretical hypothesis in practical contexts. DNA Sequencing can be thought of as the “reading” of a linear text composed by a succession of 4 possible nucleotides: adenine (A), thymine (T), cytosine (C), guanine (G). This is accomplished through a sequential reading of each base in the DNA molecule.
+
+One major problem of DNA storage is that all the information stored on DNA suffers the introduction of errors both in the synthesis and in the sequencing phase. Errors take the form of substitutions, insertions and deletions of single nucleotides. Concerning the introduction of errors, the most critical phase is the sequencing of the strands: in this case the choice of different sequencing machines results in significant fluctuations in the number of sequencing errors, since different techniques are available to tackle this task.
+
+To tackle the problem of noise introduced during the sequencing phase, the MediaCoding research group proposed recently some solutions based on clustering and machine learning, providing some error correction mechanisms.
+In that context, the goal of this PFE is to test the effectiveness of the different machine learning techniques for error correction and eventually propose new approaches to tackle the existing problems. 
+
+
+#### Compétences Requises
+Machine learning, image processing
+
+
+
+     
+
+#### Besoins Clients
+All the information stored on DNA suffers the introduction of errors both in the synthesis and in the sequencing phase. Errors take the form of substitutions, insertions and deletions of single nucleotides.
+Concerning the introduction of errors, the most critical phase is the sequencing of the strands: in this case the choice of different machines results in significant fluctuations in the number of sequencing errors, since different techniques are available to tackle this task. The tradeoff that is generally true in this context is between operational time and precision of the reconstructed DNA strands: by using slow (and generally expensive) machines it is possible to obtain extremely accurate reads, while smaller devices can still guarantee an acceptable error ratio for common experimental applications, but could result inadequate in contexts where precision is crucial.
+All the machines employing the technique denominated sequencing by synthesis generate a big number (in the order of millions) of copies for each strand before sequencing. However, the copies produced this way are unordered and there is no easy way to discriminate between them (since each of them will potentially be affected by errors in the sequencing process).
+A good way to discriminate the different strands is to solve a clustering problem. In particular, we want to cluster all the distorted signals that come from the same source signal in order to proceed to the successive error correction phase.
+
+
+#### Résultats Attendus
+Deliverables:
+- State of the art
+- Study of the works already done by the MediaCoding research group
+- Improvement of the MediaCoding solutions for clustering and noise reduction
+- Test on real datasets
+
+#### Références
+
+  * [https://spectrum.ieee.org/semiconductors/devices/exabytes-in-a-test-tube-the-case-for-dna-data-storage](https://spectrum.ieee.org/semiconductors/devices/exabytes-in-a-test-tube-the-case-for-dna-data-storage)
+
+#### Informations Administratives
+  * Contact : Marc Antonini <am@i3s.unice.fr>
+  * Identifiant sujet : `Y1819-S019`
+  * Effectif : entre 2 et 3 étudiant(e)s
+  * Parcours Recommandés : SD
+  * Équipe: MediaCoding
+
+     

@@ -1,0 +1,50 @@
+---
+layout: post
+title: "L’objectif de ce projet est de concevoir un outil permettant de créer et visualiser des annotations (ex. des références vers différents types de fichiers) crées sur les artéfacts utilisés pour concevoir des interfaces utilisateurs (ex. prototypes d’interfaces, scénarios, modèle de tâches). Par ailleurs, les références créées devront être visible dans les différents éditeurs des artefacts."
+date: 2018-09-11 12:28:39
+categories: [dispo, ihm]
+pid: Y1819-S055
+type: Engineering
+contact: Marco Winckler
+---
+       
+L’objectif de ce projet est de concevoir un outil permettant de créer et visualiser des annotations (ex. des références vers différents types de fichiers) crées sur les artéfacts utilisés pour concevoir des interfaces utilisateurs (ex. prototypes d’interfaces, scénarios, modèle de tâches). Par ailleurs, les références créées devront être visible dans les différents éditeurs des fichiers de références qui décrivent les artefacts. En cours, on veut un outil qui permet de retrouver facilement tous les annotations faites et à quelques documents elles font référence.
+
+L’activité de prototypage est au cœur de la conception centrée utilisateur. Les prototypes contiennent des représentations des solutions de design possibles pour combler les besoins des utilisateurs. Cependant, les prototypes ne contienne qu’une vision du projet et, pour cette raison, d’autre artefacts tels que les scénarios, modèle de tâches, modèle des systèmes, modèle de workflow…. sont souvent nécessaires pour compléter la description du système interactif. Lors du processus de conception, toute information qui n’est représenté (ou représentable) sur un artefact doit être consigné sur la formes d’annotations. Le but de ce PDF est concevoir un outil qui permet de retrouver facilement tous les annotations faites et à quelques documents elles font référence. 
+Actuellement, un outil d’édition de prototype nommé PANDA “Prototyping using ANnotation and Decision Analysis” exite. Cet outil a été développé avec le framework Netbeans dans la plateforme CIRCUS qui intégré plusieurs éditeurs d’artefact pour la conception de système interactif (à savoir, outil de prototypage, de modèle de tâche, modèle de système). L’outil demandé dans cette PFE viendrais s’intégrer à l’outil existent. A ce titre le code suivant sera fourni : 
+-        Un éditeur simple permettant de créer un fichier xml via du drag & drop
+-        Un template d’outil permettant de créer des références et de les lire
+-        Code JAVA du template d’outil et de l’éditeur simple
+-        Fichiers d’exemple de références au format xml
+
+
+#### Compétences Requises
+Développent en Java. Le code doit utiliser le framework « NetBeans Platform » et la librairie « Netbeans Visual Library ». 
+
+
+
+     
+
+#### Besoins Clients
+Visualiser des références vers des fichiers au format imposé.
+
+
+#### Résultats Attendus
+•	Améliorer l’outil existant permettant de créer et visualiser des références vers des fichiers au format imposé ; 
+•	Concevoir une ou plusieurs visualisations de ces références permettant de les trier/filtrer par date de création, par référence, par type de fichier, par auteur dans l’outil template fournis ;
+•	Intégrer l’affichage des références dans l’éditeur de fichier xml fournis.  
+
+
+#### Références
+
+  * [http://dx.doi.org/10.1145/2933242.2935873](http://dx.doi.org/10.1145/2933242.2935873)
+  * [http://doi.org/10.4236/jsea.2017.106031](http://doi.org/10.4236/jsea.2017.106031)
+
+#### Informations Administratives
+  * Contact : Marco Winckler <winckler@unice.fr>
+  * Identifiant sujet : `Y1819-S055`
+  * Effectif : entre 2 et 3 étudiant(e)s
+  * Parcours Recommandés : IHM
+  * Équipe: SPARKS
+
+     

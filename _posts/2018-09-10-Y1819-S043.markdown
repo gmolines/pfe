@@ -1,0 +1,62 @@
+---
+layout: post
+title: "Real-time 3D reconstruction and mapping on a Graphics Processing Unit (GPU) using a Kinect sensor for augmented reality applications"
+date: 2018-09-10 16:41:48
+categories: [dispo, sd]
+pid: Y1819-S043
+type: Engineering
+contact: Andrew Comport
+---
+       
+Development of a real-time 3D visual mapping algorithm on a Nvidia GPU for augmented reality applications. This will be developed in OpenGL or Cuda languages. It will be necessary to stream  RGB-D images directly from a Kinect camera onto the GPU memory. The group will develop GPU functions to extract surface meshes from the captured 3D point cloud. 
+
+Real-time 3D reconstruction and mapping on a Graphics Processing Unit (GPU) using a Kinect sensor for augmented reality applications
+
+This topic will be undertaken at the I3S-CNRS laboratory at the University of Nice Sophia-Antipolis. The aim is to extend a mobile 3D mapping and navigation algorithm for real-time augmented reality. 
+
+The field of augmented reality classically requires important computational resources due to the need for algorithms to run in real-time for closed loop control. The computational bottleneck is generally low level where large amounts of information are available and need to be processed. In the majority of cases these algorithms are highly parallelisable, however, a majority of classical processors (pentium, power PC) or specialised DSPs are not optimized for such processing. Another solution consists in using the computing power provided to graphics processing units (GPU) that are readily available in the commerce. The computer graphics community has made significant advances in this area with OpenGL, however, their traditional image processing pipeline has been designed to create high quality images. In the study here, the interest will be in using the image processing power of GPUs in a reverse manner in order to treat real images and recover more high level information such as the position of the camera with respect to its environment.
+
+The required work will consist in studying and implementing a 3D visual mapping algorithm on a Nvidia GPU. This will be developed in OpenGL or Cuda languages (an extended C language associated with the Nvidia processor). An initial goal framework will be provided that will allow to easily distribute tasks and provides a basis for collaborative teamwork. In particular, it will be necessary to prepare the parallel streaming of images directly from a Kinect camera onto the GPU memory and to develop kernel functions to compute surface meshed from acquired 3D point clouds. The graphics programming model will naturally take into account the parallel architecture of GPUs to improve the execution speed of these algorithms.
+
+
+This study will be supervised by two researches from the I3S laboratory: 
+- Andrew Comport : CNRS researcher 
+- Frédéric Payan : Lecturer from the UNS.
+ 
+
+Webpages : 
+http://www.i3s.unice.fr/~comport/
+http://www.i3s.unice.fr/~fpayan/
+
+
+#### Compétences Requises
+The candidate will be expected to collaborate with other members of the this research group. Different tools will be used including computer vision, 3D mapping and localisation, OpenGL and 3D triangulation and decimation techniques. 
+
+
+
+     
+
+#### Besoins Clients
+See detailed desciption
+
+#### Résultats Attendus
+The deliverables of this project are: 
+- Implementation of a real-time streaming function that transfers Kinect sensor images to GPU memory
+- A shader to obtain a triangular mesh in real-time from 3D point clouds
+- Comparison and implementation of different techniques and approaches
+
+#### Références
+
+  * [https://ieeexplore.ieee.org/document/4408933/](https://ieeexplore.ieee.org/document/4408933/)
+  * [https://onlinelibrary.wiley.com/doi/abs/10.1111/cgf.12779](https://onlinelibrary.wiley.com/doi/abs/10.1111/cgf.12779)
+  * [https://hal.archives-ouvertes.fr/hal-01357359](https://hal.archives-ouvertes.fr/hal-01357359)
+  * [https://hal.archives-ouvertes.fr/hal-01357357](https://hal.archives-ouvertes.fr/hal-01357357)
+
+#### Informations Administratives
+  * Contact : Andrew Comport <Andrew.Comport@cnrs.fr>
+  * Identifiant sujet : `Y1819-S043`
+  * Effectif : entre 2 et 3 étudiant(e)s
+  * Parcours Recommandés : SD
+  * Équipe: Robot Vision et Mediacoding - I3S
+
+     

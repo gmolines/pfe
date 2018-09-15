@@ -1,0 +1,49 @@
+---
+layout: post
+title: "Télé-enseignement et robot de téléprésence"
+date: 2018-09-10 16:05:44
+categories: [dispo, iam,ihm]
+pid: Y1819-S042
+type: Engineering
+contact: Stéphane Lavirotte
+---
+       
+Dans le cadre du projet Export, financé par le service de Pédagogie Innovante, nous avons réalisé des développement embarqués et serveur nécessaires à l’expérimentation envisagée dans le cadre du projet (enseignement à distance dans le cadre de TD, TP à l’aide d’un robot de télé-présence). Des tests techniques de performance et des améliorations du système existant sont maintenant à réaliser, même si la solution actuelle est fonctionnelle. Une expérimentation utilisateur sera à conduire pour vérifier l’adéquation de la solution proposée avec les besoins identifiés. Les robots dont nous disposons pour les expérimentations sont des robots Double Robotics, dont un est localisé à Tunis pour les tests à distance.
+Encadrement : S. Lavirotte, J.-Y. Tigli
+
+
+À la suite de nos expériences passées dans le cadre de Masters délocalisés comme le Master IFI au Caire (Egypte) et à Tunis (Tunisie), résolument basés sur les cours en télé-présence, nous avons pu mesurer l’efficacité des différentes modalités d’enseignement. Si les cours en télé présentiel peuvent se satisfaire d’une couverture en visioconférence avec des équipements classiques, ces dispositifs ont largement montré leurs limites dès lors qu’il s’agit d’encadrer des étudiants (individuellement ou en petits groupes) en pédagogie par projet ou en travaux pratiques à distance. Notre démarche est expérimentale et a pour but d’explorer un certain nombre de modalités d’interactions pédagogiques innovantes avec des étudiants à distance envisageables aujourd’hui grâce à des robots de télé présence.
+
+Une solution complète a été réalisée grâce au travail d’un l’an dernier d’un PFE, suivi d’un stage SI5 et d’un stage SI4. Une solution fonctionnant avec les robots Double Robotics, une tablette (Android ou iOS) et un serveur Node.js ont été mis en œuvre. Les premiers tests ont été réalisés mais sont à compléter. 
+
+Une première partie du travail consistera à faire une étude exhaustive des performances techniques du système (et ainsi compléter les résultats actuels). Pour ceci, des sondes et métriques sur les communications réseau, la latence, … devront être mises en place pour compléter l’existant. Une étude utilisateur devra aussi être menée en établissant un protocole d’expérimentation et effectuer une étude précise afin d’améliorer les points critiques qui seront identifiés.
+
+D’autre part, ce robot devra aussi être capable d’accéder aux différents objets connectés présents dans l’environnement où il se trouve et permettre à l’utilisateur distant d’interagir avec ceux-ci. Des développements ont déjà été réalisé, mais ceux-ci devront être complétés.
+
+Encadrement : Stéphane Lavirotte et Jean-Yves Tigli, en collaboration avec Alcatel Lucent
+
+#### Compétences Requises
+Développement mobile, développement node.js
+
+
+
+     
+
+#### Besoins Clients
+Les besoins sont décrits dans le sujet
+
+#### Résultats Attendus
+Les attendus sont décrits dans le sujet
+
+#### Références
+
+  * [https://www.doublerobotics.com/](https://www.doublerobotics.com/)
+
+#### Informations Administratives
+  * Contact : Stéphane Lavirotte <stephane.lavirotte@unice.fr>
+  * Identifiant sujet : `Y1819-S042`
+  * Effectif : entre 2 et 3 étudiant(e)s
+  * Parcours Recommandés : IAM,IHM
+  * Équipe: non spécifié
+
+     

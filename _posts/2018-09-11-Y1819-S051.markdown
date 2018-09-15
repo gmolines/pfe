@@ -1,0 +1,48 @@
+---
+layout: post
+title: "Interfaces réparties pour jeu de plateau : extension de Conquistador Island"
+date: 2018-09-11 09:24:16
+categories: [dispo, ihm]
+pid: Y1819-S051
+type: Engineering
+contact: Anne-Marie Dery-Pinna
+---
+       
+L’idée de ce PFE est  d’analyser les différentes étapes d'un jeu sur table interactive avec une tablette par joueur pour les informations secrètes et en particulier celles qui obligent les joueurs à passer d’un dispositif à un autre ou d’une zone sur la table à une autre pour proposer une ou plusieurs versions qui favorisent la jouabilité (rapidité, non intrusion, confort d’utilisation…). Ces nouvelles versions devront exploiter plusieurs pistes favorisant le passage d’un dispositif à un autre (ajout de modalités, duplication d’information...) . Elles devront également s’appuyer sur la théorie de la territorialité qui donnent des principes d’organisation en fonction des tâches à effectuer : tâches de groupe, tâches individuelles, tâches secrètes,…)
+
+Interfaces réparties pour jeu de plateau : extension de Conquistador Island
+Résumé
+Des étudiants du parcours IHM ont développé un jeu multi devices (http://atelierihm.unice.fr/vitrine/2014/03/26/conquistador/)  dérivé de Conquistador et Trivial Poursuit. Ce jeu se joue à 4 autour d’une table interactive, chaque joueur ayant une tablette ou un smartphone en sa possession pour réaliser certaines tâches (étapes du jeu).
+Ce jeu nécessite que les joueurs soient rapides (le joueur qui donne la bonne réponse ou la réponse la plus proche à une question gagne une étape). Aucun joueur quel que soit sa place ne doit être favorisé ou défavorisé. Le passage d’un dispositif (table, smartphone, tablette) à un autre ne doit pas handicaper un joueur.
+L’idée de ce PFE est  d’analyser les différentes étapes de jeu et en particulier celles qui obligent les joueurs à passer d’un dispositif à un autre ou d’une zone sur la table à une autre pour proposer une ou plusieurs versions qui favorisent la jouabilité (rapidité, non intrusion, confort d’utilisation…). Ces nouvelles versions devront exploiter plusieurs pistes favorisant le passage d’un dispositif à un autre (ajout de modalités, duplication d’information...) . Elles devront également s’appuyer sur la théorie de la territorialité qui donnent des principes d’organisation en fonction des tâches à effectuer : tâches de groupe, tâches individuelles, tâches secrètes,…)
+Les étudiants devront fournir plusieurs prototypes fonctionnels illustrant leurs propositions après avoir fait valider des maquettes intermédiaires. Ils devront comparer les propositions. L’idée est d’identifier quelles sont les techniques les plus appropriées à mettre en place pour faciliter le passage d’un territoire à un autre dans le cadre d’une application compétitive telle que ce jeu.
+Déroulement
+Pendant les 8 premières semaines les étudiants devront faire une analyse des besoins et identifier les preuves de concepts les plus importantes pour la suite et l’étude faisabilité technologique.
+Dans les 4 semaines ils devront mettre en place les prototypes fonctionnels, faire des tests utilisateurs et revenir éventuellement sur leurs conclusions préliminaires
+
+
+#### Compétences Requises
+CEIHM, dev C#, android, js
+
+
+
+     
+
+#### Besoins Clients
+études des interactions utilisateurs impliquant le passage d'un dispositif privé à un dispositif public (et réciproquement)
+
+#### Résultats Attendus
+Les étudiants devront fournir plusieurs prototypes fonctionnels illustrant leurs propositions après avoir fait valider des maquettes intermédiaires. Ils devront comparer les propositions. L’idée est d’identifier quelles sont les techniques les plus appropriées à mettre en place pour faciliter le passage d’un territoire à un autre dans le cadre d’une application compétitive telle que ce jeu.
+
+#### Références
+
+
+
+#### Informations Administratives
+  * Contact : Anne-Marie Dery-Pinna <anne-marie.pinna@unice.fr>
+  * Identifiant sujet : `Y1819-S051`
+  * Effectif : entre 2 et 3 étudiant(e)s
+  * Parcours Recommandés : IHM
+  * Équipe: SPARKS
+
+     

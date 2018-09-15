@@ -1,0 +1,67 @@
+---
+layout: post
+title: "Multimedia content linking for video editors"
+date: 2018-09-10 04:27:35
+categories: [dispo, sd,web]
+pid: Y1819-S039
+type: Engineering
+contact: Frederic Precioso
+---
+       
+Wildmoka is a start-up empowering broadcasters and content owners to clip the greatest moments from live TV and events as they happen, and push them across web, mobile and social, giving fans what they want most – instant access to the best highlights.
+They need to help their clients to edit easily the video content and to connect this content to content from external sources.
+
+Wildmoka is a start-up empowering broadcasters and content owners to clip the greatest moments from live TV and events as they happen, and push them across web, mobile and social, giving fans what they want most – instant access to the best highlights.
+They need to help their clients to edit easily the video content and to connect this content to content from external sources.
+
+1) From analytics we have (number of views, etc) + video data (like subtitles, OCR, decoration), try to help videos editors to:
+	* enhance the way they decorate/edit their video to reach a better audience
+	* help them decide when to publish and where
+
+2) Given a clip (with its metadata, OCR, subtitles, etc) : give back “connected” clips, based on subjects, etc. Same thing, given a sentence on an OCR text, or subtitles.
+The usage could be: I’m an NBC news editor, I post a clip … and at this moment we find the related clips that has been made and if one of them is on the same subjects/topics we propose other actions like merging, etc
+
+You will evaluate your contributions on multimedia data provided by Wildmoka
+
+Technical tools: Python and/or C++
+Skills: Machine Learning appreciated
+
+This project can lead to an internship if the results are convincing.
+
+Pavel, A., Goldman, D., & Hartmann, B. (2015). SceneSkim: Searching and Browsing Movies Using Synchronized Captions, Scripts and Plot.
+
+Truong, A., Berthouzoz, F., Li, W. & Agrawala, M. 2016. QuickCut: An Interactive Tool for Editing Narrated Video. In Proceedings of the 29th Annual Symposium on User Interface Software and Technology (UIST '16). ACM, New York, NY, USA, 497-507.
+
+#### Compétences Requises
+Technical tools: Python and/or C++
+Skills: Machine Learning appreciated
+
+
+
+     
+
+#### Besoins Clients
+From analytics we have (number of views, etc) + video data (like subtitles, OCR, decoration) … try to help videos editors to:
+	* enhance the way they decorate / edit their video to reach a better audience
+	* help them decide when to publish and where
+Given a clip (with its metadata, OCR, subtitles, etc), give back “connected” clips, based on subjects
+
+#### Résultats Attendus
+Bibliographic report presenting all the relevant works to analytics and video metadata
+Source code of the implemented solution
+Final report including extensive  experiments
+
+#### Références
+
+  * [http://graphics.stanford.edu/projects/quickcut/quickcut.pdf](http://graphics.stanford.edu/projects/quickcut/quickcut.pdf)
+  * [http://www.cs.cmu.edu/afs/.cs.cmu.edu/Web/People/sms/silver-dis02.pdf](http://www.cs.cmu.edu/afs/.cs.cmu.edu/Web/People/sms/silver-dis02.pdf)
+  * [http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.70.8830&rep=rep1&type=pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.70.8830&rep=rep1&type=pdf)
+
+#### Informations Administratives
+  * Contact : Frederic Precioso <precioso@unice.fr>
+  * Identifiant sujet : `Y1819-S039`
+  * Effectif : entre 2 et 3 étudiant(e)s
+  * Parcours Recommandés : SD,WEB
+  * Équipe: SPARKS
+
+     

@@ -1,0 +1,53 @@
+---
+layout: post
+title: "Génération de tests pour algorithmes de “Machine Learning”"
+date: 2018-09-10 17:04:17
+categories: [dispo, al]
+pid: Y1819-S044
+type: Engineering
+contact: Mireille Blay-Fornarino
+---
+       
+Les bibliothèques de codes de ML offrent un grand nombre d’algorithmes et pré-traitements.
+Pour les utiliser il est nécessaire de connaître les contraintes sur les données (e.g. absence de valeurs numériques, de valeurs manquantes, ..). Lorsque l’on veut composer ces algorithmes, on doit connaître les post-conditions (e.g. en sortie de cet algorithme, il n’y a plus de valeurs manquantes). Le défi est d’automatiser, distribuer, optimiser le processus de vérification, voir de découvertes des pré et post-conditions associées à une très grosse base d’algorithmes. Ces algorithmes sont écrits dans des langages différents, vous utiliserez la technologie Docker pour masquer cette hétérogénéité. Le sujet est exploratoire.
+
+Le Machine Learning est un domaine complexe et en plein boom, offrant des possibilités très variées en particulier en analyse d’images (conduire des voitures autonomes et reconnaître des situations connues, classer des images, identifier une maladie à partir de masses d’IRM, reconnaître automatiquement vos amis sur les photos que vous partagez sur les réseaux sociaux, ...). Cependant, la multitude d’algorithmes et la difficulté à choisir comment transformer ces données rendent l’accès à ce domaine difficile, conduisant ainsi à l’utilisation d’outils pas toujours adaptés. 
+Votre projet entre dans ce contexte en proposant une approche logicielle pour extraire les connaissances sur les pré et post conditions de ces algorithmes de façon à permettre une automatisation de leur composition. 
+Dans un premier temps, nous vous proposons de vérifier que les informations extraites sont vérifiées en générant des jeux de données adaptés et des résultats d’exécution exploitables. 
+Dans un deuxième temps, nous chercherons à étendre les tests pour couvrir des pré-conditions plus complexes (e.g. corrélation des données, intervalles) et/ou optimiser la production des tests. 
+Ce travail profitera de la plateforme d’expérimentations développées dans le cadre du projet ROCKflows, pour à partir d’un langage de haut niveau reposant sur les composants Dockers lancer les campagnes d’expérimentations. 
+
+Le projet sera encadré par  Mireille Blay-Fornarino (expertise GL et ROCKFlows) et si possible  Günther Jungbluth (expertise GL, plateforme, ROCKFLOWS). 
+
+
+#### Compétences Requises
+Bonnes bases de programmation,  GL
+
+
+
+     
+
+#### Besoins Clients
+il s’agit de rendre explicite des pré et post conditions portant sur les  données attendues et produites par les algorithmes de ML
+
+
+#### Résultats Attendus
+- Caractérisation des pré-post conditions 
+- Résultats obtenus sur des bases d’algorithmes données définis dans des langages différents 
+- Environnement de tests paramétrables sur les bases d'algorithmes, les méta données traitées et éventuellement les fonctions appliquées. 
+
+
+#### Références
+
+  * [http://rockflows.i3s.unice.fr](http://rockflows.i3s.unice.fr)
+  * [http://scikit-learn.org/stable/](http://scikit-learn.org/stable/)
+  * [https://www.cs.waikato.ac.nz/ml/weka/ ](https://www.cs.waikato.ac.nz/ml/weka/ )
+
+#### Informations Administratives
+  * Contact : Mireille Blay-Fornarino <blay@unice.fr>
+  * Identifiant sujet : `Y1819-S044`
+  * Effectif : entre 2 et 2 étudiant(e)s
+  * Parcours Recommandés : AL
+  * Équipe: SPARKS
+
+     

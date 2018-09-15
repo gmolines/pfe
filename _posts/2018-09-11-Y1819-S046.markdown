@@ -1,0 +1,48 @@
+---
+layout: post
+title: "Outils d’analyse et de visualisation de logs de l’activité des utilisateurs sur smartphone"
+date: 2018-09-11 08:58:13
+categories: [dispo, ihm]
+pid: Y1819-S046
+type: Engineering
+contact: Marco Winckler
+---
+       
+Ce projet a un double enjeu. D’une part il est concerné par le recensement des outils et des techniques existant pour analyser l’activité d’utilisateurs de smartphone. D’autre part, il est question d’identifier les évènements qu’on peut récolter sur un smartphone et de proposer de solutions pour les analyser et les visualiser. 
+
+Le test d’interface avec des utilisateurs réels est une technique qui s’appuie sur l’observation des utilisateurs pendant la réalisation de tâches pour identifier des problèmes d’utilisabilité avec un système interactif. L’observation des utilisateurs permet de mesurer la qualité de l’interface en termes de son utilité, efficacité et satisfaction subjective des utilisateurs. Cependant, les gestes utilisateurs sont souvent très rapides pour qu’un observateur humain puisse repérer les séquences d’actions effectuées et mesurer avec précision le temps de réalisation des tâches. Ainsi, des outils d’analyse de log sont devenus des outils précieux pour analyser avec précision l’activité des utilisateurs. L’objectif de ce TER est des étudier les techniques et les outils d’analyse de log utilisés dans le but de évaluer l’utilisabilité des interfaces de systèmes interactifs. 
+D’une part il est concerné par le recensement des outils et des techniques existant pour analyser l’activité d’utilisateurs de smartphone. D’autre part, il est question d’identifier les évènements qu’on peut récolter sur un smartphone et de proposer de solutions pour les analyser et les visualiser. L’importance qui sera données aux aspects analyse de l’existant et développement d’un prototype est à négocier en fonction du centre d’intérêt des étudiants. 
+
+
+#### Compétences Requises
+Techno mobile
+
+
+
+     
+
+#### Besoins Clients
+Cette étude est destiné à aider à des développer et/ou évaluateurs des interfaces IHM déployé sur smartphone.  
+
+#### Résultats Attendus
+•	Analyse de l’existant en termes de solution pour la collecte de logs d’usage sur smartphone ;
+•	Expérimentation des outils de log sur smartphone et analyse comparative par rapport aux types d’événement collecté, intégration avec d’autres applications, contraintes de confidentialité, etc.
+•	Identification de techniques de visualisation susceptible de représenter les évènements collectés ; 
+•	Proposition et prototypage d’une (ou plusieurs) technique de visualisation pour la représentation d’évènement de log ; 
+
+
+#### Références
+
+  * [http://doi.acm.org/10.1145/2207676.2208676](http://doi.acm.org/10.1145/2207676.2208676)
+  * [http://doi.acm.org/10.1145/1526709.1526817](http://doi.acm.org/10.1145/1526709.1526817)
+  * [http://www.techspot.com/news/46484-developer-finds-hidden-smartphone-logging-app.html](http://www.techspot.com/news/46484-developer-finds-hidden-smartphone-logging-app.html)
+  * [https://dl.acm.org/citation.cfm?id=371593](https://dl.acm.org/citation.cfm?id=371593)
+
+#### Informations Administratives
+  * Contact : Marco Winckler <winckler@unice.fr>
+  * Identifiant sujet : `Y1819-S046`
+  * Effectif : entre 2 et 3 étudiant(e)s
+  * Parcours Recommandés : IHM
+  * Équipe: SPARKS
+
+     

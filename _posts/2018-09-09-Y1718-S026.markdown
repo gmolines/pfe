@@ -1,0 +1,48 @@
+---
+layout: post
+title: "Knowledge Extraction for Software Engineering"
+date: 2018-09-09 17:32:58
+categories: [dispo, al,caspar,sd,web]
+pid: Y1718-S026
+type: Engineering
+contact: Yves ROUDIER
+---
+       
+This project aims at extracting knowledge about a piece of software (in source code or binary form) to further analyze the software properties and behavior. Your objective will be to merge diverse sources of knowledge, based on existing tools, so that you can further analyze that software using innovative approaches like machine learning. The goal of the analysis might be related to quality assessment, refactoring, security assessment, etc. depending on your knowledge and interests.
+
+Software engineering has always relied on many tools in order to understand the behavior and liabilities of existing software. Potential sources of knowledge are very diverse and may consist in static or dynamic analysis frameworks, different kinds of functional or non-functional tests, security tests, quality assessment, certification, opinions in forums … The aim of this project is to create a proof of concept for a repository making it possible to merge all such types of knowledge about a given software.
+
+The array of potential tools and datasets is very diverse, including for instance static analysis tools (e.g., the JOANA static analysis tool for Java), instrumentation frameworks like Pin for modifying binaries, unit or system testing providing some assurance about properties of software components, fuzzers for testing the quality of input parsers, information from software engineering organizations like OWASP and the CERT for security, and so on. You will firstly compile a list of such tools and information sources, then select a few for a prototype.
+
+The work will then consist in creating a repository whose information might be used for further analysis. In the past, there have been examples of such attempts with approaches like Program Query Languages, relying on a SQL-like interface for retrieving patterns about the structure and behavior of an application. More recently, machine learning approaches have received further attention but require to specifically organize the information acquired into processable datasets. 
+
+Your POC will focus on the latter aspect: you will have to find a suitable representation for the knowledge extracted, and implement the corresponding repository into your POC. Finally, you will perform a preliminary analysis of a program in order to validate the approach. You will select a given problem (analysis of design patterns used, quality assessment, vulnerability assessment, etc.) depending on your knowledge and interests. The outcome of this part of the work will be to understand the requirements imposed by the analysis framework used (for instance a given machine learning algorithm).
+
+#### Compétences Requises
+You are expected to have interest and/or knowledge in software engineering, knowledge representation, machine learning, or software security (to be discussed further before starting the project). A group with diverse backgrounds will be preferred.
+
+
+
+     
+
+#### Besoins Clients
+- selection of most interesting tools for software characterization and knowledge extraction
+- understanding the requirements about the organization of the knowledge extracted for its further analysis through experiments
+
+#### Résultats Attendus
+- state-of-the-art report about software characterization and knowledge extraction approaches
+- proof-of-concept implementation of a knowledge extraction and analysis toolchain
+- first results and conclusions about software analysis experiments
+
+#### Références
+
+
+
+#### Informations Administratives
+  * Contact : Yves ROUDIER <Yves.Roudier@i3s.unice.fr>
+  * Identifiant sujet : `Y1718-S026`
+  * Effectif : entre 3 et 3 étudiant(e)s
+  * Parcours Recommandés : AL,CASPAR,SD,WEB
+  * Équipe: SPARKS
+
+     

@@ -1,0 +1,54 @@
+---
+layout: post
+title: "Gestionnaire de conflits dans l'IoT"
+date: 2018-09-10 15:40:50
+categories: [dispo, al,iam]
+pid: Y1819-S041
+type: Engineering
+contact: Stéphane Lavirotte
+---
+       
+Pour exploiter pleinement le potentiel de l’IoT, il est essentiel de faciliter la création et l'exploitation de systèmes fiables. Ces systèmes fonctionnant dans un environnement changeant et souvent imprévisible, ils doivent s’adapter en permanence tout en garantissant fiabilité, qualité et expérience utilisateur. Si DevOps fournit des pratiques et outils, il n'existe pas de prise en compte complète de DevOps pour l’IoT. Pour disposer de systèmes fiables et dignes de confiance il faut prendre en compte les conflits qui peuvent survenir dans les actions destinées aux actionneurs. Ce PFE abordera l'étude des modèles pour gérer ces conflits et proposera des outils à intégrer dans l'environnement DevOps du projet européen ENACT. 
+S. Lavirotte et J. -Y. Tigli, en collaboration avec SINTEF.
+
+
+Pour exploiter pleinement le potentiel de l'Internet des Objets et innover dans des domaines tels que la e-santé, les villes intelligentes, les systèmes de transport intelligents..., il est essentiel de faciliter la création et l'exploitation de systèmes Smart IoT fiables. Comme les systèmes IoT intelligents fonctionnent généralement dans un environnement changeant et souvent imprévisible, la capacité de ces systèmes à évoluer et à s’adapter en permanence à leur nouvel environnement est déterminante pour garantir et accroître leur fiabilité, leur qualité et leur expérience utilisateur. 
+
+Le mouvement DevOps préconise un ensemble de meilleures pratiques et outils d'ingénierie logicielle pour garantir la qualité de service tout en faisant évoluer des systèmes complexes et en favorisant l'agilité, les cycles d'innovation rapides et la facilité d'utilisation. Par conséquent, DevOps a été largement adopté dans l'industrie du logiciel. Cependant, il n’existe pas de prise en charge complète de DevOps pour les systèmes intelligents d’IoT.
+
+Dans le cadre du programme H2020 "Trustworthy and Smart Actuation in IoT systems", nous participons au projet européen ENACT qui travaille sur ces problématiques. L'objectif est de développer de nouveaux facilitateurs de plateformes IoT pour:
+ - Permettre aux DevOps de s'appuyer sur des systèmes IoT intelligents fiables et de les enrichir de concepts novateurs de sécurité et de confidentialité de bout en bout, de résilience et de robustesse renforçant la fiabilité, en prenant en compte les défis liés aux conflits
+ - Faciliter l'intégration en douceur de ceux-ci pour tirer parti des DevOps pour les plateformes et approches IoT existantes et nouvelles (par exemple, FIWARE, SOFIA et TelluCloud).
+
+Le travail proposé dans ce PFE sera focalisé sur les problèmes de la gestion des conflits qui peuvent survenir lors de l'envoi d'actions sur les actionneurs du système IoT. Par exemple, dans une maison intelligente, vous pouvez spécifier plusieurs règles pour définir le comportement de votre système IoT. Voici un exemple de règle ECA (Evénement, Condition, Action): "quand il y a une personne dans la pièce, si la luminosité est insuffisante, allumer la lumière", "quand je regarde la télévision, si la luminosité est trop forte, éteindre la lumière". Ces deux règles sont en conflit car quand je vais regarder la TV, je suis dans la pièce et on voudra à la fois éteindre et allumer la pièce. Cet exemple de conflit est simple à détecter car deux règles essayent d'agir sur le même actionneur. On peut aussi avoir des cas plus complexes où un actionneur a un effet inverse d'un autre actionneur (un chauffage et un climatiseur). L'action est antagoniste, même si on agit sur des actionneurs différents. Et cela est vrai si ces deux actionneurs sont dans un environnement commun (on peut décider d'avoir une pièce chaude et une autre froide).
+
+Il est donc nécessaire de fournir des modèles et des outils qui devront être intégrés dans l'environnement DevOps du projet européen ENACT dans lequel s'inscrit ce PFE. Ce travail sera encadré par Stéphane et Lavirotte et Jean-Yves Tigli et sera réalisé en collaboration avec le SINTEF qui fournit l'environnement DevOps dans lequel les solutions devront être intégrées.
+
+
+#### Compétences Requises
+Services, Programmation JS
+
+
+
+     
+
+#### Besoins Clients
+Etude des solutions existantes (nous disposons déjà de toute la bibliographie nécessaire)
+Travail sur un modèle pour l'identification et la prise en compte des conflits
+Intégration dans l'environnement (Node-RED) proposé par le SINTEF
+
+#### Résultats Attendus
+Production logicielle s'intégrant dans Node-RED
+
+#### Références
+
+  * [https://cordis.europa.eu/project/rcn/213127_fr.html](https://cordis.europa.eu/project/rcn/213127_fr.html)
+
+#### Informations Administratives
+  * Contact : Stéphane Lavirotte <stephane.lavirotte@unice.fr>
+  * Identifiant sujet : `Y1819-S041`
+  * Effectif : entre 2 et 3 étudiant(e)s
+  * Parcours Recommandés : AL,IAM
+  * Équipe: SPARKS
+
+     

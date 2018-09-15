@@ -1,0 +1,46 @@
+---
+layout: post
+title: "Partage d’expériences culturelles"
+date: 2018-09-11 09:19:54
+categories: [dispo, ihm]
+pid: Y1819-S050
+type: Engineering
+contact: Anne-Marie Dery-Pinna
+---
+       
+L’idée de ce PFE est  de proposer un partage d’expérience culturelle de groupe avec un large public. Il comprend 2 aspects. Le premier est de proposer  un partage de  groupe à partir des informations personnelles de chacun engrangées sur leur smartphone respectif : quelles informations notre groupe (famille, amis, collègues,..) souhaite-t-il partager ? Le second aspect concerne la diffusion à un large public en direct live aux visiteurs du lieu.  Comment relater l’expérience culturelle vécue par le groupe ? Par quels moyens (dispositifs /interactions) par exemple sur un grand écran ou sur une table interactive. Il doit être également possible d’extraire de ce partage ce que  l’on souhaite diffuser  sur notre réseau social ou localement de retour dans notre entreprise ou notre domicile.
+
+La région est riche en événements culturels et lieux de visite, cela va  des musées aux parcs aquatiques ou aux activités plus éphémères : fête de la musique, promenade en fête, expositions, marchés nocturnes. Les réseaux sociaux permettent de partager avec un groupe d’amis les sorties au travers de photos, vidéos. Ces sorties sont souvent faites en groupe : famille, amis, collègues mais les partages sont le plus souvent personnels ; chacun diffuse ses photos, ses vidéos, ses impressions. Les lieux visités et les organisateurs d’événements ne profitent pas de ces retours d’expériences pourtant riches pour tous.
+L’idée de ce PFE est  de proposer un partage d’expérience culturelle de groupe avec un large public. Il comprend 2 aspects. Le premier est de proposer  un partage de  groupe à partir des informations personnelles de chacun engrangées sur leur smartphone respectif : quelles informations notre groupe (famille, amis, collègues,..) souhaite-t-il partager ? Le second aspect concerne la diffusion à un large public en direct live aux visiteurs du lieu.  Comment relater l’expérience culturelle vécue par le groupe ? Par quels moyens (dispositifs /interactions) par exemple sur un grand écran ou sur une table interactive. Il doit être également possible d’extraire de ce partage ce que  l’on souhaite diffuser  sur notre réseau social ou localement de retour dans notre entreprise ou notre domicile.
+L’objectif de ce PFE est à partir d’un scénario donné, de faire une analyse des solutions existantes. Les propositions actuelles sont très orientés web et réseaux sociaux mais restent en fait très traditionnelles et utilisables sur des dispositifs qui deviennent standards tels que les Smartphones avec des interactions classiques (tactile). L’idée ici et d’exploiter de nouveaux supports e de nouvelles interactions facilitant la communication de groupe et la diffusion à un grand public.
+Les étudiants devront fournir un prototype fonctionnel illustrant leur proposition après avoir fait valider des maquettes intermédiaires. Les qualités attendues sont la  créativité tout en ayant  conscience de la faisabilité et de l’utilisabilité de la solution présentée.
+Déroulement
+Pendant les 8 premières semaines les étudiants devront faire une analyse des besoins et identifier les preuves de concepts les plus importantes pour la suite et l’étude faisabilité technologique.
+Dans les 4 semaines ils devront mettre en place les prototypes fonctionnels, faire des tests utilisateurs et revenir éventuellement sur leurs conclusions préliminaires
+
+
+#### Compétences Requises
+dev Web et mobile, CEIHM
+
+
+
+     
+
+#### Besoins Clients
+L’objectif de ce PFE est à partir d’un scénario donné, de faire une analyse des solutions existantes. Les propositions actuelles sont très orientés web et réseaux sociaux mais restent en fait très traditionnelles et utilisables sur des dispositifs qui deviennent standards tels que les Smartphones avec des interactions classiques (tactile). L’idée ici et d’exploiter de nouveaux supports e de nouvelles interactions facilitant la communication de groupe et la diffusion à un grand public.
+
+#### Résultats Attendus
+De fournir de façon itérative une preuve de concept documentée et argumentée
+
+#### Références
+
+
+
+#### Informations Administratives
+  * Contact : Anne-Marie Dery-Pinna <anne-marie.pinna@unice.fr>
+  * Identifiant sujet : `Y1819-S050`
+  * Effectif : entre 2 et 3 étudiant(e)s
+  * Parcours Recommandés : IHM
+  * Équipe: SPARKS
+
+     

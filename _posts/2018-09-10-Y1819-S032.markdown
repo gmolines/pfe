@@ -1,0 +1,51 @@
+---
+layout: post
+title: "Développement d’un middleware pour une plateforme d’apprentissage en ligne"
+date: 2018-09-10 10:15:42
+categories: [dispo, web]
+pid: Y1819-S032
+type: Engineering
+contact: Catherine FARON ZUCKER
+---
+       
+Ce PFE s'inscrit dans le cadre du projet de recherche collaborative entre Inria et le société Educlever. L’objectif de ce PFE est de développer un middleware afin de permettre à la plateforme d’apprentissage en ligne développée par Educlever d’interroger un ensemble de service web permettant d’interroger un graphe de connaissances formalisé en RDF. 
+
+Ce PFE s'inscrit dans le cadre du projet de recherche collaborative entre Inria et le société Educlever. L’objectif de ce PFE est de développer un middleware afin de permettre à la plateforme d’apprentissage en ligne développée par Educlever d’interroger un ensemble de service web permettant d’interroger un graphe de connaissances formalisé en RDF. 
+Il s'agira pour cela de développer un client PHP pour requêter un ensemble de services Web existants, développés en Java et déployés sur un serveur Glassfish. Le client PHP aura également la responsabilité de traduire dans le format JSON API les réponses des services web fournies en JSON. 
+De nouveaux services devront également être développés répondant à l'ensemble des besoins de la plateforme d'apprentissage. Cela permettra également de tester la robustesse du middleware: ces nouveaux services web devront s’intégrer sans nécessiter de modification du middleware. 
+Ce PFE offre l'opportunité de travailler sur différentes technologies : services web java, langages de développement front-end telles que PHP et JavaScript, formats d’échanges des données XML, JSON et JSON-API, langages du Web de données RDF et SPARQL.
+Des possibilités de continuation de ce PFE en stage pourront être offertes.
+
+Encadrants:
+Géraud Fokou Pelap geraud.fokou-pelap@inria.fr
+Catherine Faron Zucker faron@unice.fr
+
+#### Compétences Requises
+Langages du Web
+Services Web
+Web de données
+
+
+
+     
+
+#### Besoins Clients
+L'objectif est de permettre de développer des services sur une plateforme d'apprentissage existante basés sur une base de données sémantique sans modifier la plateforme, qui repose actuellement sur des données relationnelles et graphe, en développant un nouveau middleware.
+
+#### Résultats Attendus
+rapport d'étude de la faisabilité
+livraison de code et de sa documentation incluant services web
+et middleware
+
+#### Références
+
+  * [https://hal.archives-ouvertes.fr/hal-01870950](https://hal.archives-ouvertes.fr/hal-01870950)
+
+#### Informations Administratives
+  * Contact : Catherine FARON ZUCKER <faron@unice.fr>
+  * Identifiant sujet : `Y1819-S032`
+  * Effectif : entre 2 et 2 étudiant(e)s
+  * Parcours Recommandés : WEB
+  * Équipe: SPARKS - WIMMICS
+
+     

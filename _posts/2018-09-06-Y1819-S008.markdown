@@ -1,0 +1,54 @@
+---
+layout: post
+title: "Utilisation de GPU pour recherches d'images similaires"
+date: 2018-09-06 10:19:57
+categories: [dispo, sd]
+pid: Y1819-S008
+type: Engineering
+contact: Fabrice Huet
+---
+       
+Le but de ce projet est de développer une application permettant de trouver des images similaires dans une arborescence de fichiers. Par image similaire nous entendons images légèrement modifiées, par exemple par changement de taille ou ajout de watermark. Les calculs de similitudes seront fait sur les GPU (carte graphique) afin d'accélérer au maximum l'application. 
+
+On considère un ensemble de plusieurs milliers ou plus d'images stockées dans une arborescence sur une machine (appelé ensemble S). L'objectif de ce PFE est de construire une application permettant à un utilisateur fournissant une image A de trouver dans cette arborescence des images similaires. Afin de cadrer le sujet, on considèrera que deux images sont similaires si des transformations simples (changement de taille, modification de quelques pixels...) permettent de passer de l'une à l'autre. Dans un premier temps, une signature sera calculée pour chacune des images de S et pour A. Ensuite, un algorithme retournera les images de S dont la signature diffère peu de celle de A. 
+
+La première difficulté est de calculer des signatures pour chacune des images. Il existe plusieurs algorithmes et dans un premier temps nous nous contenterons d'en calculer une relativement simple utilisant la couleur des pixels. La deuxième difficulté est de comparer une signature avec plusieurs milliers d'autres. Ces deux opérations sont intensives en calcul et pourront donc être parallélisées en utilisant un GPU.  Des techniques avancées (LSH) permettant de limiter les comparaisons de signatures pourront aussi être implémentées suivant le temps disponibles. 
+
+
+Langages : 
+Afin d'être aussi portable que possible, Java sera utilisé, sauf pour la partie GPU qui pourra être faite en C. 
+    
+
+
+
+#### Compétences Requises
+Programmation parallèle, Java, Big Data 
+
+
+
+     
+
+#### Besoins Clients
+D'une part avoir un logiciel fonctionnel et d'autre part effectuer des expérimentations pour mesurer l'intérêt d'utiliser un GPU pour ce genre de calculs. 
+
+#### Résultats Attendus
+ Le logiciel final devra avoir les composants suivants
+     - Un moteur d'extraction et de comparaison des signatures
+     - Une gestion de BD pour stocker les signatures
+     - Une interface graphique (si possible Web)
+
+
+#### Références
+
+  * [http://www.hackerfactor.com/blog/index.php?/archives/432-Looks-Like-It.html](http://www.hackerfactor.com/blog/index.php?/archives/432-Looks-Like-It.html)
+  * [https://fr.wikipedia.org/wiki/OpenCL](https://fr.wikipedia.org/wiki/OpenCL)
+  * [https://fr.wikipedia.org/wiki/Locality_sensitive_hashing](https://fr.wikipedia.org/wiki/Locality_sensitive_hashing)
+
+#### Informations Administratives
+  * Contact : Fabrice Huet <fabrice.huet@gmail.com>
+  * Identifiant sujet : `Y1819-S008`
+  * Effectif : entre 3 et 3 étudiant(e)s
+  * Parcours Recommandés : SD
+  * Équipe: Scale
+
+     

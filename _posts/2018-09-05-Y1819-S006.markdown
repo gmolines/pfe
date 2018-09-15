@@ -1,0 +1,54 @@
+---
+layout: post
+title: "Développement d'une d'application de visualisation 3D de molécules pour Hololens"
+date: 2018-09-05 15:16:16
+categories: [dispo, sd,ihm,web]
+pid: Y1819-S006
+type: Engineering
+contact: Frédéric Payan
+---
+       
+Le but sera de développer une application pour Hololens (casque de réalité augmentée de Microsoft) permettant d'afficher des molécules chimiques en 3D  
+
+Les systèmes de réalité augmentée deviennent de plus en plus populaires. 
+La possibilité de visualiser des objets en 3D relief, "flottant" ou intégré dans le monde réel, a de nombreux atouts aussi bien pour les loisirs que pour la recherche, l’industrie ou encore l’enseignement. 
+
+Dans le domaine de la chimie moléculaire, visualiser des molécules en 3D relief est un vrai "plus" pour les chercheurs, notamment pour étudier leurs "propriétés géométriques".  
+
+Le casque de réalité augmentée Hololens - développé par Microsoft - qui permet de voir apparaître un objet 3D flottant devant soi est donc un système de visualisation qui intéressent actuellement ces chercheurs en chimie. Le but de ce PFE sera de développer une application pour ce type de casque qui sera capable de lire en entrée les deux formats standards permettant de décrire la structure de molécules et d'afficher sa représentation dans le casque Hololens.
+La programmation pourrait se faire sous Unity.
+
+Contexte :
+Encadrant principal : Frédéric Payan, Enseignant chercheur au laboratoire CNRS I3S, situé à 300 mètres du site Polytech
+Encadrant secondaire : Marc Antonini, chercheur à l'I3S
+Collaborateur : Dominique Douguet, chercheur à l'IPMC. 
+
+
+#### Compétences Requises
+Programmation, utilisation probable du moteur Unity.  
+
+
+
+     
+
+#### Besoins Clients
+Nos besoins sont simples : une application Hololens permettant d'afficher en 3D des molécules. Une molécule est simplement décrite par des atomes (carbone, hydrogène, etc.) positionnées dans l'espace 3D sous forme de "boules", de couleurs différentes selon le type, et reliés par des segments. D'après nos premières recherches, la plateforme de développement de jeux nommée Unity nous semble bien appropriée, mais une partie du pfe sera de confirmer cette piste.  
+
+#### Résultats Attendus
+Une application intégrée dans notre hololens qui permettra d'afficher les molécules en notre possession, ainsi qu'un code exploitable. 
+
+
+#### Références
+
+  * [https://www.microsoft.com/en-us/hololens](https://www.microsoft.com/en-us/hololens)
+  * [https://unity3d.com/fr](https://unity3d.com/fr)
+  * [https://pymol.org/2/](https://pymol.org/2/)
+
+#### Informations Administratives
+  * Contact : Frédéric Payan <fpayan@i3s.unice.fr>
+  * Identifiant sujet : `Y1819-S006`
+  * Effectif : entre 2 et 3 étudiant(e)s
+  * Parcours Recommandés : SD,IHM,WEB
+  * Équipe: SIS / Mediacoding
+
+     

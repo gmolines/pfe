@@ -1,0 +1,68 @@
+---
+layout: post
+title: "TotemBioNet"
+date: 2018-08-23 15:45:58
+categories: [dispo, al,ihm]
+pid: Y1819-S002
+type: Engineering
+contact: Hélène Collavizza
+---
+       
+L’objectif est de développer un Totem (au sens emblème d'un groupe de personnes) pour rassembler, diffuser et valoriser les outils de modélisation de réseaux de régulation génétique de l’équipe Bio informatique Formelle de l’I3S (d’où le titre TotemBioNet). La finalité est une plate-forme de diffusion et de démonstration, mais le défi est d'en définir l’architecture: identifier les briques logicielles communes aux différents outils, en refactorer certains, fournir une API d’appels aux outils externes (solveur de contraintes, outil de model-checking), et si besoin, créer de nouvelles briques logicielles (algorithmes de parcours de graphe par exemple). Ce projet est en priorité AL, mais s’il se fait à 3 élèves (2 AL + 1 IHM), une composante IHM innovante pourra y être intégrée.
+
+Contexte
+Une spécificité de l’équipe Bio informatique Formelle (BF) est d’accompagner des chercheurs en biologie en proposant des modèles formels pour résoudre une question encore ouverte pour les biologistes. Dans la plupart des cas, le comportement statique du système est connu (i.e. on connaît le graphe de régulation qui modélise les influences entre les gènes, typiquement l'inventaire des influences individuelles d'un gène x sur l'expression d'un gène y), mais des questions sur la dynamique du système (i.e. son comportement au fil du temps) restent ouvertes. La biologie étant une science expérimentale, les biologistes peuvent par exemple demander l’aide des bio-informaticiens quand plusieurs interprétations de leurs résultats expérimentaux sont possibles. Un modèle formel, la simulation, différentes techniques de validation pourront éliminer certaines interprétations. 
+
+Objectifs du projet
+Sur l’aspect AL, il s’agit a minima de fournir une plate-forme pour rassembler, diffuser et valoriser les outils développés. Le réel défi est cependant de remettre à plat l’ensemble, en effectuant une étude des briques logicielles et en définissant une architecture globale. Le point difficile sera l’hétérogénéité des outils. En effet, chaque outil a été développé pour une classe de problème biologique spécifique ; s’ils ont des points communs, ils ont aussi des particularités fortes. Les outils sont les suivants :
+SMBioNet (en java, utilise le model-checker muSMV): prend en entrée un graphe de régulation discret et une propriété CTL (Computation Tree Logic) et fournit en sortie les modèles qui satisfont cette propriété. Une telle propriété peut-être par exemple : « partant d’un état où le niveau de x est faible, il est possible à l’avenir que y soit définitivement à son niveau maximal ».
+DymBioNet (en java, inclut SMBioNet) : permet la simulation d’un modèle discret et fournit une IHM de visualisation du taux d’expression des gènes. 
+HolmesBioNet (en OCAML, utilise le solveur de contraintes AbsSolute) : cet outil utilise des techniques basées sur la logique de Hoare pour construire des contraintes qui mènent à un modèle représentant une trace discrète chronométrée (i.e. incluant des informations temporelles sur la durée des actions). Ces modèles hybrides ont été utilisés par exemple pour étudier le cycle circadien (adaptation du vivant à l’alternance jour/nuit), qui est un élément clé en chrono-pharmacologie.
+
+Sur l’aspect IHM, il s’agit de réfléchir aux modalités d’interaction avec les chercheurs en biologie qui travaillent usuellement par expérience in vitro et non in sillico. Pour le bio-informaticien, le dialogue avec le biologiste à pour objectif d’obtenir le maximum d’informations sur l’expérience étudiée. Les étapes de ce dialogue sont par exemple :
+identifier les variables du système et les régulations,
+simuler le modèle en booléen (i.e . on oublie les seuils d’activation des gènes, on considère seulement le fait que le gène s’active ou non). Le résultat de cette simulation peut être incohérent et amener le biologiste à fournir des informations supplémentaires sur le graphe de régulation,
+interroger le biologiste sur une propriété dynamique importante du système et la traduire en CTL,
+identifier les modèles qui satisfont cette propriété,
+prendre un des modèles et le simuler. Là aussi, le biologiste pourra être amené à identifier un comportement incohérent, et exprimer pourquoi cela est incohérent, ce qui donnera une nouvelle formule CTL.
+ces processus pourront ré-itérés en éliminant au fur et à mesure des modèles sans intérêt, et en permettant ainsi aux biologistes d’affiner l’interprétation de l’expérience. 
+L’IHM devra donc permettre de construire aisément le graphe de crégulation, de fournir des propriétés temporelles et de les vérifier, de simuler les modèles. De surcroît, il faudra effectuer ces actions dans un ordre quelconque, tout en gardant une trace des tentatives effectuées.
+
+Intervenants : Gilles Bernot Gilles.Bernot@unice.fr, Jean-Paul Comet Jean-Paul.COMET@unice.fr
+
+
+#### Compétences Requises
+système, langages de script
+Java, architecture, IHM
+aucune compétence particulière en biologie, mais curiosité bienvenue
+enthousiasme et bonne humeur
+
+
+
+     
+
+#### Besoins Clients
+- besoins du responsable de l’équipe BF : une vitrine des outils développés dans l’équipe
+- besoins d'un thésard de l’équipe BF : une plate-forme où il peut récupérer les briques existantes et apporter sa contribution, avec un effort d’intégration minimum
+- besoins du bio-informaticien : un outil pour modéliser l’expérience en acquérant petit à petit des informations auprès du biologiste tout en pouvant naviguer aisément entre les différentes hypothèses.
+
+#### Résultats Attendus
+1. plate-forme de diffusion des outils avec tutorial et démonstrations,
+2. code refactoré, architecture prévue pour pouvoir partager les briques logicielles et intégrer de nouveaux composants facilement,
+3. preuve de concept pour une IHM facilitant le dialogue avec les biologistes, maquettage, graphe des scénarios d’usage.
+
+#### Références
+
+  * [http://www.i3s.unice.fr/~comet/publications/ChapLivres/chapterLogic2014.pdf](http://www.i3s.unice.fr/~comet/publications/ChapLivres/chapterLogic2014.pdf)
+  * [https://www.youtube.com/watch?v=igf6MLmkBcw](https://www.youtube.com/watch?v=igf6MLmkBcw)
+  * [http://www.i3s.unice.fr/~comet/publications/RevuesIntl/articleJTB2004.pdf](http://www.i3s.unice.fr/~comet/publications/RevuesIntl/articleJTB2004.pdf)
+  * [http://www.i3s.unice.fr/~comet/publications/RevuesIntl/articleTCS2018-main.pdf](http://www.i3s.unice.fr/~comet/publications/RevuesIntl/articleTCS2018-main.pdf)
+
+#### Informations Administratives
+  * Contact : Hélène Collavizza <helen@polytech.unice.fr>
+  * Identifiant sujet : `Y1819-S002`
+  * Effectif : entre 2 et 3 étudiant(e)s
+  * Parcours Recommandés : AL,IHM
+  * Équipe: équipe Bio informatique Formelle, I3S
+
+     

@@ -1,0 +1,82 @@
+---
+layout: post
+title: "Design and tests of new user’s attention guidance techniques for Virtual Reality streaming"
+date: 2018-09-09 17:48:07
+categories: [dispo, ihm]
+pid: Y1819-S027
+type: Engineering
+contact: Lucile Sassatelli
+---
+       
+VR represents a tremendous revolution in the user’s experience, but VR is also a significant challenge for streaming transmission over the Internet because the bit rates entailed by 360° videos are much higher than for conventional videos. In this PFE, we want to investigate 2 new interface/video manipulation techniques for VR streaming. They have already been partly implemented in our Android VR app, but remain to be refined, interfaced with the video quality selection module for streaming, and to be tested on users to properly assess the gains in terms of user’s experience and bandwidth.
+
+PFE proposal
+
+Advisors: Lucile Sassatelli, Marco Winckler, Anne-Marie Pinna-Déry
+Emails : {first.last}@unice.fr
+
+Laboratory: I3S, SigNet and S3 groups (2000, route des Lucioles – Sophia Antipolis)
+
+Title: Design and tests of new user’s attention guidance techniques for Virtual Reality streaming
+
+Description: 
+
+VR is growing fast with different companies rolling out cheap and not-so-cheap head-mounted sets, from dedicated headsets like Oculus Rift and HTC Vive down to smartphone-dependent headsets (e.g., Samsung Gear VR, Google Cardboard and alike). VR represents a tremendous revolution in the user’s experience, but VR is also a significant challenge for streaming transmission over the Internet (that is, Youtube-like, without download). The bit rates entailed by 360° videos are indeed much higher than for conventional videos.
+
+This PFE lies in the context of the ACTIVATE project (UCA Academie 1, under the coordination of Lucile Sassatelli). In the context of this research project, we are designing innovative streaming strategies for 360° videos, which are meant to both decrease the required bandwidth and improve the user experience. A possible choice to do so is to transmit in high-quality only the parts of the scenes that are effectively explored by the users. It however entails two difficulties. First anticipating the user’s position to decide what to send in high-quality is difficult. Second, video directors must be able to interrupt exploration and bring the viewer’s attention back to the plot. 
+We suggest that user guidance helps solve both problems: i) bring users’ attention to the plot so that they don’t miss the narrative presented by video producers; ii) reduce network traffic by transferring only the parts that users actually watch. In our previous work [1,2], we have proposed a guiding technique for VR videos called snap-changes. 
+
+In this PFE, we want to investigate 2 new interface/video manipulation techniques called virtual walls and slow-downs. They have already been partly implemented in our Android VR app, but remain to be refined, interfaced with the video quality selection module for streaming, and to be tested on users.
+
+- 1st phase: Getting familiar with the problem and the available implementations:
+	- the considered principles for streaming 360°-videos
+	- the testbed, made of 2 Android applications, and multimedia toolboxes [6,7]
+	- running user tests with the current implementation (comparing with a reference implementation without virtual walls nor slow-downs).
+
+- 2nd phase: Completion of the techniques, interfacing with the streaming module, user experiments
+	- proper handling of audio for slow-downs
+	- select the quality over time as a function of the head position
+	- run tests to properly assess the gains in terms of user’s experience and bandwidth
+ 
+Technical tools:
+
+Android, Samsung Gear VR framework (Adobe Premiere)
+
+References:
+
+[1] S. Dambra, G. Samela, L. Sassatelli, R. Pighetti, R. Aparicio-Pardo and A.-M. Pinna-Déry. Film Editing: New Levers to Improve Virtual Reality Streaming. ACM International Conference on Multimedia Systems (MMSys), Amsterdam, The Netherlands, June 2018. 
+[2] L. Sassatelli, A.-M. Pinna-Déry, M. Winckler, S. Dambra, G. Samela, R. Pighetti and R. Aparicio-Pardo. Snap-changes: a Dynamic Editing Strategy for Directing Viewer's Attention in Streaming Virtual Reality Videos. ACM International Conference on Advanced Visual Interfaces, Grosseto, Italy, May 2018. 
+[3] Bo Begole. Why The Internet Pipes Will Burst When Virtual Reality Takes Off. Forbes, Feb. 2016.
+[4] O. A. Niamut, E. Thomas, L. D'Acunto, C. Concolato, F. Denoual, and S. Y. Lim, "MPEG DASH SRD: spatial relationship description," ACM Int. Conf. on Multimedia Systems (MMSys), May 2016.
+[5] FFMPEG. Available: https://ffmpeg.org/
+[6] MP4box. Available: https://gpac.wp.mines-telecom.fr/mp4box/
+
+#### Compétences Requises
+Programmation Java, Android est un plus
+
+
+
+     
+
+#### Besoins Clients
+Implementation of the new techniques for evaluation of the gains in terms of user’s experience and bandwidth
+
+#### Résultats Attendus
+Code: handling of audio for slow-downs, interfacing with the streaming module
+Design: of user experiments in a principled way, execution and proper analysis with conclusions
+
+#### Références
+
+  * [http://www.i3s.unice.fr/~sassatelli/articles/DSSPAP_2018.pdf](http://www.i3s.unice.fr/~sassatelli/articles/DSSPAP_2018.pdf)
+  * [http://www.i3s.unice.fr/~sassatelli/articles/SPWDS_2018.pdf](http://www.i3s.unice.fr/~sassatelli/articles/SPWDS_2018.pdf)
+  * [https://github.com/UCA4SVR/TOUCAN-VR](https://github.com/UCA4SVR/TOUCAN-VR)
+  * [https://gpac.wp.mines-telecom.fr/mp4box/](https://gpac.wp.mines-telecom.fr/mp4box/)
+
+#### Informations Administratives
+  * Contact : Lucile Sassatelli <sassatelli@i3s.unice.fr>
+  * Identifiant sujet : `Y1819-S027`
+  * Effectif : entre 2 et 3 étudiant(e)s
+  * Parcours Recommandés : IHM
+  * Équipe: SIS/SPARKS
+
+     

@@ -1,0 +1,55 @@
+---
+layout: post
+title: "Sound to multimedia semantics"
+date: 2018-09-10 05:13:39
+categories: [dispo, sd]
+pid: Y1819-S040
+type: Engineering
+contact: Frederic Precioso
+---
+       
+Wildmoka is a start-up empowering broadcasters and content owners to clip the greatest moments from live TV and events as they happen, and push them across web, mobile and social, giving fans what they want most – instant access to the best highlights.
+They need to help their clients to edit easily the video content and to connect these content with external resources.
+In this project you will focus on exploiting sound content to simplify semantic analysis of the multimedia content.
+
+Wildmoka is a start-up empowering broadcasters and content owners to clip the greatest moments from live TV and events as they happen, and push them across web, mobile and social, giving fans what they want most – instant access to the best highlights.
+They need to help their clients to edit easily the video content and to connect these content with external resources.
+
+In this project you will focus on exploiting audio signal to simplify semantic analysis of the multimedia content.
+
+We have recently designed a system to detect silences in the audio but this system needs final improvements to be used in production.
+
+Once a version of the silence detection system will be finalized, you will extend it to detect and recognize whistles, tennis ball hit, audience applause, etc.
+
+If this project reaches satisfying results, an internship position at wildmoka would be offered. 
+
+#### Compétences Requises
+Technical tools: Python and/or C++
+Skills: Machine Learning required, Deep Learning appreciated
+
+
+
+     
+
+#### Besoins Clients
+Design a system to detect and recognize silence, whistle, applause, tennis hit, etc
+
+#### Résultats Attendus
+Bibliographic report on recent works on the specific tasks
+Source code of proposed solutions
+Final report including extensive experiments on Wildmoka data
+
+#### Références
+
+  * [https://arxiv.org/abs/1610.09001](https://arxiv.org/abs/1610.09001)
+  * [http://www.jmlr.org/papers/volume18/17-406/17-406.pdf](http://www.jmlr.org/papers/volume18/17-406/17-406.pdf)
+  * [https://www.worldscientific.com/doi/pdfplus/10.1142/S0218213017500051](https://www.worldscientific.com/doi/pdfplus/10.1142/S0218213017500051)
+
+#### Informations Administratives
+  * Contact : Frederic Precioso <precioso@unice.fr>
+  * Identifiant sujet : `Y1819-S040`
+  * Effectif : entre 2 et 3 étudiant(e)s
+  * Parcours Recommandés : SD
+  * Équipe: SPARKS
+
+     

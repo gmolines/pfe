@@ -1,0 +1,49 @@
+---
+layout: post
+title: "Evaluation d’algorithmes d’apprentissage pour une solution d’aide à l’orientation"
+date: 2018-09-07 14:03:30
+categories: [dispo, sd]
+pid: Y1819-S018
+type: Engineering
+contact: Christel Dartigues-Pallez
+---
+       
+L’idée de ce projet est d’évaluer différents algorithmes d’apprentissage qui pourraient être utilisés dans une solution logicielle ayant pour but de prédire la réussite de futurs candidats et de conseiller les recruteurs sur les choix à faire. A partir de données représentant des postulants au moment de leur candidature à une formation et les résultats de ces mêmes candidats obtenus l’année qui suit, le but est de prétraiter ces données puis de tester différents algorithmes d’apprentissage pour évaluer les plus performants.
+
+L’arrivée massive de candidats aux portes de l’université pose à nouveau l’épineux problème de la sélection des candidats. Une des problématiques cachées derrière cette sélection correspond à la pertinence de cette sélection par rapport à la réussite des étudiants. En effet, peut-on montrer qu’il y a une adéquation entre le mécanisme de sélection et la réussite des étudiants ? En d’autres termes, sélectionne-t-on les candidats qui ont vraiment une chance de réussite ou sélectionne-t-on sur des critères qui n’ont pas de lien avec la réussite de ces futurs étudiants ?
+Aujourd’hui si on prend globalement le cas de IUT qui est une des filières sélectives présente sur l’ensemble du territoire, moins de 67% des étudiants réussissent leur DUT en 2 ans et suivant la spécialité ça peut même descendre sous les 53%. Et pourtant l’IUT à largement de quoi choisir puisqu’en moyenne il y a 50% de candidats en plus que le nombre de places disponibles (et encore ici on ne parle que des vœux 1 sur APB). La sélection est-elle efficace ? Ces chiffres laissent à penser que non. Cependant, dans le même temps, les filières universitaires (L1) qui ne sélectionnent pas ont des taux de réussite encore plus bas (moins de 25%)…
+La question sur la pertinence des méthodes de sélections actuelles se pose. Mais peut-on faire mieux ? C’est ce qu’on se propose d’étudier et de résoudre dans ce projet.
+En effet, avec l’essor de l’analyse des données de ses dernières années et en particuliers sur l’amélioration des techniques et algorithmes de classification et de prédiction, ne peut-on pas espérer qu’un système informatique interactif puisse aider, conseiller les recruteurs dans la sélection des meilleurs candidats pour leur formation ?
+L’idée de ce projet n’est pas de mettre en place une solution logicielle, mais de se focaliser sur les mécanismes d’apprentissages pour identifier les plus performants. 
+
+
+#### Compétences Requises
+	De bonnes compétences en développement logiciel sont nécessaire pour la mise en œuvre de ce projet
+	Des connaissances autour des algorithmes d’apprentissage seraient un plus pour le projet
+
+
+
+
+     
+
+#### Besoins Clients
+Une étude des algorithmes d’apprentissage sera menée durant la période à temps partiel. Cette étude devra permettre d’identifier l’ensemble des algorithmes utilisables pour le sujet et de choisir 3 ou 4 algorithmes qui seront mise en œuvre dans la suite des évaluations.
+Lors de la période à temps plein, les algorithmes sélectionnés seront évalués avec différent objectifs d’apprentissage allant du plus général (réussite ou échec sur l’année) au plus précis (réussite ou échec par matière).
+La gestion des données devra se faire en conformité avec le Règlement Général sur la Protection des Données.
+
+
+#### Résultats Attendus
+	Une évaluation expérimentale des différents algorithmes sur la pertinence de leur utilisation pour la classification des candidats en fonction du niveau de précision des objectifs attendus.
+
+#### Références
+
+  * [https://www.researchgate.net/publication/224160756_Educational_Data_Mining_A_Review_of_the_State_of_the_Art ](https://www.researchgate.net/publication/224160756_Educational_Data_Mining_A_Review_of_the_State_of_the_Art )
+
+#### Informations Administratives
+  * Contact : Christel Dartigues-Pallez <Christel.Dartigues-Pallez@unice.fr>
+  * Identifiant sujet : `Y1819-S018`
+  * Effectif : entre 2 et 3 étudiant(e)s
+  * Parcours Recommandés : SD
+  * Équipe: SPARKS
+
+     

@@ -1,0 +1,49 @@
+---
+layout: post
+title: "Sécurisation d’une application mobile"
+date: 2018-09-07 01:18:13
+categories: [dispo, caspar,iam,ihm]
+pid: Y1819-S015
+type: Engineering
+contact: KARIMA BOUDAOUD
+---
+       
+L’objectif  de ce projet est d’identifier les problèmes de sécurité  d’une application mobile existante et de la sécuriser en trouvant le bon compromis entre l’utilisabilité et la sécurité.
+
+
+Ce projet sera co-encadré avec Mr Marco Winckler.
+
+De nombreuses applications mobiles sont déployées et utilisées par les citoyens alors qu’elles présentent de nombreuses failles et ne garantissent pas toujours la vie privée de ceux qui l’utilisent. En effet, ces applications peuvent utiliser les données des utilisateurs à leur insu et violer la vie privée. 
+
+L’objectif  principal de ce projet est : 1) étudier les problèmes de sécurité  d’une application mobile existante, et 2) de la sécuriser en trouvant le bon compromis entre l’utilisabilité et la sécurité. Des tests utilisateurs pourront être menés après la phase de sécurisation afin d'identifier les problèmes d'utilisabilité.
+
+Cela impliquera la participation d’un(e) étudiant(e) de la filière CASPAR, un(e) étudiant(e)  de la filière IHM et un(e) étudiant(e) de la filière IAM.
+
+
+#### Compétences Requises
+Sécurité, IHM et IAM
+
+
+
+     
+
+#### Besoins Clients
+Cette étude doit permettre  de sécuriser une application mobile en tenant compte des aspects utilisabilté.
+
+
+#### Résultats Attendus
+Identification des problèmes de sécurité d’une application mobile existante
+Sécurisation de l’application en tenant compte des aspects d’utilisabilté.
+
+#### Références
+
+  * [https://www.le-vpn.com/fr/securite-des-applications-mobiles/](https://www.le-vpn.com/fr/securite-des-applications-mobiles/)
+
+#### Informations Administratives
+  * Contact : KARIMA BOUDAOUD <karima.boudaoud@unice.fr>
+  * Identifiant sujet : `Y1819-S015`
+  * Effectif : entre 3 et 3 étudiant(e)s
+  * Parcours Recommandés : CASPAR,IAM,IHM
+  * Équipe: SPARKS
+
+     

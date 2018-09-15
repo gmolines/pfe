@@ -1,0 +1,49 @@
+---
+layout: post
+title: "Make Git-merge great again"
+date: 2018-09-11 09:45:26
+categories: [dispo, al]
+pid: Y1819-S053
+type: Engineering
+contact: Sébastien Mosser
+---
+       
+Git is the most used version control systems. Unfortunately, by default, its merge algorithm relies on text (c)hunks and does not take into account the _Abstract Syntax Tree_ (AST) of the underlying language. The main advantage is that anything stored as text can be versioned. The obvious drawback is that a lot of conflicts that happens when merging source code might be avoided if the merge algorithm work at the AST level.
+
+
+This project extends Florian Lehmann internship, who provided a framework to identify merge conflicts on top of Java AST, and proposed rewriting rules to solve such conflicts. He also gathered thousands of merge conflicts available on GitHub to perform experiment. In this project, we will _(i)_ extend the conflict detection rule sets and _(ii)_ code rewriting rules to automatically solve such conflicts. To identify the conflicts that need to be addresses, we will analyse the experimental corpus gather by Florian to identify the more frequent ones. 
+
+For example, consider a code base with a class `C` containing an attribute `a`. The first developer (named _left_) use `a` in her own code. The second developer (named _right_) refactored _a_ into _myPrettyAttribute_. From a git point of view, there is no conflict here, as the two modification where made at different places. However, the final code does not compile. A merge algorithm working on the AST might compute a symbol table and identify the issue, automatically rewriting references to `a` into references to `myPrettyAttribute`. 
+
+From a language/compilation point of view, the project will be co-supervised with Erick Gallesio. We will also interact with Xavier Blanc's team in Bordeaux. It might be possible to extend this work into an internship.
+
+
+#### Compétences Requises
+  - good knowledge of the Java programming language
+  - affinity with code generation, reflexivity and metaprogramming
+  - Good understanding of the Git model
+
+
+
+
+     
+
+#### Besoins Clients
+The merge algorithm will be transparently integrated into Git, which will trigger by default its textual merge and when possible the enhanced one. A classification of the regular merge conflicts will be defined, based on the experimental corpus gathered by Florian. The most frequent rules will be implemented in the framework, and validated thanks to the corpus example.
+
+#### Résultats Attendus
+  - enhanced ruleset to support merge conflict leveraging the AST
+  - experiment to assess the benefit of using such technique
+
+#### Références
+
+
+
+#### Informations Administratives
+  * Contact : Sébastien Mosser <mosser@i3s.unice.fr>
+  * Identifiant sujet : `Y1819-S053`
+  * Effectif : entre 2 et 3 étudiant(e)s
+  * Parcours Recommandés : AL
+  * Équipe: SPARKS
+
+     

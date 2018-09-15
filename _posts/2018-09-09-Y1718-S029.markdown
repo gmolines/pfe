@@ -1,0 +1,45 @@
+---
+layout: post
+title: "Identification et visualisation de symétries dans les systèmes logiciels variables"
+date: 2018-09-09 19:43:24
+categories: [dispo, al]
+pid: Y1718-S029
+type: Engineering
+contact: Philippe COLLET
+---
+       
+Dans ce projet on se propose d'étudier les symétries locales (une des propriétés de la théorie des centres de Christopher Alexander) dans le code comme étant un signe d'organisation de la variabilité. Pour ce faire, il s'agira de partir d'un ensemble de systèmes connus pour établir semi-automatiquement les éléments de symétrie. Parallèlement, il s'agira de trouver une visualisation pertinente de ces symétries.
+
+La variabilité est la propriété d'un système (logiciel) à être changé ou customisé en fonction des besoins spécifiques des éléments interagissant avec le système (utilisateurs, clients, plates-formes matérielles). Cette variabilité peut être gérée par des lignes de produits logiciels complètes, des configateurs externes ou des systèmes de paramétrage. Dans la grande majorité des cas, cette variabilité se retrouve dans le code au travers d'une grande diversité de mécanismes d'implémentation: macros, paramètres de classes ou de méthodes, attributs, héritage, patrons de conception... Maîtriser la variabilité de codes existants est alors très complexe, et les techniques d'analyse de similarité de code ou d'annotations ne passent pas à l'échelle pour détecter cette variabilité.
+
+Dans ce projet on se propose d'étudier les symétries locales (une des propriétés de la théorie des centres de Christopher Alexander) dans le code comme étant un signe d'organisation de la variabilité. La symétrie de plusieurs mécanismes d'implémentation a déjà été étudiée et partiellement exploitée, mais dans ce projet, l'objectif est de valider l'hypothèse qu'une majorité des mécanismes d'implémentation de la variabilité peut être considérée comme des éléments déclenchant une symétrie locale à une classe ou un groupe de classes. Pour ce faire, il s'agira de partir d'un ensemble de systèmes connus pour établir semi-automatiquement les éléments de symétrie. Parallèlement, il s'agira de trouver une visualisation pertinente de ces symétries, en s'inspirant des visualisations de structures et métriques de code de l'état de l'art.
+
+#### Compétences Requises
+Génie logiciel, Programmation et conception orientées objets
+
+
+
+     
+
+#### Besoins Clients
+- Expérimentations (semi-automatiques) de l'identification des symétries sur la base de systèmes
+- Prototype de visualisation des symétries validé sur la base de systèmes
+
+#### Résultats Attendus
+- Validation (ou invalidation) de la possibilité d'identifier et visusaliser les mécanismes d'implémentation de la variabilité par des symétries
+
+#### Références
+
+  * [https://www.amazon.com/Nature-Order-Phenomenon-Environmental-Structure/dp/0972652914/ref=pd_sim_14_2?_encoding=UTF8&pd_rd_i=0972652914&pd_rd_r=db5a8663-b456-11e8-9f1d-0fdf2b561195&pd_rd_w=CWHh6&pd_rd_wg=fT82v&pf_rd_i=desktop-dp-sims&pf_rd_m=ATVPDKIKX0DER&pf_rd_p=18bb0b78-4200-49b9-ac91-f141d61a1780&pf_rd_r=8TC15XPHT6SHK219GDRC&pf_rd_s=desktop-dp-sims&pf_rd_t=40701&psc=1&refRID=8TC15XPHT6SHK219GDRC](https://www.amazon.com/Nature-Order-Phenomenon-Environmental-Structure/dp/0972652914/ref=pd_sim_14_2?_encoding=UTF8&pd_rd_i=0972652914&pd_rd_r=db5a8663-b456-11e8-9f1d-0fdf2b561195&pd_rd_w=CWHh6&pd_rd_wg=fT82v&pf_rd_i=desktop-dp-sims&pf_rd_m=ATVPDKIKX0DER&pf_rd_p=18bb0b78-4200-49b9-ac91-f141d61a1780&pf_rd_r=8TC15XPHT6SHK219GDRC&pf_rd_s=desktop-dp-sims&pf_rd_t=40701&psc=1&refRID=8TC15XPHT6SHK219GDRC)
+  * [https://www.infosun.fim.uni-passau.de/cl/publications/docs/ICSE2011.pdf](https://www.infosun.fim.uni-passau.de/cl/publications/docs/ICSE2011.pdf)
+  * [https://www.researchgate.net/profile/L_Zhao/publication/220426324_Patterns_symmetry_and_symmetry_breaking/links/570a497b08ae8883a1fbc9c5/Patterns-symmetry-and-symmetry-breaking.pdf](https://www.researchgate.net/profile/L_Zhao/publication/220426324_Patterns_symmetry_and_symmetry_breaking/links/570a497b08ae8883a1fbc9c5/Patterns-symmetry-and-symmetry-breaking.pdf)
+  * [http://www.jot.fm/issues/issue_2003_09/article3.pdf](http://www.jot.fm/issues/issue_2003_09/article3.pdf)
+
+#### Informations Administratives
+  * Contact : Philippe COLLET <philippe.collet@unice.fr>
+  * Identifiant sujet : `Y1718-S029`
+  * Effectif : entre 2 et 2 étudiant(e)s
+  * Parcours Recommandés : AL
+  * Équipe: SPARKS
+
+     

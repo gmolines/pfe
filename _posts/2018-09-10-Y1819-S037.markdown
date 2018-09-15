@@ -1,0 +1,77 @@
+---
+layout: post
+title: "Autonomous car"
+date: 2018-09-10 00:40:18
+categories: [dispo, sd]
+pid: Y1819-S037
+type: Engineering
+contact: Frederic Precioso
+---
+       
+Today, ADAS systems such as park assist or lane centering are part of functionalities that should be commonly available on a car. To remain competitive, car manufacturers ought to provide the best-in-class ADAS systems. Some ADAS systems are composed of two main steps: 
+•	Detection 
+•	Decision 
+Bringing these 2 steps to the case of lane centering and traffic sign detection, lanes and signs are detected based on image processing techniques applied to camera images. Later, the steering wheel angle is automatically adjusted based on the lane information detected, and the traffic signs detected can impact the speed.
+
+Today, ADAS systems such as park assist or lane centering are part of functionalities that should be commonly available on a car. To remain competitive, car manufacturers ought to provide the best-in-class ADAS systems. Some ADAS systems are composed of two main steps: 
+•	Detection which aims at extracting some features by analyzing signals captured by sensors (radar, camera, etc.). This step mainly relies on signal processing techniques.
+•	Followed by a decision step which permits to control the car dynamics.
+Bringing these 2 steps to the case of lane centering and traffic sign detection, lanes and signs are detected based on image processing techniques applied to camera images. Later, the steering wheel angle is automatically adjusted based on the lane information detected, and the traffic signs detected can impact the speed.
+
+However, such an approach leads to degraded performances when the car is no longer in a straight lane. When the car is in a lane with a significant curvature, the field of view of the camera is reduced and consequently, the assistance to maintain the car in the middle of the lane will not be provided to the driver.
+
+Current lane centering systems do not take advantage of the recent advances in machine learning. Though, the Udacity challenge, launched in 2016 to promote advances in automotive, has demonstrated the domination of such approaches which have been implemented by several car manufacturers [1-6]. 
+
+During this project, we will investigate the use of machine learning to predict steering wheel angle, and speed, from analyzing lane detection in camera and traffic signs. For these investigations, we will use the latest dataset of Berkley Deep Drive [5]. 
+We already have two models running: 
+- one running standard decision algorithms with boosting for traffic sign detection
+- another one based on deep learning methods
+We will probably combine these machine learning techniques to have a robust and low-cost solution.
+
+This project can lead to an internship at Renault.
+
+Industrial supervisor: Jean-Pierre GIACALONE, Renault
+
+Technical tools: Python required, C++ appreciated
+Skills: Machine Learning required, Deep Learning appreciated
+
+References
+[1] Du, Shuyang, Haoli Guo, and Andrew Simpson. "Self-Driving Car Steering Angle Prediction Based on Image Recognition." Report, 2017.
+[2] Lu Chi and Yadong Mu. 2017. Learning End-to-End Autonomous Steering Model from Spatial and Temporal Visual Cues. In Proceedings of the Workshop on Visual Analysis in Smart and Connected Communities (VSCC '17). ACM, New York, NY, USA, 9-16.
+[3] R. P. D. Vivacqua, M. Bertozzi, P. Cerri, F. N. Martins and R. F. Vassallo. 2017. "Self-Localization Based on Visual Lane Marking Maps: An Accurate Low-Cost Approach for Autonomous Driving," in IEEE Transactions on Intelligent Transportation Systems, vol. PP, no. 99, pp. 1-16.
+[4] DeepTest: Automated Testing of Deep-Neural-Network-driven Autonomous Cars, by Yuchi Tian, Kexin Pei, Suman Jana, Baishakhi Ray. to appear in the 40th International Conference on Software Engineering(ICSE 2018).
+[5]  Yu, F., Xian, W., Chen, Y., Liu, F., Liao, M., Madhavan, V., & Darrell, T. (2018). BDD100K: A Diverse Driving Video Database with Scalable Annotation Tooling. CoRR, abs/1805.04687.
+[6] End-to-End Deep Learning for Steering Autonomous Vehicles Considering Temporal Dependencies. 2017. Hesham M. Eraqi, Mohamed N. Moustafa, Jens Honer. NIPS 2017 Workshop MLITS.
+
+
+#### Compétences Requises
+Technical tools: Python required, C++ appreciated
+Skills: Machine Learning required, Deep Learning appreciated
+
+
+
+     
+
+#### Besoins Clients
+We need to evaluate which algorithms recently proposed in the literature can indeed be implemented and evaluated on standard embedded platforms (Raspberry Pi, Nvidia Jetson TX2) to follow the road, remain centered inside the lane, detect pedestrians, detect traffic signs, etc
+
+#### Résultats Attendus
+Bibliographic report on the latest techniques for lane centering, traffic sign detection, obstacle recognition (pedestrians, cars, etc)
+Source code of the solutions implemented 
+Final report on the work done
+
+#### Références
+
+  * [https://arxiv.org/abs/1805.04687](https://arxiv.org/abs/1805.04687)
+  * [https://www.researchgate.net/publication/320291542_Self-Localization_Based_on_Visual_Lane_Marking_Maps_An_Accurate_Low-Cost_Approach_for_Autonomous_Driving](https://www.researchgate.net/publication/320291542_Self-Localization_Based_on_Visual_Lane_Marking_Maps_An_Accurate_Low-Cost_Approach_for_Autonomous_Driving)
+  * [http://www.coldvision.io/2017/02/15/predicting-steering-angles-using-deep-learning-and-behavioral-cloning/](http://www.coldvision.io/2017/02/15/predicting-steering-angles-using-deep-learning-and-behavioral-cloning/)
+  * [https://towardsdatascience.com/teaching-cars-to-drive-using-deep-learning-steering-angle-prediction-5773154608f2](https://towardsdatascience.com/teaching-cars-to-drive-using-deep-learning-steering-angle-prediction-5773154608f2)
+
+#### Informations Administratives
+  * Contact : Frederic Precioso <precioso@unice.fr>
+  * Identifiant sujet : `Y1819-S037`
+  * Effectif : entre 2 et 3 étudiant(e)s
+  * Parcours Recommandés : SD
+  * Équipe: SPARKS
+
+     

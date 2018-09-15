@@ -1,0 +1,53 @@
+---
+layout: post
+title: "Développement d'une application Web permettant la génération automatique de quiz éducatifs"
+date: 2018-09-09 23:45:22
+categories: [dispo, ihm,web]
+pid: Y1819-S035
+type: Engineering
+contact: Oscar Rodriguez Rocha
+---
+       
+Partant d'un POC existant permettant la génération automatique de quiz à partir du Web de données, qui s'exécute en ligne de commande, L'objectif de ce PFE est de développer une application Web et une IHM  permettant aux utilisateurs finaux (les concepteurs de quiz) de lancer eux-mêmes la génération automatique de quiz et leur gestion.
+
+Les quiz pédagogiques sont un outil puissant et populaire pour tester les connaissances acquises par un apprenant et approfondir ses connaissances sur un sujet spécifique de manière informelle et divertissante. Cependant, leur génération est une tâche complexe qui prend du temps et qui doit parfois être effectuée par un expert.
+Nous avons développé une approche et un POC pour répondre à ce besoin, qui repose sur les modèles et technologies du Web sémantique et les données structurées disponibles sur le Web, tels que DBpedia.
+Ce POC est développé en Python et s'exécute en ligne de commande. 
+L'objectif de ce PFE est de développer une application Web et une IHM au-dessus de la librairie développée, permettant aux utilisateurs finaux (les concepteurs de quiz) de lancer eux-mêmes la génération automatique de quiz et leur gestion.
+Les tâches spécifiques à effectuer durant le projet sont:
+- l'évaluation des besoins en termes d'IHM
+- la conception et le développement de l'application Web
+- l'évaluation de l'IHM par des utilisateurs
+
+
+
+
+
+#### Compétences Requises
+Programmation Web
+Conception et évaluation d'IHM
+
+
+
+     
+
+#### Besoins Clients
+une application Web permettant la génération automatique de quiz, qui repose sur une librairie existante en Python
+
+#### Résultats Attendus
+un rapport de spécifications de l'IHM et de l'application Web
+livraison de code documenté
+rapport d'évaluation de l'IHM
+
+#### Références
+
+  * [https://hal.inria.fr/hal-01811490](https://hal.inria.fr/hal-01811490)
+
+#### Informations Administratives
+  * Contact : Oscar Rodriguez Rocha <oscar.rodriguez-rocha@inria.fr>
+  * Identifiant sujet : `Y1819-S035`
+  * Effectif : entre 2 et 3 étudiant(e)s
+  * Parcours Recommandés : IHM,WEB
+  * Équipe: non spécifié
+
+     

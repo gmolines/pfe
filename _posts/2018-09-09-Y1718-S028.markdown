@@ -1,0 +1,79 @@
+---
+layout: post
+title: "Deep Reinforcement Learning for Solving Network Optimization Problems"
+date: 2018-09-09 19:37:22
+categories: [dispo, sd]
+pid: Y1718-S028
+type: Engineering
+contact: Lucile Sassatelli
+---
+       
+Methods of Reinforcement Learning (RL) for deep neural networks, also called Deep Reinforcement Learning, have recently obtained ground-breaking results at solving complex problems. Deep RL has been shown interesting to automatically learn heuristic algorithms to solve some classical NP-hard problems on graphs (such as the traveling salesman problem or the min covering set problem). The goal of the PFE is to investigate how to tackle classic yet more sophisticated network problems that require constraint satisfaction, which current Deep RL techniques cannot incorporate. The new constraint satisfaction technique for RL proposed in ICML 2017 will be incorporated into the existing code of Deep RL for our network problem. The so-learned heuristics will be compared with classical heuristics.
+
+PFE proposal
+
+Advisors: Lucile Sassatelli and Ramon Aparicio-Pardo
+Emails : {first.last}@unice.fr
+
+Laboratory: I3S, SigNet group (2000, route des Lucioles – Sophia Antipolis)
+
+Title: Deep Reinforcement Learning for Solving Network Optimization Problems
+
+Description: 
+
+In the last couple of years, methods of Reinforcement Learning (RL) for deep neural networks, also called Deep Reinforcement Learning, have obtained ground-breaking results at solving highly complex tasks, such as beating AlphaGo world champion or achieving state of the art results at video games (Atari, Doom). One of the reference Deep RL technique has been A3C [1].
+
+In mathematical optimization, difficult problems are NP-hard problems, which are combinatorial problems for which solutions cannot be found in polynomial time. These types of problems have important practical applications, such as infrastructure placement and flow routing, be it in road transportation networks or in communication networks. In the current Internet and future networks such as 5G, difficult problems arise when, for example, we try to smartly route the video flows and choose the processing locations where they will be transformed, in order to maximize users’ perceived video quality and/or minimize energy consumption [7]. Such NP-hard problems are usually tackled with heuristic methods providing only approximated solutions.
+
+A few months ago, Dai et al. [2] has shown the interest of Deep RL to automatically learn heuristic algorithms to solve some classical NP-hard problems on graphs (such as the traveling salesman problem or the min covering set problem). 
+
+In this PFE, we want to investigate how to tackle classic yet more sophisticated network problems. We will consider the Multi-Commodity routing with Integer Constraints (MCIC) problem. These are NP-hard problems formulated as maximization under a set of constraints. Existing Deep RL methods have not been compliant with constraint satisfaction so far, despite it is a crucial issue for numerous real-world problems (such as car driving, safety of robot control working around humans, etc.). Recently, Achiam et al. [3] have proposed a way to incorporate constraint satisfaction into Deep RL methods. This method is named Constrained Policy Optimization.
+
+Goal: The goal of the PFE is to incorporate the existing code for solving MCIC with Deep RL but without constraint satisfaction, with the constraint satisfaction-based RL proposed in [2], and compare the so-learned heuristics with existing heuristics. Codes of [2] and existing heuristics will be provided.
+
+Phase 1: Getting familiar with the problems, envisioned solution and existing codes (A3C, A3C for MCIC, Constrained Policy Optimization).
+Phase 2: Integration of Constrained Policy Optimization within the A3C for MCIC code
+Phase 3: Assessment of so-obtained heuristics and comparison with regular heuristics (based on Lagrangian relaxation).
+ 
+Technical tools:
+
+Python, TensorFlow, Keras, rllab, OpenAI Gym
+
+References:
+
+[1] V. Mnih et al.. Asynchronous Methods for Deep Reinforcement Learning. Int. Conf. On Machine Learning (ICML), 2016. (https://arxiv.org/pdf/1602.01783.pdf)
+[2] H. Dai, E. B. Khalil, Y. Zhang, B. Dilkina and L. Song. Learning Combinatorial Optimization Algorithms over Graphs. Conf. On Neural Information Processing Systems (NIPS), Dec. 2017.
+[3] J. Achiam, D. Held, A. Tammar, P. Abbeel. Constrained Policy Optimization. Int. Conf. On Machine Learning, 2017.
+[4] W. L. Hamilton, R. Ying and J. Leskovec. Representation Learning on Graphs: Methods and Applications. arXiv:1709.05584, Apr. 2018.
+[5] H. Cai, V. W. Zheng and K. Chen-Chuan Chang. A Comprehensive Survey of Graph Embedding: Problems, Techniques and Applications. IEEE Transactions on Knowledge and Data Engineering 30 (2018): 1616-1637.
+[6] TensorFlow Guide, the TensorFlow's official documentation. (​https://www.tensorflow.org/guide/​)
+[7] R. Aparicio-Pardo and L. Sassatelli. A Green Video Control Plane with Fixed-Mobile
+Convergence and Cloud-RAN. Internation Teletraffic Congress, Sep. 2018.
+
+#### Compétences Requises
+Python absolument, librairies Deep Learning appréciée (voir ci-dessus)
+
+
+
+     
+
+#### Besoins Clients
+Integration of Constrained Policy Optimization within the A3C for MCIC code
+
+#### Résultats Attendus
+Assessment of so-obtained heuristics and comparison with regular heuristics.
+
+#### Références
+
+  * [https://arxiv.org/pdf/1602.01783.pdf](https://arxiv.org/pdf/1602.01783.pdf)
+  * [https://github.com/jachiam/cpo](https://github.com/jachiam/cpo)
+  * [https://www.tensorflow.org/guide/](https://www.tensorflow.org/guide/)
+
+#### Informations Administratives
+  * Contact : Lucile Sassatelli <sassatelli@i3s.unice.fr>
+  * Identifiant sujet : `Y1718-S028`
+  * Effectif : entre 2 et 3 étudiant(e)s
+  * Parcours Recommandés : SD
+  * Équipe: SIS (Signal Images Systèmes)
+
+     

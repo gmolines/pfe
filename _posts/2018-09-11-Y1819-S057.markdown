@@ -1,0 +1,49 @@
+---
+layout: post
+title: "Composition of Terrain Generation algorithms"
+date: 2018-09-11 22:11:18
+categories: [dispo, al,ihm]
+pid: Y1819-S057
+type: Engineering
+contact: Sébastien Mosser
+---
+       
+Procedural map generation is a technique massively used by the video game industry to provide a better user experience for gamers. Think for example of the Diablo game, each time you enter a dungeon its map is totally re-generated to a brand new one but equivalent in terms of difficulty. In this project, we will leverage classical generation techniques to provide a compositional model supporting the process.
+
+
+RedBlog Game is an awesome resources with respect to procedural map generation. In this project, we will focus on the Island generation mechanisms fully described in this blog. An alternative implementation of this technique was used as the foundation of the  Island game used at Polytech.
+
+The goal of this project is to identify all the variation points that exists in the presented technique: polygon distribution, elevation techniques, biome repartition, river generation, place naming, ... the idea is to identify each possibility and implement it into a compassable artefact. Thus, one will be able to assemble an island generator for a given context by composing elementary bricks. 
+
+The key point here is to guarantee properties on the assembled generator. For example, a generator will be dedicated to archipelagos, and guarantee by construction that the generated map will contain at least 3 islands. Another one will be dedicated to crater lake islands, and will guarantee a low island altitude with an inner lake. Another one will focus on atoll definition. 
+
+#### Compétences Requises
+  - Good object-oriented knowledge (programming and modelling);
+  - A taste for geometry (even if the project will not investigate the maths used as foundations for terrain generation)
+  
+
+
+
+     
+
+#### Besoins Clients
+The project will focus on Island generation only. As an end user, one will be able to assemble elementary map generation bricks using a dedicated language to create her own generator. The produced generator will be executable, and one will obtain maps as output. The maps will be stored as JSON files using the ISLAND file format, and a 3D visualisation will be provided to visualise the result in a web browser.
+
+#### Résultats Attendus
+  - A configurable and composable map generator;
+  - A visualiser available in a web browser;
+  - An analysis of the extensions points associated to map generation tehcniques
+
+#### Références
+
+  * [http://www-cs-students.stanford.edu/~amitp/game-programming/polygon-map-generation/](http://www-cs-students.stanford.edu/~amitp/game-programming/polygon-map-generation/)
+  * [https://www.redblobgames.com/maps/terrain-from-noise/](https://www.redblobgames.com/maps/terrain-from-noise/)
+
+#### Informations Administratives
+  * Contact : Sébastien Mosser <mosser@i3s.unice.fr>
+  * Identifiant sujet : `Y1819-S057`
+  * Effectif : entre 2 et 3 étudiant(e)s
+  * Parcours Recommandés : AL,IHM
+  * Équipe: SPARKS
+
+     
