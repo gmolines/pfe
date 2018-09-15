@@ -39,7 +39,7 @@ object ProjectFactory {
 
 
   def apply(row: Row): Project = {
-    val pid = f"Y1718-S${row.getRowNum}%03d"
+    val pid = f"Y1819-S${row.getRowNum}%03d"
     println(s"## Handling project [$pid]")
 
     if (row.getCell(17).getStringCellValue == "yes") {
