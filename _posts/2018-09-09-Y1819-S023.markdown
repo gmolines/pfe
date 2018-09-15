@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Vers la "justification" automatique de résultats d'expérimentation en Machine Learning"
+title: "Vers la justification automatique de résultats d'expérimentation en Machine Learning"
 date: 2018-09-09 12:28:56
 categories: [dispo, al,sd,ihm]
 pid: Y1819-S023
