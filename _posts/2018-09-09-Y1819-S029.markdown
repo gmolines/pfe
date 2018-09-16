@@ -2,10 +2,12 @@
 layout: post
 title: "Identification et visualisation de symétries dans les systèmes logiciels variables"
 date: 2018-09-09 19:43:24
-categories: [dispo, al]
+categories: [oqp, al]
 pid: Y1819-S029
 type: Engineering
 contact: Philippe COLLET
+group: 1
+students: Johann Mortara
 ---
        
 Dans ce projet on se propose d'étudier les symétries locales (une des propriétés de la théorie des centres de Christopher Alexander) dans le code comme étant un signe d'organisation de la variabilité. Pour ce faire, il s'agira de partir d'un ensemble de systèmes connus pour établir semi-automatiquement les éléments de symétrie. Parallèlement, il s'agira de trouver une visualisation pertinente de ces symétries.
