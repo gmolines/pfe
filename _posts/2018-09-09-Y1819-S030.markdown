@@ -2,7 +2,7 @@
 layout: post
 title: "H4CK 4TT4CK!"
 date: 2018-09-09 21:00:43
-categories: [dispo, al,ihm]
+categories: [dispo, al,caspar,ihm]
 pid: Y1819-S030
 type: Engineering
 contact: Yves ROUDIER
@@ -53,7 +53,7 @@ You are expected to have knowledge and interest in both software security (manda
   * Contact : Yves ROUDIER <Yves.Roudier@i3s.unice.fr>
   * Identifiant sujet : `Y1819-S030`
   * Effectif : entre 2 et 3 étudiant(e)s
-  * Parcours Recommandés : AL,IHM
+  * Parcours Recommandés : AL,CASPAR,IHM
   * Équipe: SPARKS
 
      
