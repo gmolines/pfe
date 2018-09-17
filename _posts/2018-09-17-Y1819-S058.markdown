@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Composition of machine learning algorithms in Weka [Composition de visualisation]"
-date: 2018-09-11 20:17:44
+title: "Composition of machine learning algorithms in Weka [Composition de générateur de terrains]"
+date: 2018-09-17 14:11:44
 categories: [dispo, al,sd]
-pid: Y1819-S056
+pid: Y1819-S058
 type: Engineering
 contact: Sébastien Mosser
 ---
@@ -39,7 +39,7 @@ As input, the project will absorb the Weka library as a JAR file. It will automa
 
 #### Informations Administratives
   * Contact : Sébastien Mosser <mosser@i3s.unice.fr>
-  * Identifiant sujet : `Y1819-S056`
+  * Identifiant sujet : `Y1819-S058`
   * Effectif : entre 2 et 3 étudiant(e)s
   * Parcours Recommandés : AL,SD
   * Équipe: SPARKS
