@@ -2,10 +2,12 @@
 layout: post
 title: "Composition of machine learning algorithms in Weka [Composition de générateur de terrains]"
 date: 2018-09-17 14:11:44
-categories: [dispo, al,sd]
+categories: [oqp, al,sd]
 pid: Y1819-S058
 type: Engineering
 contact: Sébastien Mosser
+group: 3
+students: Guillaume André, Lucas Mattéo, Jean-Adam Puskaric
 ---
        
 _Machine Learning_ (ML) and artificial intelligence are everywhere.  Several libraries exist to support software developers who use ML techniques. However, from a newcomer point of view, it is extremely complicated to select the right approach. How to preprocess the data? Which algorithm to select? This project proposes to develop reverse-engineering methods to help newcomers to use an ML library. 
