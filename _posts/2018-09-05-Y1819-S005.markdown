@@ -1,0 +1,65 @@
+---
+layout: post
+title: "Développement d'une application de géolocalisation en temps réel (avec  outils IGN) d'essaims d'abeilles"
+date: 2018-09-05 12:00:00
+categories: [dispo, ihm]
+pid: Y1819-S005
+type: Engineering
+contact: Laurent Turchi
+---
+       
+Ce projet consistera à créer une application smartphone permettant au grand public de localiser en temps réel un essaim d’abeilles par ses coordonnées GPS afin que des apiculteurs (référencés dans des bases de données déjà existantes) situés dans un périmètre proche puissent être avisés et se manifester rapidement pour récupérer l’essaim. Une cartographie détaillée (en fonctions de paramètres pertinents) des différents essaims géolocalisés sera également envisagée afin d’alimenter une base de données inédite à vocation scientifiques.
+
+L’essaimage des colonies d’abeilles est un processus naturel saisonnier (d’avril à juillet) par lequel les abeilles perpétuent l’espèce. Lorsqu’une colonie atteint une trop forte densité (>50 000/ruche) les abeilles donnent naissance à une nouvelle reine qui, si elle survit à sa prédécesseure, prendra la place de l’ancienne reine. Cette dernière quittera la ruche avec environ la moitié de l’effectif pour former un essaim. Celui-ci est un état transitoire (de quelques h à 3-4j) destiné à donner le temps aux abeilles de trouver un habitat « pérenne » (tronc d’arbre creux, appentis, cabanon, grenier, cheminée, coffre de volets…). Malheureusement, trop souvent, ce que les abeilles considèrent comme pérenne au printemps/été ne l’est plus en plein hiver où les abeilles sont décimées par le froid. De plus, la raréfaction de l’habitat naturel des abeilles ainsi que la gêne qu’elles occasionnent en milieu urbain et péri-urbain compromet leur propagation. Un enruchage (hébergement d’un essaim dans une ruche) rapide et systématique des essaims permettra donc d’assurer le développement de la colonie pour les saisons à venir et la dissémination de l’espèce.
+
+Une localisation efficace et en temps réel des essaims en vue de leur récupération par un apiculteur à proximité devrait donc contribuer à limiter le déclin des abeilles observé depuis une 10aine d’années.
+
+En outre, aucune donnée concernant l’influence des facteurs responsable du syndrome d’effondrement des colonies (pesticides, parasites, monocultures, prédateurs…) sur la dynamique de propagation de l’espèce n’est actuellement disponible. Cette application smartphone permettra donc d’alimenter une base de données à vocation scientifique.
+
+#### Compétences Requises
+Programmation
+
+
+
+     
+
+#### Besoins Clients
+L’application smartphone devra être utilisable quelque soit le type de système d’exploitation. Le design devra être le plus simple possible et utilisable par l’observateur de l’essaim et les apiculteurs se trouvant à proximité via un serveur.
+
+Versant Observateur : L’activation de l’apps déclenchera l’activation instantanée du système de géolocalisation et de l’appareil photographique destiné à obtenir des données visuelles. Une fois la photo de l’essaim capturée et avant que les coordonnées gps et le numéro de téléphone soient envoyées automatiquement vers le site internet d’APIS CAMPUS pour archivage dans la base de données dédiée et redirigé vers les apiculteurs, une série de questions optionnelles sera proposée à l’utilisateur au sujet des caractéristiques du lieu d’essaimage (taille, hauteur, accessibilité, disponibilité…) ainsi que la possibilité d’envoyer un commentaire.
+
+- le téléphone n’est pas connecté à internet et ne peut pas envoyer de mms : le numéro de téléphone, les coordonnées gps et les réponses aux questions sont envoyées par sms si les réponses aux questions concernant le mode d’expédition des données (activer le transfert de données…) sont négatives.
+
+Une fois les données réceptionnées sur le site, elles sont converties et stockées dans une base qui servira dans un premier temps à contacter les apiculteurs référencés et situés dans un périmètre proche du lieu d’essaimage. Puis ses données seront interfacées sur une carte (type IGN) interactive regroupant les paramètres envoyés par l’observateur de l’essaim et croisée avec d’autres données (positions des ruchers déclarés aux préfectures). Cette cartographie aura également pour but d’évaluer la fréquence et l’importance des essaimages à l’échelle nationale (ou européenne) et leur évolution au cours des années en rapport au déclin observé des colonies d’abeilles
+
+ 
+
+Versant Apiculteur : celui-ci est informé par un sms comportant le numéro de téléphone et l’invite à activer l’apps pour obtenir l’ensemble des données.
+
+#### Résultats Attendus
+Liste de livrables concrets attendus en sortie du projet
+
+ 
+
+1.            Développement d’une appli (Android+Apple) destinée aux observateurs et intégrant la position GPS de l’essaim et numéro de l’observateur obligatoires ainsi que des options (photos, taille et hauteur de l’essaim)
+
+2.            Développement d’une interface web capable d’extraire les coordonnées téléphoniques et position des apiculteurs intéressés des bases de données déjà existantes.
+
+3.            Envoi en direct aux apiculteurs situés à proximité de l’essaim d’un message avec positon de l’essaim et coordonnées téléphoniques de l’observateur.
+
+4.            Verrouillage de l’offre dès qu’un apiculteur s’est manifesté.
+
+5.            Cartographie interactive (avec position, date de récupération, taille de l’essaim) à vocation recherche pour établir une représentation nationale (voire européenne) des essaimages et de leur fréquence.
+
+#### Références
+
+
+
+#### Informations Administratives
+  * Contact : Laurent Turchi <laurent.turchi@unice.fr>
+  * Identifiant sujet : `Y1819-S005`
+  * Effectif : entre 2 et 3 étudiant(e)s
+  * Parcours Recommandés : IHM
+  * Équipe: iBv / Association Apis Campus / ECOMERS/ I3S
+
+     
