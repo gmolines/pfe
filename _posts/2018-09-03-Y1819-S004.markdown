@@ -2,10 +2,12 @@
 layout: post
 title: "Céramique 3.0 (ou comment leur faire arrêter de pretendre qu'on est encore en 1986)"
 date: 2018-09-03 12:00:50
-categories: [dispo, iam,ihm]
+categories: [oqp, iam,ihm]
 pid: Y1819-S004
 type: Engineering
 contact: Julien Deantoni
+group: 4
+students: Pierre-Emmanuel Novac, Guillaume Casagrande
 ---
        
 Les fours de potiers, malgré leur prix élevé, disposent aujourd'hui d'une technologie d'interaction digne des années 80 (https://www.cigaleetfourmi.fr/pyrometrie-et-regulations/1417-regulation-e103-coffret-1350c-connecteur-enitherm.html). Il semblent intéressant de faire entrer ces objets dans le 21ème siècle en proposant une application mobile dédiée, qui communiquera avec un petit module style Raspberry Pi Zero W.
