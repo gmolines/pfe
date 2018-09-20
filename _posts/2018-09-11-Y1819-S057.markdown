@@ -1,11 +1,13 @@
 ---
 layout: post
-title: "Composition of Terrain Generation algorithms"
+title: "Composition of Terrain Generation algorithms [Algorithmes de visualisation]"
 date: 2018-09-11 22:11:18
-categories: [dispo, al,ihm]
+categories: [oqp, al,ihm]
 pid: Y1819-S057
 type: Engineering
 contact: Sébastien Mosser
+group: 3
+students: Guillaume André, Lucas Mattéo, Jean-Adam Puskaric
 ---
        
 Procedural map generation is a technique massively used by the video game industry to provide a better user experience for gamers. Think for example of the Diablo game, each time you enter a dungeon its map is totally re-generated to a brand new one but equivalent in terms of difficulty. In this project, we will leverage classical generation techniques to provide a compositional model supporting the process.

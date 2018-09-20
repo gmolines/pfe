@@ -1,49 +1,51 @@
 ---
 layout: post
-title: "Composition of machine learning algorithms in Weka [Composition de générateur de terrains]"
+title: "Composition of Terrain Generation algorithms [Visualisation des terrains générés]"
 date: 2018-09-17 14:11:44
-categories: [oqp, al,sd]
+categories: [oqp, al,ihm]
 pid: Y1819-S058
 type: Engineering
 contact: Sébastien Mosser
-group: 3
-students: Guillaume André, Lucas Mattéo, Jean-Adam Puskaric
+group: 2
+students: Marc Jourdes, Tanguy Invernizzi
 ---
        
-_Machine Learning_ (ML) and artificial intelligence are everywhere.  Several libraries exist to support software developers who use ML techniques. However, from a newcomer point of view, it is extremely complicated to select the right approach. How to preprocess the data? Which algorithm to select? This project proposes to develop reverse-engineering methods to help newcomers to use an ML library. 
+Procedural map generation is a technique massively used by the video game industry to provide a better user experience for gamers. Think for example of the Diablo game, each time you enter a dungeon its map is totally re-generated to a brand new one but equivalent in terms of difficulty. In this project, we will leverage classical generation techniques to provide a compositional model supporting the process.
 
-We will consider here the Weka library, which contains preprocessing and ML algorithms. The idea is to automatically extract from the Weka JAR file a model representation associated to each algorithm defined in the library: which kind of algorithms, its properties, ... These information will be automatically (as much as possible) inferred by a static analysis of the source code of the library. 
 
-Then, from an user point of view, it will be possible to define Java code that assemble these algorithms into a workflow, for example using a small language created in the project. Based on the information extracted from the library, the project will define a compositional model that support the user to _(i)_ validate their workflow and _(ii)_ identify properties of the global workflow based on properties associated to each separated part of the workflow.
+RedBlog Game is an awesome resources with respect to procedural map generation. In this project, we will focus on the Island generation mechanisms fully described in this blog. An alternative implementation of this technique was used as the foundation of the  Island game used at Polytech.
 
-It might be possible to extend this work into an internship.
+The goal of this project is to identify all the variation points that exists in the presented technique: polygon distribution, elevation techniques, biome repartition, river generation, place naming, ... the idea is to identify each possibility and implement it into a compassable artefact. Thus, one will be able to assemble an island generator for a given context by composing elementary bricks. 
+
+The key point here is to guarantee properties on the assembled generator. For example, a generator will be dedicated to archipelagos, and guarantee by construction that the generated map will contain at least 3 islands. Another one will be dedicated to crater lake islands, and will guarantee a low island altitude with an inner lake. Another one will focus on atoll definition. 
 
 #### Compétences Requises
-  - No ML skills are required, but being familiar to ML might help;
-  - A strong taste for software engineering and compilation;
-  - Not being afraid by static code analysis
+  - Good object-oriented knowledge (programming and modelling);
+  - A taste for geometry (even if the project will not investigate the maths used as foundations for terrain generation)
+  
 
 
 
      
 
 #### Besoins Clients
-As input, the project will absorb the Weka library as a JAR file. It will automatically feed a compositional model used to support the user who will assemble Weka artefact for a given puprose.
+The project will focus on Island generation only. As an end user, one will be able to assemble elementary map generation bricks using a dedicated language to create her own generator. The produced generator will be executable, and one will obtain maps as output. The maps will be stored as JSON files using the ISLAND file format, and a 3D visualisation will be provided to visualise the result in a web browser.
 
 #### Résultats Attendus
-  - A static analyser for the Weka library
-  - An experiment applying this analyser to several versions of Weka
-  - a reasoning engine to automatically infer properties on workflows defined using Weka algorithms
+  - A configurable and composable map generator;
+  - A visualiser available in a web browser;
+  - An analysis of the extensions points associated to map generation tehcniques
 
 #### Références
 
-
+  * [http://www-cs-students.stanford.edu/~amitp/game-programming/polygon-map-generation/](http://www-cs-students.stanford.edu/~amitp/game-programming/polygon-map-generation/)
+  * [https://www.redblobgames.com/maps/terrain-from-noise/](https://www.redblobgames.com/maps/terrain-from-noise/)
 
 #### Informations Administratives
   * Contact : Sébastien Mosser <mosser@i3s.unice.fr>
   * Identifiant sujet : `Y1819-S058`
   * Effectif : entre 2 et 3 étudiant(e)s
-  * Parcours Recommandés : AL,SD
+  * Parcours Recommandés : AL,IHM
   * Équipe: SPARKS
 
      
