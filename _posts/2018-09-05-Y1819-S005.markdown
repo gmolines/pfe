@@ -2,10 +2,12 @@
 layout: post
 title: "Développement d'une application de géolocalisation en temps réel (avec  outils IGN) d'essaims d'abeilles"
 date: 2018-09-05 12:00:00
-categories: [dispo, ihm]
+categories: [oqp, ihm]
 pid: Y1819-S005
 type: Engineering
 contact: Laurent Turchi
+group: 6
+students: Théo Cholley, Romain Canovas
 ---
        
 Ce projet consistera à créer une application smartphone permettant au grand public de localiser en temps réel un essaim d’abeilles par ses coordonnées GPS afin que des apiculteurs (référencés dans des bases de données déjà existantes) situés dans un périmètre proche puissent être avisés et se manifester rapidement pour récupérer l’essaim. Une cartographie détaillée (en fonctions de paramètres pertinents) des différents essaims géolocalisés sera également envisagée afin d’alimenter une base de données inédite à vocation scientifiques.
