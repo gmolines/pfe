@@ -2,10 +2,13 @@
 layout: post
 title: "Développement d'une application Web permettant la génération automatique de quiz éducatifs"
 date: 2018-09-09 23:45:22
-categories: [dispo, ihm,web]
+categories: [oqp, ihm,web]
 pid: Y1819-S035
 type: Engineering
 contact: Oscar Rodriguez Rocha
+group: 7
+students: Antoine Lupiac, Sébastien Degand
+
 ---
        
 Partant d'un POC existant permettant la génération automatique de quiz à partir du Web de données, qui s'exécute en ligne de commande, L'objectif de ce PFE est de développer une application Web et une IHM  permettant aux utilisateurs finaux (les concepteurs de quiz) de lancer eux-mêmes la génération automatique de quiz et leur gestion.
