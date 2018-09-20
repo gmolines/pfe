@@ -2,10 +2,12 @@
 layout: post
 title: "Autonomous car"
 date: 2018-09-10 00:40:18
-categories: [dispo, sd]
+categories: [oqp, sd]
 pid: Y1819-S037
 type: Engineering
 contact: Frederic Precioso
+group: 5
+students: Anthony Athlan, Khalil Bouzoubaa, Baptiste Pouthier
 ---
        
 Today, ADAS systems such as park assist or lane centering are part of functionalities that should be commonly available on a car. To remain competitive, car manufacturers ought to provide the best-in-class ADAS systems. Some ADAS systems are composed of two main steps: 
