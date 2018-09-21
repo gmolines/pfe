@@ -2,10 +2,12 @@
 layout: post
 title: "Apprentissage automatique d'une base d’images pour non expert"
 date: 2018-09-10 09:28:34
-categories: [dispo, al,sd]
+categories: [oqp, al,sd]
 pid: Y1819-S025
 type: Engineering
 contact: Mireille Blay-Fornarino
+group: 8
+students: Loïc Gardaire, Thomas Canava
 ---
        
 Voici les deux “histoires” ciblées par ce projet  dans l’ordre de priorité.
