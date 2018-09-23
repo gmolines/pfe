@@ -2,10 +2,12 @@
 layout: post
 title: "Make Git-merge great again"
 date: 2018-09-11 09:45:26
-categories: [dispo, al]
+categories: [oqp, al]
 pid: Y1819-S053
 type: Engineering
 contact: Sébastien Mosser
+group: 10
+students: Alexandre Hiltcher, David Lang, Florian Lehmann
 ---
        
 Git is the most used version control systems. Unfortunately, by default, its merge algorithm relies on text (c)hunks and does not take into account the _Abstract Syntax Tree_ (AST) of the underlying language. The main advantage is that anything stored as text can be versioned. The obvious drawback is that a lot of conflicts that happens when merging source code might be avoided if the merge algorithm work at the AST level.
