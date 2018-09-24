@@ -2,10 +2,12 @@
 layout: post
 title: "Développement d'une méthode de recalage de représentations 3D de molécules chimiques  "
 date: 2018-09-05 16:01:58
-categories: [dispo, sd]
+categories: [oqp, sd]
 pid: Y1819-S007
 type: Engineering
 contact: Frédéric Payan
+group: 11
+students: Chen Shengwei, Liang Dingge, Yu Mulin
 ---
        
  Ce PFE aura pour principal objectif de tester des techniques classiques de recalage de nuage de points 3D (ICP, etc.) sur des représentations 3D de molécules, afin de voir laquelle est la plus adaptée à ce type de données, pour ensuite permettre des calculs de similarité. 
