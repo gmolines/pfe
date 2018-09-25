@@ -10,7 +10,7 @@ import org.apache.poi.ss.usermodel.{Row, WorkbookFactory}
 object Main extends App {
 
   final val START = 1
-  final val STOP =  59
+  final val STOP =  60
 
   final val OUTPUT_DIR = "./outputs"
 
