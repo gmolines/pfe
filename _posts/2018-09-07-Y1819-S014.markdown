@@ -7,7 +7,7 @@ pid: Y1819-S014
 type: Engineering
 contact: Karima BOUDAOUD
 group: 17
-students: Adrien Reuter, Ahmed Adel Abdelmaksoud
+students: Adrien Reuter, Ahmed Adel Abdelmaksoud, Wadie Lemrazzeq
 ---
        
 L’objectif  de ce projet est d’étudier les problèmes  d’utilisabilité rencontrés par les utilisateurs pour sécuriser leurs mails.
