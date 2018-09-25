@@ -2,10 +2,12 @@
 layout: post
 title: "Classification automatique de ressources pédagogiques basée sur des objectifs d’apprentissage"
 date: 2018-09-07 19:16:27
-categories: [dispo, sd,web]
+categories: [oqp, sd,web]
 pid: Y1819-S020
 type: Engineering
 contact: Catherine Faron Zucker
+group: 16
+students: Yun TIAN, Xuchun ZHANG
 ---
        
 L'objectif de ce PFE est de classer automatiquement des ressources textuelles disponibles sur la plateforme d’apprentissage SIDES, en fonction d’objectifs d'apprentissage. Cela devrait permettre une recommandation intelligente des ressources intégrant le niveau de complexité des objectifs d’apprentissage des étudiants.
