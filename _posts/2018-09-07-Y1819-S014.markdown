@@ -2,10 +2,12 @@
 layout: post
 title: "Email sécurisé - Une évaluation et étude utilisateur"
 date: 2018-09-07 00:54:22
-categories: [dispo, caspar,ihm]
+categories: [oqp, caspar,ihm]
 pid: Y1819-S014
 type: Engineering
 contact: Karima BOUDAOUD
+group: 17
+students: Adrien Reuter, Ahmed Adel Abdelmaksoud
 ---
        
 L’objectif  de ce projet est d’étudier les problèmes  d’utilisabilité rencontrés par les utilisateurs pour sécuriser leurs mails.
