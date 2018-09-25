@@ -2,10 +2,12 @@
 layout: post
 title: "Applying Software Composition to Agile Backlogs"
 date: 2018-09-11 09:12:30
-categories: [dispo, al]
+categories: [oqp, al]
 pid: Y1819-S048
 type: Engineering
 contact: Sébastien Mosser
+group: 14
+students: Florian Bourniquel, Enzo Dalla-Nora, David Sene
 ---
        
 Agile projects rely on Product Backlog Items (PBI), (e.g., stories), and iterations (e.g., sprints) associated to backlogs to drive project implementation. Thanks to recent results obtained  at Utrecht University with respect to natural language processing applied to user stories, we propose in this project to define a compositional model that will support the development team (e.g., product owner, developers) when interacting with backlogs and PBIs.
