@@ -2,10 +2,12 @@
 layout: post
 title: "Real-time 3D reconstruction and mapping on a Graphics Processing Unit (GPU) using a Kinect sensor for augmented reality applications"
 date: 2018-09-10 16:41:48
-categories: [dispo, sd]
+categories: [oqp, sd]
 pid: Y1819-S043
 type: Engineering
 contact: Andrew Comport
+group: 18
+students: Yang Zijiang, Xu huiyi
 ---
        
 Development of a real-time 3D visual mapping algorithm on a Nvidia GPU for augmented reality applications. This will be developed in OpenGL or Cuda languages. It will be necessary to stream  RGB-D images directly from a Kinect camera onto the GPU memory. The group will develop GPU functions to extract surface meshes from the captured 3D point cloud. 
