@@ -2,10 +2,12 @@
 layout: post
 title: "Développement d'une d'application de visualisation 3D de molécules pour Hololens"
 date: 2018-09-05 15:16:16
-categories: [dispo, sd,ihm,web]
+categories: [oqp, sd,ihm,web]
 pid: Y1819-S006
 type: Engineering
 contact: Frédéric Payan
+group: 12
+students: Manon CLUZEL, Xiaohan Huang, Maurgène GHEZAL
 ---
        
 Le but sera de développer une application pour Hololens (casque de réalité augmentée de Microsoft) permettant d'afficher des molécules chimiques en 3D  
