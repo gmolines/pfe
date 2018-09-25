@@ -2,7 +2,7 @@
 layout: post
 title: "Composing Code refactoring"
 date: 2018-09-11 10:19:42
-categories: [dispo, al]
+categories: [oqp, al]
 pid: Y1819-S054
 type: Engineering
 contact: Sébastien Mosser

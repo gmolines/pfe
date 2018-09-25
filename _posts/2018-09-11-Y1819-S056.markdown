@@ -2,7 +2,7 @@
 layout: post
 title: "Composition of machine learning algorithms in Weka"
 date: 2018-09-11 20:17:44
-categories: [dispo, al,sd]
+categories: [oqp, al,sd]
 pid: Y1819-S056
 type: Engineering
 contact: Sébastien Mosser
