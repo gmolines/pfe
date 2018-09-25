@@ -2,10 +2,12 @@
 layout: post
 title: "Knowledge Extraction for Software Engineering"
 date: 2018-09-09 17:32:58
-categories: [dispo, al,caspar,sd,web]
+categories: [oqp, al,caspar,sd,web]
 pid: Y1819-S026
 type: Engineering
 contact: Yves ROUDIER
+group: 15
+students: Asma SELLAMI, Salma BEN TARJEM
 ---
        
 This project aims at extracting knowledge about a piece of software (in source code or binary form) to further analyze the software properties and behavior. Your objective will be to merge diverse sources of knowledge, based on existing tools, so that you can further analyze that software using innovative approaches like machine learning. The goal of the analysis might be related to quality assessment, refactoring, security assessment, etc. depending on your knowledge and interests.
