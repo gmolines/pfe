@@ -2,10 +2,12 @@
 layout: post
 title: "Analyse de performances de méthodes de tracking pour la réalité augmentée : application au casque Hololens"
 date: 2018-09-06 16:54:42
-categories: [dispo, sd,web]
+categories: [oqp, sd,web]
 pid: Y1819-S009
 type: Engineering
 contact: Frédéric Payan
+group: 21
+students: Blanche Faivre, Alexandre Greau
 ---
        
 L'objectif est de répertorier plusieurs méthodes de "tracking" existantes qui peuvent être utilisées sur un casque de réalité augmentée Hololens, en particulier celles basées sur des mires, puis d’en tester certaines pour déterminer la plus intéressante en fonction du contexte de nos applications. 
