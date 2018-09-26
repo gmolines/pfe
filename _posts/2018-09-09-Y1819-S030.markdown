@@ -2,10 +2,12 @@
 layout: post
 title: "H4CK 4TT4CK!"
 date: 2018-09-09 21:00:43
-categories: [dispo, al,caspar,ihm]
+categories: [oqp, al,caspar,ihm]
 pid: Y1819-S030
 type: Engineering
 contact: Yves ROUDIER
+group: 19
+students: Ayoub Ider Aghbal, Zineb Bouchaala
 ---
        
 In this project, you will create a hacking workshop, and more precisely a gamified environment for your fellow students who study software and network security.
