@@ -2,10 +2,12 @@
 layout: post
 title: "Conception d'une solution d'aide à l'Orientation"
 date: 2018-09-07 13:30:09
-categories: [dispo, sd,ihm,web]
+categories: [oqp, sd,ihm,web]
 pid: Y1819-S017
 type: Engineering
 contact: Gaëtan Rey
+group: 22
+students: Fahim Bellili , Tarik Hamlat, Omar Belhrache
 ---
        
 L’idée de ce projet est de concevoir et développer une solution logicielle ayant pour but de prédire la réussite de futurs candidats et de conseiller les recruteurs sur les choix à faire. Cette solution intégrera des mécanismes d’apprentissages (qui ne seront pas à développer) s’appuyant sur un ensemble de données représentant des postulants au moment de leur candidature à une formation et les résultats de ces mêmes candidats obtenus l’année qui suit. L’apport principal des étudiants devra porter sur les choix architecturaux de la solution ainsi que sur l’ergonomie de son interface pour répondre au mieux aux usages des futurs recruteurs.
