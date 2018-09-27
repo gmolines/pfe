@@ -2,10 +2,12 @@
 layout: post
 title: "Make our Home Secure Again …"
 date: 2018-09-09 22:02:54
-categories: [dispo, caspar,iam]
+categories: [oqp, caspar,iam]
 pid: Y1819-S031
 type: Engineering
 contact: Yves ROUDIER
+group: 27
+students: Olivier Boulet, Thomas Gréaux, Jérémy Lara
 ---
        
 In this project you will investigate the state of the art of smart-home/building/campus technology and its (in)security. You are expected to survey commercial and academic standards and proposals in the field. You are also expected to collect attacks that have been published on off-the-shelf equipment. Finally you will be asked to assess the security and privacy of a few off-the-shelf equipment.
