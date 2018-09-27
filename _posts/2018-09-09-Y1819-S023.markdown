@@ -2,10 +2,12 @@
 layout: post
 title: "Vers la justification automatique de résultats d'expérimentation en Machine Learning"
 date: 2018-09-09 12:28:56
-categories: [dispo, al,sd,ihm]
+categories: [oqp, al,sd,ihm]
 pid: Y1819-S023
 type: Engineering
 contact: Mireille BLAY- Fornarino
+group: 24
+students:  Junior G.Fernandes, Habibou Sissoko, Aurélien SPINELLI 
 ---
        
 Finalités du PFE:  
