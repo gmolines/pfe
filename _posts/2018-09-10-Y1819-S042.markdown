@@ -2,10 +2,12 @@
 layout: post
 title: "Télé-enseignement et robot de téléprésence"
 date: 2018-09-10 16:05:44
-categories: [dispo, iam,ihm]
+categories: [oqp, iam,ihm]
 pid: Y1819-S042
 type: Engineering
 contact: Stéphane Lavirotte
+group: 28
+students: Aymen FATNASSI, Naceur Rayen SADDEM
 ---
        
 Dans le cadre du projet Export, financé par le service de Pédagogie Innovante, nous avons réalisé des développement embarqués et serveur nécessaires à l’expérimentation envisagée dans le cadre du projet (enseignement à distance dans le cadre de TD, TP à l’aide d’un robot de télé-présence). Des tests techniques de performance et des améliorations du système existant sont maintenant à réaliser, même si la solution actuelle est fonctionnelle. Une expérimentation utilisateur sera à conduire pour vérifier l’adéquation de la solution proposée avec les besoins identifiés. Les robots dont nous disposons pour les expérimentations sont des robots Double Robotics, dont un est localisé à Tunis pour les tests à distance.
