@@ -2,10 +2,12 @@
 layout: post
 title: "Gestionnaire de conflits dans l'IoT"
 date: 2018-09-10 15:40:50
-categories: [dispo, al,iam]
+categories: [oqp, al,iam]
 pid: Y1819-S041
 type: Engineering
 contact: Stéphane Lavirotte
+group: 25
+students: Amine Hajji, Thibaut Gonnin
 ---
        
 Pour exploiter pleinement le potentiel de l’IoT, il est essentiel de faciliter la création et l'exploitation de systèmes fiables. Ces systèmes fonctionnant dans un environnement changeant et souvent imprévisible, ils doivent s’adapter en permanence tout en garantissant fiabilité, qualité et expérience utilisateur. Si DevOps fournit des pratiques et outils, il n'existe pas de prise en compte complète de DevOps pour l’IoT. Pour disposer de systèmes fiables et dignes de confiance il faut prendre en compte les conflits qui peuvent survenir dans les actions destinées aux actionneurs. Ce PFE abordera l'étude des modèles pour gérer ces conflits et proposera des outils à intégrer dans l'environnement DevOps du projet européen ENACT. 
