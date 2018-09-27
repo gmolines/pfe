@@ -2,10 +2,12 @@
 layout: post
 title: "Evaluation d’algorithmes d’apprentissage pour une solution d’aide à l’orientation"
 date: 2018-09-07 14:03:30
-categories: [dispo, sd]
+categories: [oqp, sd]
 pid: Y1819-S018
 type: Engineering
 contact: Christel Dartigues-Pallez
+group: 26
+students: Romain Sumerot, Salah-Eddine Bariol-alaoui
 ---
        
 L’idée de ce projet est d’évaluer différents algorithmes d’apprentissage qui pourraient être utilisés dans une solution logicielle ayant pour but de prédire la réussite de futurs candidats et de conseiller les recruteurs sur les choix à faire. A partir de données représentant des postulants au moment de leur candidature à une formation et les résultats de ces mêmes candidats obtenus l’année qui suit, le but est de prétraiter ces données puis de tester différents algorithmes d’apprentissage pour évaluer les plus performants.
