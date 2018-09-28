@@ -6,8 +6,8 @@ categories: [oqp, ihm]
 pid: Y1819-S052
 type: Engineering
 contact: Anne-Marie Dery-Pinna
-group: 9
-students: Pierre BONNY, Gregory MERLET, Ken ROULAMELLAH
+group: 13
+students: Julien Lemaire, Collombier Josue
 ---
        
 Ce sujet porte sur les règles de conception et la jouabilité pour des jeux de plateau (boardgame) augmentés (CATG – computer-augmented tabletop games), généralement des adaptations de jeux existants, dans une configuration « CATG » : les joueurs sont autours d’une table interactive reconnaissant des objets tangibles, chacun dispose d’un dispositif personnel. 

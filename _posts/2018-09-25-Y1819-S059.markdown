@@ -6,8 +6,8 @@ categories: [oqp, ihm]
 pid: Y1819-S059
 type: Engineering
 contact: Anne-Marie Dery-Pinna
-group: 13
-students: Julien Lemaire, Collombier Josue
+group: 9
+students: Pierre BONNY, Gregory MERLET, Ken ROULAMELLAH
 ---
        
 Dans le cadre d’étude d’interactions collaboratives/compétitives colocalisées, , la théorie de la territorialité [3][1] pour les tables interactives est un support à la conception des jeux de plateau (boardgame) augmentés (CATG – computer-augmented tabletop games) [2]. Cette théorie définit 4 types de territoires : personnels (contrôlés par un joueur, mais qui peuvent être publiques), privée (contrôlés par un joueur et secrets), de groupe (pour tous les joueurs), de stockage (pour tous les joueurs). 
