@@ -2,10 +2,12 @@
 layout: post
 title: "Deep Reinforcement Learning for Solving Network Optimization Problems"
 date: 2018-09-09 19:37:22
-categories: [dispo, sd]
+categories: [oqp, sd]
 pid: Y1819-S028
 type: Engineering
 contact: Lucile Sassatelli
+group: 31
+students: Sami Bakla, Armand Lorenzo, Anne Legendre
 ---
        
 Methods of Reinforcement Learning (RL) for deep neural networks, also called Deep Reinforcement Learning, have recently obtained ground-breaking results at solving complex problems. Deep RL has been shown interesting to automatically learn heuristic algorithms to solve some classical NP-hard problems on graphs (such as the traveling salesman problem or the min covering set problem). The goal of the PFE is to investigate how to tackle classic yet more sophisticated network problems that require constraint satisfaction, which current Deep RL techniques cannot incorporate. The new constraint satisfaction technique for RL proposed in ICML 2017 will be incorporated into the existing code of Deep RL for our network problem. The so-learned heuristics will be compared with classical heuristics.
