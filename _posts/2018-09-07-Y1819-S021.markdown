@@ -2,10 +2,12 @@
 layout: post
 title: "Développement d'un Gestionnaire de COntexte"
 date: 2018-09-07 19:46:37
-categories: [dispo, al,iam]
+categories: [oqp, al,iam]
 pid: Y1819-S021
 type: Engineering
 contact: Gaëtan Rey
+group: 30
+students: Aghiles Dziri, Elliot Kauffmann, Matthieu Maxit
 ---
        
 S’inscrivant pleinement dans les domaines de l’IoT et des Cyber Physical System, les travaux de recherche, sur l’informatique ambiante et en particulier ceux sur l’adaptation au contexte, trouvent leur application dans le monde de la eSanté, des usines du futures (Factory 4.0) et bien d’autres domaines applicatifs. Dans le cadre du projet FUI Octopus en partenariat avec EDF, SCALIAN, le CEA, … le CNRS, via le groupe Rainbow de l’équipe SPARKS, propose une implémentation de son mécanisme d’adaptation au contexte. Le but de ce PFE sera de consolider (reconcevoir, redévelopper) le Gestionnaire de Contextes Multivues imaginé au sein du groupe Rainbow et d’illustrer celui-ci sur des exemples simples mais pertinents.
