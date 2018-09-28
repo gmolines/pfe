@@ -2,10 +2,12 @@
 layout: post
 title: "Utilisabilité et sécurité de l’authentification sur smartphones "
 date: 2018-09-06 23:24:58
-categories: [dispo, caspar,ihm]
+categories: [oqp, caspar,ihm]
 pid: Y1819-S011
 type: Engineering
 contact: Karima BOUDAOUD
+group: 29
+students: Loïc STEICHEN, Herrick WOLBER, Chloé BENSOUSSAN
 ---
        
 L’objectif du projet est d’améliorer l’implémentation de trois mécanismes d’authentification pour smartphones et de mener des tests utilisateurs pour tester les différentes variantes de ces mécanismes.
