@@ -2,10 +2,11 @@
 layout: post
 title: "Développement d’un middleware pour une plateforme d’apprentissage en ligne"
 date: 2018-09-10 10:15:42
-categories: [dispo, web]
+categories: [oqp, web]
 pid: Y1819-S032
 type: Engineering
 contact: Catherine FARON ZUCKER
+group: Aymen Baya
 ---
        
 Ce PFE s'inscrit dans le cadre du projet de recherche collaborative entre Inria et le société Educlever. L’objectif de ce PFE est de développer un middleware afin de permettre à la plateforme d’apprentissage en ligne développée par Educlever d’interroger un ensemble de service web permettant d’interroger un graphe de connaissances formalisé en RDF. 
