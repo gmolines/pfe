@@ -2,10 +2,12 @@
 layout: post
 title: "Gestion de la sécurité orientée utilisateur (User-centric)"
 date: 2018-09-06 22:51:31
-categories: [dispo, caspar]
+categories: [oqp, caspar]
 pid: Y1819-S010
 type: Engineering
 contact: KARIMA BOUDAOUD
+group: 36
+students: KHADIDJA HAMZA, Eric Herment, Jonathan Ritrovato Dylan 
 ---
        
 L’objectif  de ce projet est d’étudier les problèmes  rencontrés par les différents types d’utilisateurs (utilisateurs finaux, développeurs, administrateurs, …) lors de l’utilisation (pour les utilisateurs finaux) ou d’implémentation (pour les développeurs) de mécanismes de sécurité ou d’applications sécurisées  ou de protocoles de communications sécurité et 2) de recherche dans le domaine.
