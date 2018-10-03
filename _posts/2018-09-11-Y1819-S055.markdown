@@ -2,10 +2,12 @@
 layout: post
 title: "Outils pour annotations multi-artefact"
 date: 2018-09-11 12:28:39
-categories: [dispo, ihm]
+categories: [oqp, ihm]
 pid: Y1819-S055
 type: Engineering
 contact: Marco Winckler
+group: 38
+students: Alexandre Clement, Rudy Meersman, Ivan Picard Marchetto
 ---
        
 L’objectif de ce projet est de concevoir un outil permettant de créer et visualiser des annotations (ex. des références vers différents types de fichiers) crées sur les artéfacts utilisés pour concevoir des interfaces utilisateurs (ex. prototypes d’interfaces, scénarios, modèle de tâches). Par ailleurs, les références créées devront être visible dans les différents éditeurs des fichiers de références qui décrivent les artefacts. En cours, on veut un outil qui permet de retrouver facilement tous les annotations faites et à quelques documents elles font référence.
