@@ -6,7 +6,8 @@ categories: [oqp, web]
 pid: Y1819-S032
 type: Engineering
 contact: Catherine FARON ZUCKER
-group: Aymen Baya
+students: Aymen Baya
+group: 33
 ---
        
 Ce PFE s'inscrit dans le cadre du projet de recherche collaborative entre Inria et le société Educlever. L’objectif de ce PFE est de développer un middleware afin de permettre à la plateforme d’apprentissage en ligne développée par Educlever d’interroger un ensemble de service web permettant d’interroger un graphe de connaissances formalisé en RDF. 
