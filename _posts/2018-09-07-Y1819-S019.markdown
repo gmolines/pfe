@@ -7,7 +7,7 @@ pid: Y1819-S019
 type: Engineering
 contact: Marc Antonini
 group: 37
-students: Jean DURAND, Antoine MORVANT
+students: Jean DURAND, Antoine MORVANT, Michel Gonzaga dos Santos
 ---
        
 Storage of digital data is becoming challenging for the humanity due to the relatively short life span of storage devices. Servers, for instance, have to be replaced about every five years. An alternative approach may stem from the use of DNA, the support of heredity in living organisms. This comes from recent biotechnological developments allowing easy and affordable DNA writing (synthesis) and DNA reading (sequencing). Using DNA for storage is not obvious. One must tackle the problem of noise introduced during sequencing. I3S laboratory proposed recently some solutions based on Machine Learning for error correction. In that context, the goal of this PFE is to test the effectiveness of the different machine learning techniques and propose new approaches to tackle the existing problems.
