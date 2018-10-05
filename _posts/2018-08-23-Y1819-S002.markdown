@@ -7,7 +7,7 @@ pid: Y1819-S002
 type: Engineering
 contact: Hélène Collavizza
 group: 35
-students: Mohamed Chennouf
+students: Mohamed Chennouf, Alexandre Clément
 ---
        
 L’objectif est de développer un Totem (au sens emblème d'un groupe de personnes) pour rassembler, diffuser et valoriser les outils de modélisation de réseaux de régulation génétique de l’équipe Bio informatique Formelle de l’I3S (d’où le titre TotemBioNet). La finalité est une plate-forme de diffusion et de démonstration, mais le défi est d'en définir l’architecture: identifier les briques logicielles communes aux différents outils, en refactorer certains, fournir une API d’appels aux outils externes (solveur de contraintes, outil de model-checking), et si besoin, créer de nouvelles briques logicielles (algorithmes de parcours de graphe par exemple). Ce projet est en priorité AL, mais s’il se fait à 3 élèves (2 AL + 1 IHM), une composante IHM innovante pourra y être intégrée.
