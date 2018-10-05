@@ -1,0 +1,48 @@
+---
+layout: post
+title: "Développement d'une filtre contextualisé dans le cadre de cyberphysical System et de l'IoT  - variante"
+date: 2018-10-05 18:12:53
+categories: [dispo, iam]
+pid: Y1819-S060
+type: Engineering
+contact: Jean-Yves Tigli 
+---
+       
+S’inscrivant pleinement dans les domaines de l’IoT et des Cyber Physical System, les travaux de recherche du groupe Rainbow de l’équipe SPARKS sur l’informatique ambiante et en particulier ceux sur l’adaptation au contexte, trouvent leur application dans le monde de la eSanté, des usines du futures (Factory 4.0) et bien d’autres domaines applicatifs. Dans le cadre du projet FUI Octopus en partenariat avec EDF, SCALIAN, le CEA, … Le laboratoire I3S, propose de développer un mécanisme de sélection de services contextualisée permettant d’améliorer la prise en compte de l’environnement des différents outils d’adaptation.
+Ce sujet s’appuiera sur un modèle vectoriel du contexte.
+
+Les applications logicielles, maintenant ambiantes, nécessitent toujours plus de capacités d’adaptation face à la diversité des situations (multi-dispositifs, multi-applications, multi-utilisateurs, dans un environnement physique variable). Ce constat est notamment à l’origine de coûts additionnels importants pour le portage des applications dans les domaines des applications de l’informatique ambiante et contextuelle. Cela ne concerne pourtant que le problème de l’adaptation statique des applications à des contextes pré-identifiés lors des phases de design.
+Pour répondre à cette nouvelle problématique, l’I3S est à l’origine d’un modèle d’architecture orientée services pour l’Informatique Ambiante appelé SLCA (Service Ligthweight Component Architecture).
+Une des difficultés majeures pour la prise en compte dynamique du contexte est alors d’identifier à chaque instant et selon le contexte les services disponibles   et pertinents qui peuvent participer à la composition
+Pour cela il nous faut mettre en place des mécanismes de filtrage pour la sélection des services contextuellement pertinents dans les services a priori disponibles.
+Ces filtres s’appuieront sur une modélisation du contexte basées sur :
+•	L’ensemble des mesures contextuelles que l’on collecter au travers des capteurs sous forme d’un vecteur de valeurs. Ce vecteur correspondra alors à un point P dans l’espace vectoriel de l’ensemble des mesures contextuelles possibles. 
+•	Des zones contextuelles [1]. Les zones contextuelles sont définies grâce à la notion de centre, voisinage et de métrique. Ainsi une zone contextuelle de centre P est définie par l’ensemble des F situés à une distance de P inférieure à D : Z(P) = {F/d(F, P) ≤ D}.
+
+#### Compétences Requises
+Des compétences de développement en C# seront un plus pour le projet.
+
+
+
+     
+
+#### Besoins Clients
+Les étudiants devront dans un premier temps analyser la solution actuelle, proposer des types de filtrage possible (allow, deny, sémantique, contextuel…) de manière à concevoir l’architecture de filtrage la plus adapté.
+
+#### Résultats Attendus
+Une implémentation des mécanismes de filtrage qui devra être connectée à la plateforme WComp 
+Une interface (API) permettant de communiquer, configurer, … les mécanismes de filtrage
+Des use cases et un démonstrateur illustrant le travail effectué
+
+#### Références
+
+
+
+#### Informations Administratives
+  * Contact : Jean-Yves Tigli  <Jean-Yves.TIGLI@unice.fr>
+  * Identifiant sujet : `Y1819-S060`
+  * Effectif : entre 2 et 3 étudiant(e)s
+  * Parcours Recommandés : IAM
+  * Équipe: SPARKS
+
+     
