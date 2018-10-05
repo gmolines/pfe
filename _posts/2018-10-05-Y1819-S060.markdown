@@ -2,10 +2,12 @@
 layout: post
 title: "Développement d'une filtre contextualisé dans le cadre de cyberphysical System et de l'IoT  - variante"
 date: 2018-10-05 18:12:53
-categories: [dispo, iam]
+categories: [oqp, iam]
 pid: Y1819-S060
 type: Engineering
 contact: Jean-Yves Tigli 
+group: 34
+students: Ines Bouarrouh, Thibault Bondon
 ---
        
 S’inscrivant pleinement dans les domaines de l’IoT et des Cyber Physical System, les travaux de recherche du groupe Rainbow de l’équipe SPARKS sur l’informatique ambiante et en particulier ceux sur l’adaptation au contexte, trouvent leur application dans le monde de la eSanté, des usines du futures (Factory 4.0) et bien d’autres domaines applicatifs. Dans le cadre du projet FUI Octopus en partenariat avec EDF, SCALIAN, le CEA, … Le laboratoire I3S, propose de développer un mécanisme de sélection de services contextualisée permettant d’améliorer la prise en compte de l’environnement des différents outils d’adaptation.
