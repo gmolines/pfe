@@ -6,7 +6,7 @@ categories: [oqp, sd,ihm,web]
 pid: Y1819-S017
 type: Engineering
 contact: Gaëtan Rey
-group: 22
+group: 23
 students: Fahim Bellili , Tarik Hamlat, Omar Belhrache
 ---
        
