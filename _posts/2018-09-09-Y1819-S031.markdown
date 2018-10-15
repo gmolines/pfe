@@ -18,7 +18,7 @@ In this project, you will first survey the attacks that have been performed in t
 
 Further to this state of the art, you will foolproof several existing off-the-shelf commercial smart-home appliances> We might for instance provide you with simple connected appliances like SONOFF outlets, connected lights, IP cameras, or JEEDOM hub. You will then have to understand the architecture of the solution in which those appliances are deployed and to decide on your security assessment (which tests? Software or Hardware? Selecting appropriate tools, etc.). You will finally provide us with an assessment report on at least one of those appliances. Other equipment - for instance originating from research projects - might be evaluated depending on your investigations and its availability in the lab.
 
-This project will be co-supervised by Jean-Yves Tigli.
+This project will be co-supervised by Jean-Yves Tigli and Karima Boudaoud.
 
 #### Compétences Requises
 You are expected to have some expertise about software, system and/or network security, as well as some knowledge or understanding of smart-home/building/campus technology. Groups combining students from the CASPAR and IAM tracks will be preferred due to their expertise.

@@ -30,6 +30,8 @@ You are encouraged to reuse as much code, tools, and ideas from similar contests
 
 One problem with the gamification will be the need to balance the different rewards of the participants in order to make sure that the rewards gained from solving puzzles are balanced with the rewards gained from managing the challenges (creation, validation). You may possibly consider two distinct scores.
 
+This project is co-supervised with Karima Boudaoud.
+
 #### Compétences Requises
 You are expected to have knowledge and interest in both software security (mandatory) and software engineering (if possible). Knowledge in man-machine interface would be a plus. Groups with diverse backgrounds are encouraged.
 
