@@ -7,7 +7,7 @@ pid: Y1819-S013
 type: Engineering
 contact: Karima BOUDAOUD
 group: 22
-students: Marion Campora, Yonathan Bleyfuesz
+students: Marion Campora, Yonathan Bleyfuesz, Elie Baroghel
 ---
        
 L’objectif du projet est : 1) d’étudier des plateformes de Pentest IoT existantes; 2) de créer des packages de Pentest prêts à l’emploi et 3) de conduire des test de sécurité (Pentest) sur des objets connectés existants afin d’identifier les failles et vulnérabilité de sécurité.
