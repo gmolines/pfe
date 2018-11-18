@@ -33,6 +33,7 @@ Vous livrez pour le
   - les scénarios d'utilisation que vous allez couvrir
   - votre plan d'attaque du sujet, c'est à dire qu'allez vous faire pendant la période à temps plein qui débute le 19 novembre.  
 Ce livrable est à envoyer par mail à votre encadrant, avec copie à <guilhem.molines@unice.fr>, avant le 2 novembre. Le sujet de votre email doit commencer par l'id du projet (liste complète [ici](http://gmolines.github.io/pfe/pids/)).
+Mise à jour: vous pouvez trouver le retour sur ce livrable dans [cette page](https://github.com/gmolines/pfe/blob/master/deliverables.md)
 
 ### Période à temps plein
 La période commence par un retour de votre encadrant sur votre SoW. Il vous est demandé de découper votre travail sous forme de 4 itérations d'une semaine, le but étant qu'à la fin de chaque semaine, vous ayez quelque chose à montrer. Votre travail sera évalué non seulement sur le contenu produit, mais aussi sur la manière que vous avez de produire ce contenu.
