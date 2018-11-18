@@ -37,15 +37,16 @@ Ce livrable est à envoyer par mail à votre encadrant, avec copie à <guilhem.m
 ### Période à temps plein
 La période commence par un retour de votre encadrant sur votre SoW. Il vous est demandé de découper votre travail sous forme de 4 itérations d'une semaine, le but étant qu'à la fin de chaque semaine, vous ayez quelque chose à montrer. Votre travail sera évalué non seulement sur le contenu produit, mais aussi sur la manière que vous avez de produire ce contenu.
 Un groupe qui construit un composant par semaine, et intègre les 3 composants la 4ième semaine en espérant que tout va marcher par magie sera moins bien évalué qu'un groupe qui construit une version primitive des 3 composants et les intègre la première semaine, puis les améliore semaine après semaine pour arriver au résultat final.
-D'autre part, en fin de dernière semaine, vous aurez à passer une soutenance démontrant le travail réalisé devant un jury. Pensez donc à la préparer sans attendre la dernière minute.
 
 ### Deuxième bimestre
 
-Une fois la période à temps plein terminée, il vous restera deux livrables à produire au deuxième bimestre, en mettant à profit la demi-journée par semaine libérée à cette effet.
+Une fois la période à temps plein terminée, il vous restera trois livrables à produire au deuxième bimestre, en mettant à profit la demi-journée par semaine libérée à cette effet.
 
 Votre premier livrable sera un rapport décrivant le travail réalisé, les difficultés rencontrées et comment elles ont été résolues. Vous aurez quatre semaines pour le rédiger, ce qui nous donne une date de rendu au 25 janvier 2019.
 
 Votre deuxième livrable sera une vidéo de 3 min max expliquant la problématique et démontrant votre solution. Vous aurez deux semaines pour la réaliser, soit une date de rendu au 8 février.
+
+Enfin en troisième livrable, le 28 février, vous aurez à passer une soutenance démontrant le travail réalisé devant un jury. Pensez donc à la préparer sans attendre la dernière minute.
 
 
 ## Evaluation
@@ -53,10 +54,10 @@ Votre deuxième livrable sera une vidéo de 3 min max expliquant la problématiq
 Le PFE sera globalement évalué par les notes suivantes:
 
 - DoW, le document que vous avez rendu pour le 2 novembre (coeff 20%)
-- Soutenance de fin de période à temps plein (coeff 30%)
 - Note de l'encadrant globale sur votre manière de travailler pendant la période à temps et ce que vous avez réussi à livrer (15%)
 - Rapport (25%)
 - Vidéo (10%)
+- Soutenance de fin février (coeff 30%)
 
 ## Calendrier
 Afin de vous aider à planifier au mieux, j’ai mentionné les dates clées dans un calendrier, que je partage ici. Vous pouvez le rajouter dans votre téléphone intelligent:
