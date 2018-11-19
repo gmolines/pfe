@@ -17,7 +17,11 @@ Sent directly to students by email.
 Le rapport est bien structuré et facile à lire. Il se trouve à un bon niveau d'abstraction et montre un investissement conséquent. J'apprécie. On peut cependant regretter le manque de détails dans les scénarios concernant la gestion du PID sur la carte Arduino (quid de la phase de calibration ? comment les tests seront réalisés en l'absence d'un four réel ?) Aussi, l'environnement logiciel en termes de librairies et framework n'est pas défini alors qu'il me semble que vous avez des idées en tête. La contrainte du multi plateformes côté appli smartphone sera t'elle prise en compte pour le prototypage ou préférez vous allez directement sur un développement natif pour éviter certains aléas du multi plateformes ? Ces questions restent mineures mais semblent importantes pour la bonne marche de la suite du projet. bonne continuation.
 
 ### Group 5
-[no feedback received yet]
+Pas grand chose à dire, ça correspond bien à ce dont nous avions discuté avant sa rédaction. Vous êtes déjà tellement bien rentrés dans le sujet que je n'ai aucune inquiétude pour l'avancée de celui-ci.
+
+Le planning est clair, les objectifs clairement posés.
+
+Ma seule préoccupation c'est sur la répartition des tâches entre vous trois. Je pense qu'il faudra discuter au début de la semaine libre pour la rendre la plus efficace possible en vous répartissant bien les rôles.
 
 ### Group 6
 Romain et Théo ont bien compris la problématique et les enjeux du projet. Les solutions techniques envisagées sont présentées de façon claire pour permettre au novice de saisir en quoi l’option choisie répond aux exigences du projet.
