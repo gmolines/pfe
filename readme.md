@@ -49,6 +49,21 @@ Votre deuxième livrable sera une vidéo de 3 min max expliquant la problématiq
 
 Enfin en troisième livrable, le 28 février, vous aurez à passer une soutenance démontrant le travail réalisé devant un jury. Pensez donc à la préparer sans attendre la dernière minute.
 
+## Soutenances
+
+Le 28 février, vous aurez à passer une soutenance devant un jury, dont vous devez considérer qu'a priori, il ne connait rien de votre sujet. A vous de présenter :
+
+- la problématique que vous adressez dans votre PFE
+- les solutions que vous avez envisagées, qu'elles se soient révélées pertinentes ou pas - et surtout pourquoi
+- parmi ces solutions, celles que vous avez pu implémenter
+- les difficultés techniques que vous avez rencontrées, et comment vous les avez résolues
+- comment le travail a été réparti dans l'équipe et dans le temps
+- une démo est souvent bienvenue
+
+Pour celà, vous aurez très exactement 27 minutes. 15 de présentation, 12 de réponses aux questions du jury, et 3 min pour changer de groupe, brancher le rétroprojecteur et être prêts. Le respect de l'horaire et des temps de passage est absolument impératif, ne serait-ce que par courtoisie pour le groupe suivant et pour le jury.
+
+Le planning de passage sera publié bientôt.
+
 
 ## Evaluation
 
